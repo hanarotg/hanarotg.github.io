@@ -17,24 +17,28 @@ category:
 ## 컴포넌트 생성
 리소스를 로딩이 모두 끝나기 전에 보여질 컴포넌트입니다.
 <br />
-~~~ jst
-const LoadingView = ((you)) => {
-	<SafeAreaView>
-		<ActivityIndicator />
-	</SafeAreaView>
+~~~ jsx
+const LoadingView = () => {
+	return (
+      <SafeAreaView style={{flex: 1, backgroundColor: '#f0f0f0', justifyContent: 'center'}}>
+          <ActivityIndicator />
+      </SafeAreaView>
+    )
 }
 ~~~
 <br />
-```javascript
+~~~ javascript
 const LoadingView = () => {
+  return (
 	<SafeAreaView style={{flex: 1, backgroundColor: '#f0f0f0', justifyContent: 'center'}}>
 		<ActivityIndicator />
 	</SafeAreaView>
+	)
 }
-```
+~~~
 
 <br />
-```js
+~~~ jsx
 const [isPageLoading, setPageLoading] = useState(true);
 
 useState(() => {
@@ -47,7 +51,7 @@ useState(() => {
 if(isPageLoading == true){
 	return <LoadingView />
 }
-```
+~~~
 
 
 업데이트 예정
