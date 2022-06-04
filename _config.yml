@@ -22,7 +22,7 @@ keywords: [Your keywords]
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hanarotg.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 domain: "hanarotg.github.io" # the domain name for your site, e.g. example.com
-language: en
+language: ko
 # Supported languages list:
 # en: English
 # de: Deutsche (German)
