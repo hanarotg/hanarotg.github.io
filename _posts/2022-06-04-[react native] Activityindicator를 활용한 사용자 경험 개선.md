@@ -17,7 +17,7 @@ category:
 ## 컴포넌트 생성
 리소스를 로딩이 모두 끝나기 전에 보여질 컴포넌트입니다.
 <br />
-~~~JSX
+~~~.jsx
 const LoadingView = () => {
 	<SafeAreaView style={{flex: 1, backgroundColor: '#f0f0f0', justifyContent: 'center'}}>
 		<ActivityIndicator />
