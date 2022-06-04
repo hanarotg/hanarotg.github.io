@@ -4,10 +4,22 @@ category:
   - reactnative
 ---
 
-React Native 를 사용해 프로젝트를 개발하다 보면 눈에 가싯거리입니다. ActivityIndicator를 사용하여 사용자 경험을 개선해 보겠습니다.
+앱 개발 중 리소스 로딩에 시간이 걸리는 페이지가 완전히 로드되기 전까지의 디자인은 사용자 입장에서 매우 불편합니다. 앱이 미완성되었다는 인식을 심어줄 수 있습니다.
+
+따라서 React Native 에서 제공하는 기본 요소인 ActivityIndicator를 사용하여 사용자 경험을 개선해 보겠습니다.
+
+* 참고 : [ActivityIndicator - React Native](https://reactnative.dev/docs/activityindicator)
+
+### 구현 전
+
+### 구현 후
 
 
-```JSX
+### 컴포넌트 생성
+
+리소스를 로딩이 모두 끝나기 전에 보여질 컴포넌트입니다.
+
+~~~
 const LoadingView = () => {
 	<SafeAreaView style={{ flex: 1, backgroundColor: '#f0f0f0', justifyContent: 'center'}}>
 		<ActivityIndicator />
@@ -26,7 +38,7 @@ useState(() => {
 if(isPageLoading == true){
 	return <LoadingView />
 }
-```
+~~~
 
 
 업데이트 예정
