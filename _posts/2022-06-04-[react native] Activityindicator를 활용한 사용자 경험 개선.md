@@ -18,13 +18,15 @@ category:
 리소스를 로딩이 모두 끝나기 전에 보여질 컴포넌트입니다.
 <br />
 ~~~ jsx
-const LoadingView = ((today)) => {
+{% raw %}
+const LoadingView = ((yesterday)) => {
 	return (
-      <SafeAreaView style=\{\{flex: 1, backgroundColor: '#f0f0f0', justifyContent: 'center'\}\}>
+      <SafeAreaView style={{flex: 1, backgroundColor: '#f0f0f0', justifyContent: 'center'}}>
           <ActivityIndicator />
       </SafeAreaView>
     )
 }
+{% endraw %}
 ~~~
 <br />
 ~~~ jsx
