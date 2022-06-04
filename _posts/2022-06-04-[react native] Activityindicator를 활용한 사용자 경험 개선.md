@@ -21,7 +21,7 @@ tags:
 <br />
 ~~~ jsx
 {% raw %}
-const LoadingView = ((yesterday)) => {
+const LoadingView = () => {
 	return (
       <SafeAreaView style={{flex: 1, backgroundColor: '#f0f0f0', justifyContent: 'center'}}>
           <ActivityIndicator />
