@@ -1,15 +1,16 @@
 @charset "utf-8";
 
 .highlight > pre, pre.highlight {
+  padding: 10px;
   line-height: 18px;
   overflow-x: auto;
   font-size: 14px;
-  font-family: Courier New, Courier, monospace !important;
   background-color: #f0f0f0;
 }
 
 .highlighter-rouge {
   font-size: 14px;
+  font-family: Courier New, Courier, monospace;
   padding: 5px;
   background-color: #f0f0f0;
 }
