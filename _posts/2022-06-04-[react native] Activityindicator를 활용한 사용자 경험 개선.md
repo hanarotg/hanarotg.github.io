@@ -2,6 +2,8 @@
 published: true
 category:
   - reactnative
+tags:
+  - activityindicator
 ---
 
 ## 개요
@@ -29,18 +31,10 @@ const LoadingView = ((yesterday)) => {
 {% endraw %}
 ~~~
 <br />
-~~~ jsx
-const LoadingView = () => {
-  return (
-	<SafeAreaView style={{flex: 1, backgroundColor: '#f0f0f0', justifyContent: 'center'}}>
-		<ActivityIndicator />
-	</SafeAreaView>
-	)
-}
-~~~
-
+로딩이 완료되면 LoadingView 컴포넌트를 보이지 않게 하기 위해 useState와 useEffect를 사용합니다.
 <br />
 ~~~ jsx
+{% raw %}
 const [isPageLoading, setPageLoading] = useState(true);
 
 useState(() => {
@@ -53,7 +47,10 @@ useState(() => {
 if(isPageLoading == true){
 	return <LoadingView />
 }
+{% endraw %}
 ~~~
+<br/>
+## 결과
 
 
 업데이트 예정
