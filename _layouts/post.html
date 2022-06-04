@@ -11,10 +11,10 @@ published: true
     <span>{{ site.name }}</span>
   </div>
   <div class="post-date">
-    <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+    <svg xmlns="http://www.w3.org/2000/svg">
  	 <circle cx="20" cy="20" r="10" fill="#6495ED"/>
 	</svg>
-    Lee Taegyeong | 
+    by Lee Taegyeong | 
       {{ site.data.lang[site.language].post_write_date }}{{ page.date | date: "%Y-%m-%d" }}{% if page.last_modified_at %}, {{ site.data.lang[site.language].post_update_date }}{{ page.last_modified_at | date: "%Y-%m-%d" }}{% endif %}.
    </div>
   <hr />
