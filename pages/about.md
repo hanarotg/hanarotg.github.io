@@ -2,11 +2,21 @@
 layout: page
 title: About
 permalink: /about/
+published: true
 ---
 
-Jekyll Paper is a simple Jekyll theme, and it is aim to helping you to create your own blog by the easiest way.
+안녕하세요, 이태경입니다.
+`SpringBoot`와 `Nodejs` 기반 고성능 백엔드 개발, `클라우드 컴퓨팅`에 관심이 많은 새내기 개발자입니다. 
 
-You can find more information in [Jekyll Paper][jekyll-paper]. If you have any questions or suggestions, you can contact me in [Jekyll Paper Issues][jekyll-paper-issues] or send email to [me](mailto:i@ghosind.com). Wish you enjoying your blog life!
+- [Web page](https://hanarotg.github.io)
+- [Github](https://github.com/hanarotg)
+- [Email](mailto:hanarotg@naver.com)
 
-[jekyll-paper]: https://github.com/ghosind/Jekyll-Paper
-[jekyll-paper-issues]: https://github.com/ghosind/Jekyll-Paper/issues
+Projects
+- 스타일히어로
+- 체크드
+- spell.team
+- s3cm.js
+- 허그링크
+
+Resume
