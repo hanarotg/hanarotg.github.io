@@ -61,7 +61,7 @@ jekyll-archives:
     category: /category/:name/
     tag: /tag/:name/
 
-category: [nodejs, springboot, reactnative, reactjs, pl, story, design]
+# nodejs, springboot, reactnative, reactjs, pl, story, design
 
 # Build settings
 markdown: kramdown
