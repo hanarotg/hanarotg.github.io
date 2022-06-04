@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 React Native 를 사용해 프로젝트를 개발하다 보면 눈에 가싯거리입니다. ActivityIndicator를 사용하여 사용자 경험을 개선해 보겠습니다.
 
