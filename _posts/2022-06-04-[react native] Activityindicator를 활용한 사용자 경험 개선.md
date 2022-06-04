@@ -19,7 +19,9 @@ category:
 <br />
 ```jsx
 const LoadingView = () => {
-	<SafeAreaView style=``{{flex: 1, backgroundColor: '#f0f0f0', justifyContent: 'center'}}>
+	<SafeAreaView style=
+    	{{flex: 1, backgroundColor: '#f0f0f0', justifyContent: 'center'}}
+        >
 		<ActivityIndicator />
 	</SafeAreaView>
 }
