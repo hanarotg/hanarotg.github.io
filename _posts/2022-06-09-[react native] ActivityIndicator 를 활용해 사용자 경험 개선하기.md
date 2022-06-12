@@ -20,10 +20,13 @@ tag:
 - 참고 : [ActivityIndicator - React Native](https://reactnative.dev/docs/activityindicator)
 
 <br />
+
 ## 컴포넌트 생성
+
 리소스를 로딩이 모두 끝나기 전에 보여질 컴포넌트입니다.
 <br />
-~~~ jsx
+
+```jsx
 {% raw %}
 const LoadingView = () => {
 	return (
@@ -33,11 +36,13 @@ const LoadingView = () => {
     )
 }
 {% endraw %}
-~~~
+```
+
 <br />
 로딩이 완료되면 LoadingView 컴포넌트를 보이지 않게 하기 위해 useState와 useEffect를 사용합니다.
 <br />
-~~~ jsx
+
+```jsx
 {% raw %}
 const [isPageLoading, setPageLoading] = useState(true);
 
@@ -52,12 +57,10 @@ if(isPageLoading == true){
 return <LoadingView />
 }
 {% endraw %}
-
 ```
 
 <br/>
+
 ## 결과
 
-
 업데이트 예정입니다.
-```
