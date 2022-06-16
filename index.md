@@ -4,6 +4,8 @@ layout: default
 
 > 안녕하세요 이태경입니다. `nodejs` 와 `springBoot`를 활용한 고성능 백엔드 서비스 개발, `클라우드 엔지니어링`에 관심이 많은 새내기 개발자입니다.
 
+[기술 블로그](https://hanarotg.blogspot.com/)
+
 - 체크드
 - spell.team
 - 스타일히어로
