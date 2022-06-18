@@ -40,7 +40,7 @@ const LoadingView = () => {
 
 <br />
 로딩이 완료되면 LoadingView 컴포넌트를 보이지 않게 하기 위해 useState와 useEffect를 사용합니다.
-<br />
+<br />ㅋ
 
 ```jsx
 {% raw %}
