@@ -3,8 +3,6 @@ layout: post
 category: nodejs
 ---
 
-> nodejs fs 라이브러리를 활용하여 데이터를 내 입맛에 맞게 바꾸는 과정을 묘사합니다.
-
 ## 개요
 
 게임 리그 오브 레전드 API를 사용해보면서 불편함 점이 여럿 있었습니다. 그중 하나가 진행중인 인게임 정보를 가져오는 [SPECTATOR-V4 api](https://developer.riotgames.com/apis#spectator-v4/GET_getCurrentGameInfoBySummoner) 입니다.
