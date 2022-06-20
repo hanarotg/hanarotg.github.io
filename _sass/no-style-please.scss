@@ -41,7 +41,7 @@ body {
 }
 
 .post-meta {
-  text-align: right;
+  color: #979a9b;
 }
 
 h1 {
@@ -65,7 +65,7 @@ p {
 }
 
 a {
-  color: #9b9a97;
+  color: #529cca;
 }
 
 li {
@@ -80,18 +80,6 @@ li {
   max-width: 640px;
   margin: 0 auto;
   padding: 4rem 2rem;
-}
-
-hr {
-  text-align: center;
-  border: 0;
-
-  &:before {
-    content: "/////";
-  }
-  &:after {
-    content: attr(data-content) "/////";
-  }
 }
 
 table {
@@ -253,7 +241,6 @@ div.highlighter-rouge code {
 }
 
 blockquote {
-  font-style: italic;
   border-radius: 1rem;
   background-color: #ebeced;
   padding: 1rem;

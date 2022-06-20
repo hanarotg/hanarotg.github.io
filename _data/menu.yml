@@ -2,18 +2,16 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: info
+  - title: 요약
     entries:
-      - title: a (nearly) no-CSS, fast, minimalist Jekyll theme.
-      - title: github repo
-        url: https://github.com/riggraz/no-style-please
-      - title: "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
+      - title: 클라우드 엔지니어링과 node 및 spring을 활용한 고성능 백엔드 시스템 설계에 관심이 많은 새내기 개발자입니다.
+      - title: "<a href='https://github.com/hanarotg'>github</a> and <a href='mailto:hanarotg@naver.com'>email</a>"
 
-  - title: all posts
+  - title: 작성 글
     post_list:
       limit: 5
       show_more: true
-      show_more_text: See archive...
+      show_more_text: 작성글 더보기...
       show_more_url: archive.html
 
   - title: posts by category
@@ -25,7 +23,7 @@ entries:
 
   - title: rss
     url: feed.xml
-  
+
   - title: another list
     entries:
       - title: with subitems
@@ -33,6 +31,3 @@ entries:
           - title: with subsubitems
           - title: example page
             url: about
-  - title: PRO TIP
-    entries:
-      - title: to edit this menu, edit _data/menu.yml file

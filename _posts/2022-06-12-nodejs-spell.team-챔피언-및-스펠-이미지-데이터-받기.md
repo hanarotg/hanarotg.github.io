@@ -3,7 +3,7 @@ layout: post
 category: nodejs
 ---
 
-| nodejs fs 라이브러리를 활용하여 데이터를 내 입맛에 맞게 바꾸는 과정을 묘사합니다.
+> nodejs fs 라이브러리를 활용하여 데이터를 내 입맛에 맞게 바꾸는 과정을 묘사합니다.
 
 ## 개요
 
