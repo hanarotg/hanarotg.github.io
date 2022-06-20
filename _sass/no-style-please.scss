@@ -44,8 +44,8 @@ body {
   color: #979a9b;
 }
 
-h1 {
-  font-weight: bold;
+.post-title {
+  font-size: 2rem;
 }
 
 h2,
@@ -65,7 +65,7 @@ p {
 }
 
 a {
-  color: #529cca;
+  color: #1b64da;
 }
 
 li {
@@ -97,7 +97,7 @@ td {
 code {
   padding: 0.2rem;
   background: #ebeced;
-  border-radius: 0.2rem;
+  border-radius: 0.5rem;
 }
 
 div.highlighter-rouge code {
@@ -241,10 +241,10 @@ div.highlighter-rouge code {
 }
 
 blockquote {
-  width: 100%;
+  margin: 0;
   border-radius: 1rem;
   background-color: #ebeced;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 img {
