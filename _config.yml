@@ -1,10 +1,10 @@
-title: no style # name of the site
-author: Riccardo Graziosi # name of site's author
-email: riccardo.graziosi97@gmail.com # email of site's author
-url: https://riggraz.dev # root address of the site
-baseurl: "/no-style-please" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
+title: Lee Taegyeong # name of the site
+author: Lee Taegyeong # name of site's author
+email: hanarotg@naver.com # email of site's author
+url: https://hanarotg.github.io # root address of the site
+baseurl: "/" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
-  A (nearly) no-CSS, fast, minimalist Jekyll theme.
+  안녕하세요 이태경입니다.
 
 permalink: /:slug.html
 
