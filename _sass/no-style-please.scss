@@ -44,6 +44,10 @@ body {
   text-align: right;
 }
 
+h1 {
+  font-weight: bold;
+}
+
 h2,
 h3,
 h4,
@@ -58,6 +62,10 @@ hr {
 
 p {
   margin: 1rem 0;
+}
+
+a {
+  color: #9b9a97;
 }
 
 li {
@@ -99,9 +107,9 @@ td {
 }
 
 code {
-  padding: 0.5rem;
-  background: #fbf3db;
-  border-radius: 0.5rem;
+  padding: 0.2rem;
+  background: #ebeced;
+  border-radius: 0.2rem;
 }
 
 div.highlighter-rouge code {
@@ -246,7 +254,8 @@ div.highlighter-rouge code {
 
 blockquote {
   font-style: italic;
-  border: thin solid black;
+  border-radius: 1rem;
+  background-color: #ebeced;
   padding: 1rem;
 
   p {
