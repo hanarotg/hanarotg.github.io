@@ -4,7 +4,7 @@
 entries:
   - title: 소개
     entries:
-      - title: "클라우드 엔지니어링과 <code>node</code> 및 <code>spring<code>을 활용한 고성능 백엔드 시스템 설계에 관심이 많은 새내기 개발자입니다."
+      - title: "클라우드 엔지니어링과 <code>node</code> 및 <code>spring</code>을 활용한 고성능 백엔드 시스템 설계에 관심이 많은 새내기 개발자입니다."
       - title: "<a href='https://github.com/hanarotg'>깃허브</a>와 <a href='mailto:hanarotg@naver.com'>이메일로</a> 저를 찾으실 수 있습니다."
 
   - title: 작성 글
@@ -20,11 +20,13 @@ entries:
       show_more: true
       show_more_text: See more posts...
       show_more_url: example2-archive.html
-    post_list:
-      category: checked
-      show_more: true
-      show_more_text: See more posts...
-      show_more_url: example2-archive.html
+
+  - title: 프로젝트
+    entries:
+      - title: "CHECKED <span class="badge text-bg-success">운영중</span>"
+      - title: "SPELL.TEAM <span class="badge text-bg-warning">준비중</span>" 
+      - title: "STYLEHERO <span class="badge text-bg-secondary">서비스 종료</span>"
+      - title: "HUGG.KR <span class="badge text-bg-secondary">서비스 종료</span>"
 
   - title: rss
     url: feed.xml
