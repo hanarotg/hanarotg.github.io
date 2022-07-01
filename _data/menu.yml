@@ -26,11 +26,5 @@ entries:
       show_more_text: See more posts...
       show_more_url: example2-archive.html
 
-  - title: 프로젝트
-    entries:
-      - title: "CHECKED <span class="badge text-bg-success">운영중</span>"
-      - title: "SPELL.TEAM <span class="badge text-bg-warning">준비중</span>" 
-      - title: "HUGG.KR <span class="badge text-bg-secondary">서비스 종료</span>"
-
   - title: rss
     url: feed.xml
