@@ -27,8 +27,9 @@
       body {
         font-family: "Noto Sans KR", sans-serif;
       }
+
       h1 {
-        font-weight: 900;
+        font-size: 3rem;
       }
 
       #footer {
@@ -42,9 +43,6 @@
       }
 
       @media (max-width: 768px) {
-        #background {
-          background-position: right;
-        }
       }
     </style>
     <div class="container">
@@ -52,33 +50,27 @@
       <img src="./logo-text.png" width="128px" />
     </div>
 
-    <div
-      style="
-        background-color: #f0f0f0;
-        background-image: url('./screen.png');
-        background-repeat: no-repeat;
-        background-position: bottom;
-        background-size: 200px;
-        height: 90%;
-      "
-      id="background"
-    >
-      <div class="container" style="padding-top: 80px">
+    <div style="background-image: url('./background.jpg'); background-repeat: no-repeat; height: 480px; text-align: center; position: relative;">
+      <img src="./screen.png" style="width: 240px; position: absolute; bottom: 0; left: 100px;"/>
+    </div>
+
+    <div style="background-color:#f0f0f0; padding-top: 20px">
+      <div class="container" >
         <h1>
           내가 읽은 책,
           <p style="color: #16c172">체크드</p>
-          <br />지금 바로 <br />올바른 독서 습관을<br />시작해 보세요!
         </h1>
         <p>
           독서 기록, 네트워킹 그리고 <br />
           체크드에서만 볼 수 있는 다양한 큐레이션 컨텐츠까지<br />
         </p>
-      </div>
-      <div class="container">
-        <img src="./appstore.svg" width="170px" />
+
+        <img src="./appstore.svg" width="180px" />
         <img src="./googleplay.png" width="200px" />
+        
       </div>
-    </div>
+  </div>
+    
     <div
       class="container-fluid"
       style="background-color: #16c172; padding: 30px 0"
@@ -87,6 +79,5 @@
         <a href="https://hanarotg.github.io">개발자 블로그</a><br /><br /><br />
         © 2022. Checked. All rights reserved
       </div>
-    </div>
   </body>
 </html>
