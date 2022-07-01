@@ -1,11 +1,11 @@
 ---
 layout: post
-category: reactnative
+category: [reactnative, checked]
 ---
 
 ## 개요
 
-IOS에서 정상적으로 실행되는 프로젝트를 안드로이드 빌드하려고 하니 다음과 같은 에러가 출력되며 빌드에 실패했습니다. 구글링한 결과 gradle이 지원하지 않는 jdk 버전을 사용하여 발생하는 문제라고 합니다.
+IOS 빌드에 성공한 프로젝트를 안드로이드 빌드하였을 떄 에러가 출력되며 빌드에 실패했습니다. 이는 gradle이 지원하지 않는 jdk 버전을 사용하여 발생하는 문제입니다.
 
 ```bash
 FAILURE: Build failed with an exception.
@@ -26,13 +26,13 @@ Could not compile settings file '/Users/taegyeonglee/Documents/GitHub/Checked/an
 
 ![gradle-version](https://user-images.githubusercontent.com/34812887/176604060-3238e504-ed95-4053-910c-dc346dff0c43.png)
 
-java17까지 지원되는 gradle 버전이 명시되어 있습니다. 추가로 java18은 아직 지원되지 않네요.
+각 자바 버전을 지원하는 gradle 버전을 확인할 수 있습니다. java18은 아직 지원되지 않네요.
 
-로컬 작업 환경의 gralde 버전과 java 버전을 확인해보겠습니다.
+제 gralde 버전과 java 버전을 확인해보겠습니다.
 
 ### gradle
 
-gradle wrapper 버전을 확인하기 위해선 `프로젝트/android/gradle/wrapper/gradle-wrapper.properties` 파일을 열어 `distributionUrl` 항목을 확인합니다.
+gradle 버전을 확인하기 위해선 `프로젝트/android/gradle/wrapper/gradle-wrapper.properties` 내 `distributionUrl` 항목을 확인합니다.
 
 ```gradle
 distributionBase=GRADLE_USER_HOME
@@ -42,7 +42,7 @@ zipStoreBase=GRADLE_USER_HOME
 zipStorePath=wrapper/dists
 ```
 
-제 로컬 gradle 버전이 7.2임을 확인할 수 있습니다.
+제 gradle 버전이 7.2임을 확인할 수 있습니다.
 
 ### java
 
@@ -57,11 +57,11 @@ Java HotSpot(TM) 64-Bit Server VM (build 18.0.1.1+2-6, mixed mode, sharing)
 
 java18의 [클래스 파일 버전이 62](https://javaalmanac.io/bytecode/versions/)임을 고려했을 때 해당 오류는 java18과 gradle 의 호환문제임을 유추할 수 있습니다.
 
-제 로컬 환경에서 gradle이 지원하지 않는 java18이 설치되어 있음을 확인했습니다. 현재 설치된 gradle 버전이 7.2이므로 이에 맞는 가장 최신 java버전은 java16이군요.
+제 로컬 환경 gradle이 지원하지 않는 java18이 설치되어 있음을 확인했습니다. 현재 제 gradle 버전이 7.2이므로 이에 맞는 가장 최신(latest) java버전은 java16이군요.
 
-java18을 삭제하고 java16 이전 최신 LTS 버전인 java11을 재설치 하여 문제를 해결해 보겠습니다.
+java18을 삭제하고 java16 이전 LTS 버전인 java11을 재설치 하여 문제를 해결해 보겠습니다.
 
-> java16으로 재설치를 해보았으나 호환성 문제로 발생하는 빌드 오류가 발생했습니다. 따라서 java16이 아닌 java16 이전 최신 LTS 버전인 java11로 설치합니다.
+> java16으로 재설치를 해보았으나 호환성 문제로 발생하는 빌드 오류가 발생했습니다. 따라서 java16이 아닌 LTS 버전인 java11로 설치합니다.
 
 - 참고 : [Oracle Java SE Support Roadmap](https://www.oracle.com/java/technologies/java-se-support-roadmap.html)
 
