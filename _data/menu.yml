@@ -29,21 +29,8 @@ entries:
   - title: 프로젝트
     entries:
       - title: "CHECKED <span class="badge text-bg-success">운영중</span>"
-        entries:
-          - title: example page
-            url: about
       - title: "SPELL.TEAM <span class="badge text-bg-warning">준비중</span>" 
-        entries:
-          - title: example page
-            url: about
-      - title: "STYLEHERO <span class="badge text-bg-secondary">서비스 종료</span>"
-        entries:
-          - title: example page
-            url: about
       - title: "HUGG.KR <span class="badge text-bg-secondary">서비스 종료</span>"
-        entries:
-          - title: example page
-            url: about
 
-    - title: rss
-      url: feed.xml
+  - title: rss
+    url: feed.xml
