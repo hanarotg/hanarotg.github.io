@@ -6,8 +6,9 @@ category: reactnative
 ## 개요
 
 IOS에서는 문제없었던 커스텀 폰트 문제가 android에서 발생했습니다. 설정하지 않은 추가 마진(아니면 패딩)이 모든 커스텀 폰트에 적용되어 있습니다.
-| IOS(iphone XR) | ANDROID(xperia z1 compact) |
-|---|---|
+
+|                                                        IOS(아이폰 XR)                                                         |                                                       Android(엑스페리아 Z1c)                                                        |
+| :---------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------: |
 | ![IMG_620CF1E0E41C-1](https://user-images.githubusercontent.com/34812887/180598377-fa3313ae-fe9f-427a-ac0d-58ff5cbe59dc.jpeg) | ![Screenshot_20220723-180326](https://user-images.githubusercontent.com/34812887/180598410-d21eae2b-eabd-47a4-a930-fc99e6dcebdd.png) |
 
 ## 문제 탐색
@@ -30,13 +31,13 @@ include-font-padding: false;
 
 적용 예:
 
-```JSX
-import styled from 'styled-components/native';
+```javascript
+import styled from "styled-components/native";
 
 const BodyText = styled.Text`
   include-font-padding: false; // <-- 이부분 추가
   color: #363636;
-  font-family: 'NotoSansKR-Regular';
+  font-family: "NotoSansKR-Regular";
 `;
 
 export default BodyText;
