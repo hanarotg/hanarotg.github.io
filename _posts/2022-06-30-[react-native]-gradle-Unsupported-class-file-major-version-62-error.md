@@ -30,7 +30,7 @@ Could not compile settings file '/Users/taegyeonglee/Documents/GitHub/Checked/an
 
 제 gralde 버전과 java 버전을 확인해보겠습니다.
 
-### gradle
+#### gradle
 
 gradle 버전을 확인하기 위해선 `프로젝트/android/gradle/wrapper/gradle-wrapper.properties` 내 `distributionUrl` 항목을 확인합니다.
 
@@ -44,7 +44,7 @@ zipStorePath=wrapper/dists
 
 제 gradle 버전이 7.2임을 확인할 수 있습니다.
 
-### java
+#### java
 
 터미널에 `java --version` 을 입력해 로컬 환경에 설치, 적용된 자바 버전을 확인합니다.
 
