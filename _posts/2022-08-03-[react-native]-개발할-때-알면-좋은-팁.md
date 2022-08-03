@@ -9,6 +9,8 @@ RN 플랫폼을 통해 모바일 앱을 개발할 때 잊어버리기 쉬운 좋
 
 ## 개발
 
+React Native 어플리케이션 개발에 도움이 되는 팁들입니다.
+
 #### 글자가 튀어나와요
 
 부모 컴포넌트 스타일 속성에 아래 코드를 추가해 주세요.
@@ -74,6 +76,8 @@ const ScreenName = ({ route, navigation }) => {
 - [Text vertical align in react native (using nativebase)](https://stackoverflow.com/questions/44337469/text-vertical-align-in-react-native-using-nativebase)
 
 ## 빌드
+
+React Native 안드로이드 및 IOS 어플리케이션을 빌드하는 과정에서 발생하는 문제를 해결할 때 도움이 되는 팁입니다.
 
 #### [Android] 빌드 캐시 지우기
 
