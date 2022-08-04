@@ -70,6 +70,11 @@ const ScreenName = ({ route, navigation }) => {
 가끔 빌드 오류가 발생할 때 한번씩 해주면 됩니다.
 
 ```bash
+cd android
+./gradlew clean
+```
+
+```bash
 rm -rf ~/.gradle/caches/
 ```
 
