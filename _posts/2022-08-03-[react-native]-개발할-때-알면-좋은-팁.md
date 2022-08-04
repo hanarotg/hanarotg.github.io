@@ -86,3 +86,7 @@ Command + Shift + K
 ![yogakit](https://user-images.githubusercontent.com/34812887/182532550-d9c9a40f-8d62-461f-9362-03a902888e84.png)
 xcodeproj 파일이 아닌 xcworkspace 파일에 들어가 빌드를 다시 해봅니다.
 xcodeproj 파일에서 RN 기반 어플리케이션을 빌드할 때 발생하는 문제입니다.
+
+#### 배포 스크린샷 만들기
+
+- [https://studio.app-mockup.com](https://studio.app-mockup.com)
