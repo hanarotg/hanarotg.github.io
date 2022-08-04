@@ -67,7 +67,7 @@ const ScreenName = ({ route, navigation }) => {
 
 #### [Android] 빌드 캐시 지우기
 
-가끔 빌드 오류가 발생할 때 한번씩 해주면 됩니다.
+생각보다 빌드 오류가 자주 발생합니다. 이때 한번씩 해주면 됩니다.
 
 ```bash
 cd android
@@ -91,6 +91,14 @@ Command + Shift + K
 ![yogakit](https://user-images.githubusercontent.com/34812887/182532550-d9c9a40f-8d62-461f-9362-03a902888e84.png)
 xcodeproj 파일이 아닌 xcworkspace 파일에 들어가 빌드를 다시 해봅니다.
 xcodeproj 파일에서 RN 기반 어플리케이션을 빌드할 때 발생하는 문제입니다.
+
+#### 앱 아이콘 만들기
+
+Android 앱 아이콘을 생성할 땐 기본 아이콘 이름 ic_launcher / 라운드 아이콘 이름 ic_launcher_round으로 다운받아 둘 다 적용해주는 게 좋습니다.
+
+- [IOS : App icon Generator](https://appicon.co/)
+- [ANDROID : App icon Generator](<https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html#foreground.type=clipart&foreground.clipart=android&foreground.space.trim=1&foreground.space.pad=0.25&foreColor=rgba(96%2C%20125%2C%20139%2C%200)&backColor=rgb(68%2C%20138%2C%20255)&crop=0&backgroundShape=circle&effects=none&name=ic_launcher>)
+- [android studio - doc - XML로 적응형 아이콘 만들기](https://developer.android.com/guide/practices/ui_guidelines/icon_design_adaptive?hl=ko#creating_adaptive_icons_in_xml)
 
 #### 배포 스크린샷 만들기
 
