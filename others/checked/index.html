@@ -42,43 +42,112 @@
         text-decoration: none;
       }
 
+      #section {
+        margin: 5px;
+        padding: 10px;
+        max-width: 360px;
+        border: 1px solid #e8e8e8;
+        border-radius: 20px;
+        background-color: #f0f0f0;
+      }
+
       @media (max-width: 768px) {
+ 
       }
     </style>
     <div class="container">
-      <img src="./logo-symbol.png" style="width: 64px" />
+      <img src="./logo-symbol-w.png" style="width: 64px" />
       <img src="./logo-text.png" width="128px" />
-    </div>
-
-    <div style="background-image: url('./background.jpg'); background-repeat: no-repeat; height: 480px; text-align: center; position: relative;">
-      <img src="./screen.png" style="width: 240px; position: absolute; bottom: 0; left: 100px;"/>
     </div>
 
     <div style="background-color:#f0f0f0; padding-top: 20px">
       <div class="container" >
-        <h1>
-          내가 읽은 책,
-          <p style="color: #16c172">체크드</p>
-        </h1>
-        <p>
-          독서 기록, 네트워킹 그리고 <br />
-          체크드에서만 볼 수 있는 다양한 큐레이션 컨텐츠까지<br />
-        </p>
-
-        <img src="./appstore.svg" width="180px" />
-        <img src="./googleplay.png" width="200px" />
+        <div class="row">
+          <div class="col-auto">
+            <img src="./simulator.gif" style="max-width: 280px; border-radius: 20px; border: 5px solid #f0f0f0"/>
+          </div>
+          <div class="col">
+            <h1>
+              내가 읽은 책,
+              <p style="color: #16c172">체크드</p>
+            </h1>
+            <p>
+              독서 기록, 네트워킹 그리고 <br />
+              체크드에서만 볼 수 있는 다양한 큐레이션 컨텐츠까지<br />
+            </p>
+          
+            <img src="./appstore.svg" width="180px" />
+            <img src="./googleplay.png" width="200px" />
+          </div>
+        </div>
+       
         
       </div>
   </div>
     
-    <div
+  <div class="container" style="padding: 20px 0">
+    <div class="row">
+      <div id="section" class="col-sm">
+        <h3>
+          금주의 명언
+        </h3>
+        <p>
+          역사의 대미를 장식한 명연사들의 명언을 확인해 보세요!
+        </p>
+      </div>
+      <div id="section" class="col-sm">
+        <h3>
+          읽고 있는 책 기록
+        </h3>
+        <p>
+          읽고 있는 책을 추가해서 읽을 때마다 진도를 반영해보세요.
+        </p>
+      </div>
+  
+      <div id="section" class="col-sm">
+        <h3>
+          다른 사람들이 읽은 책
+        </h3>
+        <p>
+          다른 사람들이 진도를 기록한 책들을 실시간으로 확인할 수 있습니다.
+        </p>
+      </div>
+      <div id="section" class="col-sm">
+        <h3>
+          한번 읽어 보실래요?
+        </h3>
+        <p>
+          체크드 큐레이터가 선별한 도서들을 확인할 수 있습니다. 선별 도서 목록은 주기적으로 업데이트 되니 자주 확인해보세요!
+        </p>
+      </div>
+    </div>
+
+    </div>
+   
+
+    
+   
+
+
+  
+  </div>
+    
+  <div
       class="container-fluid"
       style="background-color: #16c172; padding: 30px 0"
     >
       <div class="container" id="footer">
-        <a href="./private-policy.html">개인정보 처리방침</a><br /><br />
+        <a href="./private-policy.html">개인정보 처리방침</a><br />
+        <a href="https://forms.gle/zqBwXLUrJGRmuqF58">문의 및 건의</a>
+        <br /><br />
+
         <a href="https://hanarotg.github.io">개발자 블로그</a><br /><br /><br />
-        © 2022. Checked. All rights reserved
+        © 2022. Checked. All rights reserved<br />
+        forpagens@gmail.com
       </div>
   </body>
 </html>
+<!--
+
+   <img src="./screen.png" style="width: 240px; position: absolute; bottom: 0; left: 100px;"/>
+-->
