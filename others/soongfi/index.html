@@ -32,6 +32,22 @@
       #footer a:hover {
         text-decoration: underline;
       }
+
+      #scrolling-wrapper {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+      }
+
+      #scrolling-image {
+        display: inline-block;
+      }
+
+      #scrolling-image img {
+        width: 200px;
+        border-radius: 15px;
+        border: 1px solid #f0f0f0;
+      }
     </style>
 
     <div class="container" style="padding-top: 20px">
@@ -39,24 +55,42 @@
         <div class="col-auto">
           <img
             src="./soongfi.png"
-            style="width: 48px; height: 48px; border-radius: 15px"
+            style="width: 64px; height: 64px; border-radius: 15px"
           />
         </div>
         <div class="col">
-          <h2>숭파이</h2>
-          <p class="text-muted">숭실대학교 교내 와이파이 문제 해결 앱</p>
+          <h3>숭파이</h3>
+          <p class="text-muted">
+            숭실대학교 교내 와이파이 문제 해결 앱 / Soongfi
+          </p>
         </div>
       </div>
     </div>
 
-    <div class="container"></div>
+    <div class="container">
+      <p class="text-muted">
+        이 어플리케이션은 간헐적으로 발생하는 숭실대학교 교내 와이파이 인터넷
+        문제를 해결하기 위해<br />
+        자동으로 숭파이 로그인 화면을 호출을 시도합니다.
+      </p>
+    </div>
+
+    <div class="container">
+      <div id="scrolling-wrapper">
+        <div id="scrolling-image"><img src="./screenshot/1.png" /></div>
+        <div id="scrolling-image"><img src="./screenshot/2.png" /></div>
+        <div id="scrolling-image"><img src="./screenshot/3.png" /></div>
+        <div id="scrolling-image"><img src="./screenshot/4.png" /></div>
+      </div>
+    </div>
 
     <div class="container" id="footer">
-      <a href="https://hanarotg.github.io/">문의 및 버그 신고</a><br />
-      <a href="https://hanarotg.github.io/">개인정보처리방침</a><br /><br />
+      <hr />
+      <a href="https://forms.gle/CiwkYGa2fhu4zuZFA">문의 및 버그 신고</a><br />
+      <a href="./private-policy.html">개인정보처리방침</a><br /><br />
       <a href="https://hanarotg.github.io/">개발자 블로그</a><br /><br />
       <p class="text-muted">
-        © 2022. Checked. All rights reserved<br />
+        © 2022. Soongfi. All rights reserved<br />
         forpagens@gmail.com<br />
       </p>
     </div>
