@@ -80,6 +80,28 @@ rm -rf ~/.gradle/caches/
 
 - [How to clear gradle cache?](https://stackoverflow.com/questions/23025433/how-to-clear-gradle-cache)
 
+#### [Android] Execution failed for task ':app:mergeDexDebug'
+
+빌드 시 발생할 수 있는 오류입니다. `./gradlew assembleRelease`를 통해 빌드할 때 발생했습니다. `android/app/build.gradle`파일을 열어 다음과 같이 두 줄을 추가해줍니다.
+
+```gradle
+   android {
+        defaultConfig {
+            ...
+            multiDexEnabled true
+            ...
+        }
+        ...
+    }
+
+    dependencies {
+      implementation 'com.android.support:multidex:1.0.3'
+    }
+```
+
+- [Execution failed for task ':app:mergeDexDebug'.
+  ](https://paulaner80.tistory.com/entry/Execution-failed-for-task-appmergeDexDebug)
+
 #### [IOS] 빌드 파일 지우기
 
 ```bash
