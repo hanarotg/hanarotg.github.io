@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- CSS only -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+    crossorigin="anonymous"
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap"
+    rel="stylesheet"
+  />
+
+  <title>지속 가능한 개발 방식에 대한 고민 End point To End Point</title><!-- Begin Jekyll SEO tag v2.7.1 -->
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="지속 가능한 개발 방식에 대한 고민 End point To End Point" />
+<meta name="author" content="Lee Taegyeong" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="개요" />
+<meta property="og:description" content="개요" />
+<link rel="canonical" href="http://localhost:4000/react-native-%EC%A7%80%EC%86%8D%EA%B0%80%EB%8A%A5%ED%95%9C-%EA%B0%9C%EB%B0%9C-%EB%B0%A9%EC%8B%9D%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B3%A0%EB%AF%BC-end-point-to-end-point.html" />
+<meta property="og:url" content="http://localhost:4000/react-native-%EC%A7%80%EC%86%8D%EA%B0%80%EB%8A%A5%ED%95%9C-%EA%B0%9C%EB%B0%9C-%EB%B0%A9%EC%8B%9D%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B3%A0%EB%AF%BC-end-point-to-end-point.html" />
+<meta property="og:site_name" content="Lee Taegyeong" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-07-05T00:00:00+09:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="지속 가능한 개발 방식에 대한 고민 End point To End Point" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/react-native-%EC%A7%80%EC%86%8D%EA%B0%80%EB%8A%A5%ED%95%9C-%EA%B0%9C%EB%B0%9C-%EB%B0%A9%EC%8B%9D%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B3%A0%EB%AF%BC-end-point-to-end-point.html","headline":"지속 가능한 개발 방식에 대한 고민 End point To End Point","dateModified":"2022-07-05T00:00:00+09:00","datePublished":"2022-07-05T00:00:00+09:00","author":{"@type":"Person","name":"Lee Taegyeong"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/react-native-%EC%A7%80%EC%86%8D%EA%B0%80%EB%8A%A5%ED%95%9C-%EA%B0%9C%EB%B0%9C-%EB%B0%A9%EC%8B%9D%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B3%A0%EB%AF%BC-end-point-to-end-point.html"},"description":"개요","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Lee Taegyeong" /><link
+    rel="shortcut icon"
+    type="image/x-icon"
+    href="/logo.png"
+  />
+  <link rel="stylesheet" href="/assets/css/main.css" />
+</head>
+<body a="auto"><div class="container-fluid" id="header_navbar_container">
+  <div class="container" id="header_navbar">
+    <a href="/">Lee Taegyeong</a>
+  </div>
+</div>
+<main class="page-content" aria-label="Content">
+      <div class="w">
+        <!--<a href="/">뒤로 가기..</a>-->
+
+<h1>지속 가능한 개발 방식에 대한 고민 End point To End Point</h1>
+
+<article>
+  <p class="post-meta">
+    <time datetime="2022-07-05 00:00:00 +0900"
+      >2022-07-05</time
+    >
+  </p>
+  <hr />
+  <h2 id="개요">개요</h2>
+
+<p>서비스 개발이 1할이라면 서비스 유지 보수는 9할을 차지한다고 말해도 과언이 아닐 겁니다. 서비스 개발 과정에서 어떻게 API를 설계함에 따라 차후 유지 보수에 걸리는 시간은 천차만별입니다. 제가 <code class="language-plaintext highlighter-rouge">reactnative</code>로 간단한 앱을 만드는 과정에서 생각한 지속 가능한 개발 방식에 대해서 이야기 하려고 합니다.</p>
+
+<h2 id="create-update">CREATE, UPDATE</h2>
+
+<h3 id="case-외부-api를-통해-받는-객체-형식이-바뀌는-경우">case) 외부 API를 통해 받는 객체 형식이 바뀌는 경우</h3>
+
+<p>저는 <a href="https://developers.kakao.com/docs/latest/ko/daum-search/dev-guide#search-book">kakao API</a>를 통해 받을 수 있는 도서 정보를 이용하고 있습니다. 최근 알라딘 API가 훨씬 관리하기 편하고 관리에 신경쓰고 있는 것 같아 알라딘 API로 바꿀까 생각중입니다.</p>
+
+<p>독서 기록 어플리케이션을 만들려고 합니다.
+책을 독서 목록에 추가하는 함수를 다음과 같이 설계했습니다.</p>
+
+<h2 id="read-delete">READ, DELETE</h2>
+
+<h2 id="모든-데이터-생성-시-시각도-같이">모든 데이터 생성 시 시각도 같이</h2>
+
+<p>생성 시각을 같이 저장하면 데이터 응용, 분석에 정말 유용합니다. DB로 파이어베이스 firestore 를 사용하여 개발하신다면 이를 <a href="https://cloud.google.com/bigquery/">BigQuery</a>와 연동하여 비전공자도 할 수 있는(SQL 쿼리문 정도는 만질 수 있는…) 데이터 분석이 가능합니다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// react native firebase를 사용하는 경우 예제</span>
+<span class="k">return</span> <span class="k">await</span> <span class="nx">firestore</span><span class="p">()</span>
+  <span class="p">.</span><span class="nx">collection</span><span class="p">(</span><span class="dl">"</span><span class="s2">users</span><span class="dl">"</span><span class="p">)</span>
+  <span class="p">.</span><span class="nx">doc</span><span class="p">(</span><span class="nx">userUID</span><span class="p">)</span>
+  <span class="p">.</span><span class="nx">collection</span><span class="p">(</span><span class="dl">"</span><span class="s2">bookReadingCollection</span><span class="dl">"</span><span class="p">)</span>
+  <span class="p">.</span><span class="nx">doc</span><span class="p">(</span><span class="nx">ISBN</span><span class="p">)</span>
+  <span class="p">.</span><span class="kd">set</span><span class="p">({</span>
+    <span class="nx">book</span><span class="p">,</span>
+    <span class="na">addDate</span><span class="p">:</span> <span class="nx">firestore</span><span class="p">.</span><span class="nx">Timestamp</span><span class="p">.</span><span class="nx">now</span><span class="p">(),</span> <span class="c1">// 이부분</span>
+  <span class="p">});</span>
+</code></pre></div></div>
+
+<h3 id="case-사람들이-책을-많이-추가하는-시간대를-알고-싶다">case) 사람들이 책을 많이 추가하는 시간대를 알고 싶다.</h3>
+
+</article>
+
+      </div>
+    </main><div class="container" id="header_navbar">
+  <hr />
+  <br />2022 Lee Taegyeong<br /><br /><br />
+</div>
+</body>
+</html>

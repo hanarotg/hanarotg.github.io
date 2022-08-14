@@ -2,24 +2,9 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: 소개
-    entries:
-      - title: "클라우드 엔지니어링과 <code>node</code>를 활용한 고성능 서비스 설계에 관심이 많은 새내기 개발자입니다."
-      - title: "<a href='https://github.com/hanarotg'>깃허브</a>와 <a href='mailto:hanarotg@naver.com'>이메일로</a> 저를 찾으실 수 있습니다."
-
   - title: 작성 글
     post_list:
       limit: 5
       show_more: true
       show_more_text: 작성글 더보기...
       show_more_url: archive.html
-
-  - title: node.js
-    post_list:
-      category: nodejs
-      show_more: true
-      show_more_text: See more posts...
-      show_more_url: example2-archive.html
-
-  - title: rss
-    url: feed.xml

@@ -44,11 +44,13 @@ body {
   color: #979a9b;
 }
 
+h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
+  font-weight: bold;
   margin-top: 3rem;
 }
 
@@ -63,6 +65,11 @@ p {
 
 a {
   color: #1b64da;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 li {
@@ -74,9 +81,9 @@ li {
 }
 
 .w {
-  max-width: 640px;
+  max-width: 1024px;
   margin: 0 auto;
-  padding: 4rem 2rem;
+  padding: 1rem;
 }
 
 table {
@@ -93,7 +100,7 @@ td {
 
 code {
   padding: 0.2rem;
-  background: #ebeced;
+  background: #f0f0f0;
   border-radius: 0.5rem;
   font-size: 0.9em;
   font-family: "Courier New", Courier, monospace;
@@ -243,4 +250,37 @@ img {
   max-width: 100%;
   display: block;
   margin: 0 auto;
+  border-radius: 0.5rem;
+  border: 1px solid #f0f0f0;
+}
+
+// bootstrap custom
+.text-muted {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+// custom
+#header_navbar_container {
+  background-color: #f0f0f0;
+  padding: 1rem 0;
+}
+
+#header_navbar {
+  max-width: 1024px;
+}
+
+#header_navbar a {
+  color: #363636;
+  text-decoration: none;
+}
+
+#project-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 16px;
+}
+
+#project-description a {
+  font-size: 0.9rem;
 }

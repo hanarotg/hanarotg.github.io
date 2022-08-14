@@ -114,12 +114,13 @@ export APPSTORETOKEN=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 `XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX` 는 바로 위에서 얻은 appStoreVersionLocalizations 값입니다.
 
 ```bash
-curl 'https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX'  --Header "Authorization: Bearer $APPSTORETOKEN"
+curl 'https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX/appScreenshotSets'  --Header "Authorization: Bearer $APPSTORETOKEN"
+
 ```
 
 아래와 같이 appScreenshotSets을 확인할 수 있습니다.
 
-```json
+```bash
 {
   "data" : [ {
     "type" : "appScreenshotSets",
@@ -137,19 +138,14 @@ curl 'https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/XXXX
 ```
 
 appScreenshotSets 아이디를 이제 알았습니다.
-아래 명령을 통해 appScreenshotSets을 삭제해줍니다.
+아래 명령을 통해 appScreenshotSets을 모두 삭제해줍니다.
 
 ```bash
 curl -X DELETE 'https://api.appstoreconnect.apple.com/v1/appScreenshotSets/아이디' --Header "Authorization: Bearer $APPSTORETOKEN"
 ```
 
 다시 appstore connect에 들어가서 다시 스크린샷을 업로드 해봅니다.
-
-끝
-
-**OPTION:** 삭제할 스크린샷이 원래 없는 경우
-
-POSTMAN을 통해 스크린샷을 업로드해보세요.
+한번 해서 해결되지 않으면 여러번 시도해 보세요. 저는 3번째 시도에 성공했습니다.
 
 - [appstore connect API - upload an app screenshot](https://developer.apple.com/documentation/appstoreconnectapi/create_an_app_screenshot_set)
 

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- CSS only -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+    crossorigin="anonymous"
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap"
+    rel="stylesheet"
+  />
+
+  <title>[appstore Connect] 앱 스크린샷 업로드 오류 해결</title><!-- Begin Jekyll SEO tag v2.7.1 -->
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="[appstore Connect] 앱 스크린샷 업로드 오류 해결" />
+<meta name="author" content="Lee Taegyeong" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="안녕하세요 이태경입니다." />
+<meta property="og:description" content="안녕하세요 이태경입니다." />
+<link rel="canonical" href="http://localhost:4000/appstore-connect-%EC%95%B1-%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7-%EC%97%85%EB%A1%9C%EB%93%9C-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0.html" />
+<meta property="og:url" content="http://localhost:4000/appstore-connect-%EC%95%B1-%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7-%EC%97%85%EB%A1%9C%EB%93%9C-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0.html" />
+<meta property="og:site_name" content="Lee Taegyeong" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-08-13T00:00:00+09:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="[appstore Connect] 앱 스크린샷 업로드 오류 해결" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/appstore-connect-%EC%95%B1-%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7-%EC%97%85%EB%A1%9C%EB%93%9C-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0.html","headline":"[appstore Connect] 앱 스크린샷 업로드 오류 해결","dateModified":"2022-08-13T00:00:00+09:00","datePublished":"2022-08-13T00:00:00+09:00","author":{"@type":"Person","name":"Lee Taegyeong"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/appstore-connect-%EC%95%B1-%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7-%EC%97%85%EB%A1%9C%EB%93%9C-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0.html"},"description":"안녕하세요 이태경입니다.","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Lee Taegyeong" /><link
+    rel="shortcut icon"
+    type="image/x-icon"
+    href="/logo.png"
+  />
+  <link rel="stylesheet" href="/assets/css/main.css" />
+</head>
+<body a="auto"><div class="container-fluid" id="header_navbar_container">
+  <div class="container" id="header_navbar">
+    <a href="/">Lee Taegyeong</a>
+  </div>
+</div>
+<main class="page-content" aria-label="Content">
+      <div class="w">
+        <!--<a href="/">뒤로 가기..</a>-->
+
+<h1>[appstore Connect] 앱 스크린샷 업로드 오류 해결</h1>
+
+<article>
+  <p class="post-meta">
+    <time datetime="2022-08-13 00:00:00 +0900"
+      >2022-08-13</time
+    >
+  </p>
+  <hr />
+  <p><img src="https://user-images.githubusercontent.com/34812887/184477035-7c57962d-59e1-4c25-8974-2f9eda240f9a.png" alt="1" /></p>
+
+<p>AppStore connect에서 제출한 앱이 심사 통과하지 못했습니다. 충족하지 못한 스크린샷 내용을 수정하고 다시 앱 미리보기에 업로드 하려는데 업로드가 되지 않았습니다.</p>
+
+<p>이 문제를 해결해보겠습니다.</p>
+
+<h2 id="해결">해결</h2>
+
+<p><strong>주의!</strong> 맥북 사용자임을 전제로 진행합니다.</p>
+
+<h4 id="api-키-생성">API 키 생성</h4>
+
+<p>appstore connect API를 통해 문제를 해결하기 때문에 Appstore connect -&gt; 사용자 및 엑세스 -&gt; 키 에 들어가서 새로운 키를 생성합니다.</p>
+
+<p><img src="https://user-images.githubusercontent.com/34812887/184477195-aa8e5f07-a1e0-4465-9947-56311981dab6.png" alt="2" /></p>
+
+<p>API키를 생성했으면 목록 우측에 API 키 다운로드 링크를 통해 API 키를 다운로드합니다. 다운로드한 키 파일을 데스크탑으로 이동해 주세요.</p>
+
+<p>API키는 한번만 다운로드할 수 있으니 이 점 주의해주세요.</p>
+
+<h4 id="ruby-script-작성">ruby script 작성</h4>
+
+<p>터미널을 열어 데스크탑으로 이동합니다.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>Desktop
+</code></pre></div></div>
+
+<p>다음과 같이 루비스크립트를 작성합니다.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>vi apple.rb
+</code></pre></div></div>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">require</span> <span class="s2">"base64"</span>
+<span class="nb">require</span> <span class="s2">"jwt"</span>
+<span class="no">ISSUER_ID</span> <span class="o">=</span> <span class="s2">"XXXX-XX-XXXXXX-XX-XXXXXXXX"</span>
+<span class="no">KEY_ID</span> <span class="o">=</span> <span class="s2">"XXXXXXXX"</span>
+<span class="n">private_key</span> <span class="o">=</span> <span class="no">OpenSSL</span><span class="o">::</span><span class="no">PKey</span><span class="p">.</span><span class="nf">read</span><span class="p">(</span><span class="no">File</span><span class="p">.</span><span class="nf">read</span><span class="p">(</span><span class="s2">"AuthKey_XXXXXX.p8"</span><span class="p">))</span>
+<span class="n">token</span> <span class="o">=</span> <span class="no">JWT</span><span class="p">.</span><span class="nf">encode</span><span class="p">(</span>
+   <span class="p">{</span>
+    <span class="ss">iss: </span><span class="s2">"XXXX-XX-XXXXXX-XX-XXXXXXXX"</span><span class="p">,</span>
+    <span class="ss">exp: </span><span class="no">Time</span><span class="p">.</span><span class="nf">now</span><span class="p">.</span><span class="nf">to_i</span> <span class="o">+</span> <span class="mi">20</span> <span class="o">*</span> <span class="mi">60</span><span class="p">,</span>
+    <span class="ss">aud: </span><span class="s2">"appstoreconnect-v1"</span>
+   <span class="p">},</span>
+   <span class="n">private_key</span><span class="p">,</span>
+   <span class="s2">"ES256"</span><span class="p">,</span>
+   <span class="n">header_fields</span><span class="o">=</span><span class="p">{</span>
+     <span class="ss">kid: </span><span class="s2">"XXXXXXXXX"</span> <span class="p">}</span>
+ <span class="p">)</span>
+<span class="nb">puts</span> <span class="n">token</span>
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">ISSUER_ID</code> 와 <code class="language-plaintext highlighter-rouge">KEY_ID</code>는 키 목록에서 확인 가능하며, <code class="language-plaintext highlighter-rouge">iss</code>는 <code class="language-plaintext highlighter-rouge">ISSUER_ID</code> 와 똑같고 <code class="language-plaintext highlighter-rouge">kid</code> 는 <code class="language-plaintext highlighter-rouge">KEY_ID</code>와 동일한 값으로 설정해주세요.</p>
+
+<p><strong>OPTION:</strong> 만료일(exp)을 조금 더 늘려주는 게 좋을 거에요…</p>
+
+<p>루비스크립트를 작성하고 저장해주세요.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>:wq
+</code></pre></div></div>
+
+<p>저장한 루비스크립트를 실행시켜 주세요.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ruby apple.rb
+</code></pre></div></div>
+
+<p><strong>OPTION:</strong> <code class="language-plaintext highlighter-rouge">jwt</code> gem을 설치해야 하는 경우 root권한으로 <code class="language-plaintext highlighter-rouge">jwt</code> 를 설치해주세요.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo su
+gem install jwt
+exit
+</code></pre></div></div>
+
+<p>에러 없이 루비스크립트를 실행했다면 다음과 같이 token를 출력합니다. (token 값을 모두 X로 대체해서 표시했습니다.)</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ruby apple.rb
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+</code></pre></div></div>
+
+<p>token 값을 복사해서 터미널에 <code class="language-plaintext highlighter-rouge">APPSTORETOKEN</code> 이란 이름으로 export 해줍니다.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">export </span><span class="nv">APPSTORETOKEN</span><span class="o">=</span>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+</code></pre></div></div>
+
+<p><strong>OPTION:</strong> <code class="language-plaintext highlighter-rouge">export: not valid in this context:</code> 에러가 발생할 경우 <code class="language-plaintext highlighter-rouge">ruby apple.rb</code> 명령을 다시 실행하여 새 토큰값으로 다시 시도해 보세요. 토큰 내에 공백이 있는 경우 문제가 있을 수 있습니다.</p>
+
+<h4 id="appstoreversionlocalizations-값-얻기">appStoreVersionLocalizations 값 얻기</h4>
+
+<p>사파리 또는 구글 크롬 개발자 콘솔을 띄워든 상태로 appstore connect -&gt; 문제가 되는 앱 으로 이동합니다.</p>
+
+<p><img src="https://user-images.githubusercontent.com/34812887/184478092-f9a435a1-9c18-4216-8991-6fb3302ae7c9.png" alt="3" /></p>
+
+<p>콘솔에 500 RESPONSE ERROR 를 확인할 수 있습니다. 에러가 발생한 주소의 뒤 X부분을 (<code class="language-plaintext highlighter-rouge">...[appStoreVeresionLocalization]=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX</code>) 복사해주세요.</p>
+
+<p><code class="language-plaintext highlighter-rouge">XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX</code> 이 appStoreVersionLocalizations 값입니다.</p>
+
+<h4 id="모든-스크린샷-제거">모든 스크린샷 제거</h4>
+
+<p>거의 다 왔어요!!</p>
+
+<p>다시 터미널로 돌아와 아래와 같은 명령어를 실행해 줍니다.
+<code class="language-plaintext highlighter-rouge">XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX</code> 는 바로 위에서 얻은 appStoreVersionLocalizations 값입니다.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl <span class="s1">'https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX/appScreenshotSets'</span>  <span class="nt">--Header</span> <span class="s2">"Authorization: Bearer </span><span class="nv">$APPSTORETOKEN</span><span class="s2">"</span>
+
+</code></pre></div></div>
+
+<p>아래와 같이 appScreenshotSets을 확인할 수 있습니다.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">{</span>
+  <span class="s2">"data"</span> : <span class="o">[</span> <span class="o">{</span>
+    <span class="s2">"type"</span> : <span class="s2">"appScreenshotSets"</span>,
+    <span class="s2">"id"</span> : 아이디,
+    <span class="s2">"attributes"</span> : <span class="o">{</span>
+      <span class="s2">"screenshotDisplayType"</span> : <span class="s2">"APP_IPAD_PRO_3GEN_129"</span>
+    <span class="o">}</span>,
+    <span class="s2">"relationships"</span> : <span class="o">{</span>
+      <span class="s2">"appScreenshots"</span> : <span class="o">{</span>
+        <span class="s2">"links"</span> : <span class="o">{</span>
+          <span class="s2">"self"</span> : <span class="s2">"https://api.appstoreconnect.apple.com/v1/appScreenshotSets/아이디/relationships/appScreenshots"</span>,
+          <span class="s2">"related"</span> : <span class="s2">"https://api.appstoreconnect.apple.com/v1/appScreenshotSets/아이디/appScreenshots"</span>
+        <span class="o">}</span>
+        ... 이하생략
+</code></pre></div></div>
+
+<p>appScreenshotSets 아이디를 이제 알았습니다.
+아래 명령을 통해 appScreenshotSets을 모두 삭제해줍니다.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl <span class="nt">-X</span> DELETE <span class="s1">'https://api.appstoreconnect.apple.com/v1/appScreenshotSets/아이디'</span> <span class="nt">--Header</span> <span class="s2">"Authorization: Bearer </span><span class="nv">$APPSTORETOKEN</span><span class="s2">"</span>
+</code></pre></div></div>
+
+<p>다시 appstore connect에 들어가서 다시 스크린샷을 업로드 해봅니다.
+한번 해서 해결되지 않으면 여러번 시도해 보세요. 저는 3번째 시도에 성공했습니다.</p>
+
+<ul>
+  <li><a href="https://developer.apple.com/documentation/appstoreconnectapi/create_an_app_screenshot_set">appstore connect API - upload an app screenshot</a></li>
+</ul>
+
+<p>참고</p>
+
+<ul>
+  <li><a href="https://developer.apple.com/forums/thread/712222">App screenshots can’t be uploaded (stuck on 10%)
+</a></li>
+  <li><a href="https://stackoverflow.com/questions/73313352/app-store-screenshots-screenshot-uploads-in-progress-error-appscreenshotse">App Store Screenshots - “Screenshot uploads in progress” Error / appScreenshotSets Error</a></li>
+  <li><a href="https://developer.apple.com/documentation/appstoreconnectapi/delete_an_app_screenshot_set">App store connect API - delete an app screenshot</a></li>
+</ul>
+
+<p><a href="https://stackoverflow.com/questions/73313352/app-store-screenshots-screenshot-uploads-in-progress-error-appscreenshotse">원글</a>에서 조금 내용을 보강했습니다.</p>
+
+<p>웹 클라이언트에서 안되면 API를 쓰면 되지 않냐? 라는 생각을 하다니.. 참 똑똑한 사람들이 많네요..</p>
+
+</article>
+
+      </div>
+    </main><div class="container" id="header_navbar">
+  <hr />
+  <br />2022 Lee Taegyeong<br /><br /><br />
+</div>
+</body>
+</html>
