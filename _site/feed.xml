@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-14T16:28:14+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lee Taegyeong</title><subtitle>안녕하세요 이태경입니다.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-15T18:30:13+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lee Taegyeong</title><subtitle>안녕하세요 이태경입니다.
 </subtitle><author><name>Lee Taegyeong</name></author><entry><title type="html">[appstore Connect] 앱 스크린샷 업로드 오류 해결</title><link href="http://localhost:4000/appstore-connect-%EC%95%B1-%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7-%EC%97%85%EB%A1%9C%EB%93%9C-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0.html" rel="alternate" type="text/html" title="[appstore Connect] 앱 스크린샷 업로드 오류 해결" /><published>2022-08-13T00:00:00+09:00</published><updated>2022-08-13T00:00:00+09:00</updated><id>http://localhost:4000/%5Bappstore-connect%5D-%EC%95%B1-%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7-%EC%97%85%EB%A1%9C%EB%93%9C-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0</id><content type="html" xml:base="http://localhost:4000/appstore-connect-%EC%95%B1-%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7-%EC%97%85%EB%A1%9C%EB%93%9C-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0.html">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/184477035-7c57962d-59e1-4c25-8974-2f9eda240f9a.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;AppStore connect에서 제출한 앱이 심사 통과하지 못했습니다. 충족하지 못한 스크린샷 내용을 수정하고 다시 앱 미리보기에 업로드 하려는데 업로드가 되지 않았습니다.&lt;/p&gt;
@@ -101,7 +101,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 &lt;p&gt;다시 터미널로 돌아와 아래와 같은 명령어를 실행해 줍니다.
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX&lt;/code&gt; 는 바로 위에서 얻은 appStoreVersionLocalizations 값입니다.&lt;/p&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl &lt;span class=&quot;s1&quot;&gt;'https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX/appScreenshotSets'&lt;/span&gt;  &lt;span class=&quot;nt&quot;&gt;--Header&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Authorization: Bearer &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$APPSTORETOKEN&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl &lt;span class=&quot;s1&quot;&gt;&apos;https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX/appScreenshotSets&apos;&lt;/span&gt;  &lt;span class=&quot;nt&quot;&gt;--Header&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Authorization: Bearer &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$APPSTORETOKEN&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -126,7 +126,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 &lt;p&gt;appScreenshotSets 아이디를 이제 알았습니다.
 아래 명령을 통해 appScreenshotSets을 모두 삭제해줍니다.&lt;/p&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl &lt;span class=&quot;nt&quot;&gt;-X&lt;/span&gt; DELETE &lt;span class=&quot;s1&quot;&gt;'https://api.appstoreconnect.apple.com/v1/appScreenshotSets/아이디'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--Header&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Authorization: Bearer &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$APPSTORETOKEN&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl &lt;span class=&quot;nt&quot;&gt;-X&lt;/span&gt; DELETE &lt;span class=&quot;s1&quot;&gt;&apos;https://api.appstoreconnect.apple.com/v1/appScreenshotSets/아이디&apos;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--Header&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Authorization: Bearer &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$APPSTORETOKEN&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;다시 appstore connect에 들어가서 다시 스크린샷을 업로드 해봅니다.
@@ -236,7 +236,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
 
     &lt;span class=&quot;k&quot;&gt;dependencies&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;implementation&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'com.android.support:multidex:1.0.3'&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;implementation&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;com.android.support:multidex:1.0.3&apos;&lt;/span&gt;
     &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -399,10 +399,10 @@ xcodeproj 파일에서 RN 기반 어플리케이션을 빌드할 때 발생하�
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;FAILURE: Build failed with an exception.
 
 &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt; Where:
-Settings file &lt;span class=&quot;s1&quot;&gt;'/Users/taegyeonglee/Documents/GitHub/Checked/android/settings.gradle'&lt;/span&gt;
+Settings file &lt;span class=&quot;s1&quot;&gt;&apos;/Users/taegyeonglee/Documents/GitHub/Checked/android/settings.gradle&apos;&lt;/span&gt;
 
 &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt; What went wrong:
-Could not compile settings file &lt;span class=&quot;s1&quot;&gt;'/Users/taegyeonglee/Documents/GitHub/Checked/android/settings.gradle'&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
+Could not compile settings file &lt;span class=&quot;s1&quot;&gt;&apos;/Users/taegyeonglee/Documents/GitHub/Checked/android/settings.gradle&apos;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; startup failed:
   General error during conversion: Unsupported class file major version 62
 ...
