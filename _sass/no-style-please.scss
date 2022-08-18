@@ -103,7 +103,7 @@ code {
   background: #f0f0f0;
   border-radius: 0.5rem;
   font-size: 0.9em;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Consolas", monaco, monospace;
 }
 
 div.highlighter-rouge code {
@@ -258,6 +258,11 @@ img {
 .text-muted {
   margin: 0.5rem 0;
   font-size: 0.9rem;
+}
+
+// utterances custom
+.utterances {
+  max-width: 1024px;
 }
 
 // custom

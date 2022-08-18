@@ -1,35 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-15T18:30:13+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lee Taegyeong</title><subtitle>안녕하세요 이태경입니다.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-18T14:17:23+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lee Taegyeong</title><subtitle>안녕하세요 이태경입니다.
 </subtitle><author><name>Lee Taegyeong</name></author><entry><title type="html">[appstore Connect] 앱 스크린샷 업로드 오류 해결</title><link href="http://localhost:4000/appstore-connect-%EC%95%B1-%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7-%EC%97%85%EB%A1%9C%EB%93%9C-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0.html" rel="alternate" type="text/html" title="[appstore Connect] 앱 스크린샷 업로드 오류 해결" /><published>2022-08-13T00:00:00+09:00</published><updated>2022-08-13T00:00:00+09:00</updated><id>http://localhost:4000/%5Bappstore-connect%5D-%EC%95%B1-%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7-%EC%97%85%EB%A1%9C%EB%93%9C-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0</id><content type="html" xml:base="http://localhost:4000/appstore-connect-%EC%95%B1-%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7-%EC%97%85%EB%A1%9C%EB%93%9C-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0.html">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/184477035-7c57962d-59e1-4c25-8974-2f9eda240f9a.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;AppStore connect에서 제출한 앱이 심사 통과하지 못했습니다. 충족하지 못한 스크린샷 내용을 수정하고 다시 앱 미리보기에 업로드 하려는데 업로드가 되지 않았습니다.&lt;/p&gt;
-
-&lt;p&gt;이 문제를 해결해보겠습니다.&lt;/p&gt;
+&lt;p&gt;앱 미리보기에 업로드 하려는데 업로드가 되지 않았습니다. 가끔 웹 클라이언트가 먹통이 되는데요,
+이 문제를 &lt;a href=&quot;https://developer.apple.com/documentation/appstoreconnectapi&quot;&gt;Appstore connect API&lt;/a&gt;를 활용해 해결해보겠습니다.&lt;/p&gt;
 
 &lt;h2 id=&quot;해결&quot;&gt;해결&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;주의!&lt;/strong&gt; 맥북 사용자임을 전제로 진행합니다.&lt;/p&gt;
-
 &lt;h4 id=&quot;api-키-생성&quot;&gt;API 키 생성&lt;/h4&gt;
 
-&lt;p&gt;appstore connect API를 통해 문제를 해결하기 때문에 Appstore connect -&amp;gt; 사용자 및 엑세스 -&amp;gt; 키 에 들어가서 새로운 키를 생성합니다.&lt;/p&gt;
+&lt;p&gt;Appstore connect -&amp;gt; 사용자 및 엑세스 -&amp;gt; 키 에 들어가서 새로운 키를 생성합니다.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/184477195-aa8e5f07-a1e0-4465-9947-56311981dab6.png&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;API키를 생성했으면 목록 우측에 API 키 다운로드 링크를 통해 API 키를 다운로드합니다. 다운로드한 키 파일을 데스크탑으로 이동해 주세요.&lt;/p&gt;
+&lt;p&gt;API키를 생성했으면 목록 우측에 API 키 다운로드 링크를 통해 API 키를 다운로드합니다. 생성한 API키는 한번만 다운로드 가능합니다.&lt;/p&gt;
 
-&lt;p&gt;API키는 한번만 다운로드할 수 있으니 이 점 주의해주세요.&lt;/p&gt;
+&lt;h4 id=&quot;ruby-script-작성&quot;&gt;Ruby script 작성&lt;/h4&gt;
 
-&lt;h4 id=&quot;ruby-script-작성&quot;&gt;ruby script 작성&lt;/h4&gt;
+&lt;p&gt;터미널을 열어 다음과 같이 루비스크립트를 작성합니다.
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ISSUER_ID&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;iss&lt;/code&gt;와 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;KEY_ID&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kid&lt;/code&gt; 를 올바는 값으로 바꿔주세요. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;AuthKey_XXXXXX.p8&lt;/code&gt;는 다운로드한 API 키 파일 명으로 바꾸어 주세요.&lt;/p&gt;
 
-&lt;p&gt;터미널을 열어 데스크탑으로 이동합니다.&lt;/p&gt;
+&lt;div class=&quot;alert alert-info d-flex align-items-center&quot; role=&quot;alert&quot;&gt;
+&lt;i class=&quot;bi bi-info-circle-fill&quot; style=&quot;margin-right: 10px&quot;&gt;&lt;/i&gt;
+  &lt;div&gt;
+   만료일(exp)을 늘려 주는 게 좋습니다.
+  &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;Desktop
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;다음과 같이 루비스크립트를 작성합니다.&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vi apple.rb
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;alert alert-warning d-flex align-items-center&quot; role=&quot;alert&quot;&gt;
+  &lt;i class=&quot;bi bi-exclamation-triangle-fill&quot; style=&quot;margin-right: 10px&quot;&gt;&lt;/i&gt;
+  &lt;div&gt;
+    jwt gem을 설치해야 하는 경우 root권한으로 jwt 를 설치해주세요.
+&lt;code&gt;sudo su&lt;/code&gt;
+&lt;code&gt;gem install jwt&lt;/code&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
 &lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;base64&quot;&lt;/span&gt;
 &lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;jwt&quot;&lt;/span&gt;
@@ -50,62 +54,45 @@
 &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;token&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ISSUER_ID&lt;/code&gt; 와 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;KEY_ID&lt;/code&gt;는 키 목록에서 확인 가능하며, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;iss&lt;/code&gt;는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ISSUER_ID&lt;/code&gt; 와 똑같고 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kid&lt;/code&gt; 는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;KEY_ID&lt;/code&gt;와 동일한 값으로 설정해주세요.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+저장한 루비스크립트를 실행시켜 주세요.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;OPTION:&lt;/strong&gt; 만료일(exp)을 조금 더 늘려주는 게 좋을 거에요…&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby 루비스크립트명.rb
+02OrHS6BAuG4mbTv7gao4W2zvybBPrImvvVTOOs2OT6pHhVs6RSQO2YVrBiAduQb3SptRgAWaQO01PRwgmyGGHCgHage5CdMXCebzSjrSeq2SCruWpNeIDkpL6hZkXxF6Bn2Xg3RTtj2uu9T6osN0Iyq7eROqCwxy1gCBnq2xOodjSsDI4XDEDUxK91XR1kstFeJxZeQ
 
-&lt;p&gt;루비스크립트를 작성하고 저장해주세요.&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;:wq
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;저장한 루비스크립트를 실행시켜 주세요.&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby apple.rb
+&lt;p&gt;&lt;br /&gt;
+생성한 토큰을 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;APPSTORETOKEN&lt;/code&gt;명으로 export 해줍니다.&lt;/p&gt;
+&lt;div class=&quot;alert alert-warning d-flex align-items-center&quot; role=&quot;alert&quot;&gt;
+  &lt;i class=&quot;bi bi-exclamation-triangle-fill&quot; style=&quot;margin-right: 10px&quot;&gt;&lt;/i&gt;
+  &lt;div&gt;
+    export: not valid in this context: 에러가 발생할 경우 루비스크립트를 다시 실행하여 새 토큰값으로 다시 시도해 보세요. &lt;br /&gt;토큰 내에 공백이 있는 경우 문제가 있을 수 있습니다.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;APPSTORETOKEN&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;02OrHS6BAuG4mbTv7gao4W2zvybBPrImvvVTOOs2OT6pHhVs6RSQO2YVrBiAduQb3SptRgAWaQO01PRwgmyGGHCgHage5CdMXCebzSjrSeq2SCruWpNeIDkpL6hZkXxF6Bn2Xg3RTtj2uu9T6osN0Iyq7eROqCwxy1gCBnq2xOodjSsDI4XDEDUxK91XR1kstFeJxZeQ
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;OPTION:&lt;/strong&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jwt&lt;/code&gt; gem을 설치해야 하는 경우 root권한으로 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jwt&lt;/code&gt; 를 설치해주세요.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo su
-gem install jwt
-exit
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;에러 없이 루비스크립트를 실행했다면 다음과 같이 token를 출력합니다. (token 값을 모두 X로 대체해서 표시했습니다.)&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby apple.rb
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;token 값을 복사해서 터미널에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;APPSTORETOKEN&lt;/code&gt; 이란 이름으로 export 해줍니다.&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;APPSTORETOKEN&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;OPTION:&lt;/strong&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;export: not valid in this context:&lt;/code&gt; 에러가 발생할 경우 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ruby apple.rb&lt;/code&gt; 명령을 다시 실행하여 새 토큰값으로 다시 시도해 보세요. 토큰 내에 공백이 있는 경우 문제가 있을 수 있습니다.&lt;/p&gt;
 
 &lt;h4 id=&quot;appstoreversionlocalizations-값-얻기&quot;&gt;appStoreVersionLocalizations 값 얻기&lt;/h4&gt;
 
 &lt;p&gt;사파리 또는 구글 크롬 개발자 콘솔을 띄워든 상태로 appstore connect -&amp;gt; 문제가 되는 앱 으로 이동합니다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/184478092-f9a435a1-9c18-4216-8991-6fb3302ae7c9.png&quot; alt=&quot;3&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;콘솔에서 500 RESPONSE ERROR 를 확인할 수 있습니다. 에러가 발생한 주소의 뒤 X부분을 (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;...[appStoreVeresionLocalization]=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX&lt;/code&gt;) 복사해주세요.&lt;/p&gt;
 
-&lt;p&gt;콘솔에 500 RESPONSE ERROR 를 확인할 수 있습니다. 에러가 발생한 주소의 뒤 X부분을 (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;...[appStoreVeresionLocalization]=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX&lt;/code&gt;) 복사해주세요.&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX&lt;/code&gt; 이 appStoreVersionLocalizations 값입니다.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX&lt;/code&gt; 이 appStoreVersionLocalizations 값입니다.
+&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/184478092-f9a435a1-9c18-4216-8991-6fb3302ae7c9.png&quot; alt=&quot;3&quot; /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;모든-스크린샷-제거&quot;&gt;모든 스크린샷 제거&lt;/h4&gt;
 
-&lt;p&gt;거의 다 왔어요!!&lt;/p&gt;
-
 &lt;p&gt;다시 터미널로 돌아와 아래와 같은 명령어를 실행해 줍니다.
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX&lt;/code&gt; 는 바로 위에서 얻은 appStoreVersionLocalizations 값입니다.&lt;/p&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX&lt;/code&gt; 은 appStoreVersionLocalizations 값입니다.&lt;/p&gt;
 
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl &lt;span class=&quot;s1&quot;&gt;&apos;https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX/appScreenshotSets&apos;&lt;/span&gt;  &lt;span class=&quot;nt&quot;&gt;--Header&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Authorization: Bearer &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$APPSTORETOKEN&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;아래와 같이 appScreenshotSets을 확인할 수 있습니다.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+아래와 같이 appScreenshotSets을 확인할 수 있습니다.&lt;/p&gt;
 
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;s2&quot;&gt;&quot;data&quot;&lt;/span&gt; : &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
@@ -123,22 +110,19 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
         ... 이하생략
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;appScreenshotSets 아이디를 이제 알았습니다.
-아래 명령을 통해 appScreenshotSets을 모두 삭제해줍니다.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+appScreenshotSets 아이디를 확인했습니다. appScreenshotSets을 모두 삭제해줍니다.&lt;/p&gt;
 
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl &lt;span class=&quot;nt&quot;&gt;-X&lt;/span&gt; DELETE &lt;span class=&quot;s1&quot;&gt;&apos;https://api.appstoreconnect.apple.com/v1/appScreenshotSets/아이디&apos;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--Header&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Authorization: Bearer &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$APPSTORETOKEN&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;다시 appstore connect에 들어가서 다시 스크린샷을 업로드 해봅니다.
-한번 해서 해결되지 않으면 여러번 시도해 보세요. 저는 3번째 시도에 성공했습니다.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+다시 appstore connect에 들어가서 다시 스크린샷을 업로드 해봅니다.&lt;/p&gt;
+
+&lt;p&gt;한번 해서 해결되지 않으면 여러번 시도해 보세요. 저는 3번째 시도에 성공했습니다.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://developer.apple.com/documentation/appstoreconnectapi/create_an_app_screenshot_set&quot;&gt;appstore connect API - upload an app screenshot&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;참고&lt;/p&gt;
-
-&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://developer.apple.com/forums/thread/712222&quot;&gt;App screenshots can’t be uploaded (stuck on 10%)
 &lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/73313352/app-store-screenshots-screenshot-uploads-in-progress-error-appscreenshotse&quot;&gt;App Store Screenshots - “Screenshot uploads in progress” Error / appScreenshotSets Error&lt;/a&gt;&lt;/li&gt;

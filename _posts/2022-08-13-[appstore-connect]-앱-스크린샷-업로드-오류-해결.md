@@ -5,29 +5,39 @@ category: other
 
 ![1](https://user-images.githubusercontent.com/34812887/184477035-7c57962d-59e1-4c25-8974-2f9eda240f9a.png)
 
-AppStore connect에서 제출한 앱이 심사 통과하지 못했습니다. 충족하지 못한 스크린샷 내용을 수정하고 다시 앱 미리보기에 업로드 하려는데 업로드가 되지 않았습니다.
-
-이 문제를 해결해보겠습니다.
+앱 미리보기에 업로드 하려는데 업로드가 되지 않았습니다. 가끔 웹 클라이언트가 먹통이 되는데요,
+이 문제를 [Appstore connect API](https://developer.apple.com/documentation/appstoreconnectapi)를 활용해 해결해보겠습니다.
 
 ## 해결
 
-**주의!** 맥북 사용자임을 전제로 진행합니다.
-
 #### API 키 생성
 
-appstore connect API를 통해 문제를 해결하기 때문에 Appstore connect -> 사용자 및 엑세스 -> 키 에 들어가서 새로운 키를 생성합니다.
+Appstore connect -> 사용자 및 엑세스 -> 키 에 들어가서 새로운 키를 생성합니다.
 
 ![2](https://user-images.githubusercontent.com/34812887/184477195-aa8e5f07-a1e0-4465-9947-56311981dab6.png)
 
-API키를 생성했으면 목록 우측에 API 키 다운로드 링크를 통해 API 키를 다운로드합니다. 다운로드한 키 파일을 데스크탑으로 이동해 주세요.
+API키를 생성했으면 목록 우측에 API 키 다운로드 링크를 통해 API 키를 다운로드합니다. 생성한 API키는 한번만 다운로드 가능합니다.
 
-API키는 한번만 다운로드할 수 있으니 이 점 주의해주세요.
+#### Ruby script 작성
 
-#### ruby script 작성
+터미널을 열어 다음과 같이 루비스크립트를 작성합니다.
+`ISSUER_ID`, `iss`와 `KEY_ID`, `kid` 를 올바는 값으로 바꿔주세요. `AuthKey_XXXXXX.p8`는 다운로드한 API 키 파일 명으로 바꾸어 주세요.
 
-터미널을 열어
+<div class="alert alert-info d-flex align-items-center" role="alert">
+<i class="bi bi-info-circle-fill" style="margin-right: 10px"></i>
+  <div>
+   만료일(exp)을 늘려 주는 게 좋습니다.
+  </div>
+</div>
 
-다음과 같이 루비스크립트를 작성합니다.
+<div class="alert alert-warning d-flex align-items-center" role="alert">
+  <i class="bi bi-exclamation-triangle-fill" style="margin-right: 10px"></i>
+  <div>
+    jwt gem을 설치해야 하는 경우 root권한으로 jwt 를 설치해주세요.
+<code>sudo su</code>
+<code>gem install jwt</code>
+  </div>
+</div>
 
 ```ruby
 require "base64"
@@ -49,59 +59,47 @@ token = JWT.encode(
 puts token
 ```
 
-`ISSUER_ID` 와 `KEY_ID`는 키 목록에서 확인 가능하며, `iss`는 `ISSUER_ID` 와 똑같고 `kid` 는 `KEY_ID`와 동일한 값으로 설정해주세요.
-
-**OPTION:** 만료일(exp)을 조금 더 늘려주는 게 좋을 거에요...
-
+<br />
 저장한 루비스크립트를 실행시켜 주세요.
 
 ```bash
 ruby 루비스크립트명.rb
-```
-
-**OPTION:** `jwt` gem을 설치해야 하는 경우 root권한으로 `jwt` 를 설치해주세요.
+02OrHS6BAuG4mbTv7gao4W2zvybBPrImvvVTOOs2OT6pHhVs6RSQO2YVrBiAduQb3SptRgAWaQO01PRwgmyGGHCgHage5CdMXCebzSjrSeq2SCruWpNeIDkpL6hZkXxF6Bn2Xg3RTtj2uu9T6osN0Iyq7eROqCwxy1gCBnq2xOodjSsDI4XDEDUxK91XR1kstFeJxZeQ
 
 ```
-sudo su
-gem install jwt
-exit
-```
 
-에러 없이 루비스크립트를 실행했다면 다음과 같이 token를 출력합니다.
-
+<br />
+생성한 토큰을 `APPSTORETOKEN`명으로 export 해줍니다.
+<div class="alert alert-warning d-flex align-items-center" role="alert">
+  <i class="bi bi-exclamation-triangle-fill" style="margin-right: 10px"></i>
+  <div>
+    export: not valid in this context: 에러가 발생할 경우 루비스크립트를 다시 실행하여 새 토큰값으로 다시 시도해 보세요. <br />토큰 내에 공백이 있는 경우 문제가 있을 수 있습니다.
+  </div>
+</div>
 ```bash
-ruby apple.rb
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+export APPSTORETOKEN=02OrHS6BAuG4mbTv7gao4W2zvybBPrImvvVTOOs2OT6pHhVs6RSQO2YVrBiAduQb3SptRgAWaQO01PRwgmyGGHCgHage5CdMXCebzSjrSeq2SCruWpNeIDkpL6hZkXxF6Bn2Xg3RTtj2uu9T6osN0Iyq7eROqCwxy1gCBnq2xOodjSsDI4XDEDUxK91XR1kstFeJxZeQ
 ```
-
-token 값을 복사해서 터미널에 `APPSTORETOKEN` 이란 이름으로 export 해줍니다.
-
-```bash
-export APPSTORETOKEN=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-```
-
-**OPTION:** `export: not valid in this context:` 에러가 발생할 경우 `ruby apple.rb` 명령을 다시 실행하여 새 토큰값으로 다시 시도해 보세요. 토큰 내에 공백이 있는 경우 문제가 있을 수 있습니다.
 
 #### appStoreVersionLocalizations 값 얻기
 
 사파리 또는 구글 크롬 개발자 콘솔을 띄워든 상태로 appstore connect -> 문제가 되는 앱 으로 이동합니다.
 
-![3](https://user-images.githubusercontent.com/34812887/184478092-f9a435a1-9c18-4216-8991-6fb3302ae7c9.png)
-
-콘솔에 500 RESPONSE ERROR 를 확인할 수 있습니다. 에러가 발생한 주소의 뒤 X부분을 (`...[appStoreVeresionLocalization]=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX`) 복사해주세요.
+콘솔에서 500 RESPONSE ERROR 를 확인할 수 있습니다. 에러가 발생한 주소의 뒤 X부분을 (`...[appStoreVeresionLocalization]=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX`) 복사해주세요.
 
 `XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX` 이 appStoreVersionLocalizations 값입니다.
+![3](https://user-images.githubusercontent.com/34812887/184478092-f9a435a1-9c18-4216-8991-6fb3302ae7c9.png)
 
 #### 모든 스크린샷 제거
 
 다시 터미널로 돌아와 아래와 같은 명령어를 실행해 줍니다.
-`XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX` 는 바로 위에서 얻은 appStoreVersionLocalizations 값입니다.
+`XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX` 은 appStoreVersionLocalizations 값입니다.
 
 ```bash
 curl 'https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX/appScreenshotSets'  --Header "Authorization: Bearer $APPSTORETOKEN"
 
 ```
 
+<br />
 아래와 같이 appScreenshotSets을 확인할 수 있습니다.
 
 ```bash
@@ -121,14 +119,16 @@ curl 'https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/XXXX
         ... 이하생략
 ```
 
-appScreenshotSets 아이디를 이제 알았습니다.
-아래 명령을 통해 appScreenshotSets을 모두 삭제해줍니다.
+<br />
+appScreenshotSets 아이디를 확인했습니다. appScreenshotSets을 모두 삭제해줍니다.
 
 ```bash
 curl -X DELETE 'https://api.appstoreconnect.apple.com/v1/appScreenshotSets/아이디' --Header "Authorization: Bearer $APPSTORETOKEN"
 ```
 
+<br />
 다시 appstore connect에 들어가서 다시 스크린샷을 업로드 해봅니다.
+
 한번 해서 해결되지 않으면 여러번 시도해 보세요. 저는 3번째 시도에 성공했습니다.
 
 - [appstore connect API - upload an app screenshot](https://developer.apple.com/documentation/appstoreconnectapi/create_an_app_screenshot_set)
