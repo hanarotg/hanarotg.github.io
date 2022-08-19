@@ -65,6 +65,17 @@ const ScreenName = ({ route, navigation }) => {
 - [reactnative layout-props](https://reactnative.dev/docs/layout-props)
 - [Text vertical align in react native (using nativebase)](https://stackoverflow.com/questions/44337469/text-vertical-align-in-react-native-using-nativebase)
 
+#### [Android] 빌드 시 :app:installDebug 단계에서 진행되지 않는 경우
+
+adb 서버를 재시작합니다.
+
+```bash
+adb kill-server
+adb start-server
+```
+
+- [React-Native project stuck on :app:installDebug](https://stackoverflow.com/questions/46933612/react-native-project-stuck-on-appinstalldebug)
+
 #### [Android] 빌드 캐시 지우기
 
 생각보다 빌드 오류가 자주 발생합니다. 이때 한번씩 해주면 됩니다.
