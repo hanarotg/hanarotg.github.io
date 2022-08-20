@@ -113,6 +113,29 @@ rm -rf ~/.gradle/caches/
 - [Execution failed for task ':app:mergeDexDebug'.
   ](https://paulaner80.tistory.com/entry/Execution-failed-for-task-appmergeDexDebug)
 
+#### [Android] 애플리케이션 버전 정보 설정
+
+play store에 새로운 버전을 출시하기 위해선 `./gradlew bundleRelease` 전에 android > app > build.gradle 에서 버전 코드를 수정해야 합니다.
+
+```groovy
+android {
+    ...
+    defaultConfig {
+        ...
+        versionCode 2
+        versionName "1.1"
+    }
+
+}
+```
+
+- [android developer - 애플리케이션 버전 정보 설정](https://developer.android.com/studio/publish/versioning?hl=ko#groovy)
+
+#### [Android] 앱 엑세스 계정 등록하기
+
+google play console 접속 > 정책 > 앱 콘텐츠 > 앱 엑세스 권한 (관리)
+![google play console](https://user-images.githubusercontent.com/34812887/185728149-0131b1f6-d98e-4d6d-920b-4496ee6ef48d.png)
+
 #### [IOS] 빌드 파일 지우기
 
 ```bash
