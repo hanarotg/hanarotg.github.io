@@ -44,8 +44,9 @@ layout: default
     숭파이 - 숭실 교내 와이파이 연결 도우미 <span class="badge text-bg-warning">준비중</span>
     <br />
       <a href="https://hanarotg.github.io/others/soongfi/"><i class="bi bi-house-door-fill"></i> 홈페이지</a><br />
-      <a href="https://hanarotg.github.io/others/soongfi/webservice.html"><i class="bi bi-globe"></i> 웹서비스</a>
+      <a href="https://soongfi.github.io/Soongfi-WEB/"><i class="bi bi-globe"></i> 웹서비스</a>
       <a href="https://apps.apple.com/kr/app/soongfi/" ><i class="bi bi-apple"></i> IOS(준비중)</a><br />
+      <a href="https://github.com/soongfi/" ><i class="bi bi-github"></i> 깃허브(그룹)</a>
   </div>
 </div>
 
