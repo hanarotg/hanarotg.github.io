@@ -1,6 +1,6 @@
 ---
 layout: post
-category: other
+category: checked
 ---
 
 ![1](https://user-images.githubusercontent.com/34812887/184477035-7c57962d-59e1-4c25-8974-2f9eda240f9a.png)

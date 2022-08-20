@@ -127,6 +127,18 @@
   <li><a href="https://stackoverflow.com/questions/44337469/text-vertical-align-in-react-native-using-nativebase">Text vertical align in react native (using nativebase)</a></li>
 </ul>
 
+<h4 id="android-빌드-시-appinstalldebug-단계에서-진행되지-않는-경우">[Android] 빌드 시 :app:installDebug 단계에서 진행되지 않는 경우</h4>
+
+<p>adb 서버를 재시작합니다.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>adb kill-server
+adb start-server
+</code></pre></div></div>
+
+<ul>
+  <li><a href="https://stackoverflow.com/questions/46933612/react-native-project-stuck-on-appinstalldebug">React-Native project stuck on :app:installDebug</a></li>
+</ul>
+
 <h4 id="android-빌드-캐시-지우기">[Android] 빌드 캐시 지우기</h4>
 
 <p>생각보다 빌드 오류가 자주 발생합니다. 이때 한번씩 해주면 됩니다.</p>
@@ -164,6 +176,30 @@
   <li><a href="https://paulaner80.tistory.com/entry/Execution-failed-for-task-appmergeDexDebug">Execution failed for task ‘:app:mergeDexDebug’.
 </a></li>
 </ul>
+
+<h4 id="android-애플리케이션-버전-정보-설정">[Android] 애플리케이션 버전 정보 설정</h4>
+
+<p>play store에 새로운 버전을 출시하기 위해선 <code class="language-plaintext highlighter-rouge">./gradlew bundleRelease</code> 전에 android &gt; app &gt; build.gradle 에서 버전 코드를 수정해야 합니다.</p>
+
+<div class="language-groovy highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">android</span> <span class="o">{</span>
+    <span class="o">...</span>
+    <span class="n">defaultConfig</span> <span class="o">{</span>
+        <span class="o">...</span>
+        <span class="n">versionCode</span> <span class="mi">2</span>
+        <span class="n">versionName</span> <span class="s2">"1.1"</span>
+    <span class="o">}</span>
+
+<span class="o">}</span>
+</code></pre></div></div>
+
+<ul>
+  <li><a href="https://developer.android.com/studio/publish/versioning?hl=ko#groovy">android developer - 애플리케이션 버전 정보 설정</a></li>
+</ul>
+
+<h4 id="android-앱-엑세스-계정-등록하기">[Android] 앱 엑세스 계정 등록하기</h4>
+
+<p>google play console 접속 &gt; 정책 &gt; 앱 콘텐츠 &gt; 앱 엑세스 권한 (관리)
+<img src="https://user-images.githubusercontent.com/34812887/185728149-0131b1f6-d98e-4d6d-920b-4496ee6ef48d.png" alt="google play console" /></p>
 
 <h4 id="ios-빌드-파일-지우기">[IOS] 빌드 파일 지우기</h4>
 

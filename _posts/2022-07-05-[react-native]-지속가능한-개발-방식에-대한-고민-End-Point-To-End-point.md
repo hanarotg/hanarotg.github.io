@@ -1,6 +1,6 @@
 ---
 layout: post
-category: reactnative
+category: checked
 title: 지속 가능한 개발 방식에 대한 고민 End point To End Point
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-category: reactnative
+category: checked
 ---
 
 ## 개요

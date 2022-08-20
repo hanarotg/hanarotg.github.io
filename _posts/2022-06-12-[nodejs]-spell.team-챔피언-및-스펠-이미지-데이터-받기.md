@@ -1,6 +1,6 @@
 ---
 layout: post
-category: nodejs
+category: spellteam
 ---
 
 ## 개요
