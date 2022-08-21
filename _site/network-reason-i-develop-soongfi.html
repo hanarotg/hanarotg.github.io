@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- CSS only -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+    crossorigin="anonymous"
+  />
+
+  <!-- bootstrap icon -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap"
+    rel="stylesheet"
+  />
+
+  <title>내가 숭실 교내 와이파이 문제를 이해하고 숭파이를 만든 과정</title><!-- Begin Jekyll SEO tag v2.7.1 -->
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="내가 숭실 교내 와이파이 문제를 이해하고 숭파이를 만든 과정" />
+<meta name="author" content="Lee Taegyeong" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="숭실 교내 와이파이 Soongsil_WIFI는 문제가 많습니다. 로그인 화면이 자동으로 뜨지 않아 인터넷 사용이 불가능한 경우, 비정상적으로 인터넷이 느려지는 경우 등.." />
+<meta property="og:description" content="숭실 교내 와이파이 Soongsil_WIFI는 문제가 많습니다. 로그인 화면이 자동으로 뜨지 않아 인터넷 사용이 불가능한 경우, 비정상적으로 인터넷이 느려지는 경우 등.." />
+<link rel="canonical" href="http://localhost:4000/network-reason-i-develop-soongfi.html" />
+<meta property="og:url" content="http://localhost:4000/network-reason-i-develop-soongfi.html" />
+<meta property="og:site_name" content="Lee Taegyeong" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-08-21T00:00:00+09:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="내가 숭실 교내 와이파이 문제를 이해하고 숭파이를 만든 과정" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","url":"http://localhost:4000/network-reason-i-develop-soongfi.html","description":"숭실 교내 와이파이 Soongsil_WIFI는 문제가 많습니다. 로그인 화면이 자동으로 뜨지 않아 인터넷 사용이 불가능한 경우, 비정상적으로 인터넷이 느려지는 경우 등..","headline":"내가 숭실 교내 와이파이 문제를 이해하고 숭파이를 만든 과정","dateModified":"2022-08-21T00:00:00+09:00","datePublished":"2022-08-21T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/network-reason-i-develop-soongfi.html"},"author":{"@type":"Person","name":"Lee Taegyeong"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Lee Taegyeong" /><link
+    rel="shortcut icon"
+    type="image/x-icon"
+    href="/logo.png"
+  />
+  <link rel="stylesheet" href="/assets/css/main.css" />
+</head>
+<body a="auto"><div class="container-fluid" id="header_navbar_container">
+  <div class="container" id="header_navbar">
+    <a href="/">Lee Taegyeong</a>
+  </div>
+</div>
+<main class="page-content" aria-label="Content">
+      <div class="w">
+        <!--<a href="/">뒤로 가기..</a>-->
+
+<h1>내가 숭실 교내 와이파이 문제를 이해하고 숭파이를 만든 과정</h1>
+
+<article>
+  <p class="post-meta">
+    <time datetime="2022-08-21 00:00:00 +0900"
+      >2022-08-21</time
+    >
+  </p>
+  <hr />
+  <p>숭실 교내 와이파이 Soongsil_WIFI는 문제가 많습니다. 로그인 화면이 자동으로 뜨지 않아 인터넷 사용이 불가능한 경우, 비정상적으로 인터넷이 느려지는 경우 등..</p>
+
+<p>보통 Soongsil_WIFI에 연결하면 로그인 페이지가 뜨지만, 그렇지 않은 경우도 있습니다.</p>
+
+<h2 id="문제-인식">문제 인식</h2>
+
+<div class="alert alert-warning d-flex align-items-center" role="alert">
+  <i class="bi bi-exclamation-triangle-fill" style="margin-right: 10px"></i>
+  <div>
+   이하 내용은 모두 사실이 아닌 추측입니다.<br />정확하지 않은 정보가 있을 수 있으니 내용 보강이 필요할 경우 댓글 남겨주세요!
+  </div>
+</div>
+
+<h4 id="정상적인일반적인-상황">정상적인(일반적인) 상황</h4>
+
+<p><img src="https://user-images.githubusercontent.com/34812887/185789202-b5cfae73-07b2-48f7-a365-539892ce5b6c.png" alt="2131" /></p>
+
+<h4 id="비정상적인-상황">비정상적인 상황</h4>
+
+<p><img src="https://user-images.githubusercontent.com/34812887/185789512-9f502cf4-988a-474a-9768-61b8eccf6c31.png" alt="124124" /></p>
+
+
+  <p class="text-muted">댓글을 남겨주세요.</p>
+  <script
+    src="https://utteranc.es/client.js"
+    repo="hanarotg/hanarotg.github.io"
+    issue-term="pathname"
+    theme="preferred-color-scheme"
+    crossorigin="anonymous"
+    async
+  ></script>
+</article>
+
+      </div>
+    </main><div class="container" id="header_navbar">
+  <hr />
+  <br />2022 Lee Taegyeong<br /><br /><br />
+</div>
+</body>
+</html>
