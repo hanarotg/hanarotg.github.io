@@ -41,7 +41,7 @@ layout: default
     <img src="https://hanarotg.github.io/others/soongfi/soongfi.png" id="project-icon" />
   </div>
   <div class="col" id="project-description">
-    숭파이 - 숭실 교내 와이파이 연결 도우미 <span class="badge text-bg-warning">준비중</span>
+    숭파이 - 숭실 교내 와이파이 연결 도우미 <span class="badge text-bg-info">개발 완료</span>
     <br />
       <a href="https://hanarotg.github.io/others/soongfi/"><i class="bi bi-house-door-fill"></i> 홈페이지</a><br />
       <a href="https://soongfi.github.io/Soongfi-WEB/"><i class="bi bi-globe"></i> 웹서비스</a>
