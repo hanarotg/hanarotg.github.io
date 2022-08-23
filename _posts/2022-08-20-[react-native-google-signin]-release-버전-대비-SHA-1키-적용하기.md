@@ -43,6 +43,10 @@ Variant: release의 SHA-1 키를 복사합니다.
 npx react-native run-android --variant=release
 ```
 
+220823 추가
+
+분명히 release 빌드에서도 정상적으로 되는 걸 확인했는데 똑같은 문제가 발생했네요,, 다시 업데이트하겠습니다.
+
 참고
 
 - [react-native-google-signin/google-signin - Android Guide](https://github.com/react-native-google-signin/google-signin/blob/master/docs/android-guide.md)
