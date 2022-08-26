@@ -1,6 +1,7 @@
 ---
 layout: post
 category: checked
+title: react-native 개발할 때 알면 좋은 팁
 ---
 
 ## 개요
@@ -159,3 +160,7 @@ Android 앱 아이콘을 생성할 땐 기본 아이콘 이름 ic_launcher / 라
 #### 배포 스크린샷 만들기
 
 - [https://studio.app-mockup.com](https://studio.app-mockup.com)
+
+#### 목업 제작 사이트
+
+- [https://mockuphone.com/](https://mockuphone.com/)
