@@ -30,7 +30,7 @@ layout: default
     <br />
       <a href="https://hanarotg.github.io/others/checked/"><i class="bi bi-house-door-fill"></i> 홈페이지</a><br />
       <a href="https://apps.apple.com/kr/app/checked/id1610982857" ><i class="bi bi-apple"></i> IOS</a>
-      <a href="https://play.google.com/store/apps/details?id=com.checked" ><i class="bi bi-google-play"></i> 안드로이드(준비중)</a>
+      <a href="https://play.google.com/store/apps/details?id=com.checked" ><i class="bi bi-google-play"></i> 안드로이드</a>
   </div>
 </div>
 
