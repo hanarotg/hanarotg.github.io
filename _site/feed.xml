@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-09-05T14:39:15+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lee Taegyeong</title><subtitle>안녕하세요 이태경입니다.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-09-05T17:25:22+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lee Taegyeong</title><subtitle>안녕하세요 이태경입니다.
 </subtitle><author><name>Lee Taegyeong</name></author><entry><title type="html">AWS EC2 서버 구축 올인원 가이드 (EC2, ELB, Route53, 포트포워딩까지)</title><link href="http://localhost:4000/aws-build-ec2-server-guide-all-in-one.html" rel="alternate" type="text/html" title="AWS EC2 서버 구축 올인원 가이드 (EC2, ELB, Route53, 포트포워딩까지)" /><published>2022-09-04T00:00:00+09:00</published><updated>2022-09-04T00:00:00+09:00</updated><id>http://localhost:4000/aws-build-ec2-server-guide-all-in-one</id><content type="html" xml:base="http://localhost:4000/aws-build-ec2-server-guide-all-in-one.html">&lt;p&gt;정말 여러 번 했지만 매번 까먹는 것 같습니다.&lt;/p&gt;
 
 &lt;div class=&quot;alert alert-warning d-flex align-items-center&quot; role=&quot;alert&quot;&gt;
@@ -69,7 +69,70 @@ ELB 타겟 그룹을 정상적으로 생성하였습니다. 위의 단계를 통
 
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188367998-2db1734a-f90b-40e7-90e8-4ad1f09c3ea1.jpeg&quot; alt=&quot;IMG_9C745D8F40B0-1&quot; /&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;route53-도메인과-elb-연결&quot;&gt;Route53 도메인과 ELB 연결&lt;/h4&gt;</content><author><name>Lee Taegyeong</name></author><category term="spellteam" /><summary type="html">정말 여러 번 했지만 매번 까먹는 것 같습니다.</summary></entry><entry><title type="html">내가 숭실 교내 와이파이 문제를 이해하고 숭파이를 만든 과정</title><link href="http://localhost:4000/network-reason-i-develop-soongfi.html" rel="alternate" type="text/html" title="내가 숭실 교내 와이파이 문제를 이해하고 숭파이를 만든 과정" /><published>2022-08-21T00:00:00+09:00</published><updated>2022-08-21T00:00:00+09:00</updated><id>http://localhost:4000/%5Bnetwork%5D-reason-I-develop-soongfi</id><content type="html" xml:base="http://localhost:4000/network-reason-i-develop-soongfi.html">&lt;p&gt;숭실 교내 와이파이 Soongsil_WIFI는 문제가 많습니다. 로그인 화면이 자동으로 뜨지 않아 인터넷 사용이 불가능한 경우, 비정상적으로 인터넷이 느려지는 경우 등..&lt;/p&gt;
+&lt;h4 id=&quot;elb-생성&quot;&gt;ELB 생성&lt;/h4&gt;
+
+&lt;p&gt;위에서 생성한 ELB Target Group을 통해 ELB를 생성해 보겠습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188371084-0bfd55b5-e9e4-456a-9e51-a4e5e961e212.png&quot; alt=&quot;395304&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Application Load Balancer 생성을 선택합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188371265-7f55d89a-c5ca-4751-9d0f-04959ff5c87b.png&quot; alt=&quot;939024&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Load balancer name 와 Mapping 4개 모두 선택, 보안 그룹 선택합니다. Listeners and routing 에서 80 포트에 대한 ELB 타겟 그룹을 위에서 생성한 타겟 그룹으로 지정합니다. 이후 하단의 Create Load Balancer를 클릭합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188397985-43720609-a083-4c8b-b82a-d89f49c0b846.png&quot; alt=&quot;9308&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;로드-밸런서-포트-포워딩&quot;&gt;로드 밸런서 포트 포워딩&lt;/h4&gt;
+
+&lt;p&gt;HTTPS에 대한 포트 포워딩 처리를 해보겠습니다.&lt;/p&gt;
+
+&lt;p&gt;로드밸런서 -&amp;gt; 생성한 로드밸런서 선택 -&amp;gt; 리스너 -&amp;gt; 리스너 추가를 선택합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188403428-71ad95a1-f280-427b-b8dc-88448aa4f377.png&quot; alt=&quot;069069&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;route53-도메인과-elb-연결&quot;&gt;Route53 도메인과 ELB 연결&lt;/h4&gt;
+
+&lt;p&gt;Route53 -&amp;gt; 호스팅 영역 -&amp;gt; 생성한 도메인을 선택합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188369441-b9fd439e-d227-4217-805d-22a4ab2b665d.png&quot; alt=&quot;9595959&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+레코드 생성을 선택합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188369982-41a5caf1-5279-4039-aa15-56c3a57d8bbb.png&quot; alt=&quot;2202020&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;단순 라우팅을 선택합니다.&lt;/p&gt;
+
+&lt;div class=&quot;alert alert-info d-flex align-items-center&quot; role=&quot;alert&quot;&gt;
+&lt;i class=&quot;bi bi-info-circle-fill&quot; style=&quot;margin-right: 10px&quot;&gt;&lt;/i&gt;
+  &lt;div&gt;
+   빠른 레코드 생성일 경우 마법사로 전환을 클릭해주세요.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188399754-9d8a9443-3ebd-4cfc-89b7-8ddade0472e3.png&quot; alt=&quot;309876&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;레코드 이름에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*&lt;/code&gt; 을 입력하고 레코드 유형은 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A - IPv4..&lt;/code&gt; 사진과 같이 위에서 생성한 로드밸런서를 선택합니다. 세팅이 완료되면 단순 레코드 정의를 선택해주세요.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188400325-047e683a-b521-474f-8a81-db0ba5e74be2.png&quot; alt=&quot;37649403&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+레코드 정의가 완료되면 레코드 생성을 선택합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188401737-067ca96d-c6ec-429b-b216-664c1a81c2ae.png&quot; alt=&quot;8629634&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;참고&quot;&gt;참고&lt;/h2&gt;
+
+&lt;h4 id=&quot;우분투-포트-포워딩&quot;&gt;우분투 포트 포워딩&lt;/h4&gt;</content><author><name>Lee Taegyeong</name></author><category term="spellteam" /><summary type="html">정말 여러 번 했지만 매번 까먹는 것 같습니다.</summary></entry><entry><title type="html">내가 숭실 교내 와이파이 문제를 이해하고 숭파이를 만든 과정</title><link href="http://localhost:4000/network-reason-i-develop-soongfi.html" rel="alternate" type="text/html" title="내가 숭실 교내 와이파이 문제를 이해하고 숭파이를 만든 과정" /><published>2022-08-21T00:00:00+09:00</published><updated>2022-08-21T00:00:00+09:00</updated><id>http://localhost:4000/%5Bnetwork%5D-reason-I-develop-soongfi</id><content type="html" xml:base="http://localhost:4000/network-reason-i-develop-soongfi.html">&lt;p&gt;숭실 교내 와이파이 Soongsil_WIFI는 문제가 많습니다. 로그인 화면이 자동으로 뜨지 않아 인터넷 사용이 불가능한 경우, 비정상적으로 인터넷이 느려지는 경우 등..&lt;/p&gt;
 
 &lt;p&gt;보통 Soongsil_WIFI에 연결하면 로그인 페이지가 뜨지만, 그렇지 않은 경우도 있습니다.&lt;/p&gt;
 

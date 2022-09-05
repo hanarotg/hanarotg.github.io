@@ -74,4 +74,67 @@ ELB 타겟 그룹을 정상적으로 생성하였습니다. 위의 단계를 통
 
 ![IMG_9C745D8F40B0-1](https://user-images.githubusercontent.com/34812887/188367998-2db1734a-f90b-40e7-90e8-4ad1f09c3ea1.jpeg)
 
+#### ELB 생성
+
+위에서 생성한 ELB Target Group을 통해 ELB를 생성해 보겠습니다.
+
+![395304](https://user-images.githubusercontent.com/34812887/188371084-0bfd55b5-e9e4-456a-9e51-a4e5e961e212.png)
+
+<br />
+
+Application Load Balancer 생성을 선택합니다.
+
+![939024](https://user-images.githubusercontent.com/34812887/188371265-7f55d89a-c5ca-4751-9d0f-04959ff5c87b.png)
+
+<br />
+
+Load balancer name 와 Mapping 4개 모두 선택, 보안 그룹 선택합니다. Listeners and routing 에서 80 포트에 대한 ELB 타겟 그룹을 위에서 생성한 타겟 그룹으로 지정합니다. 이후 하단의 Create Load Balancer를 클릭합니다.
+
+![9308](https://user-images.githubusercontent.com/34812887/188397985-43720609-a083-4c8b-b82a-d89f49c0b846.png)
+
+#### 로드 밸런서 포트 포워딩
+
+HTTPS에 대한 포트 포워딩 처리를 해보겠습니다.
+
+로드밸런서 -> 생성한 로드밸런서 선택 -> 리스너 -> 리스너 추가를 선택합니다.
+
+![069069](https://user-images.githubusercontent.com/34812887/188403428-71ad95a1-f280-427b-b8dc-88448aa4f377.png)
+
 #### Route53 도메인과 ELB 연결
+
+Route53 -> 호스팅 영역 -> 생성한 도메인을 선택합니다.
+
+![9595959](https://user-images.githubusercontent.com/34812887/188369441-b9fd439e-d227-4217-805d-22a4ab2b665d.png)
+
+<br />
+레코드 생성을 선택합니다.
+
+![2202020](https://user-images.githubusercontent.com/34812887/188369982-41a5caf1-5279-4039-aa15-56c3a57d8bbb.png)
+
+<br />
+
+단순 라우팅을 선택합니다.
+
+<div class="alert alert-info d-flex align-items-center" role="alert">
+<i class="bi bi-info-circle-fill" style="margin-right: 10px"></i>
+  <div>
+   빠른 레코드 생성일 경우 마법사로 전환을 클릭해주세요.
+  </div>
+</div>
+
+![309876](https://user-images.githubusercontent.com/34812887/188399754-9d8a9443-3ebd-4cfc-89b7-8ddade0472e3.png)
+
+<br />
+
+레코드 이름에 `*` 을 입력하고 레코드 유형은 `A - IPv4..` 사진과 같이 위에서 생성한 로드밸런서를 선택합니다. 세팅이 완료되면 단순 레코드 정의를 선택해주세요.
+
+![37649403](https://user-images.githubusercontent.com/34812887/188400325-047e683a-b521-474f-8a81-db0ba5e74be2.png)
+
+<br />
+레코드 정의가 완료되면 레코드 생성을 선택합니다.
+
+![8629634](https://user-images.githubusercontent.com/34812887/188401737-067ca96d-c6ec-429b-b216-664c1a81c2ae.png)
+
+## 참고
+
+#### 우분투 포트 포워딩
