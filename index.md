@@ -57,9 +57,9 @@ layout: default
     <img src="https://hanarotg.github.io/others/undefined/spellteam.png" id="project-icon" />
   </div>
   <div class="col" id="project-description">
-    SPELL.TEAM <span class="badge text-bg-warning">준비중</span>
+    SPELL.TEAM - 롤 스펠 체크 타이머 <span class="badge text-bg-primary">운영중(베타)</span>
     <br />
-   
+     <a href="https://spell.team/"><i class="bi bi-globe"></i> 웹서비스</a>
   </div>
 </div>
 

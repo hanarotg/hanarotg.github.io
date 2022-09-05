@@ -82,7 +82,7 @@ ELB 타겟 그룹을 정상적으로 생성하였습니다. 위의 단계를 통
 
 <br />
 
-Application Load Balancer 생성을 선택합니다.
+`Application Load Balancer 생성`을 선택합니다.
 
 ![939024](https://user-images.githubusercontent.com/34812887/188371265-7f55d89a-c5ca-4751-9d0f-04959ff5c87b.png)
 
@@ -92,33 +92,26 @@ Load balancer name 와 Mapping 4개 모두 선택, 보안 그룹 선택합니다
 
 ![9308](https://user-images.githubusercontent.com/34812887/188397985-43720609-a083-4c8b-b82a-d89f49c0b846.png)
 
-#### 로드 밸런서 포트 포워딩
-
-HTTPS에 대한 포트 포워딩 처리를 해보겠습니다.
-
-로드밸런서 -> 생성한 로드밸런서 선택 -> 리스너 -> 리스너 추가를 선택합니다.
-
-![069069](https://user-images.githubusercontent.com/34812887/188403428-71ad95a1-f280-427b-b8dc-88448aa4f377.png)
-
 #### Route53 도메인과 ELB 연결
 
-Route53 -> 호스팅 영역 -> 생성한 도메인을 선택합니다.
+Route53 -> 호스팅 영역 -> `생성한 도메인`을 선택합니다.
 
 ![9595959](https://user-images.githubusercontent.com/34812887/188369441-b9fd439e-d227-4217-805d-22a4ab2b665d.png)
 
 <br />
-레코드 생성을 선택합니다.
+
+`레코드 생성`을 선택합니다.
 
 ![2202020](https://user-images.githubusercontent.com/34812887/188369982-41a5caf1-5279-4039-aa15-56c3a57d8bbb.png)
 
 <br />
 
-단순 라우팅을 선택합니다.
+`단순 라우팅`을 선택합니다.
 
 <div class="alert alert-info d-flex align-items-center" role="alert">
 <i class="bi bi-info-circle-fill" style="margin-right: 10px"></i>
   <div>
-   빠른 레코드 생성일 경우 마법사로 전환을 클릭해주세요.
+   빠른 레코드 생성일 경우 <code>마법사로 전환</code>을 클릭해주세요.
   </div>
 </div>
 
@@ -131,10 +124,116 @@ Route53 -> 호스팅 영역 -> 생성한 도메인을 선택합니다.
 ![37649403](https://user-images.githubusercontent.com/34812887/188400325-047e683a-b521-474f-8a81-db0ba5e74be2.png)
 
 <br />
-레코드 정의가 완료되면 레코드 생성을 선택합니다.
+
+레코드 정의가 완료되면 `레코드 생성`을 선택합니다.
 
 ![8629634](https://user-images.githubusercontent.com/34812887/188401737-067ca96d-c6ec-429b-b216-664c1a81c2ae.png)
 
+#### ACM으로 도메인에 대한 SSL 인증서 생성
+
+ACM에서 `인증서 요청`을 선택합니다.
+
+![847473930](https://user-images.githubusercontent.com/34812887/188447982-42853c6b-3f04-408e-bc78-16962353d9ff.png)
+
+<br />
+
+퍼블릭 인증서 요청을 선택하고 `다음`을 선택합니다.
+
+![2927020230](https://user-images.githubusercontent.com/34812887/188448286-f4abe932-dddc-4037-b1b0-0cf00073d9ac.png)
+
+<br />
+
+완전히 정규화된 도메인 이름에 도메인을 입력한 후 `요청`을 선택합니다.
+
+![57575748](https://user-images.githubusercontent.com/34812887/188448809-dab6e778-a97b-4b93-b39d-3ae5eba0ab21.png)
+
+<br />
+
+요청한 도메인에 대한 인증서가 검증 대기 중인 것을 확인할 수 있습니다. `인증서 ID` 링크를 선택합니다.
+
+![75756489](https://user-images.githubusercontent.com/34812887/188449590-0c774961-ffca-4ed8-b51c-b60928972acb.png)
+
+<br />
+
+`Route53에서 레코드 생성`을 선택합니다.
+
+![8568577](https://user-images.githubusercontent.com/34812887/188450702-2440ab98-6910-4177-9c25-11e934869e64.png)
+
+<br />
+
+`레코드 생성`을 선택합니다.
+
+<div class="alert alert-warning d-flex align-items-center" role="alert">
+  <i class="bi bi-exclamation-triangle-fill" style="margin-right: 10px"></i>
+  <div>
+ <b>레코드 생성에 오류가 발생하는 경우 Route53 콘솔로 들어가서 수동으로 CNAME을 생성하세요.</b><br />
+   레코드 생성 -> 단순 라우팅 생성 -><br />레코드 이름(CNAME 이름), 레코드 유형(CNAME), 값/트래픽 라우팅 대상(이 호스팅 영역에 다른 레코드에 대한 별칭), 레코드 선택(CNAME 값)<br />-> 단순 레코드 정의 
+  </div>
+</div>
+
+![333324](https://user-images.githubusercontent.com/34812887/188450477-3fded54a-7a75-47d7-b38a-9b48eded43fa.png)
+
+도메인 인증을 위한 CNAME 추가까지 완료했습니다. 발급됨 상태가 될 때까지 기다리도록 하겠습니다.
+
+#### 로드 밸런서 리스닝 추가
+
+로드밸런서 -> 생성한 로드밸런서 선택 -> 리스너 -> `리스너 추가`를 선택합니다.
+
+![069069](https://user-images.githubusercontent.com/34812887/188403428-71ad95a1-f280-427b-b8dc-88448aa4f377.png)
+
+<br />
+
+Protocol : HTTPS (443) 설정 후 default action을 foward to 로드밸런싱 타겟으로 지정해주세요. Secure listener settings에선 아무거나 선택해도 괜찮습니다. Default SSL/TLS certificate에 위에서 발급받은 인증서를 선택해 주세요.
+
+![11020203](https://user-images.githubusercontent.com/34812887/188463482-a9ac033f-071a-4b0b-ae86-951850919fdd.png)
+
+<br />
+
+이제 80포트에 접속을 시도하면 443 포트로 리다이렉트하도록 설정해주겠습니다. HTTP : 80 규칙 -> 규칙 보기/편집을 선택합니다.
+
+아래와 같이 편집 아이콘을 선택해주세요.
+
+![0004932](https://user-images.githubusercontent.com/34812887/188465439-4ed6f046-e538-4b87-a558-56188ce96649.png)
+
+<br />
+
+아래와 같이 443포트로 리다이렉트 되도록 규칙을 편집 후 업데이트를 선택합니다.
+
+![01029333](https://user-images.githubusercontent.com/34812887/188465842-2bdafbb1-6b0c-4117-83ee-5a716c740dd7.png)
+
+이로써 모든 세팅이 완료되었습니다. Route53, ACM, ELB, 탄력적 IP를 통해 EC2 인스턴스에서 80 포트를 열었습니다.
+
+<div class="alert alert-warning d-flex align-items-center" role="alert">
+  <i class="bi bi-exclamation-triangle-fill" style="margin-right: 10px"></i>
+  <div>
+    80포트 어플리케이션을 구동하는 것을 추천하지 않습니다.<br />
+    EC2 인스턴스에서 ngix 등의 프록시 서버를 구축하는 것을 추천합니다.
+  </div>
+</div>
+
 ## 참고
 
-#### 우분투 포트 포워딩
+#### 우분투 서버 포트 포워딩
+
+Node.js 서버 어플리케이션의 경우 80 포트 어플리케이션 구동을 할 수 없습니다. 따라서 어플리케이션을 다른 포트로 구동한 다음 우분투 서버에서 80포트 요청 시 서버 어플레케이션 포트로 포워딩 하도록 설정해 보겠습니다.
+
+포트 포워딩 목록 조회
+
+```bash
+sudo iptables -t nat -L --line-numbers
+```
+
+80 포트 포워딩 추가
+
+```bash
+sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 포워딩받는포트
+```
+
+포트 포워딩 삭제
+
+```bash
+sudo iptables -t nat -D PREROUTING 포워딩테이블넘버
+```
+
+- [Ubuntu 포트포워딩(Portforwarding)으로 포트번호 없이 접근하기
+  ](https://velog.io/@shawnhansh/Ubuntu-%ED%8F%AC%ED%8A%B8%ED%8F%AC%EC%9B%8C%EB%94%A9Portforwarding)
