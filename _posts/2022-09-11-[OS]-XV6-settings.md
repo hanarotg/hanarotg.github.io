@@ -18,6 +18,17 @@ sudo make qemu-nox
 
 #### qemu 에뮬레이터 종료
 
+방법1)
+
+`shutdown` 명령어가 기본적으로 제공됩니다.
+
+```bash
+shutdown
+```
+
+방법2)
+
 <kbd>Control + a</kbd> 입력 후 <kbd>x</kbd>를 눌러줍니다.
 
 - [Close qemu from a process in xv6](https://stackoverflow.com/questions/47210264/close-qemu-from-a-process-in-xv6)
+- [xv6 general information](https://www.cs.virginia.edu/~cr4bd/4414/S2021/xv6.html)
