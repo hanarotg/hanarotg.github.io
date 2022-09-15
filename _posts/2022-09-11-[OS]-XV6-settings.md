@@ -1,6 +1,6 @@
 ---
 layout: post
-title: EC2 인스턴스에서 XV6 개발 환경 세팅하는 방법 및 에러 해결
+title: EC2 인스턴스에서 XV6 개발 환경 세팅하는 방법, 에러 해결
 category: os
 ---
 
@@ -17,16 +17,6 @@ sudo make qemu-nox
 ```
 
 #### qemu 에뮬레이터 종료
-
-방법1)
-
-`shutdown` 명령어가 기본적으로 제공됩니다.
-
-```bash
-shutdown
-```
-
-방법2)
 
 <kbd>Control + a</kbd> 입력 후 <kbd>x</kbd>를 눌러줍니다.
 
