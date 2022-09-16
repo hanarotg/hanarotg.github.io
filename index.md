@@ -46,7 +46,8 @@ layout: default
       <a href="https://hanarotg.github.io/others/soongfi/"><i class="bi bi-house-door-fill"></i> 홈페이지</a><br />
       <a href="https://soongfi.github.io/Soongfi-WEB/"><i class="bi bi-globe"></i> 웹서비스</a>
       <a href="https://apps.apple.com/kr/app/soongfi/" ><i class="bi bi-apple"></i> IOS(준비중)</a><br />
-      <a href="https://github.com/soongfi/" ><i class="bi bi-github"></i> 깃허브(그룹)</a>
+      <a href="https://github.com/soongfi/" ><i class="bi bi-github"></i> 깃허브(그룹)</a><br />
+      - <a href="https://hanarotg.github.io/network-reason-i-develop-soongfi.html">Captive Portal 문제를 이해하고 숭파이를 만든 과정</a>
   </div>
 </div>
 
@@ -57,7 +58,7 @@ layout: default
     <img src="https://hanarotg.github.io/others/undefined/spellteam.png" id="project-icon" />
   </div>
   <div class="col" id="project-description">
-    SPELL.TEAM - 롤 스펠 체크 타이머 <span class="badge text-bg-primary">운영중(베타)</span>
+    SPELL.TEAM - 롤 스펠 체크 타이머 <span class="badge text-bg-primary">운영중</span>
     <br />
      <a href="https://spell.team/"><i class="bi bi-globe"></i> 웹서비스</a>
   </div>

@@ -100,8 +100,9 @@
 
 <p><img src="https://user-images.githubusercontent.com/34812887/188364781-7e4a1bff-fc33-445e-b9f0-db3df5623ed0.png" alt="010101010" /></p>
 
-<p><br />
-생성한 EC2 인스턴스 및 EC2 인스턴스의 프라이빗 IP 주소를 선택하고 연결을 선택합니다.</p>
+<p><br /></p>
+
+<p>생성한 EC2 인스턴스 및 EC2 인스턴스의 프라이빗 IP 주소를 선택하고 <code class="language-plaintext highlighter-rouge">연결</code> 을 선택합니다.</p>
 
 <p><img src="https://user-images.githubusercontent.com/34812887/188365136-729ec4b9-a55a-4098-b3e4-80ab276bac8e.png" alt="22422" /></p>
 
@@ -113,7 +114,7 @@
 
 <p>이제 ELB 타겟 그룹을 만들어 보겠습니다. 저는 이미 만들어 둔 게 여러 개 있네요.</p>
 
-<p>EC2 -&gt; 로드 밸런싱 -&gt; 대상 그룹 -&gt; Create Target Group을 선택합니다.</p>
+<p>EC2 -&gt; 로드 밸런싱 -&gt; 대상 그룹 -&gt; <code class="language-plaintext highlighter-rouge">Create Target Group</code>을 선택합니다.</p>
 
 <p><img src="https://user-images.githubusercontent.com/34812887/188366025-2c4baeca-c05b-4479-afc6-1e96069960dd.png" alt="3333535" /></p>
 
@@ -122,13 +123,15 @@
 
 <p><img src="https://user-images.githubusercontent.com/34812887/188366570-82feeefc-01de-4529-9fb4-0a7daf146efd.png" alt="44453" /></p>
 
-<p><br />
-EC2 인스턴스를 체크한 후 Include as pending below를 선택합니다.</p>
+<p><br /></p>
+
+<p>EC2 인스턴스를 체크한 후 <code class="language-plaintext highlighter-rouge">Include as pending below</code> 를 선택합니다.</p>
 
 <p><img src="https://user-images.githubusercontent.com/34812887/188367048-87bf948c-2401-4ad9-96e5-dab8a4bdc2f7.png" alt="11100099" /></p>
 
-<p><br />
-pending 목록에 해당 인스턴스가 pending 상태로 추가된 것을 확인할 수 있습니다. Create Target Group를 선택하여 타겟 그룹 생성을 완료합니다.</p>
+<p><br /></p>
+
+<p>pending 목록에 해당 인스턴스가 pending 상태로 추가된 것을 확인할 수 있습니다. <code class="language-plaintext highlighter-rouge">Create Target Group</code> 를 선택하여 타겟 그룹 생성을 완료합니다.</p>
 
 <p><img src="https://user-images.githubusercontent.com/34812887/188367221-2afba096-16f7-4249-a397-c817c0ebf70f.png" alt="949494949" /></p>
 
@@ -151,7 +154,7 @@ ELB 타겟 그룹을 정상적으로 생성하였습니다. 위의 단계를 통
 
 <p><br /></p>
 
-<p>Load balancer name 와 Mapping 4개 모두 선택, 보안 그룹 선택합니다. Listeners and routing 에서 80 포트에 대한 ELB 타겟 그룹을 위에서 생성한 타겟 그룹으로 지정합니다. 이후 하단의 Create Load Balancer를 클릭합니다.</p>
+<p>Load balancer name 와 Mapping 4개 모두 체크, 보안 그룹 선택합니다. Listeners and routing 에서 80 포트에 대한 ELB 타겟 그룹을 위에서 생성한 타겟 그룹으로 지정합니다. 이후 하단의 Create Load Balancer를 클릭합니다.</p>
 
 <p><img src="https://user-images.githubusercontent.com/34812887/188397985-43720609-a083-4c8b-b82a-d89f49c0b846.png" alt="9308" /></p>
 
@@ -182,7 +185,7 @@ ELB 타겟 그룹을 정상적으로 생성하였습니다. 위의 단계를 통
 
 <p><br /></p>
 
-<p>레코드 이름에 <code class="language-plaintext highlighter-rouge">*</code> 을 입력하고 레코드 유형은 <code class="language-plaintext highlighter-rouge">A - IPv4..</code> 사진과 같이 위에서 생성한 로드밸런서를 선택합니다. 세팅이 완료되면 단순 레코드 정의를 선택해주세요.</p>
+<p>레코드 이름에 아무것도 입력하지 않고 레코드 유형은 <code class="language-plaintext highlighter-rouge">A - IPv4..</code> 사진과 같이 위에서 생성한 로드밸런서를 선택합니다. 세팅이 완료되면 단순 레코드 정의를 선택해주세요.</p>
 
 <p><img src="https://user-images.githubusercontent.com/34812887/188400325-047e683a-b521-474f-8a81-db0ba5e74be2.png" alt="37649403" /></p>
 

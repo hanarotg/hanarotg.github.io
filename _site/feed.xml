@@ -1,5 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-09-05T23:40:13+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lee Taegyeong</title><subtitle>안녕하세요 이태경입니다.
-</subtitle><author><name>Lee Taegyeong</name></author><entry><title type="html">AWS EC2 서버 구축 올인원 가이드 (EC2, ELB, Route53, 포트포워딩까지)</title><link href="http://localhost:4000/aws-build-ec2-server-guide-all-in-one.html" rel="alternate" type="text/html" title="AWS EC2 서버 구축 올인원 가이드 (EC2, ELB, Route53, 포트포워딩까지)" /><published>2022-09-04T00:00:00+09:00</published><updated>2022-09-04T00:00:00+09:00</updated><id>http://localhost:4000/aws-build-ec2-server-guide-all-in-one</id><content type="html" xml:base="http://localhost:4000/aws-build-ec2-server-guide-all-in-one.html">&lt;p&gt;정말 여러 번 했지만 매번 까먹는 것 같습니다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-09-16T23:33:41+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lee Taegyeong</title><subtitle>안녕하세요 이태경입니다.
+</subtitle><author><name>Lee Taegyeong</name></author><entry><title type="html">EC2 인스턴스에서 XV6 개발 환경 세팅하는 방법, 에러 해결</title><link href="http://localhost:4000/os-xv6-settings.html" rel="alternate" type="text/html" title="EC2 인스턴스에서 XV6 개발 환경 세팅하는 방법, 에러 해결" /><published>2022-09-11T00:00:00+09:00</published><updated>2022-09-11T00:00:00+09:00</updated><id>http://localhost:4000/%5BOS%5D-XV6-settings</id><content type="html" xml:base="http://localhost:4000/os-xv6-settings.html">&lt;h2 id=&quot;개요&quot;&gt;개요&lt;/h2&gt;
+
+&lt;p&gt;학부 운영체제 수강을 위해 XV6를 사용하게 되었습니다. 맥 M1에서 원할히 돌아가지 않아 AWS EC2 Ubuntu 인스턴스를 생성하여 관리하는 것을 추천드립니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;qemu-터미널에서-구동&quot;&gt;qemu 터미널에서 구동&lt;/h4&gt;
+
+&lt;p&gt;GUI 환경이 아닌 터미널에서 xv6 운용 시 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-nographic&lt;/code&gt; 옵션이 설정된 에뮬레이터를 실행해야 합니다. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;qemu-nox&lt;/code&gt;에 관한 설정 정보는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Makefile&lt;/code&gt;에서 확인하실 수 있습니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;make qemu-nox
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;qemu-에뮬레이터-종료&quot;&gt;qemu 에뮬레이터 종료&lt;/h4&gt;
+
+&lt;p&gt;&lt;kbd&gt;Control + a&lt;/kbd&gt; 입력 후 &lt;kbd&gt;x&lt;/kbd&gt;를 눌러줍니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/47210264/close-qemu-from-a-process-in-xv6&quot;&gt;Close qemu from a process in xv6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cs.virginia.edu/~cr4bd/4414/S2021/xv6.html&quot;&gt;xv6 general information&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Lee Taegyeong</name></author><category term="os" /><summary type="html">개요</summary></entry><entry><title type="html">AWS EC2 서버 구축 올인원 가이드 (EC2, ELB, Route53, 포트포워딩까지)</title><link href="http://localhost:4000/aws-build-ec2-server-guide-all-in-one.html" rel="alternate" type="text/html" title="AWS EC2 서버 구축 올인원 가이드 (EC2, ELB, Route53, 포트포워딩까지)" /><published>2022-09-04T00:00:00+09:00</published><updated>2022-09-04T00:00:00+09:00</updated><id>http://localhost:4000/aws-build-ec2-server-guide-all-in-one</id><content type="html" xml:base="http://localhost:4000/aws-build-ec2-server-guide-all-in-one.html">&lt;p&gt;정말 여러 번 했지만 매번 까먹는 것 같습니다.&lt;/p&gt;
 
 &lt;div class=&quot;alert alert-warning d-flex align-items-center&quot; role=&quot;alert&quot;&gt;
   &lt;i class=&quot;bi bi-exclamation-triangle-fill&quot; style=&quot;margin-right: 10px&quot;&gt;&lt;/i&gt;
@@ -32,8 +50,9 @@
 
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188364781-7e4a1bff-fc33-445e-b9f0-db3df5623ed0.png&quot; alt=&quot;010101010&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;
-생성한 EC2 인스턴스 및 EC2 인스턴스의 프라이빗 IP 주소를 선택하고 연결을 선택합니다.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;생성한 EC2 인스턴스 및 EC2 인스턴스의 프라이빗 IP 주소를 선택하고 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;연결&lt;/code&gt; 을 선택합니다.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188365136-729ec4b9-a55a-4098-b3e4-80ab276bac8e.png&quot; alt=&quot;22422&quot; /&gt;&lt;/p&gt;
 
@@ -45,7 +64,7 @@
 
 &lt;p&gt;이제 ELB 타겟 그룹을 만들어 보겠습니다. 저는 이미 만들어 둔 게 여러 개 있네요.&lt;/p&gt;
 
-&lt;p&gt;EC2 -&amp;gt; 로드 밸런싱 -&amp;gt; 대상 그룹 -&amp;gt; Create Target Group을 선택합니다.&lt;/p&gt;
+&lt;p&gt;EC2 -&amp;gt; 로드 밸런싱 -&amp;gt; 대상 그룹 -&amp;gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Create Target Group&lt;/code&gt;을 선택합니다.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188366025-2c4baeca-c05b-4479-afc6-1e96069960dd.png&quot; alt=&quot;3333535&quot; /&gt;&lt;/p&gt;
 
@@ -54,13 +73,15 @@
 
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188366570-82feeefc-01de-4529-9fb4-0a7daf146efd.png&quot; alt=&quot;44453&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;
-EC2 인스턴스를 체크한 후 Include as pending below를 선택합니다.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;EC2 인스턴스를 체크한 후 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Include as pending below&lt;/code&gt; 를 선택합니다.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188367048-87bf948c-2401-4ad9-96e5-dab8a4bdc2f7.png&quot; alt=&quot;11100099&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;
-pending 목록에 해당 인스턴스가 pending 상태로 추가된 것을 확인할 수 있습니다. Create Target Group를 선택하여 타겟 그룹 생성을 완료합니다.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;pending 목록에 해당 인스턴스가 pending 상태로 추가된 것을 확인할 수 있습니다. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Create Target Group&lt;/code&gt; 를 선택하여 타겟 그룹 생성을 완료합니다.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188367221-2afba096-16f7-4249-a397-c817c0ebf70f.png&quot; alt=&quot;949494949&quot; /&gt;&lt;/p&gt;
 
@@ -83,7 +104,7 @@ ELB 타겟 그룹을 정상적으로 생성하였습니다. 위의 단계를 통
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Load balancer name 와 Mapping 4개 모두 선택, 보안 그룹 선택합니다. Listeners and routing 에서 80 포트에 대한 ELB 타겟 그룹을 위에서 생성한 타겟 그룹으로 지정합니다. 이후 하단의 Create Load Balancer를 클릭합니다.&lt;/p&gt;
+&lt;p&gt;Load balancer name 와 Mapping 4개 모두 체크, 보안 그룹 선택합니다. Listeners and routing 에서 80 포트에 대한 ELB 타겟 그룹을 위에서 생성한 타겟 그룹으로 지정합니다. 이후 하단의 Create Load Balancer를 클릭합니다.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188397985-43720609-a083-4c8b-b82a-d89f49c0b846.png&quot; alt=&quot;9308&quot; /&gt;&lt;/p&gt;
 
@@ -114,7 +135,7 @@ ELB 타겟 그룹을 정상적으로 생성하였습니다. 위의 단계를 통
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;레코드 이름에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*&lt;/code&gt; 을 입력하고 레코드 유형은 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A - IPv4..&lt;/code&gt; 사진과 같이 위에서 생성한 로드밸런서를 선택합니다. 세팅이 완료되면 단순 레코드 정의를 선택해주세요.&lt;/p&gt;
+&lt;p&gt;레코드 이름에 아무것도 입력하지 않고 레코드 유형은 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A - IPv4..&lt;/code&gt; 사진과 같이 위에서 생성한 로드밸런서를 선택합니다. 세팅이 완료되면 단순 레코드 정의를 선택해주세요.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188400325-047e683a-b521-474f-8a81-db0ba5e74be2.png&quot; alt=&quot;37649403&quot; /&gt;&lt;/p&gt;
 
@@ -833,36 +854,4 @@ Java HotSpot&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;TM&lt;span class=&quot
 &lt;img src=&quot;https://user-images.githubusercontent.com/34812887/176655972-f12db6c5-c6c7-4f97-a340-e634d079ffa2.png&quot; alt=&quot;build&quot; /&gt;
 해당 오류가 해결되었음을 확인할 수 있습니다.&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Lee Taegyeong</name></author><category term="checked" /><summary type="html">개요</summary></entry><entry><title type="html">Post Example With Hr</title><link href="http://localhost:4000/hr-example.html" rel="alternate" type="text/html" title="Post Example With Hr" /><published>2022-06-29T00:00:00+09:00</published><updated>2022-06-29T00:00:00+09:00</updated><id>http://localhost:4000/hr%20example</id><content type="html" xml:base="http://localhost:4000/hr-example.html">&lt;p&gt;Lorem ipsum&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; dolor sit amet, consectetur adipiscing elit. Pellentesque vel lacinia neque. Praesent nulla quam, ullamcorper in sollicitudin ac, molestie sed justo. Cras aliquam, sapien id consectetur accumsan, augue magna faucibus ex, ut ultricies turpis tortor vel ante. In at rutrum tellus. Nullam vestibulum metus eu purus malesuada, volutpat mattis leo facilisis. Sed consectetur, nisl et semper laoreet, velit augue congue nunc, eget eleifend odio erat eu sapien. Phasellus dictum efficitur dapibus. Morbi porta lacinia tincidunt. Nam aliquet est mi, nec lacinia ipsum elementum sed. Nam feugiat ipsum tortor, et pretium purus sollicitudin et.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Mauris viverra dictum ultricies&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. Vestibulum&lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Nunc a egestas tortor, sed feugiat leo. Vestibulum porta tincidunt tellus, vitae ornare tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed nunc neque, tempor in iaculis non, faucibus et metus. Etiam id nisl ut lorem gravida euismod.&lt;/p&gt;
-
-&lt;p&gt;Fusce non velit cursus ligula mattis convallis vel at metus. Sed pharetra tellus massa, non elementum eros vulputate non. Suspendisse potenti. Quisque arcu felis, laoreet vel accumsan sit amet, fermentum at nunc. Sed massa quam, auctor in eros quis, porttitor tincidunt orci. Nulla convallis id sapien ornare viverra. Cras nec est lacinia ligula porta tincidunt. Nam a est eget ligula pellentesque posuere. Maecenas quis enim ac risus accumsan scelerisque. Aliquam vitae libero sapien. Etiam convallis, metus nec suscipit condimentum, quam massa congue velit, sit amet sollicitudin nisi tortor a lectus. Cras a arcu enim. Suspendisse hendrerit euismod est ac gravida. Donec vitae elit tristique, suscipit eros at, aliquam augue. In ac faucibus dui. Sed tempor lacus tristique elit sagittis, vitae tempor massa convallis.&lt;/p&gt;
-
-&lt;hr data-content=&quot;discussions&quot; /&gt;
-
-&lt;p&gt;This article has been discussed here:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;lobste.rs&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;/r/webdev&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Feel free to reach out at my email to leave feedback and talk about the article.&lt;/p&gt;
-
-&lt;hr data-content=&quot;footnotes&quot; /&gt;
-
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Okay here I should put something about “ipsum”. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;same goes for this. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;I studied latin in high school but im not able to translate &lt;em&gt;anything&lt;/em&gt;! By the way this is a longer footnote and i think it is still pretty cool, even prettier than shortier ones even though it does not say anything useful but whatever. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Lee Taegyeong</name></author><summary type="html">Lorem ipsum1 dolor sit amet, consectetur adipiscing elit. Pellentesque vel lacinia neque. Praesent nulla quam, ullamcorper in sollicitudin ac, molestie sed justo. Cras aliquam, sapien id consectetur accumsan, augue magna faucibus ex, ut ultricies turpis tortor vel ante. In at rutrum tellus. Nullam vestibulum metus eu purus malesuada, volutpat mattis leo facilisis. Sed consectetur, nisl et semper laoreet, velit augue congue nunc, eget eleifend odio erat eu sapien. Phasellus dictum efficitur dapibus. Morbi porta lacinia tincidunt. Nam aliquet est mi, nec lacinia ipsum elementum sed. Nam feugiat ipsum tortor, et pretium purus sollicitudin et. Okay here I should put something about “ipsum”. &amp;#8617;</summary></entry></feed>
+&lt;/ol&gt;</content><author><name>Lee Taegyeong</name></author><category term="checked" /><summary type="html">개요</summary></entry></feed>
