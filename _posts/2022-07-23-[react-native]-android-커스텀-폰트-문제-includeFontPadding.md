@@ -4,15 +4,11 @@ title: React-Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPa
 category: checked
 ---
 
-## 개요
-
 커스텀 폰트 문제가 android에서 발생했습니다. 추가 마진(아니면 패딩)이 모든 커스텀 폰트에 적용되어 있습니다.
 
 |                                                        IOS(아이폰 XR)                                                         |                                                       Android(엑스페리아 Z1c)                                                        |
 | :---------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------: |
 | ![IMG_620CF1E0E41C-1](https://user-images.githubusercontent.com/34812887/180598377-fa3313ae-fe9f-427a-ac0d-58ff5cbe59dc.jpeg) | ![Screenshot_20220723-180326](https://user-images.githubusercontent.com/34812887/180598410-d21eae2b-eabd-47a4-a930-fc99e6dcebdd.png) |
-
-## 문제 탐색
 
 구글링하여 이 문제에 관한 많은 글을 찾을 수 있었습니다.
 
@@ -21,8 +17,6 @@ category: checked
 - [React Native - Text Style Props - IncludeFontPadding](https://reactnative.dev/docs/text-style-props#includefontpadding-android)
 
 안드로이드 TextView 기본값이 참인 `includeFontPadding` 속성이 적용된 것이 문제였습니다.
-
-## 해결
 
 `includeFontPadding` 속성이 거짓임을 명시해줍니다.
 

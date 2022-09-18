@@ -30,8 +30,8 @@
 <meta property="og:title" content="React-Native gralde unsupported claass file major verion 62 error 해결하기" />
 <meta name="author" content="Lee Taegyeong" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="개요" />
-<meta property="og:description" content="개요" />
+<meta name="description" content="IOS 빌드에 성공한 프로젝트를 안드로이드 빌드하였을 떄 에러가 출력되며 빌드에 실패했습니다. 이는 gradle이 지원하지 않는 jdk 버전을 사용하여 발생하는 문제입니다." />
+<meta property="og:description" content="IOS 빌드에 성공한 프로젝트를 안드로이드 빌드하였을 떄 에러가 출력되며 빌드에 실패했습니다. 이는 gradle이 지원하지 않는 jdk 버전을 사용하여 발생하는 문제입니다." />
 <link rel="canonical" href="http://localhost:4000/react-native-gradle-unsupported-class-file-major-version-62-error.html" />
 <meta property="og:url" content="http://localhost:4000/react-native-gradle-unsupported-class-file-major-version-62-error.html" />
 <meta property="og:site_name" content="Lee Taegyeong" />
@@ -40,7 +40,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="React-Native gralde unsupported claass file major verion 62 error 해결하기" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","url":"http://localhost:4000/react-native-gradle-unsupported-class-file-major-version-62-error.html","description":"개요","headline":"React-Native gralde unsupported claass file major verion 62 error 해결하기","dateModified":"2022-06-30T00:00:00+09:00","datePublished":"2022-06-30T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/react-native-gradle-unsupported-class-file-major-version-62-error.html"},"author":{"@type":"Person","name":"Lee Taegyeong"},"@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","url":"http://localhost:4000/react-native-gradle-unsupported-class-file-major-version-62-error.html","description":"IOS 빌드에 성공한 프로젝트를 안드로이드 빌드하였을 떄 에러가 출력되며 빌드에 실패했습니다. 이는 gradle이 지원하지 않는 jdk 버전을 사용하여 발생하는 문제입니다.","headline":"React-Native gralde unsupported claass file major verion 62 error 해결하기","dateModified":"2022-06-30T00:00:00+09:00","datePublished":"2022-06-30T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/react-native-gradle-unsupported-class-file-major-version-62-error.html"},"author":{"@type":"Person","name":"Lee Taegyeong"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Lee Taegyeong" /><link
     rel="shortcut icon"
@@ -58,7 +58,7 @@
       <div class="w">
         <!--<a href="/">뒤로 가기..</a>-->
 
-<h1>React-Native gralde unsupported claass file major verion 62 error 해결하기</h1>
+<h3>React-Native gralde unsupported claass file major verion 62 error 해결하기</h3>
 
 <article>
   <p class="post-meta">
@@ -67,9 +67,7 @@
     >
   </p>
   <hr />
-  <h2 id="개요">개요</h2>
-
-<p>IOS 빌드에 성공한 프로젝트를 안드로이드 빌드하였을 떄 에러가 출력되며 빌드에 실패했습니다. 이는 gradle이 지원하지 않는 jdk 버전을 사용하여 발생하는 문제입니다.</p>
+  <p>IOS 빌드에 성공한 프로젝트를 안드로이드 빌드하였을 떄 에러가 출력되며 빌드에 실패했습니다. 이는 gradle이 지원하지 않는 jdk 버전을 사용하여 발생하는 문제입니다.</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>FAILURE: Build failed with an exception.
 
@@ -83,8 +81,6 @@ Could not compile settings file <span class="s1">'/Users/taegyeonglee/Documents/
 ...
 </code></pre></div></div>
 
-<h2 id="문제-탐색">문제 탐색</h2>
-
 <p><a href="https://docs.gradle.org/current/userguide/compatibility.html">gradle 공식 문서</a>에서 gradle이 지원하는 java 버전을 확인합니다.</p>
 
 <p><img src="https://user-images.githubusercontent.com/34812887/176604060-3238e504-ed95-4053-910c-dc346dff0c43.png" alt="gradle-version" /></p>
@@ -93,7 +89,7 @@ Could not compile settings file <span class="s1">'/Users/taegyeonglee/Documents/
 
 <p>제 gralde 버전과 java 버전을 확인해보겠습니다.</p>
 
-<h4 id="gradle">gradle</h4>
+<h5 id="gradle">gradle</h5>
 
 <p>gradle 버전을 확인하기 위해선 <code class="language-plaintext highlighter-rouge">프로젝트/android/gradle/wrapper/gradle-wrapper.properties</code> 내 <code class="language-plaintext highlighter-rouge">distributionUrl</code> 항목을 확인합니다.</p>
 
@@ -106,7 +102,7 @@ Could not compile settings file <span class="s1">'/Users/taegyeonglee/Documents/
 
 <p>제 gradle 버전이 7.2임을 확인할 수 있습니다.</p>
 
-<h4 id="java">java</h4>
+<h5 id="java">java</h5>
 
 <p>터미널에 <code class="language-plaintext highlighter-rouge">java --version</code> 을 입력해 로컬 환경에 설치, 적용된 자바 버전을 확인합니다.</p>
 
@@ -130,7 +126,7 @@ Java HotSpot<span class="o">(</span>TM<span class="o">)</span> 64-Bit Server VM 
   <li>참고 : <a href="https://www.oracle.com/java/technologies/java-se-support-roadmap.html">Oracle Java SE Support Roadmap</a></li>
 </ul>
 
-<h2 id="해결">해결</h2>
+<h3 id="해결">해결</h3>
 
 <ol>
   <li>

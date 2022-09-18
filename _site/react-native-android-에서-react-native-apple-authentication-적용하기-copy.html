@@ -30,8 +30,8 @@
 <meta property="og:title" content="React-Native 안드로이드에서 react-native-apple-authentication 적용하기" />
 <meta name="author" content="Lee Taegyeong" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="개요" />
-<meta property="og:description" content="개요" />
+<meta name="description" content="RN 플랫폼에서 firebase authentication를 구현하기란 쉽지 않습니다. 크로스 플랫폼의 한계일까요. 생각보다 많이 복잡합니다." />
+<meta property="og:description" content="RN 플랫폼에서 firebase authentication를 구현하기란 쉽지 않습니다. 크로스 플랫폼의 한계일까요. 생각보다 많이 복잡합니다." />
 <link rel="canonical" href="http://localhost:4000/react-native-android-%EC%97%90%EC%84%9C-react-native-apple-authentication-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-copy.html" />
 <meta property="og:url" content="http://localhost:4000/react-native-android-%EC%97%90%EC%84%9C-react-native-apple-authentication-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-copy.html" />
 <meta property="og:site_name" content="Lee Taegyeong" />
@@ -40,7 +40,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="React-Native 안드로이드에서 react-native-apple-authentication 적용하기" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","url":"http://localhost:4000/react-native-android-%EC%97%90%EC%84%9C-react-native-apple-authentication-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-copy.html","description":"개요","headline":"React-Native 안드로이드에서 react-native-apple-authentication 적용하기","dateModified":"2022-07-28T00:00:00+09:00","datePublished":"2022-07-28T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/react-native-android-%EC%97%90%EC%84%9C-react-native-apple-authentication-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-copy.html"},"author":{"@type":"Person","name":"Lee Taegyeong"},"@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","url":"http://localhost:4000/react-native-android-%EC%97%90%EC%84%9C-react-native-apple-authentication-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-copy.html","description":"RN 플랫폼에서 firebase authentication를 구현하기란 쉽지 않습니다. 크로스 플랫폼의 한계일까요. 생각보다 많이 복잡합니다.","headline":"React-Native 안드로이드에서 react-native-apple-authentication 적용하기","dateModified":"2022-07-28T00:00:00+09:00","datePublished":"2022-07-28T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/react-native-android-%EC%97%90%EC%84%9C-react-native-apple-authentication-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-copy.html"},"author":{"@type":"Person","name":"Lee Taegyeong"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Lee Taegyeong" /><link
     rel="shortcut icon"
@@ -58,7 +58,7 @@
       <div class="w">
         <!--<a href="/">뒤로 가기..</a>-->
 
-<h1>React-Native 안드로이드에서 react-native-apple-authentication 적용하기</h1>
+<h3>React-Native 안드로이드에서 react-native-apple-authentication 적용하기</h3>
 
 <article>
   <p class="post-meta">
@@ -67,24 +67,20 @@
     >
   </p>
   <hr />
-  <h2 id="개요">개요</h2>
-
-<p>RN 플랫폼에서 firebase authentication를 구현하기란 쉽지 않습니다. 크로스 플랫폼의 한계일까요. 생각보다 많이 복잡합니다.</p>
+  <p>RN 플랫폼에서 firebase authentication를 구현하기란 쉽지 않습니다. 크로스 플랫폼의 한계일까요. 생각보다 많이 복잡합니다.</p>
 
 <p><a href="https://rnfirebase.io/">React native firebase</a> 모듈 위에 <a href="https://github.com/invertase/react-native-apple-authentication">react-native-apple-authentication</a>를 사용하여 안드로이드에서 애플 로그인을 구현해 보겠습니다.</p>
 
-<h2 id="해결">해결</h2>
-
 <p>Firebase React Native 모듈 설치 &amp; 적용 단계는 생략합니다!</p>
 
-<h4 id="설치">설치</h4>
+<h5 id="설치">설치</h5>
 
 <p><a href="https://github.com/invertase/react-native-apple-authentication">react-native-apple-authentication</a>를 설치합니다</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm i @invertase/react-native-apple-authentication
 </code></pre></div></div>
 
-<h4 id="xcode-적용">XCode 적용</h4>
+<h5 id="xcode-적용">XCode 적용</h5>
 
 <p>프로젝트명.xcodeproj 파일에 들어가 Signing &amp; Capabilities 항목에 Sign in with Apple 를 추가합니다. 애플 어플리케이션이 모듈을 추가하는 일반적인 방식입니다.</p>
 

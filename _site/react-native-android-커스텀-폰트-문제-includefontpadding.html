@@ -30,8 +30,8 @@
 <meta property="og:title" content="React-Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding 해결하기" />
 <meta name="author" content="Lee Taegyeong" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="개요" />
-<meta property="og:description" content="개요" />
+<meta name="description" content="커스텀 폰트 문제가 android에서 발생했습니다. 추가 마진(아니면 패딩)이 모든 커스텀 폰트에 적용되어 있습니다." />
+<meta property="og:description" content="커스텀 폰트 문제가 android에서 발생했습니다. 추가 마진(아니면 패딩)이 모든 커스텀 폰트에 적용되어 있습니다." />
 <link rel="canonical" href="http://localhost:4000/react-native-android-%EC%BB%A4%EC%8A%A4%ED%85%80-%ED%8F%B0%ED%8A%B8-%EB%AC%B8%EC%A0%9C-includefontpadding.html" />
 <meta property="og:url" content="http://localhost:4000/react-native-android-%EC%BB%A4%EC%8A%A4%ED%85%80-%ED%8F%B0%ED%8A%B8-%EB%AC%B8%EC%A0%9C-includefontpadding.html" />
 <meta property="og:site_name" content="Lee Taegyeong" />
@@ -40,7 +40,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="React-Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding 해결하기" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","url":"http://localhost:4000/react-native-android-%EC%BB%A4%EC%8A%A4%ED%85%80-%ED%8F%B0%ED%8A%B8-%EB%AC%B8%EC%A0%9C-includefontpadding.html","description":"개요","headline":"React-Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding 해결하기","dateModified":"2022-07-23T00:00:00+09:00","datePublished":"2022-07-23T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/react-native-android-%EC%BB%A4%EC%8A%A4%ED%85%80-%ED%8F%B0%ED%8A%B8-%EB%AC%B8%EC%A0%9C-includefontpadding.html"},"author":{"@type":"Person","name":"Lee Taegyeong"},"@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","url":"http://localhost:4000/react-native-android-%EC%BB%A4%EC%8A%A4%ED%85%80-%ED%8F%B0%ED%8A%B8-%EB%AC%B8%EC%A0%9C-includefontpadding.html","description":"커스텀 폰트 문제가 android에서 발생했습니다. 추가 마진(아니면 패딩)이 모든 커스텀 폰트에 적용되어 있습니다.","headline":"React-Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding 해결하기","dateModified":"2022-07-23T00:00:00+09:00","datePublished":"2022-07-23T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/react-native-android-%EC%BB%A4%EC%8A%A4%ED%85%80-%ED%8F%B0%ED%8A%B8-%EB%AC%B8%EC%A0%9C-includefontpadding.html"},"author":{"@type":"Person","name":"Lee Taegyeong"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Lee Taegyeong" /><link
     rel="shortcut icon"
@@ -58,7 +58,7 @@
       <div class="w">
         <!--<a href="/">뒤로 가기..</a>-->
 
-<h1>React-Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding 해결하기</h1>
+<h3>React-Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding 해결하기</h3>
 
 <article>
   <p class="post-meta">
@@ -67,9 +67,7 @@
     >
   </p>
   <hr />
-  <h2 id="개요">개요</h2>
-
-<p>커스텀 폰트 문제가 android에서 발생했습니다. 추가 마진(아니면 패딩)이 모든 커스텀 폰트에 적용되어 있습니다.</p>
+  <p>커스텀 폰트 문제가 android에서 발생했습니다. 추가 마진(아니면 패딩)이 모든 커스텀 폰트에 적용되어 있습니다.</p>
 
 <table>
   <thead>
@@ -86,8 +84,6 @@
   </tbody>
 </table>
 
-<h2 id="문제-탐색">문제 탐색</h2>
-
 <p>구글링하여 이 문제에 관한 많은 글을 찾을 수 있었습니다.</p>
 
 <ul>
@@ -97,8 +93,6 @@
 </ul>
 
 <p>안드로이드 TextView 기본값이 참인 <code class="language-plaintext highlighter-rouge">includeFontPadding</code> 속성이 적용된 것이 문제였습니다.</p>
-
-<h2 id="해결">해결</h2>
 
 <p><code class="language-plaintext highlighter-rouge">includeFontPadding</code> 속성이 거짓임을 명시해줍니다.</p>
 

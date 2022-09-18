@@ -58,7 +58,7 @@
       <div class="w">
         <!--<a href="/">뒤로 가기..</a>-->
 
-<h1>Appstore Connect 앱 스크린샷 업로드 오류를 Curl API를 통해 우회적으로 해결하기</h1>
+<h3>Appstore Connect 앱 스크린샷 업로드 오류를 Curl API를 통해 우회적으로 해결하기</h3>
 
 <article>
   <p class="post-meta">
@@ -72,9 +72,7 @@
 <p>앱 미리보기에 업로드 하려는데 업로드가 되지 않았습니다. 가끔 웹 클라이언트가 먹통이 되는데요,
 이 문제를 <a href="https://developer.apple.com/documentation/appstoreconnectapi">Appstore connect API</a>를 활용해 해결해보겠습니다.</p>
 
-<h2 id="해결">해결</h2>
-
-<h4 id="api-키-생성">API 키 생성</h4>
+<h5 id="api-키-생성">API 키 생성</h5>
 
 <p>Appstore connect -&gt; 사용자 및 엑세스 -&gt; 키 에 들어가서 새로운 키를 생성합니다.</p>
 
@@ -82,7 +80,7 @@
 
 <p>API키를 생성했으면 목록 우측에 API 키 다운로드 링크를 통해 API 키를 다운로드합니다. 생성한 API키는 한번만 다운로드 가능합니다.</p>
 
-<h4 id="ruby-script-작성">Ruby script 작성</h4>
+<h5 id="ruby-script-작성">Ruby script 작성</h5>
 
 <p>터미널을 열어 다음과 같이 루비스크립트를 작성합니다.
 <code class="language-plaintext highlighter-rouge">ISSUER_ID</code>, <code class="language-plaintext highlighter-rouge">iss</code>와 <code class="language-plaintext highlighter-rouge">KEY_ID</code>, <code class="language-plaintext highlighter-rouge">kid</code> 를 올바는 값으로 바꿔주세요. <code class="language-plaintext highlighter-rouge">AuthKey_XXXXXX.p8</code>는 다운로드한 API 키 파일 명으로 바꾸어 주세요.</p>
@@ -141,7 +139,7 @@
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">export </span><span class="nv">APPSTORETOKEN</span><span class="o">=</span>02OrHS6BAuG4mbTv7gao4W2zvybBPrImvvVTOOs2OT6pHhVs6RSQO2YVrBiAduQb3SptRgAWaQO01PRwgmyGGHCgHage5CdMXCebzSjrSeq2SCruWpNeIDkpL6hZkXxF6Bn2Xg3RTtj2uu9T6osN0Iyq7eROqCwxy1gCBnq2xOodjSsDI4XDEDUxK91XR1kstFeJxZeQ
 </code></pre></div></div>
 
-<h4 id="appstoreversionlocalizations-값-얻기">appStoreVersionLocalizations 값 얻기</h4>
+<h5 id="appstoreversionlocalizations-값-얻기">appStoreVersionLocalizations 값 얻기</h5>
 
 <p>사파리 또는 구글 크롬 개발자 콘솔을 띄워든 상태로 appstore connect -&gt; 문제가 되는 앱 으로 이동합니다.</p>
 
@@ -150,7 +148,7 @@
 <p><code class="language-plaintext highlighter-rouge">XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX</code> 이 appStoreVersionLocalizations 값입니다.
 <img src="https://user-images.githubusercontent.com/34812887/184478092-f9a435a1-9c18-4216-8991-6fb3302ae7c9.png" alt="3" /></p>
 
-<h4 id="모든-스크린샷-제거">모든 스크린샷 제거</h4>
+<h5 id="모든-스크린샷-제거">모든 스크린샷 제거</h5>
 
 <p>다시 터미널로 돌아와 아래와 같은 명령어를 실행해 줍니다.
 <code class="language-plaintext highlighter-rouge">XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX</code> 은 appStoreVersionLocalizations 값입니다.</p>

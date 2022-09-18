@@ -8,8 +8,6 @@ category: soongfi
 
 보통 Soongsil_WIFI에 연결하면 로그인 페이지가 뜨지만, 그렇지 않은 경우도 있습니다.
 
-## 문제 인식
-
 <div class="alert alert-warning d-flex align-items-center" role="alert">
   <i class="bi bi-exclamation-triangle-fill" style="margin-right: 10px"></i>
   <div>
@@ -17,10 +15,10 @@ category: soongfi
   </div>
 </div>
 
-#### 정상적인(일반적인) 상황
+##### 정상적인(일반적인) 상황
 
 ![2131](https://user-images.githubusercontent.com/34812887/185789202-b5cfae73-07b2-48f7-a365-539892ce5b6c.png)
 
-#### 비정상적인 상황
+##### 비정상적인 상황
 
 ![124124](https://user-images.githubusercontent.com/34812887/185789512-9f502cf4-988a-474a-9768-61b8eccf6c31.png)
