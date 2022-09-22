@@ -6,9 +6,37 @@ category: os
 
 학부 운영체제 수강을 위해 XV6를 사용하게 되었습니다. 맥 M1에서 원할히 돌아가지 않아 AWS EC2 Ubuntu 인스턴스를 생성하여 관리하는 것을 추천드립니다.
 
+#### 설치
+
+EC2 Ubuntu 20.04 LTS 인스턴스를 사용하는 것을 전제합니다.
+
+업데이트를 한번 해주세요.
+
+```bash
+sudo apt-get install
+```
+
+xv6 레포지토리를 클론해주세요.
+
+```bash
+sudo git clone https://github.com/mit-pdos/xv6-public.git
+```
+
+qemu 에뮬레이터를 설치해 주세요.
+
+```bash
+sudo apt install qemu-kvm
+```
+
+xv6 이미지를 생성합니다.
+
+```bash
+make
+```
+
 ##### qemu 터미널에서 구동
 
-GUI 환경이 아닌 터미널에서 xv6 운용 시 `-nographic` 옵션이 설정된 에뮬레이터를 실행해야 합니다. `qemu-nox`에 관한 설정 정보는 `Makefile`에서 확인하실 수 있습니다.
+GUI 환경이 아닌 터미널에서 xv6 운용 시 `-nographic` 옵션이 있는 에뮬레이터를 실행해야 합니다. `qemu-nox`에 관한 설정 정보는 `Makefile`에서 확인하실 수 있습니다.
 
 ```bash
 sudo make qemu-nox
