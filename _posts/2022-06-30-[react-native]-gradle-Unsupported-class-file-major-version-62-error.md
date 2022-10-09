@@ -1,7 +1,7 @@
 ---
 layout: post
 title: React-Native gralde unsupported claass file major verion 62 error 해결하기
-category: checked
+tags: react-native android gradle
 ---
 
 IOS 빌드에 성공한 프로젝트를 안드로이드 빌드하였을 떄 에러가 출력되며 빌드에 실패했습니다. 이는 gradle이 지원하지 않는 jdk 버전을 사용하여 발생하는 문제입니다.

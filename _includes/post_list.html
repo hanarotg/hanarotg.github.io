@@ -4,16 +4,34 @@
 posts.size > include.limit-%} {%-assign limit_exceeded = true-%} {%-else-%}
 {%-assign limit_exceeded = false-%} {%-endif-%} {%- if posts.size > 0 -%} {%-
 for post in posts limit: include.limit -%}
-<hr />
-<p class="text-muted">
-  {{- post.date | date: site.theme_config.date_format -}}
-</p>
-<a href="{{ post.url | relative_url }}">{{ post.title | downcase }}</a>
-<br />
+
+<div id="card-container">
+  <div id="card">
+    <p class="text-muted">
+      {{- post.date | date: site.theme_config.date_format -}}
+    </p>
+    <a href="{{ post.url | relative_url }}" id="card-title"
+      >{{ post.title | downcase }}</a
+    >
+    <br />
+    <a href="{{ post.url | relative_url }}" class="text-muted"
+      >{{ post.description }}</a
+    >
+    <br />
+    <br />
+    {% for tag in post.tags %}
+    <a id="tag-badge">{{tag}}</a>
+    {% endfor %}
+  </div>
+</div>
 {%- endfor -%} {%- if include.show_more and limit_exceeded -%}
 <br />
-<a href="{{ include.show_more_url }}"
-  >{{ include.show_more_text | default: "Show more..." }}</a
->
 
 {%- endif -%} {%- endif -%}
+
+<div style="text-align: right">
+  <a href="{{ include.show_more_url }}">
+    {{ include.show_more_text | default: "Show more..." }}
+    <i class="bi bi-arrow-right-circle-fill"></i>
+  </a>
+</div>

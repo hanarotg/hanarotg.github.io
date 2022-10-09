@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 내가 숭실 교내 와이파이 문제를 이해하고 숭파이를 만든 과정
-category: soongfi
+tags: soongfi network
 ---
 
 숭실 교내 와이파이 Soongsil_WIFI는 문제가 많습니다. 로그인 화면이 자동으로 뜨지 않아 인터넷 사용이 불가능한 경우, 비정상적으로 인터넷이 느려지는 경우 등..

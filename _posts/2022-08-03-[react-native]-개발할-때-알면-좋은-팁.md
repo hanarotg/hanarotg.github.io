@@ -2,6 +2,7 @@
 layout: post
 category: checked
 title: react-native 개발할 때 알면 좋은 팁
+tags: react-native
 ---
 
 RN 플랫폼을 통해 모바일 앱을 개발할 때 잊어버리기 쉬운 좋은 팁이 여럿 있습니다. 한 포스트로 쓰기에는 사소하지만 까먹을 때마다 보기 좋은 팁들을 모아봤습니다. 제 블로그를 찾아주신 다른 분들에게도 도움이 되었으면 좋겠습니다.

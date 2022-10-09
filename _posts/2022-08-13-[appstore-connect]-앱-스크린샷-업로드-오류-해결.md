@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Appstore Connect 앱 스크린샷 업로드 오류를 Curl API를 통해 우회적으로 해결하기
-category: checked
+tags: checked appstoreconnect curl
 ---
 
 ![1](https://user-images.githubusercontent.com/34812887/184477035-7c57962d-59e1-4c25-8974-2f9eda240f9a.png)

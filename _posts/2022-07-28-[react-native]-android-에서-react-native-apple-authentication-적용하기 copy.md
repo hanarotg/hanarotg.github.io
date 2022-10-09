@@ -1,7 +1,7 @@
 ---
 layout: post
 title: React-Native 안드로이드에서 react-native-apple-authentication 적용하기
-category: checked
+tags: react-native react-native-apple-authentication
 ---
 
 RN 플랫폼에서 firebase authentication를 구현하기란 쉽지 않습니다. 크로스 플랫폼의 한계일까요. 생각보다 많이 복잡합니다.

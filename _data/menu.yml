@@ -2,9 +2,9 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: 작성 글
+  - title:
     post_list:
-      limit: 5
+      limit: 3
       show_more: true
-      show_more_text: 작성글 더보기...
+      show_more_text: 작성글 더보기
       show_more_url: archive.html

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: React-Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding 해결하기
-category: checked
+tags: react-native includefontpadding android
 ---
 
 커스텀 폰트 문제가 android에서 발생했습니다. 추가 마진(아니면 패딩)이 모든 커스텀 폰트에 적용되어 있습니다.

@@ -1,6 +1,7 @@
 ---
 layout: post
-category: spellteam
+title: lol 챔피언 및 스펠 이미지 데이터 받기
+tags: spellteam leagueoflegends nodejs
 ---
 
 ## 개요
