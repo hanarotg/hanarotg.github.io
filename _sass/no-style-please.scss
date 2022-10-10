@@ -90,9 +90,12 @@ table {
 }
 
 table,
-th,
+th {
+  border-bottom: 1px solid #202124;
+}
+
 td {
-  border: thin solid black;
+  border-bottom: thin solid #c8c8c8;
   border-collapse: collapse;
   padding: 0.4rem;
 }
