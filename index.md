@@ -7,7 +7,7 @@ layout: default
 <div style="width: 100%; height: 150px; background-image: url('https://saatlasmsftprod.blob.core.windows.net/atlas-prod/atlas-prod/documents/6e925392518c5c9b.jpg'); background-repeat: no-repeat;background-size: cover; border-radius:10px"></div>
 
 <h3>안녕하세요. 이태경입니다.</h3>
-클라우드 엔지니어링과 <code>springboot</code> 및 <code>node.js</code>를 활용한 다양한 서비스 설계에 관심이 많은 새내기 개발자입니다.
+클라우드 엔지니어링과 <code>springboot</code> 및 <code>node.js</code>를 활용한 다양한 서비스 설계에 관심이 많은 새내기 개발자입니다. <a href="">한 번의 창업을 경험</a>했으며 현재 학부생으로 전공 및 <code>springboot</code> 공부에 집중하고 있습니다.
 <a href='https://github.com/hanarotg'>깃허브</a>와 <a href='mailto:hanarotg@naver.com'>이메일로</a> 저를 찾으실 수 있습니다.
 
 <br /><br />
