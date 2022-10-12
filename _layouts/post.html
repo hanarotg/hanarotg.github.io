@@ -7,14 +7,23 @@ layout: default
 <h3>{{ page.title }}</h3>
 
 <article>
+  <br />
+  {% for tag in page.tags %}
+  <a id="tag-badge">{{tag}}</a>
+  {% endfor %}
+
   <p class="post-meta">
     <time datetime="{{ page.date }}"
       >{{ page.date | date: site.theme_config.date_format }}</time
     >
   </p>
+
   <hr />
+  <p>{{ page.description}}</p>
+
   {{ content }}
 
+  <br />
   <p class="text-muted">댓글을 남겨주세요.</p>
   <script
     src="https://utteranc.es/client.js"

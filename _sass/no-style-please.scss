@@ -302,6 +302,19 @@ img {
   background-color: #f0f0f0;
 }
 
+#project-icon {
+  width: 64px;
+  height: 64px;
+  margin-right: 4px;
+  display: inline-block;
+  border-radius: 16px;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+#project-icon:hover {
+  box-shadow: 1px 8px 8px #c8c8c8;
+}
+
 #card-container {
   margin-bottom: 12px;
   border: 1px solid #c8c8c8;

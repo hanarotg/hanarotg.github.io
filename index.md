@@ -12,6 +12,17 @@ layout: default
 
 <br /><br />
 
+<div>
+<h5>프로젝트</h5>
+<a href="" ><img src="https://hanarotg.github.io/others/checked/logo-symbol.png" id="project-icon"/></a>
+<a href=""><img src="https://hanarotg.github.io/others/soongfi/soongfi.png" id="project-icon" /></a>
+<a href=""><img src="https://hanarotg.github.io/others/undefined/spellteam.png" id="project-icon" /></a>
+<a href=""><img src="https://hanarotg.github.io/others/undefined/s3cmjs.png" id="project-icon" /></a>
+<a href=""><img src="https://hanarotg.github.io/others/undefined/stylehero.png" id="project-icon" /></a>
+<a href=""><img src="https://hanarotg.github.io/others/undefined/hugglink.png" id="project-icon" /></a>
+
+</div>
+
 <h5>스택</h5>
 
 <table>
@@ -37,7 +48,6 @@ layout: default
         <td>Git</td>
         <td>Github를 사용하여 개인 및 팀 프로젝트 개발을 주도/참여할 수 있습니다.</td></tr>
 </table>
-
 </div>
 
 <div>
@@ -56,32 +66,4 @@ layout: default
 <div>
 <h5>작성 글</h5>
 {%-include menu_item.html collection=site.data.menu.entries-%}
-</div>
-
-<div>
-<h5>프로젝트</h5>
-<br />
-
-<div id="card-container">
-    <div id="card-wallpaper" style="background-image: url('https://res.cloudinary.com/practicaldev/image/fetch/s--2p8l0fdE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/wg9580lwaaa9z4t1lkja.png'); "></div>
-    <div id="card">
-        <a href="/" id="card-title">체크드 - 책으로 이어지는 모든 것</a>
-        <br />
-        <a href="/" class="text-muted">독서 기록 소셜 어플리케이션<br />개인 프로젝트입니다.</a>
-        <br />
-       <a href="">appstore</a> <a href="">playstore</a>
-       <br /><br />
-       <a id="tag-badge">react-native</a> <a id="tag-badge">firebase-auth</a> <a id="tag-badge">firestore</a>
-    </div>
-</div>
-
-<br />
-<a href="https://hanarotg.github.io/others/soongfi/">숭파이 : 숭실 교내 와이파이 연결 도우미</a>
-<br />
-<a href="https://hanarotg.github.io/others/soongfi/">SPELL.TEAM : 리그오브레전드 스펠 체크 타이머</a>
-<br />
-<a href="https://hanarotg.github.io/others/soongfi/">스타일히어로 : 비대면 스타일리스트 매칭 플랫폼</a>
-<br />
-<a href="https://hanarotg.github.io/others/soongfi/">hugg.link : 토이 프로젝트 위키 사이트</a>
-
 </div>
