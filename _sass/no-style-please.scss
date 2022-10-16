@@ -303,11 +303,11 @@ img {
 }
 
 #project-icon {
-  width: 32px;
-  height: 32px;
-  margin-left: -8px;
+  width: 64px;
+  height: 64px;
+  margin-left: -16px;
   display: inline-block;
-  border-radius: 16px;
+  border-radius: 32px;
   transition: margin-top 0.2s;
   background-color: #ffffff;
 }

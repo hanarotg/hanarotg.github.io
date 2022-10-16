@@ -41,21 +41,17 @@ layout: default
 <div>
 <h5>프로젝트</h5>
 <br />
-<div id="card-container">
-    <div id="card-wallpaper" style="height: 100px; text-align: center;background-image: url('https://wallpapers.microsoft.design/images/grid-57-@1x.jpg'); ">
-   </div>
-    <div id="card">
-        <a href="/" id="card-title">프로젝트 모두보기</a>
-        <div style="text-align:right">
-        <a href="" ><img src="https://hanarotg.github.io/others/checked/logo-symbol.png" id="project-icon"/></a>
+<div style="padding-left: 16px;">
+     <a href="" ><img src="https://hanarotg.github.io/others/checked/logo-symbol.png" id="project-icon"/></a>
 <a href=""><img src="https://hanarotg.github.io/others/soongfi/soongfi.png" id="project-icon" /></a>
 <a href=""><img src="https://hanarotg.github.io/others/undefined/spellteam.png" id="project-icon" /></a>
 <a href=""><img src="https://hanarotg.github.io/others/undefined/s3cmjs.png" id="project-icon" /></a>
 <a href=""><img src="https://hanarotg.github.io/others/undefined/stylehero.png" id="project-icon" style="border: 1px solid #f0f0f0"/></a>
 <a href=""><img src="https://hanarotg.github.io/others/undefined/hugglink.png" id="project-icon" style="border: 1px solid #f0f0f0"/></a>
+        <div style="text-align:right">
+       <a href="/" >프로젝트 모두보기 <i class="bi bi-arrow-right-circle-fill"></i></a>
     </div>
     </div>
-</div>
 </div>
 
 <div>
