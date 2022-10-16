@@ -5,15 +5,6 @@ layout: default
 <div>
 <br />
 
-<div>
-<a href="" ><img src="https://hanarotg.github.io/others/checked/logo-symbol.png" id="project-icon"/></a>
-<a href=""><img src="https://hanarotg.github.io/others/soongfi/soongfi.png" id="project-icon" /></a>
-<a href=""><img src="https://hanarotg.github.io/others/undefined/spellteam.png" id="project-icon" /></a>
-<a href=""><img src="https://hanarotg.github.io/others/undefined/s3cmjs.png" id="project-icon" /></a>
-<a href=""><img src="https://hanarotg.github.io/others/undefined/stylehero.png" id="project-icon" style="border: 1px solid #f0f0f0"/></a>
-<a href=""><img src="https://hanarotg.github.io/others/undefined/hugglink.png" id="project-icon" style="border: 1px solid #f0f0f0"/></a>
-</div>
-
 <h3>안녕하세요. 이태경입니다.</h3>
 클라우드 엔지니어링과 <code>springboot</code> 및 <code>node.js</code>를 활용한 다양한 서비스 설계에 관심이 많은 새내기 개발자입니다. <a href="">한 번의 창업을 경험</a>했으며 현재 학부생으로 전공 및 <code>springboot</code> 공부에 집중하고 있습니다.
 <a href='https://github.com/hanarotg'>깃허브</a>와 <a href='mailto:hanarotg@naver.com'>이메일로</a> 저를 찾으실 수 있습니다.
@@ -45,6 +36,26 @@ layout: default
         <td>Git</td>
         <td>Github를 사용하여 개인 및 팀 프로젝트 개발을 주도/참여할 수 있습니다.</td></tr>
 </table>
+</div>
+
+<div>
+<h5>프로젝트</h5>
+<br />
+<div id="card-container">
+    <div id="card-wallpaper" style="height: 100px; text-align: center;background-image: url('https://wallpapers.microsoft.design/images/grid-57-@1x.jpg'); ">
+   </div>
+    <div id="card">
+        <a href="/" id="card-title">프로젝트 모두보기</a>
+        <div style="text-align:right">
+        <a href="" ><img src="https://hanarotg.github.io/others/checked/logo-symbol.png" id="project-icon"/></a>
+<a href=""><img src="https://hanarotg.github.io/others/soongfi/soongfi.png" id="project-icon" /></a>
+<a href=""><img src="https://hanarotg.github.io/others/undefined/spellteam.png" id="project-icon" /></a>
+<a href=""><img src="https://hanarotg.github.io/others/undefined/s3cmjs.png" id="project-icon" /></a>
+<a href=""><img src="https://hanarotg.github.io/others/undefined/stylehero.png" id="project-icon" style="border: 1px solid #f0f0f0"/></a>
+<a href=""><img src="https://hanarotg.github.io/others/undefined/hugglink.png" id="project-icon" style="border: 1px solid #f0f0f0"/></a>
+    </div>
+    </div>
+</div>
 </div>
 
 <div>

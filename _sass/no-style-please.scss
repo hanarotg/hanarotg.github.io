@@ -303,14 +303,13 @@ img {
 }
 
 #project-icon {
-  width: 64px;
-  height: 64px;
-  margin-top: 8px;
-  margin-right: 4px;
+  width: 32px;
+  height: 32px;
+  margin-left: -8px;
   display: inline-block;
   border-radius: 16px;
   transition: margin-top 0.2s;
-  box-shadow: 1px 4px 4px #f8f8f8;
+  background-color: #ffffff;
 }
 
 #project-icon:hover {
