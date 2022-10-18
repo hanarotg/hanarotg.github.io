@@ -12,47 +12,23 @@ layout: default
 
 <br /><br />
 
-<h5>스택</h5>
-
-<table>
-    <tr><th>구분</th><th>명세</th><th>상세 설명</th></tr>
-    <tr><td>PL</td><td>java/typescript<br />java<br />JSX</td><td>broswer 및 Node.js 환경에서 작동되는 이벤트 루프에 대해 이해하고 있으며, 비동기 함수를 구현할 수 있습니다.</td></tr>
-    <tr>
-        <td>platform</td>
-        <td>React.js<br />React Native<br />Node.js</td>
-        <td>
-            React Native를 사용하여 모바일 앱 퍼블리싱을 경험했습니다.
-            <br />Node.js 런타임 환경에서 <a href="">express.js를 활용하여 CRUD 웹 서비스</a>, <a href="">nest.js 라이브러리를 사용하여 RESTful 백엔드 서버</a>를 구축할 수 있습니다.</td>
-    </tr>
-    <tr>
-        <td>DB</td>
-        <td>MariaDB<br />Firestore<br />MongoDB</td>
-        <td>
-            MariaDB 및 Firestore를 사용하여 CRUD 서비스를 만들 수 있습니다.
-            Moongoose를 사용하여 MongoDB를 조작할 수 있습니다.
-        </td>
-    </tr>
-    <tr>
-        <td>DevOps</td>
-        <td>Git</td>
-        <td>Github를 사용하여 개인 및 팀 프로젝트 개발을 주도/참여할 수 있습니다.</td></tr>
-</table>
-</div>
-
 <div>
 <h5>프로젝트</h5>
-<br />
-<div style="padding-left: 16px;">
-     <a href="" ><img src="https://hanarotg.github.io/others/checked/logo-symbol.png" id="project-icon"/></a>
-<a href=""><img src="https://hanarotg.github.io/others/soongfi/soongfi.png" id="project-icon" /></a>
-<a href=""><img src="https://hanarotg.github.io/others/undefined/spellteam.png" id="project-icon" /></a>
-<a href=""><img src="https://hanarotg.github.io/others/undefined/s3cmjs.png" id="project-icon" /></a>
-<a href=""><img src="https://hanarotg.github.io/others/undefined/stylehero.png" id="project-icon" style="border: 1px solid #f0f0f0"/></a>
-<a href=""><img src="https://hanarotg.github.io/others/undefined/hugglink.png" id="project-icon" style="border: 1px solid #f0f0f0"/></a>
-        <div style="text-align:right">
-       <a href="/" >프로젝트 모두보기 <i class="bi bi-arrow-right-circle-fill"></i></a>
-    </div>
-    </div>
+<div>
+     <a href="" ><img src="https://hanarotg.github.io/others/checked/logo-symbol.png" id="project-icon"/>  체크드 - 책으로 이어지는 모든 것</a><br />
+     <a href=""><img src="https://hanarotg.github.io/others/undefined/s3cmjs.png" id="project-icon" /> S3CM.js</a><br />
+     <a href=""><img src="https://hanarotg.github.io/others/undefined/stylehero.png" id="project-icon" style="border: 1px solid #f0f0f0"/> 스타일히어로</a><br />
+
+<a href=""><img src="https://hanarotg.github.io/others/soongfi/soongfi.png" id="project-icon" /> 숭파이 - 교내 공용 와이파이 연결 도우미</a><br />
+<a href=""><img src="https://hanarotg.github.io/others/undefined/spellteam.png" id="project-icon" /> SPELL.TEAM - 리그오브레전드 스펠 체크 타이머</a><br />
+
+<a href=""><img src="https://hanarotg.github.io/others/undefined/hugglink.png" id="project-icon" style="border: 1px solid #f0f0f0"/> hugg.link</a>
+
+<div style="text-align:right">
+<a href="/" >프로젝트 모두보기 <i class="bi bi-arrow-right-circle-fill"></i></a>
+</div>
+</div>
+
 </div>
 
 <div>

@@ -303,17 +303,14 @@ img {
 }
 
 #project-icon {
-  width: 64px;
-  height: 64px;
-  margin-left: -16px;
+  width: 1.2em;
+  height: 1.2em;
   display: inline-block;
-  border-radius: 32px;
-  transition: margin-top 0.2s;
+  border-radius: 0.6em;
   background-color: #ffffff;
 }
 
 #project-icon:hover {
-  margin-top: -8px;
 }
 
 #card-container {
