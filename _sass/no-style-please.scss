@@ -26,7 +26,7 @@ body[a="dark"] {
 // see: https://stackoverflow.com/a/61265706
 html,
 body {
-  background: white;
+  background: #ffffff;
 }
 
 html {
@@ -313,6 +313,9 @@ img {
 #card-container {
   margin-bottom: 12px;
   border-radius: 20px;
+  border: 1px solid #f0f0f0;
+  border-bottom: 3px solid #f0f0f0;
+  background-color: #ffffff;
 }
 
 #card-container:hover {
@@ -331,11 +334,6 @@ img {
 #card-title {
   color: #202124;
   font-size: x-large;
-}
-
-#card-title-extra {
-  color: #202124;
-  font-size: xx-large;
 }
 
 #tag-badge {

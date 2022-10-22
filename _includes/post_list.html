@@ -6,8 +6,7 @@ posts.size > include.limit-%} {%-assign limit_exceeded = true-%} {%-else-%}
 for post in posts limit: include.limit -%}
 
 <div id="card-container">
-  <div id="card-wallpaper"></div>
-  <div id="card" style="background-color: #e6e6fa">
+  <div id="card">
     <p class="text-muted">
       {{- post.date | date: site.theme_config.date_format -}}
     </p>
