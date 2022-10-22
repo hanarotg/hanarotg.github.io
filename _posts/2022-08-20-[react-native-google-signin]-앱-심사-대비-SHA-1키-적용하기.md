@@ -3,9 +3,10 @@ layout: post
 category: checked
 title: react-native-google-singin 앱 심사에 통과하기 위한 앱 서명 인증서(SHA-1) 키 적용하기
 tags: react-native react-native-google-sigin sha-1
+description: debug 빌드에서 잘 기능하는 구글 소셜 로그인이 동작하지 않아 플레이 스토어 심사에서 승인받지 못했습니다. 찾아보니 앱 서명 인증서 SHA-1 키를 파이어베이스 콘솔에 추가해야 한다고 합니다.
 ---
 
-debug 빌드에서 잘 기능하는 구글 소셜 로그인이 동작하지 않아 플레이 스토어 심사에서 승인받지 못했습니다. 찾아보니 앱 서명 인증서 SHA-1 키를 파이어베이스 콘솔에 추가해야 한다고 합니다. (디버그 환경에서는 상관이 없으니) 귀찮다고 추가 안했던 기억이 나네요...
+(디버그 환경에서는 상관이 없으니) 귀찮다고 추가 안했던 기억이 나네요...
 
 ![111](https://user-images.githubusercontent.com/34812887/185731407-e4f3a853-97c7-48d6-9163-5add12bdb980.png)
 
