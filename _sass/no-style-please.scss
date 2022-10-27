@@ -348,3 +348,19 @@ img {
   background-color: #0078d4;
   color: #d7effe;
 }
+
+#scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+#scrolling-image {
+  display: inline-block;
+}
+
+#scrolling-image img {
+  width: 200px;
+  border-radius: 15px;
+  border: 1px solid #f0f0f0;
+}

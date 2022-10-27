@@ -18,17 +18,17 @@ title: 이태경
 
 <p class="text-muted">2022.02 ~ 2022.09</p>
 
-독서 기록 기반 소셜 앱, 개인 프로젝트
+독서 기록 기반 소셜 앱
 
 - React-Native 및 firestore, firebase-auth를 활용하여 개발했습니다.
 - springBoot로 백엔드 서버 분리, Kubernetes를 활용하여 MSA 구축을 시도하고 있습니다.
-- [IOS 앱스토어](https://apps.apple.com/kr/app/checked/id1610982857) 및 [안드로이드 플레이스토어](https://play.google.com/store/apps/details?id=com.checked) 앱 퍼블리싱을 경험했습니다.
+- [IOS 앱스토어](https://apps.apple.com/kr/app/checked/id1610982857) 및 [안드로이드 플레이스토어](https://play.google.com/store/apps/details?id=com.checked) 앱 퍼블리싱을 진행했습니다.
 
 ##### [S3CM.js](https://github.com/hanarotg/S3CM.js)
 
 <p class="text-muted">2022.02</p>
 
-AWS S3 클라이언트 js 라이브러리, 개인 프로젝트
+AWS S3 클라이언트 js 라이브러리, 오픈소스 프로젝트
 
 - AWS-S3-SDK를 직접 사용, 이해하기 어려웠던 경험을 토대로 개발자가 보다 이해하기 쉽고 빠르게 개발할 수 있도록 만들었습니다.
 - javascript 비동기 함수를 활용하여 보다 <a href="">S3 다중 파일 업로드 속도를 40% 개선</a>했습니다.
@@ -49,9 +49,10 @@ AWS S3 클라이언트 js 라이브러리, 개인 프로젝트
 
 비대면 스타일리스트 매칭 웹 플랫폼, 풀스택 개발자 및 공동창업
 
-- Node.js(express.js), bootstrap 및 firebase를 활용하여 상용 서비스를 구축했습니다.
-- React.js 및 MariaDB, Node.js(Nest.js) 서비스 변경을 시도했습니다.
-- analytics 및 bigquery를 활용하여 결제 페이지의 문제를 파악, 수정하여 외부 고객의 첫 자발적인 결제를 이끌었습니다.
+- Node.js(express.js), bootstrap 및 firestore를 활용하여 서비스를 개발했습니다.
+- Node.js(Nest.js), React.js 및 MariaDB로 스택 변경, 개발을 주도했습니다.
+- AWS EC2 및 S3, RDS를 사용하여 상용 서비스를 구축했습니다.
+- <a href="">analytics 및 bigquery를 활용</a>하여 결제 페이지의 문제를 파악, 수정하여 외부 고객의 첫 자발적인 결제를 이끌었습니다.
 - 개발 및 운영 진행상황을 슬랙에 매일 업데이트하여 팀내 목표를 명확히 하였습니다.
 
 ##### [숭실대학교 만돌린 오케스트라](https://www.youtube.com/channel/UCCZcItosgldd2GsHrEQpOAw)
