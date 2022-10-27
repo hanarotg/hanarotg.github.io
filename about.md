@@ -52,7 +52,7 @@ AWS S3 클라이언트 js 라이브러리, 개인 프로젝트
 - Node.js(express.js), bootstrap 및 firebase를 활용하여 상용 서비스를 구축했습니다.
 - React.js 및 MariaDB, Node.js(Nest.js) 서비스 변경을 시도했습니다.
 - analytics 및 bigquery를 활용하여 결제 페이지의 문제를 파악, 수정하여 외부 고객의 첫 자발적인 결제를 이끌었습니다.
-- 매일 개발 및 운영 진행상황을 슬랙에 업데이트하여 보다 진행 상황을 전파하였습니다.
+- 개발 및 운영 진행상황을 슬랙에 매일 업데이트하여 팀내 목표를 명확히 하였습니다.
 
 ##### [숭실대학교 만돌린 오케스트라](https://www.youtube.com/channel/UCCZcItosgldd2GsHrEQpOAw)
 
@@ -65,8 +65,8 @@ AWS S3 클라이언트 js 라이브러리, 개인 프로젝트
 
 ---
 
-##### 숭실대학교
+##### 숭실대학교 컴퓨터학부
 
 <p class="text-muted">2018-02 ~ 현재</p>
 
-- 컴퓨터학부 학사과정
+- 학사
