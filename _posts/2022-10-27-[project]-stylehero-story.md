@@ -100,11 +100,6 @@ tags: stylehero startup
 
 ##### MVP 출시
 
-Node.js(express.js)와 firestore를 사용하여 서비스를 구축했습니다. socket.io 라이브러리를 사용하여 채팅 서버를 하나 두어 자체 채팅 서비스를 구축하였습니다.
-프론트는 ejs 렌더링을 통해 bootstrap 기반으로 작성하였습니다.
-
-결제모듈은 [페이플](https://www.payple.kr/)을 사용하였습니다. (결제모듈 하나 붙이는 데 애를 꽤 많이 먹었습니다.) 카카오 알림톡과 SMS는 네이버 클라우드에서 제공하는 솔루션을 사용했습니다.
-
 백엔드와 프론트 일부는 제가, 대부분의 프론트엔드(설문조사 등..)는 다른 개발자 두 명이 담당하였습니다.
 21년 9월 MVP를 출시하였습니다. 팀원들과 주말에 다시 한번 버그를 체크하고 작은 파티를 했던 것 같습니다.
 
@@ -125,7 +120,19 @@ Node.js(express.js)와 firestore를 사용하여 서비스를 구축했습니다
 
 <p class="text-muted">자체 구축 채팅 서비스 내 스타일리스트와의 채팅 내역, 옷 정말 못입는다 나</p>
 
-##### 채팅이 안돼!!
+![stylehero drawio](https://user-images.githubusercontent.com/34812887/199770728-49925023-8da3-4ec2-89c4-7acff99176c8.png)
+
+<p class="text-muted">UML</p>
+
+- frontend : HTML, CSS, jQuery, Bootstrap
+- backend : Node.js(express.js, ejs)
+- DBMS : firestore([firestore-node.js-sdk](https://googleapis.dev/nodejs/firestore/latest/) 사용)
+- Infra : AWS EC2, Route53
+- Others : payple, Naver cloud platform, socket.io
+
+결제모듈은 [페이플](https://www.payple.kr/)을 사용하였습니다. (결제모듈 하나 붙이는 데 애를 꽤 많이 먹었습니다.) 카카오 알림톡과 문자 발송 API는 네이버 클라우드 플랫폼 솔루션을 사용했습니다.
+
+##### 계획없는 개발은 문제를 일으킨다.
 
 무난할 것만 같은 서비스에 문제가 생겼습니다. 채팅이 더 이상 안보내지거나 너무 느리게 보내지는 등 여러가지 문제가 발생했습니다. 스타일리스트들과 고객들에게 동시다발적으로 문의가 쏟아졌습니다. 어떻게 고쳐야 할지도 몰랐습니다. 채팅 서버만 재부팅을 계속 해볼 뿐이었습니다. 애초에 제대로 이해를 하지 않고 "되면 그만" 이라는 정말 무식한 생각으로 개발했기 때문에..
 
@@ -133,9 +140,23 @@ Node.js(express.js)와 firestore를 사용하여 서비스를 구축했습니다
 
 ##### 채팅 서비스 생각보다 만만하지 않다.
 
-이부분 부터는 주말에 다시 작성할게요..
+##### 채팅 서비스를 빼고 다시 출시
+
+##### REST하게 처음부터 다시
+
+- frontend : React.js, [MUI](https://mui.com/)
+- backend : Node.js(Nest.js)
+- DBMS : MariaDB
+- Infra : AWS EC2, Route53, RDS, S3
+- Others : Naver cloud platform
+
+##### 사무실 이동
+
+##### 끝
 
 #### 역할
+
+<p id="anchor-update-roadmap"></p>
 
 ##### 진행상황을 계속 공유하고 업데이트
 
@@ -150,6 +171,8 @@ Node.js(express.js)와 firestore를 사용하여 서비스를 구축했습니다
 ![020390184](https://user-images.githubusercontent.com/34812887/198345574-9612dfa0-d846-4056-8764-83361d22fb8c.png)
 
 <p class="text-muted">5단계 진행상황</p>
+
+<p id="anchor-lead-customer-payment"></p>
 
 ##### 첫 고객의 자발적인 결제를 이끌어내다.
 

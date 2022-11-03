@@ -57,11 +57,11 @@ AWS S3 클라이언트 js 라이브러리, 오픈소스 프로젝트
 
 비대면 스타일리스트 매칭 웹 플랫폼, 풀스택 개발 및 공동창업
 
-- Node.js(express.js), bootstrap 및 firestore를 활용하여 MVP를 개발했습니다.
-- Node.js(Nest.js), React.js 및 MariaDB로 스택 변경, 개발을 주도했습니다.
+- Node.js(express.js), bootstrap 및 firestore를 활용하여 <a href="">MVP</a>를 개발했습니다.
+- Node.js(Nest.js), React.js 및 MariaDB로 <a href="">스택 변경, 개발</a>을 진행했습니다.
 - AWS EC2 및 S3, RDS를 사용하여 상용 서비스를 구축했습니다.
-- <a href="">analytics 및 bigquery를 활용</a>하여 결제 페이지의 문제를 파악, 수정하여 외부 고객의 첫 자발적인 결제를 이끌었습니다.
-- 개발 및 운영 <a href="">진행상황을 슬랙에 매일 공개</a>하여 현재 팀 상황을 업데이트하였습니다.
+- analytics 및 bigquery를 활용하여 결제 페이지의 문제를 파악, 수정하여 <a href="/project-stylehero-story/#anchor-lead-customer-payment">외부 고객의 첫 자발적인 결제</a>를 이끌었습니다.
+- 개발 및 운영 진행상황을 슬랙에 매일 공개하여 <a href="/project-stylehero-story/#update-roadmap">현재 팀 상황을 업데이트</a>하였습니다.
 - <a href="/project-stylehero-story">[참고] 비대면 스타일리스트 매칭 웹 플랫폼, 스타일히어로 이야기</a>
 
 ##### [숭실대학교 만돌린 오케스트라](https://www.youtube.com/channel/UCCZcItosgldd2GsHrEQpOAw)
