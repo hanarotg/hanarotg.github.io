@@ -43,7 +43,7 @@ AWS S3 클라이언트 js 라이브러리, 오픈소스 프로젝트
 
 ##### 기타 토이 프로젝트
 
-- [숭파이 - 교내 와아파이 문제 도우미 IOS 앱]()
+- [숭파이 - 교내 와이파이 문제 도우미 IOS 앱]()
 - [SPELL.TEAM - 롤 스펠 체크 타이머 웹 사이트](https://github.com/hanarotg/spell.team)
 - hugg.link - 위키 웹 사이트 [github:frontend](https://github.com/hanarotg/hugglink-v3-frontend) [github:backend](https://github.com/hanarotg/hugglink-v2-backend)
 
@@ -57,19 +57,19 @@ AWS S3 클라이언트 js 라이브러리, 오픈소스 프로젝트
 
 비대면 스타일리스트 매칭 웹 플랫폼, 풀스택 개발 및 공동창업
 
-- Node.js(express.js), bootstrap 및 firestore를 활용하여 <a href="">MVP</a>를 개발했습니다.
-- Node.js(Nest.js), React.js 및 MariaDB로 <a href="">스택 변경, 개발</a>을 진행했습니다.
-- AWS EC2 및 S3, RDS를 사용하여 상용 서비스를 구축했습니다.
-- analytics 및 bigquery를 활용하여 결제 페이지의 문제를 파악, 수정하여 <a href="/project-stylehero-story/#anchor-lead-customer-payment">외부 고객의 첫 자발적인 결제</a>를 이끌었습니다.
-- 개발 및 운영 진행상황을 슬랙에 매일 공개하여 <a href="/project-stylehero-story/#update-roadmap">현재 팀 상황을 업데이트</a>하였습니다.
-- <a href="/project-stylehero-story">[참고] 비대면 스타일리스트 매칭 웹 플랫폼, 스타일히어로 이야기</a>
+- Node.js(express.js), bootstrap 및 firestore를 활용하여 <a href="/project-stylehero-story-2.html#tech-stack">MVP를 개발</a>했습니다.
+- Node.js(Nest.js), React.js 및 MariaDB로 RESTful <a href="/project-stylehero-story-3.html#tech-stack">아키텍처 변경, 개발</a>을 진행했습니다.
+- AWS EC2 및 S3, RDS 등을 사용하여 상용 서비스를 구축했습니다.
+- analytics 경로 탐색 분석 결과를 근거로 <a href="/project-stylehero-story-2.html#analytics를-활용하여-랜딩페이지의-문제점을-파악하다">랜딩페이지를 개선</a>하였으며, bigquery를 활용한 고객 데이터 분석으로 <a href="/project-stylehero-story-3.html#bigquery-데이터-분석을-통해-문제를-파악하다">소비자 타겟을 수정</a>하였습니다.
+- 개발 및 운영 진행상황을 슬랙에 매일 공개하여 <a href="/project-stylehero-story-2.html#매일-진행상황을-공유하고-업데이트">팀 문화를 개선</a>하였습니다.
+- <a href="/project-stylehero-story-1.html">[참고] 비대면 스타일리스트 매칭 웹 플랫폼, 스타일히어로 이야기 1,2,3부</a>
 
 ##### [숭실대학교 만돌린 오케스트라](https://www.youtube.com/channel/UCCZcItosgldd2GsHrEQpOAw)
 
 <p class="text-muted">2018-08 ~ 현재</p>
 
 - 만돌라 파트
-- 22년도 총무(회장)을 맡았습니다.
+- 22년도 총무(회장)을 맡아 방학 합숙 및 연주회 등 동아리 행사를 운영했습니다.
 
 #### 학력
 
