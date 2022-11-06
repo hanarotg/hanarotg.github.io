@@ -3,7 +3,7 @@ layout: page
 title: 이태경
 ---
 
-클라우드 엔지니어링과 `springboot` 및 `node.js` 를 활용한 다양한 서비스 설계에 관심이 많은 새내기 개발자입니다. [한 번의 창업을 경험](https://hanarotg.github.io/project-stylehero-story.html)했으며 현재 학부생으로 전공 및 `springboot` 공부에 집중하고 있습니다.
+클라우드 엔지니어링과 `springboot` 및 `node.js` 를 활용한 다양한 서비스 설계에 관심이 많은 새내기 개발자입니다. [한 번의 창업을 경험](https://hanarotg.github.io/project-stylehero-story-1.html)했으며 현재 학부생으로 전공 공부에 집중하고 있습니다.
 [깃허브](https://github.com/hanarotg)와 [이메일](mailto:hanarotg@naver.com)로 저를 찾으실 수 있습니다.
 
 #### 스킬
@@ -60,7 +60,7 @@ AWS S3 클라이언트 js 라이브러리, 오픈소스 프로젝트
 - Node.js(express.js), bootstrap 및 firestore를 활용하여 <a href="/project-stylehero-story-2.html#tech-stack">MVP를 개발</a>했습니다.
 - Node.js(Nest.js), React.js 및 MariaDB로 RESTful <a href="/project-stylehero-story-3.html#tech-stack">아키텍처 변경, 개발</a>을 진행했습니다.
 - AWS EC2 및 S3, RDS 등을 사용하여 상용 서비스를 구축했습니다.
-- analytics 경로 탐색 분석 결과를 근거로 <a href="/project-stylehero-story-2.html#analytics를-활용하여-랜딩페이지의-문제점을-파악하다">랜딩페이지를 개선</a>하였으며, bigquery를 활용한 고객 데이터 분석으로 <a href="/project-stylehero-story-3.html#bigquery-데이터-분석을-통해-문제를-파악하다">소비자 타겟을 수정</a>하였습니다.
+- analytics 경로 탐색 분석 결과를 근거로 <a href="/project-stylehero-story-2.html#analytics를-활용하여-랜딩페이지의-문제점을-파악하다">랜딩페이지를 개선</a>하였으며, bigquery를 활용한 고객 데이터 분석으로 <a href="/project-stylehero-story-3.html#bigquery-데이터-분석을-통해-문제를-파악하다">타겟 시장을 수정</a>하였습니다.
 - 개발 및 운영 진행상황을 슬랙에 매일 공개하여 <a href="/project-stylehero-story-2.html#매일-진행상황을-공유하고-업데이트">팀 문화를 개선</a>하였습니다.
 - <a href="/project-stylehero-story-1.html">[참고] 비대면 스타일리스트 매칭 웹 플랫폼, 스타일히어로 이야기 1,2,3부</a>
 
@@ -79,4 +79,4 @@ AWS S3 클라이언트 js 라이브러리, 오픈소스 프로젝트
 
 <p class="text-muted">2018-02 ~ 현재</p>
 
-- 학사
+- 학사과정
