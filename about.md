@@ -51,7 +51,7 @@ AWS S3 클라이언트 js 라이브러리, 오픈소스 프로젝트
 
 ---
 
-##### [스타일히어로](https://hanarotg.github.io/project-stylehero-story.html)
+##### [스타일히어로](https://hanarotg.github.io/project-stylehero-story-1.html)
 
 <p class="text-muted">2021.03 ~ 2022.02</p>
 
