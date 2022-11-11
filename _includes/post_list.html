@@ -13,14 +13,10 @@ for post in posts limit: include.limit -%}
     <a href="{{ post.url | relative_url }}" id="card-title"
       >{{ post.title | downcase }}</a
     >
-    <br />
-    <a href="{{ post.url | relative_url }}" class="text-muted"
-      >{{ post.description }}</a
-    >
-    <br />
+    <p class="text-muted">{{ post.description }}</p>
     <br />
     {% for tag in post.tags %}
-    <a id="tag-badge">{{tag}}</a>
+    <a href="#" id="tag-badge">{{tag}}</a>
     {% endfor %}
   </div>
 </div>

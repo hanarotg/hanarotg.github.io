@@ -11,7 +11,7 @@ title: 이태경
 ---
 
 - javascript를 통해 비동기 함수를 작성할 수 있으며 이벤트루프에 대해 이해하고 있습니다.
-- Node.js(express.js, Nest.js)및 MongoDB, firestre, MariaDB로 백엔드 서비스를 구축할 수 있습니다.
+- Node.js(express.js, Nest.js)와 MongoDB, firestre, MariaDB로 백엔드 서비스를 구축할 수 있습니다.
 - React, React-native, html, css, bootstrap로 프론트엔드 서비스를 디자인할 수 있습니다.
 
 #### 경력
@@ -26,7 +26,7 @@ title: 이태경
 
 <p class="text-muted">2022.02 ~ 2022.09</p>
 
-독서 기록 기반 소셜 앱
+독서 기록 기반 소셜 앱, 개인 프로젝트
 
 - React-Native 및 firestore, firebase-auth를 활용하여 개발했습니다.
 - springBoot로 백엔드 서버 분리, Kubernetes를 활용하여 MSA 구축을 시도하고 있습니다.
@@ -36,7 +36,7 @@ title: 이태경
 
 <p class="text-muted">2022.02</p>
 
-AWS S3 클라이언트 js 라이브러리, 오픈소스 프로젝트
+AWS S3 클라이언트 오픈소스 js 라이브러리, 개발 및 유지
 
 - AWS-S3-SDK를 직접 사용, 이해하기 어려웠던 경험을 토대로 개발자가 보다 이해하기 쉽고 빠르게 개발할 수 있도록 만들었습니다.
 - javascript 비동기 함수를 활용하여 보다 <a href="">S3 다중 파일 업로드 속도를 40% 개선</a>했습니다.
@@ -55,7 +55,7 @@ AWS S3 클라이언트 js 라이브러리, 오픈소스 프로젝트
 
 <p class="text-muted">2021.03 ~ 2022.02</p>
 
-비대면 스타일리스트 매칭 웹 플랫폼, 풀스택 개발 및 공동창업
+런칭 1개월 가입자 300명 달성 비대면 스타일리스트 매칭 웹 플랫폼, 풀스택 개발 및 공동창업
 
 - Node.js(express.js), bootstrap 및 firestore를 활용하여 <a href="/project-stylehero-story-2.html#tech-stack">MVP를 개발</a>했습니다.
 - Node.js(Nest.js), React.js 및 MariaDB로 RESTful <a href="/project-stylehero-story-3.html#tech-stack">아키텍처 변경, 개발</a>을 진행했습니다.
@@ -71,7 +71,7 @@ AWS S3 클라이언트 js 라이브러리, 오픈소스 프로젝트
 - 만돌라 파트
 - 22년도 총무(회장)을 맡아 방학 합숙 및 연주회 등 동아리 행사를 운영했습니다.
 
-#### 학력
+#### 학력 및 기타 정보
 
 ---
 
