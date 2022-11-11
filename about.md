@@ -30,7 +30,7 @@ title: 이태경
 
 - React-Native 및 firestore, firebase-auth를 활용하여 개발했습니다.
 - springBoot로 백엔드 서버 분리, Kubernetes를 활용하여 MSA 구축을 시도하고 있습니다.
-- [IOS 앱스토어](https://apps.apple.com/kr/app/checked/id1610982857) 및 [안드로이드 플레이스토어](https://play.google.com/store/apps/details?id=com.checked) 앱 퍼블리싱을 진행했습니다.
+- 기획부터 [IOS 앱스토어](https://apps.apple.com/kr/app/checked/id1610982857) 및 [안드로이드 플레이스토어](https://play.google.com/store/apps/details?id=com.checked) 앱 퍼블리싱까지 경험했습니다.
 
 ##### [S3CM.js](https://github.com/hanarotg/S3CM.js)
 
