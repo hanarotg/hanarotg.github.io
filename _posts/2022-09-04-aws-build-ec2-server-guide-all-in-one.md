@@ -1,18 +1,10 @@
 ---
 layout: post
 title: AWS EC2 서버 구축 올인원 가이드
-description: 정말 여러 번 했지만 매번 까먹는 것 같습니다.
+description: 정말 여러 번 했지만 매번 까먹는 것 같습니다. AWS 계정을 생성하고 EC2 인스턴스 생성, Route53 도메인 신청을 완료한 이후의 구축 과정입니다.
 tags: spellteam EC2 ELB Route53 ACM
+image: https://wallpapers.microsoft.design/images/grid-29-@1x.jpg
 ---
-
-정말 여러 번 했지만 매번 까먹는 것 같습니다.
-
-<div class="alert alert-warning d-flex align-items-center" role="alert">
-  <i class="bi bi-exclamation-triangle-fill" style="margin-right: 10px"></i>
-  <div>
-   이 글은 AWS 계정을 생성하고 EC2 인스턴스 생성, Route53 도메인 신청을 완료한 이후의 단계를 알려줍니다. 
-  </div>
-</div>
 
 보다 세세한 과정들이 있지만 간략하게 표현하면 다음과 같습니다.
 

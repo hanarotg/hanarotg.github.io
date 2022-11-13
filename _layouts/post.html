@@ -14,22 +14,24 @@ layout: default
 <article>
   <br />
   {% for tag in page.tags %}
-  <a id="tag-badge">{{tag}}</a>
+  <a href="#" id="tag-badge">{{tag}}</a>
   {% endfor %}
 
-  <hr />
-  <p>{{ page.description}}</p>
+  <div style="max-width: 768px; margin: auto">
+    <hr />
+    <p>{{ page.description}}</p>
 
-  {{ content }}
+    {{ content }}
 
-  <br />
-  <p class="text-muted">댓글을 남겨주세요.</p>
-  <script
-    src="https://utteranc.es/client.js"
-    repo="hanarotg/hanarotg.github.io"
-    issue-term="pathname"
-    theme="preferred-color-scheme"
-    crossorigin="anonymous"
-    async
-  ></script>
+    <br />
+    <p class="text-muted">댓글을 남겨주세요.</p>
+    <script
+      src="https://utteranc.es/client.js"
+      repo="hanarotg/hanarotg.github.io"
+      issue-term="pathname"
+      theme="preferred-color-scheme"
+      crossorigin="anonymous"
+      async
+    ></script>
+  </div>
 </article>

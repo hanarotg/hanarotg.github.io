@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-13T15:36:50+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lee Taegyeong</title><subtitle>안녕하세요 이태경입니다.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-13T19:01:35+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lee Taegyeong</title><subtitle>안녕하세요 이태경입니다.
 </subtitle><author><name>Lee Taegyeong</name></author><entry><title type="html">비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [3부 완]</title><link href="http://localhost:4000/project-stylehero-story-3.html" rel="alternate" type="text/html" title="비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [3부 완]" /><published>2022-10-29T00:00:00+09:00</published><updated>2022-10-29T00:00:00+09:00</updated><id>http://localhost:4000/%5Bproject%5D-stylehero-story-3</id><content type="html" xml:base="http://localhost:4000/project-stylehero-story-3.html">&lt;h6 id=&quot;timeline&quot;&gt;Timeline&lt;/h6&gt;
 
 &lt;ul&gt;
@@ -563,16 +563,7 @@
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/47210264/close-qemu-from-a-process-in-xv6&quot;&gt;Close qemu from a process in xv6&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.cs.virginia.edu/~cr4bd/4414/S2021/xv6.html&quot;&gt;xv6 general information&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Lee Taegyeong</name></author><category term="OS" /><category term="xv6" /><category term="EC2" /><category term="ubuntu" /><summary type="html">설치</summary></entry><entry><title type="html">AWS EC2 서버 구축 올인원 가이드</title><link href="http://localhost:4000/aws-build-ec2-server-guide-all-in-one.html" rel="alternate" type="text/html" title="AWS EC2 서버 구축 올인원 가이드" /><published>2022-09-04T00:00:00+09:00</published><updated>2022-09-04T00:00:00+09:00</updated><id>http://localhost:4000/aws-build-ec2-server-guide-all-in-one</id><content type="html" xml:base="http://localhost:4000/aws-build-ec2-server-guide-all-in-one.html">&lt;p&gt;정말 여러 번 했지만 매번 까먹는 것 같습니다.&lt;/p&gt;
-
-&lt;div class=&quot;alert alert-warning d-flex align-items-center&quot; role=&quot;alert&quot;&gt;
-  &lt;i class=&quot;bi bi-exclamation-triangle-fill&quot; style=&quot;margin-right: 10px&quot;&gt;&lt;/i&gt;
-  &lt;div&gt;
-   이 글은 AWS 계정을 생성하고 EC2 인스턴스 생성, Route53 도메인 신청을 완료한 이후의 단계를 알려줍니다. 
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;보다 세세한 과정들이 있지만 간략하게 표현하면 다음과 같습니다.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Lee Taegyeong</name></author><category term="OS" /><category term="xv6" /><category term="EC2" /><category term="ubuntu" /><summary type="html">설치</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://user-images.githubusercontent.com/34812887/201516245-6d8c7e01-4703-4434-8efa-e55ef94131cd.png" /><media:content medium="image" url="https://user-images.githubusercontent.com/34812887/201516245-6d8c7e01-4703-4434-8efa-e55ef94131cd.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">AWS EC2 서버 구축 올인원 가이드</title><link href="http://localhost:4000/aws-build-ec2-server-guide-all-in-one.html" rel="alternate" type="text/html" title="AWS EC2 서버 구축 올인원 가이드" /><published>2022-09-04T00:00:00+09:00</published><updated>2022-09-04T00:00:00+09:00</updated><id>http://localhost:4000/aws-build-ec2-server-guide-all-in-one</id><content type="html" xml:base="http://localhost:4000/aws-build-ec2-server-guide-all-in-one.html">&lt;p&gt;보다 세세한 과정들이 있지만 간략하게 표현하면 다음과 같습니다.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188363666-be491c86-f32a-4fcc-b9f5-90a5d65d331a.jpeg&quot; alt=&quot;1231245&quot; /&gt;&lt;/p&gt;
 
@@ -795,7 +786,7 @@ ELB 타겟 그룹을 정상적으로 생성하였습니다. 위의 단계를 통
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://velog.io/@shawnhansh/Ubuntu-%ED%8F%AC%ED%8A%B8%ED%8F%AC%EC%9B%8C%EB%94%A9Portforwarding&quot;&gt;Ubuntu 포트포워딩(Portforwarding)으로 포트번호 없이 접근하기
 &lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Lee Taegyeong</name></author><category term="spellteam" /><category term="EC2" /><category term="ELB" /><category term="Route53" /><category term="ACM" /><summary type="html">정말 여러 번 했지만 매번 까먹는 것 같습니다.</summary></entry><entry><title type="html">내가 숭실 교내 와이파이 문제를 이해하고 숭파이를 만든 과정</title><link href="http://localhost:4000/network-reason-i-develop-soongfi.html" rel="alternate" type="text/html" title="내가 숭실 교내 와이파이 문제를 이해하고 숭파이를 만든 과정" /><published>2022-08-21T00:00:00+09:00</published><updated>2022-08-21T00:00:00+09:00</updated><id>http://localhost:4000/%5Bnetwork%5D-reason-I-develop-soongfi</id><content type="html" xml:base="http://localhost:4000/network-reason-i-develop-soongfi.html">&lt;p&gt;보통 Soongsil_WIFI에 연결하면 로그인 페이지가 뜨지만, 그렇지 않은 경우도 있습니다.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Lee Taegyeong</name></author><category term="spellteam" /><category term="EC2" /><category term="ELB" /><category term="Route53" /><category term="ACM" /><summary type="html">보다 세세한 과정들이 있지만 간략하게 표현하면 다음과 같습니다.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://wallpapers.microsoft.design/images/grid-29-@1x.jpg" /><media:content medium="image" url="https://wallpapers.microsoft.design/images/grid-29-@1x.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">내가 숭실 교내 와이파이 문제를 이해하고 숭파이를 만든 과정</title><link href="http://localhost:4000/network-reason-i-develop-soongfi.html" rel="alternate" type="text/html" title="내가 숭실 교내 와이파이 문제를 이해하고 숭파이를 만든 과정" /><published>2022-08-21T00:00:00+09:00</published><updated>2022-08-21T00:00:00+09:00</updated><id>http://localhost:4000/%5Bnetwork%5D-reason-I-develop-soongfi</id><content type="html" xml:base="http://localhost:4000/network-reason-i-develop-soongfi.html">&lt;p&gt;보통 Soongsil_WIFI에 연결하면 로그인 페이지가 뜨지만, 그렇지 않은 경우도 있습니다.&lt;/p&gt;
 
 &lt;div class=&quot;alert alert-warning d-flex align-items-center&quot; role=&quot;alert&quot;&gt;
   &lt;i class=&quot;bi bi-exclamation-triangle-fill&quot; style=&quot;margin-right: 10px&quot;&gt;&lt;/i&gt;

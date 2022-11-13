@@ -30,17 +30,19 @@
 <meta property="og:title" content="AWS EC2 서버 구축 올인원 가이드" />
 <meta name="author" content="Lee Taegyeong" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="정말 여러 번 했지만 매번 까먹는 것 같습니다." />
-<meta property="og:description" content="정말 여러 번 했지만 매번 까먹는 것 같습니다." />
+<meta name="description" content="정말 여러 번 했지만 매번 까먹는 것 같습니다. AWS 계정을 생성하고 EC2 인스턴스 생성, Route53 도메인 신청을 완료한 이후의 구축 과정입니다." />
+<meta property="og:description" content="정말 여러 번 했지만 매번 까먹는 것 같습니다. AWS 계정을 생성하고 EC2 인스턴스 생성, Route53 도메인 신청을 완료한 이후의 구축 과정입니다." />
 <link rel="canonical" href="http://localhost:4000/aws-build-ec2-server-guide-all-in-one.html" />
 <meta property="og:url" content="http://localhost:4000/aws-build-ec2-server-guide-all-in-one.html" />
 <meta property="og:site_name" content="Lee Taegyeong" />
+<meta property="og:image" content="https://wallpapers.microsoft.design/images/grid-29-@1x.jpg" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2022-09-04T00:00:00+09:00" />
-<meta name="twitter:card" content="summary" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://wallpapers.microsoft.design/images/grid-29-@1x.jpg" />
 <meta property="twitter:title" content="AWS EC2 서버 구축 올인원 가이드" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","url":"http://localhost:4000/aws-build-ec2-server-guide-all-in-one.html","description":"정말 여러 번 했지만 매번 까먹는 것 같습니다.","headline":"AWS EC2 서버 구축 올인원 가이드","dateModified":"2022-09-04T00:00:00+09:00","datePublished":"2022-09-04T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/aws-build-ec2-server-guide-all-in-one.html"},"author":{"@type":"Person","name":"Lee Taegyeong"},"@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","url":"http://localhost:4000/aws-build-ec2-server-guide-all-in-one.html","description":"정말 여러 번 했지만 매번 까먹는 것 같습니다. AWS 계정을 생성하고 EC2 인스턴스 생성, Route53 도메인 신청을 완료한 이후의 구축 과정입니다.","headline":"AWS EC2 서버 구축 올인원 가이드","dateModified":"2022-09-04T00:00:00+09:00","datePublished":"2022-09-04T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/aws-build-ec2-server-guide-all-in-one.html"},"image":"https://wallpapers.microsoft.design/images/grid-29-@1x.jpg","author":{"@type":"Person","name":"Lee Taegyeong"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Lee Taegyeong" /><link
     rel="shortcut icon"
@@ -76,30 +78,22 @@
 <article>
   <br />
   
-  <a id="tag-badge">spellteam</a>
+  <a href="#" id="tag-badge">spellteam</a>
   
-  <a id="tag-badge">EC2</a>
+  <a href="#" id="tag-badge">EC2</a>
   
-  <a id="tag-badge">ELB</a>
+  <a href="#" id="tag-badge">ELB</a>
   
-  <a id="tag-badge">Route53</a>
+  <a href="#" id="tag-badge">Route53</a>
   
-  <a id="tag-badge">ACM</a>
+  <a href="#" id="tag-badge">ACM</a>
   
 
-  <hr />
-  <p>정말 여러 번 했지만 매번 까먹는 것 같습니다.</p>
+  <div style="max-width: 768px; margin: auto">
+    <hr />
+    <p>정말 여러 번 했지만 매번 까먹는 것 같습니다. AWS 계정을 생성하고 EC2 인스턴스 생성, Route53 도메인 신청을 완료한 이후의 구축 과정입니다.</p>
 
-  <p>정말 여러 번 했지만 매번 까먹는 것 같습니다.</p>
-
-<div class="alert alert-warning d-flex align-items-center" role="alert">
-  <i class="bi bi-exclamation-triangle-fill" style="margin-right: 10px"></i>
-  <div>
-   이 글은 AWS 계정을 생성하고 EC2 인스턴스 생성, Route53 도메인 신청을 완료한 이후의 단계를 알려줍니다. 
-  </div>
-</div>
-
-<p>보다 세세한 과정들이 있지만 간략하게 표현하면 다음과 같습니다.</p>
+    <p>보다 세세한 과정들이 있지만 간략하게 표현하면 다음과 같습니다.</p>
 
 <p><img src="https://user-images.githubusercontent.com/34812887/188363666-be491c86-f32a-4fcc-b9f5-90a5d65d331a.jpeg" alt="1231245" /></p>
 
@@ -325,16 +319,17 @@ ELB 타겟 그룹을 정상적으로 생성하였습니다. 위의 단계를 통
 </ul>
 
 
-  <br />
-  <p class="text-muted">댓글을 남겨주세요.</p>
-  <script
-    src="https://utteranc.es/client.js"
-    repo="hanarotg/hanarotg.github.io"
-    issue-term="pathname"
-    theme="preferred-color-scheme"
-    crossorigin="anonymous"
-    async
-  ></script>
+    <br />
+    <p class="text-muted">댓글을 남겨주세요.</p>
+    <script
+      src="https://utteranc.es/client.js"
+      repo="hanarotg/hanarotg.github.io"
+      issue-term="pathname"
+      theme="preferred-color-scheme"
+      crossorigin="anonymous"
+      async
+    ></script>
+  </div>
 </article>
 
       </div>
