@@ -3,6 +3,7 @@ layout: post
 title: 비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [2부]
 description: 거하게 말아먹은 제 첫 창업 실패기 2부입니다. MVP 출시까지의 이야기를 다룹니다.
 tags: stylehero startup
+image: https://user-images.githubusercontent.com/34812887/198346138-1b3bc4c2-e4d6-45b4-9652-6101da274c82.png
 ---
 
 ![A2D714AC-F4B3-4012-872C-5B55767004A8](https://user-images.githubusercontent.com/34812887/199989968-bf85ff4a-ae0e-42d8-b806-e44f933f5b16.JPG)

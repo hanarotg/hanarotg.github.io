@@ -3,24 +3,43 @@
 {%-else-%} {%-assign posts = site.posts-%} {%-endif-%} {%-if include.limit and
 posts.size > include.limit-%} {%-assign limit_exceeded = true-%} {%-else-%}
 {%-assign limit_exceeded = false-%} {%-endif-%} {%- if posts.size > 0 -%} {%-
-for post in posts limit: include.limit -%}
+for post in posts limit: include.limit -%} {% capture thecycle %}{% cycle 'odd',
+'even' %}{% endcapture %} {% if thecycle == 'odd' %}
+<div class="row">
+  {% endif %}
 
-<div id="card-container">
-  <div id="card">
-    <p class="text-muted">
-      {{- post.date | date: site.theme_config.date_format -}}
-    </p>
-    <a href="{{ post.url | relative_url }}" id="card-title"
-      >{{ post.title | downcase }}</a
-    >
-    <p class="text-muted">{{ post.description }}</p>
-    <br />
-    {% for tag in post.tags %}
-    <a href="#" id="tag-badge">{{tag}}</a>
-    {% endfor %}
+  <div id="card-container" class="col-sm">
+    <a href="{{ post.url | relative_url }}">
+      <div
+        id="card-image"
+        style="
+        {%- if post.image -%}
+          background-image: url('{{ post.image }}');
+        {%- elsif post.color -%}
+          background-color: {{post.color}}
+        {%- else -%}
+          background-color: #f0f0f0;
+        {%- endif -%}
+      "
+      ></div>
+    </a>
+    <div id="card">
+      <p class="text-muted">
+        {{- post.date | date: site.theme_config.date_format -}}
+      </p>
+      <a href="{{ post.url | relative_url }}" id="card-title"
+        >{{ post.title | downcase }}</a
+      >
+      <p class="text-muted">{{ post.description }}</p>
+      {% for tag in post.tags %}
+      <a href="#" id="tag-badge">{{tag}}</a>
+      {% endfor %}
+    </div>
   </div>
+
+  {% if thecycle == 'even' %}
 </div>
-{%- endfor -%} {%- if include.show_more and limit_exceeded -%}
+{% endif %} {%- endfor -%} {%- if include.show_more and limit_exceeded -%}
 <br />
 
 {%- endif -%} {%- endif -%}

@@ -3,6 +3,7 @@ layout: post
 title: 비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [3부 완]
 description: 재출시 후 서비스 재개발부터 폐업신고까지 그리고 1년간의 창업으로부터 배운 점을 공유합니다.
 tags: stylehero startup
+image: https://user-images.githubusercontent.com/34812887/200158520-9ea4f033-2727-49aa-bccb-df728de656d2.png
 ---
 
 ###### Timeline
@@ -11,7 +12,7 @@ tags: stylehero startup
   - [bigquery 데이터 분석을 통해 문제를 파악하다.](#bigquery-데이터-분석을-통해-문제를-파악하다)
 - [RESTful하게 처음부터 다시](#restful하게-처음부터-다시)
     - [Tech stack](#tech-stack)
-  - [코딩 디자인 가이드](#코딩-디자인-가이드)
+  - [프로그래밍 스타일 가이드](#프로그래밍-스타일-가이드)
   - [S3CM.js](#s3cmjs)
 - [마지막 사무실 이전](#마지막-사무실-이전)
 - [정리하다](#정리하다)
@@ -79,13 +80,13 @@ tags: stylehero startup
 - Infra : AWS EC2, Route53, RDS, S3
 - Others : Naver cloud platform
 
-##### 코딩 디자인 가이드
+##### 프로그래밍 스타일 가이드
 
-React.js와 MUI를 사용하여 프론트를 개발하는 과정에서 통일된 코드 스타일과 컴포넌트간 명확한 역할 구분이 필요함을 느꼈습니다. 개발 팀원들에게 아래과 같은 코딩 스타일 가이드를 작성하여 배포했습니다.
+React.js와 MUI를 사용하여 프론트를 개발하는 과정에서 통일된 코드 스타일과 컴포넌트간 명확한 역할 구분이 필요함을 느꼈습니다. 개발 팀원들에게 스타일 가이드를 작성하여 배포했습니다.
 
 다른 분들도 활용하실 수 있도록 파일을 공유합니다. 나름 고민을 해서 작성한 거라.. 도움이 되셨으면 좋겠네요.
 
-[스타일히어로 코딩 디자인 가이드.pdf](https://hanarotg.github.io/others/stylehero/stylehero_2nd_service_code_style_guide.pdf)
+[스타일히어로 프로그래밍 스타일 가이드.pdf](https://hanarotg.github.io/others/stylehero/stylehero_2nd_service_code_style_guide.pdf)
 
 ##### S3CM.js
 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-11T11:15:48+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lee Taegyeong</title><subtitle>안녕하세요 이태경입니다.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-13T15:36:50+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lee Taegyeong</title><subtitle>안녕하세요 이태경입니다.
 </subtitle><author><name>Lee Taegyeong</name></author><entry><title type="html">비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [3부 완]</title><link href="http://localhost:4000/project-stylehero-story-3.html" rel="alternate" type="text/html" title="비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [3부 완]" /><published>2022-10-29T00:00:00+09:00</published><updated>2022-10-29T00:00:00+09:00</updated><id>http://localhost:4000/%5Bproject%5D-stylehero-story-3</id><content type="html" xml:base="http://localhost:4000/project-stylehero-story-3.html">&lt;h6 id=&quot;timeline&quot;&gt;Timeline&lt;/h6&gt;
 
 &lt;ul&gt;
@@ -10,7 +10,7 @@
   &lt;li&gt;&lt;a href=&quot;#restful하게-처음부터-다시&quot;&gt;RESTful하게 처음부터 다시&lt;/a&gt;
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#tech-stack&quot;&gt;Tech stack&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#코딩-디자인-가이드&quot;&gt;코딩 디자인 가이드&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#프로그래밍-스타일-가이드&quot;&gt;프로그래밍 스타일 가이드&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#s3cmjs&quot;&gt;S3CM.js&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
@@ -89,13 +89,13 @@
   &lt;li&gt;Others : Naver cloud platform&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h5 id=&quot;코딩-디자인-가이드&quot;&gt;코딩 디자인 가이드&lt;/h5&gt;
+&lt;h5 id=&quot;프로그래밍-스타일-가이드&quot;&gt;프로그래밍 스타일 가이드&lt;/h5&gt;
 
-&lt;p&gt;React.js와 MUI를 사용하여 프론트를 개발하는 과정에서 통일된 코드 스타일과 컴포넌트간 명확한 역할 구분이 필요함을 느꼈습니다. 개발 팀원들에게 아래과 같은 코딩 스타일 가이드를 작성하여 배포했습니다.&lt;/p&gt;
+&lt;p&gt;React.js와 MUI를 사용하여 프론트를 개발하는 과정에서 통일된 코드 스타일과 컴포넌트간 명확한 역할 구분이 필요함을 느꼈습니다. 개발 팀원들에게 스타일 가이드를 작성하여 배포했습니다.&lt;/p&gt;
 
 &lt;p&gt;다른 분들도 활용하실 수 있도록 파일을 공유합니다. 나름 고민을 해서 작성한 거라.. 도움이 되셨으면 좋겠네요.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://hanarotg.github.io/others/stylehero/stylehero_2nd_service_code_style_guide.pdf&quot;&gt;스타일히어로 코딩 디자인 가이드.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://hanarotg.github.io/others/stylehero/stylehero_2nd_service_code_style_guide.pdf&quot;&gt;스타일히어로 프로그래밍 스타일 가이드.pdf&lt;/a&gt;&lt;/p&gt;
 
 &lt;h5 id=&quot;s3cmjs&quot;&gt;S3CM.js&lt;/h5&gt;
 
@@ -193,7 +193,7 @@
 
 &lt;p&gt;글을 제대로 써본 적이 없어서.. 많이 어색하지 않을까 싶은데 혹시 피드백 있다면 댓글로 남겨주시면 바로 고칠게요. 읽어주셔서 감사합니다.&lt;/p&gt;
 
-&lt;p&gt;혹시 이 글을 본 스타일히어로 멤버였던 친구들이 있으면 연락해! 밥 사줄게용&lt;/p&gt;</content><author><name>Lee Taegyeong</name></author><category term="stylehero" /><category term="startup" /><summary type="html">Timeline</summary></entry><entry><title type="html">비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [2부]</title><link href="http://localhost:4000/project-stylehero-story-2.html" rel="alternate" type="text/html" title="비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [2부]" /><published>2022-10-28T00:00:00+09:00</published><updated>2022-10-28T00:00:00+09:00</updated><id>http://localhost:4000/%5Bproject%5D-stylehero-story-2</id><content type="html" xml:base="http://localhost:4000/project-stylehero-story-2.html">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/199989968-bf85ff4a-ae0e-42d8-b806-e44f933f5b16.JPG&quot; alt=&quot;A2D714AC-F4B3-4012-872C-5B55767004A8&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;혹시 이 글을 본 스타일히어로 멤버였던 친구들이 있으면 연락해! 밥 사줄게용&lt;/p&gt;</content><author><name>Lee Taegyeong</name></author><category term="stylehero" /><category term="startup" /><summary type="html">Timeline</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://user-images.githubusercontent.com/34812887/200158520-9ea4f033-2727-49aa-bccb-df728de656d2.png" /><media:content medium="image" url="https://user-images.githubusercontent.com/34812887/200158520-9ea4f033-2727-49aa-bccb-df728de656d2.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [2부]</title><link href="http://localhost:4000/project-stylehero-story-2.html" rel="alternate" type="text/html" title="비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [2부]" /><published>2022-10-28T00:00:00+09:00</published><updated>2022-10-28T00:00:00+09:00</updated><id>http://localhost:4000/%5Bproject%5D-stylehero-story-2</id><content type="html" xml:base="http://localhost:4000/project-stylehero-story-2.html">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/199989968-bf85ff4a-ae0e-42d8-b806-e44f933f5b16.JPG&quot; alt=&quot;A2D714AC-F4B3-4012-872C-5B55767004A8&quot; /&gt;&lt;/p&gt;
 
 &lt;h6 id=&quot;timeline&quot;&gt;Timeline&lt;/h6&gt;
 
@@ -431,7 +431,7 @@
 
 &lt;p&gt;또한 한달동안 플랫폼 가입자 300명을 달성하였습니다.(정확히는 290명…)&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://hanarotg.github.io/project-stylehero-story-3.html&quot;&gt;마지막 3부에서 계속..&lt;/a&gt;&lt;/p&gt;</content><author><name>Lee Taegyeong</name></author><category term="stylehero" /><category term="startup" /><summary type="html"></summary></entry><entry><title type="html">비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [1부]</title><link href="http://localhost:4000/project-stylehero-story-1.html" rel="alternate" type="text/html" title="비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [1부]" /><published>2022-10-27T00:00:00+09:00</published><updated>2022-10-27T00:00:00+09:00</updated><id>http://localhost:4000/%5Bproject%5D-stylehero-story-1</id><content type="html" xml:base="http://localhost:4000/project-stylehero-story-1.html">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/199974840-bd4c8f07-1385-4011-a666-069150728c7a.JPG&quot; alt=&quot;9CE981EE-2AAD-413D-B94E-BAD676152888&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://hanarotg.github.io/project-stylehero-story-3.html&quot;&gt;마지막 3부에서 계속..&lt;/a&gt;&lt;/p&gt;</content><author><name>Lee Taegyeong</name></author><category term="stylehero" /><category term="startup" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://user-images.githubusercontent.com/34812887/198346138-1b3bc4c2-e4d6-45b4-9652-6101da274c82.png" /><media:content medium="image" url="https://user-images.githubusercontent.com/34812887/198346138-1b3bc4c2-e4d6-45b4-9652-6101da274c82.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [1부]</title><link href="http://localhost:4000/project-stylehero-story-1.html" rel="alternate" type="text/html" title="비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [1부]" /><published>2022-10-27T00:00:00+09:00</published><updated>2022-10-27T00:00:00+09:00</updated><id>http://localhost:4000/%5Bproject%5D-stylehero-story-1</id><content type="html" xml:base="http://localhost:4000/project-stylehero-story-1.html">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/199974840-bd4c8f07-1385-4011-a666-069150728c7a.JPG&quot; alt=&quot;9CE981EE-2AAD-413D-B94E-BAD676152888&quot; /&gt;&lt;/p&gt;
 
 &lt;p class=&quot;text-muted&quot;&gt;벽에 붙어있었던 문구들&lt;/p&gt;
 
@@ -525,7 +525,7 @@
 
 &lt;p&gt;이번 일로 마크와 전 꽤 힘을 들였던 것 같습니다. 돈 문제로 정들었던 팀원을 내보낸다는 게 생각보다 쉽지는 않더라구요.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://hanarotg.github.io/project-stylehero-story-2.html&quot;&gt;2부에서 계속…&lt;/a&gt;&lt;/p&gt;</content><author><name>Lee Taegyeong</name></author><category term="stylehero" /><category term="startup" /><summary type="html"></summary></entry><entry><title type="html">EC2 인스턴스에서 XV6 개발 환경 세팅하는 방법, 에러 해결</title><link href="http://localhost:4000/os-xv6-settings.html" rel="alternate" type="text/html" title="EC2 인스턴스에서 XV6 개발 환경 세팅하는 방법, 에러 해결" /><published>2022-09-11T00:00:00+09:00</published><updated>2022-09-11T00:00:00+09:00</updated><id>http://localhost:4000/%5BOS%5D-XV6-settings</id><content type="html" xml:base="http://localhost:4000/os-xv6-settings.html">&lt;h4 id=&quot;설치&quot;&gt;설치&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://hanarotg.github.io/project-stylehero-story-2.html&quot;&gt;2부에서 계속…&lt;/a&gt;&lt;/p&gt;</content><author><name>Lee Taegyeong</name></author><category term="stylehero" /><category term="startup" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://user-images.githubusercontent.com/34812887/199974840-bd4c8f07-1385-4011-a666-069150728c7a.JPG" /><media:content medium="image" url="https://user-images.githubusercontent.com/34812887/199974840-bd4c8f07-1385-4011-a666-069150728c7a.JPG" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">EC2 인스턴스에서 XV6 개발 환경 세팅하는 방법, 에러 해결</title><link href="http://localhost:4000/os-xv6-settings.html" rel="alternate" type="text/html" title="EC2 인스턴스에서 XV6 개발 환경 세팅하는 방법, 에러 해결" /><published>2022-09-11T00:00:00+09:00</published><updated>2022-09-11T00:00:00+09:00</updated><id>http://localhost:4000/%5BOS%5D-XV6-settings</id><content type="html" xml:base="http://localhost:4000/os-xv6-settings.html">&lt;h4 id=&quot;설치&quot;&gt;설치&lt;/h4&gt;
 
 &lt;p&gt;EC2 Ubuntu 20.04 LTS 인스턴스를 사용하는 것을 전제합니다.&lt;/p&gt;
 

@@ -4,18 +4,18 @@ layout: default
 
 <!-- {%-include back_link.html-%} -->
 
-<h3>{{ page.title }}</h3>
+<p class="post-meta">
+  <time datetime="{{ page.date }}"
+    >{{ page.date | date: site.theme_config.date_format }}</time
+  >
+</p>
+
+<h1>{{ page.title }}</h1>
 <article>
   <br />
   {% for tag in page.tags %}
   <a id="tag-badge">{{tag}}</a>
   {% endfor %}
-
-  <p class="post-meta">
-    <time datetime="{{ page.date }}"
-      >{{ page.date | date: site.theme_config.date_format }}</time
-    >
-  </p>
 
   <hr />
   <p>{{ page.description}}</p>
