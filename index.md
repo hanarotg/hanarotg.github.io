@@ -2,7 +2,11 @@
 layout: default
 ---
 
-# 안녕하세요! 이태경입니다.
+<br />
+<br />
+<br />
+
+# Fail Fast, Fail Often
 
 개발, 디자인 등 저와 관련된 다양한 글을 담은 블로그입니다.
 
