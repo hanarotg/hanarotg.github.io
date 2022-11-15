@@ -8,6 +8,8 @@ layout: default
   <time datetime="{{ page.date }}"
     >{{ page.date | date: site.theme_config.date_format }}</time
   >
+  · {% assign words = page.content | number_of_words %} {% if words < 360 %} 1
+  min {% else %} {{ words | divided_by:180 }} mins {% endif %}
 </p>
 
 <h1>{{ page.title }}</h1>
