@@ -338,17 +338,12 @@ img {
 }
 
 #tag-badge {
-  padding-right: 1em;
+  padding: 0.3em;
   margin-bottom: 1em;
-  border-radius: 15px;
-  // background-color: #d7effe;
-  color: #202124;
+  font-size: small;
+  background-color: #f0f0f0;
   font-family: "Courier New", Courier, monospace;
-}
-
-#tag-badge:hover {
-  // background-color: #0078d4;
-  // color: #d7effe;
+  color: #595959;
 }
 
 // 다중 이미지 슬라이더
