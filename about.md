@@ -3,79 +3,13 @@ layout: page
 title: 이태경
 ---
 
-클라우드 엔지니어링과 `node.js` 를 활용한 다양한 서비스 설계에 관심이 많은 새내기 개발자입니다. [한 번의 창업을 경험](https://hanarotg.github.io/project-stylehero-story-1.html)했으며 현재 학부생으로 `springboot`와 전공 공부에 집중하고 있습니다.
-[깃허브](https://github.com/hanarotg)와 [이메일](mailto:hanarotg@naver.com)로 저를 찾으실 수 있습니다.
+Taegyeong Lee
 
-#### 스킬
+- Email : [hanarotg@naver.com](mailto:hanarotg@naver.com)
+- Blog : [https://hanarotg.github.io](https://hanarotg.github.io)
+- Github : [https://github.com/hanarotg](https://github.com/hanarotg)
+- LinkedIn : [https://www.linkedin.com/in/taegyeong-lee-9086a7163/](https://www.linkedin.com/in/taegyeong-lee-9086a7163/)
 
----
+클라우드 엔지니어링과 `node.js` 를 활용한 다양한 서비스 설계에 관심습니다. [한 번의 창업을 경험](https://hanarotg.github.io/project-stylehero-story-1.html)했습니다.
 
-- Node.js(express.js, Nest.js)와 MongoDB, firestre, MariaDB로 백엔드 서비스를 구축할 수 있습니다.
-- React, React-native, html, css, bootstrap로 프론트엔드 서비스를 디자인할 수 있습니다.
-
-#### 경력
-
----
-
-.
-
-#### 프로젝트
-
----
-
-##### [체크드](https://hanarotg.github.io/others/checked)
-
-<p class="text-muted">2022.02 ~ 2022.09</p>
-
-독서 기록 기반 소셜 앱, 개인 프로젝트
-
-- React-Native 및 firestore, firebase-auth를 활용하여 개발했습니다.
-- springBoot 백엔드 서버 분리, Kubernetes를 활용하여 MSA 전환을 계획하고 있습니다.
-- 기획부터 개발, [IOS](https://apps.apple.com/kr/app/checked/id1610982857) 및 [안드로이드](https://play.google.com/store/apps/details?id=com.checked) 앱 퍼블리싱을 경험했습니다.
-
-##### [S3CM.js](https://github.com/hanarotg/S3CM.js)
-
-<p class="text-muted">2022.02</p>
-
-AWS S3 클라이언트 오픈소스 js 라이브러리, 개인 프로젝트
-
-- [AWS-S3-SDK v3](https://github.com/aws/aws-sdk-js-v3)를 사용하면서 이해하기 어려웠던 경험을 토대로 개발자가 이해하기 쉽고 빠르게 s3 관련 서비스를 개발할 수 있도록 만들었습니다.
-
-##### 기타 토이 프로젝트
-
-- [SPELL.TEAM - 롤 스펠 체크 타이머 웹 사이트](https://github.com/hanarotg/spell.team)
-- hugg.link - 위키 웹 사이트 [github:frontend](https://github.com/hanarotg/hugglink-v3-frontend) [github:backend](https://github.com/hanarotg/hugglink-v2-backend)
-
-#### 활동
-
----
-
-##### [스타일히어로](https://hanarotg.github.io/project-stylehero-story-1.html)
-
-<p class="text-muted">2021.03 ~ 2022.02</p>
-
-런칭 1개월 가입자 300명 달성 비대면 스타일리스트 매칭 웹 플랫폼, 풀스택 개발 및 공동창업
-
-- Node.js(express.js), bootstrap 및 firestore를 활용하여 <a href="/project-stylehero-story-2.html#tech-stack">MVP를 개발</a>했습니다.
-- Node.js(Nest.js), React.js 및 MariaDB로 RESTful <a href="/project-stylehero-story-3.html#tech-stack">아키텍처 변경, 개발</a>을 진행했습니다.
-- AWS EC2 및 S3, RDS 등을 사용하여 상용 서비스를 구축했습니다.
-- analytics 경로 탐색 분석 결과를 근거로 <a href="/project-stylehero-story-2.html#analytics를-활용하여-랜딩페이지의-문제점을-파악하다">랜딩페이지를 개선</a>하였으며, bigquery를 활용한 고객 데이터 분석으로 <a href="/project-stylehero-story-3.html#bigquery-데이터-분석을-통해-문제를-파악하다">타겟 시장을 수정</a>하였습니다.
-- 팀 내 프로그래밍 스타일 가이드를 <a href="https://hanarotg.github.io/others/stylehero/stylehero_2nd_service_code_style_guide.pdf">작성, 배포</a>했고, 개발 및 운영 진행상황을 슬랙에 매일 공개하여 <a href="/project-stylehero-story-2.html#매일-진행상황을-공유하고-업데이트">팀 문화를 개선</a>하였습니다.
-- <a href="/project-stylehero-story-1.html">[참고] 비대면 스타일리스트 매칭 웹 플랫폼, 스타일히어로 이야기 1,2,3부</a>
-
-##### [숭실대학교 만돌린 오케스트라](https://www.youtube.com/channel/UCCZcItosgldd2GsHrEQpOAw)
-
-<p class="text-muted">2018-08 ~ 현재</p>
-
-- 만돌라 파트
-- 22년도 총무(회장)을 맡아 방학 합숙 및 연주회 등 동아리 행사를 운영했습니다.
-
-#### 학력 및 기타 정보
-
----
-
-##### 숭실대학교 컴퓨터학부
-
-<p class="text-muted">2018-02 ~ 현재</p>
-
-- 학사과정
+포트폴리오 및 이력서가 필요하시다면 **이메일** 또는 **링크드인 메시지**를 보내주세요! 보내드리겠습니다.
