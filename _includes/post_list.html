@@ -6,17 +6,21 @@ posts.size > include.limit-%} {%-assign limit_exceeded = true-%} {%-else-%}
 for post in posts limit: include.limit -%}
 
 <div id="card-container" class="col-sm">
-  <div id="card">
-    <p class="text-muted">
-      {{- post.date | date: site.theme_config.date_format -}}
-    </p>
-    <a href="{{ post.url | relative_url }}" id="card-title"
-      >{{ post.title | downcase }}</a
-    >
-    <p class="text-muted">{{ post.description }}</p>
-    {% for tag in post.tags %}
-    <a href="#" id="tag-badge">{{tag}}</a>
-    {% endfor %}
+  <div id="card" class="row">
+    <div class="col-auto">
+      <p class="text-muted">
+        {{- post.date | date: site.theme_config.date_format -}}
+      </p>
+    </div>
+    <div class="col">
+      <a href="{{ post.url | relative_url }}" id="card-title"
+        >{{ post.title | downcase }}</a
+      >
+      <p class="text-muted">{{ post.description }}</p>
+      {% for tag in post.tags %}
+      <a href="#" id="tag-badge">{{tag}}</a>
+      {% endfor %}
+    </div>
   </div>
 </div>
 {%- endfor -%} {%- if include.show_more and limit_exceeded -%}
