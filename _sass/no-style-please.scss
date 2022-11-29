@@ -282,12 +282,13 @@ img {
 
 #header_navbar a {
   color: #737373;
+  padding: 0.3em;
   text-decoration: none;
-  transition: color 0.2s ease-out;
 }
 
 #header_navbar a:hover {
-  color: #adb5bd;
+  color: #ffffff;
+  background-color: #363636;
 }
 
 #title-badge {
@@ -363,4 +364,16 @@ img {
   width: 200px;
   border-radius: 15px;
   border: 1px solid #f0f0f0;
+}
+
+#category li {
+  list-style-type: none;
+  padding: 0.3em;
+  font-size: small;
+  color: #595959;
+}
+
+#category li svg {
+  width: 16px;
+  height: 16px;
 }
