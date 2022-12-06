@@ -4,7 +4,7 @@
 entries:
   - title:
     post_list:
-      limit: 5
+      limit: 10
       show_more: true
       show_more_text: 작성글 더보기
       show_more_url: archive.html
