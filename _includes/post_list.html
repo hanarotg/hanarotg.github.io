@@ -6,7 +6,7 @@ posts.size > include.limit-%} {%-assign limit_exceeded = true-%} {%-else-%}
 for post in posts limit: include.limit -%}
 <!-- {{ post.url | relative_url }} -->
 
-<li>
+<li style="font-family: 'Courier New', Courier, monospace">
   {{- post.date | date: site.theme_config.date_format -}} ·
   <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
   <br />
