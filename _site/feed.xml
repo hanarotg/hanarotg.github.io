@@ -1,131 +1,96 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-07T18:36:43+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lee Taegyeong</title><subtitle>안녕하세요 이태경입니다.
-</subtitle><author><name>Lee Taegyeong</name></author><entry><title type="html">비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [3부 완]</title><link href="http://localhost:4000/project-stylehero-story-3.html" rel="alternate" type="text/html" title="비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [3부 완]" /><published>2022-10-29T00:00:00+09:00</published><updated>2022-10-29T00:00:00+09:00</updated><id>http://localhost:4000/%5Bproject%5D-stylehero-story-3</id><content type="html" xml:base="http://localhost:4000/project-stylehero-story-3.html">&lt;h6 id=&quot;timeline&quot;&gt;Timeline&lt;/h6&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-09T01:20:19+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lee Taegyeong</title><subtitle>안녕하세요.</subtitle><author><name>이태경</name></author><entry><title type="html">비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [3부 완]</title><link href="http://localhost:4000/project-stylehero-story-3/" rel="alternate" type="text/html" title="비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [3부 완]" /><published>2022-10-29T00:00:00+09:00</published><updated>2022-10-29T00:00:00+09:00</updated><id>http://localhost:4000/%5Bproject%5D-stylehero-story-3</id><content type="html" xml:base="http://localhost:4000/project-stylehero-story-3/"><![CDATA[<h1 id="가입자는-300명인데-결제는-1명">가입자는 300명인데 결제는 1명??</h1>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#가입자는-300명인데-결제는-1명&quot;&gt;가입자는 300명인데 결제는 1명??&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#bigquery-데이터-분석을-통해-문제를-파악하다&quot;&gt;bigquery 데이터 분석을 통해 문제를 파악하다.&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#restful하게-처음부터-다시&quot;&gt;RESTful하게 처음부터 다시&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#tech-stack&quot;&gt;Tech stack&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#프로그래밍-스타일-가이드&quot;&gt;프로그래밍 스타일 가이드&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#s3cmjs&quot;&gt;S3CM.js&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#마지막-사무실-이전&quot;&gt;마지막 사무실 이전&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#정리하다&quot;&gt;정리하다&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#8명에서-4명으로&quot;&gt;8명에서 4명으로&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#폐업&quot;&gt;폐업&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#대표-수상-내역&quot;&gt;대표 수상 내역&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#1년간-배운-것들&quot;&gt;1년간 배운 것들&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#항상-겸손해야&quot;&gt;항상 겸손해야&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#감정의-노예가-되지-말아야&quot;&gt;감정의 노예가 되지 말아야&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#책-많이-읽어라&quot;&gt;책 많이 읽어라&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#약간의-패션-감각&quot;&gt;약간의 패션 감각&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#감사합니다&quot;&gt;감사합니다.&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<p class="text-muted">2021년 11월 중순</p>
 
-&lt;h4 id=&quot;가입자는-300명인데-결제는-1명&quot;&gt;가입자는 300명인데 결제는 1명??&lt;/h4&gt;
+<p>재출시한 서비스 가입자는 300명에 달했지만(정확히는 290명 :P) 결제 고객은 단 1명이었습니다. 재출시 후 한달 동안 추가적인 결제 고객이 없자 문제가 무엇인지 파악해야 했습니다.</p>
 
-&lt;p class=&quot;text-muted&quot;&gt;2021년 11월 중순&lt;/p&gt;
+<h2 id="bigquery-데이터-분석을-통해-문제를-파악하다">bigquery 데이터 분석을 통해 문제를 파악하다.</h2>
 
-&lt;p&gt;재출시한 서비스 가입자는 300명에 달했지만(정확히는 290명 :P) 결제 고객은 단 1명이었습니다. 재출시 후 한달 동안 추가적인 결제 고객이 없자 문제가 무엇인지 파악해야 했습니다.&lt;/p&gt;
+<p>먼저 팀에서 예측한 시장이 많이 반응하였는지 검증해볼 필요가 있었습니다. 스타일히어로에서 고객은 회원가입 후 성별, 나이, 직업, 스타일리스트에게 바라는 점 등 설문조사를 완료하고 매칭을 받을 수 있었습니다. 설문조사 데이터를 기반으로 분석해보기로 하였습니다.</p>
 
-&lt;h5 id=&quot;bigquery-데이터-분석을-통해-문제를-파악하다&quot;&gt;bigquery 데이터 분석을 통해 문제를 파악하다.&lt;/h5&gt;
+<p>먼저 회원가입을 진행한 사용자 중 설문조사를 완료한 사용자 비율은 96%로 준수했습니다.</p>
 
-&lt;p&gt;먼저 팀에서 예측한 시장이 많이 반응하였는지 검증해볼 필요가 있었습니다. 스타일히어로에서 고객은 회원가입 후 성별, 나이, 직업, 스타일리스트에게 바라는 점 등 설문조사를 완료하고 매칭을 받을 수 있었습니다. 설문조사 데이터를 기반으로 분석해보기로 하였습니다.&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/199996769-69b96a27-8a97-4e2b-b9d1-aa8b070c1f84.png" alt="32235235" /></p>
 
-&lt;p&gt;먼저 회원가입을 진행한 사용자 중 설문조사를 완료한 사용자 비율은 96%로 준수했습니다.&lt;/p&gt;
+<p class="text-muted">회의 발표 - 200만원 지출 광고는 의미있었는가?</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/199996769-69b96a27-8a97-4e2b-b9d1-aa8b070c1f84.png&quot; alt=&quot;32235235&quot; /&gt;&lt;/p&gt;
+<p>그러나 팀에서 예측한 시장이 틀렸음을 깨닫게 되었습니다. 저희 팀이 초기에 기획한 타겟층은 25~35세 직장인 남성이었습니다. 허나 bigquery를 통해 분석한 결과 <u>25~35세 직장인 남성이라고 응답한 가입자는 단 8명</u>이었습니다..</p>
 
-&lt;p class=&quot;text-muted&quot;&gt;회의 발표 - 200만원 지출 광고는 의미있었는가?&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/199998470-c983ad83-f838-4d8f-8041-d1c3a9fdb229.png" alt="00820572035" /></p>
 
-&lt;p&gt;그러나 팀에서 예측한 시장이 틀렸음을 깨닫게 되었습니다. 저희 팀이 초기에 기획한 타겟층은 25~35세 직장인 남성이었습니다. 허나 bigquery를 통해 분석한 결과 &lt;u&gt;25~35세 직장인 남성이라고 응답한 가입자는 단 8명&lt;/u&gt;이었습니다..&lt;/p&gt;
+<p class="text-muted">회의 발표 - 우리가 틀렸다</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/199998470-c983ad83-f838-4d8f-8041-d1c3a9fdb229.png&quot; alt=&quot;00820572035&quot; /&gt;&lt;/p&gt;
+<p>실제로 저희 서비스에 관심을 많이 가진 시장은 20대 여성이었습니다. (개인정보 데이터는 가렸습니다.)</p>
 
-&lt;p class=&quot;text-muted&quot;&gt;회의 발표 - 우리가 틀렸다&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/199999204-3b52e48c-3fb9-4cb0-a0b8-7f90eafbd8a0.png" alt="03002739502" /></p>
 
-&lt;p&gt;실제로 저희 서비스에 관심을 많이 가진 시장은 20대 여성이었습니다. (개인정보 데이터는 가렸습니다.)&lt;/p&gt;
+<p class="text-muted">회의 발표 - 20대 여성으로 타겟을 바꾸어야 한다</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/199999204-3b52e48c-3fb9-4cb0-a0b8-7f90eafbd8a0.png&quot; alt=&quot;03002739502&quot; /&gt;&lt;/p&gt;
+<p>따라서 20대 여성을 공략한 서비스를 지향할 필요가 있었습니다. 저는 20대는 커뮤니티를 많이 활용한다는 전제 하에 커뮤니티 중심 스타일리스트와 자연스럽게 매칭될 수 있는 서비스를 제안했습니다. 팀원 모두가 공감해주었고 다시 판을 짜기 시작했습니다.</p>
 
-&lt;p class=&quot;text-muted&quot;&gt;회의 발표 - 20대 여성으로 타겟을 바꾸어야 한다&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/199999699-038a8934-8f0e-4eb3-8193-2e4ccea90dda.png" alt="32902093850" /></p>
 
-&lt;p&gt;따라서 20대 여성을 공략한 서비스를 지향할 필요가 있었습니다. 저는 20대는 커뮤니티를 많이 활용한다는 전제 하에 커뮤니티 중심 스타일리스트와 자연스럽게 매칭될 수 있는 서비스를 제안했습니다. 팀원 모두가 공감해주었고 다시 판을 짜기 시작했습니다.&lt;/p&gt;
+<h1 id="restful하게-처음부터-다시">RESTful하게 처음부터 다시</h1>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/199999699-038a8934-8f0e-4eb3-8193-2e4ccea90dda.png&quot; alt=&quot;32902093850&quot; /&gt;&lt;/p&gt;
+<p class="text-muted">2021년 12월</p>
 
-&lt;h4 id=&quot;restful하게-처음부터-다시&quot;&gt;RESTful하게 처음부터 다시&lt;/h4&gt;
+<p>서비스를 재설계해야함에 따라 MVP 개발 및 서비스 유지 보수 경험을 토대로 RESTful하게 개발할 필요성을 많이 느꼈습니다. 지속가능하고 스케일업 가능한 설계의 필요성을 (뼈저리게) 느꼈습니다. 제 미숙한 경험 상 초기 개발이 1할이라면 유지 보수가 9할을 차지하는 것 같습니다..</p>
 
-&lt;p class=&quot;text-muted&quot;&gt;2021년 12월&lt;/p&gt;
+<p>추후 모바일 앱으로도 출시하기 위해선 기존 MVP백엔드 서버 분리와 프론트 서버를 분해해야 했습니다. 모든 팀원을 모아 RESTful 하게 개발해야 할 필요성을 이야기하고 바로 공부를 시작했습니다. React.js와 Nest.js를 공부했습니다.</p>
 
-&lt;p&gt;서비스를 재설계해야함에 따라 MVP 개발 및 서비스 유지 보수 경험을 토대로 RESTful하게 개발할 필요성을 많이 느꼈습니다. 지속가능하고 스케일업 가능한 설계의 필요성을 (뼈저리게) 느꼈습니다. 제 미숙한 경험 상 초기 개발이 1할이라면 유지 보수가 9할을 차지하는 것 같습니다..&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/200158476-5aaa188d-7623-4fbc-a8b7-c0ff32f8c496.png" alt="325325352463" /></p>
 
-&lt;p&gt;추후 모바일 앱으로도 출시하기 위해선 기존 MVP백엔드 서버 분리와 프론트 서버를 분해해야 했습니다. 모든 팀원을 모아 RESTful 하게 개발해야 할 필요성을 이야기하고 바로 공부를 시작했습니다. React.js와 Nest.js를 공부했습니다.&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/200158520-9ea4f033-2727-49aa-bccb-df728de656d2.png" alt="00494903" /></p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/200158476-5aaa188d-7623-4fbc-a8b7-c0ff32f8c496.png&quot; alt=&quot;325325352463&quot; /&gt;&lt;/p&gt;
+<p class="text-muted">새로운 서비스 기획안 및 디자인</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/200158520-9ea4f033-2727-49aa-bccb-df728de656d2.png&quot; alt=&quot;00494903&quot; /&gt;&lt;/p&gt;
+<h2 id="tech-stack">Tech stack</h2>
 
-&lt;p class=&quot;text-muted&quot;&gt;새로운 서비스 기획안 및 디자인&lt;/p&gt;
+<ul>
+  <li>frontend : React.js, <a href="https://mui.com/">MUI</a></li>
+  <li>backend : Node.js(Nest.js)</li>
+  <li>DBMS : MariaDB</li>
+  <li>Infra : AWS EC2, Route53, RDS, S3</li>
+  <li>Others : Naver cloud platform</li>
+</ul>
 
-&lt;h6 id=&quot;tech-stack&quot;&gt;Tech stack&lt;/h6&gt;
+<h2 id="프로그래밍-스타일-가이드">프로그래밍 스타일 가이드</h2>
 
-&lt;ul&gt;
-  &lt;li&gt;frontend : React.js, &lt;a href=&quot;https://mui.com/&quot;&gt;MUI&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;backend : Node.js(Nest.js)&lt;/li&gt;
-  &lt;li&gt;DBMS : MariaDB&lt;/li&gt;
-  &lt;li&gt;Infra : AWS EC2, Route53, RDS, S3&lt;/li&gt;
-  &lt;li&gt;Others : Naver cloud platform&lt;/li&gt;
-&lt;/ul&gt;
+<p>React.js와 MUI를 사용하여 프론트를 개발하는 과정에서 통일된 코드 스타일과 컴포넌트간 명확한 역할 구분이 필요함을 느꼈습니다. 개발 팀원들에게 스타일 가이드를 작성하여 배포했습니다.</p>
 
-&lt;h5 id=&quot;프로그래밍-스타일-가이드&quot;&gt;프로그래밍 스타일 가이드&lt;/h5&gt;
+<p>다른 분들도 활용하실 수 있도록 파일을 공유합니다. 나름 고민을 해서 작성한 거라.. 도움이 되셨으면 좋겠네요.</p>
 
-&lt;p&gt;React.js와 MUI를 사용하여 프론트를 개발하는 과정에서 통일된 코드 스타일과 컴포넌트간 명확한 역할 구분이 필요함을 느꼈습니다. 개발 팀원들에게 스타일 가이드를 작성하여 배포했습니다.&lt;/p&gt;
+<p><a href="https://hanarotg.github.io/others/stylehero/stylehero_2nd_service_code_style_guide.pdf">스타일히어로 프로그래밍 스타일 가이드.pdf</a></p>
 
-&lt;p&gt;다른 분들도 활용하실 수 있도록 파일을 공유합니다. 나름 고민을 해서 작성한 거라.. 도움이 되셨으면 좋겠네요.&lt;/p&gt;
+<h2 id="s3cmjs">S3CM.js</h2>
 
-&lt;p&gt;&lt;a href=&quot;https://hanarotg.github.io/others/stylehero/stylehero_2nd_service_code_style_guide.pdf&quot;&gt;스타일히어로 프로그래밍 스타일 가이드.pdf&lt;/a&gt;&lt;/p&gt;
+<p>커뮤니티 서비스에서 이미지 업로드는 굉장히 빈번하게 발생합니다. 따라서 AWS S3를 사용했어야 했는데, <a href="https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/index.html">공식 s3 javascript sdk 문서</a>를 읽고 사용해 보면서 좀 더 사용하기 편한 s3 클라이언트 라이브러리가 있으면 좋겠다는 생각을 헀습니다. 보다 직관적이고 클라이언트에서 바로 s3에 업로드, 삭제 함수를 제공하는 <a href="https://github.com/hanarotg/S3CM.js">s3cm.js</a>를 만들어 배포했습니다.</p>
 
-&lt;h5 id=&quot;s3cmjs&quot;&gt;S3CM.js&lt;/h5&gt;
+<h1 id="마지막-사무실-이전">마지막 사무실 이전</h1>
 
-&lt;p&gt;커뮤니티 서비스에서 이미지 업로드는 굉장히 빈번하게 발생합니다. 따라서 AWS S3를 사용했어야 했는데, &lt;a href=&quot;https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/index.html&quot;&gt;공식 s3 javascript sdk 문서&lt;/a&gt;를 읽고 사용해 보면서 좀 더 사용하기 편한 s3 클라이언트 라이브러리가 있으면 좋겠다는 생각을 헀습니다. 보다 직관적이고 클라이언트에서 바로 s3에 업로드, 삭제 함수를 제공하는 &lt;a href=&quot;https://github.com/hanarotg/S3CM.js&quot;&gt;s3cm.js&lt;/a&gt;를 만들어 배포했습니다.&lt;/p&gt;
+<p class="text-muted">2021년 12월 말</p>
 
-&lt;h4 id=&quot;마지막-사무실-이전&quot;&gt;마지막 사무실 이전&lt;/h4&gt;
+<p>드디어 지상으로 올라오게 되었습니다. 새로운 창업 대회에서 입상하여 교내 다른 건물 3층에 사무실을 얻을 수 있었습니다. (이젠 서로 서먹서먹해진 사이라,,, 모두 얼굴 가렸어요..)</p>
 
-&lt;p class=&quot;text-muted&quot;&gt;2021년 12월 말&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/200157884-553fadb7-165e-44b5-a3ac-fb8c3c0944dc.png" alt="92D749B2-67C4-491D-91C0-52EC2807290D" /></p>
 
-&lt;p&gt;드디어 지상으로 올라오게 되었습니다. 새로운 창업 대회에서 입상하여 교내 다른 건물 3층에 사무실을 얻을 수 있었습니다. (이젠 서로 서먹서먹해진 사이라,,, 모두 얼굴 가렸어요..)&lt;/p&gt;
+<p class="text-muted">세 사무실 청소하고 찍은 사진</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/200157884-553fadb7-165e-44b5-a3ac-fb8c3c0944dc.png&quot; alt=&quot;92D749B2-67C4-491D-91C0-52EC2807290D&quot; /&gt;&lt;/p&gt;
+<h1 id="정리하다">정리하다</h1>
 
-&lt;p class=&quot;text-muted&quot;&gt;세 사무실 청소하고 찍은 사진&lt;/p&gt;
+<p class="text-muted">2021년 2월</p>
 
-&lt;h4 id=&quot;정리하다&quot;&gt;정리하다&lt;/h4&gt;
+<p>읽으신 분이 있으실진 모르겠지만.. 읽어주셔서 감사합니다. 거의 다 왔어요..! 저도 여기까지 쓰는데 한 3일 걸린 것 같네요.</p>
 
-&lt;p class=&quot;text-muted&quot;&gt;2021년 2월&lt;/p&gt;
+<h2 id="8명에서-4명으로">8명에서 4명으로</h2>
 
-&lt;p&gt;읽으신 분이 있으실진 모르겠지만.. 읽어주셔서 감사합니다. 거의 다 왔어요..! 저도 여기까지 쓰는데 한 3일 걸린 것 같네요.&lt;/p&gt;
+<p>평소에 포지션이 애매한 팀원 2명을 팀에서 내보낸 후 다른 개발자 두명에게서 연락이 왔습니다. 이제 팀원으로 있기 어렵다는 이야기였습니다. 예상하지 못했습니다. 평소에 잘 하고 나름 MVP 개발부터 지금까지 가장 오래 있었던 친구들이라.. 제가 그 친구들을 잘 안다고 생각했나 봅니다.</p>
 
-&lt;h5 id=&quot;8명에서-4명으로&quot;&gt;8명에서 4명으로&lt;/h5&gt;
+<h2 id="폐업">폐업</h2>
 
-&lt;p&gt;평소에 포지션이 애매한 팀원 2명을 팀에서 내보낸 후 다른 개발자 두명에게서 연락이 왔습니다. 이제 팀원으로 있기 어렵다는 이야기였습니다. 예상하지 못했습니다. 평소에 잘 하고 나름 MVP 개발부터 지금까지 가장 오래 있었던 친구들이라.. 제가 그 친구들을 잘 안다고 생각했나 봅니다.&lt;/p&gt;
+<p>팀 분위기는 확 꺾이기 시작했습니다. 전 휴학을 더이상 미룰 수 없었고 대표였던 마크는 군대를 지원하였습니다. 마크 대신 제가 대표를 맡게 되었습니다. 대표가 되어야만 볼 수 있었던 걸까요. 서비스에 대한 불확실성, 이걸 계속 할 수 있을까.. 비워져가는 팀 통장 등.. 미래에 대한 불확실성이 크게 다가왔습니다. 마크와 여러 이야기 끝에 서비스를 종료하고 폐업하게 되었습니다.</p>
 
-&lt;h5 id=&quot;폐업&quot;&gt;폐업&lt;/h5&gt;
-
-&lt;p&gt;팀 분위기는 확 꺾이기 시작했습니다. 전 휴학을 더이상 미룰 수 없었고 대표였던 마크는 군대를 지원하였습니다. 마크 대신 제가 대표를 맡게 되었습니다. 대표가 되어야만 볼 수 있었던 걸까요. 서비스에 대한 불확실성, 이걸 계속 할 수 있을까.. 비워져가는 팀 통장 등.. 미래에 대한 불확실성이 크게 다가왔습니다. 마크와 여러 이야기 끝에 서비스를 종료하고 폐업하게 되었습니다.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;스타일히어로 공지
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>스타일히어로 공지
 [Web발신]
 안녕하세요, 스타일히어로입니다.
 
@@ -145,176 +110,150 @@
 
 지금까지 당사 서비스에 관심 가져주셔서
 정말 감사드립니다.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</code></pre></div></div>
 
-&lt;p class=&quot;text-muted&quot;&gt;폐업 안내 전문&lt;/p&gt;
+<p class="text-muted">폐업 안내 전문</p>
 
-&lt;h5 id=&quot;대표-수상-내역&quot;&gt;대표 수상 내역&lt;/h5&gt;
+<h2 id="대표-수상-내역">대표 수상 내역</h2>
 
-&lt;ul&gt;
-  &lt;li&gt;21.04.01 서울창업카페 숭실대입구역점 창업동아리 선정&lt;/li&gt;
-  &lt;li&gt;21.04.20 예비창업패키지 1차 통과&lt;/li&gt;
-  &lt;li&gt;21.06.23 숭실대 캠퍼스 CEO 최우수상&lt;/li&gt;
-  &lt;li&gt;21.07.09 Pre스타트업 고도화 지원사업 선정&lt;/li&gt;
-  &lt;li&gt;21.07.24 초기창업패키지 Pre 스타트업팀 선정&lt;/li&gt;
-  &lt;li&gt;21.08.13 강원창조경제혁신센터 생애최초 지원사업 선정&lt;/li&gt;
-  &lt;li&gt;21.10.09 슈퍼스타 창업경진대회 우수상 수상&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>21.04.01 서울창업카페 숭실대입구역점 창업동아리 선정</li>
+  <li>21.04.20 예비창업패키지 1차 통과</li>
+  <li>21.06.23 숭실대 캠퍼스 CEO 최우수상</li>
+  <li>21.07.09 Pre스타트업 고도화 지원사업 선정</li>
+  <li>21.07.24 초기창업패키지 Pre 스타트업팀 선정</li>
+  <li>21.08.13 강원창조경제혁신센터 생애최초 지원사업 선정</li>
+  <li>21.10.09 슈퍼스타 창업경진대회 우수상 수상</li>
+</ul>
 
-&lt;h4 id=&quot;1년간-배운-것들&quot;&gt;1년간 배운 것들&lt;/h4&gt;
+<h1 id="1년간-배운-것들">1년간 배운 것들</h1>
 
-&lt;p class=&quot;text-muted&quot;&gt;2021년 3월 ~ 2022년 2월&lt;/p&gt;
+<p class="text-muted">2021년 3월 ~ 2022년 2월</p>
 
-&lt;p&gt;21년 3월부터 22년 2월까지 창업 1년을 통해 여러가지를 배웠습니다.&lt;/p&gt;
+<p>21년 3월부터 22년 2월까지 창업 1년을 통해 여러가지를 배웠습니다.</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/199991287-99f17442-3a21-4c0f-839e-a1006c2fc16b.JPG&quot; alt=&quot;9D89FF5D-4584-48A5-A604-D72990713DE4&quot; /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/199991287-99f17442-3a21-4c0f-839e-a1006c2fc16b.JPG" alt="9D89FF5D-4584-48A5-A604-D72990713DE4" /></p>
 
-&lt;p class=&quot;text-muted&quot;&gt;1번째 사무실 앞&lt;/p&gt;
+<p class="text-muted">1번째 사무실 앞</p>
 
-&lt;h5 id=&quot;항상-겸손해야&quot;&gt;항상 겸손해야&lt;/h5&gt;
+<h2 id="항상-겸손해야">항상 겸손해야</h2>
 
-&lt;p&gt;책 &lt;a href=&quot;http://www.yes24.com/product/goods/109182479&quot;&gt;구글에서 엔지니어는 이렇게 일한다&lt;/a&gt;에 나온 ‘좋은 문화를 이끄는 세가지 요소’ 중 하나이기도 합니다.&lt;/p&gt;
+<p>책 <a href="http://www.yes24.com/product/goods/109182479">구글에서 엔지니어는 이렇게 일한다</a>에 나온 ‘좋은 문화를 이끄는 세가지 요소’ 중 하나이기도 합니다.</p>
 
-&lt;p&gt;겸손해야 함을 많이 느꼈습니다. 타인을 섵불리 판단하지 않는 법을 배웠습니다. 살아남기 위해선 나보다 뛰어난 사람에게 먼저 다가가 배워야 함을 알았습니다. 고개를 숙일 줄 아는 법을 배웠습니다.&lt;/p&gt;
+<p>겸손해야 함을 많이 느꼈습니다. 타인을 섵불리 판단하지 않는 법을 배웠습니다. 살아남기 위해선 나보다 뛰어난 사람에게 먼저 다가가 배워야 함을 알았습니다. 고개를 숙일 줄 아는 법을 배웠습니다.</p>
 
-&lt;h5 id=&quot;감정의-노예가-되지-말아야&quot;&gt;감정의 노예가 되지 말아야&lt;/h5&gt;
+<h2 id="감정의-노예가-되지-말아야">감정의 노예가 되지 말아야</h2>
 
-&lt;p&gt;항상 제 잣대로 남을 평가했고 감정에 이끌려 스스로를 계속 압박했습니다. 지나고 보니 아무것도 남지 않더군요. 똑똑하지 못했습니다. 정말 어리석은 생각이었습니다.&lt;/p&gt;
+<p>항상 제 잣대로 남을 평가했고 감정에 이끌려 스스로를 계속 압박했습니다. 지나고 보니 아무것도 남지 않더군요. 똑똑하지 못했습니다. 정말 어리석은 생각이었습니다.</p>
 
-&lt;h5 id=&quot;책-많이-읽어라&quot;&gt;책 많이 읽어라&lt;/h5&gt;
+<h2 id="책-많이-읽어라">책 많이 읽어라</h2>
 
-&lt;p&gt;창업 전담 교수님께서 ‘낮엔 일에 최선을 다하고 밤엔 책을 치열하게 읽어라’라고 조언해주신 적이 있습니다. 폐업까지 다 완료한 시점에서 교수님의 말씀을 깨달게 되더군요. 단순히 지식의 습득이 아닌 생존을 위해 책을 읽고 있습니다. 학업에 돌아온 이후 이 글을 쓰는 지금까지 매일 읽고 있습니다.&lt;/p&gt;
+<p>창업 전담 교수님께서 ‘낮엔 일에 최선을 다하고 밤엔 책을 치열하게 읽어라’라고 조언해주신 적이 있습니다. 폐업까지 다 완료한 시점에서 교수님의 말씀을 깨달게 되더군요. 단순히 지식의 습득이 아닌 생존을 위해 책을 읽고 있습니다. 학업에 돌아온 이후 이 글을 쓰는 지금까지 매일 읽고 있습니다.</p>
 
-&lt;h5 id=&quot;약간의-패션-감각&quot;&gt;약간의 패션 감각&lt;/h5&gt;
+<h2 id="약간의-패션-감각">약간의 패션 감각</h2>
 
-&lt;p&gt;(그래도 꼴에 패션 플랫폼 창업한 사람이라고..) 약간의 패션 감각이 생긴 것 같아요.&lt;/p&gt;
+<p>(그래도 꼴에 패션 플랫폼 창업한 사람이라고..) 약간의 패션 감각이 생긴 것 같아요.</p>
 
-&lt;h4 id=&quot;감사합니다&quot;&gt;감사합니다.&lt;/h4&gt;
+<h2 id="감사합니다">감사합니다.</h2>
 
-&lt;p&gt;글을 제대로 써본 적이 없어서.. 많이 어색하지 않을까 싶은데 혹시 피드백 있다면 댓글로 남겨주시면 바로 고칠게요. 읽어주셔서 감사합니다.&lt;/p&gt;
+<p>글을 제대로 써본 적이 없어서.. 많이 어색하지 않을까 싶은데 혹시 피드백 있다면 댓글로 남겨주시면 바로 고칠게요. 읽어주셔서 감사합니다.</p>
 
-&lt;p&gt;혹시 이 글을 본 스타일히어로 멤버였던 친구들이 있으면 연락해! 밥 사줄게용&lt;/p&gt;</content><author><name>Lee Taegyeong</name></author><category term="stylehero" /><category term="startup" /><summary type="html">Timeline</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://user-images.githubusercontent.com/34812887/200158520-9ea4f033-2727-49aa-bccb-df728de656d2.png" /><media:content medium="image" url="https://user-images.githubusercontent.com/34812887/200158520-9ea4f033-2727-49aa-bccb-df728de656d2.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [2부]</title><link href="http://localhost:4000/project-stylehero-story-2.html" rel="alternate" type="text/html" title="비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [2부]" /><published>2022-10-28T00:00:00+09:00</published><updated>2022-10-28T00:00:00+09:00</updated><id>http://localhost:4000/%5Bproject%5D-stylehero-story-2</id><content type="html" xml:base="http://localhost:4000/project-stylehero-story-2.html">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/199989968-bf85ff4a-ae0e-42d8-b806-e44f933f5b16.JPG&quot; alt=&quot;A2D714AC-F4B3-4012-872C-5B55767004A8&quot; /&gt;&lt;/p&gt;
+<p>혹시 이 글을 본 스타일히어로 멤버였던 친구들이 있으면 연락해! 밥 사줄게용</p>]]></content><author><name>이태경</name></author><category term="stylehero" /><category term="startup" /><summary type="html"><![CDATA[재출시 후 서비스 재개발부터 폐업신고까지 그리고 1년간의 창업으로부터 배운 점을 공유합니다.]]></summary></entry><entry><title type="html">비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [2부]</title><link href="http://localhost:4000/project-stylehero-story-2/" rel="alternate" type="text/html" title="비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [2부]" /><published>2022-10-28T00:00:00+09:00</published><updated>2022-10-28T00:00:00+09:00</updated><id>http://localhost:4000/%5Bproject%5D-stylehero-story-2</id><content type="html" xml:base="http://localhost:4000/project-stylehero-story-2/"><![CDATA[<p><img src="https://user-images.githubusercontent.com/34812887/199989968-bf85ff4a-ae0e-42d8-b806-e44f933f5b16.JPG" alt="A2D714AC-F4B3-4012-872C-5B55767004A8" /></p>
 
-&lt;h6 id=&quot;timeline&quot;&gt;Timeline&lt;/h6&gt;
+<h1 id="mvp-기획-개발">MVP 기획, 개발</h1>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#mvp-기획-개발&quot;&gt;MVP 기획, 개발&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#새로운-사무실로-옮기다&quot;&gt;새로운 사무실로 옮기다&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#비전공자를-위한-웹개발-강의를-진행&quot;&gt;(비)전공자를 위한 웹개발 강의를 진행&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#mvp-출시&quot;&gt;MVP 출시&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#tech-stack&quot;&gt;Tech stack&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#채팅이-안돼&quot;&gt;채팅이 안돼!!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#피드백-반영-및-팀-문화-개선-후-재출시&quot;&gt;피드백 반영 및 팀 문화 개선 후 재출시&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#analytics를-활용하여-랜딩페이지의-문제점을-파악하다&quot;&gt;analytics를 활용하여 랜딩페이지의 문제점을 파악하다.&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#매일-진행상황을-공유하고-업데이트&quot;&gt;매일 진행상황을 공유하고 업데이트&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#자체-채팅-서비스가-아닌-카카오톡-오픈채팅-연결로&quot;&gt;자체 채팅 서비스가 아닌 카카오톡 오픈채팅 연결로&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#재출시&quot;&gt;재출시&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#재출시-후-고객의-첫-결제와-가입자-300명-달성&quot;&gt;재출시 후 고객의 첫 결제와 가입자 300명 달성&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<p class="text-muted">2021년 8월</p>
 
-&lt;h4 id=&quot;mvp-기획-개발&quot;&gt;MVP 기획, 개발&lt;/h4&gt;
+<p>추가로 들어온 개발자 1명과 같이 피그마와 미로를 통해 구체적인 플로우를 구상하고, 수정하는 것을 방학동안 계속 반복하였습니다.</p>
 
-&lt;p class=&quot;text-muted&quot;&gt;2021년 8월&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/198331048-4ccb21a4-b923-47e7-9d64-12495f2617af.png" alt="324352352" /></p>
 
-&lt;p&gt;추가로 들어온 개발자 1명과 같이 피그마와 미로를 통해 구체적인 플로우를 구상하고, 수정하는 것을 방학동안 계속 반복하였습니다.&lt;/p&gt;
+<p class="text-muted">MVP 개발 시 초기 플로우</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/198331048-4ccb21a4-b923-47e7-9d64-12495f2617af.png&quot; alt=&quot;324352352&quot; /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/198338817-d0d767d7-121e-4bb9-a66e-514e5ed973ed.png" alt="3636363" /></p>
 
-&lt;p class=&quot;text-muted&quot;&gt;MVP 개발 시 초기 플로우&lt;/p&gt;
+<p class="text-muted">초기 랜딩페이지 디자인</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/198338817-d0d767d7-121e-4bb9-a66e-514e5ed973ed.png&quot; alt=&quot;3636363&quot; /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/198338199-f99bf659-fb3b-485b-9cc4-8a1b3536b560.png" alt="4444336" /></p>
 
-&lt;p class=&quot;text-muted&quot;&gt;초기 랜딩페이지 디자인&lt;/p&gt;
+<p class="text-muted">MVP 플로우</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/198338199-f99bf659-fb3b-485b-9cc4-8a1b3536b560.png&quot; alt=&quot;4444336&quot; /&gt;&lt;/p&gt;
+<h2 id="새로운-사무실로-옮기다">새로운 사무실로 옮기다</h2>
 
-&lt;p class=&quot;text-muted&quot;&gt;MVP 플로우&lt;/p&gt;
+<p class="text-muted">2021년 8월 말</p>
 
-&lt;h4 id=&quot;새로운-사무실로-옮기다&quot;&gt;새로운 사무실로 옮기다&lt;/h4&gt;
+<p>운영팀의 노력으로 새로운 사무실로 옮기게 되었습니다. 기존 사무실과 같은 지하 1층이지만 보다 넓고 좋은 사무실이었습니다.</p>
 
-&lt;p class=&quot;text-muted&quot;&gt;2021년 8월 말&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/198306805-8dc51623-4a23-445b-b744-da6a0ff6be2a.JPG" alt="124125" /></p>
 
-&lt;p&gt;운영팀의 노력으로 새로운 사무실로 옮기게 되었습니다. 기존 사무실과 같은 지하 1층이지만 보다 넓고 좋은 사무실이었습니다.&lt;/p&gt;
+<p class="text-muted">새 사무실에 붙여논 슬로건들입니다.</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/198306805-8dc51623-4a23-445b-b744-da6a0ff6be2a.JPG&quot; alt=&quot;124125&quot; /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/199975635-b100f30e-879d-4014-8293-4bba73807f4e.JPG" alt="90D8FAE8-4C29-499E-88B1-CE6D0D8B61BE" /></p>
 
-&lt;p class=&quot;text-muted&quot;&gt;새 사무실에 붙여논 슬로건들입니다.&lt;/p&gt;
+<p class="text-muted">새 사무실에서 회의하는 팀원들</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/199975635-b100f30e-879d-4014-8293-4bba73807f4e.JPG&quot; alt=&quot;90D8FAE8-4C29-499E-88B1-CE6D0D8B61BE&quot; /&gt;&lt;/p&gt;
+<h2 id="비전공자를-위한-웹개발-강의를-진행">(비)전공자를 위한 웹개발 강의를 진행</h2>
 
-&lt;p class=&quot;text-muted&quot;&gt;새 사무실에서 회의하는 팀원들&lt;/p&gt;
+<p>마크의 추천으로 HTML, CSS, Javascript, Node.js 5주차 강의를 준비해서 팀내 개발 팀원들에게 일주일에 한번씩 강의했습니다. 교내 에브리타임에도 홍보하여 팀원이 아닌 사람들도 참여했었습니다.</p>
 
-&lt;h5 id=&quot;비전공자를-위한-웹개발-강의를-진행&quot;&gt;(비)전공자를 위한 웹개발 강의를 진행&lt;/h5&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/199980200-11f42096-e351-4aec-b905-fb6159dc5262.JPG" alt="3EAF836B-B8FD-45CB-83B5-C44BBDDCB654" /></p>
 
-&lt;p&gt;마크의 추천으로 HTML, CSS, Javascript, Node.js 5주차 강의를 준비해서 팀내 개발 팀원들에게 일주일에 한번씩 강의했습니다. 교내 에브리타임에도 홍보하여 팀원이 아닌 사람들도 참여했었습니다.&lt;/p&gt;
+<p class="text-muted">4주차 node.js 기본 강의</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/199980200-11f42096-e351-4aec-b905-fb6159dc5262.JPG&quot; alt=&quot;3EAF836B-B8FD-45CB-83B5-C44BBDDCB654&quot; /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/199980225-0620e9d0-f8ed-405e-a610-78594c415008.JPG" alt="C19A6C74-85B6-4137-812B-A77452F0638E" /></p>
 
-&lt;p class=&quot;text-muted&quot;&gt;4주차 node.js 기본 강의&lt;/p&gt;
+<p class="text-muted">5주차 node.js 심화 강의</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/199980225-0620e9d0-f8ed-405e-a610-78594c415008.JPG&quot; alt=&quot;C19A6C74-85B6-4137-812B-A77452F0638E&quot; /&gt;&lt;/p&gt;
+<h1 id="mvp-출시">MVP 출시</h1>
 
-&lt;p class=&quot;text-muted&quot;&gt;5주차 node.js 심화 강의&lt;/p&gt;
+<p class="text-muted">2021년 9월</p>
 
-&lt;h4 id=&quot;mvp-출시&quot;&gt;MVP 출시&lt;/h4&gt;
+<p>백엔드와 프론트 일부는 제가, 대부분의 프론트엔드(설문조사 등..)는 다른 개발자 두 명이 완성하였습니다. 마감기한 1주일을 앞두고 개발 팀원 모두 새벽까지 작업하면서 계속 피드백하고 의견을 공유했던 기억이 납니다. 전 해당 학기 휴학이라 조금 여유가 있었지만.. 나머지 두 팀원은 학교를 다니면서 개발에 참여했습니다. 모두 정말 열심히 했습니다.</p>
 
-&lt;p class=&quot;text-muted&quot;&gt;2021년 9월&lt;/p&gt;
+<p>21년 9월 MVP를 출시하였습니다.</p>
 
-&lt;p&gt;백엔드와 프론트 일부는 제가, 대부분의 프론트엔드(설문조사 등..)는 다른 개발자 두 명이 완성하였습니다. 마감기한 1주일을 앞두고 개발 팀원 모두 새벽까지 작업하면서 계속 피드백하고 의견을 공유했던 기억이 납니다. 전 해당 학기 휴학이라 조금 여유가 있었지만.. 나머지 두 팀원은 학교를 다니면서 개발에 참여했습니다. 모두 정말 열심히 했습니다.&lt;/p&gt;
+<div id="scrolling-wrapper">
+    <div id="scrolling-image"><img src="https://user-images.githubusercontent.com/34812887/198342372-7777c036-2c4a-4f37-bb17-db6a90bb24f3.JPG" /></div>
+    <div id="scrolling-image"><img src="https://user-images.githubusercontent.com/34812887/198342367-706068b2-bfb0-469b-9c28-a06c961648d6.PNG" /></div>
+   <div id="scrolling-image"><img src="https://user-images.githubusercontent.com/34812887/198342361-51df0c77-50e8-46a0-b244-57f375cd1d84.PNG" /></div>
+    <div id="scrolling-image"><img src="https://user-images.githubusercontent.com/34812887/198342376-dc739eae-ed81-4d74-931b-2254d7dd392c.PNG" /></div>
+</div>
 
-&lt;p&gt;21년 9월 MVP를 출시하였습니다.&lt;/p&gt;
+<p class="text-muted">랜딩페이지 및 로그인, 휴대폰 인증, 마이페이지</p>
 
-&lt;div id=&quot;scrolling-wrapper&quot;&gt;
-    &lt;div id=&quot;scrolling-image&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/198342372-7777c036-2c4a-4f37-bb17-db6a90bb24f3.JPG&quot; /&gt;&lt;/div&gt;
-    &lt;div id=&quot;scrolling-image&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/198342367-706068b2-bfb0-469b-9c28-a06c961648d6.PNG&quot; /&gt;&lt;/div&gt;
-   &lt;div id=&quot;scrolling-image&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/198342361-51df0c77-50e8-46a0-b244-57f375cd1d84.PNG&quot; /&gt;&lt;/div&gt;
-    &lt;div id=&quot;scrolling-image&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/198342376-dc739eae-ed81-4d74-931b-2254d7dd392c.PNG&quot; /&gt;&lt;/div&gt;
-&lt;/div&gt;
+<div id="scrolling-wrapper">
+   <div id="scrolling-image"><img src="https://user-images.githubusercontent.com/34812887/198342391-d7890cd0-4f26-4cf8-bac2-6e5b9a59848b.PNG" /></div>
+   <div id="scrolling-image"><img src="https://user-images.githubusercontent.com/34812887/198342382-fd069c8a-11c4-4188-a7bf-fcf0216eb733.PNG" /></div>
+    <div id="scrolling-image"><img src="https://user-images.githubusercontent.com/34812887/198342378-9b21419d-b69b-4959-9c10-39b874f18eba.JPG" /></div>
+</div>
 
-&lt;p class=&quot;text-muted&quot;&gt;랜딩페이지 및 로그인, 휴대폰 인증, 마이페이지&lt;/p&gt;
+<p class="text-muted">자체 구축 채팅 서비스 내 스타일리스트와의 채팅 내역, 지금 보니 옷 정말 못입었다 나..</p>
 
-&lt;div id=&quot;scrolling-wrapper&quot;&gt;
-   &lt;div id=&quot;scrolling-image&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/198342391-d7890cd0-4f26-4cf8-bac2-6e5b9a59848b.PNG&quot; /&gt;&lt;/div&gt;
-   &lt;div id=&quot;scrolling-image&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/198342382-fd069c8a-11c4-4188-a7bf-fcf0216eb733.PNG&quot; /&gt;&lt;/div&gt;
-    &lt;div id=&quot;scrolling-image&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/198342378-9b21419d-b69b-4959-9c10-39b874f18eba.JPG&quot; /&gt;&lt;/div&gt;
-&lt;/div&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/199770728-49925023-8da3-4ec2-89c4-7acff99176c8.png" alt="stylehero drawio" /></p>
 
-&lt;p class=&quot;text-muted&quot;&gt;자체 구축 채팅 서비스 내 스타일리스트와의 채팅 내역, 지금 보니 옷 정말 못입었다 나..&lt;/p&gt;
+<p class="text-muted">UML</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/199770728-49925023-8da3-4ec2-89c4-7acff99176c8.png&quot; alt=&quot;stylehero drawio&quot; /&gt;&lt;/p&gt;
+<h2 id="tech-stack">Tech stack</h2>
 
-&lt;p class=&quot;text-muted&quot;&gt;UML&lt;/p&gt;
+<ul>
+  <li>frontend : HTML, CSS, jQuery, Bootstrap</li>
+  <li>backend : Node.js(express.js, ejs)</li>
+  <li>DBMS : firestore(<a href="https://googleapis.dev/nodejs/firestore/latest/">firestore-node.js-sdk</a> 사용)</li>
+  <li>Infra : AWS EC2, Route53</li>
+  <li>Others : payple, Naver cloud platform, socket.io</li>
+</ul>
 
-&lt;h6 id=&quot;tech-stack&quot;&gt;Tech stack&lt;/h6&gt;
+<p>결제모듈은 <a href="https://www.payple.kr/">페이플</a>을 사용하였습니다. (결제모듈 하나 붙이는 데 애를 꽤 많이 먹었습니다.) 카카오 알림톡과 문자 발송 API는 네이버 클라우드 플랫폼 솔루션을 사용했습니다.</p>
 
-&lt;ul&gt;
-  &lt;li&gt;frontend : HTML, CSS, jQuery, Bootstrap&lt;/li&gt;
-  &lt;li&gt;backend : Node.js(express.js, ejs)&lt;/li&gt;
-  &lt;li&gt;DBMS : firestore(&lt;a href=&quot;https://googleapis.dev/nodejs/firestore/latest/&quot;&gt;firestore-node.js-sdk&lt;/a&gt; 사용)&lt;/li&gt;
-  &lt;li&gt;Infra : AWS EC2, Route53&lt;/li&gt;
-  &lt;li&gt;Others : payple, Naver cloud platform, socket.io&lt;/li&gt;
-&lt;/ul&gt;
+<h2 id="채팅이-안돼">채팅이 안돼!!</h2>
 
-&lt;p&gt;결제모듈은 &lt;a href=&quot;https://www.payple.kr/&quot;&gt;페이플&lt;/a&gt;을 사용하였습니다. (결제모듈 하나 붙이는 데 애를 꽤 많이 먹었습니다.) 카카오 알림톡과 문자 발송 API는 네이버 클라우드 플랫폼 솔루션을 사용했습니다.&lt;/p&gt;
+<p class="text-muted">2021년 9월 MVP 출시 3일 후</p>
 
-&lt;h4 id=&quot;채팅이-안돼&quot;&gt;채팅이 안돼!!&lt;/h4&gt;
+<p>무난할 것만 같은 서비스에 문제가 생겼습니다. 채팅이 더 이상 안보내지거나 너무 느리게 보내지는 등 여러가지 문제가 발생했습니다. 스타일리스트들과 고객들에게 동시다발적으로 문의가 쏟아졌습니다. 어떻게 고쳐야 할지도 몰랐습니다. 채팅 서버 재부팅을 계속 해볼 뿐이었습니다. 애초에 제대로 이해를 하지 않고 “되면 그만” 이라는 정말 무식한 생각으로 개발했기 때문에..</p>
 
-&lt;p class=&quot;text-muted&quot;&gt;2021년 9월 MVP 출시 3일 후&lt;/p&gt;
+<p>결국 출시 3일만에 스타일리스트 및 고객에게 공지 후 서비스를 중지했습니다.</p>
 
-&lt;p&gt;무난할 것만 같은 서비스에 문제가 생겼습니다. 채팅이 더 이상 안보내지거나 너무 느리게 보내지는 등 여러가지 문제가 발생했습니다. 스타일리스트들과 고객들에게 동시다발적으로 문의가 쏟아졌습니다. 어떻게 고쳐야 할지도 몰랐습니다. 채팅 서버 재부팅을 계속 해볼 뿐이었습니다. 애초에 제대로 이해를 하지 않고 “되면 그만” 이라는 정말 무식한 생각으로 개발했기 때문에..&lt;/p&gt;
-
-&lt;p&gt;결국 출시 3일만에 스타일리스트 및 고객에게 공지 후 서비스를 중지했습니다.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;스타일리스트에게 드리는 말씀
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>스타일리스트에게 드리는 말씀
 [Web발신]
 [스타일히어로]
 스타일리스트에게 드리는 말씀
@@ -333,11 +272,11 @@
 그럼에도 불구하고, 많이 부족한 저희 서비스에 많은 관심을 가져주시고 참여해주셔서 정말 감사드립니다.
 
 강해져서 돌아오겠습니다.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</code></pre></div></div>
 
-&lt;p class=&quot;text-muted&quot;&gt;스타일리스트 대상 메시지 전문&lt;/p&gt;
+<p class="text-muted">스타일리스트 대상 메시지 전문</p>
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;베타 테스트 조기 마감 안내
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>베타 테스트 조기 마감 안내
 [Web발신]
 [스타일히어로]
 베타 테스트 조기 마감 안내
@@ -351,818 +290,798 @@
 
 서비스 이용에 불편을 드려 정말 죄송합니다.
 그럼에도 불구하고, 많이 부족한 저희 서비스에 관심을 가져주시고 참여해주셔서 정말 감사드립니다.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</code></pre></div></div>
 
-&lt;p class=&quot;text-muted&quot;&gt;고객 대상 메시지 전문&lt;/p&gt;
+<p class="text-muted">고객 대상 메시지 전문</p>
 
-&lt;h4 id=&quot;피드백-반영-및-팀-문화-개선-후-재출시&quot;&gt;피드백 반영 및 팀 문화 개선 후 재출시&lt;/h4&gt;
+<h1 id="피드백-반영-및-팀-문화-개선-후-재출시">피드백 반영 및 팀 문화 개선 후 재출시</h1>
 
-&lt;p class=&quot;text-muted&quot;&gt;2021년 10월&lt;/p&gt;
+<p class="text-muted">2021년 10월</p>
 
-&lt;p&gt;비록 짧은 3일간이지만 서비스를 이용한 지인 30명과 스타일리스트 15명을 대상으로 전화 인터뷰를 진행하여 여러가지 피드백을 받을 수 있었습니다.
-랜딩 페이지에 고객 후기가 있으면 좋겠다. 정확히 어떤 서비스를 제공하는 지 잘 모르겠다. 매칭 페이지에서 결제를 고민하게 된다. 등..&lt;/p&gt;
+<p>비록 짧은 3일간이지만 서비스를 이용한 지인 30명과 스타일리스트 15명을 대상으로 전화 인터뷰를 진행하여 여러가지 피드백을 받을 수 있었습니다.
+랜딩 페이지에 고객 후기가 있으면 좋겠다. 정확히 어떤 서비스를 제공하는 지 잘 모르겠다. 매칭 페이지에서 결제를 고민하게 된다. 등..</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/199990621-db964d9c-6a9c-4c8d-891e-08bc354359e3.JPG&quot; alt=&quot;8CA478BC-250C-4D48-87C5-856FF2C428A0&quot; /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/199990621-db964d9c-6a9c-4c8d-891e-08bc354359e3.JPG" alt="8CA478BC-250C-4D48-87C5-856FF2C428A0" /></p>
 
-&lt;p class=&quot;text-muted&quot;&gt;MVP 서비스 중단 후 새로운 계획을 논의했습니다.&lt;/p&gt;
+<p class="text-muted">MVP 서비스 중단 후 새로운 계획을 논의했습니다.</p>
 
-&lt;h5 id=&quot;analytics를-활용하여-랜딩페이지의-문제점을-파악하다&quot;&gt;analytics를 활용하여 랜딩페이지의 문제점을 파악하다.&lt;/h5&gt;
+<h2 id="analytics를-활용하여-랜딩페이지의-문제점을-파악하다">analytics를 활용하여 랜딩페이지의 문제점을 파악하다.</h2>
 
-&lt;p&gt;또한 Analytics 경로 탐색 분석을 통해 두 가지 사실을 알게 되었습니다.&lt;/p&gt;
+<p>또한 Analytics 경로 탐색 분석을 통해 두 가지 사실을 알게 되었습니다.</p>
 
-&lt;ul&gt;
-  &lt;li&gt;고객이 랜딩페이지를 자세히 보지 않았음(스크롤 이벤트 적음)&lt;/li&gt;
-  &lt;li&gt;랜딩페이지에서 &lt;u&gt;&apos;무료로 스타일 분석하기&apos;&lt;/u&gt;를 통한 회원가입이 아니라 &lt;u&gt;상단 로그인 링크&lt;/u&gt;를 통해 회원가입을 주로 진행하였음&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>고객이 랜딩페이지를 자세히 보지 않았음(스크롤 이벤트 적음)</li>
+  <li>랜딩페이지에서 <u>'무료로 스타일 분석하기'</u>를 통한 회원가입이 아니라 <u>상단 로그인 링크</u>를 통해 회원가입을 주로 진행하였음</li>
+</ul>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/199983947-c2da99e4-537a-456e-9096-35cd5b5f062d.png&quot; alt=&quot;030270523&quot; /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/199983947-c2da99e4-537a-456e-9096-35cd5b5f062d.png" alt="030270523" /></p>
 
-&lt;p class=&quot;text-muted&quot;&gt;google analytics 경로 탐색 분석&lt;/p&gt;
+<p class="text-muted">google analytics 경로 탐색 분석</p>
 
-&lt;h5 id=&quot;매일-진행상황을-공유하고-업데이트&quot;&gt;매일 진행상황을 공유하고 업데이트&lt;/h5&gt;
+<h2 id="매일-진행상황을-공유하고-업데이트">매일 진행상황을 공유하고 업데이트</h2>
 
-&lt;p&gt;기획부터 개발 완성까지 전반적인 흐름을 직접 경험해 보니 팀원간 책임과 역할에 대한 명확한 선이 지켜지지 않았음을 깨닫게 되었습니다. 서로 무엇을 하고 있었는지도 잘 모르고 누구에게 전달해야 하는 지도 잘 모르고 있었습니다. 서로의 책임과 역할을 명확히 해야겠다는 생각이 들었습니다.&lt;/p&gt;
+<p>기획부터 개발 완성까지 전반적인 흐름을 직접 경험해 보니 팀원간 책임과 역할에 대한 명확한 선이 지켜지지 않았음을 깨닫게 되었습니다. 서로 무엇을 하고 있었는지도 잘 모르고 누구에게 전달해야 하는 지도 잘 모르고 있었습니다. 서로의 책임과 역할을 명확히 해야겠다는 생각이 들었습니다.</p>
 
-&lt;p&gt;진행상황에 기획 또는 운영 - 피드백 반영 - 디자인 - 피드백 반영 - 개발으로 5가지 싸이클로 각 단계 진행사항과 작업에 책임이 있는 팀원을 명시했습니다.&lt;/p&gt;
+<p>진행상황에 기획 또는 운영 - 피드백 반영 - 디자인 - 피드백 반영 - 개발으로 5가지 싸이클로 각 단계 진행사항과 작업에 책임이 있는 팀원을 명시했습니다.</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/198345528-19979e69-d043-4436-9b5c-44c220af2241.png&quot; alt=&quot;231233333123&quot; /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/198345528-19979e69-d043-4436-9b5c-44c220af2241.png" alt="231233333123" /></p>
 
-&lt;p class=&quot;text-muted&quot;&gt;아래와 같이 한 페이지 분량의 진행상황 테이블을 업데이트하고 팀원에게 공유하였습니다. 연도를 잘못 썼네요..&lt;/p&gt;
+<p class="text-muted">아래와 같이 한 페이지 분량의 진행상황 테이블을 업데이트하고 팀원에게 공유하였습니다. 연도를 잘못 썼네요..</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/198345574-9612dfa0-d846-4056-8764-83361d22fb8c.png&quot; alt=&quot;020390184&quot; /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/198345574-9612dfa0-d846-4056-8764-83361d22fb8c.png" alt="020390184" /></p>
 
-&lt;p class=&quot;text-muted&quot;&gt;5단계 진행상황&lt;/p&gt;
+<p class="text-muted">5단계 진행상황</p>
 
-&lt;h5 id=&quot;자체-채팅-서비스가-아닌-카카오톡-오픈채팅-연결로&quot;&gt;자체 채팅 서비스가 아닌 카카오톡 오픈채팅 연결로&lt;/h5&gt;
+<h2 id="자체-채팅-서비스가-아닌-카카오톡-오픈채팅-연결로">자체 채팅 서비스가 아닌 카카오톡 오픈채팅 연결로</h2>
 
-&lt;p&gt;당시 창업대회를 통해 매칭된 멘토님과 센드버드, 라인 개발자 &lt;a href=&quot;https://www.coffeechat.kr/&quot;&gt;커피챗&lt;/a&gt;을 통해 채팅 서비스에 대한 보다 자세한 내용을 들을 수 있었습니다. 대용량 파일 채팅에 대한 내용, 메시지큐에 관한 내용 등.. 지속가능하지 못한 제 엉터리 채팅 서버를 유지할 자신이 없었고 채팅 솔루션은 팀이 감당할 수 있는 비용이 아니었습니다. 고민끝에 팀은 스타일리스트가 등록한 카카오톡 오픈채팅 링크를 제공하는 것으로 바꿨습니다.&lt;/p&gt;
+<p>당시 창업대회를 통해 매칭된 멘토님과 센드버드, 라인 개발자 <a href="https://www.coffeechat.kr/">커피챗</a>을 통해 채팅 서비스에 대한 보다 자세한 내용을 들을 수 있었습니다. 대용량 파일 채팅에 대한 내용, 메시지큐에 관한 내용 등.. 지속가능하지 못한 제 엉터리 채팅 서버를 유지할 자신이 없었고 채팅 솔루션은 팀이 감당할 수 있는 비용이 아니었습니다. 고민끝에 팀은 스타일리스트가 등록한 카카오톡 오픈채팅 링크를 제공하는 것으로 바꿨습니다.</p>
 
-&lt;h5 id=&quot;재출시&quot;&gt;재출시&lt;/h5&gt;
+<h1 id="재출시">재출시</h1>
 
-&lt;p&gt;받은 피드백과 analytics 분석을 통해 디자인을 수정하여 재출시하였습니다. 재출시 후 페이스북 및 인스타그램에 광고를 게시했습니다. 광고를 게시하고 대시보드를 관리한 마크의 말에 의하면 꽤 괜찮은 CTR을 유지했다고 하네요.&lt;/p&gt;
+<p>받은 피드백과 analytics 분석을 통해 디자인을 수정하여 재출시하였습니다. 재출시 후 페이스북 및 인스타그램에 광고를 게시했습니다. 광고를 게시하고 대시보드를 관리한 마크의 말에 의하면 꽤 괜찮은 CTR을 유지했다고 하네요.</p>
 
-&lt;div id=&quot;scrolling-wrapper&quot;&gt;
-   &lt;div id=&quot;scrolling-image&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/199890995-5950843d-c117-40d5-a1ac-15c83b081f3b.png&quot; /&gt;&lt;/div&gt;
-   &lt;div id=&quot;scrolling-image&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/199891001-b6a61d4f-296f-4aa8-8069-1f79b54261ca.png&quot; /&gt;&lt;/div&gt;
-    &lt;div id=&quot;scrolling-image&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/199891005-65761ba7-efa1-4040-bd04-347dbc221da6.png&quot; /&gt;&lt;/div&gt;
-    &lt;div id=&quot;scrolling-image&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/199891009-15e82e49-87a6-4b60-af48-69ae86e21a53.png&quot; /&gt;&lt;/div&gt;
-   &lt;div id=&quot;scrolling-image&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/199891013-d8dc44a2-6ebb-4416-a12f-676cdf405430.png&quot; /&gt;&lt;/div&gt;
-    &lt;div id=&quot;scrolling-image&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/199891017-2144ba8c-eb24-4018-b090-bafdff110450.png&quot; /&gt;&lt;/div&gt;
-&lt;/div&gt;
+<div id="scrolling-wrapper">
+   <div id="scrolling-image"><img src="https://user-images.githubusercontent.com/34812887/199890995-5950843d-c117-40d5-a1ac-15c83b081f3b.png" /></div>
+   <div id="scrolling-image"><img src="https://user-images.githubusercontent.com/34812887/199891001-b6a61d4f-296f-4aa8-8069-1f79b54261ca.png" /></div>
+    <div id="scrolling-image"><img src="https://user-images.githubusercontent.com/34812887/199891005-65761ba7-efa1-4040-bd04-347dbc221da6.png" /></div>
+    <div id="scrolling-image"><img src="https://user-images.githubusercontent.com/34812887/199891009-15e82e49-87a6-4b60-af48-69ae86e21a53.png" /></div>
+   <div id="scrolling-image"><img src="https://user-images.githubusercontent.com/34812887/199891013-d8dc44a2-6ebb-4416-a12f-676cdf405430.png" /></div>
+    <div id="scrolling-image"><img src="https://user-images.githubusercontent.com/34812887/199891017-2144ba8c-eb24-4018-b090-bafdff110450.png" /></div>
+</div>
 
-&lt;p class=&quot;text-muted&quot;&gt;리뉴얼한 랜딩 페이지&lt;/p&gt;
+<p class="text-muted">리뉴얼한 랜딩 페이지</p>
 
-&lt;div id=&quot;scrolling-wrapper&quot;&gt;
-    &lt;div id=&quot;scrolling-image&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/199891020-a9e16bac-432b-4f26-a0ca-ae63a4201e6c.png&quot; /&gt;&lt;/div&gt;
-    &lt;div id=&quot;scrolling-image&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/199891023-fbcd57a9-366d-4d9e-8011-24b687bf8d7c.png&quot; /&gt;&lt;/div&gt;
-&lt;/div&gt;
+<div id="scrolling-wrapper">
+    <div id="scrolling-image"><img src="https://user-images.githubusercontent.com/34812887/199891020-a9e16bac-432b-4f26-a0ca-ae63a4201e6c.png" /></div>
+    <div id="scrolling-image"><img src="https://user-images.githubusercontent.com/34812887/199891023-fbcd57a9-366d-4d9e-8011-24b687bf8d7c.png" /></div>
+</div>
 
-&lt;p class=&quot;text-muted&quot;&gt;매칭 페이지 및 결제 내역&lt;/p&gt;
+<p class="text-muted">매칭 페이지 및 결제 내역</p>
 
-&lt;h4 id=&quot;재출시-후-고객의-첫-결제와-가입자-300명-달성&quot;&gt;재출시 후 고객의 첫 결제와 가입자 300명 달성&lt;/h4&gt;
+<h2 id="재출시-후-고객의-첫-결제와-가입자-300명-달성">재출시 후 고객의 첫 결제와 가입자 300명 달성</h2>
 
-&lt;p class=&quot;text-muted&quot;&gt;2021년 11월&lt;/p&gt;
+<p class="text-muted">2021년 11월</p>
 
-&lt;p&gt;랜딩페이지 및 결제 페이지를 리뉴얼한지 한달 즈음이 되었을까요? 지인 홍보가 아닌 페이스북 광고를 통해 들어온 첫 외부 고객의 결제였습니다.&lt;/p&gt;
+<p>랜딩페이지 및 결제 페이지를 리뉴얼한지 한달 즈음이 되었을까요? 지인 홍보가 아닌 페이스북 광고를 통해 들어온 첫 외부 고객의 결제였습니다.</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/198346138-1b3bc4c2-e4d6-45b4-9652-6101da274c82.png&quot; alt=&quot;33300099922&quot; /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/198346138-1b3bc4c2-e4d6-45b4-9652-6101da274c82.png" alt="33300099922" /></p>
 
-&lt;p class=&quot;text-muted&quot;&gt;마크가 공유한 스타일리스트가 보내준 알림톡 메시지&lt;/p&gt;
+<p class="text-muted">마크가 공유한 스타일리스트가 보내준 알림톡 메시지</p>
 
-&lt;p&gt;또한 한달동안 플랫폼 가입자 300명을 달성하였습니다.(정확히는 290명…)&lt;/p&gt;
+<p>또한 한달동안 플랫폼 가입자 300명을 달성하였습니다.(정확히는 290명…)</p>
 
-&lt;p&gt;&lt;a href=&quot;https://hanarotg.github.io/project-stylehero-story-3.html&quot;&gt;마지막 3부에서 계속..&lt;/a&gt;&lt;/p&gt;</content><author><name>Lee Taegyeong</name></author><category term="stylehero" /><category term="startup" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://user-images.githubusercontent.com/34812887/198346138-1b3bc4c2-e4d6-45b4-9652-6101da274c82.png" /><media:content medium="image" url="https://user-images.githubusercontent.com/34812887/198346138-1b3bc4c2-e4d6-45b4-9652-6101da274c82.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [1부]</title><link href="http://localhost:4000/project-stylehero-story-1.html" rel="alternate" type="text/html" title="비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [1부]" /><published>2022-10-27T00:00:00+09:00</published><updated>2022-10-27T00:00:00+09:00</updated><id>http://localhost:4000/%5Bproject%5D-stylehero-story-1</id><content type="html" xml:base="http://localhost:4000/project-stylehero-story-1.html">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/199974840-bd4c8f07-1385-4011-a666-069150728c7a.JPG&quot; alt=&quot;9CE981EE-2AAD-413D-B94E-BAD676152888&quot; /&gt;&lt;/p&gt;
+<p><a href="https://hanarotg.github.io/project-stylehero-story-3.html">마지막 3부에서 계속..</a></p>]]></content><author><name>이태경</name></author><category term="stylehero" /><category term="startup" /><summary type="html"><![CDATA[거하게 말아먹은 제 첫 창업 실패기 2부입니다. MVP 출시까지의 이야기를 다룹니다.]]></summary></entry><entry><title type="html">비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [1부]</title><link href="http://localhost:4000/project-stylehero-story-1/" rel="alternate" type="text/html" title="비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [1부]" /><published>2022-10-27T00:00:00+09:00</published><updated>2022-10-27T00:00:00+09:00</updated><id>http://localhost:4000/%5Bproject%5D-stylehero-story-1</id><content type="html" xml:base="http://localhost:4000/project-stylehero-story-1/"><![CDATA[<p><img src="https://user-images.githubusercontent.com/34812887/199974840-bd4c8f07-1385-4011-a666-069150728c7a.JPG" alt="9CE981EE-2AAD-413D-B94E-BAD676152888" /></p>
 
-&lt;p class=&quot;text-muted&quot;&gt;벽에 붙어있었던 문구들&lt;/p&gt;
+<h1 id="첫-팀빌딩">첫 팀빌딩</h1>
 
-&lt;h6 id=&quot;timetable&quot;&gt;timetable&lt;/h6&gt;
+<p class="text-muted">2021년 2월</p>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#첫-팀빌딩&quot;&gt;첫 팀빌딩&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#두번째-팀빌딩-그리고-첫-사무실&quot;&gt;두번째 팀빌딩 그리고 첫 사무실&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#아이템-구체화-팀-피드백-운영팀의-노력&quot;&gt;아이템 구체화, 팀 피드백, 운영팀의 노력&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#코로나-확산으로-모두-집에서&quot;&gt;코로나 확산으로 모두 집에서&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#돈-문제로-팀원을-내보내다&quot;&gt;돈 문제로 팀원을 내보내다&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<p>전역 후 2년전 같은 창업 관련 수업을 들었던 벤처과 후배에게서 카톡이 왔습니다. 창업을 위한 팀빌딩 중인데 개발자를 구하고 있다, 개발자로 같이 한번 해보지 않겠냐는 내용이었습니다.</p>
 
-&lt;h4 id=&quot;첫-팀빌딩&quot;&gt;첫 팀빌딩&lt;/h4&gt;
+<p>마침 군대에서 <a href="https://www.inflearn.com/course/node-js-%EC%9B%B9%EA%B0%9C%EB%B0%9C#reviews">인프런 강의</a>를 들으며 틈틈히 웹개발을 공부했었기에 이 팀에 들어가면 내가 뭐라도 할 수 있는 게 있지 않을까?.. 라는 생각으로 들어가게 되었습니다.</p>
 
-&lt;p class=&quot;text-muted&quot;&gt;2021년 2월&lt;/p&gt;
+<p>벤처과 후배(호칭 : 마크) 주도로 4명이 모였습니다.(벤처과 2명, 개발자 2명) 서로의 호칭을 정하고(저는 하워드) 10개의 사업 아이디어를 공유하고 평가하며 사업 아이템을 정했습니다. 스타일리스트 매칭 플랫폼으로 결정하였습니다.</p>
 
-&lt;p&gt;전역 후 2년전 같은 창업 관련 수업을 들었던 벤처과 후배에게서 카톡이 왔습니다. 창업을 위한 팀빌딩 중인데 개발자를 구하고 있다, 개발자로 같이 한번 해보지 않겠냐는 내용이었습니다.&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/198329441-ab110589-981f-4ba3-a09a-b6a86724d1d8.png" alt="324907230497" /></p>
 
-&lt;p&gt;마침 군대에서 &lt;a href=&quot;https://www.inflearn.com/course/node-js-%EC%9B%B9%EA%B0%9C%EB%B0%9C#reviews&quot;&gt;인프런 강의&lt;/a&gt;를 들으며 틈틈히 웹개발을 공부했었기에 이 팀에 들어가면 내가 뭐라도 할 수 있는 게 있지 않을까?.. 라는 생각으로 들어가게 되었습니다.&lt;/p&gt;
+<p class="text-muted">피그마로 짠 스타일리스트 매칭 플랫폼 플로우</p>
 
-&lt;p&gt;벤처과 후배(호칭 : 마크) 주도로 4명이 모였습니다.(벤처과 2명, 개발자 2명) 서로의 호칭을 정하고(저는 하워드) 10개의 사업 아이디어를 공유하고 평가하며 사업 아이템을 정했습니다. 스타일리스트 매칭 플랫폼으로 결정하였습니다.&lt;/p&gt;
+<p>아이템 구체화까지 진행되나 싶었지만 팀원 중 한명이 마크의 팀 운영 방식에 마음에 들지 않았나 봅니다. 자신이 낸 아이디어가 사업아이템으로 채택되었음에도 마크가 팀을 주도한다는 이유였던 것 같습니다.</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/198329441-ab110589-981f-4ba3-a09a-b6a86724d1d8.png&quot; alt=&quot;324907230497&quot; /&gt;&lt;/p&gt;
+<p>결국 팀원과 마크의 갈등이 커져 구체화 도중 팀원 2명이 나가게 되었습니다.</p>
 
-&lt;p class=&quot;text-muted&quot;&gt;피그마로 짠 스타일리스트 매칭 플랫폼 플로우&lt;/p&gt;
+<p>(여담으로.. 그 팀원 2명은 다른 창업 아이템으로 창업 대회 준비를 위해 같이 미리 말을 맞추어 나간거 였었습니다. 🥲)</p>
 
-&lt;p&gt;아이템 구체화까지 진행되나 싶었지만 팀원 중 한명이 마크의 팀 운영 방식에 마음에 들지 않았나 봅니다. 자신이 낸 아이디어가 사업아이템으로 채택되었음에도 마크가 팀을 주도한다는 이유였던 것 같습니다.&lt;/p&gt;
+<h1 id="두번째-팀빌딩-그리고-첫-사무실">두번째 팀빌딩 그리고 첫 사무실</h1>
 
-&lt;p&gt;결국 팀원과 마크의 갈등이 커져 구체화 도중 팀원 2명이 나가게 되었습니다.&lt;/p&gt;
+<p class="text-muted">2021년 5월</p>
 
-&lt;p&gt;(여담으로.. 그 팀원 2명은 다른 창업 아이템으로 창업 대회 준비를 위해 같이 미리 말을 맞추어 나간거 였었습니다. 🥲)&lt;/p&gt;
+<p>저와 마크는 다시 팀빌딩을 해보기로 합니다. 마크는 업무보조 팀원 2명과 개발자 1명 그리고 디자이너 1명을 모집하였고 앞서 정한 창업 아이템으로 창업 대회를 착실하게 준비했습니다.</p>
 
-&lt;h4 id=&quot;두번째-팀빌딩-그리고-첫-사무실&quot;&gt;두번째 팀빌딩 그리고 첫 사무실&lt;/h4&gt;
+<p>그 결과 학교 건물 지하 1층에 있는 작은 사무실을 얻을 수 있었습니다.</p>
 
-&lt;p class=&quot;text-muted&quot;&gt;2021년 5월&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/198314061-15bc822a-854b-4923-98da-2b50b14fe663.JPG" alt="3223423423" /></p>
 
-&lt;p&gt;저와 마크는 다시 팀빌딩을 해보기로 합니다. 마크는 업무보조 팀원 2명과 개발자 1명 그리고 디자이너 1명을 모집하였고 앞서 정한 창업 아이템으로 창업 대회를 착실하게 준비했습니다.&lt;/p&gt;
+<p class="text-muted">첫번째 사무실</p>
 
-&lt;p&gt;그 결과 학교 건물 지하 1층에 있는 작은 사무실을 얻을 수 있었습니다.&lt;/p&gt;
+<p>처음 사무실에 들어오자마자 온 벽에 낀 곰팡이를 하루 종일 청소한 기억이 나네요. (결국 다 지우지 못해서 청소 아주머니께서 도와주셨습니다.) 과자, 의자랑 모니터 등의 모든 비품은 마크가 모두 사비로 마련했습니다.</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/198314061-15bc822a-854b-4923-98da-2b50b14fe663.JPG&quot; alt=&quot;3223423423&quot; /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/198317182-bd0ab9b9-b9a9-4c2a-997f-7478f15ea073.JPG" alt="939390" /></p>
 
-&lt;p class=&quot;text-muted&quot;&gt;첫번째 사무실&lt;/p&gt;
+<p class="text-muted">제 자리입니다. 모니터를 세로로 세워도 보고 맥 거치대도 사서 쓰고..</p>
 
-&lt;p&gt;처음 사무실에 들어오자마자 온 벽에 낀 곰팡이를 하루 종일 청소한 기억이 나네요. (결국 다 지우지 못해서 청소 아주머니께서 도와주셨습니다.) 과자, 의자랑 모니터 등의 모든 비품은 마크가 모두 사비로 마련했습니다.&lt;/p&gt;
+<h2 id="아이템-구체화-팀-피드백-운영팀의-노력">아이템 구체화, 팀 피드백, 운영팀의 노력</h2>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/198317182-bd0ab9b9-b9a9-4c2a-997f-7478f15ea073.JPG&quot; alt=&quot;939390&quot; /&gt;&lt;/p&gt;
+<p class="text-muted">2021년 6월</p>
 
-&lt;p class=&quot;text-muted&quot;&gt;제 자리입니다. 모니터를 세로로 세워도 보고 맥 거치대도 사서 쓰고..&lt;/p&gt;
+<p>기말 시험을 마치고 본격적인 아이디어 구체화에 들어갔습니다. 스타일리스트 매칭 플랫폼이긴 할텐데 구체적으로 어떻게?</p>
 
-&lt;h4 id=&quot;아이템-구체화-팀-피드백-운영팀의-노력&quot;&gt;아이템 구체화, 팀 피드백, 운영팀의 노력&lt;/h4&gt;
+<p>동대문 도매시장에서 직접 발품을 받아 자체 쇼핑몰을 구촉하여 스타일리스트의 요청에 따라 쇼핑몰 내 의류 위주로 의류를 배송해 주는 서비스 등 다양한 아이디어들이 나왔습니다.</p>
 
-&lt;p class=&quot;text-muted&quot;&gt;2021년 6월&lt;/p&gt;
+<p>여러 의견을 나눠 사업 아이템을 비대면 스타일리스트를 매칭해주고 자체 채팅 서비스를 통해 하는 것으로 구체화하였습니다.</p>
 
-&lt;p&gt;기말 시험을 마치고 본격적인 아이디어 구체화에 들어갔습니다. 스타일리스트 매칭 플랫폼이긴 할텐데 구체적으로 어떻게?&lt;/p&gt;
+<p>팀에 대한 팀원들의 피드백도 진행하였습니다. 대표였던 마크가 피드백에 굉장히 호의적이였던 것으로 기억합니다.</p>
 
-&lt;p&gt;동대문 도매시장에서 직접 발품을 받아 자체 쇼핑몰을 구촉하여 스타일리스트의 요청에 따라 쇼핑몰 내 의류 위주로 의류를 배송해 주는 서비스 등 다양한 아이디어들이 나왔습니다.&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/198336894-9864bc4c-80a6-4caa-abc6-4eb8b5c5e348.JPG" alt="7BD18288-155E-4C06-9D7B-18A3A7F874FC" /></p>
 
-&lt;p&gt;여러 의견을 나눠 사업 아이템을 비대면 스타일리스트를 매칭해주고 자체 채팅 서비스를 통해 하는 것으로 구체화하였습니다.&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/199973150-89c2ed92-ce56-499a-b517-92e11eb37ee3.JPG" alt="D03E41E2-BBA3-4C87-9E5D-BED8346FC7A1" /></p>
 
-&lt;p&gt;팀에 대한 팀원들의 피드백도 진행하였습니다. 대표였던 마크가 피드백에 굉장히 호의적이였던 것으로 기억합니다.&lt;/p&gt;
+<p class="text-muted">팀에 관해 이야기하는 팀원들</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/198336894-9864bc4c-80a6-4caa-abc6-4eb8b5c5e348.JPG&quot; alt=&quot;7BD18288-155E-4C06-9D7B-18A3A7F874FC&quot; /&gt;&lt;/p&gt;
+<p>마크와 이안(업무보조 팀원)은 에브리타임에 전화 인터뷰 인원 20명을 모집하여 해당 서비스에 대해 수요가 있는지 확인하였습니다.</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/199973150-89c2ed92-ce56-499a-b517-92e11eb37ee3.JPG&quot; alt=&quot;D03E41E2-BBA3-4C87-9E5D-BED8346FC7A1&quot; /&gt;&lt;/p&gt;
+<p>마크와 이안이 패션 스타일리스트와 고객을 모으기 위해 여의도 출퇴근길에 명함을 뿌려도 보고.. 서울, 경기권 패션 관련 모든 대학의 교수님들께 콜드 메일을 보내고 <a href="http://www.stylists.or.kr/">한국패션스타일리스트 협회</a>에 무작정 찾아갔었습니다. (물론 바로 쫓겨났습니다..)</p>
 
-&lt;p class=&quot;text-muted&quot;&gt;팀에 관해 이야기하는 팀원들&lt;/p&gt;
+<p>둘의 노력 끝에 패션 관련 고등학교를 다니는 예비 패션 스타일리스트 1명을 모집하였습니다. 서비스를 체험 의사가 있는 2명(직장인 1명, 학생 1명)에게 일주일 간 무료로 매칭해주었습니다. 스타일리스트와 고객을 카카오톡으로 연결해주었습니다.</p>
 
-&lt;p&gt;마크와 이안(업무보조 팀원)은 에브리타임에 전화 인터뷰 인원 20명을 모집하여 해당 서비스에 대해 수요가 있는지 확인하였습니다.&lt;/p&gt;
+<h2 id="코로나-확산으로-모두-집에서">코로나 확산으로 모두 집에서</h2>
 
-&lt;p&gt;마크와 이안이 패션 스타일리스트와 고객을 모으기 위해 여의도 출퇴근길에 명함을 뿌려도 보고.. 서울, 경기권 패션 관련 모든 대학의 교수님들께 콜드 메일을 보내고 &lt;a href=&quot;http://www.stylists.or.kr/&quot;&gt;한국패션스타일리스트 협회&lt;/a&gt;에 무작정 찾아갔었습니다. (물론 바로 쫓겨났습니다..)&lt;/p&gt;
+<p class="text-muted">2021년 7월</p>
 
-&lt;p&gt;둘의 노력 끝에 패션 관련 고등학교를 다니는 예비 패션 스타일리스트 1명을 모집하였습니다. 서비스를 체험 의사가 있는 2명(직장인 1명, 학생 1명)에게 일주일 간 무료로 매칭해주었습니다. 스타일리스트와 고객을 카카오톡으로 연결해주었습니다.&lt;/p&gt;
+<p>갑작스럽게 코로나 확산으로 각자의 집에서 작업하게 되었습니다. 슬랙을 통해 작업 시작과 작업 종료를 챗으로 매일 알려주는 것으로 하고 스크럼도 매일 진행하였습니다. 코로나 블루 였던 걸까요..? 팀원 모두가 지치고 있었습니다.</p>
 
-&lt;h4 id=&quot;코로나-확산으로-모두-집에서&quot;&gt;코로나 확산으로 모두 집에서&lt;/h4&gt;
+<h2 id="돈-문제로-팀원을-내보내다">돈 문제로 팀원을 내보내다</h2>
 
-&lt;p class=&quot;text-muted&quot;&gt;2021년 7월&lt;/p&gt;
+<p class="text-muted">2021년 8월</p>
 
-&lt;p&gt;갑작스럽게 코로나 확산으로 각자의 집에서 작업하게 되었습니다. 슬랙을 통해 작업 시작과 작업 종료를 챗으로 매일 알려주는 것으로 하고 스크럼도 매일 진행하였습니다. 코로나 블루 였던 걸까요..? 팀원 모두가 지치고 있었습니다.&lt;/p&gt;
+<p>코로나 확산이 줄어들고 사무실을 나오는 날이 점점 많아지던 즈음 디자이너였던 팀원이 앞으로 하는 작업에 대한 보수를 주지 않으면 나가겠다고 말했습니다.</p>
 
-&lt;h4 id=&quot;돈-문제로-팀원을-내보내다&quot;&gt;돈 문제로 팀원을 내보내다&lt;/h4&gt;
+<p>창업 동아리라도 보수를 주는 것이 옳다고 유튜브에서 봤으며 내가 동아리에 투자해서 얻는 것이 무엇인지 고민하게 되었다고 합니다.</p>
 
-&lt;p class=&quot;text-muted&quot;&gt;2021년 8월&lt;/p&gt;
+<p>돈을 줄 수 없는 상황이었습니다. 마크와 전 일주일 동안 디자이너 팀원과 이야기 끝에 내보내기로 합니다. 방학동안 꿋꿋이 자기 일을 하던 친구였는데 디자이너 혼자서 고민해야 하는 작업에 대한 회의감, 스트레스가 많았던 걸로 생각합니다.</p>
 
-&lt;p&gt;코로나 확산이 줄어들고 사무실을 나오는 날이 점점 많아지던 즈음 디자이너였던 팀원이 앞으로 하는 작업에 대한 보수를 주지 않으면 나가겠다고 말했습니다.&lt;/p&gt;
+<p>이번 일로 마크와 전 꽤 힘을 들였던 것 같습니다. 돈 문제로 정들었던 팀원을 내보낸다는 게 생각보다 쉽지는 않더라구요.</p>
 
-&lt;p&gt;창업 동아리라도 보수를 주는 것이 옳다고 유튜브에서 봤으며 내가 동아리에 투자해서 얻는 것이 무엇인지 고민하게 되었다고 합니다.&lt;/p&gt;
+<p><a href="https://hanarotg.github.io/project-stylehero-story-2.html">2부에서 계속…</a></p>]]></content><author><name>이태경</name></author><category term="stylehero" /><category term="startup" /><summary type="html"><![CDATA[문제를 해결하는 방법, 타인과 같이 협업하는 방법 등... 많은 것들을 배울 수 있었던 제 첫 창업 실패 이야기를 공유합니다.]]></summary></entry><entry><title type="html">EC2 인스턴스에서 XV6 개발 환경 세팅하는 방법, 에러 해결</title><link href="http://localhost:4000/OS-XV6-settings/" rel="alternate" type="text/html" title="EC2 인스턴스에서 XV6 개발 환경 세팅하는 방법, 에러 해결" /><published>2022-09-11T00:00:00+09:00</published><updated>2022-09-11T00:00:00+09:00</updated><id>http://localhost:4000/%5BOS%5D-XV6-settings</id><content type="html" xml:base="http://localhost:4000/OS-XV6-settings/"><![CDATA[<h1 id="설치">설치</h1>
 
-&lt;p&gt;돈을 줄 수 없는 상황이었습니다. 마크와 전 일주일 동안 디자이너 팀원과 이야기 끝에 내보내기로 합니다. 방학동안 꿋꿋이 자기 일을 하던 친구였는데 디자이너 혼자서 고민해야 하는 작업에 대한 회의감, 스트레스가 많았던 걸로 생각합니다.&lt;/p&gt;
+<p>EC2 Ubuntu 20.04 LTS 인스턴스를 사용하는 것을 전제합니다.</p>
 
-&lt;p&gt;이번 일로 마크와 전 꽤 힘을 들였던 것 같습니다. 돈 문제로 정들었던 팀원을 내보낸다는 게 생각보다 쉽지는 않더라구요.&lt;/p&gt;
+<p>업데이트를 한번 해주세요.</p>
 
-&lt;p&gt;&lt;a href=&quot;https://hanarotg.github.io/project-stylehero-story-2.html&quot;&gt;2부에서 계속…&lt;/a&gt;&lt;/p&gt;</content><author><name>Lee Taegyeong</name></author><category term="stylehero" /><category term="startup" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://user-images.githubusercontent.com/34812887/199974840-bd4c8f07-1385-4011-a666-069150728c7a.JPG" /><media:content medium="image" url="https://user-images.githubusercontent.com/34812887/199974840-bd4c8f07-1385-4011-a666-069150728c7a.JPG" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">EC2 인스턴스에서 XV6 개발 환경 세팅하는 방법, 에러 해결</title><link href="http://localhost:4000/os-xv6-settings.html" rel="alternate" type="text/html" title="EC2 인스턴스에서 XV6 개발 환경 세팅하는 방법, 에러 해결" /><published>2022-09-11T00:00:00+09:00</published><updated>2022-09-11T00:00:00+09:00</updated><id>http://localhost:4000/%5BOS%5D-XV6-settings</id><content type="html" xml:base="http://localhost:4000/os-xv6-settings.html">&lt;h4 id=&quot;설치&quot;&gt;설치&lt;/h4&gt;
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt-get <span class="nb">install</span>
+</code></pre></div></div>
 
-&lt;p&gt;EC2 Ubuntu 20.04 LTS 인스턴스를 사용하는 것을 전제합니다.&lt;/p&gt;
+<p>xv6 레포지토리를 클론해주세요.</p>
 
-&lt;p&gt;업데이트를 한번 해주세요.&lt;/p&gt;
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>git clone https://github.com/mit-pdos/xv6-public.git
+</code></pre></div></div>
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<p>qemu 에뮬레이터를 설치해 주세요.</p>
 
-&lt;p&gt;xv6 레포지토리를 클론해주세요.&lt;/p&gt;
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt <span class="nb">install </span>qemu-kvm
+</code></pre></div></div>
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;git clone https://github.com/mit-pdos/xv6-public.git
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<p>xv6 이미지를 생성합니다.</p>
 
-&lt;p&gt;qemu 에뮬레이터를 설치해 주세요.&lt;/p&gt;
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>make
+</code></pre></div></div>
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;qemu-kvm
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<h2 id="qemu-터미널에서-구동">qemu 터미널에서 구동</h2>
 
-&lt;p&gt;xv6 이미지를 생성합니다.&lt;/p&gt;
+<p>GUI 환경이 아닌 터미널에서 xv6 운용 시 <code class="language-plaintext highlighter-rouge">-nographic</code> 옵션이 있는 에뮬레이터를 실행해야 합니다. <code class="language-plaintext highlighter-rouge">qemu-nox</code>에 관한 설정 정보는 <code class="language-plaintext highlighter-rouge">Makefile</code>에서 확인하실 수 있습니다.</p>
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;make
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>make qemu-nox
+</code></pre></div></div>
 
-&lt;h5 id=&quot;qemu-터미널에서-구동&quot;&gt;qemu 터미널에서 구동&lt;/h5&gt;
+<h2 id="qemu-에뮬레이터-종료">qemu 에뮬레이터 종료</h2>
 
-&lt;p&gt;GUI 환경이 아닌 터미널에서 xv6 운용 시 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-nographic&lt;/code&gt; 옵션이 있는 에뮬레이터를 실행해야 합니다. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;qemu-nox&lt;/code&gt;에 관한 설정 정보는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Makefile&lt;/code&gt;에서 확인하실 수 있습니다.&lt;/p&gt;
+<p><kbd>Control + a</kbd> 입력 후 <kbd>x</kbd>를 눌러줍니다.</p>
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;make qemu-nox
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<ul>
+  <li><a href="https://stackoverflow.com/questions/47210264/close-qemu-from-a-process-in-xv6">Close qemu from a process in xv6</a></li>
+  <li><a href="https://www.cs.virginia.edu/~cr4bd/4414/S2021/xv6.html">xv6 general information</a></li>
+</ul>]]></content><author><name>이태경</name></author><category term="OS" /><category term="xv6" /><category term="EC2" /><category term="ubuntu" /><summary type="html"><![CDATA[학부 운영체제 수강을 위해 XV6를 사용하게 되었습니다. 맥 M1에서 원할히 돌아가지 않아 AWS EC2 Ubuntu 인스턴스를 생성하여 관리하는 것을 추천드립니다.]]></summary></entry><entry><title type="html">AWS EC2 서버 구축 올인원 가이드</title><link href="http://localhost:4000/aws-build-ec2-server-guide-all-in-one/" rel="alternate" type="text/html" title="AWS EC2 서버 구축 올인원 가이드" /><published>2022-09-04T00:00:00+09:00</published><updated>2022-09-04T00:00:00+09:00</updated><id>http://localhost:4000/aws-build-ec2-server-guide-all-in-one</id><content type="html" xml:base="http://localhost:4000/aws-build-ec2-server-guide-all-in-one/"><![CDATA[<p>보다 세세한 과정들이 있지만 간략하게 표현하면 다음과 같습니다.</p>
 
-&lt;h5 id=&quot;qemu-에뮬레이터-종료&quot;&gt;qemu 에뮬레이터 종료&lt;/h5&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/188363666-be491c86-f32a-4fcc-b9f5-90a5d65d331a.jpeg" alt="1231245" /></p>
 
-&lt;p&gt;&lt;kbd&gt;Control + a&lt;/kbd&gt; 입력 후 &lt;kbd&gt;x&lt;/kbd&gt;를 눌러줍니다.&lt;/p&gt;
+<h1 id="탄력적-ip-elasticip-생성">탄력적 IP (ElasticIP) 생성</h1>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/47210264/close-qemu-from-a-process-in-xv6&quot;&gt;Close qemu from a process in xv6&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cs.virginia.edu/~cr4bd/4414/S2021/xv6.html&quot;&gt;xv6 general information&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Lee Taegyeong</name></author><category term="OS" /><category term="xv6" /><category term="EC2" /><category term="ubuntu" /><summary type="html">설치</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://user-images.githubusercontent.com/34812887/201516245-6d8c7e01-4703-4434-8efa-e55ef94131cd.png" /><media:content medium="image" url="https://user-images.githubusercontent.com/34812887/201516245-6d8c7e01-4703-4434-8efa-e55ef94131cd.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">AWS EC2 서버 구축 올인원 가이드</title><link href="http://localhost:4000/aws-build-ec2-server-guide-all-in-one.html" rel="alternate" type="text/html" title="AWS EC2 서버 구축 올인원 가이드" /><published>2022-09-04T00:00:00+09:00</published><updated>2022-09-04T00:00:00+09:00</updated><id>http://localhost:4000/aws-build-ec2-server-guide-all-in-one</id><content type="html" xml:base="http://localhost:4000/aws-build-ec2-server-guide-all-in-one.html">&lt;p&gt;보다 세세한 과정들이 있지만 간략하게 표현하면 다음과 같습니다.&lt;/p&gt;
+<p>생성한 EC2 인스턴스에 탄력적 IP를 생성하여 연결해보겠습니다. 탄력적 IP는 각 인스턴스에 1:1로 연결해야 합니다.</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188363666-be491c86-f32a-4fcc-b9f5-90a5d65d331a.jpeg&quot; alt=&quot;1231245&quot; /&gt;&lt;/p&gt;
+<p>EC2 -&gt; 네트워크 및 보안 -&gt; 탄력적 IP -&gt; 탄력적 IP 주소 할당을 선택합니다.</p>
 
-&lt;h5 id=&quot;탄력적-ip-elasticip-생성&quot;&gt;탄력적 IP (ElasticIP) 생성&lt;/h5&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/188364296-32078818-de0b-40ae-89be-81798f6fc76d.png" alt="123204" /></p>
 
-&lt;p&gt;생성한 EC2 인스턴스에 탄력적 IP를 생성하여 연결해보겠습니다. 탄력적 IP는 각 인스턴스에 1:1로 연결해야 합니다.&lt;/p&gt;
+<p>기본 설정을 건드리지 않고 할당을 선택합니다.</p>
 
-&lt;p&gt;EC2 -&amp;gt; 네트워크 및 보안 -&amp;gt; 탄력적 IP -&amp;gt; 탄력적 IP 주소 할당을 선택합니다.&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/188364553-2489de64-a4e6-42d1-98ea-77bb13d7c005.png" alt="2525" /></p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188364296-32078818-de0b-40ae-89be-81798f6fc76d.png&quot; alt=&quot;123204&quot; /&gt;&lt;/p&gt;
+<p>할당이 가능한 탄력적 IP가 생성되었습니다. 작업 -&gt; 탄력적 IP 주소 연결을 선택합니다.</p>
 
-&lt;p&gt;&lt;br /&gt;
-기본 설정을 건드리지 않고 할당을 선택합니다.&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/188364781-7e4a1bff-fc33-445e-b9f0-db3df5623ed0.png" alt="010101010" /></p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188364553-2489de64-a4e6-42d1-98ea-77bb13d7c005.png&quot; alt=&quot;2525&quot; /&gt;&lt;/p&gt;
+<p>생성한 EC2 인스턴스 및 EC2 인스턴스의 프라이빗 IP 주소를 선택하고 <code class="language-plaintext highlighter-rouge">연결</code> 을 선택합니다.</p>
 
-&lt;p&gt;&lt;br /&gt;
-할당이 가능한 탄력적 IP가 생성되었습니다. 작업 -&amp;gt; 탄력적 IP 주소 연결을 선택합니다.&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/188365136-729ec4b9-a55a-4098-b3e4-80ab276bac8e.png" alt="22422" /></p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188364781-7e4a1bff-fc33-445e-b9f0-db3df5623ed0.png&quot; alt=&quot;010101010&quot; /&gt;&lt;/p&gt;
+<p>생성한 EC2 인스턴스와 탄력적 IP 할당을 완료하였습니다.</p>
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/188366305-d874b56f-3411-468b-8653-e54cc1e4c029.jpeg" alt="IMG_998C1E18E37E-1" /></p>
 
-&lt;p&gt;생성한 EC2 인스턴스 및 EC2 인스턴스의 프라이빗 IP 주소를 선택하고 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;연결&lt;/code&gt; 을 선택합니다.&lt;/p&gt;
+<h2 id="elb-타겟-그룹-만들기">ELB 타겟 그룹 만들기</h2>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188365136-729ec4b9-a55a-4098-b3e4-80ab276bac8e.png&quot; alt=&quot;22422&quot; /&gt;&lt;/p&gt;
+<p>이제 ELB 타겟 그룹을 만들어 보겠습니다. 저는 이미 만들어 둔 게 여러 개 있네요.</p>
 
-&lt;p&gt;생성한 EC2 인스턴스와 탄력적 IP 할당을 완료하였습니다.&lt;/p&gt;
+<p>EC2 -&gt; 로드 밸런싱 -&gt; 대상 그룹 -&gt; <code class="language-plaintext highlighter-rouge">Create Target Group</code>을 선택합니다.</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188366305-d874b56f-3411-468b-8653-e54cc1e4c029.jpeg&quot; alt=&quot;IMG_998C1E18E37E-1&quot; /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/188366025-2c4baeca-c05b-4479-afc6-1e96069960dd.png" alt="3333535" /></p>
 
-&lt;h5 id=&quot;elb-타겟-그룹-만들기&quot;&gt;ELB 타겟 그룹 만들기&lt;/h5&gt;
+<p>슬슬 어질어질하기 시작하죠? Target group name만 설정하고 나머지는 기본값으로 한 후 다음을 선택합니다.</p>
 
-&lt;p&gt;이제 ELB 타겟 그룹을 만들어 보겠습니다. 저는 이미 만들어 둔 게 여러 개 있네요.&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/188366570-82feeefc-01de-4529-9fb4-0a7daf146efd.png" alt="44453" /></p>
 
-&lt;p&gt;EC2 -&amp;gt; 로드 밸런싱 -&amp;gt; 대상 그룹 -&amp;gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Create Target Group&lt;/code&gt;을 선택합니다.&lt;/p&gt;
+<p>EC2 인스턴스를 체크한 후 <code class="language-plaintext highlighter-rouge">Include as pending below</code> 를 선택합니다.</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188366025-2c4baeca-c05b-4479-afc6-1e96069960dd.png&quot; alt=&quot;3333535&quot; /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/188367048-87bf948c-2401-4ad9-96e5-dab8a4bdc2f7.png" alt="11100099" /></p>
 
-&lt;p&gt;&lt;br /&gt;
-슬슬 어질어질하기 시작하죠? Target group name만 설정하고 나머지는 기본값으로 한 후 다음을 선택합니다.&lt;/p&gt;
+<p>pending 목록에 해당 인스턴스가 pending 상태로 추가된 것을 확인할 수 있습니다. <code class="language-plaintext highlighter-rouge">Create Target Group</code> 를 선택하여 타겟 그룹 생성을 완료합니다.</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188366570-82feeefc-01de-4529-9fb4-0a7daf146efd.png&quot; alt=&quot;44453&quot; /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/188367221-2afba096-16f7-4249-a397-c817c0ebf70f.png" alt="949494949" /></p>
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<p>ELB 타겟 그룹을 정상적으로 생성하였습니다. 위의 단계를 통해 생성한 ELB 타겟 그룹이 요청을 받았을 때 EC2 인스턴스의 80번 포트로 포워딩하도록 설정하였습니다.</p>
 
-&lt;p&gt;EC2 인스턴스를 체크한 후 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Include as pending below&lt;/code&gt; 를 선택합니다.&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/188367998-2db1734a-f90b-40e7-90e8-4ad1f09c3ea1.jpeg" alt="IMG_9C745D8F40B0-1" /></p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188367048-87bf948c-2401-4ad9-96e5-dab8a4bdc2f7.png&quot; alt=&quot;11100099&quot; /&gt;&lt;/p&gt;
+<h2 id="elb-생성">ELB 생성</h2>
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<p>위에서 생성한 ELB Target Group을 통해 ELB를 생성해 보겠습니다.</p>
 
-&lt;p&gt;pending 목록에 해당 인스턴스가 pending 상태로 추가된 것을 확인할 수 있습니다. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Create Target Group&lt;/code&gt; 를 선택하여 타겟 그룹 생성을 완료합니다.&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/188371084-0bfd55b5-e9e4-456a-9e51-a4e5e961e212.png" alt="395304" /></p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188367221-2afba096-16f7-4249-a397-c817c0ebf70f.png&quot; alt=&quot;949494949&quot; /&gt;&lt;/p&gt;
+<p><code class="language-plaintext highlighter-rouge">Application Load Balancer 생성</code>을 선택합니다.</p>
 
-&lt;p&gt;&lt;br /&gt;
-ELB 타겟 그룹을 정상적으로 생성하였습니다. 위의 단계를 통해 생성한 ELB 타겟 그룹이 요청을 받았을 때 EC2 인스턴스의 80번 포트로 포워딩하도록 설정하였습니다.&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/188371265-7f55d89a-c5ca-4751-9d0f-04959ff5c87b.png" alt="939024" /></p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188367998-2db1734a-f90b-40e7-90e8-4ad1f09c3ea1.jpeg&quot; alt=&quot;IMG_9C745D8F40B0-1&quot; /&gt;&lt;/p&gt;
+<p>Load balancer name 와 Mapping 4개 모두 체크, 보안 그룹 선택합니다. Listeners and routing 에서 80 포트에 대한 ELB 타겟 그룹을 위에서 생성한 타겟 그룹으로 지정합니다. 이후 하단의 Create Load Balancer를 클릭합니다.</p>
 
-&lt;h5 id=&quot;elb-생성&quot;&gt;ELB 생성&lt;/h5&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/188397985-43720609-a083-4c8b-b82a-d89f49c0b846.png" alt="9308" /></p>
 
-&lt;p&gt;위에서 생성한 ELB Target Group을 통해 ELB를 생성해 보겠습니다.&lt;/p&gt;
+<h2 id="route53-도메인과-elb-연결">Route53 도메인과 ELB 연결</h2>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188371084-0bfd55b5-e9e4-456a-9e51-a4e5e961e212.png&quot; alt=&quot;395304&quot; /&gt;&lt;/p&gt;
+<p>Route53 -&gt; 호스팅 영역 -&gt; <code class="language-plaintext highlighter-rouge">생성한 도메인</code>을 선택합니다.</p>
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/188369441-b9fd439e-d227-4217-805d-22a4ab2b665d.png" alt="9595959" /></p>
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Application Load Balancer 생성&lt;/code&gt;을 선택합니다.&lt;/p&gt;
+<p><br /></p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188371265-7f55d89a-c5ca-4751-9d0f-04959ff5c87b.png&quot; alt=&quot;939024&quot; /&gt;&lt;/p&gt;
+<p><code class="language-plaintext highlighter-rouge">레코드 생성</code>을 선택합니다.</p>
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/188369982-41a5caf1-5279-4039-aa15-56c3a57d8bbb.png" alt="2202020" /></p>
 
-&lt;p&gt;Load balancer name 와 Mapping 4개 모두 체크, 보안 그룹 선택합니다. Listeners and routing 에서 80 포트에 대한 ELB 타겟 그룹을 위에서 생성한 타겟 그룹으로 지정합니다. 이후 하단의 Create Load Balancer를 클릭합니다.&lt;/p&gt;
+<p><code class="language-plaintext highlighter-rouge">단순 라우팅</code>을 선택합니다.</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188397985-43720609-a083-4c8b-b82a-d89f49c0b846.png&quot; alt=&quot;9308&quot; /&gt;&lt;/p&gt;
+<p class="notice--info">빠른 레코드 생성일 경우 <strong>마법사로 전환</strong>을 클릭해주세요.</p>
 
-&lt;h5 id=&quot;route53-도메인과-elb-연결&quot;&gt;Route53 도메인과 ELB 연결&lt;/h5&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/188399754-9d8a9443-3ebd-4cfc-89b7-8ddade0472e3.png" alt="309876" /></p>
 
-&lt;p&gt;Route53 -&amp;gt; 호스팅 영역 -&amp;gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;생성한 도메인&lt;/code&gt;을 선택합니다.&lt;/p&gt;
+<p>레코드 이름에 아무것도 입력하지 않고 레코드 유형은 <code class="language-plaintext highlighter-rouge">A - IPv4..</code> 사진과 같이 위에서 생성한 로드밸런서를 선택합니다. 세팅이 완료되면 단순 레코드 정의를 선택해주세요.</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188369441-b9fd439e-d227-4217-805d-22a4ab2b665d.png&quot; alt=&quot;9595959&quot; /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/188400325-047e683a-b521-474f-8a81-db0ba5e74be2.png" alt="37649403" /></p>
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<p>레코드 정의가 완료되면 <code class="language-plaintext highlighter-rouge">레코드 생성</code>을 선택합니다.</p>
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;레코드 생성&lt;/code&gt;을 선택합니다.&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/188401737-067ca96d-c6ec-429b-b216-664c1a81c2ae.png" alt="8629634" /></p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188369982-41a5caf1-5279-4039-aa15-56c3a57d8bbb.png&quot; alt=&quot;2202020&quot; /&gt;&lt;/p&gt;
+<h1 id="acm으로-도메인에-대한-ssl-인증서-생성">ACM으로 도메인에 대한 SSL 인증서 생성</h1>
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<p>ACM에서 <code class="language-plaintext highlighter-rouge">인증서 요청</code>을 선택합니다.</p>
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;단순 라우팅&lt;/code&gt;을 선택합니다.&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/188447982-42853c6b-3f04-408e-bc78-16962353d9ff.png" alt="847473930" /></p>
 
-&lt;div class=&quot;alert alert-info d-flex align-items-center&quot; role=&quot;alert&quot;&gt;
-&lt;i class=&quot;bi bi-info-circle-fill&quot; style=&quot;margin-right: 10px&quot;&gt;&lt;/i&gt;
-  &lt;div&gt;
-   빠른 레코드 생성일 경우 &lt;code&gt;마법사로 전환&lt;/code&gt;을 클릭해주세요.
-  &lt;/div&gt;
-&lt;/div&gt;
+<p>퍼블릭 인증서 요청을 선택하고 <code class="language-plaintext highlighter-rouge">다음</code>을 선택합니다.</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188399754-9d8a9443-3ebd-4cfc-89b7-8ddade0472e3.png&quot; alt=&quot;309876&quot; /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/188448286-f4abe932-dddc-4037-b1b0-0cf00073d9ac.png" alt="2927020230" /></p>
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<p>완전히 정규화된 도메인 이름에 도메인을 입력한 후 <code class="language-plaintext highlighter-rouge">요청</code>을 선택합니다.</p>
 
-&lt;p&gt;레코드 이름에 아무것도 입력하지 않고 레코드 유형은 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A - IPv4..&lt;/code&gt; 사진과 같이 위에서 생성한 로드밸런서를 선택합니다. 세팅이 완료되면 단순 레코드 정의를 선택해주세요.&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/188448809-dab6e778-a97b-4b93-b39d-3ae5eba0ab21.png" alt="57575748" /></p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188400325-047e683a-b521-474f-8a81-db0ba5e74be2.png&quot; alt=&quot;37649403&quot; /&gt;&lt;/p&gt;
+<p>요청한 도메인에 대한 인증서가 검증 대기 중인 것을 확인할 수 있습니다. <code class="language-plaintext highlighter-rouge">인증서 ID</code> 링크를 선택합니다.</p>
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/188449590-0c774961-ffca-4ed8-b51c-b60928972acb.png" alt="75756489" /></p>
 
-&lt;p&gt;레코드 정의가 완료되면 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;레코드 생성&lt;/code&gt;을 선택합니다.&lt;/p&gt;
+<p><code class="language-plaintext highlighter-rouge">Route53에서 레코드 생성</code>을 선택합니다.</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188401737-067ca96d-c6ec-429b-b216-664c1a81c2ae.png&quot; alt=&quot;8629634&quot; /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/188450702-2440ab98-6910-4177-9c25-11e934869e64.png" alt="8568577" /></p>
 
-&lt;h5 id=&quot;acm으로-도메인에-대한-ssl-인증서-생성&quot;&gt;ACM으로 도메인에 대한 SSL 인증서 생성&lt;/h5&gt;
+<p><code class="language-plaintext highlighter-rouge">레코드 생성</code>을 선택합니다.</p>
 
-&lt;p&gt;ACM에서 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;인증서 요청&lt;/code&gt;을 선택합니다.&lt;/p&gt;
+<p class="notice--warning"><b>레코드 생성에 오류가 발생하는 경우 Route53 콘솔로 들어가서 수동으로 CNAME을 생성하세요.</b><br />
+레코드 생성 -&gt; 단순 라우팅 생성 -&gt; 레코드 이름(CNAME 이름), 레코드 유형(CNAME), 값/트래픽 라우팅 대상(이 호스팅 영역에 다른 레코드에 대한 별칭), 레코드 선택(CNAME 값) -&gt; 단순 레코드 정의</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188447982-42853c6b-3f04-408e-bc78-16962353d9ff.png&quot; alt=&quot;847473930&quot; /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/188450477-3fded54a-7a75-47d7-b38a-9b48eded43fa.png" alt="333324" /></p>
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<p>도메인 인증을 위한 CNAME 추가까지 완료했습니다. 발급됨 상태가 될 때까지 기다리도록 하겠습니다.</p>
 
-&lt;p&gt;퍼블릭 인증서 요청을 선택하고 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;다음&lt;/code&gt;을 선택합니다.&lt;/p&gt;
+<h1 id="로드-밸런서-리스닝-추가">로드 밸런서 리스닝 추가</h1>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188448286-f4abe932-dddc-4037-b1b0-0cf00073d9ac.png&quot; alt=&quot;2927020230&quot; /&gt;&lt;/p&gt;
+<p>로드밸런서 -&gt; 생성한 로드밸런서 선택 -&gt; 리스너 -&gt; <code class="language-plaintext highlighter-rouge">리스너 추가</code>를 선택합니다.</p>
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/188403428-71ad95a1-f280-427b-b8dc-88448aa4f377.png" alt="069069" /></p>
 
-&lt;p&gt;완전히 정규화된 도메인 이름에 도메인을 입력한 후 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;요청&lt;/code&gt;을 선택합니다.&lt;/p&gt;
+<p>Protocol : HTTPS (443) 설정 후 default action을 foward to 로드밸런싱 타겟으로 지정해주세요. Secure listener settings에선 아무거나 선택해도 괜찮습니다. Default SSL/TLS certificate에 위에서 발급받은 인증서를 선택해 주세요.</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188448809-dab6e778-a97b-4b93-b39d-3ae5eba0ab21.png&quot; alt=&quot;57575748&quot; /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/188463482-a9ac033f-071a-4b0b-ae86-951850919fdd.png" alt="11020203" /></p>
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<p>이제 80포트에 접속을 시도하면 443 포트로 리다이렉트하도록 설정해주겠습니다. HTTP : 80 규칙 -&gt; 규칙 보기/편집을 선택합니다.</p>
 
-&lt;p&gt;요청한 도메인에 대한 인증서가 검증 대기 중인 것을 확인할 수 있습니다. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;인증서 ID&lt;/code&gt; 링크를 선택합니다.&lt;/p&gt;
+<p>아래와 같이 편집 아이콘을 선택해주세요.</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188449590-0c774961-ffca-4ed8-b51c-b60928972acb.png&quot; alt=&quot;75756489&quot; /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/188465439-4ed6f046-e538-4b87-a558-56188ce96649.png" alt="0004932" /></p>
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<p>아래와 같이 443포트로 리다이렉트 되도록 규칙을 편집 후 업데이트를 선택합니다.</p>
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Route53에서 레코드 생성&lt;/code&gt;을 선택합니다.&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/188465842-2bdafbb1-6b0c-4117-83ee-5a716c740dd7.png" alt="01029333" /></p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188450702-2440ab98-6910-4177-9c25-11e934869e64.png&quot; alt=&quot;8568577&quot; /&gt;&lt;/p&gt;
+<p>이로써 모든 세팅이 완료되었습니다. Route53, ACM, ELB, 탄력적 IP를 통해 EC2 인스턴스에서 80 포트를 열었습니다.</p>
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<p class="notice--info">80포트 어플리케이션을 구동하는 것을 추천하지 않습니다.<br />
+EC2 인스턴스에서 ngix 등의 프록시 서버를 구축하는 것을 추천합니다.</p>
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;레코드 생성&lt;/code&gt;을 선택합니다.&lt;/p&gt;
+<h1 id="참고">참고</h1>
 
-&lt;div class=&quot;alert alert-warning d-flex align-items-center&quot; role=&quot;alert&quot;&gt;
-  &lt;i class=&quot;bi bi-exclamation-triangle-fill&quot; style=&quot;margin-right: 10px&quot;&gt;&lt;/i&gt;
-  &lt;div&gt;
- &lt;b&gt;레코드 생성에 오류가 발생하는 경우 Route53 콘솔로 들어가서 수동으로 CNAME을 생성하세요.&lt;/b&gt;&lt;br /&gt;
-   레코드 생성 -&amp;gt; 단순 라우팅 생성 -&amp;gt;&lt;br /&gt;레코드 이름(CNAME 이름), 레코드 유형(CNAME), 값/트래픽 라우팅 대상(이 호스팅 영역에 다른 레코드에 대한 별칭), 레코드 선택(CNAME 값)&lt;br /&gt;-&amp;gt; 단순 레코드 정의 
-  &lt;/div&gt;
-&lt;/div&gt;
+<h2 id="우분투-서버-포트-포워딩">우분투 서버 포트 포워딩</h2>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188450477-3fded54a-7a75-47d7-b38a-9b48eded43fa.png&quot; alt=&quot;333324&quot; /&gt;&lt;/p&gt;
+<p>Node.js 서버 어플리케이션의 경우 80 포트 어플리케이션 구동을 할 수 없습니다. 따라서 어플리케이션을 다른 포트로 구동한 다음 우분투 서버에서 80포트 요청 시 서버 어플레케이션 포트로 포워딩 하도록 설정해 보겠습니다.</p>
 
-&lt;p&gt;도메인 인증을 위한 CNAME 추가까지 완료했습니다. 발급됨 상태가 될 때까지 기다리도록 하겠습니다.&lt;/p&gt;
+<p>포트 포워딩 목록 조회</p>
 
-&lt;h5 id=&quot;로드-밸런서-리스닝-추가&quot;&gt;로드 밸런서 리스닝 추가&lt;/h5&gt;
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-L</span> <span class="nt">--line-numbers</span>
+</code></pre></div></div>
 
-&lt;p&gt;로드밸런서 -&amp;gt; 생성한 로드밸런서 선택 -&amp;gt; 리스너 -&amp;gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;리스너 추가&lt;/code&gt;를 선택합니다.&lt;/p&gt;
+<p>80 포트 포워딩 추가</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188403428-71ad95a1-f280-427b-b8dc-88448aa4f377.png&quot; alt=&quot;069069&quot; /&gt;&lt;/p&gt;
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> PREROUTING <span class="nt">-p</span> tcp <span class="nt">--dport</span> 80 <span class="nt">-j</span> REDIRECT <span class="nt">--to-port</span> 포워딩받는포트
+</code></pre></div></div>
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<p>포트 포워딩 삭제</p>
 
-&lt;p&gt;Protocol : HTTPS (443) 설정 후 default action을 foward to 로드밸런싱 타겟으로 지정해주세요. Secure listener settings에선 아무거나 선택해도 괜찮습니다. Default SSL/TLS certificate에 위에서 발급받은 인증서를 선택해 주세요.&lt;/p&gt;
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-D</span> PREROUTING 포워딩테이블넘버
+</code></pre></div></div>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188463482-a9ac033f-071a-4b0b-ae86-951850919fdd.png&quot; alt=&quot;11020203&quot; /&gt;&lt;/p&gt;
+<ul>
+  <li><a href="https://velog.io/@shawnhansh/Ubuntu-%ED%8F%AC%ED%8A%B8%ED%8F%AC%EC%9B%8C%EB%94%A9Portforwarding">Ubuntu 포트포워딩(Portforwarding)으로 포트번호 없이 접근하기
+</a></li>
+</ul>]]></content><author><name>이태경</name></author><category term="spellteam" /><category term="EC2" /><category term="ELB" /><category term="Route53" /><category term="ACM" /><summary type="html"><![CDATA[정말 여러 번 했지만 매번 까먹는 것 같습니다. AWS 계정을 생성하고 EC2 인스턴스 생성, Route53 도메인 신청을 완료한 이후의 구축 과정입니다.]]></summary></entry><entry><title type="html">react-native-google-singin 앱 심사에 통과하기 위한 앱 서명 인증서(SHA-1) 키 적용하기</title><link href="http://localhost:4000/checked/react-native-google-signin-%EC%95%B1-%EC%8B%AC%EC%82%AC-%EB%8C%80%EB%B9%84-SHA-1%ED%82%A4-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0/" rel="alternate" type="text/html" title="react-native-google-singin 앱 심사에 통과하기 위한 앱 서명 인증서(SHA-1) 키 적용하기" /><published>2022-08-20T00:00:00+09:00</published><updated>2022-08-20T00:00:00+09:00</updated><id>http://localhost:4000/checked/%5Breact-native-google-signin%5D-%EC%95%B1-%EC%8B%AC%EC%82%AC-%EB%8C%80%EB%B9%84-SHA-1%ED%82%A4-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/checked/react-native-google-signin-%EC%95%B1-%EC%8B%AC%EC%82%AC-%EB%8C%80%EB%B9%84-SHA-1%ED%82%A4-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0/"><![CDATA[<p>(디버그 환경에서는 상관이 없으니) 귀찮다고 추가 안했던 기억이 나네요…</p>
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/185731407-e4f3a853-97c7-48d6-9163-5add12bdb980.png" alt="111" /></p>
 
-&lt;p&gt;이제 80포트에 접속을 시도하면 443 포트로 리다이렉트하도록 설정해주겠습니다. HTTP : 80 규칙 -&amp;gt; 규칙 보기/편집을 선택합니다.&lt;/p&gt;
+<h5 id="sha-1키-복사">SHA-1키 복사</h5>
 
-&lt;p&gt;아래와 같이 편집 아이콘을 선택해주세요.&lt;/p&gt;
+<p>구글 플레이 콘솔 -&gt; 앱 선택 -&gt; 설정 -&gt; 앱 무결성 -&gt; 앱 서명에서 앱 서명 인증서(SHA-1) 지문을 복사합니다.</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188465439-4ed6f046-e538-4b87-a558-56188ce96649.png&quot; alt=&quot;0004932&quot; /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/186664098-c1071707-290e-4025-80d2-11361a2b9a30.png" alt="323423" /></p>
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<h5 id="파이어베이스-콘솔-적용">파이어베이스 콘솔 적용</h5>
 
-&lt;p&gt;아래와 같이 443포트로 리다이렉트 되도록 규칙을 편집 후 업데이트를 선택합니다.&lt;/p&gt;
+<p>파이어베이스 콘솔 -&gt; 프로젝트 선택 -&gt; 프로젝트 설정 -&gt; 디지털 지문 추가를 클릭합니다.</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/188465842-2bdafbb1-6b0c-4117-83ee-5a716c740dd7.png&quot; alt=&quot;01029333&quot; /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/185732610-1da67f6e-4baf-4bda-86cf-ed67dbb56abe.png" alt="34225" /></p>
 
-&lt;p&gt;이로써 모든 세팅이 완료되었습니다. Route53, ACM, ELB, 탄력적 IP를 통해 EC2 인스턴스에서 80 포트를 열었습니다.&lt;/p&gt;
+<p><br /></p>
 
-&lt;div class=&quot;alert alert-warning d-flex align-items-center&quot; role=&quot;alert&quot;&gt;
-  &lt;i class=&quot;bi bi-exclamation-triangle-fill&quot; style=&quot;margin-right: 10px&quot;&gt;&lt;/i&gt;
-  &lt;div&gt;
-    80포트 어플리케이션을 구동하는 것을 추천하지 않습니다.&lt;br /&gt;
-    EC2 인스턴스에서 ngix 등의 프록시 서버를 구축하는 것을 추천합니다.
-  &lt;/div&gt;
-&lt;/div&gt;
+<p>복사한 SHA-1 키를 붙여넣은 후 저장합니다.</p>
 
-&lt;h3 id=&quot;참고&quot;&gt;참고&lt;/h3&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/185732801-9b7ed7a4-5a6c-4608-b91c-0e7e3458edfc.png" alt="223245" /></p>
 
-&lt;h5 id=&quot;우분투-서버-포트-포워딩&quot;&gt;우분투 서버 포트 포워딩&lt;/h5&gt;
+<h5 id="추가-release-빌드-sha-1키-콘솔에-적용하기">[추가] Release 빌드 SHA-1키 콘솔에 적용하기</h5>
 
-&lt;p&gt;Node.js 서버 어플리케이션의 경우 80 포트 어플리케이션 구동을 할 수 없습니다. 따라서 어플리케이션을 다른 포트로 구동한 다음 우분투 서버에서 80포트 요청 시 서버 어플레케이션 포트로 포워딩 하도록 설정해 보겠습니다.&lt;/p&gt;
+<p>구글 로그인이 Release 빌드에서도 정상적으로 기능하도록 Release SHA-1 키를 적용해보겠습니다.</p>
 
-&lt;p&gt;포트 포워딩 목록 조회&lt;/p&gt;
+<p>터미널을 통해 프로젝트 &gt; android 디렉토리에서 다음 명령을 실행합니다.</p>
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;iptables &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt; nat &lt;span class=&quot;nt&quot;&gt;-L&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--line-numbers&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./gradlew signingReport
+</code></pre></div></div>
 
-&lt;p&gt;80 포트 포워딩 추가&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;iptables &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt; nat &lt;span class=&quot;nt&quot;&gt;-A&lt;/span&gt; PREROUTING &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; tcp &lt;span class=&quot;nt&quot;&gt;--dport&lt;/span&gt; 80 &lt;span class=&quot;nt&quot;&gt;-j&lt;/span&gt; REDIRECT &lt;span class=&quot;nt&quot;&gt;--to-port&lt;/span&gt; 포워딩받는포트
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;포트 포워딩 삭제&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;iptables &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt; nat &lt;span class=&quot;nt&quot;&gt;-D&lt;/span&gt; PREROUTING 포워딩테이블넘버
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://velog.io/@shawnhansh/Ubuntu-%ED%8F%AC%ED%8A%B8%ED%8F%AC%EC%9B%8C%EB%94%A9Portforwarding&quot;&gt;Ubuntu 포트포워딩(Portforwarding)으로 포트번호 없이 접근하기
-&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Lee Taegyeong</name></author><category term="spellteam" /><category term="EC2" /><category term="ELB" /><category term="Route53" /><category term="ACM" /><summary type="html">보다 세세한 과정들이 있지만 간략하게 표현하면 다음과 같습니다.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://wallpapers.microsoft.design/images/grid-29-@1x.jpg" /><media:content medium="image" url="https://wallpapers.microsoft.design/images/grid-29-@1x.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">내가 숭실 교내 와이파이 문제를 이해하고 숭파이를 만든 과정</title><link href="http://localhost:4000/network-reason-i-develop-soongfi.html" rel="alternate" type="text/html" title="내가 숭실 교내 와이파이 문제를 이해하고 숭파이를 만든 과정" /><published>2022-08-21T00:00:00+09:00</published><updated>2022-08-21T00:00:00+09:00</updated><id>http://localhost:4000/%5Bnetwork%5D-reason-I-develop-soongfi</id><content type="html" xml:base="http://localhost:4000/network-reason-i-develop-soongfi.html">&lt;p&gt;보통 Soongsil_WIFI에 연결하면 로그인 페이지가 뜨지만, 그렇지 않은 경우도 있습니다.&lt;/p&gt;
-
-&lt;div class=&quot;alert alert-warning d-flex align-items-center&quot; role=&quot;alert&quot;&gt;
-  &lt;i class=&quot;bi bi-exclamation-triangle-fill&quot; style=&quot;margin-right: 10px&quot;&gt;&lt;/i&gt;
-  &lt;div&gt;
-   이하 내용은 모두 사실이 아닌 추측입니다.&lt;br /&gt;정확하지 않은 정보가 있을 수 있으니 내용 보강이 필요할 경우 댓글 남겨주세요!
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h5 id=&quot;정상적인일반적인-상황&quot;&gt;정상적인(일반적인) 상황&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/185789202-b5cfae73-07b2-48f7-a365-539892ce5b6c.png&quot; alt=&quot;2131&quot; /&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;비정상적인-상황&quot;&gt;비정상적인 상황&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/185789512-9f502cf4-988a-474a-9768-61b8eccf6c31.png&quot; alt=&quot;124124&quot; /&gt;&lt;/p&gt;</content><author><name>Lee Taegyeong</name></author><category term="soongfi" /><category term="network" /><summary type="html">보통 Soongsil_WIFI에 연결하면 로그인 페이지가 뜨지만, 그렇지 않은 경우도 있습니다.</summary></entry><entry><title type="html">react-native-google-singin 앱 심사에 통과하기 위한 앱 서명 인증서(SHA-1) 키 적용하기</title><link href="http://localhost:4000/react-native-google-signin-%EC%95%B1-%EC%8B%AC%EC%82%AC-%EB%8C%80%EB%B9%84-sha-1%ED%82%A4-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0.html" rel="alternate" type="text/html" title="react-native-google-singin 앱 심사에 통과하기 위한 앱 서명 인증서(SHA-1) 키 적용하기" /><published>2022-08-20T00:00:00+09:00</published><updated>2022-08-20T00:00:00+09:00</updated><id>http://localhost:4000/%5Breact-native-google-signin%5D-%EC%95%B1-%EC%8B%AC%EC%82%AC-%EB%8C%80%EB%B9%84-SHA-1%ED%82%A4-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/react-native-google-signin-%EC%95%B1-%EC%8B%AC%EC%82%AC-%EB%8C%80%EB%B9%84-sha-1%ED%82%A4-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0.html">&lt;p&gt;(디버그 환경에서는 상관이 없으니) 귀찮다고 추가 안했던 기억이 나네요…&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/185731407-e4f3a853-97c7-48d6-9163-5add12bdb980.png&quot; alt=&quot;111&quot; /&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;sha-1키-복사&quot;&gt;SHA-1키 복사&lt;/h5&gt;
-
-&lt;p&gt;구글 플레이 콘솔 -&amp;gt; 앱 선택 -&amp;gt; 설정 -&amp;gt; 앱 무결성 -&amp;gt; 앱 서명에서 앱 서명 인증서(SHA-1) 지문을 복사합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/186664098-c1071707-290e-4025-80d2-11361a2b9a30.png&quot; alt=&quot;323423&quot; /&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;파이어베이스-콘솔-적용&quot;&gt;파이어베이스 콘솔 적용&lt;/h5&gt;
-
-&lt;p&gt;파이어베이스 콘솔 -&amp;gt; 프로젝트 선택 -&amp;gt; 프로젝트 설정 -&amp;gt; 디지털 지문 추가를 클릭합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/185732610-1da67f6e-4baf-4bda-86cf-ed67dbb56abe.png&quot; alt=&quot;34225&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;복사한 SHA-1 키를 붙여넣은 후 저장합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/185732801-9b7ed7a4-5a6c-4608-b91c-0e7e3458edfc.png&quot; alt=&quot;223245&quot; /&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;추가-release-빌드-sha-1키-콘솔에-적용하기&quot;&gt;[추가] Release 빌드 SHA-1키 콘솔에 적용하기&lt;/h5&gt;
-
-&lt;p&gt;구글 로그인이 Release 빌드에서도 정상적으로 기능하도록 Release SHA-1 키를 적용해보겠습니다.&lt;/p&gt;
-
-&lt;p&gt;터미널을 통해 프로젝트 &amp;gt; android 디렉토리에서 다음 명령을 실행합니다.&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./gradlew signingReport
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;
+<p><br />
 Task :app:signingReport에서 Variant: release 항목을 찾습니다.
-Variant: release의 SHA-1 키를 복사합니다.&lt;/p&gt;
+Variant: release의 SHA-1 키를 복사합니다.</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/185732191-8cd9d484-2691-4f18-b0cb-311138f50a80.png&quot; alt=&quot;222&quot; /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/185732191-8cd9d484-2691-4f18-b0cb-311138f50a80.png" alt="222" /></p>
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<p><br /></p>
 
-&lt;p&gt;이후 같은 방법으로 파이어 베이스 콘솔에 SHA-1 키를 추가합니다.&lt;/p&gt;
+<p>이후 같은 방법으로 파이어 베이스 콘솔에 SHA-1 키를 추가합니다.</p>
 
-&lt;p&gt;파이어베이스 콘솔 저장을 완료되면 배포 빌드를 다시 진행 후 테스트 해보세요.&lt;/p&gt;
+<p>파이어베이스 콘솔 저장을 완료되면 배포 빌드를 다시 진행 후 테스트 해보세요.</p>
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npx react-native run-android &lt;span class=&quot;nt&quot;&gt;--variant&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;release
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npx react-native run-android <span class="nt">--variant</span><span class="o">=</span>release
+</code></pre></div></div>
 
-&lt;p&gt;참고&lt;/p&gt;
+<p>참고</p>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/react-native-google-signin/google-signin/blob/master/docs/android-guide.md&quot;&gt;react-native-google-signin/google-signin - Android Guide&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developers.google.com/android/guides/client-auth&quot;&gt;Google play service - Authenticating Your Client&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Lee Taegyeong</name></author><category term="checked" /><category term="react-native" /><category term="react-native-google-sigin" /><category term="sha-1" /><summary type="html">(디버그 환경에서는 상관이 없으니) 귀찮다고 추가 안했던 기억이 나네요…</summary></entry><entry><title type="html">Appstore Connect 앱 스크린샷 업로드 오류를 Curl API를 통해 우회적으로 해결하기</title><link href="http://localhost:4000/appstore-connect-%EC%95%B1-%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7-%EC%97%85%EB%A1%9C%EB%93%9C-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0.html" rel="alternate" type="text/html" title="Appstore Connect 앱 스크린샷 업로드 오류를 Curl API를 통해 우회적으로 해결하기" /><published>2022-08-13T00:00:00+09:00</published><updated>2022-08-13T00:00:00+09:00</updated><id>http://localhost:4000/%5Bappstore-connect%5D-%EC%95%B1-%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7-%EC%97%85%EB%A1%9C%EB%93%9C-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0</id><content type="html" xml:base="http://localhost:4000/appstore-connect-%EC%95%B1-%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7-%EC%97%85%EB%A1%9C%EB%93%9C-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0.html">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/184477035-7c57962d-59e1-4c25-8974-2f9eda240f9a.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+<ul>
+  <li><a href="https://github.com/react-native-google-signin/google-signin/blob/master/docs/android-guide.md">react-native-google-signin/google-signin - Android Guide</a></li>
+  <li><a href="https://developers.google.com/android/guides/client-auth">Google play service - Authenticating Your Client</a></li>
+</ul>]]></content><author><name>이태경</name></author><category term="checked" /><category term="react-native" /><category term="react-native-google-sigin" /><category term="sha-1" /><summary type="html"><![CDATA[debug 빌드에서 잘 기능하는 구글 소셜 로그인이 동작하지 않아 플레이 스토어 심사에서 승인받지 못했습니다. 찾아보니 앱 서명 인증서 SHA-1 키를 파이어베이스 콘솔에 추가해야 한다고 합니다.]]></summary></entry><entry><title type="html">Appstore Connect 앱 스크린샷 업로드 오류를 Curl API를 통해 우회적으로 해결하기</title><link href="http://localhost:4000/appstore-connect-%EC%95%B1-%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7-%EC%97%85%EB%A1%9C%EB%93%9C-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0/" rel="alternate" type="text/html" title="Appstore Connect 앱 스크린샷 업로드 오류를 Curl API를 통해 우회적으로 해결하기" /><published>2022-08-13T00:00:00+09:00</published><updated>2022-08-13T00:00:00+09:00</updated><id>http://localhost:4000/%5Bappstore-connect%5D-%EC%95%B1-%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7-%EC%97%85%EB%A1%9C%EB%93%9C-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0</id><content type="html" xml:base="http://localhost:4000/appstore-connect-%EC%95%B1-%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7-%EC%97%85%EB%A1%9C%EB%93%9C-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0/"><![CDATA[<p><img src="https://user-images.githubusercontent.com/34812887/184477035-7c57962d-59e1-4c25-8974-2f9eda240f9a.png" alt="1" /></p>
 
-&lt;h5 id=&quot;api-키-생성&quot;&gt;API 키 생성&lt;/h5&gt;
+<h5 id="api-키-생성">API 키 생성</h5>
 
-&lt;p&gt;Appstore connect -&amp;gt; 사용자 및 엑세스 -&amp;gt; 키 에 들어가서 새로운 키를 생성합니다.&lt;/p&gt;
+<p>Appstore connect -&gt; 사용자 및 엑세스 -&gt; 키 에 들어가서 새로운 키를 생성합니다.</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/184477195-aa8e5f07-a1e0-4465-9947-56311981dab6.png&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/184477195-aa8e5f07-a1e0-4465-9947-56311981dab6.png" alt="2" /></p>
 
-&lt;p&gt;API키를 생성했으면 목록 우측에 API 키 다운로드 링크를 통해 API 키를 다운로드합니다. 생성한 API키는 한번만 다운로드 가능합니다.&lt;/p&gt;
+<p>API키를 생성했으면 목록 우측에 API 키 다운로드 링크를 통해 API 키를 다운로드합니다. 생성한 API키는 한번만 다운로드 가능합니다.</p>
 
-&lt;h5 id=&quot;ruby-script-작성&quot;&gt;Ruby script 작성&lt;/h5&gt;
+<h5 id="ruby-script-작성">Ruby script 작성</h5>
 
-&lt;p&gt;터미널을 열어 다음과 같이 루비스크립트를 작성합니다.
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ISSUER_ID&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;iss&lt;/code&gt;와 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;KEY_ID&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kid&lt;/code&gt; 를 올바는 값으로 바꿔주세요. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;AuthKey_XXXXXX.p8&lt;/code&gt;는 다운로드한 API 키 파일 명으로 바꾸어 주세요.&lt;/p&gt;
+<p>터미널을 열어 다음과 같이 루비스크립트를 작성합니다.
+<code class="language-plaintext highlighter-rouge">ISSUER_ID</code>, <code class="language-plaintext highlighter-rouge">iss</code>와 <code class="language-plaintext highlighter-rouge">KEY_ID</code>, <code class="language-plaintext highlighter-rouge">kid</code> 를 올바는 값으로 바꿔주세요. <code class="language-plaintext highlighter-rouge">AuthKey_XXXXXX.p8</code>는 다운로드한 API 키 파일 명으로 바꾸어 주세요.</p>
 
-&lt;div class=&quot;alert alert-info d-flex align-items-center&quot; role=&quot;alert&quot;&gt;
-&lt;i class=&quot;bi bi-info-circle-fill&quot; style=&quot;margin-right: 10px&quot;&gt;&lt;/i&gt;
-  &lt;div&gt;
+<div class="alert alert-info d-flex align-items-center" role="alert">
+<i class="bi bi-info-circle-fill" style="margin-right: 10px"></i>
+  <div>
    만료일(exp)을 늘려 주는 게 좋습니다.
-  &lt;/div&gt;
-&lt;/div&gt;
+  </div>
+</div>
 
-&lt;div class=&quot;alert alert-warning d-flex align-items-center&quot; role=&quot;alert&quot;&gt;
-  &lt;i class=&quot;bi bi-exclamation-triangle-fill&quot; style=&quot;margin-right: 10px&quot;&gt;&lt;/i&gt;
-  &lt;div&gt;
+<div class="alert alert-warning d-flex align-items-center" role="alert">
+  <i class="bi bi-exclamation-triangle-fill" style="margin-right: 10px"></i>
+  <div>
     jwt gem을 설치해야 하는 경우 root권한으로 jwt 를 설치해주세요.
-&lt;code&gt;sudo su&lt;/code&gt;
-&lt;code&gt;gem install jwt&lt;/code&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
+<code>sudo su</code>
+<code>gem install jwt</code>
+  </div>
+</div>
 
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;base64&quot;&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;jwt&quot;&lt;/span&gt;
-&lt;span class=&quot;no&quot;&gt;ISSUER_ID&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;XXXX-XX-XXXXXX-XX-XXXXXXXX&quot;&lt;/span&gt;
-&lt;span class=&quot;no&quot;&gt;KEY_ID&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;XXXXXXXX&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;private_key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;OpenSSL&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;PKey&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;AuthKey_XXXXXX.p8&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;token&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;JWT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;encode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-   &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;ss&quot;&gt;iss: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;XXXX-XX-XXXXXX-XX-XXXXXXXX&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;ss&quot;&gt;exp: &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to_i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;60&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;ss&quot;&gt;aud: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;appstoreconnect-v1&quot;&lt;/span&gt;
-   &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-   &lt;span class=&quot;n&quot;&gt;private_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-   &lt;span class=&quot;s2&quot;&gt;&quot;ES256&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-   &lt;span class=&quot;n&quot;&gt;header_fields&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-     &lt;span class=&quot;ss&quot;&gt;kid: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;XXXXXXXXX&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
- &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;token&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">require</span> <span class="s2">"base64"</span>
+<span class="nb">require</span> <span class="s2">"jwt"</span>
+<span class="no">ISSUER_ID</span> <span class="o">=</span> <span class="s2">"XXXX-XX-XXXXXX-XX-XXXXXXXX"</span>
+<span class="no">KEY_ID</span> <span class="o">=</span> <span class="s2">"XXXXXXXX"</span>
+<span class="n">private_key</span> <span class="o">=</span> <span class="no">OpenSSL</span><span class="o">::</span><span class="no">PKey</span><span class="p">.</span><span class="nf">read</span><span class="p">(</span><span class="no">File</span><span class="p">.</span><span class="nf">read</span><span class="p">(</span><span class="s2">"AuthKey_XXXXXX.p8"</span><span class="p">))</span>
+<span class="n">token</span> <span class="o">=</span> <span class="no">JWT</span><span class="p">.</span><span class="nf">encode</span><span class="p">(</span>
+   <span class="p">{</span>
+    <span class="ss">iss: </span><span class="s2">"XXXX-XX-XXXXXX-XX-XXXXXXXX"</span><span class="p">,</span>
+    <span class="ss">exp: </span><span class="no">Time</span><span class="p">.</span><span class="nf">now</span><span class="p">.</span><span class="nf">to_i</span> <span class="o">+</span> <span class="mi">20</span> <span class="o">*</span> <span class="mi">60</span><span class="p">,</span>
+    <span class="ss">aud: </span><span class="s2">"appstoreconnect-v1"</span>
+   <span class="p">},</span>
+   <span class="n">private_key</span><span class="p">,</span>
+   <span class="s2">"ES256"</span><span class="p">,</span>
+   <span class="n">header_fields</span><span class="o">=</span><span class="p">{</span>
+     <span class="ss">kid: </span><span class="s2">"XXXXXXXXX"</span> <span class="p">}</span>
+ <span class="p">)</span>
+<span class="nb">puts</span> <span class="n">token</span>
+</code></pre></div></div>
 
-&lt;p&gt;&lt;br /&gt;
-저장한 루비스크립트를 실행시켜 주세요.&lt;/p&gt;
+<p><br />
+저장한 루비스크립트를 실행시켜 주세요.</p>
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby 루비스크립트명.rb
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ruby 루비스크립트명.rb
 02OrHS6BAuG4mbTv7gao4W2zvybBPrImvvVTOOs2OT6pHhVs6RSQO2YVrBiAduQb3SptRgAWaQO01PRwgmyGGHCgHage5CdMXCebzSjrSeq2SCruWpNeIDkpL6hZkXxF6Bn2Xg3RTtj2uu9T6osN0Iyq7eROqCwxy1gCBnq2xOodjSsDI4XDEDUxK91XR1kstFeJxZeQ
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</code></pre></div></div>
 
-&lt;p&gt;&lt;br /&gt;
-생성한 토큰을 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;APPSTORETOKEN&lt;/code&gt;명으로 export 해줍니다.&lt;/p&gt;
-&lt;div class=&quot;alert alert-warning d-flex align-items-center&quot; role=&quot;alert&quot;&gt;
-  &lt;i class=&quot;bi bi-exclamation-triangle-fill&quot; style=&quot;margin-right: 10px&quot;&gt;&lt;/i&gt;
-  &lt;div&gt;
-    export: not valid in this context: 에러가 발생할 경우 루비스크립트를 다시 실행하여 새 토큰값으로 다시 시도해 보세요. &lt;br /&gt;토큰 내에 공백이 있는 경우 문제가 있을 수 있습니다.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;APPSTORETOKEN&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;02OrHS6BAuG4mbTv7gao4W2zvybBPrImvvVTOOs2OT6pHhVs6RSQO2YVrBiAduQb3SptRgAWaQO01PRwgmyGGHCgHage5CdMXCebzSjrSeq2SCruWpNeIDkpL6hZkXxF6Bn2Xg3RTtj2uu9T6osN0Iyq7eROqCwxy1gCBnq2xOodjSsDI4XDEDUxK91XR1kstFeJxZeQ
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<p><br />
+생성한 토큰을 <code class="language-plaintext highlighter-rouge">APPSTORETOKEN</code>명으로 export 해줍니다.</p>
+<div class="alert alert-warning d-flex align-items-center" role="alert">
+  <i class="bi bi-exclamation-triangle-fill" style="margin-right: 10px"></i>
+  <div>
+    export: not valid in this context: 에러가 발생할 경우 루비스크립트를 다시 실행하여 새 토큰값으로 다시 시도해 보세요. <br />토큰 내에 공백이 있는 경우 문제가 있을 수 있습니다.
+  </div>
+</div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">export </span><span class="nv">APPSTORETOKEN</span><span class="o">=</span>02OrHS6BAuG4mbTv7gao4W2zvybBPrImvvVTOOs2OT6pHhVs6RSQO2YVrBiAduQb3SptRgAWaQO01PRwgmyGGHCgHage5CdMXCebzSjrSeq2SCruWpNeIDkpL6hZkXxF6Bn2Xg3RTtj2uu9T6osN0Iyq7eROqCwxy1gCBnq2xOodjSsDI4XDEDUxK91XR1kstFeJxZeQ
+</code></pre></div></div>
 
-&lt;h5 id=&quot;appstoreversionlocalizations-값-얻기&quot;&gt;appStoreVersionLocalizations 값 얻기&lt;/h5&gt;
+<h5 id="appstoreversionlocalizations-값-얻기">appStoreVersionLocalizations 값 얻기</h5>
 
-&lt;p&gt;사파리 또는 구글 크롬 개발자 콘솔을 띄워든 상태로 appstore connect -&amp;gt; 문제가 되는 앱 으로 이동합니다.&lt;/p&gt;
+<p>사파리 또는 구글 크롬 개발자 콘솔을 띄워든 상태로 appstore connect -&gt; 문제가 되는 앱 으로 이동합니다.</p>
 
-&lt;p&gt;콘솔에서 500 RESPONSE ERROR 를 확인할 수 있습니다. 에러가 발생한 주소의 뒤 X부분을 (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;...[appStoreVeresionLocalization]=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX&lt;/code&gt;) 복사해주세요.&lt;/p&gt;
+<p>콘솔에서 500 RESPONSE ERROR 를 확인할 수 있습니다. 에러가 발생한 주소의 뒤 X부분을 (<code class="language-plaintext highlighter-rouge">...[appStoreVeresionLocalization]=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX</code>) 복사해주세요.</p>
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX&lt;/code&gt; 이 appStoreVersionLocalizations 값입니다.
-&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/184478092-f9a435a1-9c18-4216-8991-6fb3302ae7c9.png&quot; alt=&quot;3&quot; /&gt;&lt;/p&gt;
+<p><code class="language-plaintext highlighter-rouge">XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX</code> 이 appStoreVersionLocalizations 값입니다.
+<img src="https://user-images.githubusercontent.com/34812887/184478092-f9a435a1-9c18-4216-8991-6fb3302ae7c9.png" alt="3" /></p>
 
-&lt;h5 id=&quot;모든-스크린샷-제거&quot;&gt;모든 스크린샷 제거&lt;/h5&gt;
+<h5 id="모든-스크린샷-제거">모든 스크린샷 제거</h5>
 
-&lt;p&gt;다시 터미널로 돌아와 아래와 같은 명령어를 실행해 줍니다.
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX&lt;/code&gt; 은 appStoreVersionLocalizations 값입니다.&lt;/p&gt;
+<p>다시 터미널로 돌아와 아래와 같은 명령어를 실행해 줍니다.
+<code class="language-plaintext highlighter-rouge">XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX</code> 은 appStoreVersionLocalizations 값입니다.</p>
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl &lt;span class=&quot;s1&quot;&gt;&apos;https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX/appScreenshotSets&apos;&lt;/span&gt;  &lt;span class=&quot;nt&quot;&gt;--Header&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Authorization: Bearer &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$APPSTORETOKEN&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl <span class="s1">'https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX/appScreenshotSets'</span>  <span class="nt">--Header</span> <span class="s2">"Authorization: Bearer </span><span class="nv">$APPSTORETOKEN</span><span class="s2">"</span>
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</code></pre></div></div>
 
-&lt;p&gt;&lt;br /&gt;
-아래와 같이 appScreenshotSets을 확인할 수 있습니다.&lt;/p&gt;
+<p><br />
+아래와 같이 appScreenshotSets을 확인할 수 있습니다.</p>
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;s2&quot;&gt;&quot;data&quot;&lt;/span&gt; : &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;s2&quot;&gt;&quot;type&quot;&lt;/span&gt; : &lt;span class=&quot;s2&quot;&gt;&quot;appScreenshotSets&quot;&lt;/span&gt;,
-    &lt;span class=&quot;s2&quot;&gt;&quot;id&quot;&lt;/span&gt; : 아이디,
-    &lt;span class=&quot;s2&quot;&gt;&quot;attributes&quot;&lt;/span&gt; : &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;s2&quot;&gt;&quot;screenshotDisplayType&quot;&lt;/span&gt; : &lt;span class=&quot;s2&quot;&gt;&quot;APP_IPAD_PRO_3GEN_129&quot;&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;,
-    &lt;span class=&quot;s2&quot;&gt;&quot;relationships&quot;&lt;/span&gt; : &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;s2&quot;&gt;&quot;appScreenshots&quot;&lt;/span&gt; : &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;s2&quot;&gt;&quot;links&quot;&lt;/span&gt; : &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-          &lt;span class=&quot;s2&quot;&gt;&quot;self&quot;&lt;/span&gt; : &lt;span class=&quot;s2&quot;&gt;&quot;https://api.appstoreconnect.apple.com/v1/appScreenshotSets/아이디/relationships/appScreenshots&quot;&lt;/span&gt;,
-          &lt;span class=&quot;s2&quot;&gt;&quot;related&quot;&lt;/span&gt; : &lt;span class=&quot;s2&quot;&gt;&quot;https://api.appstoreconnect.apple.com/v1/appScreenshotSets/아이디/appScreenshots&quot;&lt;/span&gt;
-        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">{</span>
+  <span class="s2">"data"</span> : <span class="o">[</span> <span class="o">{</span>
+    <span class="s2">"type"</span> : <span class="s2">"appScreenshotSets"</span>,
+    <span class="s2">"id"</span> : 아이디,
+    <span class="s2">"attributes"</span> : <span class="o">{</span>
+      <span class="s2">"screenshotDisplayType"</span> : <span class="s2">"APP_IPAD_PRO_3GEN_129"</span>
+    <span class="o">}</span>,
+    <span class="s2">"relationships"</span> : <span class="o">{</span>
+      <span class="s2">"appScreenshots"</span> : <span class="o">{</span>
+        <span class="s2">"links"</span> : <span class="o">{</span>
+          <span class="s2">"self"</span> : <span class="s2">"https://api.appstoreconnect.apple.com/v1/appScreenshotSets/아이디/relationships/appScreenshots"</span>,
+          <span class="s2">"related"</span> : <span class="s2">"https://api.appstoreconnect.apple.com/v1/appScreenshotSets/아이디/appScreenshots"</span>
+        <span class="o">}</span>
         ... 이하생략
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</code></pre></div></div>
 
-&lt;p&gt;&lt;br /&gt;
-appScreenshotSets 아이디를 확인했습니다. appScreenshotSets을 모두 삭제해줍니다.&lt;/p&gt;
+<p><br />
+appScreenshotSets 아이디를 확인했습니다. appScreenshotSets을 모두 삭제해줍니다.</p>
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl &lt;span class=&quot;nt&quot;&gt;-X&lt;/span&gt; DELETE &lt;span class=&quot;s1&quot;&gt;&apos;https://api.appstoreconnect.apple.com/v1/appScreenshotSets/아이디&apos;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--Header&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Authorization: Bearer &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$APPSTORETOKEN&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl <span class="nt">-X</span> DELETE <span class="s1">'https://api.appstoreconnect.apple.com/v1/appScreenshotSets/아이디'</span> <span class="nt">--Header</span> <span class="s2">"Authorization: Bearer </span><span class="nv">$APPSTORETOKEN</span><span class="s2">"</span>
+</code></pre></div></div>
 
-&lt;p&gt;&lt;br /&gt;
-다시 appstore connect에 들어가서 다시 스크린샷을 업로드 해봅니다.&lt;/p&gt;
+<p><br />
+다시 appstore connect에 들어가서 다시 스크린샷을 업로드 해봅니다.</p>
 
-&lt;p&gt;한번 해서 해결되지 않으면 여러번 시도해 보세요. 저는 3번째 시도에 성공했습니다.&lt;/p&gt;
+<p>한번 해서 해결되지 않으면 여러번 시도해 보세요. 저는 3번째 시도에 성공했습니다.</p>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developer.apple.com/documentation/appstoreconnectapi/create_an_app_screenshot_set&quot;&gt;appstore connect API - upload an app screenshot&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developer.apple.com/forums/thread/712222&quot;&gt;App screenshots can’t be uploaded (stuck on 10%)
-&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/73313352/app-store-screenshots-screenshot-uploads-in-progress-error-appscreenshotse&quot;&gt;App Store Screenshots - “Screenshot uploads in progress” Error / appScreenshotSets Error&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developer.apple.com/documentation/appstoreconnectapi/delete_an_app_screenshot_set&quot;&gt;App store connect API - delete an app screenshot&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li><a href="https://developer.apple.com/documentation/appstoreconnectapi/create_an_app_screenshot_set">appstore connect API - upload an app screenshot</a></li>
+  <li><a href="https://developer.apple.com/forums/thread/712222">App screenshots can’t be uploaded (stuck on 10%)
+</a></li>
+  <li><a href="https://stackoverflow.com/questions/73313352/app-store-screenshots-screenshot-uploads-in-progress-error-appscreenshotse">App Store Screenshots - “Screenshot uploads in progress” Error / appScreenshotSets Error</a></li>
+  <li><a href="https://developer.apple.com/documentation/appstoreconnectapi/delete_an_app_screenshot_set">App store connect API - delete an app screenshot</a></li>
+</ul>
 
-&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/73313352/app-store-screenshots-screenshot-uploads-in-progress-error-appscreenshotse&quot;&gt;원글&lt;/a&gt;에서 조금 내용을 보강했습니다.&lt;/p&gt;
+<p><a href="https://stackoverflow.com/questions/73313352/app-store-screenshots-screenshot-uploads-in-progress-error-appscreenshotse">원글</a>에서 조금 내용을 보강했습니다.</p>
 
-&lt;p&gt;웹 클라이언트에서 안되면 API를 쓰면 되지 않냐? 라는 생각을 하다니.. 참 똑똑한 사람들이 많네요..&lt;/p&gt;</content><author><name>Lee Taegyeong</name></author><category term="checked" /><category term="appstoreconnect" /><category term="curl" /><summary type="html"></summary></entry><entry><title type="html">react-native 개발할 때 알면 좋은 팁</title><link href="http://localhost:4000/react-native-%EA%B0%9C%EB%B0%9C%ED%95%A0-%EB%95%8C-%EC%95%8C%EB%A9%B4-%EC%A2%8B%EC%9D%80-%ED%8C%81.html" rel="alternate" type="text/html" title="react-native 개발할 때 알면 좋은 팁" /><published>2022-08-03T00:00:00+09:00</published><updated>2022-08-03T00:00:00+09:00</updated><id>http://localhost:4000/%5Breact-native%5D-%EA%B0%9C%EB%B0%9C%ED%95%A0-%EB%95%8C-%EC%95%8C%EB%A9%B4-%EC%A2%8B%EC%9D%80-%ED%8C%81</id><content type="html" xml:base="http://localhost:4000/react-native-%EA%B0%9C%EB%B0%9C%ED%95%A0-%EB%95%8C-%EC%95%8C%EB%A9%B4-%EC%A2%8B%EC%9D%80-%ED%8C%81.html">&lt;p&gt;RN 플랫폼을 통해 모바일 앱을 개발할 때 잊어버리기 쉬운 좋은 팁이 여럿 있습니다. 한 포스트로 쓰기에는 사소하지만 까먹을 때마다 보기 좋은 팁들을 모아봤습니다. 제 블로그를 찾아주신 다른 분들에게도 도움이 되었으면 좋겠습니다.&lt;/p&gt;
+<p>웹 클라이언트에서 안되면 API를 쓰면 되지 않냐? 라는 생각을 하다니.. 참 똑똑한 사람들이 많네요..</p>]]></content><author><name>이태경</name></author><category term="checked" /><category term="appstoreconnect" /><category term="curl" /><summary type="html"><![CDATA[앱 미리보기에 업로드 하려는데 업로드가 되지 않았습니다. 가끔 웹 클라이언트가 먹통이 되는데요, 이 문제를 Appstore connect API를 활용해 해결해보겠습니다.]]></summary></entry><entry><title type="html">react-native 개발할 때 알면 좋은 팁</title><link href="http://localhost:4000/checked/react-native-%EA%B0%9C%EB%B0%9C%ED%95%A0-%EB%95%8C-%EC%95%8C%EB%A9%B4-%EC%A2%8B%EC%9D%80-%ED%8C%81/" rel="alternate" type="text/html" title="react-native 개발할 때 알면 좋은 팁" /><published>2022-08-03T00:00:00+09:00</published><updated>2022-08-03T00:00:00+09:00</updated><id>http://localhost:4000/checked/%5Breact-native%5D-%EA%B0%9C%EB%B0%9C%ED%95%A0-%EB%95%8C-%EC%95%8C%EB%A9%B4-%EC%A2%8B%EC%9D%80-%ED%8C%81</id><content type="html" xml:base="http://localhost:4000/checked/react-native-%EA%B0%9C%EB%B0%9C%ED%95%A0-%EB%95%8C-%EC%95%8C%EB%A9%B4-%EC%A2%8B%EC%9D%80-%ED%8C%81/"><![CDATA[<p>RN 플랫폼을 통해 모바일 앱을 개발할 때 잊어버리기 쉬운 좋은 팁이 여럿 있습니다. 한 포스트로 쓰기에는 사소하지만 까먹을 때마다 보기 좋은 팁들을 모아봤습니다. 제 블로그를 찾아주신 다른 분들에게도 도움이 되었으면 좋겠습니다.</p>
 
-&lt;h5 id=&quot;글자가-튀어나와요&quot;&gt;글자가 튀어나와요&lt;/h5&gt;
+<h5 id="글자가-튀어나와요">글자가 튀어나와요</h5>
 
-&lt;p&gt;부모 컴포넌트 스타일 속성에 아래 코드를 추가해 주세요.&lt;/p&gt;
+<p>부모 컴포넌트 스타일 속성에 아래 코드를 추가해 주세요.</p>
 
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;flexShrink&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">flexShrink</span><span class="p">:</span> <span class="mi">1</span><span class="p">;</span>
+</code></pre></div></div>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/36284453/react-native-text-going-off-my-screen-refusing-to-wrap-what-to-do&quot;&gt;React native text going off my screen, refusing to wrap. What to do?
-&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/facebook/react-native/issues/1438&quot;&gt;[Text] Text doesn’t wrap #1438&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li><a href="https://stackoverflow.com/questions/36284453/react-native-text-going-off-my-screen-refusing-to-wrap-what-to-do">React native text going off my screen, refusing to wrap. What to do?
+</a></li>
+  <li><a href="https://github.com/facebook/react-native/issues/1438">[Text] Text doesn’t wrap #1438</a></li>
+</ul>
 
-&lt;h5 id=&quot;react-navigation-다른-스크린으로-이동-시-인자-전달&quot;&gt;[React Navigation] 다른 스크린으로 이동 시 인자 전달&lt;/h5&gt;
+<h5 id="react-navigation-다른-스크린으로-이동-시-인자-전달">[React Navigation] 다른 스크린으로 이동 시 인자 전달</h5>
 
-&lt;p&gt;먼저 컴포넌트에 다음과 같이 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;navigation&lt;/code&gt; 인자를 받습니다.&lt;/p&gt;
+<p>먼저 컴포넌트에 다음과 같이 <code class="language-plaintext highlighter-rouge">navigation</code> 인자를 받습니다.</p>
 
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;OriginView&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;navigation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">OriginView</span> <span class="o">=</span> <span class="p">({</span><span class="nx">navigation</span><span class="p">})</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="p">...</span>
+<span class="p">}</span>
+</code></pre></div></div>
 
-&lt;p&gt;다른 스크린으로 이동 이벤트 내에 다음과 같이 명시해줍니다.&lt;/p&gt;
+<p>다른 스크린으로 이동 이벤트 내에 다음과 같이 명시해줍니다.</p>
 
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;navigation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;navigate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;ScreenName&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;banana&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">navigation</span><span class="p">.</span><span class="nx">navigate</span><span class="p">(</span><span class="dl">"</span><span class="s2">ScreenName</span><span class="dl">"</span><span class="p">,</span> <span class="p">{</span> <span class="na">name</span><span class="p">:</span> <span class="dl">"</span><span class="s2">banana</span><span class="dl">"</span> <span class="p">});</span>
+</code></pre></div></div>
 
-&lt;p&gt;이동한 스크린 컴포넌트에서 인자를 활용하려면 다음과 같이 작성합니다.&lt;/p&gt;
+<p>이동한 스크린 컴포넌트에서 인자를 활용하려면 다음과 같이 작성합니다.</p>
 
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ScreenName&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;({&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;route&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;navigation&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;route&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;params&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;// banana&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">ScreenName</span> <span class="o">=</span> <span class="p">({</span> <span class="nx">route</span><span class="p">,</span> <span class="nx">navigation</span> <span class="p">})</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="kd">const</span> <span class="p">{</span> <span class="nx">name</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">route</span><span class="p">.</span><span class="nx">params</span><span class="p">;</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">name</span><span class="p">)</span><span class="c1">// banana</span>
+  <span class="k">return</span> <span class="p">...</span>
+<span class="p">};</span>
+</code></pre></div></div>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://reactnavigation.org/docs/navigation-prop#navigate&quot;&gt;React nagivation - API reference - navigate&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li><a href="https://reactnavigation.org/docs/navigation-prop#navigate">React nagivation - API reference - navigate</a></li>
+</ul>
 
-&lt;h5 id=&quot;정중앙에-자식-컴포넌트-위치시키기&quot;&gt;정중앙에 자식 컴포넌트 위치시키기&lt;/h5&gt;
+<h5 id="정중앙에-자식-컴포넌트-위치시키기">정중앙에 자식 컴포넌트 위치시키기</h5>
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;justifyContent&lt;/code&gt;와 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;alignItems&lt;/code&gt;를 부모 컴포넌트 스타일 속성에 명시합니다.&lt;/p&gt;
+<p><code class="language-plaintext highlighter-rouge">justifyContent</code>와 <code class="language-plaintext highlighter-rouge">alignItems</code>를 부모 컴포넌트 스타일 속성에 명시합니다.</p>
 
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;View&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Text&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;horizental&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;vertical&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;center&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/Text&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
-&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/View&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&lt;</span><span class="nx">View</span>
+  <span class="nx">style</span><span class="o">=</span>
+<span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="nx">Text</span><span class="o">&gt;</span><span class="nx">horizental</span> <span class="o">&amp;</span> <span class="nx">vertical</span> <span class="nx">center</span><span class="o">&lt;</span><span class="sr">/Text</span><span class="err">&gt;
+</span><span class="o">&lt;</span><span class="sr">/View</span><span class="err">&gt;
+</span></code></pre></div></div>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://reactnative.dev/docs/layout-props&quot;&gt;reactnative layout-props&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/44337469/text-vertical-align-in-react-native-using-nativebase&quot;&gt;Text vertical align in react native (using nativebase)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li><a href="https://reactnative.dev/docs/layout-props">reactnative layout-props</a></li>
+  <li><a href="https://stackoverflow.com/questions/44337469/text-vertical-align-in-react-native-using-nativebase">Text vertical align in react native (using nativebase)</a></li>
+</ul>
 
-&lt;h5 id=&quot;android-빌드-시-appinstalldebug-단계에서-진행되지-않는-경우&quot;&gt;[Android] 빌드 시 :app:installDebug 단계에서 진행되지 않는 경우&lt;/h5&gt;
+<h5 id="android-빌드-시-appinstalldebug-단계에서-진행되지-않는-경우">[Android] 빌드 시 :app:installDebug 단계에서 진행되지 않는 경우</h5>
 
-&lt;p&gt;adb 서버를 재시작합니다.&lt;/p&gt;
+<p>adb 서버를 재시작합니다.</p>
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;adb kill-server
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>adb kill-server
 adb start-server
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</code></pre></div></div>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/46933612/react-native-project-stuck-on-appinstalldebug&quot;&gt;React-Native project stuck on :app:installDebug&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li><a href="https://stackoverflow.com/questions/46933612/react-native-project-stuck-on-appinstalldebug">React-Native project stuck on :app:installDebug</a></li>
+</ul>
 
-&lt;h5 id=&quot;android-빌드-캐시-지우기&quot;&gt;[Android] 빌드 캐시 지우기&lt;/h5&gt;
+<h5 id="android-빌드-캐시-지우기">[Android] 빌드 캐시 지우기</h5>
 
-&lt;p&gt;생각보다 빌드 오류가 자주 발생합니다. 이때 한번씩 해주면 됩니다.&lt;/p&gt;
+<p>생각보다 빌드 오류가 자주 발생합니다. 이때 한번씩 해주면 됩니다.</p>
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;android
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>android
 ./gradlew clean
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</code></pre></div></div>
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-rf&lt;/span&gt; ~/.gradle/caches/
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">rm</span> <span class="nt">-rf</span> ~/.gradle/caches/
+</code></pre></div></div>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/23025433/how-to-clear-gradle-cache&quot;&gt;How to clear gradle cache?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li><a href="https://stackoverflow.com/questions/23025433/how-to-clear-gradle-cache">How to clear gradle cache?</a></li>
+</ul>
 
-&lt;h5 id=&quot;android-execution-failed-for-task-appmergedexdebug&quot;&gt;[Android] Execution failed for task ‘:app:mergeDexDebug’&lt;/h5&gt;
+<h5 id="android-execution-failed-for-task-appmergedexdebug">[Android] Execution failed for task ‘:app:mergeDexDebug’</h5>
 
-&lt;p&gt;빌드 시 발생할 수 있는 오류입니다. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;./gradlew assembleRelease&lt;/code&gt;를 통해 빌드할 때 발생했습니다. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;android/app/build.gradle&lt;/code&gt;파일을 열어 다음과 같이 두 줄을 추가해줍니다.&lt;/p&gt;
+<p>빌드 시 발생할 수 있는 오류입니다. <code class="language-plaintext highlighter-rouge">./gradlew assembleRelease</code>를 통해 빌드할 때 발생했습니다. <code class="language-plaintext highlighter-rouge">android/app/build.gradle</code>파일을 열어 다음과 같이 두 줄을 추가해줍니다.</p>
 
-&lt;div class=&quot;language-gradle highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;   &lt;span class=&quot;n&quot;&gt;android&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;defaultConfig&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-            &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;multiDexEnabled&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
-            &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
-        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-        &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+<div class="language-gradle highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   <span class="n">android</span> <span class="o">{</span>
+        <span class="n">defaultConfig</span> <span class="o">{</span>
+            <span class="o">...</span>
+            <span class="n">multiDexEnabled</span> <span class="kc">true</span>
+            <span class="o">...</span>
+        <span class="o">}</span>
+        <span class="o">...</span>
+    <span class="o">}</span>
 
-    &lt;span class=&quot;k&quot;&gt;dependencies&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;implementation&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;com.android.support:multidex:1.0.3&apos;&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+    <span class="k">dependencies</span> <span class="o">{</span>
+      <span class="n">implementation</span> <span class="s1">'com.android.support:multidex:1.0.3'</span>
+    <span class="o">}</span>
+</code></pre></div></div>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://paulaner80.tistory.com/entry/Execution-failed-for-task-appmergeDexDebug&quot;&gt;Execution failed for task ‘:app:mergeDexDebug’.
-&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li><a href="https://paulaner80.tistory.com/entry/Execution-failed-for-task-appmergeDexDebug">Execution failed for task ‘:app:mergeDexDebug’.
+</a></li>
+</ul>
 
-&lt;h5 id=&quot;android-애플리케이션-버전-정보-설정&quot;&gt;[Android] 애플리케이션 버전 정보 설정&lt;/h5&gt;
+<h5 id="android-애플리케이션-버전-정보-설정">[Android] 애플리케이션 버전 정보 설정</h5>
 
-&lt;p&gt;play store에 새로운 버전을 출시하기 위해선 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;./gradlew bundleRelease&lt;/code&gt; 전에 android &amp;gt; app &amp;gt; build.gradle 에서 버전 코드를 수정해야 합니다.&lt;/p&gt;
+<p>play store에 새로운 버전을 출시하기 위해선 <code class="language-plaintext highlighter-rouge">./gradlew bundleRelease</code> 전에 android &gt; app &gt; build.gradle 에서 버전 코드를 수정해야 합니다.</p>
 
-&lt;div class=&quot;language-groovy highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;android&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;defaultConfig&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;versionCode&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;versionName&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;1.1&quot;&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+<div class="language-groovy highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">android</span> <span class="o">{</span>
+    <span class="o">...</span>
+    <span class="n">defaultConfig</span> <span class="o">{</span>
+        <span class="o">...</span>
+        <span class="n">versionCode</span> <span class="mi">2</span>
+        <span class="n">versionName</span> <span class="s2">"1.1"</span>
+    <span class="o">}</span>
 
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<span class="o">}</span>
+</code></pre></div></div>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developer.android.com/studio/publish/versioning?hl=ko#groovy&quot;&gt;android developer - 애플리케이션 버전 정보 설정&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li><a href="https://developer.android.com/studio/publish/versioning?hl=ko#groovy">android developer - 애플리케이션 버전 정보 설정</a></li>
+</ul>
 
-&lt;h5 id=&quot;android-앱-엑세스-계정-등록하기&quot;&gt;[Android] 앱 엑세스 계정 등록하기&lt;/h5&gt;
+<h5 id="android-앱-엑세스-계정-등록하기">[Android] 앱 엑세스 계정 등록하기</h5>
 
-&lt;p&gt;google play console 접속 &amp;gt; 정책 &amp;gt; 앱 콘텐츠 &amp;gt; 앱 엑세스 권한 (관리)
-&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/185728149-0131b1f6-d98e-4d6d-920b-4496ee6ef48d.png&quot; alt=&quot;google play console&quot; /&gt;&lt;/p&gt;
+<p>google play console 접속 &gt; 정책 &gt; 앱 콘텐츠 &gt; 앱 엑세스 권한 (관리)
+<img src="https://user-images.githubusercontent.com/34812887/185728149-0131b1f6-d98e-4d6d-920b-4496ee6ef48d.png" alt="google play console" /></p>
 
-&lt;h5 id=&quot;ios-빌드-파일-지우기&quot;&gt;[IOS] 빌드 파일 지우기&lt;/h5&gt;
+<h5 id="ios-빌드-파일-지우기">[IOS] 빌드 파일 지우기</h5>
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Command + Shift + K
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Command + Shift + K
+</code></pre></div></div>
 
-&lt;h5 id=&quot;ios-fatal-error--yogakitmodulemap-not-found&quot;&gt;[IOS] fatal error : YogaKit.modulemap’ not found&lt;/h5&gt;
+<h5 id="ios-fatal-error--yogakitmodulemap-not-found">[IOS] fatal error : YogaKit.modulemap’ not found</h5>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/182532550-d9c9a40f-8d62-461f-9362-03a902888e84.png&quot; alt=&quot;yogakit&quot; /&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/182532550-d9c9a40f-8d62-461f-9362-03a902888e84.png" alt="yogakit" />
 xcodeproj 파일이 아닌 xcworkspace 파일에 들어가 빌드를 다시 해봅니다.
-xcodeproj 파일에서 RN 기반 어플리케이션을 빌드할 때 발생하는 문제입니다.&lt;/p&gt;
+xcodeproj 파일에서 RN 기반 어플리케이션을 빌드할 때 발생하는 문제입니다.</p>
 
-&lt;h5 id=&quot;앱-아이콘-만들기&quot;&gt;앱 아이콘 만들기&lt;/h5&gt;
+<h5 id="앱-아이콘-만들기">앱 아이콘 만들기</h5>
 
-&lt;p&gt;Android 앱 아이콘을 생성할 땐 기본 아이콘 이름 ic_launcher / 라운드 아이콘 이름 ic_launcher_round으로 다운받아 둘 다 적용해주는 게 좋습니다.&lt;/p&gt;
+<p>Android 앱 아이콘을 생성할 땐 기본 아이콘 이름 ic_launcher / 라운드 아이콘 이름 ic_launcher_round으로 다운받아 둘 다 적용해주는 게 좋습니다.</p>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://appicon.co/&quot;&gt;IOS : App icon Generator&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html#foreground.type=clipart&amp;amp;foreground.clipart=android&amp;amp;foreground.space.trim=1&amp;amp;foreground.space.pad=0.25&amp;amp;foreColor=rgba(96%2C%20125%2C%20139%2C%200)&amp;amp;backColor=rgb(68%2C%20138%2C%20255)&amp;amp;crop=0&amp;amp;backgroundShape=circle&amp;amp;effects=none&amp;amp;name=ic_launcher&quot;&gt;ANDROID : App icon Generator&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developer.android.com/guide/practices/ui_guidelines/icon_design_adaptive?hl=ko#creating_adaptive_icons_in_xml&quot;&gt;android studio - doc - XML로 적응형 아이콘 만들기&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li><a href="https://appicon.co/">IOS : App icon Generator</a></li>
+  <li><a href="https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html#foreground.type=clipart&amp;foreground.clipart=android&amp;foreground.space.trim=1&amp;foreground.space.pad=0.25&amp;foreColor=rgba(96%2C%20125%2C%20139%2C%200)&amp;backColor=rgb(68%2C%20138%2C%20255)&amp;crop=0&amp;backgroundShape=circle&amp;effects=none&amp;name=ic_launcher">ANDROID : App icon Generator</a></li>
+  <li><a href="https://developer.android.com/guide/practices/ui_guidelines/icon_design_adaptive?hl=ko#creating_adaptive_icons_in_xml">android studio - doc - XML로 적응형 아이콘 만들기</a></li>
+</ul>
 
-&lt;h5 id=&quot;배포-스크린샷-만들기&quot;&gt;배포 스크린샷 만들기&lt;/h5&gt;
+<h5 id="배포-스크린샷-만들기">배포 스크린샷 만들기</h5>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://studio.app-mockup.com&quot;&gt;https://studio.app-mockup.com&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li><a href="https://studio.app-mockup.com">https://studio.app-mockup.com</a></li>
+</ul>
 
-&lt;h5 id=&quot;목업-제작-사이트&quot;&gt;목업 제작 사이트&lt;/h5&gt;
+<h5 id="목업-제작-사이트">목업 제작 사이트</h5>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://mockuphone.com/&quot;&gt;https://mockuphone.com/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Lee Taegyeong</name></author><category term="checked" /><category term="react-native" /><summary type="html">RN 플랫폼을 통해 모바일 앱을 개발할 때 잊어버리기 쉬운 좋은 팁이 여럿 있습니다. 한 포스트로 쓰기에는 사소하지만 까먹을 때마다 보기 좋은 팁들을 모아봤습니다. 제 블로그를 찾아주신 다른 분들에게도 도움이 되었으면 좋겠습니다.</summary></entry><entry><title type="html">React-Native 안드로이드에서 react-native-apple-authentication 적용하기</title><link href="http://localhost:4000/react-native-android-%EC%97%90%EC%84%9C-react-native-apple-authentication-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-copy.html" rel="alternate" type="text/html" title="React-Native 안드로이드에서 react-native-apple-authentication 적용하기" /><published>2022-07-28T00:00:00+09:00</published><updated>2022-07-28T00:00:00+09:00</updated><id>http://localhost:4000/%5Breact-native%5D-android-%EC%97%90%EC%84%9C-react-native-apple-authentication-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0%20copy</id><content type="html" xml:base="http://localhost:4000/react-native-android-%EC%97%90%EC%84%9C-react-native-apple-authentication-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-copy.html">&lt;p&gt;RN 플랫폼에서 firebase authentication를 구현하기란 쉽지 않습니다. 크로스 플랫폼의 한계일까요. 생각보다 많이 복잡합니다.&lt;/p&gt;
+<ul>
+  <li><a href="https://mockuphone.com/">https://mockuphone.com/</a></li>
+</ul>]]></content><author><name>이태경</name></author><category term="checked" /><category term="react-native" /><summary type="html"><![CDATA[RN 플랫폼을 통해 모바일 앱을 개발할 때 잊어버리기 쉬운 좋은 팁이 여럿 있습니다. 한 포스트로 쓰기에는 사소하지만 까먹을 때마다 보기 좋은 팁들을 모아봤습니다. 제 블로그를 찾아주신 다른 분들에게도 도움이 되었으면 좋겠습니다.]]></summary></entry><entry><title type="html">React-Native 안드로이드에서 react-native-apple-authentication 적용하기</title><link href="http://localhost:4000/react-native-android-%EC%97%90%EC%84%9C-react-native-apple-authentication-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-copy/" rel="alternate" type="text/html" title="React-Native 안드로이드에서 react-native-apple-authentication 적용하기" /><published>2022-07-28T00:00:00+09:00</published><updated>2022-07-28T00:00:00+09:00</updated><id>http://localhost:4000/%5Breact-native%5D-android-%EC%97%90%EC%84%9C-react-native-apple-authentication-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0%20copy</id><content type="html" xml:base="http://localhost:4000/react-native-android-%EC%97%90%EC%84%9C-react-native-apple-authentication-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-copy/"><![CDATA[<p>RN 플랫폼에서 firebase authentication를 구현하기란 쉽지 않습니다. 크로스 플랫폼의 한계일까요. 생각보다 많이 복잡합니다.</p>
 
-&lt;p&gt;&lt;a href=&quot;https://rnfirebase.io/&quot;&gt;React native firebase&lt;/a&gt; 모듈 위에 &lt;a href=&quot;https://github.com/invertase/react-native-apple-authentication&quot;&gt;react-native-apple-authentication&lt;/a&gt;를 사용하여 안드로이드에서 애플 로그인을 구현해 보겠습니다.&lt;/p&gt;
+<p><a href="https://rnfirebase.io/">React native firebase</a> 모듈 위에 <a href="https://github.com/invertase/react-native-apple-authentication">react-native-apple-authentication</a>를 사용하여 안드로이드에서 애플 로그인을 구현해 보겠습니다.</p>
 
-&lt;p&gt;Firebase React Native 모듈 설치 &amp;amp; 적용 단계는 생략합니다!&lt;/p&gt;
+<p>Firebase React Native 모듈 설치 &amp; 적용 단계는 생략합니다!</p>
 
-&lt;h5 id=&quot;설치&quot;&gt;설치&lt;/h5&gt;
+<h5 id="설치">설치</h5>
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/invertase/react-native-apple-authentication&quot;&gt;react-native-apple-authentication&lt;/a&gt;를 설치합니다&lt;/p&gt;
+<p><a href="https://github.com/invertase/react-native-apple-authentication">react-native-apple-authentication</a>를 설치합니다</p>
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm i @invertase/react-native-apple-authentication
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm i @invertase/react-native-apple-authentication
+</code></pre></div></div>
 
-&lt;h5 id=&quot;xcode-적용&quot;&gt;XCode 적용&lt;/h5&gt;
+<h5 id="xcode-적용">XCode 적용</h5>
 
-&lt;p&gt;프로젝트명.xcodeproj 파일에 들어가 Signing &amp;amp; Capabilities 항목에 Sign in with Apple 를 추가합니다. 애플 어플리케이션이 모듈을 추가하는 일반적인 방식입니다.&lt;/p&gt;
+<p>프로젝트명.xcodeproj 파일에 들어가 Signing &amp; Capabilities 항목에 Sign in with Apple 를 추가합니다. 애플 어플리케이션이 모듈을 추가하는 일반적인 방식입니다.</p>
 
-&lt;ul&gt;
-  &lt;li&gt;참고 : &lt;a href=&quot;https://github.com/invertase/react-native-apple-authentication/blob/main/docs/INITIAL_SETUP.md&quot;&gt;INITIAL_SETUP&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>참고 : <a href="https://github.com/invertase/react-native-apple-authentication/blob/main/docs/INITIAL_SETUP.md">INITIAL_SETUP</a></li>
+</ul>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/34812887/182281993-d6ce7a51-f299-4c32-a12b-c69bbd9af814.png&quot; alt=&quot;s1&quot; /&gt;&lt;/p&gt;
+<p><img src="https://user-images.githubusercontent.com/34812887/182281993-d6ce7a51-f299-4c32-a12b-c69bbd9af814.png" alt="s1" /></p>
 
-&lt;p&gt;&lt;a href=&quot;https://developer.apple.com/&quot;&gt;Apple 개발자 콘솔&lt;/a&gt;에 접속하여 계정 로그인 후 Certificates, Identifiers &amp;amp; Profiles로 이동합니다.&lt;/p&gt;</content><author><name>Lee Taegyeong</name></author><category term="react-native" /><category term="react-native-apple-authentication" /><summary type="html">RN 플랫폼에서 firebase authentication를 구현하기란 쉽지 않습니다. 크로스 플랫폼의 한계일까요. 생각보다 많이 복잡합니다.</summary></entry></feed>
+<p><a href="https://developer.apple.com/">Apple 개발자 콘솔</a>에 접속하여 계정 로그인 후 Certificates, Identifiers &amp; Profiles로 이동합니다.</p>]]></content><author><name>이태경</name></author><category term="react-native" /><category term="react-native-apple-authentication" /><summary type="html"><![CDATA[RN 플랫폼에서 firebase authentication를 구현하기란 쉽지 않습니다. 크로스 플랫폼의 한계일까요. 생각보다 많이 복잡합니다.]]></summary></entry><entry><title type="html">React-Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding 해결하기</title><link href="http://localhost:4000/react-native-android-%EC%BB%A4%EC%8A%A4%ED%85%80-%ED%8F%B0%ED%8A%B8-%EB%AC%B8%EC%A0%9C-includeFontPadding/" rel="alternate" type="text/html" title="React-Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding 해결하기" /><published>2022-07-23T00:00:00+09:00</published><updated>2022-07-23T00:00:00+09:00</updated><id>http://localhost:4000/%5Breact-native%5D-android-%EC%BB%A4%EC%8A%A4%ED%85%80-%ED%8F%B0%ED%8A%B8-%EB%AC%B8%EC%A0%9C-includeFontPadding</id><content type="html" xml:base="http://localhost:4000/react-native-android-%EC%BB%A4%EC%8A%A4%ED%85%80-%ED%8F%B0%ED%8A%B8-%EB%AC%B8%EC%A0%9C-includeFontPadding/"><![CDATA[<p>커스텀 폰트 문제가 android에서 발생했습니다. 추가 마진(아니면 패딩)이 모든 커스텀 폰트에 적용되어 있습니다.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">IOS(아이폰 XR)</th>
+      <th style="text-align: center">Android(엑스페리아 Z1c)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img src="https://user-images.githubusercontent.com/34812887/180598377-fa3313ae-fe9f-427a-ac0d-58ff5cbe59dc.jpeg" alt="IMG_620CF1E0E41C-1" /></td>
+      <td style="text-align: center"><img src="https://user-images.githubusercontent.com/34812887/180598410-d21eae2b-eabd-47a4-a930-fc99e6dcebdd.png" alt="Screenshot_20220723-180326" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>구글링하여 이 문제에 관한 많은 글을 찾을 수 있었습니다.</p>
+
+<ul>
+  <li><a href="https://stackoverflow.com/questions/41525842/react-native-android-text-component-extra-padding">React Native Android Text Component extra padding</a></li>
+  <li><a href="https://developer.android.com/reference/android/widget/TextView#attr_android:includeFontPadding">android:includeFontPadding</a></li>
+  <li><a href="https://reactnative.dev/docs/text-style-props#includefontpadding-android">React Native - Text Style Props - IncludeFontPadding</a></li>
+</ul>
+
+<p>안드로이드 TextView 기본값이 참인 <code class="language-plaintext highlighter-rouge">includeFontPadding</code> 속성이 적용된 것이 문제였습니다.</p>
+
+<p><code class="language-plaintext highlighter-rouge">includeFontPadding</code> 속성이 거짓임을 명시해줍니다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>include-font-padding: false;
+</code></pre></div></div>
+
+<p>적용 예 1:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="nx">styled</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">styled-components/native</span><span class="dl">"</span><span class="p">;</span>
+
+<span class="kd">const</span> <span class="nx">BodyText</span> <span class="o">=</span> <span class="nx">styled</span><span class="p">.</span><span class="nx">Text</span><span class="s2">`
+  include-font-padding: false; // &lt;-- 이부분 추가
+  color: #363636;
+  font-family: "NotoSansKR-Regular";
+`</span><span class="p">;</span>
+
+<span class="k">export</span> <span class="k">default</span> <span class="nx">BodyText</span><span class="p">;</span>
+</code></pre></div></div>
+
+<p>다시 테스트한 안드로이드 기기에서 이제 정상적으로 커스텀 폰트가 적용됨을 확인할 수 있습니다.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Android(엑스페리아 Z1c)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img src="https://user-images.githubusercontent.com/34812887/180600073-4ff66299-7fd1-43b0-a651-7c4e914f29e5.png" alt="Screenshot_20220723-184321" /></td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name>이태경</name></author><category term="react-native" /><category term="includefontpadding" /><category term="android" /><summary type="html"><![CDATA[커스텀 폰트 문제가 android에서 발생했습니다. 추가 마진(아니면 패딩)이 모든 커스텀 폰트에 적용되어 있습니다.]]></summary></entry></feed>

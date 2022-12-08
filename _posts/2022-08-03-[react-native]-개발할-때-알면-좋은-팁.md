@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 category: checked
 title: react-native 개발할 때 알면 좋은 팁
 tags: react-native

@@ -1,244 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-    <url>
-      <loc>http://localhost:4000/project-stylehero-story-3.html</loc>
-      
-        <lastmod>2022-10-29T00:00:00+09:00</lastmod>
-      
-
-      
-        <changefreq>weekly</changefreq>
-      
-
-      
-          <priority>0.5</priority>
-      
-
-    </url>
-  
-    <url>
-      <loc>http://localhost:4000/project-stylehero-story-2.html</loc>
-      
-        <lastmod>2022-10-28T00:00:00+09:00</lastmod>
-      
-
-      
-        <changefreq>weekly</changefreq>
-      
-
-      
-          <priority>0.5</priority>
-      
-
-    </url>
-  
-    <url>
-      <loc>http://localhost:4000/project-stylehero-story-1.html</loc>
-      
-        <lastmod>2022-10-27T00:00:00+09:00</lastmod>
-      
-
-      
-        <changefreq>weekly</changefreq>
-      
-
-      
-          <priority>0.5</priority>
-      
-
-    </url>
-  
-    <url>
-      <loc>http://localhost:4000/os-xv6-settings.html</loc>
-      
-        <lastmod>2022-09-11T00:00:00+09:00</lastmod>
-      
-
-      
-        <changefreq>weekly</changefreq>
-      
-
-      
-          <priority>0.5</priority>
-      
-
-    </url>
-  
-    <url>
-      <loc>http://localhost:4000/aws-build-ec2-server-guide-all-in-one.html</loc>
-      
-        <lastmod>2022-09-04T00:00:00+09:00</lastmod>
-      
-
-      
-        <changefreq>weekly</changefreq>
-      
-
-      
-          <priority>0.5</priority>
-      
-
-    </url>
-  
-    <url>
-      <loc>http://localhost:4000/network-reason-i-develop-soongfi.html</loc>
-      
-        <lastmod>2022-08-21T00:00:00+09:00</lastmod>
-      
-
-      
-        <changefreq>weekly</changefreq>
-      
-
-      
-          <priority>0.5</priority>
-      
-
-    </url>
-  
-    <url>
-      <loc>http://localhost:4000/react-native-google-signin-%EC%95%B1-%EC%8B%AC%EC%82%AC-%EB%8C%80%EB%B9%84-sha-1%ED%82%A4-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0.html</loc>
-      
-        <lastmod>2022-08-20T00:00:00+09:00</lastmod>
-      
-
-      
-        <changefreq>weekly</changefreq>
-      
-
-      
-          <priority>0.5</priority>
-      
-
-    </url>
-  
-    <url>
-      <loc>http://localhost:4000/appstore-connect-%EC%95%B1-%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7-%EC%97%85%EB%A1%9C%EB%93%9C-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0.html</loc>
-      
-        <lastmod>2022-08-13T00:00:00+09:00</lastmod>
-      
-
-      
-        <changefreq>weekly</changefreq>
-      
-
-      
-          <priority>0.5</priority>
-      
-
-    </url>
-  
-    <url>
-      <loc>http://localhost:4000/react-native-%EA%B0%9C%EB%B0%9C%ED%95%A0-%EB%95%8C-%EC%95%8C%EB%A9%B4-%EC%A2%8B%EC%9D%80-%ED%8C%81.html</loc>
-      
-        <lastmod>2022-08-03T00:00:00+09:00</lastmod>
-      
-
-      
-        <changefreq>weekly</changefreq>
-      
-
-      
-          <priority>0.5</priority>
-      
-
-    </url>
-  
-    <url>
-      <loc>http://localhost:4000/react-native-android-%EC%97%90%EC%84%9C-react-native-apple-authentication-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-copy.html</loc>
-      
-        <lastmod>2022-07-28T00:00:00+09:00</lastmod>
-      
-
-      
-        <changefreq>weekly</changefreq>
-      
-
-      
-          <priority>0.5</priority>
-      
-
-    </url>
-  
-    <url>
-      <loc>http://localhost:4000/react-native-android-%EC%BB%A4%EC%8A%A4%ED%85%80-%ED%8F%B0%ED%8A%B8-%EB%AC%B8%EC%A0%9C-includefontpadding.html</loc>
-      
-        <lastmod>2022-07-23T00:00:00+09:00</lastmod>
-      
-
-      
-        <changefreq>weekly</changefreq>
-      
-
-      
-          <priority>0.5</priority>
-      
-
-    </url>
-  
-    <url>
-      <loc>http://localhost:4000/react-native-gradle-unsupported-class-file-major-version-62-error.html</loc>
-      
-        <lastmod>2022-06-30T00:00:00+09:00</lastmod>
-      
-
-      
-        <changefreq>weekly</changefreq>
-      
-
-      
-          <priority>0.5</priority>
-      
-
-    </url>
-  
-    <url>
-      <loc>http://localhost:4000/nodejs-spell-team-%EC%B1%94%ED%94%BC%EC%96%B8-%EB%B0%8F-%EC%8A%A4%ED%8E%A0-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B0%9B%EA%B8%B0.html</loc>
-      
-        <lastmod>2022-06-12T00:00:00+09:00</lastmod>
-      
-
-      
-        <changefreq>weekly</changefreq>
-      
-
-      
-          <priority>0.5</priority>
-      
-
-    </url>
-  
-    <url>
-      <loc>http://localhost:4000/post-example-with-headings-and-toc.html</loc>
-      
-        <lastmod>2020-07-09T00:00:00+09:00</lastmod>
-      
-
-      
-        <changefreq>weekly</changefreq>
-      
-
-      
-          <priority>0.5</priority>
-      
-
-    </url>
-  
-    <url>
-      <loc>http://localhost:4000/overview-post.html</loc>
-      
-        <lastmod>2020-07-07T00:00:00+09:00</lastmod>
-      
-
-      
-        <changefreq>weekly</changefreq>
-      
-
-      
-          <priority>0.5</priority>
-      
-
-    </url>
-  
+<url>
+<loc>http://localhost:4000/example/overview-post/</loc>
+<lastmod>2020-07-07T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/example2/post-example-with-headings-and-toc/</loc>
+<lastmod>2020-07-09T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/nodejs-spell.team-%EC%B1%94%ED%94%BC%EC%96%B8-%EB%B0%8F-%EC%8A%A4%ED%8E%A0-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B0%9B%EA%B8%B0/</loc>
+<lastmod>2022-06-12T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/react-native-gradle-Unsupported-class-file-major-version-62-error/</loc>
+<lastmod>2022-06-30T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/react-native-android-%EC%BB%A4%EC%8A%A4%ED%85%80-%ED%8F%B0%ED%8A%B8-%EB%AC%B8%EC%A0%9C-includeFontPadding/</loc>
+<lastmod>2022-07-23T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/react-native-android-%EC%97%90%EC%84%9C-react-native-apple-authentication-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-copy/</loc>
+<lastmod>2022-07-28T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/checked/react-native-%EA%B0%9C%EB%B0%9C%ED%95%A0-%EB%95%8C-%EC%95%8C%EB%A9%B4-%EC%A2%8B%EC%9D%80-%ED%8C%81/</loc>
+<lastmod>2022-08-03T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/appstore-connect-%EC%95%B1-%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7-%EC%97%85%EB%A1%9C%EB%93%9C-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0/</loc>
+<lastmod>2022-08-13T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/checked/react-native-google-signin-%EC%95%B1-%EC%8B%AC%EC%82%AC-%EB%8C%80%EB%B9%84-SHA-1%ED%82%A4-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0/</loc>
+<lastmod>2022-08-20T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/aws-build-ec2-server-guide-all-in-one/</loc>
+<lastmod>2022-09-04T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/OS-XV6-settings/</loc>
+<lastmod>2022-09-11T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/project-stylehero-story-1/</loc>
+<lastmod>2022-10-27T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/project-stylehero-story-2/</loc>
+<lastmod>2022-10-28T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/project-stylehero-story-3/</loc>
+<lastmod>2022-10-29T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/_pages/about/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/page2/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/page3/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/others/checked/</loc>
+<lastmod>2022-12-09T00:06:16+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/others/checked/private-policy.html</loc>
+<lastmod>2022-12-09T00:06:16+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/others/soongfi/</loc>
+<lastmod>2022-12-09T00:06:16+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/others/soongfi/private-policy.html</loc>
+<lastmod>2022-12-09T00:06:16+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/others/stylehero/stylehero_2nd_service_code_style_guide.pdf</loc>
+<lastmod>2022-12-09T00:06:16+09:00</lastmod>
+</url>
 </urlset>

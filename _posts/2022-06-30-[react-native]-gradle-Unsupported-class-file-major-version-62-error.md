@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: React-Native gralde unsupported claass file major verion 62 error 해결하기
 tags: react-native android gradle
 ---

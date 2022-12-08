@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: React-Native 안드로이드에서 react-native-apple-authentication 적용하기
 tags: react-native react-native-apple-authentication
 ---

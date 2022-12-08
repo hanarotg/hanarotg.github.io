@@ -1,29 +1,15 @@
 ---
-layout: post
+layout: single
 title: 비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [2부]
 description: 거하게 말아먹은 제 첫 창업 실패기 2부입니다. MVP 출시까지의 이야기를 다룹니다.
 tags: stylehero startup
-image: https://user-images.githubusercontent.com/34812887/198346138-1b3bc4c2-e4d6-45b4-9652-6101da274c82.png
+toc: true
+toc_sticky: true
 ---
 
 ![A2D714AC-F4B3-4012-872C-5B55767004A8](https://user-images.githubusercontent.com/34812887/199989968-bf85ff4a-ae0e-42d8-b806-e44f933f5b16.JPG)
 
-###### Timeline
-
-- [MVP 기획, 개발](#mvp-기획-개발)
-- [새로운 사무실로 옮기다](#새로운-사무실로-옮기다)
-  - [(비)전공자를 위한 웹개발 강의를 진행](#비전공자를-위한-웹개발-강의를-진행)
-- [MVP 출시](#mvp-출시)
-    - [Tech stack](#tech-stack)
-- [채팅이 안돼!!](#채팅이-안돼)
-- [피드백 반영 및 팀 문화 개선 후 재출시](#피드백-반영-및-팀-문화-개선-후-재출시)
-  - [analytics를 활용하여 랜딩페이지의 문제점을 파악하다.](#analytics를-활용하여-랜딩페이지의-문제점을-파악하다)
-  - [매일 진행상황을 공유하고 업데이트](#매일-진행상황을-공유하고-업데이트)
-  - [자체 채팅 서비스가 아닌 카카오톡 오픈채팅 연결로](#자체-채팅-서비스가-아닌-카카오톡-오픈채팅-연결로)
-  - [재출시](#재출시)
-- [재출시 후 고객의 첫 결제와 가입자 300명 달성](#재출시-후-고객의-첫-결제와-가입자-300명-달성)
-
-#### MVP 기획, 개발
+# MVP 기획, 개발
 
 <p class="text-muted">2021년 8월</p>
 
@@ -41,7 +27,7 @@ image: https://user-images.githubusercontent.com/34812887/198346138-1b3bc4c2-e4d
 
  <p class="text-muted">MVP 플로우</p>
 
-#### 새로운 사무실로 옮기다
+## 새로운 사무실로 옮기다
 
 <p class="text-muted">2021년 8월 말</p>
 
@@ -55,7 +41,7 @@ image: https://user-images.githubusercontent.com/34812887/198346138-1b3bc4c2-e4d
 
 <p class="text-muted">새 사무실에서 회의하는 팀원들</p>
 
-##### (비)전공자를 위한 웹개발 강의를 진행
+## (비)전공자를 위한 웹개발 강의를 진행
 
 마크의 추천으로 HTML, CSS, Javascript, Node.js 5주차 강의를 준비해서 팀내 개발 팀원들에게 일주일에 한번씩 강의했습니다. 교내 에브리타임에도 홍보하여 팀원이 아닌 사람들도 참여했었습니다.
 
@@ -67,7 +53,7 @@ image: https://user-images.githubusercontent.com/34812887/198346138-1b3bc4c2-e4d
 
 <p class="text-muted">5주차 node.js 심화 강의</p>
 
-#### MVP 출시
+# MVP 출시
 
 <p class="text-muted">2021년 9월</p>
 
@@ -96,7 +82,7 @@ image: https://user-images.githubusercontent.com/34812887/198346138-1b3bc4c2-e4d
 
 <p class="text-muted">UML</p>
 
-###### Tech stack
+## Tech stack
 
 - frontend : HTML, CSS, jQuery, Bootstrap
 - backend : Node.js(express.js, ejs)
@@ -106,7 +92,7 @@ image: https://user-images.githubusercontent.com/34812887/198346138-1b3bc4c2-e4d
 
 결제모듈은 [페이플](https://www.payple.kr/)을 사용하였습니다. (결제모듈 하나 붙이는 데 애를 꽤 많이 먹었습니다.) 카카오 알림톡과 문자 발송 API는 네이버 클라우드 플랫폼 솔루션을 사용했습니다.
 
-#### 채팅이 안돼!!
+## 채팅이 안돼!!
 
 <p class="text-muted">2021년 9월 MVP 출시 3일 후</p>
 
@@ -157,7 +143,7 @@ image: https://user-images.githubusercontent.com/34812887/198346138-1b3bc4c2-e4d
 
 <p class="text-muted">고객 대상 메시지 전문</p>
 
-#### 피드백 반영 및 팀 문화 개선 후 재출시
+# 피드백 반영 및 팀 문화 개선 후 재출시
 
 <p class="text-muted">2021년 10월</p>
 
@@ -168,7 +154,7 @@ image: https://user-images.githubusercontent.com/34812887/198346138-1b3bc4c2-e4d
 
 <p class="text-muted">MVP 서비스 중단 후 새로운 계획을 논의했습니다.</p>
 
-##### analytics를 활용하여 랜딩페이지의 문제점을 파악하다.
+## analytics를 활용하여 랜딩페이지의 문제점을 파악하다.
 
 또한 Analytics 경로 탐색 분석을 통해 두 가지 사실을 알게 되었습니다.
 
@@ -179,7 +165,7 @@ image: https://user-images.githubusercontent.com/34812887/198346138-1b3bc4c2-e4d
 
 <p class="text-muted">google analytics 경로 탐색 분석</p>
 
-##### 매일 진행상황을 공유하고 업데이트
+## 매일 진행상황을 공유하고 업데이트
 
 기획부터 개발 완성까지 전반적인 흐름을 직접 경험해 보니 팀원간 책임과 역할에 대한 명확한 선이 지켜지지 않았음을 깨닫게 되었습니다. 서로 무엇을 하고 있었는지도 잘 모르고 누구에게 전달해야 하는 지도 잘 모르고 있었습니다. 서로의 책임과 역할을 명확히 해야겠다는 생각이 들었습니다.
 
@@ -193,11 +179,11 @@ image: https://user-images.githubusercontent.com/34812887/198346138-1b3bc4c2-e4d
 
 <p class="text-muted">5단계 진행상황</p>
 
-##### 자체 채팅 서비스가 아닌 카카오톡 오픈채팅 연결로
+## 자체 채팅 서비스가 아닌 카카오톡 오픈채팅 연결로
 
 당시 창업대회를 통해 매칭된 멘토님과 센드버드, 라인 개발자 [커피챗](https://www.coffeechat.kr/)을 통해 채팅 서비스에 대한 보다 자세한 내용을 들을 수 있었습니다. 대용량 파일 채팅에 대한 내용, 메시지큐에 관한 내용 등.. 지속가능하지 못한 제 엉터리 채팅 서버를 유지할 자신이 없었고 채팅 솔루션은 팀이 감당할 수 있는 비용이 아니었습니다. 고민끝에 팀은 스타일리스트가 등록한 카카오톡 오픈채팅 링크를 제공하는 것으로 바꿨습니다.
 
-##### 재출시
+# 재출시
 
 받은 피드백과 analytics 분석을 통해 디자인을 수정하여 재출시하였습니다. 재출시 후 페이스북 및 인스타그램에 광고를 게시했습니다. 광고를 게시하고 대시보드를 관리한 마크의 말에 의하면 꽤 괜찮은 CTR을 유지했다고 하네요.
 
@@ -219,7 +205,7 @@ image: https://user-images.githubusercontent.com/34812887/198346138-1b3bc4c2-e4d
 
 <p class="text-muted">매칭 페이지 및 결제 내역</p>
 
-#### 재출시 후 고객의 첫 결제와 가입자 300명 달성
+## 재출시 후 고객의 첫 결제와 가입자 300명 달성
 
 <p class="text-muted">2021년 11월</p>
 

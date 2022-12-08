@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: React-Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding 해결하기
 tags: react-native includefontpadding android
 ---

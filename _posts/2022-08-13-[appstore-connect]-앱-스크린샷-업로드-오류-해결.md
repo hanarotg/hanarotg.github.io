@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Appstore Connect 앱 스크린샷 업로드 오류를 Curl API를 통해 우회적으로 해결하기
 tags: checked appstoreconnect curl
 description: 앱 미리보기에 업로드 하려는데 업로드가 되지 않았습니다. 가끔 웹 클라이언트가 먹통이 되는데요, 이 문제를 Appstore connect API를 활용해 해결해보겠습니다.

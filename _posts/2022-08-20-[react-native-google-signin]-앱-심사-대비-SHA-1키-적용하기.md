@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 category: checked
 title: react-native-google-singin 앱 심사에 통과하기 위한 앱 서명 인증서(SHA-1) 키 적용하기
 tags: react-native react-native-google-sigin sha-1
