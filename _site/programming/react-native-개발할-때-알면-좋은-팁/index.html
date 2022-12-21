@@ -1,0 +1,509 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>react-native 개발할 때 알면 좋은 팁 - Lee Taegyeong</title>
+<meta name="description" content="RN 플랫폼을 통해 모바일 앱을 개발할 때 잊어버리기 쉬운 좋은 팁이 여럿 있습니다. 한 포스트로 쓰기에는 사소하지만 까먹을 때마다 보기 좋은 팁들을 모아봤습니다. 제 블로그를 찾아주신 다른 분들에게도 도움이 되었으면 좋겠습니다.">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Lee Taegyeong">
+<meta property="og:title" content="react-native 개발할 때 알면 좋은 팁">
+<meta property="og:url" content="http://localhost:4000/programming/react-native-%EA%B0%9C%EB%B0%9C%ED%95%A0-%EB%95%8C-%EC%95%8C%EB%A9%B4-%EC%A2%8B%EC%9D%80-%ED%8C%81/">
+
+
+  <meta property="og:description" content="RN 플랫폼을 통해 모바일 앱을 개발할 때 잊어버리기 쉬운 좋은 팁이 여럿 있습니다. 한 포스트로 쓰기에는 사소하지만 까먹을 때마다 보기 좋은 팁들을 모아봤습니다. 제 블로그를 찾아주신 다른 분들에게도 도움이 되었으면 좋겠습니다.">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2022-08-03T00:00:00+00:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/programming/react-native-%EA%B0%9C%EB%B0%9C%ED%95%A0-%EB%95%8C-%EC%95%8C%EB%A9%B4-%EC%A2%8B%EC%9D%80-%ED%8C%81/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "이태경",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Lee Taegyeong Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Lee Taegyeong
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/tags/kubernetes">Kubernetes</a>
+            </li><li class="masthead__menu-item">
+              <a href="/tags/react-native">React-Native</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/">category:all</a>
+            </li><li class="masthead__menu-item">
+              <a href="/tags/">tags:all</a>
+            </li><li class="masthead__menu-item">
+              <a href="/_pages/about/">about(CV)</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+         
+
+<div id="main" role="main">
+  
+
+
+  <article
+    class="page h-entry"
+    itemscope
+    itemtype="https://schema.org/CreativeWork"
+  >
+    <meta
+      itemprop="headline"
+      content="react-native 개발할 때 알면 좋은 팁"
+    /> <meta
+      itemprop="description"
+      content="RN 플랫폼을 통해 모바일 앱을 개발할 때 잊어버리기 쉬운 좋은 팁이 여럿 있습니다. 한 포스트로 쓰기에는 사소하지만 까먹을 때마다 보기 좋은 팁들을 모아봤습니다. 제 블로그를 찾아주신 다른 분들에게도 도움이 되었으면 좋겠습니다."
+    /> <meta
+      itemprop="datePublished"
+      content="2022-08-03T00:00:00+00:00"
+    /> 
+
+    <div class="page__inner-wrap">
+      
+      <header>
+        
+        <h1 id="page-title" class="page__title p-name" itemprop="headline">
+          <a href="http://localhost:4000/programming/react-native-%EA%B0%9C%EB%B0%9C%ED%95%A0-%EB%95%8C-%EC%95%8C%EB%A9%B4-%EC%A2%8B%EC%9D%80-%ED%8C%81/" class="u-url" itemprop="url"
+            ><p>react-native 개발할 때 알면 좋은 팁</p>
+</a
+          >
+        </h1>
+          
+<p class="page__meta">
+   
+  <span class="page__meta-date">
+    
+    <time datetime="2022-08-03T00:00:00+00:00"
+      >August 3, 2022</time
+    >
+  </span>
+   <span
+    class="page__meta-sep"
+  ></span
+  >  
+  
+
+  <span class="page__meta-readtime">
+     1 minute read 
+  </span>
+  
+</p>
+
+
+      </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <aside class="sidebar__right sticky">
+          <nav class="toc">
+            <header>
+              <h4 class="nav__title">
+                <i class="fas fa-file-alt"></i>
+                On this page
+              </h4>
+            </header>
+            <ul class="toc__menu"><li><a href="#공통">공통</a><ul><li><a href="#글자가-튀어나와요">글자가 튀어나와요</a></li><li><a href="#react-navigation-다른-스크린으로-이동-시-인자-전달">[React Navigation] 다른 스크린으로 이동 시 인자 전달</a></li><li><a href="#정중앙에-자식-컴포넌트-위치시키기">정중앙에 자식 컴포넌트 위치시키기</a></li></ul></li><li><a href="#android">android</a><ul><li><a href="#빌드-시-appinstalldebug-단계에서-진행되지-않는-경우">빌드 시 :app:installDebug 단계에서 진행되지 않는 경우</a></li><li><a href="#빌드-캐시-지우기">빌드 캐시 지우기</a></li><li><a href="#execution-failed-for-task-appmergedexdebug">Execution failed for task ‘:app:mergeDexDebug’</a></li><li><a href="#애플리케이션-버전-정보-설정">애플리케이션 버전 정보 설정</a></li><li><a href="#앱-엑세스-계정-등록하기">앱 엑세스 계정 등록하기</a></li></ul></li><li><a href="#ios">IOS</a><ul><li><a href="#빌드-파일-지우기">빌드 파일 지우기</a></li><li><a href="#fatal-error--yogakitmodulemap-not-found">fatal error : YogaKit.modulemap’ not found</a></li></ul></li><li><a href="#배포">배포</a><ul><li><a href="#앱-아이콘-만들기">앱 아이콘 만들기</a></li><li><a href="#배포-스크린샷-만들기">배포 스크린샷 만들기</a></li><li><a href="#목업-제작-사이트">목업 제작 사이트</a></li></ul></li></ul>
+
+          </nav>
+        </aside>
+         <p>RN 플랫폼을 통해 모바일 앱을 개발할 때 잊어버리기 쉬운 좋은 팁이 여럿 있습니다. 한 포스트로 쓰기에는 사소하지만 까먹을 때마다 보기 좋은 팁들을 모아봤습니다. 제 블로그를 찾아주신 다른 분들에게도 도움이 되었으면 좋겠습니다.</p>
+
+<h1 id="공통">공통</h1>
+
+<h2 id="글자가-튀어나와요">글자가 튀어나와요</h2>
+
+<p>부모 컴포넌트 스타일 속성에 아래 코드를 추가해 주세요.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">flexShrink</span><span class="p">:</span> <span class="mi">1</span><span class="p">;</span>
+</code></pre></div></div>
+
+<ul>
+  <li><a href="https://stackoverflow.com/questions/36284453/react-native-text-going-off-my-screen-refusing-to-wrap-what-to-do">React native text going off my screen, refusing to wrap. What to do?
+</a></li>
+  <li><a href="https://github.com/facebook/react-native/issues/1438">[Text] Text doesn’t wrap #1438</a></li>
+</ul>
+
+<h2 id="react-navigation-다른-스크린으로-이동-시-인자-전달">[React Navigation] 다른 스크린으로 이동 시 인자 전달</h2>
+
+<p>먼저 컴포넌트에 다음과 같이 <code class="language-plaintext highlighter-rouge">navigation</code> 인자를 받습니다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">OriginView</span> <span class="o">=</span> <span class="p">({</span><span class="nx">navigation</span><span class="p">})</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="p">...</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>다른 스크린으로 이동 이벤트 내에 다음과 같이 명시해줍니다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">navigation</span><span class="p">.</span><span class="nx">navigate</span><span class="p">(</span><span class="dl">"</span><span class="s2">ScreenName</span><span class="dl">"</span><span class="p">,</span> <span class="p">{</span> <span class="na">name</span><span class="p">:</span> <span class="dl">"</span><span class="s2">banana</span><span class="dl">"</span> <span class="p">});</span>
+</code></pre></div></div>
+
+<p>이동한 스크린 컴포넌트에서 인자를 활용하려면 다음과 같이 작성합니다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">ScreenName</span> <span class="o">=</span> <span class="p">({</span> <span class="nx">route</span><span class="p">,</span> <span class="nx">navigation</span> <span class="p">})</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="kd">const</span> <span class="p">{</span> <span class="nx">name</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">route</span><span class="p">.</span><span class="nx">params</span><span class="p">;</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">name</span><span class="p">)</span><span class="c1">// banana</span>
+  <span class="k">return</span> <span class="p">...</span>
+<span class="p">};</span>
+</code></pre></div></div>
+
+<ul>
+  <li><a href="https://reactnavigation.org/docs/navigation-prop#navigate">React nagivation - API reference - navigate</a></li>
+</ul>
+
+<h2 id="정중앙에-자식-컴포넌트-위치시키기">정중앙에 자식 컴포넌트 위치시키기</h2>
+
+<p><code class="language-plaintext highlighter-rouge">justifyContent</code>와 <code class="language-plaintext highlighter-rouge">alignItems</code>를 부모 컴포넌트 스타일 속성에 명시합니다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&lt;</span><span class="nx">View</span>
+  <span class="nx">style</span><span class="o">=</span>
+<span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="nx">Text</span><span class="o">&gt;</span><span class="nx">horizental</span> <span class="o">&amp;</span> <span class="nx">vertical</span> <span class="nx">center</span><span class="o">&lt;</span><span class="sr">/Text</span><span class="err">&gt;
+</span><span class="o">&lt;</span><span class="sr">/View</span><span class="err">&gt;
+</span></code></pre></div></div>
+
+<ul>
+  <li><a href="https://reactnative.dev/docs/layout-props">reactnative layout-props</a></li>
+  <li><a href="https://stackoverflow.com/questions/44337469/text-vertical-align-in-react-native-using-nativebase">Text vertical align in react native (using nativebase)</a></li>
+</ul>
+
+<h1 id="android">android</h1>
+
+<h2 id="빌드-시-appinstalldebug-단계에서-진행되지-않는-경우">빌드 시 :app:installDebug 단계에서 진행되지 않는 경우</h2>
+
+<p>adb 서버를 재시작합니다.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>adb kill-server
+adb start-server
+</code></pre></div></div>
+
+<ul>
+  <li><a href="https://stackoverflow.com/questions/46933612/react-native-project-stuck-on-appinstalldebug">React-Native project stuck on :app:installDebug</a></li>
+</ul>
+
+<h2 id="빌드-캐시-지우기">빌드 캐시 지우기</h2>
+
+<p>생각보다 빌드 오류가 자주 발생합니다. 이때 한번씩 해주면 됩니다.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>android
+./gradlew clean
+</code></pre></div></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">rm</span> <span class="nt">-rf</span> ~/.gradle/caches/
+</code></pre></div></div>
+
+<ul>
+  <li><a href="https://stackoverflow.com/questions/23025433/how-to-clear-gradle-cache">How to clear gradle cache?</a></li>
+</ul>
+
+<h2 id="execution-failed-for-task-appmergedexdebug">Execution failed for task ‘:app:mergeDexDebug’</h2>
+
+<p>빌드 시 발생할 수 있는 오류입니다. <code class="language-plaintext highlighter-rouge">./gradlew assembleRelease</code>를 통해 빌드할 때 발생했습니다. <code class="language-plaintext highlighter-rouge">android/app/build.gradle</code>파일을 열어 다음과 같이 두 줄을 추가해줍니다.</p>
+
+<div class="language-gradle highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   <span class="n">android</span> <span class="o">{</span>
+        <span class="n">defaultConfig</span> <span class="o">{</span>
+            <span class="o">...</span>
+            <span class="n">multiDexEnabled</span> <span class="kc">true</span>
+            <span class="o">...</span>
+        <span class="o">}</span>
+        <span class="o">...</span>
+    <span class="o">}</span>
+
+    <span class="k">dependencies</span> <span class="o">{</span>
+      <span class="n">implementation</span> <span class="s1">'com.android.support:multidex:1.0.3'</span>
+    <span class="o">}</span>
+</code></pre></div></div>
+
+<ul>
+  <li><a href="https://paulaner80.tistory.com/entry/Execution-failed-for-task-appmergeDexDebug">Execution failed for task ‘:app:mergeDexDebug’.
+</a></li>
+</ul>
+
+<h2 id="애플리케이션-버전-정보-설정">애플리케이션 버전 정보 설정</h2>
+
+<p>play store에 새로운 버전을 출시하기 위해선 <code class="language-plaintext highlighter-rouge">./gradlew bundleRelease</code> 전에 android &gt; app &gt; build.gradle 에서 버전 코드를 수정해야 합니다.</p>
+
+<div class="language-groovy highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">android</span> <span class="o">{</span>
+    <span class="o">...</span>
+    <span class="n">defaultConfig</span> <span class="o">{</span>
+        <span class="o">...</span>
+        <span class="n">versionCode</span> <span class="mi">2</span>
+        <span class="n">versionName</span> <span class="s2">"1.1"</span>
+    <span class="o">}</span>
+
+<span class="o">}</span>
+</code></pre></div></div>
+
+<ul>
+  <li><a href="https://developer.android.com/studio/publish/versioning?hl=ko#groovy">android developer - 애플리케이션 버전 정보 설정</a></li>
+</ul>
+
+<h2 id="앱-엑세스-계정-등록하기">앱 엑세스 계정 등록하기</h2>
+
+<p>google play console 접속 &gt; 정책 &gt; 앱 콘텐츠 &gt; 앱 엑세스 권한 (관리)
+<img src="https://user-images.githubusercontent.com/34812887/185728149-0131b1f6-d98e-4d6d-920b-4496ee6ef48d.png" alt="google play console" /></p>
+
+<h1 id="ios">IOS</h1>
+
+<h2 id="빌드-파일-지우기">빌드 파일 지우기</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Command + Shift + K
+</code></pre></div></div>
+
+<h2 id="fatal-error--yogakitmodulemap-not-found">fatal error : YogaKit.modulemap’ not found</h2>
+
+<p><img src="https://user-images.githubusercontent.com/34812887/182532550-d9c9a40f-8d62-461f-9362-03a902888e84.png" alt="yogakit" />
+xcodeproj 파일이 아닌 xcworkspace 파일에 들어가 빌드를 다시 해봅니다.
+xcodeproj 파일에서 RN 기반 어플리케이션을 빌드할 때 발생하는 문제입니다.</p>
+
+<h1 id="배포">배포</h1>
+
+<h2 id="앱-아이콘-만들기">앱 아이콘 만들기</h2>
+
+<p>Android 앱 아이콘을 생성할 땐 기본 아이콘 이름 ic_launcher / 라운드 아이콘 이름 ic_launcher_round으로 다운받아 둘 다 적용해주는 게 좋습니다.</p>
+
+<ul>
+  <li><a href="https://appicon.co/">IOS : App icon Generator</a></li>
+  <li><a href="https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html#foreground.type=clipart&amp;foreground.clipart=android&amp;foreground.space.trim=1&amp;foreground.space.pad=0.25&amp;foreColor=rgba(96%2C%20125%2C%20139%2C%200)&amp;backColor=rgb(68%2C%20138%2C%20255)&amp;crop=0&amp;backgroundShape=circle&amp;effects=none&amp;name=ic_launcher">ANDROID : App icon Generator</a></li>
+  <li><a href="https://developer.android.com/guide/practices/ui_guidelines/icon_design_adaptive?hl=ko#creating_adaptive_icons_in_xml">android studio - doc - XML로 적응형 아이콘 만들기</a></li>
+</ul>
+
+<h2 id="배포-스크린샷-만들기">배포 스크린샷 만들기</h2>
+
+<ul>
+  <li><a href="https://studio.app-mockup.com">https://studio.app-mockup.com</a></li>
+</ul>
+
+<h2 id="목업-제작-사이트">목업 제작 사이트</h2>
+
+<ul>
+  <li><a href="https://mockuphone.com/">https://mockuphone.com/</a></li>
+</ul>
+ 
+      </section>
+
+      <footer class="page__meta">
+         
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#react-native" class="page__taxonomy-item p-category" rel="tag">react-native</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#programming" class="page__taxonomy-item p-category" rel="tag">programming</a>
+    
+    </span>
+  </p>
+
+ 
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2022-08-03T00:00:00+00:00">August 3, 2022</time></p>
+
+      </footer>
+
+       
+  <nav class="pagination">
+    
+      <a href="/programming/react-native-android-%EC%97%90%EC%84%9C-react-native-apple-authentication-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-copy/" class="pagination--pager" title="React-Native 안드로이드에서 react-native-apple-authentication 적용하기
+">Previous</a>
+    
+    
+      <a href="/appstore-connect-%EC%95%B1-%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7-%EC%97%85%EB%A1%9C%EB%93%9C-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0/" class="pagination--pager" title="Appstore Connect 앱 스크린샷 업로드 오류를 Curl API를 통해 우회적으로 해결하기
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+   
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 이태경. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+    <script>
+  'use strict';
+
+  (function() {
+    var commentContainer = document.querySelector('#utterances-comments');
+
+    if (!commentContainer) {
+      return;
+    }
+
+    var script = document.createElement('script');
+    script.setAttribute('src', 'https://utteranc.es/client.js');
+    script.setAttribute('repo', 'hanarotg/hanarotg.github.io');
+    script.setAttribute('issue-term', 'pathname');
+    
+    script.setAttribute('theme', 'github-light');
+    script.setAttribute('crossorigin', 'anonymous');
+
+    commentContainer.appendChild(script);
+  })();
+</script>
+
+  
+
+
+
+
+
+  </body>
+</html>

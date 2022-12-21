@@ -1,11 +1,13 @@
 ---
 layout: single
 title: 비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [1부]
-description: 문제를 해결하는 방법, 타인과 같이 협업하는 방법 등... 많은 것들을 배울 수 있었던 제 첫 창업 실패 이야기를 공유합니다.
-tags: stylehero startup
+category: business
+tags: stylehero
 toc: true
 toc_sticky: true
 ---
+
+문제를 해결하는 방법, 타인과 같이 협업하는 방법 등... 많은 것들을 배울 수 있었던 제 첫 창업 실패 이야기를 공유합니다.
 
 ![9CE981EE-2AAD-413D-B94E-BAD676152888](https://user-images.githubusercontent.com/34812887/199974840-bd4c8f07-1385-4011-a666-069150728c7a.JPG)
 

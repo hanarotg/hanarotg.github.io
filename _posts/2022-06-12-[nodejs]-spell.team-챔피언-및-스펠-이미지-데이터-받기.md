@@ -1,10 +1,11 @@
 ---
 layout: single
 title: lol 챔피언 및 스펠 이미지 데이터 받기
+category: programming
 tags: spellteam leagueoflegends nodejs
+toc: true
+toc_sticky: true
 ---
-
-## 개요
 
 게임 리그 오브 레전드 API를 사용해보면서 불편함 점이 여럿 있었습니다. 그중 하나가 진행중인 인게임 정보를 가져오는 [SPECTATOR-V4 api](https://developer.riotgames.com/apis#spectator-v4/GET_getCurrentGameInfoBySummoner) 입니다.
 
@@ -12,7 +13,7 @@ SPECTATOR-V4 는 진행중인 인게임 정보(참여중인 각각의 소환사 
 
 ![spectator-v4](https://user-images.githubusercontent.com/34812887/173229633-a72f968e-5c2a-4463-a1a0-5457b1a9a012.png)
 
-## 그래서 뭐가 문제냐
+# 문제 이해
 
 RIOT에서 제공하는 챔피언 데이터는 , 스펠 데이터는
 
@@ -158,7 +159,7 @@ const setChampionset = async () => {
 setChampionset();
 ```
 
-실행 결과
+## 실행 결과
 
 ![champion_list](https://user-images.githubusercontent.com/34812887/173230170-53035155-eedb-464b-87f7-f08b24a8dccf.png)
 

@@ -1,11 +1,13 @@
 ---
 layout: single
 title: 비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [3부 완]
-description: 재출시 후 서비스 재개발부터 폐업신고까지 그리고 1년간의 창업으로부터 배운 점을 공유합니다.
-tags: stylehero startup
+category: business
+tags: stylehero
 toc: true
 toc_sticky: true
 ---
+
+재출시 후 서비스 재개발부터 폐업신고까지 그리고 1년간의 창업으로부터 배운 점을 공유합니다.
 
 # 가입자는 300명인데 결제는 1명??
 

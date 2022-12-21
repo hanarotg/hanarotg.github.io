@@ -1,11 +1,13 @@
 ---
 layout: single
-title: EC2 인스턴스에서 XV6 개발 환경 세팅하는 방법, 에러 해결
-description: 학부 운영체제 수강을 위해 XV6를 사용하게 되었습니다. 맥 M1에서 원할히 돌아가지 않아 AWS EC2 Ubuntu 인스턴스를 생성하여 관리하는 것을 추천드립니다.
+title: EC2 인스턴스에서 XV6 개발 환경 도움말
+category: CS
 tags: OS xv6 EC2 ubuntu
 toc: true
 toc_sticky: true
 ---
+
+실습용 운영체제 XV6를 AWS EC2 인스턴스에서 설치하고 윤용하는 방법을 안내합니다. 가상화 프로그램이 온전히 작동하지 않는 맥OS Silicon 기기에서 XV6를 실습하기 위한 대안입니다.
 
 # 설치
 

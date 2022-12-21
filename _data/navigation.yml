@@ -1,12 +1,12 @@
 # main links
 main:
   - title: "Kubernetes"
-    url: _pages/about/
+    url: /tags/kubernetes
   - title: "React-Native"
-    url: _pages/about/
+    url: /tags/react-native
   - title: "category:all"
-    url: _pages/about/
-  - title: "tags"
-    url: _pages/about/
+    url: /categories/
+  - title: "tags:all"
+    url: /tags/
   - title: "about(CV)"
     url: _pages/about/
