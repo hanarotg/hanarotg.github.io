@@ -188,7 +188,7 @@
     transition: none;
 
     &:hover {
-      color: $masthead-link-color-hover;
+      color: $base00;
     }
 
     &.site-logo {
@@ -568,6 +568,6 @@
   }
 
   li ul li ul li ul li ul li ul > li a {
-    padding-left: 3.25rem
+    padding-left: 3.25rem;
   }
 }
