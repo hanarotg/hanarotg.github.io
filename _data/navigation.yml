@@ -1,7 +1,5 @@
 # main links
 main:
-  - title: "Kubernetes"
-    url: /tags/kubernetes
   - title: "React-Native"
     url: /tags/react-native
   - title: "category:all"
