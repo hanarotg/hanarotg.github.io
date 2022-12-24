@@ -1,4 +1,105 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-21T13:29:41+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lee Taegyeong</title><subtitle>안녕하세요.</subtitle><entry><title type="html">비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [3부 완]</title><link href="http://localhost:4000/business/project-stylehero-story-3/" rel="alternate" type="text/html" title="비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [3부 완]" /><published>2022-10-29T00:00:00+00:00</published><updated>2022-10-29T00:00:00+00:00</updated><id>http://localhost:4000/business/%5Bproject%5D-stylehero-story-3</id><content type="html" xml:base="http://localhost:4000/business/project-stylehero-story-3/"><![CDATA[<p>재출시 후 서비스 재개발부터 폐업신고까지 그리고 1년간의 창업으로부터 배운 점을 공유합니다.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-24T10:16:41+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lee Taegyeong</title><subtitle>안녕하세요.</subtitle><entry><title type="html">React-Native Pressable 컴포넌트로 재사용 가능한 버튼 구성하기</title><link href="http://localhost:4000/architecture/react-native-reusable-pressable-component-design/" rel="alternate" type="text/html" title="React-Native Pressable 컴포넌트로 재사용 가능한 버튼 구성하기" /><published>2022-12-24T00:00:00+00:00</published><updated>2022-12-24T00:00:00+00:00</updated><id>http://localhost:4000/architecture/%5Breact-native%5D-reusable-pressable-component-design</id><content type="html" xml:base="http://localhost:4000/architecture/react-native-reusable-pressable-component-design/"><![CDATA[<p>Presssable 컴포넌트는 RN 앱 개발을 위해 반드시 알아야 하는 컴포넌트입니다. press 상호작용에 관한 기능을 제공하는 컴포넌트이기 때문에 적절히 커스텀해서 버튼 등의 기능을 대신할 수 있습니다. (RN 기본 컴포넌트 Button 컴포넌트는 너무 빈약합니다.)</p>
+
+<h1 id="재사용-가능한-버튼-구성">재사용 가능한 버튼 구성</h1>
+
+<p>그러나 Pressable을 재사용 가능한 버튼으로 바로 사용하기에는 난감한 문제들이 있습니다. 버튼 뿐만 아니라 기타 press event에도 대응하기 위해(버튼 그 이상의 목적으로 광범위한 용도를 위해) 만들어졌기 때문입니다.</p>
+
+<h2 id="구성">구성</h2>
+
+<p><code class="language-plaintext highlighter-rouge">ButtonCustom.js</code> 예</p>
+
+<div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="nx">React</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">react</span><span class="dl">"</span><span class="p">;</span>
+<span class="k">import</span> <span class="p">{</span> <span class="nx">Pressable</span><span class="p">,</span> <span class="nx">Text</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">react-native</span><span class="dl">"</span><span class="p">;</span>
+
+<span class="kd">const</span> <span class="nx">ButtonCustom</span> <span class="o">=</span> <span class="p">({</span> <span class="nx">onPress</span><span class="p">,</span> <span class="nx">text</span><span class="p">,</span> <span class="nx">type</span><span class="p">,</span> <span class="nx">line</span> <span class="p">})</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="p">(</span>
+    <span class="p">&lt;</span><span class="nc">Pressable</span>
+      <span class="na">onPress</span><span class="p">=</span><span class="si">{</span><span class="nx">onPress</span><span class="si">}</span>
+      <span class="na">style</span><span class="p">=</span><span class="si">{</span><span class="p">({</span> <span class="nx">pressed</span> <span class="p">})</span> <span class="o">=&gt;</span> <span class="p">[</span>
+        <span class="p">{</span>
+          <span class="c1">// 모든 버튼이 공유하는 고정값</span>
+          <span class="na">padding</span><span class="p">:</span> <span class="mi">14</span><span class="p">,</span>
+          <span class="na">borderRadius</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span>
+          <span class="na">borderWidth</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+          <span class="na">alignItems</span><span class="p">:</span> <span class="dl">"</span><span class="s2">center</span><span class="dl">"</span><span class="p">,</span>
+          <span class="c1">// 받은 인자에 따라 변화하는 값</span>
+          <span class="na">borderColor</span><span class="p">:</span> <span class="nx">line</span> <span class="p">?</span> <span class="nx">line</span> <span class="p">:</span> <span class="nx">color</span><span class="p">,</span>
+          <span class="na">backgroundColor</span><span class="p">:</span> <span class="nx">pressed</span> <span class="p">?</span> <span class="nx">color</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">#ffffff</span><span class="dl">"</span><span class="p">,</span>
+        <span class="p">},</span>
+      <span class="p">]</span><span class="si">}</span>
+    <span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nc">Text</span> <span class="na">style</span><span class="p">=</span><span class="si">{</span><span class="p">{</span> <span class="na">color</span><span class="p">:</span> <span class="nx">color</span> <span class="p">}</span><span class="si">}</span><span class="p">&gt;</span><span class="si">{</span><span class="nx">text</span><span class="si">}</span><span class="p">&lt;/</span><span class="nc">Text</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nc">Pressable</span><span class="p">&gt;</span>
+  <span class="p">);</span>
+<span class="p">};</span>
+
+<span class="k">export</span> <span class="k">default</span> <span class="nx">ButtonCustom</span><span class="p">;</span>
+</code></pre></div></div>
+
+<h2 id="사용">사용</h2>
+
+<p>사용 예)</p>
+
+<div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">&lt;</span><span class="nc">View</span> <span class="na">style</span><span class="p">=</span><span class="si">{</span><span class="p">{</span> <span class="na">paddingBottom</span><span class="p">:</span> <span class="mi">10</span> <span class="p">}</span><span class="si">}</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nc">ButtonCustom</span>
+    <span class="na">text</span><span class="p">=</span><span class="s">"도서 상세 정보"</span>
+    <span class="na">type</span><span class="p">=</span><span class="s">"primary"</span>
+    <span class="na">onPress</span><span class="p">=</span><span class="si">{</span><span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+      <span class="nx">Linking</span><span class="p">.</span><span class="nx">openURL</span><span class="p">(</span><span class="nx">book</span> <span class="o">&amp;&amp;</span> <span class="nx">book</span><span class="p">.</span><span class="nx">url</span><span class="p">);</span>
+    <span class="p">}</span><span class="si">}</span>
+  <span class="p">/&gt;</span>
+<span class="p">&lt;/</span><span class="nc">View</span><span class="p">&gt;</span>
+</code></pre></div></div>]]></content><author><name></name></author><category term="architecture" /><category term="react-native" /><category term="pressable" /><category term="resuable" /><category term="sa" /><summary type="html"><![CDATA[Presssable 컴포넌트는 RN 앱 개발을 위해 반드시 알아야 하는 컴포넌트입니다. press 상호작용에 관한 기능을 제공하는 컴포넌트이기 때문에 적절히 커스텀해서 버튼 등의 기능을 대신할 수 있습니다. (RN 기본 컴포넌트 Button 컴포넌트는 너무 빈약합니다.)]]></summary></entry><entry><title type="html">react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제</title><link href="http://localhost:4000/programming/react-native-react-native-webview-android-empty-space-error/" rel="alternate" type="text/html" title="react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제" /><published>2022-12-20T00:00:00+00:00</published><updated>2022-12-20T00:00:00+00:00</updated><id>http://localhost:4000/programming/%5Breact-native%5D-react-native-webview-android-empty-space-error</id><content type="html" xml:base="http://localhost:4000/programming/react-native-react-native-webview-android-empty-space-error/"><![CDATA[<p>앱 내 웹뷰를 이식하려고 헀습니다. 웹뷰를 사용하기 위해 <a href="https://github.com/react-native-webview/react-native-webview">react-native-webview</a> 라이브러리를 사용하려 했으나.. 안드로이드 플랫폼에서 정상적으로 출력이 되지 않았습니다. 빈 공간만 출력되었습니다.</p>
+
+<p>IOS 플랫폼에선 정상적으로 원하는 웹뷰가 출력되었습니다. 안드로이드 플랫폼에서만 발생하는 문제였습니다.</p>
+
+<h1 id="해결">해결</h1>
+
+<p>깃허브 issue 항목에 비슷한 문제에 대한 해결 방법을 찾을 수 있었습니다.</p>
+
+<h2 id="상위-컴포넌트-없이-리턴">상위 컴포넌트 없이 리턴</h2>
+
+<p><code class="language-plaintext highlighter-rouge">View</code> 나 <code class="language-plaintext highlighter-rouge">ScrollView</code> 같은 상위 컴포넌트가 존재할 떄 리턴하는 경우 발생하는 문제였습니다.</p>
+
+<h3 id="잘못된-예">잘못된 예</h3>
+
+<div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">return</span> <span class="p">(</span>
+  <span class="p">&lt;</span><span class="nc">View</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nc">WebView</span>
+      <span class="na">startInLoadingState</span><span class="p">=</span><span class="si">{</span><span class="kc">true</span><span class="si">}</span>
+      <span class="na">source</span><span class="p">=</span><span class="si">{</span><span class="p">{</span> <span class="na">uri</span><span class="p">:</span> <span class="dl">"</span><span class="s2">https://reactnative.dev/</span><span class="dl">"</span> <span class="p">}</span><span class="si">}</span>
+    <span class="p">/&gt;</span>
+  <span class="p">&lt;/</span><span class="nc">View</span><span class="p">&gt;</span>
+<span class="p">);</span>
+</code></pre></div></div>
+
+<h3 id="올바른-예">올바른 예</h3>
+
+<div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">return</span> <span class="p">&lt;</span><span class="nc">WebView</span> <span class="na">source</span><span class="p">=</span><span class="si">{</span><span class="p">{</span> <span class="na">uri</span><span class="p">:</span> <span class="dl">"</span><span class="s2">https://reactnative.dev/</span><span class="dl">"</span> <span class="p">}</span><span class="si">}</span> <span class="p">/&gt;;</span>
+</code></pre></div></div>
+
+<ul>
+  <li><a href="https://github.com/react-native-webview/react-native-webview/issues/1426#issuecomment-1207378759">react-native-webview/issues/1426#issuecomment-1207378759</a></li>
+</ul>
+
+<h2 id="webview-size-고정-및-옵션-추가-선택">webview size 고정 및 옵션 추가 (선택)</h2>
+
+<p>webview의 <code class="language-plaintext highlighter-rouge">width</code> 와 <code class="language-plaintext highlighter-rouge">height</code> 를 명시하고 <code class="language-plaintext highlighter-rouge">startInLoadingState</code> 옵션을 설정합니다.</p>
+
+<div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">&lt;</span><span class="nc">WebView</span>
+  <span class="na">style</span><span class="p">=</span><span class="si">{</span><span class="p">{</span>
+    <span class="na">marginTop</span><span class="p">:</span> <span class="mi">20</span><span class="p">,</span>
+    <span class="na">width</span><span class="p">:</span> <span class="nx">Dimensions</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="dl">"</span><span class="s2">window</span><span class="dl">"</span><span class="p">).</span><span class="nx">width</span><span class="p">,</span>
+    <span class="na">height</span><span class="p">:</span> <span class="nx">Dimensions</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="dl">"</span><span class="s2">window</span><span class="dl">"</span><span class="p">).</span><span class="nx">height</span><span class="p">,</span>
+  <span class="p">}</span><span class="si">}</span>
+  <span class="na">startInLoadingState</span><span class="p">=</span><span class="si">{</span><span class="kc">true</span><span class="si">}</span>
+  <span class="na">source</span><span class="p">=</span><span class="si">{</span><span class="p">{</span> <span class="na">uri</span><span class="p">:</span> <span class="dl">"</span><span class="s2">https://reactnative.dev/</span><span class="dl">"</span> <span class="p">}</span><span class="si">}</span>
+<span class="p">/&gt;</span>
+</code></pre></div></div>
+
+<ul>
+  <li><a href="https://github.com/react-native-webview/react-native-webview/issues/1426">react-native-webview/issues/1426#issuecomment-738488835</a></li>
+</ul>]]></content><author><name></name></author><category term="programming" /><category term="react-native" /><category term="react-native-webview" /><category term="android" /><category term="checked" /><summary type="html"><![CDATA[앱 내 웹뷰를 이식하려고 헀습니다. 웹뷰를 사용하기 위해 react-native-webview 라이브러리를 사용하려 했으나.. 안드로이드 플랫폼에서 정상적으로 출력이 되지 않았습니다. 빈 공간만 출력되었습니다.]]></summary></entry><entry><title type="html">비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [3부 완]</title><link href="http://localhost:4000/business/project-stylehero-story-3/" rel="alternate" type="text/html" title="비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [3부 완]" /><published>2022-10-29T00:00:00+00:00</published><updated>2022-10-29T00:00:00+00:00</updated><id>http://localhost:4000/business/%5Bproject%5D-stylehero-story-3</id><content type="html" xml:base="http://localhost:4000/business/project-stylehero-story-3/"><![CDATA[<p>재출시 후 서비스 재개발부터 폐업신고까지 그리고 1년간의 창업으로부터 배운 점을 공유합니다.</p>
 
 <h1 id="가입자는-300명인데-결제는-1명">가입자는 300명인데 결제는 1명??</h1>
 
@@ -895,12 +996,15 @@ Variant: release의 SHA-1 키를 복사합니다.</p>
 
 <p><code class="language-plaintext highlighter-rouge">justifyContent</code>와 <code class="language-plaintext highlighter-rouge">alignItems</code>를 부모 컴포넌트 스타일 속성에 명시합니다.</p>
 
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&lt;</span><span class="nx">View</span>
-  <span class="nx">style</span><span class="o">=</span>
-<span class="o">&gt;</span>
-  <span class="o">&lt;</span><span class="nx">Text</span><span class="o">&gt;</span><span class="nx">horizental</span> <span class="o">&amp;</span> <span class="nx">vertical</span> <span class="nx">center</span><span class="o">&lt;</span><span class="sr">/Text</span><span class="err">&gt;
-</span><span class="o">&lt;</span><span class="sr">/View</span><span class="err">&gt;
-</span></code></pre></div></div>
+<div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">&lt;</span><span class="nc">View</span>
+<span class="na">style</span><span class="p">=</span><span class="si">{</span><span class="p">{</span>
+    <span class="na">justifyContent</span><span class="p">:</span> <span class="dl">"</span><span class="s2">center</span><span class="dl">"</span><span class="p">,</span>
+    <span class="na">alignItems</span><span class="p">:</span> <span class="dl">"</span><span class="s2">center</span><span class="dl">"</span><span class="p">,</span>
+  <span class="p">}</span><span class="si">}</span>
+
+<span class="err">&lt;</span><span class="na">Text</span><span class="p">&gt;</span>horizental <span class="err">&amp;</span> vertical center<span class="p">&lt;/</span><span class="nc">Text</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="err">/</span><span class="na">View</span><span class="p">&gt;</span>
+</code></pre></div></div>
 
 <ul>
   <li><a href="https://reactnative.dev/docs/layout-props">reactnative layout-props</a></li>
@@ -1018,91 +1122,4 @@ xcodeproj 파일에서 RN 기반 어플리케이션을 빌드할 때 발생하�
 
 <ul>
   <li><a href="https://mockuphone.com/">https://mockuphone.com/</a></li>
-</ul>]]></content><author><name></name></author><category term="programming" /><category term="react-native" /><summary type="html"><![CDATA[RN 플랫폼을 통해 모바일 앱을 개발할 때 잊어버리기 쉬운 좋은 팁이 여럿 있습니다. 한 포스트로 쓰기에는 사소하지만 까먹을 때마다 보기 좋은 팁들을 모아봤습니다. 제 블로그를 찾아주신 다른 분들에게도 도움이 되었으면 좋겠습니다.]]></summary></entry><entry><title type="html">React-Native 안드로이드에서 react-native-apple-authentication 적용하기</title><link href="http://localhost:4000/programming/react-native-android-%EC%97%90%EC%84%9C-react-native-apple-authentication-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-copy/" rel="alternate" type="text/html" title="React-Native 안드로이드에서 react-native-apple-authentication 적용하기" /><published>2022-07-28T00:00:00+00:00</published><updated>2022-07-28T00:00:00+00:00</updated><id>http://localhost:4000/programming/%5Breact-native%5D-android-%EC%97%90%EC%84%9C-react-native-apple-authentication-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0%20copy</id><content type="html" xml:base="http://localhost:4000/programming/react-native-android-%EC%97%90%EC%84%9C-react-native-apple-authentication-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-copy/"><![CDATA[<p>RN 플랫폼에서 firebase authentication를 구현하기란 쉽지 않습니다. 크로스 플랫폼의 한계일까요. 생각보다 많이 복잡합니다.</p>
-
-<p><a href="https://rnfirebase.io/">React native firebase</a> 모듈 위에 <a href="https://github.com/invertase/react-native-apple-authentication">react-native-apple-authentication</a>를 사용하여 안드로이드에서 애플 로그인을 구현해 보겠습니다.</p>
-
-<p>Firebase React Native 모듈 설치 &amp; 적용 단계는 생략합니다!</p>
-
-<h5 id="설치">설치</h5>
-
-<p><a href="https://github.com/invertase/react-native-apple-authentication">react-native-apple-authentication</a>를 설치합니다</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm i @invertase/react-native-apple-authentication
-</code></pre></div></div>
-
-<h5 id="xcode-적용">XCode 적용</h5>
-
-<p>프로젝트명.xcodeproj 파일에 들어가 Signing &amp; Capabilities 항목에 Sign in with Apple 를 추가합니다. 애플 어플리케이션이 모듈을 추가하는 일반적인 방식입니다.</p>
-
-<ul>
-  <li>참고 : <a href="https://github.com/invertase/react-native-apple-authentication/blob/main/docs/INITIAL_SETUP.md">INITIAL_SETUP</a></li>
-</ul>
-
-<p><img src="https://user-images.githubusercontent.com/34812887/182281993-d6ce7a51-f299-4c32-a12b-c69bbd9af814.png" alt="s1" /></p>
-
-<p><a href="https://developer.apple.com/">Apple 개발자 콘솔</a>에 접속하여 계정 로그인 후 Certificates, Identifiers &amp; Profiles로 이동합니다.</p>]]></content><author><name></name></author><category term="programming" /><category term="react-native" /><category term="react-native-apple-authentication" /><category term="checked" /><summary type="html"><![CDATA[RN 플랫폼에서 firebase authentication를 구현하기란 쉽지 않습니다. 크로스 플랫폼의 한계일까요. 생각보다 많이 복잡합니다.]]></summary></entry><entry><title type="html">React-Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding 해결하기</title><link href="http://localhost:4000/programming/react-native-android-%EC%BB%A4%EC%8A%A4%ED%85%80-%ED%8F%B0%ED%8A%B8-%EB%AC%B8%EC%A0%9C-includeFontPadding/" rel="alternate" type="text/html" title="React-Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding 해결하기" /><published>2022-07-23T00:00:00+00:00</published><updated>2022-07-23T00:00:00+00:00</updated><id>http://localhost:4000/programming/%5Breact-native%5D-android-%EC%BB%A4%EC%8A%A4%ED%85%80-%ED%8F%B0%ED%8A%B8-%EB%AC%B8%EC%A0%9C-includeFontPadding</id><content type="html" xml:base="http://localhost:4000/programming/react-native-android-%EC%BB%A4%EC%8A%A4%ED%85%80-%ED%8F%B0%ED%8A%B8-%EB%AC%B8%EC%A0%9C-includeFontPadding/"><![CDATA[<p>커스텀 폰트 문제가 android에서 발생했습니다. 추가 마진(아니면 패딩)이 모든 커스텀 폰트에 적용되어 있습니다.</p>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center">IOS(아이폰 XR)</th>
-      <th style="text-align: center">Android(엑스페리아 Z1c)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center"><img src="https://user-images.githubusercontent.com/34812887/180598377-fa3313ae-fe9f-427a-ac0d-58ff5cbe59dc.jpeg" alt="IMG_620CF1E0E41C-1" /></td>
-      <td style="text-align: center"><img src="https://user-images.githubusercontent.com/34812887/180598410-d21eae2b-eabd-47a4-a930-fc99e6dcebdd.png" alt="Screenshot_20220723-180326" /></td>
-    </tr>
-  </tbody>
-</table>
-
-<h1 id="문제-이해">문제 이해</h1>
-
-<p>구글링하여 이 문제에 관한 많은 글을 찾을 수 있었습니다.</p>
-
-<ul>
-  <li><a href="https://stackoverflow.com/questions/41525842/react-native-android-text-component-extra-padding">React Native Android Text Component extra padding</a></li>
-  <li><a href="https://developer.android.com/reference/android/widget/TextView#attr_android:includeFontPadding">android:includeFontPadding</a></li>
-  <li><a href="https://reactnative.dev/docs/text-style-props#includefontpadding-android">React Native - Text Style Props - IncludeFontPadding</a></li>
-</ul>
-
-<p>안드로이드 TextView 기본값이 참인 <code class="language-plaintext highlighter-rouge">includeFontPadding</code> 속성이 적용된 것이 문제였습니다.</p>
-
-<h2 id="적용">적용</h2>
-
-<p><code class="language-plaintext highlighter-rouge">includeFontPadding</code> 속성이 거짓임을 명시해줍니다.</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>include-font-padding: false;
-</code></pre></div></div>
-
-<p>적용 예 1:</p>
-
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="nx">styled</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">styled-components/native</span><span class="dl">"</span><span class="p">;</span>
-
-<span class="kd">const</span> <span class="nx">BodyText</span> <span class="o">=</span> <span class="nx">styled</span><span class="p">.</span><span class="nx">Text</span><span class="s2">`
-  include-font-padding: false; // &lt;-- 이부분 추가
-  color: #363636;
-  font-family: "NotoSansKR-Regular";
-`</span><span class="p">;</span>
-
-<span class="k">export</span> <span class="k">default</span> <span class="nx">BodyText</span><span class="p">;</span>
-</code></pre></div></div>
-
-<h2 id="적용-결과">적용 결과</h2>
-
-<p>다시 테스트한 안드로이드 기기에서 이제 정상적으로 커스텀 폰트가 적용됨을 확인할 수 있습니다.</p>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center">Android(엑스페리아 Z1c)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center"><img src="https://user-images.githubusercontent.com/34812887/180600073-4ff66299-7fd1-43b0-a651-7c4e914f29e5.png" alt="Screenshot_20220723-184321" /></td>
-    </tr>
-  </tbody>
-</table>]]></content><author><name></name></author><category term="programming" /><category term="react-native" /><category term="includefontpadding" /><category term="android" /><category term="checked" /><summary type="html"><![CDATA[커스텀 폰트 문제가 android에서 발생했습니다. 추가 마진(아니면 패딩)이 모든 커스텀 폰트에 적용되어 있습니다.]]></summary></entry></feed>
+</ul>]]></content><author><name></name></author><category term="programming" /><category term="react-native" /><summary type="html"><![CDATA[RN 플랫폼을 통해 모바일 앱을 개발할 때 잊어버리기 쉬운 좋은 팁이 여럿 있습니다. 한 포스트로 쓰기에는 사소하지만 까먹을 때마다 보기 좋은 팁들을 모아봤습니다. 제 블로그를 찾아주신 다른 분들에게도 도움이 되었으면 좋겠습니다.]]></summary></entry></feed>

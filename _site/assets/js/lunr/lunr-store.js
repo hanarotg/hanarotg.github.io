@@ -71,11 +71,26 @@ var store = [{
         "url": "/business/project-stylehero-story-3/",
         "teaser": null
       },{
+        "title": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",
+        "excerpt":"앱 내 웹뷰를 이식하려고 헀습니다. 웹뷰를 사용하기 위해 react-native-webview 라이브러리를 사용하려 했으나.. 안드로이드 플랫폼에서 정상적으로 출력이 되지 않았습니다. 빈 공간만 출력되었습니다. IOS 플랫폼에선 정상적으로 원하는 웹뷰가 출력되었습니다. 안드로이드 플랫폼에서만 발생하는 문제였습니다. 해결 깃허브 issue 항목에 비슷한 문제에 대한 해결 방법을 찾을 수 있었습니다. 상위 컴포넌트 없이 리턴 View 나 ScrollView...","categories": ["programming"],
+        "tags": ["react-native","react-native-webview","android","checked"],
+        "url": "/programming/react-native-react-native-webview-android-empty-space-error/",
+        "teaser": null
+      },{
+        "title": "React-Native Pressable 컴포넌트로 재사용 가능한 버튼 구성하기",
+        "excerpt":"Presssable 컴포넌트는 RN 앱 개발을 위해 반드시 알아야 하는 컴포넌트입니다. press 상호작용에 관한 기능을 제공하는 컴포넌트이기 때문에 적절히 커스텀해서 버튼 등의 기능을 대신할 수 있습니다. (RN 기본 컴포넌트 Button 컴포넌트는 너무 빈약합니다.) 재사용 가능한 버튼 구성 그러나 Pressable을 재사용 가능한 버튼으로 바로 사용하기에는 난감한 문제들이 있습니다. 버튼 뿐만 아니라 기타...","categories": ["architecture"],
+        "tags": ["react-native","pressable","resuable","sa"],
+        "url": "/architecture/react-native-reusable-pressable-component-design/",
+        "teaser": null
+      },{
     "title": "Taegyeong Lee",
-    "excerpt":"안녕하세요, 이태경입니다.   React-Native를 활용한 모바일 어플리케이션 개발에 관심이 많습니다.      Email : hanarotg@naver.com   Linkedin : https://www.linkedin.com/in/hanarotg/   Github : https://github.com/hanarotg   Blog : https://hanarotg.github.io   CV   준비중입니다.  ","url": "http://localhost:4000/_pages/about/"
+    "excerpt":"안녕하세요, 이태경입니다.   React-Native를 활용한 모바일 어플리케이션 개발에 관심이 많습니다.      Email : hanarotg@naver.com   Linkedin : https://www.linkedin.com/in/hanarotg/   Github : https://github.com/hanarotg   Blog : https://hanarotg.github.io   CV   준비중입니다.   Summary   project      Checked (Personal Project)   Stylehero (Fullstack Developer)   Opensorce      S3CM.js   Education      Soongsil University - Computer Science &amp; engineering (BS, ~ 2024.03)  ","url": "http://localhost:4000/_pages/about/"
   },{
     "title": "Posts by Categories",
     "excerpt":" ","url": "http://localhost:4000/categories/"
+  },{
+    "title": "Checked",
+    "excerpt":"독서 기록 앱  ","url": "http://localhost:4000/_pages/checked/"
   },{
     "title": null,
     "excerpt":"","url": "http://localhost:4000/"

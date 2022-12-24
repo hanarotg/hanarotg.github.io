@@ -55,16 +55,20 @@ const ScreenName = ({ route, navigation }) => {
 
 `justifyContent`와 `alignItems`를 부모 컴포넌트 스타일 속성에 명시합니다.
 
-```javascript
+{% raw %}
+
+```jsx
 <View
-  style={{
+style={{
     justifyContent: "center",
     alignItems: "center",
   }}
->
-  <Text>horizental & vertical center</Text>
+
+<Text>horizental & vertical center</Text>
 </View>
 ```
+
+{% endraw %}
 
 - [reactnative layout-props](https://reactnative.dev/docs/layout-props)
 - [Text vertical align in react native (using nativebase)](https://stackoverflow.com/questions/44337469/text-vertical-align-in-react-native-using-nativebase)
