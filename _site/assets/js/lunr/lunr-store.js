@@ -83,6 +83,12 @@ var store = [{
         "url": "/architecture/react-native-reusable-pressable-component-design/",
         "teaser": null
       },{
+        "title": "leetcode 724 Find Pivot Index",
+        "excerpt":"find the leftmost pivot index given nums https://leetcode.com/problems/find-pivot-index Problem Intuitution pivot, used as sorting algorithim meaning of leftmost pivot index use python function like sum and slicing list Aproach compare sum of left side and right side of nums from left to right Solution class Solution: def pivotIndex(self, nums: List[int])...","categories": ["algorithm"],
+        "tags": ["leetcode","python","pivot"],
+        "url": "/algorithm/algorithm-leetcode-724/",
+        "teaser": null
+      },{
     "title": "Taegyeong Lee",
     "excerpt":"안녕하세요, 이태경입니다.   React-Native를 활용한 모바일 어플리케이션 개발에 관심이 많습니다.      Email : hanarotg@naver.com   Linkedin : https://www.linkedin.com/in/hanarotg/   Github : https://github.com/hanarotg   Blog : https://hanarotg.github.io   CV   준비중입니다.   Summary   project      Checked (Personal Project)   Stylehero (Fullstack Developer)   Opensorce      S3CM.js   Education      Soongsil University - Computer Science &amp; engineering (BS, ~ 2024.03)  ","url": "http://localhost:4000/_pages/about/"
   },{
@@ -118,6 +124,9 @@ var store = [{
   },{
     "title": null,
     "excerpt":"","url": "http://localhost:4000/page2/"
+  },{
+    "title": null,
+    "excerpt":"","url": "http://localhost:4000/page3/"
   },{
     "title": null,
     "excerpt":"Sitemap: {{ \"sitemap.xml\" | absolute_url }} ","url": "http://localhost:4000/robots.txt"
