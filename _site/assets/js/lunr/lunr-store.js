@@ -84,9 +84,15 @@ var store = [{
         "teaser": null
       },{
         "title": "leetcode 724 Find Pivot Index",
-        "excerpt":"find the leftmost pivot index given nums https://leetcode.com/problems/find-pivot-index Problem Intuitution pivot, used as sorting algorithim meaning of leftmost pivot index use python function like sum and slicing list Aproach compare sum of left side and right side of nums from left to right Solution class Solution: def pivotIndex(self, nums: List[int])...","categories": ["algorithm"],
+        "excerpt":"Given an array of integers nums, calculate the pivot index of this array. The pivot index is the index where the sum of all the numbers strictly to the left of the index is equal to the sum of all the numbers strictly to the index’s right. If the index...","categories": ["algorithm"],
         "tags": ["leetcode","python","pivot"],
         "url": "/algorithm/algorithm-leetcode-724/",
+        "teaser": null
+      },{
+        "title": "leetcode 205 Isomorphic Strings",
+        "excerpt":"Given two strings s and t, determine if they are isomorphic. Two strings s and t are isomorphic if the characters in s can be replaced to get t. All occurrences of a character must be replaced with another character while preserving the order of characters. No two characters may...","categories": ["algorithm"],
+        "tags": ["leetcode","python","string"],
+        "url": "/algorithm/algorithm-leetcode-205/",
         "teaser": null
       },{
     "title": "Taegyeong Lee",
