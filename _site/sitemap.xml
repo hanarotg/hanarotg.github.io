@@ -4,6 +4,22 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>http://localhost:4000/personal/personal-2022-retrospect/</loc>
+        
+        <lastmod>2022-12-29T00:00:00+00:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
         <loc>http://localhost:4000/algorithm/algorithm-leetcode-205/</loc>
         
         <lastmod>2022-12-28T00:00:00+00:00</lastmod>
@@ -36,7 +52,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/architecture/react-native-reusable-pressable-component-design/</loc>
+        <loc>http://localhost:4000/programming/react-native-reusable-pressable-component-design/</loc>
         
         <lastmod>2022-12-24T00:00:00+00:00</lastmod>
         

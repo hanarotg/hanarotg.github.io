@@ -1,6 +1,6 @@
 ---
 layout: single
-category: architecture
+category: programming
 title: React-Native Pressable 컴포넌트로 재사용 가능한 버튼 구성하기
 tags: react-native pressable resuable sa
 toc: true

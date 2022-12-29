@@ -78,9 +78,9 @@ var store = [{
         "teaser": null
       },{
         "title": "React-Native Pressable 컴포넌트로 재사용 가능한 버튼 구성하기",
-        "excerpt":"Presssable 컴포넌트는 RN 앱 개발을 위해 반드시 알아야 하는 컴포넌트입니다. press 상호작용에 관한 기능을 제공하는 컴포넌트이기 때문에 적절히 커스텀해서 버튼 등의 기능을 대신할 수 있습니다. (RN 기본 컴포넌트 Button 컴포넌트는 너무 빈약합니다.) 재사용 가능한 버튼 구성 그러나 Pressable을 재사용 가능한 버튼으로 바로 사용하기에는 난감한 문제들이 있습니다. 버튼 뿐만 아니라 기타...","categories": ["architecture"],
+        "excerpt":"Presssable 컴포넌트는 RN 앱 개발을 위해 반드시 알아야 하는 컴포넌트입니다. press 상호작용에 관한 기능을 제공하는 컴포넌트이기 때문에 적절히 커스텀해서 버튼 등의 기능을 대신할 수 있습니다. (RN 기본 컴포넌트 Button 컴포넌트는 너무 빈약합니다.) 재사용 가능한 버튼 구성 그러나 Pressable을 재사용 가능한 버튼으로 바로 사용하기에는 난감한 문제들이 있습니다. 버튼 뿐만 아니라 기타...","categories": ["programming"],
         "tags": ["react-native","pressable","resuable","sa"],
-        "url": "/architecture/react-native-reusable-pressable-component-design/",
+        "url": "/programming/react-native-reusable-pressable-component-design/",
         "teaser": null
       },{
         "title": "leetcode 724 Find Pivot Index",
@@ -93,6 +93,12 @@ var store = [{
         "excerpt":"Given two strings s and t, determine if they are isomorphic. Two strings s and t are isomorphic if the characters in s can be replaced to get t. All occurrences of a character must be replaced with another character while preserving the order of characters. No two characters may...","categories": ["algorithm"],
         "tags": ["leetcode","python","string"],
         "url": "/algorithm/algorithm-leetcode-205/",
+        "teaser": null
+      },{
+        "title": "2022 회고",
+        "excerpt":"2022년이 곧 지나간다.. 나름 다양한 일이 있었고 잘 해낸 일도 있고 보기 좋게 와르르 망한 일도 있었다. 회고 진행한 일 생각보다 꽤 있었던 것 같다. 창업 동아리를 마쳤다. 모두 뿔뿔히 흩어지게 되면서 폐업 신고를 마무리하고 복학 신청을 했다. 중앙 동아리 회장을 맡았다. 코로나로 인해 멈추었던 모든 행사들을 재개했다. 앱을 기획에서...","categories": ["personal"],
+        "tags": [],
+        "url": "/personal/personal-2022-retrospect/",
         "teaser": null
       },{
     "title": "Taegyeong Lee",
