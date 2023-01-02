@@ -119,9 +119,6 @@ var store = [{
     "title": null,
     "excerpt":"","url": "http://localhost:4000/"
   },{
-    "title": "Kubernetes",
-    "excerpt":" ","url": "http://localhost:4000/tags/kubernetes/"
-  },{
     "title": null,
     "excerpt":"var idx = lunr(function () { this.field('title') this.field('excerpt') this.field('categories') this.field('tags') this.ref('id') this.pipeline.remove(lunr.trimmer) for (var item in store) { this.add({ title: store[item].title, excerpt: store[item].excerpt, categories: store[item].categories, tags: store[item].tags, id: item }) } }); $(document).ready(function() { $('input#search').on('keyup', function () { var resultdiv = $('#results'); var query = $(this).val().toLowerCase(); var result = idx.query(function...","url": "http://localhost:4000/assets/js/lunr/lunr-en.js"
   },{
@@ -142,9 +139,6 @@ var store = [{
   },{
     "title": null,
     "excerpt":"","url": "http://localhost:4000/page2/"
-  },{
-    "title": null,
-    "excerpt":"","url": "http://localhost:4000/page3/"
   },{
     "title": null,
     "excerpt":"Sitemap: {{ \"sitemap.xml\" | absolute_url }} ","url": "http://localhost:4000/robots.txt"
