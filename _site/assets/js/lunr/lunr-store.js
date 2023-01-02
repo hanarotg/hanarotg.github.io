@@ -101,6 +101,12 @@ var store = [{
         "url": "/personal/personal-2022-retrospect/",
         "teaser": null
       },{
+        "title": "2023 어떻게 생존할 것인가?",
+        "excerpt":"2022년 회고를 통해 어떻게 생존할 수 있을 것인지 생각하고 정리해 보았습니다. 아직 사회 경험 1도 없는 콤퓨타 학부생이기 때문에 적당히.. 걸러서 읽으시면 될 것 같습니다. 개발 쉬워지는 개발자 진입 부트캠프 부트캠프가 우후죽순 생겨나고 운영되고 있습니다. 소마(소프트웨어 마에스트로), 싸피, 애플 개발 부트캠프, 국비지원 캠프까지 다양한 기업, 정부의 이해관계에 의해 많이 존재합니다....","categories": ["personal"],
+        "tags": [],
+        "url": "/personal/personal-2023-how-to-be-survived/",
+        "teaser": null
+      },{
     "title": "Taegyeong Lee",
     "excerpt":"안녕하세요, 이태경입니다.   React-Native를 활용한 모바일 어플리케이션 개발에 관심이 많습니다.      Email : hanarotg@naver.com   Linkedin : https://www.linkedin.com/in/hanarotg/   Github : https://github.com/hanarotg   Blog : https://hanarotg.github.io   CV   준비중입니다.   Summary   project      Checked (Personal Project)   Stylehero (Fullstack Developer)   Opensorce      S3CM.js   Education      Soongsil University - Computer Science &amp; engineering (BS, ~ 2024.03)  ","url": "http://localhost:4000/_pages/about/"
   },{
