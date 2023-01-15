@@ -107,8 +107,14 @@ var store = [{
         "url": "/personal/personal-2023-how-to-be-survived/",
         "teaser": null
       },{
+        "title": "2023년 1월 1일 ~ 1월 15일 2주 리뷰",
+        "excerpt":"23년 1월 1일 ~ 1월 14일 2주간 무엇을 하며 살았는지 기록해 보며 무엇을 잘했고, 무엇이 부족헀는지 리뷰해 보겠습니다. 무엇을 하며 살았니? 동아리 합숙 악기를 연주하는 오케스트라 동아리이다 보니 전통적으로 매 방학마다 합숙 기간이 있습니다. 보통 일주일 정도 기간을 잡고 하루 종일 단원들과 같이 지내며 다음 학기에 연주할 곡들을 연습합니다. 합숙...","categories": ["personal"],
+        "tags": [],
+        "url": "/personal/personal-2023-2-weeks/",
+        "teaser": null
+      },{
     "title": "Taegyeong Lee",
-    "excerpt":"안녕하세요, 이태경입니다.   React-Native를 활용한 모바일 어플리케이션 개발에 관심이 많습니다.      Email : hanarotg@naver.com   Linkedin : https://www.linkedin.com/in/hanarotg/   Github : https://github.com/hanarotg   Blog : https://hanarotg.github.io   CV   준비중입니다.   Summary   project      Checked (Personal Project)   Stylehero (Fullstack Developer)   Opensorce      S3CM.js   Education      Soongsil University - Computer Science &amp; engineering (BS, ~ 2024.03)  ","url": "http://localhost:4000/_pages/about/"
+    "excerpt":"안녕하세요, 이태경입니다.   Node.js 기반 풀스택 개발, React-Native를 활용한 모바일 어플리케이션 개발에 관심이 많습니다.      Email : hanarotg@naver.com   Linkedin : https://www.linkedin.com/in/hanarotg/   Github : https://github.com/hanarotg   Blog : https://hanarotg.github.io   CV   준비중입니다.   Summary   project      Checked (Personal Project)   Stylehero (Fullstack Developer)   Opensorce      S3CM.js   Education      Soongsil University - Computer Science &amp; engineering (BS, ~ 2024.03)  ","url": "http://localhost:4000/_pages/about/"
   },{
     "title": "Posts by Categories",
     "excerpt":" ","url": "http://localhost:4000/categories/"
