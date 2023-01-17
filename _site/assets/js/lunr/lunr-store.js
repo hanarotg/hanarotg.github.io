@@ -108,9 +108,15 @@ var store = [{
         "teaser": null
       },{
         "title": "동아리 합숙, 인턴 지원, 이메일 멘토링 (2023년 1월 1일 ~ 1월 15일) 2주 리뷰",
-        "excerpt":"23년 1월 1일 ~ 1월 14일 2주간 무엇을 하며 살았는지 기록해 보며 무엇을 잘했고, 무엇이 부족헀는지 리뷰해 보겠습니다. 무엇을 하며 살았니? 동아리 합숙 악기를 연주하는 오케스트라 동아리이다 보니 전통적으로 매 방학마다 합숙 기간이 있습니다. 보통 일주일 정도 기간을 잡고 하루 종일 단원들과 같이 지내며 다음 학기에 연주할 곡들을 연습합니다. 합숙...","categories": ["personal"],
+        "excerpt":"23년 1월 1일 ~ 1월 14일 2주간 무엇을 하며 살았는지 기록해 보며 무엇을 잘했고, 무엇이 부족했는지 리뷰해 보겠습니다. 무엇을 하며 살았니? 동아리 합숙 악기를 연주하는 오케스트라 동아리이다 보니 전통적으로 매 방학마다 합숙 기간이 있습니다. 보통 일주일 정도 기간을 잡고 하루 종일 단원들과 같이 지내며 다음 학기에 연주할 곡들을 연습합니다. 합숙...","categories": ["personal"],
         "tags": [],
         "url": "/personal/personal-2023-2-weeks/",
+        "teaser": null
+      },{
+        "title": "Mac Homebrew로 node 버전 바꾸기",
+        "excerpt":"vscode 코드에 궁금한 점이 생겨 로컬에 클론하게 되었습니다. 로컬 노드 버전이 19.04 인데 vscode 모듈 중 일부가 노드 v19를 지원하지 않아 앱 실행이 불가능했습니다. homebrew를 통해 node 버전을 바꾸어 보겠습니다. 해결 로컬 node 버전 확인 저는 node 19.04가 로컬에 설치되어 적용되고 있었습니다. node -v 원하는 node 버전 설치 homebrew 공식...","categories": ["devops"],
+        "tags": ["node","homebrew"],
+        "url": "/devops/brew-change-node-version-with-homebrew/",
         "teaser": null
       },{
     "title": "Taegyeong Lee",

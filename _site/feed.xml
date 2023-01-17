@@ -1,4 +1,87 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-16T05:07:20+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lee Taegyeong</title><subtitle>안녕하세요.</subtitle><entry><title type="html">동아리 합숙, 인턴 지원, 이메일 멘토링 (2023년 1월 1일 ~ 1월 15일) 2주 리뷰</title><link href="http://localhost:4000/personal/personal-2023-2-weeks/" rel="alternate" type="text/html" title="동아리 합숙, 인턴 지원, 이메일 멘토링 (2023년 1월 1일 ~ 1월 15일) 2주 리뷰" /><published>2023-01-14T00:00:00+00:00</published><updated>2023-01-14T00:00:00+00:00</updated><id>http://localhost:4000/personal/%5Bpersonal%5D-2023-2-weeks</id><content type="html" xml:base="http://localhost:4000/personal/personal-2023-2-weeks/"><![CDATA[<p>23년 1월 1일 ~ 1월 14일 2주간 무엇을 하며 살았는지 기록해 보며 무엇을 잘했고, 무엇이 부족헀는지 리뷰해 보겠습니다.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-17T10:06:38+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lee Taegyeong</title><subtitle>안녕하세요.</subtitle><entry><title type="html">Mac Homebrew로 node 버전 바꾸기</title><link href="http://localhost:4000/devops/brew-change-node-version-with-homebrew/" rel="alternate" type="text/html" title="Mac Homebrew로 node 버전 바꾸기" /><published>2023-01-16T00:00:00+00:00</published><updated>2023-01-16T00:00:00+00:00</updated><id>http://localhost:4000/devops/%5Bbrew%5D-change-node-version-with-homebrew</id><content type="html" xml:base="http://localhost:4000/devops/brew-change-node-version-with-homebrew/"><![CDATA[<p>vscode 코드에 궁금한 점이 생겨 로컬에 클론하게 되었습니다. 로컬 노드 버전이 19.04 인데 vscode 모듈 중 일부가 노드 v19를 지원하지 않아 앱 실행이 불가능했습니다.</p>
+
+<p>homebrew를 통해 node 버전을 바꾸어 보겠습니다.</p>
+
+<h1 id="해결">해결</h1>
+
+<h2 id="로컬-node-버전-확인">로컬 node 버전 확인</h2>
+
+<p>저는 node 19.04가 로컬에 설치되어 적용되고 있었습니다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>node -v
+</code></pre></div></div>
+
+<h2 id="원하는-node-버전-설치">원하는 node 버전 설치</h2>
+
+<p>homebrew 공식 사이트에서 원하는 node 버전을 확인하고 설치합니다. 저는 v18로 설치해보겠습니다.</p>
+
+<ul>
+  <li><a href="https://formulae.brew.sh/formula/node#default">https://formulae.brew.sh/formula/node#default</a></li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew install node@18
+</code></pre></div></div>
+
+<h2 id="설치된-노드-목록-확인">설치된 노드 목록 확인</h2>
+
+<p>설치된 노드 목록을 확인합니다. 기존에 설치된 <code class="language-plaintext highlighter-rouge">node</code>와 방금 새로 설치한 <code class="language-plaintext highlighter-rouge">node@18</code>이 체크되어 있습니다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew search node
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>==&gt; Formulae
+libbitcoin-node   node ✔            node@10           node@16           nodebrew          ode
+linode-cli        node-build        node@12           node@18 ✔         nodeenv
+llnode            node-sass         node@14           node_exporter     nodenv
+</code></pre></div></div>
+
+<h2 id="node-link">node link</h2>
+
+<p>기존에 설치된 node를 unlink 합니다. 기존에 설치된 node 의 이름은 앞서 <code class="language-plaintext highlighter-rouge">node</code>임을 확인하였으니 아래와 같은 명령을 시행합니다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew unlink node
+</code></pre></div></div>
+
+<p>새로 설치한 <code class="language-plaintext highlighter-rouge">node@18</code>을 링크합니다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew link node@18
+</code></pre></div></div>
+
+<p>link 완료되면 새로 설치된 node가 적용되었는지 확인합니다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>node -v
+v18.13.0
+</code></pre></div></div>
+
+<p>끝-</p>
+
+<h2 id="참고-could-not-symlink">[참고] Could not symlink</h2>
+
+<p>새로운 <code class="language-plaintext highlighter-rouge">node</code>를 링크하려고 할 때 아래와 같은 에러가 날 겁니다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Error: Could not symlink bin/npm
+Target /opt/homebrew/bin/npm
+already exists. You may want to remove it:
+  rm '/opt/homebrew/bin/npm'
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite node@18
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run node@18
+</code></pre></div></div>
+
+<p>심볼릭 링크를 삭제할 필요가 있습니다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rm '/opt/homebrew/bin/npm' '/opt/homebrew/bin/npx'
+rm -rf '/opt/homebrew/lib/node_modules/npm'
+</code></pre></div></div>
+
+<p>다시 링크를 시도합니다.</p>
+
+<ul>
+  <li><a href="https://docs.brew.sh/Querying-Brew#linked-keg-only-formulae">https://docs.brew.sh/Querying-Brew#linked-keg-only-formulae</a></li>
+</ul>]]></content><author><name></name></author><category term="devops" /><category term="node" /><category term="homebrew" /><summary type="html"><![CDATA[vscode 코드에 궁금한 점이 생겨 로컬에 클론하게 되었습니다. 로컬 노드 버전이 19.04 인데 vscode 모듈 중 일부가 노드 v19를 지원하지 않아 앱 실행이 불가능했습니다.]]></summary></entry><entry><title type="html">동아리 합숙, 인턴 지원, 이메일 멘토링 (2023년 1월 1일 ~ 1월 15일) 2주 리뷰</title><link href="http://localhost:4000/personal/personal-2023-2-weeks/" rel="alternate" type="text/html" title="동아리 합숙, 인턴 지원, 이메일 멘토링 (2023년 1월 1일 ~ 1월 15일) 2주 리뷰" /><published>2023-01-14T00:00:00+00:00</published><updated>2023-01-14T00:00:00+00:00</updated><id>http://localhost:4000/personal/%5Bpersonal%5D-2023-2-weeks</id><content type="html" xml:base="http://localhost:4000/personal/personal-2023-2-weeks/"><![CDATA[<p>23년 1월 1일 ~ 1월 14일 2주간 무엇을 하며 살았는지 기록해 보며 무엇을 잘했고, 무엇이 부족했는지 리뷰해 보겠습니다.</p>
 
 <h1 id="무엇을-하며-살았니">무엇을 하며 살았니?</h1>
 
@@ -81,7 +164,7 @@
 
 <h2 id="동아리-일지-제출">동아리 일지 제출</h2>
 
-<p>22년 동아리 활동 일지를 제출할 예정입니다. 이것까지 완료하면 이제 제 일은 완전히 끝이네요.</p>]]></content><author><name></name></author><category term="personal" /><summary type="html"><![CDATA[23년 1월 1일 ~ 1월 14일 2주간 무엇을 하며 살았는지 기록해 보며 무엇을 잘했고, 무엇이 부족헀는지 리뷰해 보겠습니다.]]></summary></entry><entry><title type="html">2023 어떻게 생존할 것인가?</title><link href="http://localhost:4000/personal/personal-2023-how-to-be-survived/" rel="alternate" type="text/html" title="2023 어떻게 생존할 것인가?" /><published>2023-01-01T00:00:00+00:00</published><updated>2023-01-01T00:00:00+00:00</updated><id>http://localhost:4000/personal/%5Bpersonal%5D-2023-how-to-be-survived</id><content type="html" xml:base="http://localhost:4000/personal/personal-2023-how-to-be-survived/"><![CDATA[<p>2022년 회고를 통해 어떻게 생존할 수 있을 것인지 생각하고 정리해 보았습니다. 아직 사회 경험 1도 없는 콤퓨타 학부생이기 때문에 적당히.. 걸러서 읽으시면 될 것 같습니다.</p>
+<p>22년 동아리 활동 일지를 제출할 예정입니다. 이것까지 완료하면 이제 제 일은 완전히 끝이네요.</p>]]></content><author><name></name></author><category term="personal" /><summary type="html"><![CDATA[23년 1월 1일 ~ 1월 14일 2주간 무엇을 하며 살았는지 기록해 보며 무엇을 잘했고, 무엇이 부족했는지 리뷰해 보겠습니다.]]></summary></entry><entry><title type="html">2023 어떻게 생존할 것인가?</title><link href="http://localhost:4000/personal/personal-2023-how-to-be-survived/" rel="alternate" type="text/html" title="2023 어떻게 생존할 것인가?" /><published>2023-01-01T00:00:00+00:00</published><updated>2023-01-01T00:00:00+00:00</updated><id>http://localhost:4000/personal/%5Bpersonal%5D-2023-how-to-be-survived</id><content type="html" xml:base="http://localhost:4000/personal/personal-2023-how-to-be-survived/"><![CDATA[<p>2022년 회고를 통해 어떻게 생존할 수 있을 것인지 생각하고 정리해 보았습니다. 아직 사회 경험 1도 없는 콤퓨타 학부생이기 때문에 적당히.. 걸러서 읽으시면 될 것 같습니다.</p>
 
 <h1 id="개발">개발</h1>
 
@@ -751,88 +834,4 @@
 
 <p>또한 한달동안 플랫폼 가입자 300명을 달성하였습니다.(정확히는 290명…)</p>
 
-<p><a href="https://hanarotg.github.io/project-stylehero-story-3.html">마지막 3부에서 계속..</a></p>]]></content><author><name></name></author><category term="business" /><category term="stylehero" /><summary type="html"><![CDATA[거하게 말아먹은 제 첫 창업 실패기 2부입니다. MVP 출시까지의 이야기를 다룹니다.]]></summary></entry><entry><title type="html">비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [1부]</title><link href="http://localhost:4000/business/project-stylehero-story-1/" rel="alternate" type="text/html" title="비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [1부]" /><published>2022-10-27T00:00:00+00:00</published><updated>2022-10-27T00:00:00+00:00</updated><id>http://localhost:4000/business/%5Bproject%5D-stylehero-story-1</id><content type="html" xml:base="http://localhost:4000/business/project-stylehero-story-1/"><![CDATA[<p>문제를 해결하는 방법, 타인과 같이 협업하는 방법 등… 많은 것들을 배울 수 있었던 제 첫 창업 실패 이야기를 공유합니다.</p>
-
-<p><img src="https://user-images.githubusercontent.com/34812887/199974840-bd4c8f07-1385-4011-a666-069150728c7a.JPG" alt="9CE981EE-2AAD-413D-B94E-BAD676152888" /></p>
-
-<h1 id="첫-팀빌딩">첫 팀빌딩</h1>
-
-<p class="text-muted">2021년 2월</p>
-
-<p>전역 후 2년전 같은 창업 관련 수업을 들었던 벤처과 후배에게서 카톡이 왔습니다. 창업을 위한 팀빌딩 중인데 개발자를 구하고 있다, 개발자로 같이 한번 해보지 않겠냐는 내용이었습니다.</p>
-
-<p>마침 군대에서 <a href="https://www.inflearn.com/course/node-js-%EC%9B%B9%EA%B0%9C%EB%B0%9C#reviews">인프런 강의</a>를 들으며 틈틈히 웹개발을 공부했었기에 이 팀에 들어가면 내가 뭐라도 할 수 있는 게 있지 않을까?.. 라는 생각으로 들어가게 되었습니다.</p>
-
-<p>벤처과 후배(호칭 : 마크) 주도로 4명이 모였습니다.(벤처과 2명, 개발자 2명) 서로의 호칭을 정하고(저는 하워드) 10개의 사업 아이디어를 공유하고 평가하며 사업 아이템을 정했습니다. 스타일리스트 매칭 플랫폼으로 결정하였습니다.</p>
-
-<p><img src="https://user-images.githubusercontent.com/34812887/198329441-ab110589-981f-4ba3-a09a-b6a86724d1d8.png" alt="324907230497" /></p>
-
-<p class="text-muted">피그마로 짠 스타일리스트 매칭 플랫폼 플로우</p>
-
-<p>아이템 구체화까지 진행되나 싶었지만 팀원 중 한명이 마크의 팀 운영 방식에 마음에 들지 않았나 봅니다. 자신이 낸 아이디어가 사업아이템으로 채택되었음에도 마크가 팀을 주도한다는 이유였던 것 같습니다.</p>
-
-<p>결국 팀원과 마크의 갈등이 커져 구체화 도중 팀원 2명이 나가게 되었습니다.</p>
-
-<p>(여담으로.. 그 팀원 2명은 다른 창업 아이템으로 창업 대회 준비를 위해 같이 미리 말을 맞추어 나간거 였었습니다. 🥲)</p>
-
-<h1 id="두번째-팀빌딩-그리고-첫-사무실">두번째 팀빌딩 그리고 첫 사무실</h1>
-
-<p class="text-muted">2021년 5월</p>
-
-<p>저와 마크는 다시 팀빌딩을 해보기로 합니다. 마크는 업무보조 팀원 2명과 개발자 1명 그리고 디자이너 1명을 모집하였고 앞서 정한 창업 아이템으로 창업 대회를 착실하게 준비했습니다.</p>
-
-<p>그 결과 학교 건물 지하 1층에 있는 작은 사무실을 얻을 수 있었습니다.</p>
-
-<p><img src="https://user-images.githubusercontent.com/34812887/198314061-15bc822a-854b-4923-98da-2b50b14fe663.JPG" alt="3223423423" /></p>
-
-<p class="text-muted">첫번째 사무실</p>
-
-<p>처음 사무실에 들어오자마자 온 벽에 낀 곰팡이를 하루 종일 청소한 기억이 나네요. (결국 다 지우지 못해서 청소 아주머니께서 도와주셨습니다.) 과자, 의자랑 모니터 등의 모든 비품은 마크가 모두 사비로 마련했습니다.</p>
-
-<p><img src="https://user-images.githubusercontent.com/34812887/198317182-bd0ab9b9-b9a9-4c2a-997f-7478f15ea073.JPG" alt="939390" /></p>
-
-<p class="text-muted">제 자리입니다. 모니터를 세로로 세워도 보고 맥 거치대도 사서 쓰고..</p>
-
-<h2 id="아이템-구체화-팀-피드백-운영팀의-노력">아이템 구체화, 팀 피드백, 운영팀의 노력</h2>
-
-<p class="text-muted">2021년 6월</p>
-
-<p>기말 시험을 마치고 본격적인 아이디어 구체화에 들어갔습니다. 스타일리스트 매칭 플랫폼이긴 할텐데 구체적으로 어떻게?</p>
-
-<p>동대문 도매시장에서 직접 발품을 받아 자체 쇼핑몰을 구촉하여 스타일리스트의 요청에 따라 쇼핑몰 내 의류 위주로 의류를 배송해 주는 서비스 등 다양한 아이디어들이 나왔습니다.</p>
-
-<p>여러 의견을 나눠 사업 아이템을 비대면 스타일리스트를 매칭해주고 자체 채팅 서비스를 통해 하는 것으로 구체화하였습니다.</p>
-
-<p>팀에 대한 팀원들의 피드백도 진행하였습니다. 대표였던 마크가 피드백에 굉장히 호의적이였던 것으로 기억합니다.</p>
-
-<p><img src="https://user-images.githubusercontent.com/34812887/198336894-9864bc4c-80a6-4caa-abc6-4eb8b5c5e348.JPG" alt="7BD18288-155E-4C06-9D7B-18A3A7F874FC" /></p>
-
-<p><img src="https://user-images.githubusercontent.com/34812887/199973150-89c2ed92-ce56-499a-b517-92e11eb37ee3.JPG" alt="D03E41E2-BBA3-4C87-9E5D-BED8346FC7A1" /></p>
-
-<p class="text-muted">팀에 관해 이야기하는 팀원들</p>
-
-<p>마크와 이안(업무보조 팀원)은 에브리타임에 전화 인터뷰 인원 20명을 모집하여 해당 서비스에 대해 수요가 있는지 확인하였습니다.</p>
-
-<p>마크와 이안이 패션 스타일리스트와 고객을 모으기 위해 여의도 출퇴근길에 명함을 뿌려도 보고.. 서울, 경기권 패션 관련 모든 대학의 교수님들께 콜드 메일을 보내고 <a href="http://www.stylists.or.kr/">한국패션스타일리스트 협회</a>에 무작정 찾아갔었습니다. (물론 바로 쫓겨났습니다..)</p>
-
-<p>둘의 노력 끝에 패션 관련 고등학교를 다니는 예비 패션 스타일리스트 1명을 모집하였습니다. 서비스를 체험 의사가 있는 2명(직장인 1명, 학생 1명)에게 일주일 간 무료로 매칭해주었습니다. 스타일리스트와 고객을 카카오톡으로 연결해주었습니다.</p>
-
-<h2 id="코로나-확산으로-모두-집에서">코로나 확산으로 모두 집에서</h2>
-
-<p class="text-muted">2021년 7월</p>
-
-<p>갑작스럽게 코로나 확산으로 각자의 집에서 작업하게 되었습니다. 슬랙을 통해 작업 시작과 작업 종료를 챗으로 매일 알려주는 것으로 하고 스크럼도 매일 진행하였습니다. 코로나 블루 였던 걸까요..? 팀원 모두가 지치고 있었습니다.</p>
-
-<h2 id="돈-문제로-팀원을-내보내다">돈 문제로 팀원을 내보내다</h2>
-
-<p class="text-muted">2021년 8월</p>
-
-<p>코로나 확산이 줄어들고 사무실을 나오는 날이 점점 많아지던 즈음 디자이너였던 팀원이 앞으로 하는 작업에 대한 보수를 주지 않으면 나가겠다고 말했습니다.</p>
-
-<p>창업 동아리라도 보수를 주는 것이 옳다고 유튜브에서 봤으며 내가 동아리에 투자해서 얻는 것이 무엇인지 고민하게 되었다고 합니다.</p>
-
-<p>돈을 줄 수 없는 상황이었습니다. 마크와 전 일주일 동안 디자이너 팀원과 이야기 끝에 내보내기로 합니다. 방학동안 꿋꿋이 자기 일을 하던 친구였는데 디자이너 혼자서 고민해야 하는 작업에 대한 회의감, 스트레스가 많았던 걸로 생각합니다.</p>
-
-<p>이번 일로 마크와 전 꽤 힘을 들였던 것 같습니다. 돈 문제로 정들었던 팀원을 내보낸다는 게 생각보다 쉽지는 않더라구요.</p>
-
-<p><a href="https://hanarotg.github.io/project-stylehero-story-2.html">2부에서 계속…</a></p>]]></content><author><name></name></author><category term="business" /><category term="stylehero" /><summary type="html"><![CDATA[문제를 해결하는 방법, 타인과 같이 협업하는 방법 등… 많은 것들을 배울 수 있었던 제 첫 창업 실패 이야기를 공유합니다.]]></summary></entry></feed>
+<p><a href="https://hanarotg.github.io/project-stylehero-story-3.html">마지막 3부에서 계속..</a></p>]]></content><author><name></name></author><category term="business" /><category term="stylehero" /><summary type="html"><![CDATA[거하게 말아먹은 제 첫 창업 실패기 2부입니다. MVP 출시까지의 이야기를 다룹니다.]]></summary></entry></feed>

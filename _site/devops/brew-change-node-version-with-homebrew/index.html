@@ -1,0 +1,436 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Mac Homebrew로 node 버전 바꾸기 - Lee Taegyeong</title>
+<meta name="description" content="vscode 코드에 궁금한 점이 생겨 로컬에 클론하게 되었습니다. 로컬 노드 버전이 19.04 인데 vscode 모듈 중 일부가 노드 v19를 지원하지 않아 앱 실행이 불가능했습니다.">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Lee Taegyeong">
+<meta property="og:title" content="Mac Homebrew로 node 버전 바꾸기">
+<meta property="og:url" content="http://localhost:4000/devops/brew-change-node-version-with-homebrew/">
+
+
+  <meta property="og:description" content="vscode 코드에 궁금한 점이 생겨 로컬에 클론하게 되었습니다. 로컬 노드 버전이 19.04 인데 vscode 모듈 중 일부가 노드 v19를 지원하지 않아 앱 실행이 불가능했습니다.">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2023-01-16T00:00:00+00:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/devops/brew-change-node-version-with-homebrew/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "이태경",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+  <meta name="google-site-verification" content="googleccedd283002c814b" />
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Lee Taegyeong Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Lee Taegyeong
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/tags/react-native">React-Native</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/">category:all</a>
+            </li><li class="masthead__menu-item">
+              <a href="/tags/">tags:all</a>
+            </li><li class="masthead__menu-item">
+              <a href="/_pages/about/">about(CV)</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+         
+
+<div id="main" role="main">
+  
+
+
+  <article
+    class="page h-entry"
+    itemscope
+    itemtype="https://schema.org/CreativeWork"
+  >
+    <meta
+      itemprop="headline"
+      content="Mac Homebrew로 node 버전 바꾸기"
+    /> <meta
+      itemprop="description"
+      content="vscode 코드에 궁금한 점이 생겨 로컬에 클론하게 되었습니다. 로컬 노드 버전이 19.04 인데 vscode 모듈 중 일부가 노드 v19를 지원하지 않아 앱 실행이 불가능했습니다."
+    /> <meta
+      itemprop="datePublished"
+      content="2023-01-16T00:00:00+00:00"
+    /> 
+
+    <div class="page__inner-wrap">
+      
+      <header>
+        
+        <h1 id="page-title" class="page__title p-name" itemprop="headline">
+          <a href="http://localhost:4000/devops/brew-change-node-version-with-homebrew/" class="u-url" itemprop="url"
+            ><p>Mac Homebrew로 node 버전 바꾸기</p>
+</a
+          >
+        </h1>
+          
+<p class="page__meta">
+   
+  <span class="page__meta-date">
+    
+    <time datetime="2023-01-16T00:00:00+00:00"
+      >January 16, 2023</time
+    >
+  </span>
+   <span
+    class="page__meta-sep"
+  ></span
+  >  
+  
+
+  <span class="page__meta-readtime">
+     1 minute read 
+  </span>
+  
+</p>
+
+
+      </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <aside class="sidebar__right sticky">
+          <nav class="toc">
+            <header>
+              <h4 class="nav__title">
+                <i class="fas fa-file-alt"></i>
+                On this page
+              </h4>
+            </header>
+            <ul class="toc__menu"><li><a href="#해결">해결</a><ul><li><a href="#로컬-node-버전-확인">로컬 node 버전 확인</a></li><li><a href="#원하는-node-버전-설치">원하는 node 버전 설치</a></li><li><a href="#설치된-노드-목록-확인">설치된 노드 목록 확인</a></li><li><a href="#node-link">node link</a></li><li><a href="#참고-could-not-symlink">[참고] Could not symlink</a></li></ul></li></ul>
+
+          </nav>
+        </aside>
+         <p>vscode 코드에 궁금한 점이 생겨 로컬에 클론하게 되었습니다. 로컬 노드 버전이 19.04 인데 vscode 모듈 중 일부가 노드 v19를 지원하지 않아 앱 실행이 불가능했습니다.</p>
+
+<p>homebrew를 통해 node 버전을 바꾸어 보겠습니다.</p>
+
+<h1 id="해결">해결</h1>
+
+<h2 id="로컬-node-버전-확인">로컬 node 버전 확인</h2>
+
+<p>저는 node 19.04가 로컬에 설치되어 적용되고 있었습니다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>node -v
+</code></pre></div></div>
+
+<h2 id="원하는-node-버전-설치">원하는 node 버전 설치</h2>
+
+<p>homebrew 공식 사이트에서 원하는 node 버전을 확인하고 설치합니다. 저는 v18로 설치해보겠습니다.</p>
+
+<ul>
+  <li><a href="https://formulae.brew.sh/formula/node#default">https://formulae.brew.sh/formula/node#default</a></li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew install node@18
+</code></pre></div></div>
+
+<h2 id="설치된-노드-목록-확인">설치된 노드 목록 확인</h2>
+
+<p>설치된 노드 목록을 확인합니다. 기존에 설치된 <code class="language-plaintext highlighter-rouge">node</code>와 방금 새로 설치한 <code class="language-plaintext highlighter-rouge">node@18</code>이 체크되어 있습니다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew search node
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>==&gt; Formulae
+libbitcoin-node   node ✔            node@10           node@16           nodebrew          ode
+linode-cli        node-build        node@12           node@18 ✔         nodeenv
+llnode            node-sass         node@14           node_exporter     nodenv
+</code></pre></div></div>
+
+<h2 id="node-link">node link</h2>
+
+<p>기존에 설치된 node를 unlink 합니다. 기존에 설치된 node 의 이름은 앞서 <code class="language-plaintext highlighter-rouge">node</code>임을 확인하였으니 아래와 같은 명령을 시행합니다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew unlink node
+</code></pre></div></div>
+
+<p>새로 설치한 <code class="language-plaintext highlighter-rouge">node@18</code>을 링크합니다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew link node@18
+</code></pre></div></div>
+
+<p>link 완료되면 새로 설치된 node가 적용되었는지 확인합니다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>node -v
+v18.13.0
+</code></pre></div></div>
+
+<p>끝-</p>
+
+<h2 id="참고-could-not-symlink">[참고] Could not symlink</h2>
+
+<p>새로운 <code class="language-plaintext highlighter-rouge">node</code>를 링크하려고 할 때 아래와 같은 에러가 날 겁니다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Error: Could not symlink bin/npm
+Target /opt/homebrew/bin/npm
+already exists. You may want to remove it:
+  rm '/opt/homebrew/bin/npm'
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite node@18
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run node@18
+</code></pre></div></div>
+
+<p>심볼릭 링크를 삭제할 필요가 있습니다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rm '/opt/homebrew/bin/npm' '/opt/homebrew/bin/npx'
+rm -rf '/opt/homebrew/lib/node_modules/npm'
+</code></pre></div></div>
+
+<p>다시 링크를 시도합니다.</p>
+
+<ul>
+  <li><a href="https://docs.brew.sh/Querying-Brew#linked-keg-only-formulae">https://docs.brew.sh/Querying-Brew#linked-keg-only-formulae</a></li>
+</ul>
+ 
+      </section>
+
+      <footer class="page__meta">
+         
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#homebrew" class="page__taxonomy-item p-category" rel="tag">homebrew</a><span class="sep">, </span>
+    
+      <a href="/tags/#node" class="page__taxonomy-item p-category" rel="tag">node</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#devops" class="page__taxonomy-item p-category" rel="tag">devops</a>
+    
+    </span>
+  </p>
+
+ 
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2023-01-16T00:00:00+00:00">January 16, 2023</time></p>
+
+      </footer>
+
+       
+  <nav class="pagination">
+    
+      <a href="/personal/personal-2023-2-weeks/" class="pagination--pager" title="동아리 합숙, 인턴 지원, 이메일 멘토링 (2023년 1월 1일 ~ 1월 15일) 2주 리뷰
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+   
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-copyright">
+  &copy; 2023 이태경. Powered by
+  <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp;
+  <a
+    href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/"
+    rel="nofollow"
+    >Minimal Mistakes</a
+  >.
+</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+    <script>
+  'use strict';
+
+  (function() {
+    var commentContainer = document.querySelector('#utterances-comments');
+
+    if (!commentContainer) {
+      return;
+    }
+
+    var script = document.createElement('script');
+    script.setAttribute('src', 'https://utteranc.es/client.js');
+    script.setAttribute('repo', 'hanarotg/hanarotg.github.io');
+    script.setAttribute('issue-term', 'pathname');
+    
+    script.setAttribute('theme', 'github-light');
+    script.setAttribute('crossorigin', 'anonymous');
+
+    commentContainer.appendChild(script);
+  })();
+</script>
+
+  
+
+
+
+
+
+  </body>
+</html>
