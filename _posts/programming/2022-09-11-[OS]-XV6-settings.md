@@ -1,7 +1,7 @@
 ---
 layout: single
 title: EC2 인스턴스에서 XV6 개발 환경 도움말
-category: CS
+category: programming
 tags: OS xv6 EC2 ubuntu
 toc: true
 toc_sticky: true

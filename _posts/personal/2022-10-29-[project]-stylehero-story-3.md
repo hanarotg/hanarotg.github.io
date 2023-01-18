@@ -1,8 +1,8 @@
 ---
 layout: single
 title: 비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [3부 완]
-category: business
-tags: stylehero
+category: personal
+tags: stylehero startup
 toc: true
 toc_sticky: true
 ---

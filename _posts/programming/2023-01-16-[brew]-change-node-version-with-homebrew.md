@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Mac Homebrew로 node 버전 바꾸기
-category: devops
+category: programming
 tags: node homebrew
 toc: true
 toc_sticky: true

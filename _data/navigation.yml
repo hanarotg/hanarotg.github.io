@@ -1,10 +1,14 @@
 # main links
 main:
-  - title: "React-Native"
-    url: /tags/react-native
+  - title: "algorithm"
+    url: /categories/algorithm
+  - title: "programming"
+    url: /categories/programming
+  - title: "personal"
+    url: /categories/personal
   - title: "category:all"
     url: /categories/
   - title: "tags:all"
     url: /tags/
-  - title: "about(CV)"
+  - title: "about(resume)"
     url: _pages/about/

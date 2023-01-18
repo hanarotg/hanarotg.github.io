@@ -30,9 +30,9 @@ var store = [{
         "teaser": null
       },{
         "title": "Appstore Connect 앱 스크린샷 업로드 오류를 Curl API를 통해 우회적으로 해결하기",
-        "excerpt":"앱 미리보기에 업로드 하려는데 업로드가 되지 않았습니다. 가끔 웹 클라이언트가 먹통이 되는데요, 이 문제를 Appstore connect API를 활용해 해결해보겠습니다. API 키 생성 Appstore connect -&gt; 사용자 및 엑세스 -&gt; 키 에 들어가서 새로운 키를 생성합니다. API키를 생성했으면 목록 우측에 API 키 다운로드 링크를 통해 API 키를 다운로드합니다. 생성한 API키는 한번만...","categories": [],
+        "excerpt":"앱 미리보기에 업로드 하려는데 업로드가 되지 않았습니다. 가끔 웹 클라이언트가 먹통이 되는데요, 이 문제를 Appstore connect API를 활용해 해결해보겠습니다. API 키 생성 Appstore connect -&gt; 사용자 및 엑세스 -&gt; 키 에 들어가서 새로운 키를 생성합니다. API키를 생성했으면 목록 우측에 API 키 다운로드 링크를 통해 API 키를 다운로드합니다. 생성한 API키는 한번만...","categories": ["programming"],
         "tags": ["checked","appstoreconnect","curl"],
-        "url": "/appstore-connect-%EC%95%B1-%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7-%EC%97%85%EB%A1%9C%EB%93%9C-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0/",
+        "url": "/programming/appstore-connect-%EC%95%B1-%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7-%EC%97%85%EB%A1%9C%EB%93%9C-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0/",
         "teaser": null
       },{
         "title": "react-native-google-singin 앱 심사에 통과하기 위한 앱 서명 인증서(SHA-1) 키 적용하기",
@@ -48,27 +48,27 @@ var store = [{
         "teaser": null
       },{
         "title": "EC2 인스턴스에서 XV6 개발 환경 도움말",
-        "excerpt":"실습용 운영체제 XV6를 AWS EC2 인스턴스에서 설치하고 윤용하는 방법을 안내합니다. 가상화 프로그램이 온전히 작동하지 않는 맥OS Silicon 기기에서 XV6를 실습하기 위한 대안입니다. 설치 EC2 Ubuntu 20.04 LTS 인스턴스를 사용하는 것을 전제합니다. 업데이트를 한번 해주세요. sudo apt-get install xv6 레포지토리를 클론해주세요. sudo git clone https://github.com/mit-pdos/xv6-public.git qemu 에뮬레이터를 설치해 주세요. sudo apt...","categories": ["CS"],
+        "excerpt":"실습용 운영체제 XV6를 AWS EC2 인스턴스에서 설치하고 윤용하는 방법을 안내합니다. 가상화 프로그램이 온전히 작동하지 않는 맥OS Silicon 기기에서 XV6를 실습하기 위한 대안입니다. 설치 EC2 Ubuntu 20.04 LTS 인스턴스를 사용하는 것을 전제합니다. 업데이트를 한번 해주세요. sudo apt-get install xv6 레포지토리를 클론해주세요. sudo git clone https://github.com/mit-pdos/xv6-public.git qemu 에뮬레이터를 설치해 주세요. sudo apt...","categories": ["programming"],
         "tags": ["OS","xv6","EC2","ubuntu"],
-        "url": "/cs/OS-XV6-settings/",
+        "url": "/programming/OS-XV6-settings/",
         "teaser": null
       },{
         "title": "비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [1부]",
-        "excerpt":"문제를 해결하는 방법, 타인과 같이 협업하는 방법 등… 많은 것들을 배울 수 있었던 제 첫 창업 실패 이야기를 공유합니다. 첫 팀빌딩 2021년 2월 전역 후 2년전 같은 창업 관련 수업을 들었던 벤처과 후배에게서 카톡이 왔습니다. 창업을 위한 팀빌딩 중인데 개발자를 구하고 있다, 개발자로 같이 한번 해보지 않겠냐는 내용이었습니다. 마침 군대에서...","categories": ["business"],
-        "tags": ["stylehero"],
-        "url": "/business/project-stylehero-story-1/",
+        "excerpt":"문제를 해결하는 방법, 타인과 같이 협업하는 방법 등… 많은 것들을 배울 수 있었던 제 첫 창업 실패 이야기를 공유합니다. 첫 팀빌딩 2021년 2월 전역 후 2년전 같은 창업 관련 수업을 들었던 벤처과 후배에게서 카톡이 왔습니다. 창업을 위한 팀빌딩 중인데 개발자를 구하고 있다, 개발자로 같이 한번 해보지 않겠냐는 내용이었습니다. 마침 군대에서...","categories": ["personal"],
+        "tags": ["stylehero","startup"],
+        "url": "/personal/project-stylehero-story-1/",
         "teaser": null
       },{
         "title": "비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [2부]",
-        "excerpt":"거하게 말아먹은 제 첫 창업 실패기 2부입니다. MVP 출시까지의 이야기를 다룹니다. MVP 기획, 개발 2021년 8월 추가로 들어온 개발자 1명과 같이 피그마와 미로를 통해 구체적인 플로우를 구상하고, 수정하는 것을 방학동안 계속 반복하였습니다. MVP 개발 시 초기 플로우 초기 랜딩페이지 디자인 MVP 플로우 새로운 사무실로 옮기다 2021년 8월 말 운영팀의 노력으로...","categories": ["business"],
-        "tags": ["stylehero"],
-        "url": "/business/project-stylehero-story-2/",
+        "excerpt":"거하게 말아먹은 제 첫 창업 실패기 2부입니다. MVP 출시까지의 이야기를 다룹니다. MVP 기획, 개발 2021년 8월 추가로 들어온 개발자 1명과 같이 피그마와 미로를 통해 구체적인 플로우를 구상하고, 수정하는 것을 방학동안 계속 반복하였습니다. MVP 개발 시 초기 플로우 초기 랜딩페이지 디자인 MVP 플로우 새로운 사무실로 옮기다 2021년 8월 말 운영팀의 노력으로...","categories": ["personal"],
+        "tags": ["stylehero","startup"],
+        "url": "/personal/project-stylehero-story-2/",
         "teaser": null
       },{
         "title": "비대면 스타일리스트 매칭 플랫폼, 스타일히어로 창업 이야기 [3부 완]",
-        "excerpt":"재출시 후 서비스 재개발부터 폐업신고까지 그리고 1년간의 창업으로부터 배운 점을 공유합니다. 가입자는 300명인데 결제는 1명?? 2021년 11월 중순 재출시한 서비스 가입자는 300명에 달했지만(정확히는 290명 :P) 결제 고객은 단 1명이었습니다. 재출시 후 한달 동안 추가적인 결제 고객이 없자 문제가 무엇인지 파악해야 했습니다. bigquery 데이터 분석을 통해 문제를 파악하다. 먼저 팀에서 예측한...","categories": ["business"],
-        "tags": ["stylehero"],
-        "url": "/business/project-stylehero-story-3/",
+        "excerpt":"재출시 후 서비스 재개발부터 폐업신고까지 그리고 1년간의 창업으로부터 배운 점을 공유합니다. 가입자는 300명인데 결제는 1명?? 2021년 11월 중순 재출시한 서비스 가입자는 300명에 달했지만(정확히는 290명 :P) 결제 고객은 단 1명이었습니다. 재출시 후 한달 동안 추가적인 결제 고객이 없자 문제가 무엇인지 파악해야 했습니다. bigquery 데이터 분석을 통해 문제를 파악하다. 먼저 팀에서 예측한...","categories": ["personal"],
+        "tags": ["stylehero","startup"],
+        "url": "/personal/project-stylehero-story-3/",
         "teaser": null
       },{
         "title": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",
@@ -114,13 +114,16 @@ var store = [{
         "teaser": null
       },{
         "title": "Mac Homebrew로 node 버전 바꾸기",
-        "excerpt":"vscode 코드에 궁금한 점이 생겨 로컬에 클론하게 되었습니다. 로컬 노드 버전이 19.04 인데 vscode 모듈 중 일부가 노드 v19를 지원하지 않아 앱 실행이 불가능했습니다. homebrew를 통해 node 버전을 바꾸어 보겠습니다. 해결 로컬 node 버전 확인 저는 node 19.04가 로컬에 설치되어 적용되고 있었습니다. node -v 원하는 node 버전 설치 homebrew 공식...","categories": ["devops"],
+        "excerpt":"vscode 코드에 궁금한 점이 생겨 로컬에 클론하게 되었습니다. 로컬 노드 버전이 19.04 인데 vscode 모듈 중 일부가 노드 v19를 지원하지 않아 앱 실행이 불가능했습니다. homebrew를 통해 node 버전을 바꾸어 보겠습니다. 해결 로컬 node 버전 확인 저는 node 19.04가 로컬에 설치되어 적용되고 있었습니다. node -v 원하는 node 버전 설치 homebrew 공식...","categories": ["programming"],
         "tags": ["node","homebrew"],
-        "url": "/devops/brew-change-node-version-with-homebrew/",
+        "url": "/programming/brew-change-node-version-with-homebrew/",
         "teaser": null
       },{
     "title": "Taegyeong Lee",
-    "excerpt":"안녕하세요, 이태경입니다.   Node.js 기반 풀스택 개발, React-Native를 활용한 모바일 어플리케이션 개발에 관심이 많습니다.      Email : hanarotg@naver.com   Linkedin : https://www.linkedin.com/in/hanarotg/   Github : https://github.com/hanarotg   Blog : https://hanarotg.github.io   CV   준비중입니다.   Summary   project      Checked (Personal Project)   Stylehero (Fullstack Developer)   Opensorce      S3CM.js   Education      Soongsil University - Computer Science &amp; engineering (BS, ~ 2024.03)  ","url": "http://localhost:4000/_pages/about/"
+    "excerpt":"안녕하세요, 이태경입니다.      Email : hanarotg@naver.com   Linkedin : https://www.linkedin.com/in/hanarotg/   Github : https://github.com/hanarotg   Blog : https://hanarotg.github.io   Resume   준비중입니다.   Summary   project      Checked (Personal Project)   Stylehero (Fullstack Developer)   Opensorce      S3CM.js   Education      Soongsil University - Computer Science &amp; engineering (BS, ~ 2024.03)  ","url": "http://localhost:4000/_pages/about/"
+  },{
+    "title": "Algorithm",
+    "excerpt":" ","url": "http://localhost:4000/categories/algorithm/"
   },{
     "title": "Posts by Categories",
     "excerpt":" ","url": "http://localhost:4000/categories/"
@@ -139,6 +142,12 @@ var store = [{
   },{
     "title": null,
     "excerpt":"var store = [ {%- for c in site.collections -%} {%- if forloop.last -%} {%- assign l = true -%} {%- endif -%} {%- assign docs = c.docs | where_exp:'doc','doc.search != false' -%} {%- for doc in docs -%} {%- if doc.header.teaser -%} {%- capture teaser -%}{{ doc.header.teaser }}{%- endcapture...","url": "http://localhost:4000/assets/js/lunr/lunr-store.js"
+  },{
+    "title": "Personal",
+    "excerpt":"","url": "http://localhost:4000/categories/personal/"
+  },{
+    "title": "programming",
+    "excerpt":"","url": "http://localhost:4000/categories/programming/"
   },{
     "title": "React-Native",
     "excerpt":"","url": "http://localhost:4000/tags/react-native/"
