@@ -119,6 +119,12 @@ var store = [{
         "url": "/programming/brew-change-node-version-with-homebrew/",
         "teaser": null
       },{
+        "title": "leetcode 278 First Bad Version",
+        "excerpt":"You are a product manager and currently leading a team to develop a new product. Unfortunately, the latest version of your product fails the quality check. Since each version is developed based on the previous version, all the versions after a bad version are also bad. Suppose you have n...","categories": ["algorithm"],
+        "tags": ["leetcode","python"],
+        "url": "/algorithm/algorithm-leetcode-278/",
+        "teaser": null
+      },{
     "title": "Taegyeong Lee",
     "excerpt":"안녕하세요, 이태경입니다.      Email : hanarotg@naver.com   Linkedin : https://www.linkedin.com/in/hanarotg/   Github : https://github.com/hanarotg   Blog : https://hanarotg.github.io   Resume   준비중입니다.   Summary   project      Checked (Personal Project)   Stylehero (Fullstack Developer)   Opensorce      S3CM.js   Education      Soongsil University - Computer Science &amp; engineering (BS, ~ 2024.03)  ","url": "http://localhost:4000/_pages/about/"
   },{
@@ -160,6 +166,9 @@ var store = [{
   },{
     "title": null,
     "excerpt":"","url": "http://localhost:4000/page2/"
+  },{
+    "title": null,
+    "excerpt":"","url": "http://localhost:4000/page3/"
   },{
     "title": null,
     "excerpt":"Sitemap: {{ \"sitemap.xml\" | absolute_url }} ","url": "http://localhost:4000/robots.txt"
