@@ -26,6 +26,10 @@ document.show_date %}
     site.data.ui-text[site.locale].minute_read | default: "minute read" }} {%
     endif %}
   </span>
+
+  <span class="page__meta-sep"></span>
+  <span class="page__meta-date"> {{ post.category }}</span>
+
   {% endif %}
 </p>
 {% endif %}

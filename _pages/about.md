@@ -6,9 +6,10 @@ title: "Taegyeong Lee"
 안녕하세요, 이태경입니다.
 
 - Email : hanarotg@naver.com
-- Linkedin : [https://www.linkedin.com/in/hanarotg/](https://www.linkedin.com/in/hanarotg/)
 - Github : [https://github.com/hanarotg](https://github.com/hanarotg)
 - Blog : [https://hanarotg.github.io](https://hanarotg.github.io)
+- Linkedin : [https://www.linkedin.com/in/hanarotg/](https://www.linkedin.com/in/hanarotg/)
+- LeetCode : [https://leetcode.com/hanarotg/](https://leetcode.com/hanarotg/)
 
 ## Resume
 

@@ -126,7 +126,7 @@ var store = [{
         "teaser": null
       },{
     "title": "Taegyeong Lee",
-    "excerpt":"안녕하세요, 이태경입니다.      Email : hanarotg@naver.com   Linkedin : https://www.linkedin.com/in/hanarotg/   Github : https://github.com/hanarotg   Blog : https://hanarotg.github.io   Resume   준비중입니다.   Summary   project      Checked (Personal Project)   Stylehero (Fullstack Developer)   Opensorce      S3CM.js   Education      Soongsil University - Computer Science &amp; engineering (BS, ~ 2024.03)  ","url": "http://localhost:4000/_pages/about/"
+    "excerpt":"안녕하세요, 이태경입니다.      Email : hanarotg@naver.com   Github : https://github.com/hanarotg   Blog : https://hanarotg.github.io   Linkedin : https://www.linkedin.com/in/hanarotg/   LeetCode : https://leetcode.com/hanarotg/   Resume   준비중입니다.   Summary   project      Checked (Personal Project)   Stylehero (Fullstack Developer)   Opensorce      S3CM.js   Education      Soongsil University - Computer Science &amp; engineering (BS, ~ 2024.03)  ","url": "http://localhost:4000/_pages/about/"
   },{
     "title": "Algorithm",
     "excerpt":" ","url": "http://localhost:4000/categories/algorithm/"
