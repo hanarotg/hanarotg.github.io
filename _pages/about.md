@@ -8,7 +8,6 @@ title: "Taegyeong Lee"
 - Email : hanarotg@naver.com
 - Github : [https://github.com/hanarotg](https://github.com/hanarotg)
 - Blog : [https://hanarotg.github.io](https://hanarotg.github.io)
-- Linkedin : [https://www.linkedin.com/in/hanarotg/](https://www.linkedin.com/in/hanarotg/)
 - LeetCode : [https://leetcode.com/hanarotg/](https://leetcode.com/hanarotg/)
 
 ## Resume
@@ -17,12 +16,12 @@ title: "Taegyeong Lee"
 
 ## Summary
 
-### project
+### main project
 
 - Checked (Personal Project)
 - Stylehero (Fullstack Developer)
 
-### Opensorce
+### minor project
 
 - S3CM.js
 

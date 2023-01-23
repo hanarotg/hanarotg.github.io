@@ -125,8 +125,14 @@ var store = [{
         "url": "/algorithm/algorithm-leetcode-278/",
         "teaser": null
       },{
+        "title": "python3 다차원 리스트 생성하기",
+        "excerpt":"계속 까먹는 파이썬 다차원 리스트 생성, 알고리즘 문제 푸는 데 유용한 도구가 되니 더 이상 까먹지 않도록 블로그에 기록합니다. 생성 일반적인 생성 모든 원소 값 0을 갖는 2차원 리스트를 생성합니다. n = 2 table = [[0 for _ in range(n)] for _ in range(n)] # [[0,0], [0,0]] 주의점 아래 프로그램을...","categories": ["programming"],
+        "tags": ["python3","list"],
+        "url": "/programming/python3-python3-list-generate/",
+        "teaser": null
+      },{
     "title": "Taegyeong Lee",
-    "excerpt":"안녕하세요, 이태경입니다.      Email : hanarotg@naver.com   Github : https://github.com/hanarotg   Blog : https://hanarotg.github.io   Linkedin : https://www.linkedin.com/in/hanarotg/   LeetCode : https://leetcode.com/hanarotg/   Resume   준비중입니다.   Summary   project      Checked (Personal Project)   Stylehero (Fullstack Developer)   Opensorce      S3CM.js   Education      Soongsil University - Computer Science &amp; engineering (BS, ~ 2024.03)  ","url": "http://localhost:4000/_pages/about/"
+    "excerpt":"안녕하세요, 이태경입니다.      Email : hanarotg@naver.com   Github : https://github.com/hanarotg   Blog : https://hanarotg.github.io   LeetCode : https://leetcode.com/hanarotg/   Resume   준비중입니다.   Summary   main project      Checked (Personal Project)   Stylehero (Fullstack Developer)   minor project      S3CM.js   Education      Soongsil University - Computer Science &amp; engineering (BS, ~ 2024.03)  ","url": "http://localhost:4000/_pages/about/"
   },{
     "title": "Algorithm",
     "excerpt":" ","url": "http://localhost:4000/categories/algorithm/"
