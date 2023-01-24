@@ -125,10 +125,16 @@ var store = [{
         "url": "/algorithm/algorithm-leetcode-278/",
         "teaser": null
       },{
-        "title": "python3 다차원 리스트 생성하기",
+        "title": "(python3) 다차원 리스트 생성하기",
         "excerpt":"계속 까먹는 파이썬 다차원 리스트 생성, 알고리즘 문제 푸는 데 유용한 도구가 되니 더 이상 까먹지 않도록 블로그에 기록합니다. 생성 일반적인 생성 모든 원소 값 0을 갖는 2차원 리스트를 생성합니다. n = 2 table = [[0 for _ in range(n)] for _ in range(n)] # [[0,0], [0,0]] 주의점 아래 프로그램을...","categories": ["programming"],
         "tags": ["python3","list"],
         "url": "/programming/python3-python3-list-generate/",
+        "teaser": null
+      },{
+        "title": "운동, 독서, 알고리즘, 이력서에 관한 생각 (2023년 1월 16일 ~ 1월 23일) 3주차 리뷰",
+        "excerpt":"저번 주에 계획했던 계획을 어느 정도 달성하였는지, 무엇이 부족했는지, 다음 주 목표와 잡다한 생각을 정리하여 작성하였습니다. 목표 저번 주 피드백 독서 : good 운동 : normal 실패) 1주 1야식 초과 금지 성공) 화요일 운동 알고리즘 : normal 실패) 효율적인 알고리즘 문제풀이 시간 관리 / 규칙적인 문제 풀이 성공) 데일리 문제...","categories": ["personal"],
+        "tags": [],
+        "url": "/personal/personal-2023-3-weeks-review/",
         "teaser": null
       },{
     "title": "Taegyeong Lee",

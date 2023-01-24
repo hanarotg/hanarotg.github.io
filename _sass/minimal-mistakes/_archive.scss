@@ -45,7 +45,7 @@
 
 .archive__item-title {
   margin-bottom: 0.25em;
-  font-family: $sans-serif-narrow;
+  font-family: $sans-serif;
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -127,7 +127,7 @@
 .list__item {
   .page__meta {
     margin: 0 0 4px;
-    font-size: 0.9em;
+    font-size: 1em;
   }
 }
 

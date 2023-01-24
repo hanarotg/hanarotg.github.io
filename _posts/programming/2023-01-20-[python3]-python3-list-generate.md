@@ -1,6 +1,6 @@
 ---
 layout: single
-title: python3 다차원 리스트 생성하기
+title: (python3) 다차원 리스트 생성하기
 category: programming
 tags: python3 list
 toc: true
