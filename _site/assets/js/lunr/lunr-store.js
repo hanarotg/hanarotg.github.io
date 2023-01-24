@@ -26,7 +26,7 @@ var store = [{
         "title": "react-native 개발할 때 알면 좋은 팁",
         "excerpt":"RN 플랫폼을 통해 모바일 앱을 개발할 때 잊어버리기 쉬운 좋은 팁이 여럿 있습니다. 한 포스트로 쓰기에는 사소하지만 까먹을 때마다 보기 좋은 팁들을 모아봤습니다. 제 블로그를 찾아주신 다른 분들에게도 도움이 되었으면 좋겠습니다. 공통 글자가 튀어나와요 부모 컴포넌트 스타일 속성에 아래 코드를 추가해 주세요. flexShrink: 1; React native text going off my...","categories": ["programming"],
         "tags": ["react-native"],
-        "url": "/programming/react-native-%EA%B0%9C%EB%B0%9C%ED%95%A0-%EB%95%8C-%EC%95%8C%EB%A9%B4-%EC%A2%8B%EC%9D%80-%ED%8C%81/",
+        "url": "/programming/react-native-development-tips/",
         "teaser": null
       },{
         "title": "Appstore Connect 앱 스크린샷 업로드 오류를 Curl API를 통해 우회적으로 해결하기",

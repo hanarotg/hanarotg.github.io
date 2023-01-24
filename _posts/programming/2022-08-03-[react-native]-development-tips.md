@@ -160,6 +160,24 @@ Command + Shift + K
 xcodeproj 파일이 아닌 xcworkspace 파일에 들어가 빌드를 다시 해봅니다.
 xcodeproj 파일에서 RN 기반 어플리케이션을 빌드할 때 발생하는 문제입니다.
 
+## 빌드 시 PhaseScriptExecution 에러
+
+
+```shell
+The following build commands failed:
+	PhaseScriptExecution [CP-User]\ Generate\ Specs /Users/taegyeonglee/Library/Developer/Xcode/DerivedData/Checked-dweldbcwquxwlsknliekndlc/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/FBReactNativeSpec.build/Script-34C70EFSED90A5EIL023AEB404F232A.sh (in target 'FBReactNativeSpec' from project 'Pods')
+(1 failure)
+```
+arm64 Mac 개발 환경에서 발생할 수 있는 문제인데 `nvm`가 기타 다른 모듈과 다른 아키텍처용으로 설치되어 있는 경우 발생할 수 있습니다. 
+
+아래 명령을 통해 `nvm`을 제거해 주세요. (nvm을 사용하지 않는 경우 해당)
+
+```
+brew uninstall nvm
+```
+
+- [https://stackoverflow.com/a/69573717/10815889](https://stackoverflow.com/a/69573717/10815889)
+
 # 배포
 
 ## 앱 아이콘 만들기
