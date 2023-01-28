@@ -2,7 +2,7 @@
 layout: single
 category: algorithm
 title: leetcode 205 Isomorphic Strings
-tags: leetcode python string
+tags: leetcode python3
 toc: true
 toc_sticky: true
 ---

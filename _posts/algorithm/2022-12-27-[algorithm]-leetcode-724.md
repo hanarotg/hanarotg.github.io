@@ -2,7 +2,7 @@
 layout: single
 category: algorithm
 title: leetcode 724 Find Pivot Index
-tags: leetcode python pivot
+tags: leetcode python3
 toc: true
 toc_sticky: true
 ---

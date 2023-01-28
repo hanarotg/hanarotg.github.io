@@ -1,4 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-26T00:59:51+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lee Taegyeong</title><subtitle>안녕하세요.</subtitle><entry><title type="html">운동, 독서, 알고리즘, 이력서에 관한 생각 (2023년 1월 16일 ~ 1월 23일) 3주차 리뷰</title><link href="http://localhost:4000/personal/personal-2023-3-weeks-review/" rel="alternate" type="text/html" title="운동, 독서, 알고리즘, 이력서에 관한 생각 (2023년 1월 16일 ~ 1월 23일) 3주차 리뷰" /><published>2023-01-23T00:00:00+00:00</published><updated>2023-01-23T00:00:00+00:00</updated><id>http://localhost:4000/personal/%5Bpersonal%5D-2023-3-weeks-review</id><content type="html" xml:base="http://localhost:4000/personal/personal-2023-3-weeks-review/"><![CDATA[<p>저번 주에 계획했던 계획을 어느 정도 달성하였는지, 무엇이 부족했는지, 다음 주 목표와 잡다한 생각을 정리하여 작성하였습니다.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-28T06:02:25+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lee Taegyeong</title><subtitle>안녕하세요.</subtitle><entry><title type="html">leetcode 167 Two Sum II - Input Array Is Sorted</title><link href="http://localhost:4000/algorithm/algorithm-leetcode-167/" rel="alternate" type="text/html" title="leetcode 167 Two Sum II - Input Array Is Sorted" /><published>2023-01-28T00:00:00+00:00</published><updated>2023-01-28T00:00:00+00:00</updated><id>http://localhost:4000/algorithm/%5Balgorithm%5D-leetcode-167</id><content type="html" xml:base="http://localhost:4000/algorithm/algorithm-leetcode-167/"><![CDATA[<p>Given a 1-indexed array of integers numbers that is already sorted in non-decreasing order, find two numbers such that they add up to a specific target number. Let these two numbers be numbers[index1] and numbers[index2] where 1 &lt;= index1 &lt; index2 &lt;= numbers.length.</p>
+
+<p>Return the indices of the two numbers, index1 and index2, added by one as an integer array [index1, index2] of length 2.</p>
+
+<p>The tests are generated such that there is exactly one solution. You may not use the same element twice.</p>
+
+<p>Your solution must use only constant extra space.</p>
+
+<ul>
+  <li><a href="https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/">https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/</a></li>
+</ul>
+
+<h1 id="problem">Problem</h1>
+
+<h2 id="intuitution">Intuitution</h2>
+
+<ul>
+  <li>use 2 pointers</li>
+  <li>keywords : sorted in non-decreasing order</li>
+</ul>
+
+<h2 id="wrong-aproach">Wrong Aproach</h2>
+
+<ul>
+  <li>TIME LIMIT : just use index and a pivot like loop for convenience</li>
+  <li>leck of programming skill with python3</li>
+  <li>use of additional <code class="language-plaintext highlighter-rouge">if</code> to be satisfied with each cases</li>
+  <li>use 1 hour to solve</li>
+</ul>
+
+<h2 id="aproach">Aproach</h2>
+
+<ul>
+  <li>use pivots( pivot_min, pivot, pivot_max) and <code class="language-plaintext highlighter-rouge">index</code></li>
+</ul>
+
+<h2 id="solution">Solution</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">twoSum</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">numbers</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">],</span> <span class="n">target</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">]:</span>
+        <span class="n">index</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="n">pivot_min</span> <span class="o">=</span> <span class="mi">1</span>
+        <span class="n">pivot_max</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">numbers</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span>
+        <span class="n">pivot</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">numbers</span><span class="p">)</span><span class="o">//</span><span class="mi">2</span>
+
+        <span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">target</span> <span class="o">&lt;</span> <span class="n">numbers</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="o">+</span> <span class="n">numbers</span><span class="p">[</span><span class="n">pivot</span><span class="p">]:</span>
+                <span class="n">pivot_max</span> <span class="o">=</span> <span class="n">pivot</span> <span class="o">-</span><span class="mi">1</span>
+            <span class="k">elif</span> <span class="n">target</span> <span class="o">==</span> <span class="n">numbers</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="o">+</span> <span class="n">numbers</span><span class="p">[</span><span class="n">pivot</span><span class="p">]:</span>
+                <span class="k">return</span> <span class="p">[</span><span class="n">index</span> <span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">pivot</span> <span class="o">+</span><span class="mi">1</span><span class="p">]</span>
+            <span class="k">elif</span> <span class="n">target</span> <span class="o">&gt;</span> <span class="n">numbers</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="o">+</span> <span class="n">numbers</span><span class="p">[</span><span class="n">pivot</span><span class="p">]:</span>
+                <span class="n">pivot_min</span> <span class="o">=</span> <span class="n">pivot</span> <span class="o">+</span><span class="mi">1</span>
+
+            <span class="c1"># when target is even larger than
+</span>            <span class="c1"># numbers[index] + numbers[last_index]
+</span>            <span class="k">if</span> <span class="n">pivot_max</span> <span class="o">&lt;</span> <span class="n">pivot_min</span><span class="p">:</span>
+                <span class="n">index</span> <span class="o">+=</span> <span class="mi">1</span>
+                <span class="n">pivot_min</span> <span class="o">=</span> <span class="n">index</span> <span class="o">+</span><span class="mi">1</span>
+
+            <span class="c1"># update pivot
+</span>            <span class="n">pivot</span> <span class="o">=</span> <span class="p">(</span><span class="n">pivot_min</span> <span class="o">+</span> <span class="n">pivot_max</span><span class="p">)</span><span class="o">//</span><span class="mi">2</span>
+</code></pre></div></div>]]></content><author><name></name></author><category term="algorithm" /><category term="leetcode" /><category term="python3" /><summary type="html"><![CDATA[Given a 1-indexed array of integers numbers that is already sorted in non-decreasing order, find two numbers such that they add up to a specific target number. Let these two numbers be numbers[index1] and numbers[index2] where 1 &lt;= index1 &lt; index2 &lt;= numbers.length.]]></summary></entry><entry><title type="html">운동, 독서, 알고리즘, 이력서에 관한 생각 (2023년 1월 16일 ~ 1월 23일) 3주차 리뷰</title><link href="http://localhost:4000/personal/personal-2023-3-weeks-review/" rel="alternate" type="text/html" title="운동, 독서, 알고리즘, 이력서에 관한 생각 (2023년 1월 16일 ~ 1월 23일) 3주차 리뷰" /><published>2023-01-23T00:00:00+00:00</published><updated>2023-01-23T00:00:00+00:00</updated><id>http://localhost:4000/personal/%5Bpersonal%5D-2023-3-weeks-review</id><content type="html" xml:base="http://localhost:4000/personal/personal-2023-3-weeks-review/"><![CDATA[<p>저번 주에 계획했던 계획을 어느 정도 달성하였는지, 무엇이 부족했는지, 다음 주 목표와 잡다한 생각을 정리하여 작성하였습니다.</p>
 
 <h1 id="목표">목표</h1>
 
@@ -239,7 +300,7 @@
 
         <span class="k">return</span> <span class="n">pivot_smallest</span>
 
-</code></pre></div></div>]]></content><author><name></name></author><category term="algorithm" /><category term="leetcode" /><category term="python" /><summary type="html"><![CDATA[You are a product manager and currently leading a team to develop a new product. Unfortunately, the latest version of your product fails the quality check. Since each version is developed based on the previous version, all the versions after a bad version are also bad.]]></summary></entry><entry><title type="html">Mac Homebrew로 node 버전 바꾸기</title><link href="http://localhost:4000/programming/brew-change-node-version-with-homebrew/" rel="alternate" type="text/html" title="Mac Homebrew로 node 버전 바꾸기" /><published>2023-01-16T00:00:00+00:00</published><updated>2023-01-16T00:00:00+00:00</updated><id>http://localhost:4000/programming/%5Bbrew%5D-change-node-version-with-homebrew</id><content type="html" xml:base="http://localhost:4000/programming/brew-change-node-version-with-homebrew/"><![CDATA[<p>vscode 코드에 궁금한 점이 생겨 로컬에 클론하게 되었습니다. 로컬 노드 버전이 19.04 인데 vscode 모듈 중 일부가 노드 v19를 지원하지 않아 앱 실행이 불가능했습니다.</p>
+</code></pre></div></div>]]></content><author><name></name></author><category term="algorithm" /><category term="leetcode" /><category term="python3" /><summary type="html"><![CDATA[You are a product manager and currently leading a team to develop a new product. Unfortunately, the latest version of your product fails the quality check. Since each version is developed based on the previous version, all the versions after a bad version are also bad.]]></summary></entry><entry><title type="html">Mac Homebrew로 node 버전 바꾸기</title><link href="http://localhost:4000/programming/brew-change-node-version-with-homebrew/" rel="alternate" type="text/html" title="Mac Homebrew로 node 버전 바꾸기" /><published>2023-01-16T00:00:00+00:00</published><updated>2023-01-16T00:00:00+00:00</updated><id>http://localhost:4000/programming/%5Bbrew%5D-change-node-version-with-homebrew</id><content type="html" xml:base="http://localhost:4000/programming/brew-change-node-version-with-homebrew/"><![CDATA[<p>vscode 코드에 궁금한 점이 생겨 로컬에 클론하게 되었습니다. 로컬 노드 버전이 19.04 인데 vscode 모듈 중 일부가 노드 v19를 지원하지 않아 앱 실행이 불가능했습니다.</p>
 
 <p>homebrew를 통해 node 버전을 바꾸어 보겠습니다.</p>
 
@@ -562,7 +623,7 @@ rm -rf '/opt/homebrew/lib/node_modules/npm'
             <span class="k">return</span> <span class="bp">False</span>
 
 
-</code></pre></div></div>]]></content><author><name></name></author><category term="algorithm" /><category term="leetcode" /><category term="python" /><category term="string" /><summary type="html"><![CDATA[Given two strings s and t, determine if they are isomorphic.]]></summary></entry><entry><title type="html">leetcode 724 Find Pivot Index</title><link href="http://localhost:4000/algorithm/algorithm-leetcode-724/" rel="alternate" type="text/html" title="leetcode 724 Find Pivot Index" /><published>2022-12-27T00:00:00+00:00</published><updated>2022-12-27T00:00:00+00:00</updated><id>http://localhost:4000/algorithm/%5Balgorithm%5D-leetcode-724</id><content type="html" xml:base="http://localhost:4000/algorithm/algorithm-leetcode-724/"><![CDATA[<p>Given an array of integers nums, calculate the pivot index of this array.</p>
+</code></pre></div></div>]]></content><author><name></name></author><category term="algorithm" /><category term="leetcode" /><category term="python3" /><summary type="html"><![CDATA[Given two strings s and t, determine if they are isomorphic.]]></summary></entry><entry><title type="html">leetcode 724 Find Pivot Index</title><link href="http://localhost:4000/algorithm/algorithm-leetcode-724/" rel="alternate" type="text/html" title="leetcode 724 Find Pivot Index" /><published>2022-12-27T00:00:00+00:00</published><updated>2022-12-27T00:00:00+00:00</updated><id>http://localhost:4000/algorithm/%5Balgorithm%5D-leetcode-724</id><content type="html" xml:base="http://localhost:4000/algorithm/algorithm-leetcode-724/"><![CDATA[<p>Given an array of integers nums, calculate the pivot index of this array.</p>
 
 <p>The pivot index is the index where the sum of all the numbers strictly to the left of the index is equal to the sum of all the numbers strictly to the index’s right.</p>
 
@@ -598,55 +659,4 @@ rm -rf '/opt/homebrew/lib/node_modules/npm'
                 <span class="k">return</span> <span class="n">index</span>
 
         <span class="k">return</span> <span class="o">-</span><span class="mi">1</span>
-</code></pre></div></div>]]></content><author><name></name></author><category term="algorithm" /><category term="leetcode" /><category term="python" /><category term="pivot" /><summary type="html"><![CDATA[Given an array of integers nums, calculate the pivot index of this array.]]></summary></entry><entry><title type="html">React-Native Pressable 컴포넌트로 재사용 가능한 버튼 구성하기</title><link href="http://localhost:4000/programming/react-native-reusable-pressable-component-design/" rel="alternate" type="text/html" title="React-Native Pressable 컴포넌트로 재사용 가능한 버튼 구성하기" /><published>2022-12-24T00:00:00+00:00</published><updated>2022-12-24T00:00:00+00:00</updated><id>http://localhost:4000/programming/%5Breact-native%5D-reusable-pressable-component-design</id><content type="html" xml:base="http://localhost:4000/programming/react-native-reusable-pressable-component-design/"><![CDATA[<p>Presssable 컴포넌트는 RN 앱 개발을 위해 반드시 알아야 하는 컴포넌트입니다. press 상호작용에 관한 기능을 제공하는 컴포넌트이기 때문에 적절히 커스텀해서 버튼 등의 기능을 대신할 수 있습니다. (RN 기본 컴포넌트 Button 컴포넌트는 너무 빈약합니다.)</p>
-
-<h1 id="재사용-가능한-버튼-구성">재사용 가능한 버튼 구성</h1>
-
-<p>그러나 Pressable을 재사용 가능한 버튼으로 바로 사용하기에는 난감한 문제들이 있습니다. 버튼 뿐만 아니라 기타 press event에도 대응하기 위해(버튼 그 이상의 목적으로 광범위한 용도를 위해) 만들어졌기 때문입니다.</p>
-
-<h2 id="구성">구성</h2>
-
-<p><code class="language-plaintext highlighter-rouge">ButtonCustom.js</code> 예</p>
-
-<div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="nx">React</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">react</span><span class="dl">"</span><span class="p">;</span>
-<span class="k">import</span> <span class="p">{</span> <span class="nx">Pressable</span><span class="p">,</span> <span class="nx">Text</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">react-native</span><span class="dl">"</span><span class="p">;</span>
-
-<span class="kd">const</span> <span class="nx">ButtonCustom</span> <span class="o">=</span> <span class="p">({</span> <span class="nx">onPress</span><span class="p">,</span> <span class="nx">text</span><span class="p">,</span> <span class="nx">type</span><span class="p">,</span> <span class="nx">line</span> <span class="p">})</span> <span class="o">=&gt;</span> <span class="p">{</span>
-  <span class="k">return</span> <span class="p">(</span>
-    <span class="p">&lt;</span><span class="nc">Pressable</span>
-      <span class="na">onPress</span><span class="p">=</span><span class="si">{</span><span class="nx">onPress</span><span class="si">}</span>
-      <span class="na">style</span><span class="p">=</span><span class="si">{</span><span class="p">({</span> <span class="nx">pressed</span> <span class="p">})</span> <span class="o">=&gt;</span> <span class="p">[</span>
-        <span class="p">{</span>
-          <span class="c1">// 모든 버튼이 공유하는 고정값</span>
-          <span class="na">padding</span><span class="p">:</span> <span class="mi">14</span><span class="p">,</span>
-          <span class="na">borderRadius</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span>
-          <span class="na">borderWidth</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
-          <span class="na">alignItems</span><span class="p">:</span> <span class="dl">"</span><span class="s2">center</span><span class="dl">"</span><span class="p">,</span>
-          <span class="c1">// 받은 인자에 따라 변화하는 값</span>
-          <span class="na">borderColor</span><span class="p">:</span> <span class="nx">line</span> <span class="p">?</span> <span class="nx">line</span> <span class="p">:</span> <span class="nx">color</span><span class="p">,</span>
-          <span class="na">backgroundColor</span><span class="p">:</span> <span class="nx">pressed</span> <span class="p">?</span> <span class="nx">color</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">#ffffff</span><span class="dl">"</span><span class="p">,</span>
-        <span class="p">},</span>
-      <span class="p">]</span><span class="si">}</span>
-    <span class="p">&gt;</span>
-      <span class="p">&lt;</span><span class="nc">Text</span> <span class="na">style</span><span class="p">=</span><span class="si">{</span><span class="p">{</span> <span class="na">color</span><span class="p">:</span> <span class="nx">color</span> <span class="p">}</span><span class="si">}</span><span class="p">&gt;</span><span class="si">{</span><span class="nx">text</span><span class="si">}</span><span class="p">&lt;/</span><span class="nc">Text</span><span class="p">&gt;</span>
-    <span class="p">&lt;/</span><span class="nc">Pressable</span><span class="p">&gt;</span>
-  <span class="p">);</span>
-<span class="p">};</span>
-
-<span class="k">export</span> <span class="k">default</span> <span class="nx">ButtonCustom</span><span class="p">;</span>
-</code></pre></div></div>
-
-<h2 id="사용">사용</h2>
-
-<p>사용 예)</p>
-
-<div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">&lt;</span><span class="nc">View</span> <span class="na">style</span><span class="p">=</span><span class="si">{</span><span class="p">{</span> <span class="na">paddingBottom</span><span class="p">:</span> <span class="mi">10</span> <span class="p">}</span><span class="si">}</span><span class="p">&gt;</span>
-  <span class="p">&lt;</span><span class="nc">ButtonCustom</span>
-    <span class="na">text</span><span class="p">=</span><span class="s">"도서 상세 정보"</span>
-    <span class="na">type</span><span class="p">=</span><span class="s">"primary"</span>
-    <span class="na">onPress</span><span class="p">=</span><span class="si">{</span><span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
-      <span class="nx">Linking</span><span class="p">.</span><span class="nx">openURL</span><span class="p">(</span><span class="nx">book</span> <span class="o">&amp;&amp;</span> <span class="nx">book</span><span class="p">.</span><span class="nx">url</span><span class="p">);</span>
-    <span class="p">}</span><span class="si">}</span>
-  <span class="p">/&gt;</span>
-<span class="p">&lt;/</span><span class="nc">View</span><span class="p">&gt;</span>
-</code></pre></div></div>]]></content><author><name></name></author><category term="programming" /><category term="react-native" /><category term="pressable" /><category term="resuable" /><category term="sa" /><summary type="html"><![CDATA[Presssable 컴포넌트는 RN 앱 개발을 위해 반드시 알아야 하는 컴포넌트입니다. press 상호작용에 관한 기능을 제공하는 컴포넌트이기 때문에 적절히 커스텀해서 버튼 등의 기능을 대신할 수 있습니다. (RN 기본 컴포넌트 Button 컴포넌트는 너무 빈약합니다.)]]></summary></entry></feed>
+</code></pre></div></div>]]></content><author><name></name></author><category term="algorithm" /><category term="leetcode" /><category term="python3" /><summary type="html"><![CDATA[Given an array of integers nums, calculate the pivot index of this array.]]></summary></entry></feed>

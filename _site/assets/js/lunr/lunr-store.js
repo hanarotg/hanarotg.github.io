@@ -85,13 +85,13 @@ var store = [{
       },{
         "title": "leetcode 724 Find Pivot Index",
         "excerpt":"Given an array of integers nums, calculate the pivot index of this array. The pivot index is the index where the sum of all the numbers strictly to the left of the index is equal to the sum of all the numbers strictly to the index’s right. If the index...","categories": ["algorithm"],
-        "tags": ["leetcode","python","pivot"],
+        "tags": ["leetcode","python3"],
         "url": "/algorithm/algorithm-leetcode-724/",
         "teaser": null
       },{
         "title": "leetcode 205 Isomorphic Strings",
         "excerpt":"Given two strings s and t, determine if they are isomorphic. Two strings s and t are isomorphic if the characters in s can be replaced to get t. All occurrences of a character must be replaced with another character while preserving the order of characters. No two characters may...","categories": ["algorithm"],
-        "tags": ["leetcode","python","string"],
+        "tags": ["leetcode","python3"],
         "url": "/algorithm/algorithm-leetcode-205/",
         "teaser": null
       },{
@@ -121,7 +121,7 @@ var store = [{
       },{
         "title": "leetcode 278 First Bad Version",
         "excerpt":"You are a product manager and currently leading a team to develop a new product. Unfortunately, the latest version of your product fails the quality check. Since each version is developed based on the previous version, all the versions after a bad version are also bad. Suppose you have n...","categories": ["algorithm"],
-        "tags": ["leetcode","python"],
+        "tags": ["leetcode","python3"],
         "url": "/algorithm/algorithm-leetcode-278/",
         "teaser": null
       },{
@@ -135,6 +135,12 @@ var store = [{
         "excerpt":"저번 주에 계획했던 계획을 어느 정도 달성하였는지, 무엇이 부족했는지, 다음 주 목표와 잡다한 생각을 정리하여 작성하였습니다. 목표 저번 주 피드백 독서 : good 운동 : normal 실패) 1주 1야식 초과 금지 성공) 화요일 운동 알고리즘 : normal 실패) 효율적인 알고리즘 문제풀이 시간 관리 / 규칙적인 문제 풀이 성공) 데일리 문제...","categories": ["personal"],
         "tags": [],
         "url": "/personal/personal-2023-3-weeks-review/",
+        "teaser": null
+      },{
+        "title": "leetcode 167 Two Sum II - Input Array Is Sorted",
+        "excerpt":"Given a 1-indexed array of integers numbers that is already sorted in non-decreasing order, find two numbers such that they add up to a specific target number. Let these two numbers be numbers[index1] and numbers[index2] where 1 &lt;= index1 &lt; index2 &lt;= numbers.length. Return the indices of the two numbers,...","categories": ["algorithm"],
+        "tags": ["leetcode","python3"],
+        "url": "/algorithm/algorithm-leetcode-167/",
         "teaser": null
       },{
     "title": "Taegyeong Lee",

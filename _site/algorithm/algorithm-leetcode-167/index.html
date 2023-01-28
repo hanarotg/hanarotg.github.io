@@ -9,38 +9,38 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>leetcode 205 Isomorphic Strings - Lee Taegyeong</title>
-<meta name="description" content="Given two strings s and t, determine if they are isomorphic.">
+<!-- begin _includes/seo.html --><title>leetcode 167 Two Sum II - Input Array Is Sorted - Lee Taegyeong</title>
+<meta name="description" content="Given a 1-indexed array of integers numbers that is already sorted in non-decreasing order, find two numbers such that they add up to a specific target number. Let these two numbers be numbers[index1] and numbers[index2] where 1 &lt;= index1 &lt; index2 &lt;= numbers.length.">
 
 
 
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Lee Taegyeong">
-<meta property="og:title" content="leetcode 205 Isomorphic Strings">
-<meta property="og:url" content="http://localhost:4000/algorithm/algorithm-leetcode-205/">
+<meta property="og:title" content="leetcode 167 Two Sum II - Input Array Is Sorted">
+<meta property="og:url" content="http://localhost:4000/algorithm/algorithm-leetcode-167/">
 
 
-  <meta property="og:description" content="Given two strings s and t, determine if they are isomorphic.">
-
-
-
-
-
-
-
-  <meta property="article:published_time" content="2022-12-28T00:00:00+00:00">
+  <meta property="og:description" content="Given a 1-indexed array of integers numbers that is already sorted in non-decreasing order, find two numbers such that they add up to a specific target number. Let these two numbers be numbers[index1] and numbers[index2] where 1 &lt;= index1 &lt; index2 &lt;= numbers.length.">
 
 
 
 
 
-  
+
+
+  <meta property="article:published_time" content="2023-01-28T00:00:00+00:00">
+
+
+
+
 
   
 
+  
 
-<link rel="canonical" href="http://localhost:4000/algorithm/algorithm-leetcode-205/">
+
+<link rel="canonical" href="http://localhost:4000/algorithm/algorithm-leetcode-167/">
 
 
 
@@ -155,13 +155,13 @@
   >
     <meta
       itemprop="headline"
-      content="leetcode 205 Isomorphic Strings"
+      content="leetcode 167 Two Sum II - Input Array Is Sorted"
     /> <meta
       itemprop="description"
-      content="Given two strings s and t, determine if they are isomorphic."
+      content="Given a 1-indexed array of integers numbers that is already sorted in non-decreasing order, find two numbers such that they add up to a specific target number. Let these two numbers be numbers[index1] and numbers[index2] where 1 &lt;= index1 &lt; index2 &lt;= numbers.length."
     /> <meta
       itemprop="datePublished"
-      content="2022-12-28T00:00:00+00:00"
+      content="2023-01-28T00:00:00+00:00"
     /> 
 
     <div class="page__inner-wrap">
@@ -169,8 +169,8 @@
       <header>
         
         <h1 id="page-title" class="page__title p-name" itemprop="headline">
-          <a href="http://localhost:4000/algorithm/algorithm-leetcode-205/" class="u-url" itemprop="url"
-            ><p>leetcode 205 Isomorphic Strings</p>
+          <a href="http://localhost:4000/algorithm/algorithm-leetcode-167/" class="u-url" itemprop="url"
+            ><p>leetcode 167 Two Sum II - Input Array Is Sorted</p>
 </a
           >
         </h1>
@@ -179,8 +179,8 @@
    
   <span class="page__meta-date">
     
-    <time datetime="2022-12-28T00:00:00+00:00"
-      >December 28, 2022</time
+    <time datetime="2023-01-28T00:00:00+00:00"
+      >January 28, 2023</time
     >
   </span>
    <span
@@ -190,7 +190,7 @@
   
 
   <span class="page__meta-readtime">
-     less than 1 minute read 
+     1 minute read 
   </span>
 
   <span class="page__meta-sep"></span>
@@ -217,14 +217,16 @@
 
           </nav>
         </aside>
-         <p>Given two strings s and t, determine if they are isomorphic.</p>
+         <p>Given a 1-indexed array of integers numbers that is already sorted in non-decreasing order, find two numbers such that they add up to a specific target number. Let these two numbers be numbers[index1] and numbers[index2] where 1 &lt;= index1 &lt; index2 &lt;= numbers.length.</p>
 
-<p>Two strings s and t are isomorphic if the characters in s can be replaced to get t.</p>
+<p>Return the indices of the two numbers, index1 and index2, added by one as an integer array [index1, index2] of length 2.</p>
 
-<p>All occurrences of a character must be replaced with another character while preserving the order of characters. No two characters may map to the same character, but a character may map to itself.</p>
+<p>The tests are generated such that there is exactly one solution. You may not use the same element twice.</p>
+
+<p>Your solution must use only constant extra space.</p>
 
 <ul>
-  <li><a href="https://leetcode.com/problems/isomorphic-strings/">https://leetcode.com/problems/isomorphic-strings/</a></li>
+  <li><a href="https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/">https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/</a></li>
 </ul>
 
 <h1 id="problem">Problem</h1>
@@ -232,53 +234,50 @@
 <h2 id="intuitution">Intuitution</h2>
 
 <ul>
-  <li>compare with loop</li>
-  <li>to compare style of two strings, change them to 3rd style
-    <ul>
-      <li>e.g., “egg” -&gt; 011, “bar” -&gt; 012</li>
-    </ul>
-  </li>
+  <li>use 2 pointers</li>
+  <li>keywords : sorted in non-decreasing order</li>
 </ul>
 
 <h2 id="wrong-aproach">Wrong Aproach</h2>
 
 <ul>
-  <li>compare only counter variable</li>
-  <li>misunderstanding of problem</li>
-  <li>wasted 20mins</li>
-  <li>problems like this, do not waste time more than 20 mins</li>
+  <li>TIME LIMIT : just use index and a pivot like loop for convenience</li>
+  <li>leck of programming skill with python3</li>
+  <li>use of additional <code class="language-plaintext highlighter-rouge">if</code> to be satisfied with each cases</li>
+  <li>use 1 hour to solve</li>
 </ul>
 
 <h2 id="aproach">Aproach</h2>
 
-<p>use list and counter variable and determine T/F whether <code class="language-plaintext highlighter-rouge">s_list</code> equals with <code class="language-plaintext highlighter-rouge">t_list</code></p>
+<ul>
+  <li>use pivots( pivot_min, pivot, pivot_max) and <code class="language-plaintext highlighter-rouge">index</code></li>
+</ul>
 
 <h2 id="solution">Solution</h2>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
-    <span class="k">def</span> <span class="nf">isIsomorphic</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">s</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">t</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
-        <span class="n">s_count</span><span class="p">,</span> <span class="n">t_count</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span><span class="mi">0</span>
-        <span class="n">s_list</span><span class="p">,</span> <span class="n">t_list</span> <span class="o">=</span> <span class="p">[],</span> <span class="p">[]</span>
+    <span class="k">def</span> <span class="nf">twoSum</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">numbers</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">],</span> <span class="n">target</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">]:</span>
+        <span class="n">index</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="n">pivot_min</span> <span class="o">=</span> <span class="mi">1</span>
+        <span class="n">pivot_max</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">numbers</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span>
+        <span class="n">pivot</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">numbers</span><span class="p">)</span><span class="o">//</span><span class="mi">2</span>
 
-        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">s</span><span class="p">)):</span>
-            <span class="c1"># search s
-</span>            <span class="k">for</span> <span class="n">s_i</span><span class="p">,</span> <span class="n">s_v</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">s</span><span class="p">[:</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]):</span>
-                <span class="k">if</span> <span class="n">s_v</span> <span class="o">==</span> <span class="n">s</span><span class="p">[</span><span class="n">i</span><span class="p">]:</span>
-                    <span class="n">s_list</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">s_count</span><span class="p">)</span>
-                    <span class="k">break</span>
-                <span class="n">s_count</span> <span class="o">+=</span> <span class="mi">1</span>
-            <span class="c1"># search t
-</span>            <span class="k">for</span> <span class="n">t_i</span><span class="p">,</span> <span class="n">t_v</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">t</span><span class="p">[:</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]):</span>
-                <span class="k">if</span> <span class="n">t_v</span> <span class="o">==</span> <span class="n">t</span><span class="p">[</span><span class="n">i</span><span class="p">]:</span>
-                    <span class="n">t_list</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">t_count</span><span class="p">)</span>
-                    <span class="k">break</span>
-                <span class="n">t_count</span> <span class="o">+=</span> <span class="mi">1</span>
-        <span class="k">if</span> <span class="n">s_list</span> <span class="o">==</span> <span class="n">t_list</span><span class="p">:</span>
-            <span class="k">return</span> <span class="bp">True</span>
-        <span class="k">else</span> <span class="p">:</span>
-            <span class="k">return</span> <span class="bp">False</span>
+        <span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">target</span> <span class="o">&lt;</span> <span class="n">numbers</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="o">+</span> <span class="n">numbers</span><span class="p">[</span><span class="n">pivot</span><span class="p">]:</span>
+                <span class="n">pivot_max</span> <span class="o">=</span> <span class="n">pivot</span> <span class="o">-</span><span class="mi">1</span>
+            <span class="k">elif</span> <span class="n">target</span> <span class="o">==</span> <span class="n">numbers</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="o">+</span> <span class="n">numbers</span><span class="p">[</span><span class="n">pivot</span><span class="p">]:</span>
+                <span class="k">return</span> <span class="p">[</span><span class="n">index</span> <span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">pivot</span> <span class="o">+</span><span class="mi">1</span><span class="p">]</span>
+            <span class="k">elif</span> <span class="n">target</span> <span class="o">&gt;</span> <span class="n">numbers</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="o">+</span> <span class="n">numbers</span><span class="p">[</span><span class="n">pivot</span><span class="p">]:</span>
+                <span class="n">pivot_min</span> <span class="o">=</span> <span class="n">pivot</span> <span class="o">+</span><span class="mi">1</span>
 
+            <span class="c1"># when target is even larger than
+</span>            <span class="c1"># numbers[index] + numbers[last_index]
+</span>            <span class="k">if</span> <span class="n">pivot_max</span> <span class="o">&lt;</span> <span class="n">pivot_min</span><span class="p">:</span>
+                <span class="n">index</span> <span class="o">+=</span> <span class="mi">1</span>
+                <span class="n">pivot_min</span> <span class="o">=</span> <span class="n">index</span> <span class="o">+</span><span class="mi">1</span>
 
+            <span class="c1"># update pivot
+</span>            <span class="n">pivot</span> <span class="o">=</span> <span class="p">(</span><span class="n">pivot_min</span> <span class="o">+</span> <span class="n">pivot_max</span><span class="p">)</span><span class="o">//</span><span class="mi">2</span>
 </code></pre></div></div>
  
       </section>
@@ -320,19 +319,18 @@
 
  
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2022-12-28T00:00:00+00:00">December 28, 2022</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2023-01-28T00:00:00+00:00">January 28, 2023</time></p>
 
       </footer>
 
        
   <nav class="pagination">
     
-      <a href="/algorithm/algorithm-leetcode-724/" class="pagination--pager" title="leetcode 724 Find Pivot Index
+      <a href="/personal/personal-2023-3-weeks-review/" class="pagination--pager" title="운동, 독서, 알고리즘, 이력서에 관한 생각 (2023년 1월 16일 ~ 1월 23일) 3주차 리뷰
 ">Previous</a>
     
     
-      <a href="/personal/personal-2022-retrospect/" class="pagination--pager" title="2022 회고
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 

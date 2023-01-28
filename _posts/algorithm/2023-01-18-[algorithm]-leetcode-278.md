@@ -2,7 +2,7 @@
 layout: single
 category: algorithm
 title: leetcode 278 First Bad Version
-tags: leetcode python
+tags: leetcode python3
 toc: true
 toc_sticky: true
 ---
