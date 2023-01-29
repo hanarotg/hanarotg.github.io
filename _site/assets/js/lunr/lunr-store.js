@@ -152,9 +152,6 @@ var store = [{
     "title": "Posts by Categories",
     "excerpt":" ","url": "http://localhost:4000/categories/"
   },{
-    "title": "Checked",
-    "excerpt":"독서 기록 앱  ","url": "http://localhost:4000/_pages/checked/"
-  },{
     "title": null,
     "excerpt":"","url": "http://localhost:4000/"
   },{
@@ -181,6 +178,9 @@ var store = [{
   },{
     "title": "Posts by Tags",
     "excerpt":"","url": "http://localhost:4000/tags/"
+  },{
+    "title": "Checked",
+    "excerpt":"독서 기록 앱 ","url": "http://localhost:4000/tags/#checked/"
   },{
     "title": null,
     "excerpt":"","url": "http://localhost:4000/page2/"
