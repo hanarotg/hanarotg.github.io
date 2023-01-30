@@ -143,6 +143,12 @@ var store = [{
         "url": "/algorithm/algorithm-leetcode-167/",
         "teaser": null
       },{
+        "title": "알고리즘, 개인 프로젝트 (2023년 1월 24일 ~ 30일) 4주차 리뷰",
+        "excerpt":"지난 주 목표 설정 했던 요소를 체크하고 부족한 부분에 대해 다시 재조정해보겠습니다. 목표 목표 성과 관리 (독서, 운동) 공부 (알고리즘) 개인 프로젝트 - 체크드 업데이트 개인 프로젝트 - 숭파이 안드로이드 개발 기타(동아리) 주로 개인 프로젝트 목표를 이루지 못했습니다. 프로젝트 금방 하겠지 라는.. 생각으로 얕보았습니다. 보다 시간이 많이 걸리니 조금 기한을...","categories": ["personal"],
+        "tags": [],
+        "url": "/personal/personal-2030-Jan-4-week-review/",
+        "teaser": null
+      },{
     "title": "Taegyeong Lee",
     "excerpt":"안녕하세요, 이태경입니다.      Email : hanarotg@naver.com   Github : https://github.com/hanarotg   Blog : https://hanarotg.github.io   LeetCode : https://leetcode.com/hanarotg/   Resume   준비중입니다.   Summary   main project      Checked (Personal Project)   Stylehero (Fullstack Developer)   minor project      S3CM.js   Education      Soongsil University - Computer Science &amp; engineering (BS, ~ 2024.03)  ","url": "http://localhost:4000/_pages/about/"
   },{

@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-29T08:26:27+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lee Taegyeong</title><subtitle>안녕하세요.</subtitle><entry><title type="html">leetcode 167 Two Sum II - Input Array Is Sorted</title><link href="http://localhost:4000/algorithm/algorithm-leetcode-167/" rel="alternate" type="text/html" title="leetcode 167 Two Sum II - Input Array Is Sorted" /><published>2023-01-28T00:00:00+00:00</published><updated>2023-01-28T00:00:00+00:00</updated><id>http://localhost:4000/algorithm/%5Balgorithm%5D-leetcode-167</id><content type="html" xml:base="http://localhost:4000/algorithm/algorithm-leetcode-167/"><![CDATA[<p>Given a 1-indexed array of integers numbers that is already sorted in non-decreasing order, find two numbers such that they add up to a specific target number. Let these two numbers be numbers[index1] and numbers[index2] where 1 &lt;= index1 &lt; index2 &lt;= numbers.length.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-30T13:05:02+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lee Taegyeong</title><subtitle>안녕하세요.</subtitle><entry><title type="html">알고리즘, 개인 프로젝트 (2023년 1월 24일 ~ 30일) 4주차 리뷰</title><link href="http://localhost:4000/personal/personal-2030-Jan-4-week-review/" rel="alternate" type="text/html" title="알고리즘, 개인 프로젝트 (2023년 1월 24일 ~ 30일) 4주차 리뷰" /><published>2023-01-30T00:00:00+00:00</published><updated>2023-01-30T00:00:00+00:00</updated><id>http://localhost:4000/personal/%5Bpersonal%5D-2030-Jan-4-week-review</id><content type="html" xml:base="http://localhost:4000/personal/personal-2030-Jan-4-week-review/"><![CDATA[<p>지난 주 목표 설정 했던 요소를 체크하고 부족한 부분에 대해 다시 재조정해보겠습니다.</p>
+
+<h1 id="목표">목표</h1>
+
+<h2 id="목표-성과">목표 성과</h2>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />관리 (독서, 운동)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />공부 (알고리즘)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />개인 프로젝트 - 체크드 업데이트</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />개인 프로젝트 - 숭파이 안드로이드 개발</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />기타(동아리)</li>
+</ul>
+
+<p>주로 개인 프로젝트 목표를 이루지 못했습니다. 프로젝트 금방 하겠지 라는.. 생각으로 얕보았습니다. 보다 시간이 많이 걸리니 조금 기한을 늘려 다시 재조정해보겠습니다.</p>
+
+<h2 id="다음-주-목표">다음 주 목표</h2>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />관리 (독서, 운동) - 유지</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />공부 (알고리즘)
+    <ul>
+      <li><strong>중점</strong> 시간을 보다 효율적으로 사용하기 / 내 것으로 만드는 노하우가 부족함 -&gt; 내 것으로 만들 수 있는 방법을 알아내는 것이 이번 주 목표</li>
+    </ul>
+  </li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />개인프로젝트 - 숭파이 안드로이드 개발
+    <ul>
+      <li><strong>중점</strong> <code class="language-plaintext highlighter-rouge">Context</code> 등 안드로이드 개발 시 반드시 알아야 하는 개념</li>
+    </ul>
+  </li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />기타</li>
+</ul>
+
+<p>이번 주차는 요정도만 작성하고 마무리하겠습니다. 저번 주 글을 쓰는 데 너무 많은 시간을 소비하는 것 같습니다. 투자하는 시작은 차근차근 줄였다가 요령이 생기면 다시 길게 써보도록 하겠습니다.</p>]]></content><author><name></name></author><category term="personal" /><summary type="html"><![CDATA[지난 주 목표 설정 했던 요소를 체크하고 부족한 부분에 대해 다시 재조정해보겠습니다.]]></summary></entry><entry><title type="html">leetcode 167 Two Sum II - Input Array Is Sorted</title><link href="http://localhost:4000/algorithm/algorithm-leetcode-167/" rel="alternate" type="text/html" title="leetcode 167 Two Sum II - Input Array Is Sorted" /><published>2023-01-28T00:00:00+00:00</published><updated>2023-01-28T00:00:00+00:00</updated><id>http://localhost:4000/algorithm/%5Balgorithm%5D-leetcode-167</id><content type="html" xml:base="http://localhost:4000/algorithm/algorithm-leetcode-167/"><![CDATA[<p>Given a 1-indexed array of integers numbers that is already sorted in non-decreasing order, find two numbers such that they add up to a specific target number. Let these two numbers be numbers[index1] and numbers[index2] where 1 &lt;= index1 &lt; index2 &lt;= numbers.length.</p>
 
 <p>Return the indices of the two numbers, index1 and index2, added by one as an integer array [index1, index2] of length 2.</p>
 
@@ -623,40 +656,4 @@ rm -rf '/opt/homebrew/lib/node_modules/npm'
             <span class="k">return</span> <span class="bp">False</span>
 
 
-</code></pre></div></div>]]></content><author><name></name></author><category term="algorithm" /><category term="leetcode" /><category term="python3" /><summary type="html"><![CDATA[Given two strings s and t, determine if they are isomorphic.]]></summary></entry><entry><title type="html">leetcode 724 Find Pivot Index</title><link href="http://localhost:4000/algorithm/algorithm-leetcode-724/" rel="alternate" type="text/html" title="leetcode 724 Find Pivot Index" /><published>2022-12-27T00:00:00+00:00</published><updated>2022-12-27T00:00:00+00:00</updated><id>http://localhost:4000/algorithm/%5Balgorithm%5D-leetcode-724</id><content type="html" xml:base="http://localhost:4000/algorithm/algorithm-leetcode-724/"><![CDATA[<p>Given an array of integers nums, calculate the pivot index of this array.</p>
-
-<p>The pivot index is the index where the sum of all the numbers strictly to the left of the index is equal to the sum of all the numbers strictly to the index’s right.</p>
-
-<p>If the index is on the left edge of the array, then the left sum is 0 because there are no elements to the left. This also applies to the right edge of the array.</p>
-
-<p>Return the leftmost pivot index. If no such index exists, return -1.</p>
-
-<ul>
-  <li><a href="https://leetcode.com/problems/find-pivot-index">https://leetcode.com/problems/find-pivot-index</a></li>
-</ul>
-
-<h1 id="problem">Problem</h1>
-
-<h2 id="intuitution">Intuitution</h2>
-
-<ul>
-  <li>pivot, used as sorting algorithim</li>
-  <li>meaning of leftmost pivot index</li>
-  <li>use python function like <code class="language-plaintext highlighter-rouge">sum</code> and slicing list</li>
-</ul>
-
-<h2 id="aproach">Aproach</h2>
-
-<p>compare sum of left side and right side of nums from left to right</p>
-
-<h2 id="solution">Solution</h2>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
-    <span class="k">def</span> <span class="nf">pivotIndex</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">nums</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
-
-        <span class="k">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">nums</span><span class="p">):</span>
-            <span class="k">if</span> <span class="nb">sum</span><span class="p">(</span><span class="n">nums</span><span class="p">[:</span><span class="n">index</span><span class="o">+</span><span class="mi">1</span><span class="p">])</span> <span class="o">==</span> <span class="nb">sum</span><span class="p">(</span><span class="n">nums</span><span class="p">[</span><span class="n">index</span><span class="p">:]):</span>
-                <span class="k">return</span> <span class="n">index</span>
-
-        <span class="k">return</span> <span class="o">-</span><span class="mi">1</span>
-</code></pre></div></div>]]></content><author><name></name></author><category term="algorithm" /><category term="leetcode" /><category term="python3" /><summary type="html"><![CDATA[Given an array of integers nums, calculate the pivot index of this array.]]></summary></entry></feed>
+</code></pre></div></div>]]></content><author><name></name></author><category term="algorithm" /><category term="leetcode" /><category term="python3" /><summary type="html"><![CDATA[Given two strings s and t, determine if they are isomorphic.]]></summary></entry></feed>
