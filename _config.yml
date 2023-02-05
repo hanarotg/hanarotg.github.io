@@ -14,6 +14,18 @@ markdown: kramdown
 exclude:
   - .jekyll-cache
 
+tag_archive:
+  type: liquid
+  path: /tags/
+  # https://github.com/jekyll/jekyll-archives
+  jekyll-archives:
+    enabled:
+      - tags
+    layouts:
+      tag: tag
+    permalinks:
+      tag: /tag/:name/
+
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
@@ -50,3 +62,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
+gems:
+  - jekyll-seo-tag
