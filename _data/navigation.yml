@@ -12,23 +12,23 @@ categories:
     name: 컴퓨터공학
     list:
       - title: 알고리즘
-        url: /tag/algorithm
+        url: /tags/algorithm
   - subject:
     name: 엔지니어링
     list:
       - title: React Native
-        url: /tag/react-native/
+        url: /tags/react-native/
       - title: Node.js
-        url: /tag/node/
+        url: /tags/node/
       - title: AWS
-        url: /tag/aws/
+        url: /tags/aws/
   - subject:
     name: 프로젝트
     list:
       - title: 체크드
-        url: /tag/checked/
+        url: /tags/checked/
       - title: 스타일히어로
-        url: /tag/stylehero/
+        url: /tags/stylehero/
   - subject:
     name: 개인
     list:
