@@ -2,7 +2,7 @@
 layout: single
 category: personal
 title: 알고리즘, 개인 프로젝트 (2023년 1월 24일 ~ 30일) 4주차 리뷰
-tags: 2023
+tags: 2023 personal
 toc: true
 toc_sticky: true
 ---

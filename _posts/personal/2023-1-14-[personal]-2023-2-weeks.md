@@ -2,7 +2,7 @@
 layout: single
 category: personal
 title: 동아리 합숙, 인턴 지원, 이메일 멘토링 (2023년 1월 1일 ~ 1월 15일) 2주 리뷰
-tags: 2023
+tags: 2023 personal
 toc: true
 toc_sticky: true
 ---

@@ -2,7 +2,7 @@
 layout: single
 category: algorithm
 title: leetcode 167 Two Sum II - Input Array Is Sorted
-tags: leetcode python3
+tags: leetcode python3 algorithm
 toc: true
 toc_sticky: true
 ---

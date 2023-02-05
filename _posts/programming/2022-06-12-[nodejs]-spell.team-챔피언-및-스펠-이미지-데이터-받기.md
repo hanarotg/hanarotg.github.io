@@ -2,7 +2,7 @@
 layout: single
 title: lol 챔피언 및 스펠 이미지 데이터 받기
 category: programming
-tags: spellteam leagueoflegends nodejs
+tags: spellteam leagueoflegends node
 toc: true
 toc_sticky: true
 ---

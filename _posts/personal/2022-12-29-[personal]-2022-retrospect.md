@@ -2,7 +2,7 @@
 layout: single
 category: personal
 title: 2022 회고
-tags: 2022
+tags: 2022 personal
 toc: true
 toc_sticky: true
 ---

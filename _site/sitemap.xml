@@ -1,406 +1,243 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
-        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    
-    <url>
-        <loc>http://localhost:4000/personal/personal-2030-Jan-4-week-review/</loc>
-        
-        <lastmod>2023-01-30T00:00:00+00:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/algorithm/algorithm-leetcode-167/</loc>
-        
-        <lastmod>2023-01-28T00:00:00+00:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/personal/personal-2023-3-weeks-review/</loc>
-        
-        <lastmod>2023-01-23T00:00:00+00:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/programming/python3-python3-list-generate/</loc>
-        
-        <lastmod>2023-01-20T00:00:00+00:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/algorithm/algorithm-leetcode-278/</loc>
-        
-        <lastmod>2023-01-18T00:00:00+00:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/programming/brew-change-node-version-with-homebrew/</loc>
-        
-        <lastmod>2023-01-16T00:00:00+00:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/personal/personal-2023-2-weeks/</loc>
-        
-        <lastmod>2023-01-14T00:00:00+00:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/personal/personal-2023-how-to-be-survived/</loc>
-        
-        <lastmod>2023-01-01T00:00:00+00:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/personal/personal-2022-retrospect/</loc>
-        
-        <lastmod>2022-12-29T00:00:00+00:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/algorithm/algorithm-leetcode-205/</loc>
-        
-        <lastmod>2022-12-28T00:00:00+00:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/algorithm/algorithm-leetcode-724/</loc>
-        
-        <lastmod>2022-12-27T00:00:00+00:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/programming/react-native-reusable-pressable-component-design/</loc>
-        
-        <lastmod>2022-12-24T00:00:00+00:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/programming/react-native-react-native-webview-android-empty-space-error/</loc>
-        
-        <lastmod>2022-12-20T00:00:00+00:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/personal/project-stylehero-story-3/</loc>
-        
-        <lastmod>2022-10-29T00:00:00+00:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/personal/project-stylehero-story-2/</loc>
-        
-        <lastmod>2022-10-28T00:00:00+00:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/personal/project-stylehero-story-1/</loc>
-        
-        <lastmod>2022-10-27T00:00:00+00:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/programming/OS-XV6-settings/</loc>
-        
-        <lastmod>2022-09-11T00:00:00+00:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/devops/aws-build-ec2-server-guide-all-in-one/</loc>
-        
-        <lastmod>2022-09-04T00:00:00+00:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/programming/react-native-google-signin-%EC%95%B1-%EC%8B%AC%EC%82%AC-%EB%8C%80%EB%B9%84-SHA-1%ED%82%A4-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0/</loc>
-        
-        <lastmod>2022-08-20T00:00:00+00:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/programming/appstore-connect-%EC%95%B1-%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7-%EC%97%85%EB%A1%9C%EB%93%9C-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0/</loc>
-        
-        <lastmod>2022-08-13T00:00:00+00:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/programming/react-native-development-tips/</loc>
-        
-        <lastmod>2022-08-03T00:00:00+00:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/programming/react-native-android-%EC%97%90%EC%84%9C-react-native-apple-authentication-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-copy/</loc>
-        
-        <lastmod>2022-07-28T00:00:00+00:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/programming/react-native-android-%EC%BB%A4%EC%8A%A4%ED%85%80-%ED%8F%B0%ED%8A%B8-%EB%AC%B8%EC%A0%9C-includeFontPadding/</loc>
-        
-        <lastmod>2022-07-23T00:00:00+00:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/programming/react-native-gradle-Unsupported-class-file-major-version-62-error/</loc>
-        
-        <lastmod>2022-06-30T00:00:00+00:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/programming/nodejs-spell.team-%EC%B1%94%ED%94%BC%EC%96%B8-%EB%B0%8F-%EC%8A%A4%ED%8E%A0-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B0%9B%EA%B8%B0/</loc>
-        
-        <lastmod>2022-06-12T00:00:00+00:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/about</loc>
+<lastmod>2023-02-05T19:43:33+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/search</loc>
+<lastmod>2023-02-05T19:43:33+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2022/06/12/nodejs-spell-team-%EC%B1%94%ED%94%BC%EC%96%B8-%EB%B0%8F-%EC%8A%A4%ED%8E%A0-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B0%9B%EA%B8%B0</loc>
+<lastmod>2022-06-12T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2022/06/30/react-native-gradle-unsupported-class-file-major-version-62-error</loc>
+<lastmod>2022-06-30T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2022/07/23/react-native-android-%EC%BB%A4%EC%8A%A4%ED%85%80-%ED%8F%B0%ED%8A%B8-%EB%AC%B8%EC%A0%9C-includefontpadding</loc>
+<lastmod>2022-07-23T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2022/07/28/react-native-android-%EC%97%90%EC%84%9C-react-native-apple-authentication-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-copy</loc>
+<lastmod>2022-07-28T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2022/08/03/react-native-development-tips</loc>
+<lastmod>2022-08-03T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2022/08/13/appstore-connect-%EC%95%B1-%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7-%EC%97%85%EB%A1%9C%EB%93%9C-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0</loc>
+<lastmod>2022-08-13T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2022/08/20/react-native-google-signin-%EC%95%B1-%EC%8B%AC%EC%82%AC-%EB%8C%80%EB%B9%84-sha-1%ED%82%A4-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0</loc>
+<lastmod>2022-08-20T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2022/09/04/aws-build-ec2-server-guide-all-in-one</loc>
+<lastmod>2022-09-04T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2022/09/11/os-xv6-settings</loc>
+<lastmod>2022-09-11T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2022/10/27/project-stylehero-story-1</loc>
+<lastmod>2022-10-27T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2022/10/28/project-stylehero-story-2</loc>
+<lastmod>2022-10-28T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2022/10/29/project-stylehero-story-3</loc>
+<lastmod>2022-10-29T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2022/12/20/react-native-react-native-webview-android-empty-space-error</loc>
+<lastmod>2022-12-20T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2022/12/24/react-native-reusable-pressable-component-design</loc>
+<lastmod>2022-12-24T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2022/12/27/algorithm-leetcode-724</loc>
+<lastmod>2022-12-27T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2022/12/28/algorithm-leetcode-205</loc>
+<lastmod>2022-12-28T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2022/12/29/personal-2022-retrospect</loc>
+<lastmod>2022-12-29T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2023/01/01/personal-2023-how-to-be-survived</loc>
+<lastmod>2023-01-01T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2023/01/14/personal-2023-2-weeks</loc>
+<lastmod>2023-01-14T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2023/01/16/brew-change-node-version-with-homebrew</loc>
+<lastmod>2023-01-16T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2023/01/18/algorithm-leetcode-278</loc>
+<lastmod>2023-01-18T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2023/01/20/python3-python3-list-generate</loc>
+<lastmod>2023-01-20T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2023/01/23/personal-2023-3-weeks-review</loc>
+<lastmod>2023-01-23T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2023/01/28/algorithm-leetcode-167</loc>
+<lastmod>2023-01-28T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2023/01/30/personal-2030-jan-4-week-review</loc>
+<lastmod>2023-01-30T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/spellteam/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/leagueoflegends/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/node/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/react-native/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/android/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/gradle/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/checked/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/includefontpadding/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/react-native-apple-authentication/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/appstoreconnect/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/curl/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/react-native-google-sigin/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/sha-1/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/EC2/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/ELB/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/Route53/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/ACM/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/AWS/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/OS/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/xv6/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/ubuntu/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/stylehero/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/startup/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/react-native-webview/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/pressable/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/resuable/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/sa/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/leetcode/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/python3/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/algorithm/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/2022/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/personal/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/2023/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/homebrew/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/list/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/googleccedd283002c814b.html</loc>
+<lastmod>2023-01-30T13:19:55+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/others/checked/</loc>
+<lastmod>2022-12-09T00:06:16+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/others/checked/private-policy.html</loc>
+<lastmod>2022-12-09T00:06:16+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/others/soongfi/</loc>
+<lastmod>2022-12-09T00:06:16+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/others/soongfi/private-policy.html</loc>
+<lastmod>2022-12-09T00:06:16+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/others/stylehero/stylehero_2nd_service_code_style_guide.pdf</loc>
+<lastmod>2022-12-09T00:06:16+09:00</lastmod>
+</url>
 </urlset>

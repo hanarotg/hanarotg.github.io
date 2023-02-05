@@ -2,7 +2,7 @@
 layout: single
 category: personal
 title: 2023 어떻게 생존할 것인가?
-tags: 2023
+tags: 2023 personal
 toc: true
 toc_sticky: true
 ---

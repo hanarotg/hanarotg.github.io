@@ -1,12 +1,38 @@
-# main links
-main:
-  - title: "algorithm"
-    url: /categories/algorithm
-  - title: "programming"
-    url: /categories/programming
-  - title: "personal"
-    url: /categories/personal
-  - title: "category:all"
-    url: /categories/
-  - title: "about(resume)"
-    url: _pages/about/
+links:
+  - title: Posts
+    url: /
+  - title: About
+    url: /about
+  - title: Search
+    url: /search
+  - title: Rss
+    url: /atom.xml
+categories:
+  - subject:
+    name: 컴퓨터공학
+    list:
+      - title: 알고리즘
+        url: /tag/algorithm
+  - subject:
+    name: 엔지니어링
+    list:
+      - title: React Native
+        url: /tag/react-native
+      - title: Node.js
+        url: /tag/node
+      - title: AWS
+        url: /tag/aws
+  - subject:
+    name: 프로젝트
+    list:
+      - title: 숭파이
+        url: /tag/soongfi
+      - title: 체크드
+        url: /tag/checked
+      - title: 스타일히어로
+        url: /tag/stylehero
+  - subject:
+    name: 개인
+    list:
+      - title: 주간 회고
+        url: /tag/personal
