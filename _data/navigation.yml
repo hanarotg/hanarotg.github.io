@@ -17,22 +17,20 @@ categories:
     name: 엔지니어링
     list:
       - title: React Native
-        url: /tag/react-native
+        url: /tag/react-native/
       - title: Node.js
-        url: /tag/node
+        url: /tag/node/
       - title: AWS
-        url: /tag/aws
+        url: /tag/aws/
   - subject:
     name: 프로젝트
     list:
-      - title: 숭파이
-        url: /tag/soongfi
       - title: 체크드
-        url: /tag/checked
+        url: /tag/checked/
       - title: 스타일히어로
-        url: /tag/stylehero
+        url: /tag/stylehero/
   - subject:
     name: 개인
     list:
       - title: 주간 회고
-        url: /tag/personal
+        url: /tag/personal/
