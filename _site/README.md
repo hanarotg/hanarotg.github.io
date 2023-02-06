@@ -2,6 +2,8 @@
 
 Sidey is a simple and minimalistic jekyll blogging theme.
 
+original theme repo : [ronv/sidey](https://github.com/ronv/sidey)
+
 ### Features
 
 - Responsive design
