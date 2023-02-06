@@ -4,7 +4,7 @@
  <title>Taegyeong Lee</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2023-02-07T01:51:29+09:00</updated>
+ <updated>2023-02-07T02:15:53+09:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Taegyeong Lee</name>
@@ -14,38 +14,82 @@
  
  <entry>
    <title>개인 프로젝트, 오픈소스 (2023년 1월 31일 ~ 2월 6일) 5주차 리뷰</title>
-   <link href="http://localhost:4000/2023/02/06/personal-2030-dec-1-week-review"/>
+   <link href="http://localhost:4000/2023/02/06/personal-2030-feb-1-week-review"/>
    <updated>2023-02-06T00:00:00+09:00</updated>
-   <id>http://localhost:4000/2023/02/06/[personal]-2030-Dec-1-week-review</id>
+   <id>http://localhost:4000/2023/02/06/[personal]-2030-Feb-1-week-review</id>
    <content type="html">&lt;h1 id=&quot;목표&quot;&gt;목표&lt;/h1&gt;
 
 &lt;h2 id=&quot;목표-성과&quot;&gt;목표 성과&lt;/h2&gt;
 
-&lt;ul class=&quot;task-list&quot;&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;성공&lt;/code&gt; 관리 (독서, 운동) - 유지&lt;/li&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;성공&lt;/code&gt; 관리 (독서, 운동)
+    &lt;ul&gt;
+      &lt;li&gt;책이 잘 읽히지 않았으나 꾸준히 독서&lt;/li&gt;
+      &lt;li&gt;야식 드디어 끊음&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
   &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;보통&lt;/code&gt; 공부 (알고리즘)
     &lt;ul&gt;
-      &lt;li&gt;sliding window 및 hashmap 활용에 대한 문제를 고민&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;중점&lt;/strong&gt; 시간을 보다 효율적으로 사용하기 / 내 것으로 만드는 노하우가 부족함 -&amp;gt; 내 것으로 만들 수 있는 방법을 알아내는 것이 이번 주 목표&lt;/li&gt;
+      &lt;li&gt;sliding window 및 hashmap 활용에 대한 문제 고민&lt;/li&gt;
+      &lt;li&gt;내 것으로 만드는 노하우 이해&lt;/li&gt;
+      &lt;li&gt;매일 꾸준히 하지 않았음 (3일)&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;개인프로젝트 - 숭파이 안드로이드 개발
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;보통&lt;/code&gt; 개인프로젝트 - 숭파이 안드로이드 개발
     &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;중점&lt;/strong&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Context&lt;/code&gt; 등 안드로이드 개발 시 반드시 알아야 하는 개념&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Context&lt;/code&gt; 등 안드로이드 개발 시 반드시 알아야 하는 개념 - 개념 이해에 대한 충분한 시간 투자 부족 (1일)&lt;/li&gt;
+      &lt;li&gt;공개 테스트용 abb 업로드 및 메인 화면 설계 완&lt;/li&gt;
+      &lt;li&gt;숭파이 관련 전 레포지토리 오픈소스화&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;기타&lt;/li&gt;
+  &lt;li&gt;기타&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;주로 개인 프로젝트 목표를 이루지 못했습니다. 프로젝트 금방 하겠지 라는.. 생각으로 얕보았습니다. 보다 시간이 많이 걸리니 조금 기한을 늘려 다시 재조정해보겠습니다.&lt;/p&gt;
+&lt;p&gt;주간 단위로 세운 목표의 방향이 날이 가면 갈수록 바뀜을 깨달았습니다. 목표 관리 및 회고 방식을 수정하겠습니다.&lt;/p&gt;
 
-&lt;h2 id=&quot;수정-사항&quot;&gt;수정 사항&lt;/h2&gt;
+&lt;h2 id=&quot;목표-관리-수정-사항&quot;&gt;목표 관리 수정 사항&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;하루 단위 일정 관리&lt;/li&gt;
+  &lt;li&gt;하루 일과 블로그 주간 회고 글에 업데이트 (글은 1주일에 한번)&lt;/li&gt;
+  &lt;li&gt;독서 운동 생략 (개발 및 블로그 성격에 맞는 목표만 명시)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;다음-주-목표&quot;&gt;다음 주 목표&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;알고리즘
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;미완료&lt;/code&gt; sliding window / hashmap 활용 문제 정복&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;개인 프로젝트 - 숭파이
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;미완료&lt;/code&gt; 공개 테스트 링크 공유를 목표로 진행&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;포트폴리오 작성
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;미완료&lt;/code&gt; 숭파이&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;미완료&lt;/code&gt; 체크드&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;미완료&lt;/code&gt; 스타일히어로&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;오픈소스
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;미완료&lt;/code&gt; react-native issue 35639 (70% 해결 중!)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;완료한 목표는 이번 주 중 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;목표&lt;/code&gt; 로 수정하겠습니다.&lt;/p&gt;
+
+&lt;p&gt;추가적으로 완료 한 목표가 있으면 &lt;strong&gt;볼드체&lt;/strong&gt; 처리해서 추가하겠습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;실천-여부&quot;&gt;실천 여부&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2월 7일 (화)&lt;/li&gt;
+&lt;/ul&gt;
 </content>
  </entry>
  
