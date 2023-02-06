@@ -9,7 +9,8 @@
 }
 
 body {
-  font-family: system-ui, sans-serif;
+  font-family: Inter, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   line-height: 1.5;
@@ -83,13 +84,12 @@ header a {
 
 header li {
   margin-bottom: 0.2rem;
-  text-align: right;
+  text-align: left;
   margin-right: 2rem;
 }
 
 #menu-name {
   color: #0078d7;
-  font-weight: bold;
 }
 
 header a.active {
