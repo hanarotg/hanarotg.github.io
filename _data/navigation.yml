@@ -9,28 +9,20 @@ links:
     url: /atom.xml
 categories:
   - subject:
-    name: 컴퓨터공학
+    name: SWE
     list:
       - title: 알고리즘
         url: /tags/algorithm
-  - subject:
-    name: 엔지니어링
-    list:
       - title: React Native
         url: /tags/react-native/
       - title: Node.js
         url: /tags/node/
       - title: AWS
         url: /tags/aws/
+      - title: 오픈소스기여
+        url: /tags/opensource/
   - subject:
-    name: 프로젝트
-    list:
-      - title: 체크드
-        url: /tags/checked/
-      - title: 스타일히어로
-        url: /tags/stylehero/
-  - subject:
-    name: 개인
+    name: 기타
     list:
       - title: 주간 회고
         url: /tags/personal/

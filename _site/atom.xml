@@ -4,7 +4,7 @@
  <title>Taegyeong Lee</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2023-02-07T11:49:39+09:00</updated>
+ <updated>2023-02-07T13:14:40+09:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Taegyeong Lee</name>
@@ -88,7 +88,12 @@
 &lt;h2 id=&quot;실천-여부&quot;&gt;실천 여부&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;2월 7일 (화)&lt;/li&gt;
+  &lt;li&gt;2월 7일 (화)
+    &lt;ul&gt;
+      &lt;li&gt;오픈소스 완료하기 + 글 쓰기&lt;/li&gt;
+      &lt;li&gt;포트폴리오 작성 (체크드 / 스타일히어로)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 </content>
  </entry>
