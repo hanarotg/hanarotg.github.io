@@ -4,13 +4,80 @@
  <title>Taegyeong Lee</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2023-02-07T13:14:40+09:00</updated>
+ <updated>2023-02-07T21:22:02+09:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Taegyeong Lee</name>
    <email>hanarotg@naver.com</email>
  </author>
 
+ 
+ <entry>
+   <title>React Native issue#35639 KeyboardAvoidingView 관련 버그 해결</title>
+   <link href="http://localhost:4000/2023/02/07/react-native-issue-35639"/>
+   <updated>2023-02-07T00:00:00+09:00</updated>
+   <id>http://localhost:4000/2023/02/07/[react-native]-issue-35639</id>
+   <content type="html">&lt;p&gt;해당 이슈 원본 스레드 또는 pull request 글을 확인하고 싶다면 아래 링크를 참고하세요.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/facebook/react-native/issues/35639&quot;&gt;issue #35639&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/facebook/react-native/pull/36079&quot;&gt;PR #36079
+&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;문제&quot;&gt;문제&lt;/h1&gt;
+
+&lt;h2 id=&quot;문제-분석-방법&quot;&gt;문제 분석 방법&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;문제가 되는 컴포넌트 라이브러리 파일 내 각 함수 디버깅&lt;/li&gt;
+  &lt;li&gt;inspector 사용&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img width=&quot;516&quot; alt=&quot;스크린샷 2023-02-07 오후 2 09 09&quot; src=&quot;https://user-images.githubusercontent.com/34812887/217153826-096f5494-6488-42b0-81d8-29ae389feb35.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;text-muted&quot;&gt;inspector 사용 스크린샷&lt;/p&gt;
+
+&lt;h2 id=&quot;문제-분석-결과&quot;&gt;문제 분석 결과&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_relativeKeyboardHeight&lt;/code&gt; 함수와 관련된 문제&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_onLayout&lt;/code&gt; 함수 내 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;event.nativeEvent.layout&lt;/code&gt; 값 관련 문제&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;결론&quot;&gt;결론&lt;/h1&gt;
+
+&lt;h2 id=&quot;문제-상황-결론&quot;&gt;문제 상황 결론&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;네이티브에서 가져오는 레이아웃 너비 값 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;event.nativeEvent.layout&lt;/code&gt; 에 의한 문제&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;event.nativeEvent.layout&lt;/code&gt; 값을 이해할 수 없음&lt;/li&gt;
+  &lt;li&gt;네이티브에서 레이아웃 너비 값을 계산하는 수식까지 찾아보지 않았음&lt;/li&gt;
+  &lt;li&gt;근본적인 문제를 해결하기 위해서는 관련 api 를 건드려야 함&lt;/li&gt;
+  &lt;li&gt;그러나 네이티브를 연결하는 api를 수정하는 방법은 위험 (다른 라이브러리에 문제가 발생할 가능성)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;따라서 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;KeyboardAvoidingView.js&lt;/code&gt; 내 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_relativeKeyboardHeight&lt;/code&gt; 함수 수정을 통해 문제 해결 시도&lt;/p&gt;
+
+&lt;h2 id=&quot;문제-해결&quot;&gt;문제 해결&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_relativeKeyboardHeight&lt;/code&gt; 함수 수정&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Dimensions&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;../../Utilities/Dimensions&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// &amp;lt;-- INSERT&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;_relativeKeyboardHeight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;keyboardFrame&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;KeyboardMetrics&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;):&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Promise&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;number&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;
+
+    &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;deviceY&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Dimensions&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;screen&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;height&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// &amp;lt;-- INSERT&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// Calculate the displacement needed for the view such that it&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// no longer overlaps with the keyboard&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;frame&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;deviceY&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;keyboardY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// &amp;lt;-- CHANGE frame.height to deviceY&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</content>
+ </entry>
  
  <entry>
    <title>개인 프로젝트, 오픈소스 (2023년 1월 31일 ~ 2월 6일) 5주차 리뷰</title>
@@ -76,7 +143,11 @@
   &lt;/li&gt;
   &lt;li&gt;오픈소스
     &lt;ul&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;미완료&lt;/code&gt; react-native issue 35639 (70% 해결 중!)&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;완료&lt;/code&gt; react-native issue 35639
+        &lt;ul&gt;
+          &lt;li&gt;&lt;strong&gt;PR 진행중&lt;/strong&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -90,7 +161,7 @@
 &lt;ul&gt;
   &lt;li&gt;2월 7일 (화)
     &lt;ul&gt;
-      &lt;li&gt;오픈소스 완료하기 + 글 쓰기&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;완료&lt;/code&gt; 오픈소스 완료하기 + 글 쓰기&lt;/li&gt;
       &lt;li&gt;포트폴리오 작성 (체크드 / 스타일히어로)&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
