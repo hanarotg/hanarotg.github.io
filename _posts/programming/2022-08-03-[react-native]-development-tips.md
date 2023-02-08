@@ -59,12 +59,12 @@ const ScreenName = ({ route, navigation }) => {
 
 ```jsx
 <View
-style={{
+  style={{
     justifyContent: "center",
     alignItems: "center",
   }}
-
-<Text>horizental & vertical center</Text>
+>
+  <Text>horizental & vertical center</Text>
 </View>
 ```
 
