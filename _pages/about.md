@@ -5,6 +5,10 @@ title: About
 
 안녕하세요, 이태경입니다.
 
+이 사람은 아-아가 없으면 살 수 없습니다. 불쌍한 이 사람에게 하루 하루를 연명할 수 있는 아-아를 후원해주세요.
+
+<div style="text-align:center; margin-bottom:2.5rem"> <a href="https://ice-americano.co.kr/page/hanarotg" target="_blank"> <img src="https://d2ghodkn7jv6pa.cloudfront.net/button/coffee/50.png" style="height: 200px !important;width:100px !important; border-radius:5% !important; border: solid 1px !important;"></a> </div>
+
 # Contact
 
 - Email : [hanarotg@naver.com](mailto:hanarotg@naver.com)
