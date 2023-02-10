@@ -60,3 +60,5 @@ toc_sticky: true
   - `완료` 숭파이 안드로이드 공개 테스트 링크 배포
 - 2월 10일 (금)
   - `미완료` sliding window / hashmap 활용 문제 정복
+- 2월 11일 (토)
+  - pass
