@@ -4,7 +4,7 @@
  <title>Taegyeong Lee</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2023-02-09T17:09:41+09:00</updated>
+ <updated>2023-02-13T15:06:29+09:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Taegyeong Lee</name>
@@ -131,7 +131,7 @@
   &lt;/li&gt;
   &lt;li&gt;개인 프로젝트 - 숭파이
     &lt;ul&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;미완료&lt;/code&gt; 공개 테스트 링크 공유를 목표로 진행&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;완료&lt;/code&gt; 공개 테스트 링크 공유를 목표로 진행&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;포트폴리오 작성
@@ -172,7 +172,17 @@
   &lt;/li&gt;
   &lt;li&gt;2월 9일 (목)
     &lt;ul&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;미완료&lt;/code&gt; 숭파이 안드로이드 공개 테스트 링크 배포&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;완료&lt;/code&gt; 숭파이 안드로이드 공개 테스트 링크 배포&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2월 10일 (금)
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;미완료&lt;/code&gt; sliding window / hashmap 활용 문제 정복&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2월 11일 (토)
+    &lt;ul&gt;
+      &lt;li&gt;pass&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
