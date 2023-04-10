@@ -6,7 +6,8 @@ title: 숭파이
 
 **숭파이**는 숭실대학교 교내 WIFI 인터넷 문제를 해결하는 모바일 앱입니다.
 
-- IOS(베타테스트) : [https://testflight.apple.com/join/q2qA4inP](https://testflight.apple.com/join/q2qA4inP)
+- iOS : [https://testflight.apple.com/join/q2qA4inP](https://testflight.apple.com/join/q2qA4inP)
+- Android : [https://play.google.com/store/apps/details?id=com.soongfi.soongfi_android](https://play.google.com/store/apps/details?id=com.soongfi.soongfi_android)
 - 깃허브 : [https://github.com/soongfi](https://github.com/soongfi)
 
 ![noname](https://user-images.githubusercontent.com/34812887/217592422-e9dd6c6a-5654-4b03-be64-71a065dd78a6.png)
@@ -57,11 +58,14 @@ title: 숭파이
 - appstore connect 에서 공개 베타 테스트 진행
 - 베타 테스터 관리 및 베타 테스트 빌드 관리
 
-### IOS 베타테스터 95명 모집
+### iOS 및 Android 이용자 120명 모집
 
-교내 커뮤니티 홍보 및 학부 동기들 사이의 홍보를 통해 베타 테스터 95명 달성
+교내 커뮤니티 홍보 및 학부 동기들 사이의 홍보를 통해 베타 테스터 120명 달성
 
-![betatester95](https://user-images.githubusercontent.com/34812887/217595398-7b3a9167-9e01-4dec-a06b-7c9e146ff6bd.png)
+![betatester95](https://user-images.githubusercontent.com/34812887/230815520-171361ef-289e-4ac6-8f70-dc9e2fcfb8f3.png)
+<img width="1113" alt="스크린샷 2023-04-10 오전 11 51 43" src="https://user-images.githubusercontent.com/34812887/230815886-86638320-a9ff-4df3-b639-9ccb95f2c1a1.png">
+
+
 
 ### 교내 커뮤니티 좋아요 150회 달성
 
