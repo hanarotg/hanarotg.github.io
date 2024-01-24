@@ -1,61 +1,29 @@
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
-  {% seo title=false %}
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
   <title>
-    {% if page.tag or page.title %} {% if page.tag %} {{ page.tag | escape }} {%
-    else %} {{ page.title | escape }} {% endif %} - {% endif %} {% if paginator
-    and paginator.page and paginator.total_pages > 1 and paginator.page > 1 %}
-    Page {{ paginator.page }} of {{ paginator.total_pages }} - {% endif %} {{
-    site.title | escape }} {% unless page.tag or page.title %} - {{
-    site.description | escape }} {% endunless %}
+    {% if page.title == "Home" %}
+      {{ site.title }} &middot; {{ site.tagline }}
+    {% else %}
+      {{ page.title }} &middot; {{ site.title }}
+    {% endif %}
   </title>
 
-  <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.png" />
-  <link
-    rel="alternate"
-    type="application/atom+xml"
-    title="{{ site.title }}"
-    href="{{ site.baseurl }}/atom.xml"
-  />
-  <link rel="alternate" type="application/json" title="{{ site.title }}"
-  href="{{ "/feed.json" | prepend: site.baseurl | prepend: site.url }}" />
-  <link
-    rel="sitemap"
-    type="application/xml"
-    title="sitemap"
-    href="{{ site.baseurl }}/sitemap.xml"
-  />
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ site.baseurl }}public/css/poole.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}public/css/syntax.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}public/css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
-  <!-- Noto Sans KR -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
-    rel="stylesheet"
-  />
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="{{ site.baseurl }}public/favicon.ico">
 
-  <!-- Google tag (gtag.js) -->
-  <script
-    async
-    src="https://www.googletagmanager.com/gtag/js?id=G-E95DBNPWZE"
-  ></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-
-    gtag("config", "G-E95DBNPWZE");
-  </script>
-
-  <style>
-    {% capture include_to_scssify %}
-      {% include inline.scss %}
-    {% endcapture %}
-    {{ include_to_scssify | scssify }}
-  </style>
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 </head>

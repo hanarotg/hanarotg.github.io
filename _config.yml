@@ -1,55 +1,28 @@
-site: Taegyeong Lee
-url: https://hanarotg.github.io/
-title: Taegyeong Lee
-description: Personal blog.
-author:
-  name: Taegyeong Lee
-  email: hanarotg@naver.com
+# Dependencies
+markdown: kramdown
+highlighter: pygments
+
+# Permalinks
 permalink: pretty
 
-baseurl: ""
+# Setup
+title: 이태경
+tagline: "A Jekyll theme"
+description: "개발자"
+url: http://hyde.getpoole.com
+baseurl: /
 
-markdown: kramdown
+author:
+  name: "TaeGyeong Lee"
+  url: https://twitter.com/mdo
 
-exclude:
-  - .jekyll-cache
+paginate: 5
 
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
+# Custom vars
+version: 2.1.0
 
-sass:
-  sass_dir: _sass
-  style: :compressed
+github:
+  repo: https://github.com/poole/hyde
 
 plugins:
   - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
-collections:
-  pages:
-    output: true
-    permalink: /:name
-  posts:
-    output: true
-    permalink: /:year/:month/:day/:slug
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "default"
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-
-gems:
-  - jekyll-seo-tag
