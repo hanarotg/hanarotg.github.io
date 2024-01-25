@@ -7,14 +7,14 @@ permalink: pretty
 
 # Setup
 title: 이태경
-tagline: "A Jekyll theme"
-description: "개발자"
-url: http://hyde.getpoole.com
+tagline: "software engineer"
+description: "fail fast, fail often"
+url: https://hanarotg.github.io
 baseurl: /
 
 author:
   name: "TaeGyeong Lee"
-  url: https://twitter.com/mdo
+  url: https://hanarotg.github.io
 
 paginate: 5
 
