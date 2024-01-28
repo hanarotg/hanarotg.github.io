@@ -24,11 +24,6 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '8ea'),
-    exact: true
-  },
-  {
-    path: '/',
     component: ComponentCreator('/', 'c19'),
     routes: [
       {

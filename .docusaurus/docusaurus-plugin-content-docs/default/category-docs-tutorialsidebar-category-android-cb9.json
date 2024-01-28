@@ -6,7 +6,7 @@
   "navigation": {
     "previous": {
       "title": "문서 안내",
-      "permalink": "/docs/intro"
+      "permalink": "/docs/"
     },
     "next": {
       "title": "배포용 안드로이드 앱 번들 빌드하기",

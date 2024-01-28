@@ -3,21 +3,27 @@ slug: /
 sidebar_position: 1
 ---
 
-# 문서 안내
+# 안내
 
-## 목록
+안녕하세요, 방문해 주셔서 감사합니다.
+
+신뢰할 수 있는, 근거가 있는 개발 자료들을 작성하겠습니다.
+
+계속 업데이트하겠습니다.
+
+## 문서 목록
 
 - Android
 - Flutter
 - React Native
-- 프로그래밍
+- 프로그래밍 (기타)
+- Software
 - 컴퓨터공학
 - 프로젝트
 
-## 소개
+## 작성자
 
 안녕하세요, 이태경입니다.
-방문해 주셔서 감사합니다.
 
 - [깃허브](https://github.com/hanarotg)
 - [이메일](mailto:hanrotg@naver.com)
@@ -30,4 +36,10 @@ sidebar_position: 1
 - 23년 분산지능연구실에서 안드로이드 개발을 잠시 담당하고 있습니다.
 - 24년 ?
 
-개발 관련 모든 기록은 [문서](../docs/intro)에 계속 업데이트하고 있습니다.
+### 오픈소스 활동
+
+#### React-Native
+
+| 활동 분류 | 활동                                              | 링크                                                          |
+| --------- | ------------------------------------------------- | ------------------------------------------------------------- |
+| `PR`      | Empty Space added when using KeyboardAvoidingView | [Github](https://github.com/facebook/react-native/pull/36159) |

@@ -9,8 +9,8 @@
           "badge": false,
           "noIndex": false,
           "className": "docs-version-current",
-          "path": "/docs",
-          "tagsPath": "/docs/tags",
+          "path": "/",
+          "tagsPath": "/tags",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
           "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
@@ -26,14 +26,14 @@
               "source": "@site/docs/android/2024-01-28-build-release-android-app.md",
               "sourceDirName": "android",
               "slug": "/android/2024-01-28-build-release-android-app",
-              "permalink": "/docs/android/2024-01-28-build-release-android-app",
+              "permalink": "/android/2024-01-28-build-release-android-app",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/android/2024-01-28-build-release-android-app.md",
               "tags": [
                 {
                   "label": "android",
-                  "permalink": "/docs/tags/android"
+                  "permalink": "/tags/android"
                 }
               ],
               "version": "current",
@@ -56,11 +56,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Android",
-                "permalink": "/docs/category/android"
+                "permalink": "/category/android"
               },
               "next": {
                 "title": "Flutter",
-                "permalink": "/docs/category/flutter"
+                "permalink": "/category/flutter"
               }
             },
             {
@@ -70,7 +70,7 @@
               "source": "@site/docs/flutter/create-a-blog-post.md",
               "sourceDirName": "flutter",
               "slug": "/flutter/create-a-blog-post",
-              "permalink": "/docs/flutter/create-a-blog-post",
+              "permalink": "/flutter/create-a-blog-post",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/flutter/create-a-blog-post.md",
@@ -86,21 +86,21 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Flutter",
-                "permalink": "/docs/category/flutter"
+                "permalink": "/category/flutter"
               },
               "next": {
                 "title": "Software",
-                "permalink": "/docs/category/software"
+                "permalink": "/category/software"
               }
             },
             {
               "id": "intro",
-              "title": "문서 안내",
-              "description": "목록",
+              "title": "안내",
+              "description": "안녕하세요, 방문해 주셔서 감사합니다.",
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
-              "slug": "/intro",
-              "permalink": "/docs/intro",
+              "slug": "/",
+              "permalink": "/",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
@@ -111,12 +111,13 @@
               "formattedLastUpdatedAt": "Oct 14, 2018",
               "sidebarPosition": 1,
               "frontMatter": {
+                "slug": "/",
                 "sidebar_position": 1
               },
               "sidebar": "tutorialSidebar",
               "next": {
                 "title": "Android",
-                "permalink": "/docs/category/android"
+                "permalink": "/category/android"
               }
             },
             {
@@ -126,18 +127,18 @@
               "source": "@site/docs/software/docusaurus/2024-01-28-docusaurus-deploy copy.md",
               "sourceDirName": "software/docusaurus",
               "slug": "/software/docusaurus/2024-01-28-docusaurus-deploy copy",
-              "permalink": "/docs/software/docusaurus/2024-01-28-docusaurus-deploy copy",
+              "permalink": "/software/docusaurus/2024-01-28-docusaurus-deploy copy",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/docusaurus/2024-01-28-docusaurus-deploy copy.md",
               "tags": [
                 {
                   "label": "git",
-                  "permalink": "/docs/tags/git"
+                  "permalink": "/tags/git"
                 },
                 {
                   "label": "docusaurus",
-                  "permalink": "/docs/tags/docusaurus"
+                  "permalink": "/tags/docusaurus"
                 }
               ],
               "version": "current",
@@ -159,11 +160,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Docusaurus",
-                "permalink": "/docs/category/docusaurus"
+                "permalink": "/category/docusaurus"
               },
               "next": {
                 "title": "올인원 배포 스크립트",
-                "permalink": "/docs/software/docusaurus/2024-01-29-docusaurus-all-in-one-script"
+                "permalink": "/software/docusaurus/2024-01-29-docusaurus-all-in-one-script"
               }
             },
             {
@@ -173,18 +174,18 @@
               "source": "@site/docs/software/docusaurus/2024-01-29-docusaurus-all-in-one-script.md",
               "sourceDirName": "software/docusaurus",
               "slug": "/software/docusaurus/2024-01-29-docusaurus-all-in-one-script",
-              "permalink": "/docs/software/docusaurus/2024-01-29-docusaurus-all-in-one-script",
+              "permalink": "/software/docusaurus/2024-01-29-docusaurus-all-in-one-script",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/docusaurus/2024-01-29-docusaurus-all-in-one-script.md",
               "tags": [
                 {
                   "label": "git",
-                  "permalink": "/docs/tags/git"
+                  "permalink": "/tags/git"
                 },
                 {
                   "label": "docusaurus",
-                  "permalink": "/docs/tags/docusaurus"
+                  "permalink": "/tags/docusaurus"
                 }
               ],
               "version": "current",
@@ -206,7 +207,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "배포하기",
-                "permalink": "/docs/software/docusaurus/2024-01-28-docusaurus-deploy copy"
+                "permalink": "/software/docusaurus/2024-01-28-docusaurus-deploy copy"
               }
             }
           ],
@@ -232,7 +233,7 @@
                   "type": "generated-index",
                   "description": "안드로이드",
                   "slug": "/category/android",
-                  "permalink": "/docs/category/android"
+                  "permalink": "/category/android"
                 }
               },
               {
@@ -250,7 +251,7 @@
                   "type": "generated-index",
                   "description": "플러터",
                   "slug": "/category/flutter",
-                  "permalink": "/docs/category/flutter"
+                  "permalink": "/category/flutter"
                 }
               },
               {
@@ -278,7 +279,7 @@
                       "type": "generated-index",
                       "description": "도큐사우루스",
                       "slug": "/category/docusaurus",
-                      "permalink": "/docs/category/docusaurus"
+                      "permalink": "/category/docusaurus"
                     }
                   }
                 ],
@@ -286,7 +287,7 @@
                   "type": "generated-index",
                   "description": "소프트웨어",
                   "slug": "/category/software",
-                  "permalink": "/docs/category/software"
+                  "permalink": "/category/software"
                 }
               }
             ]
@@ -353,11 +354,6 @@
   },
   "docusaurus-plugin-content-pages": {
     "default": [
-      {
-        "type": "jsx",
-        "permalink": "/",
-        "source": "@site/src/pages/index.js"
-      },
       {
         "type": "mdx",
         "permalink": "/markdown-page",

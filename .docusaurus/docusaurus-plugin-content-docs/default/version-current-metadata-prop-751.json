@@ -11,7 +11,7 @@
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "문서 안내",
+        "label": "안내",
         "href": "/",
         "docId": "intro",
         "unlisted": false
@@ -97,8 +97,8 @@
     },
     "intro": {
       "id": "intro",
-      "title": "문서 안내",
-      "description": "목록",
+      "title": "안내",
+      "description": "안녕하세요, 방문해 주셔서 감사합니다.",
       "sidebar": "tutorialSidebar"
     },
     "software/docusaurus/2024-01-28-docusaurus-deploy copy": {

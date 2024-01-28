@@ -1,7 +1,7 @@
 {
   "id": "intro",
-  "title": "문서 안내",
-  "description": "목록",
+  "title": "안내",
+  "description": "안녕하세요, 방문해 주셔서 감사합니다.",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/",
@@ -12,7 +12,7 @@
   "tags": [],
   "version": "current",
   "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1706459151,
+  "lastUpdatedAt": 1706459194,
   "formattedLastUpdatedAt": "Jan 28, 2024",
   "sidebarPosition": 1,
   "frontMatter": {
