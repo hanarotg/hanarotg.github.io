@@ -24,11 +24,11 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '737'),
+    component: ComponentCreator('/docs', '30e'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'd7b'),
+        component: ComponentCreator('/docs', '35a'),
         routes: [
           {
             path: '/docs/tags',
@@ -52,11 +52,11 @@ export default [
           },
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'fcd'),
+            component: ComponentCreator('/docs', '094'),
             routes: [
               {
-                path: '/docs/android/build-release-android-app',
-                component: ComponentCreator('/docs/android/build-release-android-app', '0ce'),
+                path: '/docs/android/2024-01-28-build-release-android-app',
+                component: ComponentCreator('/docs/android/2024-01-28-build-release-android-app', 'be2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -91,8 +91,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/software/docusaurus-deploy',
-                component: ComponentCreator('/docs/software/docusaurus-deploy', 'acb'),
+                path: '/docs/software/2024-01-28-docusaurus-deploy',
+                component: ComponentCreator('/docs/software/2024-01-28-docusaurus-deploy', 'c99'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

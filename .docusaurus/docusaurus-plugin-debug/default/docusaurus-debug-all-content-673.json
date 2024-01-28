@@ -20,22 +20,39 @@
           "contentPathLocalized": "/Users/taegyeonglee/Documents/GitHub/hanarotg.github.io/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
-              "id": "android/build-release-android-app",
+              "id": "android/2024-01-28-build-release-android-app",
               "title": "배포용 안드로이드 앱 번들 빌드하기",
               "description": "안드로이드 스튜디오를 활용해서 배포용 안드로이드 앱 번들을 빌드해 보겠습니다.",
-              "source": "@site/docs/android/build-release-android-app.md",
+              "source": "@site/docs/android/2024-01-28-build-release-android-app.md",
               "sourceDirName": "android",
-              "slug": "/android/build-release-android-app",
-              "permalink": "/docs/android/build-release-android-app",
+              "slug": "/android/2024-01-28-build-release-android-app",
+              "permalink": "/docs/android/2024-01-28-build-release-android-app",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/android/build-release-android-app.md",
-              "tags": [],
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/android/2024-01-28-build-release-android-app.md",
+              "tags": [
+                {
+                  "label": "android",
+                  "permalink": "/docs/tags/android"
+                }
+              ],
               "version": "current",
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "배포용 안드로이드 앱 번들 빌드하기",
+                "description": "안드로이드 스튜디오를 활용해서 배포용 안드로이드 앱 번들을 빌드해 보겠습니다.",
+                "keywords": [
+                  "안드로이드",
+                  "빌드",
+                  "배포",
+                  "release"
+                ],
+                "tags": [
+                  "android"
+                ]
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Android",
@@ -72,8 +89,8 @@
                 "permalink": "/docs/category/flutter"
               },
               "next": {
-                "title": "docusaurus 도큐사우루스 배포하기",
-                "permalink": "/docs/software/docusaurus-deploy"
+                "title": "Android",
+                "permalink": "/docs/category/android-1"
               }
             },
             {
@@ -103,16 +120,16 @@
               }
             },
             {
-              "id": "software/docusaurus-deploy",
+              "id": "software/2024-01-28-docusaurus-deploy",
               "title": "docusaurus 도큐사우루스 배포하기",
               "description": "docusaurus gh-pages 브랜치로 deploy하는 방법",
-              "source": "@site/docs/software/docusaurus-deploy.md",
+              "source": "@site/docs/software/2024-01-28-docusaurus-deploy.md",
               "sourceDirName": "software",
-              "slug": "/software/docusaurus-deploy",
-              "permalink": "/docs/software/docusaurus-deploy",
+              "slug": "/software/2024-01-28-docusaurus-deploy",
+              "permalink": "/docs/software/2024-01-28-docusaurus-deploy",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/docusaurus-deploy.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/2024-01-28-docusaurus-deploy.md",
               "tags": [
                 {
                   "label": "git",
@@ -141,8 +158,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Create a Blog Post",
-                "permalink": "/docs/flutter/create-a-blog-post"
+                "title": "Android",
+                "permalink": "/docs/category/android-1"
               }
             }
           ],
@@ -161,12 +178,12 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "android/build-release-android-app"
+                    "id": "android/2024-01-28-build-release-android-app"
                   }
                 ],
                 "link": {
                   "type": "generated-index",
-                  "description": "안드로이드",
+                  "description": "소프트웨어",
                   "slug": "/category/android",
                   "permalink": "/docs/category/android"
                 }
@@ -191,15 +208,21 @@
               },
               {
                 "type": "category",
-                "label": "software",
+                "label": "Android",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "software/docusaurus-deploy"
+                    "id": "software/2024-01-28-docusaurus-deploy"
                   }
-                ]
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "소프트웨어",
+                  "slug": "/category/android-1",
+                  "permalink": "/docs/category/android-1"
+                }
               }
             ]
           }

@@ -11,8 +11,8 @@
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "android/build-release-android-app",
-              "path": "/docs/android/build-release-android-app",
+              "id": "android/2024-01-28-build-release-android-app",
+              "path": "/docs/android/2024-01-28-build-release-android-app",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -26,8 +26,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "software/docusaurus-deploy",
-              "path": "/docs/software/docusaurus-deploy",
+              "id": "software/2024-01-28-docusaurus-deploy",
+              "path": "/docs/software/2024-01-28-docusaurus-deploy",
               "sidebar": "tutorialSidebar"
             },
             {
