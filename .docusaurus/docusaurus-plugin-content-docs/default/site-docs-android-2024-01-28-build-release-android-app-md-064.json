@@ -5,14 +5,14 @@
   "source": "@site/docs/android/2024-01-28-build-release-android-app.md",
   "sourceDirName": "android",
   "slug": "/android/2024-01-28-build-release-android-app",
-  "permalink": "/docs/android/2024-01-28-build-release-android-app",
+  "permalink": "/android/2024-01-28-build-release-android-app",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/android/2024-01-28-build-release-android-app.md",
   "tags": [
     {
       "label": "android",
-      "permalink": "/docs/tags/android"
+      "permalink": "/tags/android"
     }
   ],
   "version": "current",
@@ -35,10 +35,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Android",
-    "permalink": "/docs/category/android"
+    "permalink": "/category/android"
   },
   "next": {
     "title": "Flutter",
-    "permalink": "/docs/category/flutter"
+    "permalink": "/category/flutter"
   }
 }

@@ -12,7 +12,7 @@
       {
         "type": "link",
         "label": "문서 안내",
-        "href": "/docs/intro",
+        "href": "/",
         "docId": "intro",
         "unlisted": false
       },
@@ -25,12 +25,12 @@
           {
             "type": "link",
             "label": "배포용 안드로이드 앱 번들 빌드하기",
-            "href": "/docs/android/2024-01-28-build-release-android-app",
+            "href": "/android/2024-01-28-build-release-android-app",
             "docId": "android/2024-01-28-build-release-android-app",
             "unlisted": false
           }
         ],
-        "href": "/docs/category/android"
+        "href": "/category/android"
       },
       {
         "type": "category",
@@ -41,12 +41,12 @@
           {
             "type": "link",
             "label": "Create a Blog Post",
-            "href": "/docs/flutter/create-a-blog-post",
+            "href": "/flutter/create-a-blog-post",
             "docId": "flutter/create-a-blog-post",
             "unlisted": false
           }
         ],
-        "href": "/docs/category/flutter"
+        "href": "/category/flutter"
       },
       {
         "type": "category",
@@ -63,22 +63,22 @@
               {
                 "type": "link",
                 "label": "배포하기",
-                "href": "/docs/software/docusaurus/2024-01-28-docusaurus-deploy copy",
+                "href": "/software/docusaurus/2024-01-28-docusaurus-deploy copy",
                 "docId": "software/docusaurus/2024-01-28-docusaurus-deploy copy",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "올인원 배포 스크립트",
-                "href": "/docs/software/docusaurus/2024-01-29-docusaurus-all-in-one-script",
+                "href": "/software/docusaurus/2024-01-29-docusaurus-all-in-one-script",
                 "docId": "software/docusaurus/2024-01-29-docusaurus-all-in-one-script",
                 "unlisted": false
               }
             ],
-            "href": "/docs/category/docusaurus"
+            "href": "/category/docusaurus"
           }
         ],
-        "href": "/docs/category/software"
+        "href": "/category/software"
       }
     ]
   },

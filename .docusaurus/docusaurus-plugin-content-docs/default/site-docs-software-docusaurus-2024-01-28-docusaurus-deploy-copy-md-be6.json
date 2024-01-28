@@ -5,18 +5,18 @@
   "source": "@site/docs/software/docusaurus/2024-01-28-docusaurus-deploy copy.md",
   "sourceDirName": "software/docusaurus",
   "slug": "/software/docusaurus/2024-01-28-docusaurus-deploy copy",
-  "permalink": "/docs/software/docusaurus/2024-01-28-docusaurus-deploy copy",
+  "permalink": "/software/docusaurus/2024-01-28-docusaurus-deploy copy",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/docusaurus/2024-01-28-docusaurus-deploy copy.md",
   "tags": [
     {
       "label": "git",
-      "permalink": "/docs/tags/git"
+      "permalink": "/tags/git"
     },
     {
       "label": "docusaurus",
-      "permalink": "/docs/tags/docusaurus"
+      "permalink": "/tags/docusaurus"
     }
   ],
   "version": "current",
@@ -38,10 +38,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Docusaurus",
-    "permalink": "/docs/category/docusaurus"
+    "permalink": "/category/docusaurus"
   },
   "next": {
     "title": "올인원 배포 스크립트",
-    "permalink": "/docs/software/docusaurus/2024-01-29-docusaurus-all-in-one-script"
+    "permalink": "/software/docusaurus/2024-01-29-docusaurus-all-in-one-script"
   }
 }

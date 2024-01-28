@@ -4,23 +4,24 @@
   "description": "목록",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
-  "slug": "/intro",
-  "permalink": "/docs/intro",
+  "slug": "/",
+  "permalink": "/",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
   "tags": [],
   "version": "current",
   "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1706451509,
+  "lastUpdatedAt": 1706458177,
   "formattedLastUpdatedAt": "Jan 28, 2024",
   "sidebarPosition": 1,
   "frontMatter": {
+    "slug": "/",
     "sidebar_position": 1
   },
   "sidebar": "tutorialSidebar",
   "next": {
     "title": "Android",
-    "permalink": "/docs/category/android"
+    "permalink": "/category/android"
   }
 }

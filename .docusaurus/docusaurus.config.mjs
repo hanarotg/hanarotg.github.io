@@ -28,6 +28,7 @@ export default {
       "classic",
       {
         "docs": {
+          "routeBasePath": "/",
           "sidebarPath": "./sidebars.js",
           "showLastUpdateAuthor": true,
           "showLastUpdateTime": true,

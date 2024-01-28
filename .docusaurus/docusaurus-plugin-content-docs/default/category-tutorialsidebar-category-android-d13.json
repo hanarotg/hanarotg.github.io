@@ -1,0 +1,16 @@
+{
+  "title": "Android",
+  "description": "안드로이드",
+  "slug": "/category/android",
+  "permalink": "/category/android",
+  "navigation": {
+    "previous": {
+      "title": "문서 안내",
+      "permalink": "/"
+    },
+    "next": {
+      "title": "배포용 안드로이드 앱 번들 빌드하기",
+      "permalink": "/android/2024-01-28-build-release-android-app"
+    }
+  }
+}

@@ -23,88 +23,93 @@ export default [
     exact: true
   },
   {
-    path: '/docs',
-    component: ComponentCreator('/docs', 'c02'),
+    path: '/',
+    component: ComponentCreator('/', '8ea'),
+    exact: true
+  },
+  {
+    path: '/',
+    component: ComponentCreator('/', 'c19'),
     routes: [
       {
-        path: '/docs',
-        component: ComponentCreator('/docs', '9c2'),
+        path: '/',
+        component: ComponentCreator('/', 'b54'),
         routes: [
           {
-            path: '/docs/tags',
-            component: ComponentCreator('/docs/tags', '0cc'),
+            path: '/tags',
+            component: ComponentCreator('/tags', 'd7a'),
             exact: true
           },
           {
-            path: '/docs/tags/android',
-            component: ComponentCreator('/docs/tags/android', 'e3a'),
+            path: '/tags/android',
+            component: ComponentCreator('/tags/android', '27c'),
             exact: true
           },
           {
-            path: '/docs/tags/docusaurus',
-            component: ComponentCreator('/docs/tags/docusaurus', 'ebb'),
+            path: '/tags/docusaurus',
+            component: ComponentCreator('/tags/docusaurus', '0fe'),
             exact: true
           },
           {
-            path: '/docs/tags/git',
-            component: ComponentCreator('/docs/tags/git', '994'),
+            path: '/tags/git',
+            component: ComponentCreator('/tags/git', '66f'),
             exact: true
           },
           {
-            path: '/docs',
-            component: ComponentCreator('/docs', 'c44'),
+            path: '/',
+            component: ComponentCreator('/', 'f0a'),
             routes: [
               {
-                path: '/docs/android/2024-01-28-build-release-android-app',
-                component: ComponentCreator('/docs/android/2024-01-28-build-release-android-app', 'be2'),
+                path: '/android/2024-01-28-build-release-android-app',
+                component: ComponentCreator('/android/2024-01-28-build-release-android-app', '2f4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/android',
-                component: ComponentCreator('/docs/category/android', '7ac'),
+                path: '/category/android',
+                component: ComponentCreator('/category/android', '848'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/docusaurus',
-                component: ComponentCreator('/docs/category/docusaurus', '041'),
+                path: '/category/docusaurus',
+                component: ComponentCreator('/category/docusaurus', '6fa'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/flutter',
-                component: ComponentCreator('/docs/category/flutter', '862'),
+                path: '/category/flutter',
+                component: ComponentCreator('/category/flutter', 'cbc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/software',
-                component: ComponentCreator('/docs/category/software', '4d2'),
+                path: '/category/software',
+                component: ComponentCreator('/category/software', '6e2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/flutter/create-a-blog-post',
-                component: ComponentCreator('/docs/flutter/create-a-blog-post', '5ca'),
+                path: '/flutter/create-a-blog-post',
+                component: ComponentCreator('/flutter/create-a-blog-post', 'c6d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/intro',
-                component: ComponentCreator('/docs/intro', 'aed'),
+                path: '/software/docusaurus/2024-01-28-docusaurus-deploy copy',
+                component: ComponentCreator('/software/docusaurus/2024-01-28-docusaurus-deploy copy', 'b29'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/software/docusaurus/2024-01-28-docusaurus-deploy copy',
-                component: ComponentCreator('/docs/software/docusaurus/2024-01-28-docusaurus-deploy copy', '285'),
+                path: '/software/docusaurus/2024-01-29-docusaurus-all-in-one-script',
+                component: ComponentCreator('/software/docusaurus/2024-01-29-docusaurus-all-in-one-script', '326'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/software/docusaurus/2024-01-29-docusaurus-all-in-one-script',
-                component: ComponentCreator('/docs/software/docusaurus/2024-01-29-docusaurus-all-in-one-script', 'a97'),
+                path: '/',
+                component: ComponentCreator('/', '96c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -113,11 +118,6 @@ export default [
         ]
       }
     ]
-  },
-  {
-    path: '/',
-    component: ComponentCreator('/', '8ea'),
-    exact: true
   },
   {
     path: '*',

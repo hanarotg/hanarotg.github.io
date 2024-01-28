@@ -1,58 +1,58 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/docs",
+      "path": "/",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/docs",
+          "path": "/",
           "mainDocId": "intro",
           "docs": [
             {
               "id": "android/2024-01-28-build-release-android-app",
-              "path": "/docs/android/2024-01-28-build-release-android-app",
+              "path": "/android/2024-01-28-build-release-android-app",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "flutter/create-a-blog-post",
-              "path": "/docs/flutter/create-a-blog-post",
+              "path": "/flutter/create-a-blog-post",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "intro",
-              "path": "/docs/intro",
+              "path": "/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "software/docusaurus/2024-01-28-docusaurus-deploy copy",
-              "path": "/docs/software/docusaurus/2024-01-28-docusaurus-deploy copy",
+              "path": "/software/docusaurus/2024-01-28-docusaurus-deploy copy",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "software/docusaurus/2024-01-29-docusaurus-all-in-one-script",
-              "path": "/docs/software/docusaurus/2024-01-29-docusaurus-all-in-one-script",
+              "path": "/software/docusaurus/2024-01-29-docusaurus-all-in-one-script",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/android",
-              "path": "/docs/category/android",
+              "path": "/category/android",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/flutter",
-              "path": "/docs/category/flutter",
+              "path": "/category/flutter",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/software",
-              "path": "/docs/category/software",
+              "path": "/category/software",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/docusaurus",
-              "path": "/docs/category/docusaurus",
+              "path": "/category/docusaurus",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -60,7 +60,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/intro",
+                "path": "/",
                 "label": "intro"
               }
             }

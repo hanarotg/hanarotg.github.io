@@ -1,17 +1,17 @@
 [
   {
     "label": "android",
-    "permalink": "/docs/tags/android",
+    "permalink": "/tags/android",
     "count": 1
   },
   {
     "label": "git",
-    "permalink": "/docs/tags/git",
+    "permalink": "/tags/git",
     "count": 2
   },
   {
     "label": "docusaurus",
-    "permalink": "/docs/tags/docusaurus",
+    "permalink": "/tags/docusaurus",
     "count": 2
   }
 ]

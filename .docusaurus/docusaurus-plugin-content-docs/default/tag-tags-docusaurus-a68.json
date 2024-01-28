@@ -1,0 +1,21 @@
+{
+  "label": "docusaurus",
+  "permalink": "/tags/docusaurus",
+  "allTagsPath": "/tags",
+  "count": 2,
+  "items": [
+    {
+      "id": "software/docusaurus/2024-01-28-docusaurus-deploy copy",
+      "title": "배포하기",
+      "description": "docusaurus gh-pages 브랜치로 deploy하는 방법",
+      "permalink": "/software/docusaurus/2024-01-28-docusaurus-deploy copy"
+    },
+    {
+      "id": "software/docusaurus/2024-01-29-docusaurus-all-in-one-script",
+      "title": "올인원 배포 스크립트",
+      "description": "docusaurus 빌드, 배포, 깃허브 commit, push 스크립트",
+      "permalink": "/software/docusaurus/2024-01-29-docusaurus-all-in-one-script"
+    }
+  ],
+  "unlisted": false
+}
