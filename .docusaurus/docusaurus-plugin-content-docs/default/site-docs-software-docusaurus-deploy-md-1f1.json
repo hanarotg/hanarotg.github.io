@@ -1,0 +1,40 @@
+{
+  "id": "software/docusaurus-deploy",
+  "title": "docusaurus 도큐사우루스 배포하기",
+  "description": "docusaurus gh-pages 브랜치로 deploy하는 방법",
+  "source": "@site/docs/software/docusaurus-deploy.md",
+  "sourceDirName": "software",
+  "slug": "/software/docusaurus-deploy",
+  "permalink": "/docs/software/docusaurus-deploy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/docusaurus-deploy.md",
+  "tags": [
+    {
+      "label": "git",
+      "permalink": "/docs/tags/git"
+    },
+    {
+      "label": "docusaurus",
+      "permalink": "/docs/tags/docusaurus"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "docusaurus 도큐사우루스 배포하기",
+    "description": "docusaurus gh-pages 브랜치로 deploy하는 방법",
+    "keywords": [
+      "git",
+      "docusaurus"
+    ],
+    "tags": [
+      "git",
+      "docusaurus"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Android",
+    "permalink": "/docs/category/android-1"
+  }
+}

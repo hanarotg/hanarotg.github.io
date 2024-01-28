@@ -1,0 +1,15 @@
+{
+  "label": "git",
+  "permalink": "/docs/tags/git",
+  "allTagsPath": "/docs/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "software/docusaurus-deploy",
+      "title": "docusaurus 도큐사우루스 배포하기",
+      "description": "docusaurus gh-pages 브랜치로 deploy하는 방법",
+      "permalink": "/docs/software/docusaurus-deploy"
+    }
+  ],
+  "unlisted": false
+}

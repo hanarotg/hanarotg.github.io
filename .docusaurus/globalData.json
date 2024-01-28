@@ -26,6 +26,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "software/docusaurus-deploy",
+              "path": "/docs/software/docusaurus-deploy",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/android",
               "path": "/docs/category/android",
               "sidebar": "tutorialSidebar"
@@ -33,6 +38,11 @@
             {
               "id": "/category/flutter",
               "path": "/docs/category/flutter",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/android-1",
+              "path": "/docs/category/android-1",
               "sidebar": "tutorialSidebar"
             }
           ],

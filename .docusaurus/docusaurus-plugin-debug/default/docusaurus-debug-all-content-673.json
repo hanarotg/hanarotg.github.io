@@ -70,6 +70,10 @@
               "previous": {
                 "title": "Flutter",
                 "permalink": "/docs/category/flutter"
+              },
+              "next": {
+                "title": "docusaurus 도큐사우루스 배포하기",
+                "permalink": "/docs/software/docusaurus-deploy"
               }
             },
             {
@@ -96,6 +100,49 @@
               "next": {
                 "title": "Android",
                 "permalink": "/docs/category/android"
+              }
+            },
+            {
+              "id": "software/docusaurus-deploy",
+              "title": "docusaurus 도큐사우루스 배포하기",
+              "description": "docusaurus gh-pages 브랜치로 deploy하는 방법",
+              "source": "@site/docs/software/docusaurus-deploy.md",
+              "sourceDirName": "software",
+              "slug": "/software/docusaurus-deploy",
+              "permalink": "/docs/software/docusaurus-deploy",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/docusaurus-deploy.md",
+              "tags": [
+                {
+                  "label": "git",
+                  "permalink": "/docs/tags/git"
+                },
+                {
+                  "label": "docusaurus",
+                  "permalink": "/docs/tags/docusaurus"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {
+                "title": "docusaurus 도큐사우루스 배포하기",
+                "description": "docusaurus gh-pages 브랜치로 deploy하는 방법",
+                "keywords": [
+                  "git",
+                  "docusaurus"
+                ],
+                "tags": [
+                  "git",
+                  "docusaurus"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Create a Blog Post",
+                "permalink": "/docs/flutter/create-a-blog-post"
               }
             }
           ],
@@ -141,6 +188,18 @@
                   "slug": "/category/flutter",
                   "permalink": "/docs/category/flutter"
                 }
+              },
+              {
+                "type": "category",
+                "label": "software",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "software/docusaurus-deploy"
+                  }
+                ]
               }
             ]
           }
@@ -162,12 +221,7 @@
             "description": "안녕하세요, 이태경입니다.",
             "date": "2024-01-28T00:00:00.000Z",
             "formattedDate": "January 28, 2024",
-            "tags": [
-              {
-                "label": "hello",
-                "permalink": "/blog/tags/hello"
-              }
-            ],
+            "tags": [],
             "readingTime": 0.925,
             "hasTruncateMarker": false,
             "authors": [
@@ -182,10 +236,7 @@
             "frontMatter": {
               "slug": "about-me",
               "title": "About Me",
-              "authors": "hanarotg",
-              "tags": [
-                "hello"
-              ]
+              "authors": "hanarotg"
             },
             "unlisted": false
           },
@@ -208,32 +259,7 @@
           }
         }
       ],
-      "blogTags": {
-        "/blog/tags/hello": {
-          "label": "hello",
-          "items": [
-            "about-me"
-          ],
-          "permalink": "/blog/tags/hello",
-          "pages": [
-            {
-              "items": [
-                "about-me"
-              ],
-              "metadata": {
-                "permalink": "/blog/tags/hello",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 1,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ],
-          "unlisted": false
-        }
-      },
+      "blogTags": {},
       "blogTagsListPath": "/blog/tags"
     }
   },

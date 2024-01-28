@@ -23,6 +23,7 @@ const config = {
   organizationName: "hanarotg", // Usually your GitHub org/user name.
   projectName: "hanarotg.github.io", // Usually your repo name.
   trailingSlash: false,
+  deploymentBranch: "gh-pages",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -87,6 +88,7 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+        additionalLanguages: ["bash", "dart", "go", "http", "kotlin"],
       },
     }),
 };

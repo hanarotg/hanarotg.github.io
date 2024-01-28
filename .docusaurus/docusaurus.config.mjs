@@ -12,6 +12,7 @@ export default {
   "organizationName": "hanarotg",
   "projectName": "hanarotg.github.io",
   "trailingSlash": false,
+  "deploymentBranch": "gh-pages",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -257,7 +258,13 @@ export default {
           }
         ]
       },
-      "additionalLanguages": [],
+      "additionalLanguages": [
+        "bash",
+        "dart",
+        "go",
+        "http",
+        "kotlin"
+      ],
       "magicComments": [
         {
           "className": "theme-code-block-highlighted-line",

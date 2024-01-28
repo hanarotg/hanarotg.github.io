@@ -10,12 +10,7 @@
         "description": "안녕하세요, 이태경입니다.",
         "date": "2024-01-28T00:00:00.000Z",
         "formattedDate": "January 28, 2024",
-        "tags": [
-          {
-            "label": "hello",
-            "permalink": "/blog/tags/hello"
-          }
-        ],
+        "tags": [],
         "readingTime": 0.925,
         "hasTruncateMarker": false,
         "authors": [
@@ -30,10 +25,7 @@
         "frontMatter": {
           "slug": "about-me",
           "title": "About Me",
-          "authors": "hanarotg",
-          "tags": [
-            "hello"
-          ]
+          "authors": "hanarotg"
         },
         "unlisted": false
       },

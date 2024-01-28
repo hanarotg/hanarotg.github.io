@@ -47,6 +47,22 @@
           }
         ],
         "href": "/docs/category/flutter"
+      },
+      {
+        "type": "category",
+        "label": "Android",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "docusaurus 도큐사우루스 배포하기",
+            "href": "/docs/software/docusaurus-deploy",
+            "docId": "software/docusaurus-deploy",
+            "unlisted": false
+          }
+        ],
+        "href": "/docs/category/android-1"
       }
     ]
   },
@@ -67,6 +83,12 @@
       "id": "intro",
       "title": "문서 안내",
       "description": "목록",
+      "sidebar": "tutorialSidebar"
+    },
+    "software/docusaurus-deploy": {
+      "id": "software/docusaurus-deploy",
+      "title": "docusaurus 도큐사우루스 배포하기",
+      "description": "docusaurus gh-pages 브랜치로 deploy하는 방법",
       "sidebar": "tutorialSidebar"
     }
   }

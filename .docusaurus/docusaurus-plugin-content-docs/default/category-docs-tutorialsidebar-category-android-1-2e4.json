@@ -1,0 +1,16 @@
+{
+  "title": "Android",
+  "description": "소프트웨어",
+  "slug": "/category/android-1",
+  "permalink": "/docs/category/android-1",
+  "navigation": {
+    "previous": {
+      "title": "Create a Blog Post",
+      "permalink": "/docs/flutter/create-a-blog-post"
+    },
+    "next": {
+      "title": "docusaurus 도큐사우루스 배포하기",
+      "permalink": "/docs/software/docusaurus-deploy"
+    }
+  }
+}

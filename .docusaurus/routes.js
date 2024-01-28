@@ -18,31 +18,41 @@ export default [
     exact: true
   },
   {
-    path: '/blog/tags',
-    component: ComponentCreator('/blog/tags', 'd74'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', 'bf2'),
-    exact: true
-  },
-  {
     path: '/markdown-page',
     component: ComponentCreator('/markdown-page', '911'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '35d'),
+    component: ComponentCreator('/docs', '737'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '742'),
+        component: ComponentCreator('/docs', 'd7b'),
         routes: [
           {
+            path: '/docs/tags',
+            component: ComponentCreator('/docs/tags', '0cc'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/android',
+            component: ComponentCreator('/docs/tags/android', 'e3a'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/docusaurus',
+            component: ComponentCreator('/docs/tags/docusaurus', 'ebb'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/git',
+            component: ComponentCreator('/docs/tags/git', '994'),
+            exact: true
+          },
+          {
             path: '/docs',
-            component: ComponentCreator('/docs', '928'),
+            component: ComponentCreator('/docs', 'fcd'),
             routes: [
               {
                 path: '/docs/android/build-release-android-app',
@@ -53,6 +63,12 @@ export default [
               {
                 path: '/docs/category/android',
                 component: ComponentCreator('/docs/category/android', '7ac'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/android-1',
+                component: ComponentCreator('/docs/category/android-1', '9b4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -71,6 +87,12 @@ export default [
               {
                 path: '/docs/intro',
                 component: ComponentCreator('/docs/intro', 'aed'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/software/docusaurus-deploy',
+                component: ComponentCreator('/docs/software/docusaurus-deploy', 'acb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
