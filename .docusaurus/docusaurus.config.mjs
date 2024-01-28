@@ -5,7 +5,7 @@
  */
 export default {
   "title": "이태경",
-  "tagline": "개발자",
+  "tagline": "fail fast, fail often",
   "favicon": "img/favicon.ico",
   "url": "https://hanarotg.github.io",
   "baseUrl": "/",
@@ -53,16 +53,16 @@ export default {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "Tutorial"
+          "label": "소개"
         },
         {
           "to": "/blog",
-          "label": "Blog",
+          "label": "블로그",
           "position": "left"
         },
         {
           "href": "https://github.com/facebook/docusaurus",
-          "label": "GitHub",
+          "label": "소개",
           "position": "right"
         }
       ],
