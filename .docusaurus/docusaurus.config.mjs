@@ -259,6 +259,7 @@ export default {
         ]
       },
       "additionalLanguages": [
+        "json",
         "bash",
         "dart",
         "go",

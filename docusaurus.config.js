@@ -88,7 +88,7 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
-        additionalLanguages: ["bash", "dart", "go", "http", "kotlin"],
+        additionalLanguages: ["json", "bash", "dart", "go", "http", "kotlin"],
       },
     }),
 };

@@ -12,7 +12,7 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "sex": "docusaurus build && GIT_USER=hanarotg docusaurus deploy && git add . && git commit -m 'update .' && git push origin main"
+    "all": "docusaurus build && GIT_USER=hanarotg docusaurus deploy && git add . && git commit -m 'update .' && git push origin main"
   },
   "dependencies": {
     "@docusaurus/core": "3.1.1",

@@ -24,11 +24,11 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '30e'),
+    component: ComponentCreator('/docs', '693'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '35a'),
+        component: ComponentCreator('/docs', '154'),
         routes: [
           {
             path: '/docs/tags',
@@ -52,7 +52,7 @@ export default [
           },
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '094'),
+            component: ComponentCreator('/docs', 'f68'),
             routes: [
               {
                 path: '/docs/android/2024-01-28-build-release-android-app',
@@ -91,8 +91,14 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/software/2024-01-28-docusaurus-deploy',
-                component: ComponentCreator('/docs/software/2024-01-28-docusaurus-deploy', 'c99'),
+                path: '/docs/software/2024-01-28-docusaurus-deploy copy',
+                component: ComponentCreator('/docs/software/2024-01-28-docusaurus-deploy copy', '601'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/software/2024-01-29-docusaurus-all-in-one-script',
+                component: ComponentCreator('/docs/software/2024-01-29-docusaurus-all-in-one-script', '400'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

@@ -57,8 +57,15 @@
           {
             "type": "link",
             "label": "docusaurus 도큐사우루스 배포하기",
-            "href": "/docs/software/2024-01-28-docusaurus-deploy",
-            "docId": "software/2024-01-28-docusaurus-deploy",
+            "href": "/docs/software/2024-01-28-docusaurus-deploy copy",
+            "docId": "software/2024-01-28-docusaurus-deploy copy",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "docusaurus 배포 스크립트",
+            "href": "/docs/software/2024-01-29-docusaurus-all-in-one-script",
+            "docId": "software/2024-01-29-docusaurus-all-in-one-script",
             "unlisted": false
           }
         ],
@@ -85,10 +92,16 @@
       "description": "목록",
       "sidebar": "tutorialSidebar"
     },
-    "software/2024-01-28-docusaurus-deploy": {
-      "id": "software/2024-01-28-docusaurus-deploy",
+    "software/2024-01-28-docusaurus-deploy copy": {
+      "id": "software/2024-01-28-docusaurus-deploy copy",
       "title": "docusaurus 도큐사우루스 배포하기",
       "description": "docusaurus gh-pages 브랜치로 deploy하는 방법",
+      "sidebar": "tutorialSidebar"
+    },
+    "software/2024-01-29-docusaurus-all-in-one-script": {
+      "id": "software/2024-01-29-docusaurus-all-in-one-script",
+      "title": "docusaurus 배포 스크립트",
+      "description": "docusaurus 빌드, 배포, 깃허브 commit, push 스크립트",
       "sidebar": "tutorialSidebar"
     }
   }

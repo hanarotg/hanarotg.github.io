@@ -26,8 +26,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "software/2024-01-28-docusaurus-deploy",
-              "path": "/docs/software/2024-01-28-docusaurus-deploy",
+              "id": "software/2024-01-28-docusaurus-deploy copy",
+              "path": "/docs/software/2024-01-28-docusaurus-deploy copy",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "software/2024-01-29-docusaurus-all-in-one-script",
+              "path": "/docs/software/2024-01-29-docusaurus-all-in-one-script",
               "sidebar": "tutorialSidebar"
             },
             {
