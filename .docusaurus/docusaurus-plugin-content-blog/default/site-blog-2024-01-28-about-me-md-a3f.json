@@ -3,11 +3,11 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-01-28-about-me.md",
   "source": "@site/blog/2024-01-28-about-me.md",
   "title": "About Me",
-  "description": "안녕하세요, 이태경입니다.",
+  "description": "안녕하세요",
   "date": "2024-01-28T00:00:00.000Z",
   "formattedDate": "January 28, 2024",
   "tags": [],
-  "readingTime": 0.925,
+  "readingTime": 0.025,
   "hasTruncateMarker": false,
   "authors": [
     {

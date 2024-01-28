@@ -20,6 +20,9 @@
     }
   ],
   "version": "current",
+  "lastUpdatedBy": "Taegyeong Lee",
+  "lastUpdatedAt": 1706457833,
+  "formattedLastUpdatedAt": "Jan 28, 2024",
   "frontMatter": {
     "title": "배포하기",
     "description": "docusaurus gh-pages 브랜치로 deploy하는 방법",

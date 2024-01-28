@@ -20,6 +20,9 @@
     }
   ],
   "version": "current",
+  "lastUpdatedBy": "Taegyeong Lee",
+  "lastUpdatedAt": 1706457833,
+  "formattedLastUpdatedAt": "Jan 28, 2024",
   "frontMatter": {
     "title": "올인원 배포 스크립트",
     "description": "docusaurus 빌드, 배포, 깃허브 commit, push 스크립트",
