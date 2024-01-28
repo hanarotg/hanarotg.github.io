@@ -24,11 +24,11 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '7da'),
+    component: ComponentCreator('/docs', 'c02'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'ad6'),
+        component: ComponentCreator('/docs', '9c2'),
         routes: [
           {
             path: '/docs/tags',
@@ -52,7 +52,7 @@ export default [
           },
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'a14'),
+            component: ComponentCreator('/docs', 'c44'),
             routes: [
               {
                 path: '/docs/android/2024-01-28-build-release-android-app',
@@ -63,6 +63,12 @@ export default [
               {
                 path: '/docs/category/android',
                 component: ComponentCreator('/docs/category/android', '7ac'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/docusaurus',
+                component: ComponentCreator('/docs/category/docusaurus', '041'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -91,14 +97,14 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/software/2024-01-28-docusaurus-deploy copy',
-                component: ComponentCreator('/docs/software/2024-01-28-docusaurus-deploy copy', '601'),
+                path: '/docs/software/docusaurus/2024-01-28-docusaurus-deploy copy',
+                component: ComponentCreator('/docs/software/docusaurus/2024-01-28-docusaurus-deploy copy', '285'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/software/2024-01-29-docusaurus-all-in-one-script',
-                component: ComponentCreator('/docs/software/2024-01-29-docusaurus-all-in-one-script', '400'),
+                path: '/docs/software/docusaurus/2024-01-29-docusaurus-all-in-one-script',
+                component: ComponentCreator('/docs/software/docusaurus/2024-01-29-docusaurus-all-in-one-script', 'a97'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

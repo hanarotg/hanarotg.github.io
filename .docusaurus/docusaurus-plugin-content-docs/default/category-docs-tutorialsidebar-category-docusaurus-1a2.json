@@ -1,0 +1,16 @@
+{
+  "title": "Docusaurus",
+  "description": "도큐사우루스",
+  "slug": "/category/docusaurus",
+  "permalink": "/docs/category/docusaurus",
+  "navigation": {
+    "previous": {
+      "title": "Software",
+      "permalink": "/docs/category/software"
+    },
+    "next": {
+      "title": "배포하기",
+      "permalink": "/docs/software/docusaurus/2024-01-28-docusaurus-deploy copy"
+    }
+  }
+}

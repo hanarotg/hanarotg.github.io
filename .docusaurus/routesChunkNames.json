@@ -34,13 +34,13 @@
     },
     "content": "393be207"
   },
-  "/docs-7da": {
+  "/docs-c02": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "c74882fd"
     }
   },
-  "/docs-ad6": {
+  "/docs-9c2": {
     "__comp": "a7bd4aaa",
     "version": "935f2afb"
   },
@@ -60,7 +60,7 @@
     "__comp": "df203c0f",
     "tag": "7b667a7f"
   },
-  "/docs-a14": {
+  "/docs-c44": {
     "__comp": "a94703ab"
   },
   "/docs/android/2024-01-28-build-release-android-app-be2": {
@@ -70,6 +70,10 @@
   "/docs/category/android-7ac": {
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "89539c58"
+  },
+  "/docs/category/docusaurus-041": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "c894e3de"
   },
   "/docs/category/flutter-862": {
     "__comp": "14eb3368",
@@ -87,13 +91,13 @@
     "__comp": "17896441",
     "content": "0e384e19"
   },
-  "/docs/software/2024-01-28-docusaurus-deploy copy-601": {
+  "/docs/software/docusaurus/2024-01-28-docusaurus-deploy copy-285": {
     "__comp": "17896441",
-    "content": "e10b7219"
+    "content": "be6a0ed2"
   },
-  "/docs/software/2024-01-29-docusaurus-all-in-one-script-400": {
+  "/docs/software/docusaurus/2024-01-29-docusaurus-all-in-one-script-a97": {
     "__comp": "17896441",
-    "content": "07d519cb"
+    "content": "19cedb3d"
   },
   "/-8ea": {
     "__comp": "c4f5d8e4",

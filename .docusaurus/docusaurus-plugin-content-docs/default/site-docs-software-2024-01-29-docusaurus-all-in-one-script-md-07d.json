@@ -20,9 +20,9 @@
     }
   ],
   "version": "current",
-  "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1706457544,
-  "formattedLastUpdatedAt": "Jan 28, 2024",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
   "frontMatter": {
     "title": "docusaurus 올인원 배포 스크립트",
     "description": "docusaurus 빌드, 배포, 깃허브 commit, push 스크립트",
@@ -37,7 +37,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "docusaurus 도큐사우루스 배포하기",
-    "permalink": "/docs/software/2024-01-28-docusaurus-deploy copy"
+    "title": "docusaurus 올인원 배포 스크립트",
+    "permalink": "/docs/software/docusaurus/2024-01-29-docusaurus-all-in-one-script"
   }
 }
