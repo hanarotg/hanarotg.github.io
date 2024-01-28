@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://hanarotg.github.io/blog</id>
+    <title>이태경 Blog</title>
+    <updated>2024-01-28T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://hanarotg.github.io/blog"/>
+    <subtitle>이태경 Blog</subtitle>
+    <icon>https://hanarotg.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[About Me]]></title>
+        <id>https://hanarotg.github.io/blog/about-me</id>
+        <link href="https://hanarotg.github.io/blog/about-me"/>
+        <updated>2024-01-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[안녕하세요, 이태경입니다.]]></summary>
+        <content type="html"><![CDATA[<p>안녕하세요, 이태경입니다.
+방문해 주셔서 감사합니다.</p>
+<ul>
+<li><a href="https://github.com/hanarotg" target="_blank" rel="noopener noreferrer">github</a></li>
+<li><a href="mailto:hanrotg@naver.com" target="_blank" rel="noopener noreferrer">email</a></li>
+</ul>
+<p>관심 분야는 안드로이드, 크로스 플랫폼입니다. 관련 오픈소스 버그 수정, 답변 활동하고 있습니다.</p>
+<ul>
+<li>18년 숭실대학교 컴퓨터학부 재학중입니다.</li>
+<li>21년&nbsp;공동 창업, 1년 동안 서비스를 개발했습니다.</li>
+<li>22년&nbsp;숭실대학교 만돌린 오케스트라에서 회장을 했습니다.</li>
+<li>23년&nbsp;분산지능연구실에서 안드로이드 개발을 잠시 담당하고 있습니다.</li>
+<li>24년 ?</li>
+</ul>
+<p>개발 관련 모든 기록은 <a href="https://hanarotg.github.io/docs/intro">문서</a>에 계속 업데이트하고 있습니다.</p>]]></content>
+        <author>
+            <name>이태경</name>
+            <uri>https://hanarotg.github.io</uri>
+        </author>
+        <category label="hello" term="hello"/>
+    </entry>
+</feed>

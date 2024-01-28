@@ -1,0 +1,23 @@
+{
+  "id": "flutter/create-a-blog-post",
+  "title": "Create a Blog Post",
+  "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
+  "source": "@site/docs/flutter/create-a-blog-post.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/create-a-blog-post",
+  "permalink": "/docs/flutter/create-a-blog-post",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/flutter/create-a-blog-post.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Flutter",
+    "permalink": "/docs/category/flutter"
+  }
+}

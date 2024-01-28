@@ -1,0 +1,23 @@
+{
+  "id": "about-me",
+  "title": "about me",
+  "description": "안녕하세요, 이태경입니다. 방문해 주셔서 감사합니다.",
+  "source": "@site/docs/about-me.md",
+  "sourceDirName": ".",
+  "slug": "/about-me",
+  "permalink": "/docs/about-me",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/about-me.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Tutorial - Basics",
+    "permalink": "/docs/category/tutorial---basics"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "플러터 Flutter",
+  "description": "크로스 플랫폼 플러터에 관한 개발 문서입니다.",
+  "slug": "/category/플러터-flutter",
+  "permalink": "/docs/category/플러터-flutter",
+  "navigation": {
+    "previous": {
+      "title": "문서 안내",
+      "permalink": "/docs/intro"
+    },
+    "next": {
+      "title": "Create a Blog Post",
+      "permalink": "/docs/flutter/create-a-blog-post"
+    }
+  }
+}

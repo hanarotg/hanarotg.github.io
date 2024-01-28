@@ -1,0 +1,16 @@
+{
+  "title": "Android",
+  "description": "안드로이드",
+  "slug": "/category/android",
+  "permalink": "/docs/category/android",
+  "navigation": {
+    "previous": {
+      "title": "문서 안내",
+      "permalink": "/docs/intro"
+    },
+    "next": {
+      "title": "배포용 안드로이드 앱 번들 빌드하기",
+      "permalink": "/docs/android/build-release-android-app"
+    }
+  }
+}

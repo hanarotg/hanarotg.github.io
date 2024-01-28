@@ -36,6 +36,13 @@
       "url": "https://github.com/yangshun",
       "imageURL": "https://github.com/yangshun.png",
       "key": "yangshun"
+    },
+    {
+      "name": "이태경",
+      "title": "개발자",
+      "url": "https://hanarotg.github.io",
+      "imageURL": "https://avatars.githubusercontent.com/u/34812887?v=4",
+      "key": "hanarotg"
     }
   ],
   "frontMatter": {
@@ -43,7 +50,8 @@
     "title": "Welcome",
     "authors": [
       "slorber",
-      "yangshun"
+      "yangshun",
+      "hanarotg"
     ],
     "tags": [
       "facebook",
