@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkhanarotg_github_io=self.webpackChunkhanarotg_github_io||[]).push([[121],{8070:a=>{a.exports=JSON.parse('[{"label":"git","permalink":"/docs/tags/git","count":1},{"label":"docusaurus","permalink":"/docs/tags/docusaurus","count":1}]')}}]);
