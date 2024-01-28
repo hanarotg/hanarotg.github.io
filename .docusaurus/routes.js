@@ -24,11 +24,11 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '693'),
+    component: ComponentCreator('/docs', '7da'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '154'),
+        component: ComponentCreator('/docs', 'ad6'),
         routes: [
           {
             path: '/docs/tags',
@@ -52,7 +52,7 @@ export default [
           },
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'f68'),
+            component: ComponentCreator('/docs', 'a14'),
             routes: [
               {
                 path: '/docs/android/2024-01-28-build-release-android-app',
@@ -67,14 +67,14 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/android-1',
-                component: ComponentCreator('/docs/category/android-1', '9b4'),
+                path: '/docs/category/flutter',
+                component: ComponentCreator('/docs/category/flutter', '862'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/flutter',
-                component: ComponentCreator('/docs/category/flutter', '862'),
+                path: '/docs/category/software',
+                component: ComponentCreator('/docs/category/software', '4d2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

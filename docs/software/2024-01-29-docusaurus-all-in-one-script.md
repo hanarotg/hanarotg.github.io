@@ -1,5 +1,5 @@
 ---
-title: docusaurus 배포 스크립트
+title: docusaurus 올인원 배포 스크립트
 description: docusaurus 빌드, 배포, 깃허브 commit, push 스크립트
 keywords: [git, docusaurus]
 tags: [git, docusaurus]

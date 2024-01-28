@@ -34,13 +34,13 @@
     },
     "content": "393be207"
   },
-  "/docs-693": {
+  "/docs-7da": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "c74882fd"
     }
   },
-  "/docs-154": {
+  "/docs-ad6": {
     "__comp": "a7bd4aaa",
     "version": "935f2afb"
   },
@@ -60,7 +60,7 @@
     "__comp": "df203c0f",
     "tag": "7b667a7f"
   },
-  "/docs-f68": {
+  "/docs-a14": {
     "__comp": "a94703ab"
   },
   "/docs/android/2024-01-28-build-release-android-app-be2": {
@@ -71,13 +71,13 @@
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "89539c58"
   },
-  "/docs/category/android-1-9b4": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "3bfa5ab9"
-  },
   "/docs/category/flutter-862": {
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "217748a8"
+  },
+  "/docs/category/software-4d2": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "8af8657b"
   },
   "/docs/flutter/create-a-blog-post-5ca": {
     "__comp": "17896441",

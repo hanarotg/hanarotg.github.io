@@ -1,6 +1,6 @@
 {
   "id": "software/2024-01-29-docusaurus-all-in-one-script",
-  "title": "docusaurus 배포 스크립트",
+  "title": "docusaurus 올인원 배포 스크립트",
   "description": "docusaurus 빌드, 배포, 깃허브 commit, push 스크립트",
   "source": "@site/docs/software/2024-01-29-docusaurus-all-in-one-script.md",
   "sourceDirName": "software",
@@ -20,8 +20,11 @@
     }
   ],
   "version": "current",
+  "lastUpdatedBy": "Taegyeong Lee",
+  "lastUpdatedAt": 1706457544,
+  "formattedLastUpdatedAt": "Jan 28, 2024",
   "frontMatter": {
-    "title": "docusaurus 배포 스크립트",
+    "title": "docusaurus 올인원 배포 스크립트",
     "description": "docusaurus 빌드, 배포, 깃허브 commit, push 스크립트",
     "keywords": [
       "git",

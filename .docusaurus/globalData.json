@@ -46,8 +46,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/android-1",
-              "path": "/docs/category/android-1",
+              "id": "/category/software",
+              "path": "/docs/category/software",
               "sidebar": "tutorialSidebar"
             }
           ],
