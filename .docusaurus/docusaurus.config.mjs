@@ -5,14 +5,13 @@
  */
 export default {
   "title": "이태경",
-  "tagline": "fail fast, fail often",
+  "tagline": "개발자",
   "favicon": "img/favicon.ico",
   "url": "https://hanarotg.github.io",
   "baseUrl": "/",
   "organizationName": "hanarotg",
   "projectName": "hanarotg.github.io",
   "trailingSlash": false,
-  "deploymentBranch": "main",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -28,7 +27,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "./sidebars.ts",
+          "sidebarPath": "./sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
@@ -44,7 +43,7 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "My Site",
+      "title": "이태경",
       "logo": {
         "alt": "My Site Logo",
         "src": "img/logo.svg"
