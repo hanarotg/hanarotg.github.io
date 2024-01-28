@@ -12,6 +12,7 @@ sidebar_position: 1
 - React Native
 - 프로그래밍
 - 컴퓨터공학
+- 프로젝트
 
 ## 소개
 
