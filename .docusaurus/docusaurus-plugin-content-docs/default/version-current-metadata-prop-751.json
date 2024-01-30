@@ -56,6 +56,22 @@
         "items": [
           {
             "type": "category",
+            "label": "Linux",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "python nuhup 백그라운드 실행",
+                "href": "/software/python/2024-01-30-python-background",
+                "docId": "software/python/2024-01-30-python-background",
+                "unlisted": false
+              }
+            ],
+            "href": "/category/linux"
+          },
+          {
+            "type": "category",
             "label": "Docusaurus",
             "collapsible": true,
             "collapsed": true,
@@ -111,6 +127,12 @@
       "id": "software/docusaurus/2024-01-29-docusaurus-all-in-one-script",
       "title": "올인원 배포 스크립트",
       "description": "docusaurus 빌드, 배포, 깃허브 commit, push 스크립트",
+      "sidebar": "tutorialSidebar"
+    },
+    "software/python/2024-01-30-python-background": {
+      "id": "software/python/2024-01-30-python-background",
+      "title": "python nuhup 백그라운드 실행",
+      "description": "python nuhup 백그라운드 실행하는 방법",
       "sidebar": "tutorialSidebar"
     }
   }

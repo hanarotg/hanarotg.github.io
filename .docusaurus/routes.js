@@ -24,11 +24,11 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'c19'),
+    component: ComponentCreator('/', '966'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', 'b54'),
+        component: ComponentCreator('/', '22e'),
         routes: [
           {
             path: '/tags',
@@ -51,8 +51,18 @@ export default [
             exact: true
           },
           {
+            path: '/tags/linux',
+            component: ComponentCreator('/tags/linux', 'd3c'),
+            exact: true
+          },
+          {
+            path: '/tags/python',
+            component: ComponentCreator('/tags/python', '5f7'),
+            exact: true
+          },
+          {
             path: '/',
-            component: ComponentCreator('/', 'f0a'),
+            component: ComponentCreator('/', 'b72'),
             routes: [
               {
                 path: '/android/2024-01-28-build-release-android-app',
@@ -79,6 +89,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/category/linux',
+                component: ComponentCreator('/category/linux', '96d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/category/software',
                 component: ComponentCreator('/category/software', '6e2'),
                 exact: true,
@@ -99,6 +115,12 @@ export default [
               {
                 path: '/software/docusaurus/2024-01-29-docusaurus-all-in-one-script',
                 component: ComponentCreator('/software/docusaurus/2024-01-29-docusaurus-all-in-one-script', '326'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/software/python/2024-01-30-python-background',
+                component: ComponentCreator('/software/python/2024-01-30-python-background', '51e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

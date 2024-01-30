@@ -1,0 +1,44 @@
+{
+  "id": "software/python/2024-01-30-python-background",
+  "title": "python nuhup 백그라운드 실행",
+  "description": "python nuhup 백그라운드 실행하는 방법",
+  "source": "@site/docs/software/python/2024-01-30-python-background.md",
+  "sourceDirName": "software/python",
+  "slug": "/software/python/2024-01-30-python-background",
+  "permalink": "/software/python/2024-01-30-python-background",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/python/2024-01-30-python-background.md",
+  "tags": [
+    {
+      "label": "python",
+      "permalink": "/tags/python"
+    },
+    {
+      "label": "linux",
+      "permalink": "/tags/linux"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "python nuhup 백그라운드 실행",
+    "description": "python nuhup 백그라운드 실행하는 방법",
+    "keywords": [
+      "python",
+      "linux"
+    ],
+    "tags": [
+      "python",
+      "linux"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Linux",
+    "permalink": "/category/linux"
+  },
+  "next": {
+    "title": "Docusaurus",
+    "permalink": "/category/docusaurus"
+  }
+}

@@ -34,13 +34,13 @@
     },
     "content": "393be207"
   },
-  "/-c19": {
+  "/-966": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "c74882fd"
     }
   },
-  "/-b54": {
+  "/-22e": {
     "__comp": "a7bd4aaa",
     "version": "935f2afb"
   },
@@ -60,7 +60,15 @@
     "__comp": "df203c0f",
     "tag": "dba55630"
   },
-  "/-f0a": {
+  "/tags/linux-d3c": {
+    "__comp": "df203c0f",
+    "tag": "bf8cb3eb"
+  },
+  "/tags/python-5f7": {
+    "__comp": "df203c0f",
+    "tag": "bf524578"
+  },
+  "/-b72": {
     "__comp": "a94703ab"
   },
   "/android/2024-01-28-build-release-android-app-2f4": {
@@ -79,6 +87,10 @@
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "b060b5df"
   },
+  "/category/linux-96d": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "872da13b"
+  },
   "/category/software-6e2": {
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "013d90dd"
@@ -94,6 +106,10 @@
   "/software/docusaurus/2024-01-29-docusaurus-all-in-one-script-326": {
     "__comp": "17896441",
     "content": "19cedb3d"
+  },
+  "/software/python/2024-01-30-python-background-51e": {
+    "__comp": "17896441",
+    "content": "d63e1e1c"
   },
   "/-96c": {
     "__comp": "17896441",

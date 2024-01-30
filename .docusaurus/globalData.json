@@ -36,6 +36,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "software/python/2024-01-30-python-background",
+              "path": "/software/python/2024-01-30-python-background",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/android",
               "path": "/category/android",
               "sidebar": "tutorialSidebar"
@@ -48,6 +53,11 @@
             {
               "id": "/category/software",
               "path": "/category/software",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/linux",
+              "path": "/category/linux",
               "sidebar": "tutorialSidebar"
             },
             {
