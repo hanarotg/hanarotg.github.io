@@ -34,3 +34,7 @@
     max-width: 480px;
   }
 }
+
+.utterances {
+  max-width: 100%;
+}
