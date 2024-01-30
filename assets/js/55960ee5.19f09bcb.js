@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkhanarotg_github_io=self.webpackChunkhanarotg_github_io||[]).push([[121],{8070:a=>{a.exports=JSON.parse('[{"label":"android","permalink":"/tags/android","count":1},{"label":"git","permalink":"/tags/git","count":2},{"label":"docusaurus","permalink":"/tags/docusaurus","count":2}]')}}]);
