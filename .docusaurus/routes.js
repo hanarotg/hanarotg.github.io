@@ -24,11 +24,11 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '966'),
+    component: ComponentCreator('/', 'c23'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', '22e'),
+        component: ComponentCreator('/', '3ba'),
         routes: [
           {
             path: '/tags',
@@ -62,7 +62,7 @@ export default [
           },
           {
             path: '/',
-            component: ComponentCreator('/', 'b72'),
+            component: ComponentCreator('/', '55d'),
             routes: [
               {
                 path: '/android/2024-01-28-build-release-android-app',
@@ -95,6 +95,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/category/others',
+                component: ComponentCreator('/category/others', '70a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/category/software',
                 component: ComponentCreator('/category/software', '6e2'),
                 exact: true,
@@ -103,6 +109,12 @@ export default [
               {
                 path: '/flutter/create-a-blog-post',
                 component: ComponentCreator('/flutter/create-a-blog-post', 'c6d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/others/2024-02-02-select-book',
+                component: ComponentCreator('/others/2024-02-02-select-book', '45e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

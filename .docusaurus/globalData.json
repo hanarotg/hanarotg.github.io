@@ -26,6 +26,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "others/2024-02-02-select-book",
+              "path": "/others/2024-02-02-select-book",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "software/docusaurus/2024-01-28-docusaurus-deploy copy",
               "path": "/software/docusaurus/2024-01-28-docusaurus-deploy copy",
               "sidebar": "tutorialSidebar"
@@ -63,6 +68,11 @@
             {
               "id": "/category/docusaurus",
               "path": "/category/docusaurus",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/others",
+              "path": "/category/others",
               "sidebar": "tutorialSidebar"
             }
           ],

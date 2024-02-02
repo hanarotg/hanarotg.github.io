@@ -34,13 +34,13 @@
     },
     "content": "393be207"
   },
-  "/-966": {
+  "/-c23": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "c74882fd"
     }
   },
-  "/-22e": {
+  "/-3ba": {
     "__comp": "a7bd4aaa",
     "version": "935f2afb"
   },
@@ -68,7 +68,7 @@
     "__comp": "df203c0f",
     "tag": "bf524578"
   },
-  "/-b72": {
+  "/-55d": {
     "__comp": "a94703ab"
   },
   "/android/2024-01-28-build-release-android-app-2f4": {
@@ -91,6 +91,10 @@
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "872da13b"
   },
+  "/category/others-70a": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "a9e18ec8"
+  },
   "/category/software-6e2": {
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "013d90dd"
@@ -98,6 +102,10 @@
   "/flutter/create-a-blog-post-c6d": {
     "__comp": "17896441",
     "content": "dcc1fcee"
+  },
+  "/others/2024-02-02-select-book-45e": {
+    "__comp": "17896441",
+    "content": "2ee074d1"
   },
   "/software/docusaurus/2024-01-28-docusaurus-deploy copy-b29": {
     "__comp": "17896441",

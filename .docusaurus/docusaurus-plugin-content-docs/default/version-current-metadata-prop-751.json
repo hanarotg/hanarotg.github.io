@@ -95,6 +95,22 @@
           }
         ],
         "href": "/category/software"
+      },
+      {
+        "type": "category",
+        "label": "Others",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "책을 선택하는 방법",
+            "href": "/others/2024-02-02-select-book",
+            "docId": "others/2024-02-02-select-book",
+            "unlisted": false
+          }
+        ],
+        "href": "/category/others"
       }
     ]
   },
@@ -115,6 +131,12 @@
       "id": "intro",
       "title": "안내",
       "description": "안녕하세요, 방문해 주셔서 감사합니다.",
+      "sidebar": "tutorialSidebar"
+    },
+    "others/2024-02-02-select-book": {
+      "id": "others/2024-02-02-select-book",
+      "title": "책을 선택하는 방법",
+      "description": "책 선정 기준",
       "sidebar": "tutorialSidebar"
     },
     "software/docusaurus/2024-01-28-docusaurus-deploy copy": {
