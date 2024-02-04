@@ -265,7 +265,8 @@ export default {
         "dart",
         "go",
         "http",
-        "kotlin"
+        "kotlin",
+        "cpp"
       ],
       "magicComments": [
         {

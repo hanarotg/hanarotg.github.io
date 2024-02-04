@@ -24,11 +24,11 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'c23'),
+    component: ComponentCreator('/', 'f89'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', '3ba'),
+        component: ComponentCreator('/', '7ae'),
         routes: [
           {
             path: '/tags',
@@ -36,8 +36,23 @@ export default [
             exact: true
           },
           {
+            path: '/tags/백준',
+            component: ComponentCreator('/tags/백준', 'b85'),
+            exact: true
+          },
+          {
             path: '/tags/android',
             component: ComponentCreator('/tags/android', '27c'),
+            exact: true
+          },
+          {
+            path: '/tags/bfs',
+            component: ComponentCreator('/tags/bfs', '16c'),
+            exact: true
+          },
+          {
+            path: '/tags/c',
+            component: ComponentCreator('/tags/c', '4e7'),
             exact: true
           },
           {
@@ -62,7 +77,7 @@ export default [
           },
           {
             path: '/',
-            component: ComponentCreator('/', '55d'),
+            component: ComponentCreator('/', '404'),
             routes: [
               {
                 path: '/android/2024-01-28-build-release-android-app',
@@ -71,8 +86,20 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/category/algorithm',
+                component: ComponentCreator('/category/algorithm', '549'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/category/android',
                 component: ComponentCreator('/category/android', '848'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/category/computer-science',
+                component: ComponentCreator('/category/computer-science', '9a4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -103,6 +130,12 @@ export default [
               {
                 path: '/category/software',
                 component: ComponentCreator('/category/software', '6e2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/computer-science/algorithm/2024-02-02-boj-2178',
+                component: ComponentCreator('/computer-science/algorithm/2024-02-02-boj-2178', '9db'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

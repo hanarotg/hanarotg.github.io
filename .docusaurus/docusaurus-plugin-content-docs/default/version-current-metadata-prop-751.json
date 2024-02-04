@@ -98,6 +98,31 @@
       },
       {
         "type": "category",
+        "label": "Computer Science",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "category",
+            "label": "Algorithm",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "백준 2178 미로 탐색 C++ 문제 풀이",
+                "href": "/computer-science/algorithm/2024-02-02-boj-2178",
+                "docId": "computer-science/algorithm/2024-02-02-boj-2178",
+                "unlisted": false
+              }
+            ],
+            "href": "/category/algorithm"
+          }
+        ],
+        "href": "/category/computer-science"
+      },
+      {
+        "type": "category",
         "label": "Others",
         "collapsible": true,
         "collapsed": true,
@@ -119,6 +144,12 @@
       "id": "android/2024-01-28-build-release-android-app",
       "title": "배포용 안드로이드 앱 번들 빌드하기",
       "description": "안드로이드 스튜디오를 활용해서 배포용 안드로이드 앱 번들을 빌드해 보겠습니다.",
+      "sidebar": "tutorialSidebar"
+    },
+    "computer-science/algorithm/2024-02-02-boj-2178": {
+      "id": "computer-science/algorithm/2024-02-02-boj-2178",
+      "title": "백준 2178 미로 탐색 C++ 문제 풀이",
+      "description": "백준 2178 미로 탐색 C++ 문제 풀이",
       "sidebar": "tutorialSidebar"
     },
     "flutter/create-a-blog-post": {

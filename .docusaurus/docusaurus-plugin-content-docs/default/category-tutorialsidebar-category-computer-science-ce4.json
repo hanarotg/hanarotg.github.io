@@ -1,0 +1,16 @@
+{
+  "title": "Computer Science",
+  "description": "컴퓨터공학",
+  "slug": "/category/computer-science",
+  "permalink": "/category/computer-science",
+  "navigation": {
+    "previous": {
+      "title": "올인원 배포 스크립트",
+      "permalink": "/software/docusaurus/2024-01-29-docusaurus-all-in-one-script"
+    },
+    "next": {
+      "title": "Algorithm",
+      "permalink": "/category/algorithm"
+    }
+  }
+}

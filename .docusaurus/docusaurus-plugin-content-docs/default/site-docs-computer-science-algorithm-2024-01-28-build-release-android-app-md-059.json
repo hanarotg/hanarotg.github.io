@@ -1,0 +1,53 @@
+{
+  "id": "computer-science/algorithm/2024-01-28-build-release-android-app",
+  "title": "백준 2178 미로 탐색 C++ 문제 풀이",
+  "description": "백준 2178 미로 탐색 C++ 문제 풀이",
+  "source": "@site/docs/computer-science/algorithm/2024-01-28-build-release-android-app.md",
+  "sourceDirName": "computer-science/algorithm",
+  "slug": "/computer-science/algorithm/2024-01-28-build-release-android-app",
+  "permalink": "/computer-science/algorithm/2024-01-28-build-release-android-app",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/algorithm/2024-01-28-build-release-android-app.md",
+  "tags": [
+    {
+      "label": "백준",
+      "permalink": "/tags/백준"
+    },
+    {
+      "label": "c++",
+      "permalink": "/tags/c"
+    },
+    {
+      "label": "bfs",
+      "permalink": "/tags/bfs"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "title": "백준 2178 미로 탐색 C++ 문제 풀이",
+    "description": "백준 2178 미로 탐색 C++ 문제 풀이",
+    "keywords": [
+      "백준",
+      "c++",
+      "bfs"
+    ],
+    "tags": [
+      "백준",
+      "c++",
+      "bfs"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Algorithm",
+    "permalink": "/category/algorithm"
+  },
+  "next": {
+    "title": "Others",
+    "permalink": "/category/others"
+  }
+}
