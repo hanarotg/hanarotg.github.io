@@ -36,6 +36,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "others/2024-02-08-link",
+              "path": "/others/2024-02-08-link",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "software/docusaurus/2024-01-28-docusaurus-deploy copy",
               "path": "/software/docusaurus/2024-01-28-docusaurus-deploy copy",
               "sidebar": "tutorialSidebar"

@@ -133,6 +133,13 @@
             "href": "/others/2024-02-02-select-book",
             "docId": "others/2024-02-02-select-book",
             "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "개발 시 도움되는 링크 모음",
+            "href": "/others/2024-02-08-link",
+            "docId": "others/2024-02-08-link",
+            "unlisted": false
           }
         ],
         "href": "/category/others"
@@ -168,6 +175,12 @@
       "id": "others/2024-02-02-select-book",
       "title": "책을 선택하는 방법",
       "description": "책 선정 기준",
+      "sidebar": "tutorialSidebar"
+    },
+    "others/2024-02-08-link": {
+      "id": "others/2024-02-08-link",
+      "title": "개발 시 도움되는 링크 모음",
+      "description": "Android",
       "sidebar": "tutorialSidebar"
     },
     "software/docusaurus/2024-01-28-docusaurus-deploy copy": {

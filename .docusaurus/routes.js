@@ -24,11 +24,11 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'f89'),
+    component: ComponentCreator('/', 'f81'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', '7ae'),
+        component: ComponentCreator('/', '010'),
         routes: [
           {
             path: '/tags',
@@ -77,7 +77,7 @@ export default [
           },
           {
             path: '/',
-            component: ComponentCreator('/', '404'),
+            component: ComponentCreator('/', '933'),
             routes: [
               {
                 path: '/android/2024-01-28-build-release-android-app',
@@ -148,6 +148,12 @@ export default [
               {
                 path: '/others/2024-02-02-select-book',
                 component: ComponentCreator('/others/2024-02-02-select-book', '45e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/others/2024-02-08-link',
+                component: ComponentCreator('/others/2024-02-08-link', '422'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
