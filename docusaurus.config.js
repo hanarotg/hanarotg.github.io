@@ -96,6 +96,8 @@ const config = {
           "http",
           "kotlin",
           "cpp",
+          "gradle",
+          "groovy",
         ],
       },
     }),

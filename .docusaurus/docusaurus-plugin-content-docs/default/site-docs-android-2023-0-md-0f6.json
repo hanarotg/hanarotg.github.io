@@ -1,0 +1,44 @@
+{
+  "id": "android/2023-0",
+  "title": "업로드 키, 인증서 재설정하기",
+  "description": "기존 업로드 키를 분실하거나 더이상 사용할 수 없는 경우 새로운 업로드 키를 생성, 반영해야 합니다.",
+  "source": "@site/docs/android/2023-0.md",
+  "sourceDirName": "android",
+  "slug": "/android/2023-0",
+  "permalink": "/android/2023-0",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/android/2023-0.md",
+  "tags": [
+    {
+      "label": "android",
+      "permalink": "/tags/android"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "title": "업로드 키, 인증서 재설정하기",
+    "description": "기존 업로드 키를 분실하거나 더이상 사용할 수 없는 경우 새로운 업로드 키를 생성, 반영해야 합니다.",
+    "keywords": [
+      "안드로이드",
+      "업로드",
+      "재설정",
+      "인증서"
+    ],
+    "tags": [
+      "android"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Android",
+    "permalink": "/category/android"
+  },
+  "next": {
+    "title": "업로드 키, 인증서 재설정하기",
+    "permalink": "/android/2023-02-27-upload-cert-with-android-studio"
+  }
+}

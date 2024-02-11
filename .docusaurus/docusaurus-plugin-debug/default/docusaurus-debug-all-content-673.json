@@ -55,8 +55,55 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Android",
-                "permalink": "/category/android"
+                "title": "kotlin Array",
+                "permalink": "/android/kotlin/2023-05-28-kotlin-array"
+              },
+              "next": {
+                "title": "안드로이드 프로젝트 gradle 스크립트에 대한 이해",
+                "permalink": "/android/2023-06-24-gradle-in-android"
+              }
+            },
+            {
+              "id": "android/2023-06-24-gradle-in-android",
+              "title": "안드로이드 프로젝트 gradle 스크립트에 대한 이해",
+              "description": "안드로이드 프로젝트 gradle 스크립트에 대한 이해",
+              "source": "@site/docs/android/2023-06-24-gradle-in-android.md",
+              "sourceDirName": "android",
+              "slug": "/android/2023-06-24-gradle-in-android",
+              "permalink": "/android/2023-06-24-gradle-in-android",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/android/2023-06-24-gradle-in-android.md",
+              "tags": [
+                {
+                  "label": "android",
+                  "permalink": "/tags/android"
+                },
+                {
+                  "label": "gradle",
+                  "permalink": "/tags/gradle"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {
+                "title": "안드로이드 프로젝트 gradle 스크립트에 대한 이해",
+                "description": "안드로이드 프로젝트 gradle 스크립트에 대한 이해",
+                "keywords": [
+                  "안드로이드",
+                  "gradle"
+                ],
+                "tags": [
+                  "android",
+                  "gradle"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "업로드 키, 인증서 재설정하기",
+                "permalink": "/android/2023-02-27-upload-cert-with-android-studio"
               },
               "next": {
                 "title": "배포용 안드로이드 앱 번들 빌드하기",
@@ -99,12 +146,96 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "업로드 키, 인증서 재설정하기",
-                "permalink": "/android/2023-02-27-upload-cert-with-android-studio"
+                "title": "안드로이드 프로젝트 gradle 스크립트에 대한 이해",
+                "permalink": "/android/2023-06-24-gradle-in-android"
               },
               "next": {
                 "title": "Flutter",
                 "permalink": "/category/flutter"
+              }
+            },
+            {
+              "id": "android/kotlin/2023-04-26-kotlin-nullability",
+              "title": "kotlin nullability",
+              "description": "코틀린 nullability",
+              "source": "@site/docs/android/kotlin/2023-04-26-kotlin-nullability.md",
+              "sourceDirName": "android/kotlin",
+              "slug": "/android/kotlin/2023-04-26-kotlin-nullability",
+              "permalink": "/android/kotlin/2023-04-26-kotlin-nullability",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/android/kotlin/2023-04-26-kotlin-nullability.md",
+              "tags": [
+                {
+                  "label": "kotlin",
+                  "permalink": "/tags/kotlin"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {
+                "title": "kotlin nullability",
+                "description": "코틀린 nullability",
+                "keywords": [
+                  "코틀린",
+                  "nullability"
+                ],
+                "tags": [
+                  "kotlin"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Kotlin",
+                "permalink": "/category/kotlin"
+              },
+              "next": {
+                "title": "kotlin Array",
+                "permalink": "/android/kotlin/2023-05-28-kotlin-array"
+              }
+            },
+            {
+              "id": "android/kotlin/2023-05-28-kotlin-array",
+              "title": "kotlin Array",
+              "description": "코틀린 Array",
+              "source": "@site/docs/android/kotlin/2023-05-28-kotlin-array.md",
+              "sourceDirName": "android/kotlin",
+              "slug": "/android/kotlin/2023-05-28-kotlin-array",
+              "permalink": "/android/kotlin/2023-05-28-kotlin-array",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/android/kotlin/2023-05-28-kotlin-array.md",
+              "tags": [
+                {
+                  "label": "kotlin",
+                  "permalink": "/tags/kotlin"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {
+                "title": "kotlin Array",
+                "description": "코틀린 Array",
+                "keywords": [
+                  "코틀린",
+                  "array"
+                ],
+                "tags": [
+                  "kotlin"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "kotlin nullability",
+                "permalink": "/android/kotlin/2023-04-26-kotlin-nullability"
+              },
+              "next": {
+                "title": "업로드 키, 인증서 재설정하기",
+                "permalink": "/android/2023-02-27-upload-cert-with-android-studio"
               }
             },
             {
@@ -527,8 +658,34 @@
                 "collapsed": true,
                 "items": [
                   {
+                    "type": "category",
+                    "label": "Kotlin",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "android/kotlin/2023-04-26-kotlin-nullability"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "android/kotlin/2023-05-28-kotlin-array"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "코틀린",
+                      "slug": "/category/kotlin",
+                      "permalink": "/category/kotlin"
+                    }
+                  },
+                  {
                     "type": "doc",
                     "id": "android/2023-02-27-upload-cert-with-android-studio"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "android/2023-06-24-gradle-in-android"
                   },
                   {
                     "type": "doc",

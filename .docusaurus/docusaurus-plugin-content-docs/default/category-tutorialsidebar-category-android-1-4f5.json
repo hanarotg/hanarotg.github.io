@@ -1,0 +1,16 @@
+{
+  "title": "Android",
+  "description": "안드로이드",
+  "slug": "/category/android-1",
+  "permalink": "/category/android-1",
+  "navigation": {
+    "previous": {
+      "title": "Android",
+      "permalink": "/category/android"
+    },
+    "next": {
+      "title": "kotlin nullability",
+      "permalink": "/android/kotlin/2023-04-26-kotlin-nullability"
+    }
+  }
+}

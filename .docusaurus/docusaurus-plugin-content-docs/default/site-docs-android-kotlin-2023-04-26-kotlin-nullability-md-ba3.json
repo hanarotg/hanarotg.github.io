@@ -1,0 +1,39 @@
+{
+  "id": "android/kotlin/2023-04-26-kotlin-nullability",
+  "title": "kotlin nullability",
+  "description": "코틀린 nullability",
+  "source": "@site/docs/android/kotlin/2023-04-26-kotlin-nullability.md",
+  "sourceDirName": "android/kotlin",
+  "slug": "/android/kotlin/2023-04-26-kotlin-nullability",
+  "permalink": "/android/kotlin/2023-04-26-kotlin-nullability",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/android/kotlin/2023-04-26-kotlin-nullability.md",
+  "tags": [
+    {
+      "label": "kotlin",
+      "permalink": "/tags/kotlin"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "kotlin nullability",
+    "description": "코틀린 nullability",
+    "keywords": [
+      "코틀린",
+      "nullability"
+    ],
+    "tags": [
+      "kotlin"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Kotlin",
+    "permalink": "/category/kotlin"
+  },
+  "next": {
+    "title": "kotlin Array",
+    "permalink": "/android/kotlin/2023-05-28-kotlin-array"
+  }
+}

@@ -34,8 +34,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "업로드 키, 인증서 재설정하기",
-    "permalink": "/android/2023-02-27-upload-cert-with-android-studio"
+    "title": "안드로이드 프로젝트 gradle 스크립트에 대한 이해",
+    "permalink": "/android/2023-06-24-gradle-in-android"
   },
   "next": {
     "title": "Flutter",

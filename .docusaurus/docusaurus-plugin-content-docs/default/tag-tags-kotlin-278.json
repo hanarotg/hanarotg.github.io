@@ -1,0 +1,21 @@
+{
+  "label": "kotlin",
+  "permalink": "/tags/kotlin",
+  "allTagsPath": "/tags",
+  "count": 2,
+  "items": [
+    {
+      "id": "android/kotlin/2023-05-28-kotlin-array",
+      "title": "kotlin Array",
+      "description": "코틀린 Array",
+      "permalink": "/android/kotlin/2023-05-28-kotlin-array"
+    },
+    {
+      "id": "android/kotlin/2023-04-26-kotlin-nullability",
+      "title": "kotlin nullability",
+      "description": "코틀린 nullability",
+      "permalink": "/android/kotlin/2023-04-26-kotlin-nullability"
+    }
+  ],
+  "unlisted": false
+}

@@ -266,7 +266,9 @@ export default {
         "go",
         "http",
         "kotlin",
-        "cpp"
+        "cpp",
+        "gradle",
+        "groovy"
       ],
       "magicComments": [
         {

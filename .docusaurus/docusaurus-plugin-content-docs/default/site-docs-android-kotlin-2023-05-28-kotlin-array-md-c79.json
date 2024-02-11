@@ -1,0 +1,39 @@
+{
+  "id": "android/kotlin/2023-05-28-kotlin-array",
+  "title": "kotlin Array",
+  "description": "코틀린 Array",
+  "source": "@site/docs/android/kotlin/2023-05-28-kotlin-array.md",
+  "sourceDirName": "android/kotlin",
+  "slug": "/android/kotlin/2023-05-28-kotlin-array",
+  "permalink": "/android/kotlin/2023-05-28-kotlin-array",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/android/kotlin/2023-05-28-kotlin-array.md",
+  "tags": [
+    {
+      "label": "kotlin",
+      "permalink": "/tags/kotlin"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "kotlin Array",
+    "description": "코틀린 Array",
+    "keywords": [
+      "코틀린",
+      "array"
+    ],
+    "tags": [
+      "kotlin"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "kotlin nullability",
+    "permalink": "/android/kotlin/2023-04-26-kotlin-nullability"
+  },
+  "next": {
+    "title": "업로드 키, 인증서 재설정하기",
+    "permalink": "/android/2023-02-27-upload-cert-with-android-studio"
+  }
+}

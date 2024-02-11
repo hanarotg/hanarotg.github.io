@@ -24,11 +24,11 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '793'),
+    component: ComponentCreator('/', '246'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', '431'),
+        component: ComponentCreator('/', 'd50'),
         routes: [
           {
             path: '/tags',
@@ -71,6 +71,16 @@ export default [
             exact: true
           },
           {
+            path: '/tags/gradle',
+            component: ComponentCreator('/tags/gradle', 'f81'),
+            exact: true
+          },
+          {
+            path: '/tags/kotlin',
+            component: ComponentCreator('/tags/kotlin', '4e9'),
+            exact: true
+          },
+          {
             path: '/tags/linux',
             component: ComponentCreator('/tags/linux', 'd3c'),
             exact: true
@@ -92,7 +102,7 @@ export default [
           },
           {
             path: '/',
-            component: ComponentCreator('/', '4f1'),
+            component: ComponentCreator('/', 'ee3'),
             routes: [
               {
                 path: '/android/2023-02-27-upload-cert-with-android-studio',
@@ -101,8 +111,26 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/android/2023-06-24-gradle-in-android',
+                component: ComponentCreator('/android/2023-06-24-gradle-in-android', '5d9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/android/2024-01-28-build-release-android-app',
                 component: ComponentCreator('/android/2024-01-28-build-release-android-app', '2f4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/android/kotlin/2023-04-26-kotlin-nullability',
+                component: ComponentCreator('/android/kotlin/2023-04-26-kotlin-nullability', '53e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/android/kotlin/2023-05-28-kotlin-array',
+                component: ComponentCreator('/android/kotlin/2023-05-28-kotlin-array', 'e1e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -133,6 +161,12 @@ export default [
               {
                 path: '/category/flutter',
                 component: ComponentCreator('/category/flutter', 'cbc'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/category/kotlin',
+                component: ComponentCreator('/category/kotlin', '3bc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

@@ -1,0 +1,42 @@
+{
+  "id": "android/2023-04-26-kotlin-nullability copy",
+  "title": "코틀린 Array 자료형",
+  "description": "코틀린 nullability",
+  "source": "@site/docs/android/2023-04-26-kotlin-nullability copy.md",
+  "sourceDirName": "android",
+  "slug": "/android/2023-04-26-kotlin-nullability copy",
+  "permalink": "/android/2023-04-26-kotlin-nullability copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/android/2023-04-26-kotlin-nullability copy.md",
+  "tags": [
+    {
+      "label": "kotlin",
+      "permalink": "/tags/kotlin"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "title": "코틀린 Array 자료형",
+    "description": "코틀린 nullability",
+    "keywords": [
+      "코틀린",
+      "nullability"
+    ],
+    "tags": [
+      "kotlin"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "업로드 키, 인증서 재설정하기",
+    "permalink": "/android/2023-02-27-upload-cert-with-android-studio"
+  },
+  "next": {
+    "title": "kotlin nullability",
+    "permalink": "/android/2023-04-26-kotlin-nullability"
+  }
+}

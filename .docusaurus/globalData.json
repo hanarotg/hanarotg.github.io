@@ -16,8 +16,23 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "android/2023-06-24-gradle-in-android",
+              "path": "/android/2023-06-24-gradle-in-android",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "android/2024-01-28-build-release-android-app",
               "path": "/android/2024-01-28-build-release-android-app",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "android/kotlin/2023-04-26-kotlin-nullability",
+              "path": "/android/kotlin/2023-04-26-kotlin-nullability",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "android/kotlin/2023-05-28-kotlin-array",
+              "path": "/android/kotlin/2023-05-28-kotlin-array",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -73,6 +88,11 @@
             {
               "id": "/category/android",
               "path": "/category/android",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/kotlin",
+              "path": "/category/kotlin",
               "sidebar": "tutorialSidebar"
             },
             {

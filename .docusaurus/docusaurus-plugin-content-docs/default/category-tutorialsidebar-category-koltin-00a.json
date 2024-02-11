@@ -1,0 +1,16 @@
+{
+  "title": "Koltin",
+  "description": "코틀린",
+  "slug": "/category/koltin",
+  "permalink": "/category/koltin",
+  "navigation": {
+    "previous": {
+      "title": "Android",
+      "permalink": "/category/android"
+    },
+    "next": {
+      "title": "kotlin nullability",
+      "permalink": "/android/kotlin/2023-04-26-kotlin-nullability"
+    }
+  }
+}

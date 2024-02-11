@@ -1,0 +1,15 @@
+{
+  "label": "gradle",
+  "permalink": "/tags/gradle",
+  "allTagsPath": "/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "android/2023-06-24-gradle-in-android",
+      "title": "안드로이드 프로젝트 gradle 스크립트에 대한 이해",
+      "description": "안드로이드 프로젝트 gradle 스크립트에 대한 이해",
+      "permalink": "/android/2023-06-24-gradle-in-android"
+    }
+  ],
+  "unlisted": false
+}

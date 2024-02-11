@@ -1,0 +1,42 @@
+{
+  "id": "android/2023-02-27-upload-cert-with-android-studio copy",
+  "title": "안드로이드 프로젝트 gradle 스크립트에 대한 이해",
+  "description": "안드로이드 프로젝트 gradle 스크립트에 대한 이해",
+  "source": "@site/docs/android/2023-02-27-upload-cert-with-android-studio copy.md",
+  "sourceDirName": "android",
+  "slug": "/android/2023-02-27-upload-cert-with-android-studio copy",
+  "permalink": "/android/2023-02-27-upload-cert-with-android-studio copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/android/2023-02-27-upload-cert-with-android-studio copy.md",
+  "tags": [
+    {
+      "label": "android",
+      "permalink": "/tags/android"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "title": "안드로이드 프로젝트 gradle 스크립트에 대한 이해",
+    "description": "안드로이드 프로젝트 gradle 스크립트에 대한 이해",
+    "keywords": [
+      "안드로이드",
+      "gradle"
+    ],
+    "tags": [
+      "android"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "kotlin Array",
+    "permalink": "/android/kotlin/2023-05-28-kotlin-array"
+  },
+  "next": {
+    "title": "업로드 키, 인증서 재설정하기",
+    "permalink": "/android/2023-02-27-upload-cert-with-android-studio"
+  }
+}

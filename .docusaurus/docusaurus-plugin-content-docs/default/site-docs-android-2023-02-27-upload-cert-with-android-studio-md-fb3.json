@@ -16,6 +16,9 @@
     }
   ],
   "version": "current",
+  "lastUpdatedBy": "Taegyeong Lee",
+  "lastUpdatedAt": 1707648705,
+  "formattedLastUpdatedAt": "Feb 11, 2024",
   "frontMatter": {
     "title": "업로드 키, 인증서 재설정하기",
     "description": "기존 업로드 키를 분실하거나 더이상 사용할 수 없는 경우 새로운 업로드 키를 생성, 반영해야 합니다.",
@@ -31,11 +34,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Android",
-    "permalink": "/category/android"
+    "title": "kotlin Array",
+    "permalink": "/android/kotlin/2023-05-28-kotlin-array"
   },
   "next": {
-    "title": "배포용 안드로이드 앱 번들 빌드하기",
-    "permalink": "/android/2024-01-28-build-release-android-app"
+    "title": "안드로이드 프로젝트 gradle 스크립트에 대한 이해",
+    "permalink": "/android/2023-06-24-gradle-in-android"
   }
 }
