@@ -21,6 +21,10 @@
     {
       "label": "bfs",
       "permalink": "/tags/bfs"
+    },
+    {
+      "label": "2178",
+      "permalink": "/tags/2178"
     }
   ],
   "version": "current",
@@ -33,12 +37,14 @@
     "keywords": [
       "백준",
       "c++",
-      "bfs"
+      "bfs",
+      "2178"
     ],
     "tags": [
       "백준",
       "c++",
-      "bfs"
+      "bfs",
+      "2178"
     ]
   },
   "sidebar": "tutorialSidebar",
@@ -47,7 +53,7 @@
     "permalink": "/category/algorithm"
   },
   "next": {
-    "title": "Others",
-    "permalink": "/category/others"
+    "title": "Fast I/O C++ 코드",
+    "permalink": "/computer-science/algorithm/2024-02-11-fast-io"
   }
 }

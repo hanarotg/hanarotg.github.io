@@ -24,15 +24,20 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'f81'),
+    component: ComponentCreator('/', 'e9c'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', '010'),
+        component: ComponentCreator('/', '11a'),
         routes: [
           {
             path: '/tags',
             component: ComponentCreator('/tags', 'd7a'),
+            exact: true
+          },
+          {
+            path: '/tags/2178',
+            component: ComponentCreator('/tags/2178', '60b'),
             exact: true
           },
           {
@@ -76,8 +81,13 @@ export default [
             exact: true
           },
           {
+            path: '/tags/strict-weak-ordering',
+            component: ComponentCreator('/tags/strict-weak-ordering', 'b2e'),
+            exact: true
+          },
+          {
             path: '/',
-            component: ComponentCreator('/', '933'),
+            component: ComponentCreator('/', '494'),
             routes: [
               {
                 path: '/android/2024-01-28-build-release-android-app',
@@ -136,6 +146,18 @@ export default [
               {
                 path: '/computer-science/algorithm/2024-02-02-boj-2178',
                 component: ComponentCreator('/computer-science/algorithm/2024-02-02-boj-2178', '9db'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/computer-science/algorithm/2024-02-11-fast-io',
+                component: ComponentCreator('/computer-science/algorithm/2024-02-11-fast-io', 'b38'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/computer-science/algorithm/2024-02-11-strick-weak-ordering',
+                component: ComponentCreator('/computer-science/algorithm/2024-02-11-strick-weak-ordering', 'bd6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

@@ -114,6 +114,20 @@
                 "href": "/computer-science/algorithm/2024-02-02-boj-2178",
                 "docId": "computer-science/algorithm/2024-02-02-boj-2178",
                 "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Fast I/O C++ 코드",
+                "href": "/computer-science/algorithm/2024-02-11-fast-io",
+                "docId": "computer-science/algorithm/2024-02-11-fast-io",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "strict weak ordering 이해",
+                "href": "/computer-science/algorithm/2024-02-11-strick-weak-ordering",
+                "docId": "computer-science/algorithm/2024-02-11-strick-weak-ordering",
+                "unlisted": false
               }
             ],
             "href": "/category/algorithm"
@@ -157,6 +171,18 @@
       "id": "computer-science/algorithm/2024-02-02-boj-2178",
       "title": "백준 2178 미로 탐색 C++ 문제 풀이",
       "description": "백준 2178 미로 탐색 C++ 문제 풀이",
+      "sidebar": "tutorialSidebar"
+    },
+    "computer-science/algorithm/2024-02-11-fast-io": {
+      "id": "computer-science/algorithm/2024-02-11-fast-io",
+      "title": "Fast I/O C++ 코드",
+      "description": "Fast I/O C++ 코드",
+      "sidebar": "tutorialSidebar"
+    },
+    "computer-science/algorithm/2024-02-11-strick-weak-ordering": {
+      "id": "computer-science/algorithm/2024-02-11-strick-weak-ordering",
+      "title": "strict weak ordering 이해",
+      "description": "strict weak ordering 이해",
       "sidebar": "tutorialSidebar"
     },
     "flutter/create-a-blog-post": {

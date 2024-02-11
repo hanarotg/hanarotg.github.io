@@ -2,13 +2,19 @@
   "label": "c++",
   "permalink": "/tags/c",
   "allTagsPath": "/tags",
-  "count": 1,
+  "count": 2,
   "items": [
     {
       "id": "computer-science/algorithm/2024-02-02-boj-2178",
       "title": "백준 2178 미로 탐색 C++ 문제 풀이",
       "description": "백준 2178 미로 탐색 C++ 문제 풀이",
       "permalink": "/computer-science/algorithm/2024-02-02-boj-2178"
+    },
+    {
+      "id": "computer-science/algorithm/2024-02-11-fast-io",
+      "title": "Fast I/O C++ 코드",
+      "description": "Fast I/O C++ 코드",
+      "permalink": "/computer-science/algorithm/2024-02-11-fast-io"
     }
   ],
   "unlisted": false

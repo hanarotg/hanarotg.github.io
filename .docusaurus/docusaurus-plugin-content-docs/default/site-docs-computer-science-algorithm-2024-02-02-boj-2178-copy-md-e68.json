@@ -1,0 +1,41 @@
+{
+  "id": "computer-science/algorithm/2024-02-02-boj-2178 copy",
+  "title": "Fast I/O C++ 코드",
+  "description": "Fast I/O C++ 코드",
+  "source": "@site/docs/computer-science/algorithm/2024-02-02-boj-2178 copy.md",
+  "sourceDirName": "computer-science/algorithm",
+  "slug": "/computer-science/algorithm/2024-02-02-boj-2178 copy",
+  "permalink": "/computer-science/algorithm/2024-02-02-boj-2178 copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/algorithm/2024-02-02-boj-2178 copy.md",
+  "tags": [
+    {
+      "label": "c++",
+      "permalink": "/tags/c"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "title": "Fast I/O C++ 코드",
+    "description": "Fast I/O C++ 코드",
+    "keywords": [
+      "c++"
+    ],
+    "tags": [
+      "c++"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Algorithm",
+    "permalink": "/category/algorithm"
+  },
+  "next": {
+    "title": "백준 2178 미로 탐색 C++ 문제 풀이",
+    "permalink": "/computer-science/algorithm/2024-02-02-boj-2178"
+  }
+}
