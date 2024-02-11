@@ -24,11 +24,11 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'e9c'),
+    component: ComponentCreator('/', '793'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', '11a'),
+        component: ComponentCreator('/', '431'),
         routes: [
           {
             path: '/tags',
@@ -81,14 +81,25 @@ export default [
             exact: true
           },
           {
+            path: '/tags/sort',
+            component: ComponentCreator('/tags/sort', 'a1a'),
+            exact: true
+          },
+          {
             path: '/tags/strict-weak-ordering',
             component: ComponentCreator('/tags/strict-weak-ordering', 'b2e'),
             exact: true
           },
           {
             path: '/',
-            component: ComponentCreator('/', '494'),
+            component: ComponentCreator('/', '4f1'),
             routes: [
+              {
+                path: '/android/2023-02-27-upload-cert-with-android-studio',
+                component: ComponentCreator('/android/2023-02-27-upload-cert-with-android-studio', '160'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
               {
                 path: '/android/2024-01-28-build-release-android-app',
                 component: ComponentCreator('/android/2024-01-28-build-release-android-app', '2f4'),

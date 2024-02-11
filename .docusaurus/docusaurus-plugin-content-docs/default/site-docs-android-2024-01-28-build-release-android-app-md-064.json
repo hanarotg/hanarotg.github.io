@@ -34,8 +34,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Android",
-    "permalink": "/category/android"
+    "title": "업로드 키, 인증서 재설정하기",
+    "permalink": "/android/2023-02-27-upload-cert-with-android-studio"
   },
   "next": {
     "title": "Flutter",

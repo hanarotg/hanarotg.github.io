@@ -20,6 +20,50 @@
           "contentPathLocalized": "/Users/taegyeonglee/Documents/GitHub/hanarotg.github.io/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
+              "id": "android/2023-02-27-upload-cert-with-android-studio",
+              "title": "업로드 키, 인증서 재설정하기",
+              "description": "기존 업로드 키를 분실하거나 더이상 사용할 수 없는 경우 새로운 업로드 키를 생성, 반영해야 합니다.",
+              "source": "@site/docs/android/2023-02-27-upload-cert-with-android-studio.md",
+              "sourceDirName": "android",
+              "slug": "/android/2023-02-27-upload-cert-with-android-studio",
+              "permalink": "/android/2023-02-27-upload-cert-with-android-studio",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/android/2023-02-27-upload-cert-with-android-studio.md",
+              "tags": [
+                {
+                  "label": "android",
+                  "permalink": "/tags/android"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {
+                "title": "업로드 키, 인증서 재설정하기",
+                "description": "기존 업로드 키를 분실하거나 더이상 사용할 수 없는 경우 새로운 업로드 키를 생성, 반영해야 합니다.",
+                "keywords": [
+                  "안드로이드",
+                  "업로드",
+                  "재설정",
+                  "인증서"
+                ],
+                "tags": [
+                  "android"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Android",
+                "permalink": "/category/android"
+              },
+              "next": {
+                "title": "배포용 안드로이드 앱 번들 빌드하기",
+                "permalink": "/android/2024-01-28-build-release-android-app"
+              }
+            },
+            {
               "id": "android/2024-01-28-build-release-android-app",
               "title": "배포용 안드로이드 앱 번들 빌드하기",
               "description": "안드로이드 스튜디오를 활용해서 배포용 안드로이드 앱 번들을 빌드해 보겠습니다.",
@@ -55,8 +99,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Android",
-                "permalink": "/category/android"
+                "title": "업로드 키, 인증서 재설정하기",
+                "permalink": "/android/2023-02-27-upload-cert-with-android-studio"
               },
               "next": {
                 "title": "Flutter",
@@ -178,6 +222,14 @@
                 {
                   "label": "strict weak ordering",
                   "permalink": "/tags/strict-weak-ordering"
+                },
+                {
+                  "label": "c++",
+                  "permalink": "/tags/c"
+                },
+                {
+                  "label": "sort",
+                  "permalink": "/tags/sort"
                 }
               ],
               "version": "current",
@@ -188,10 +240,14 @@
                 "title": "strict weak ordering 이해",
                 "description": "strict weak ordering 이해",
                 "keywords": [
-                  "strict weak ordering"
+                  "strict weak ordering",
+                  "c++",
+                  "sort"
                 ],
                 "tags": [
-                  "strict weak ordering"
+                  "strict weak ordering",
+                  "c++",
+                  "sort"
                 ]
               },
               "sidebar": "tutorialSidebar",
@@ -470,6 +526,10 @@
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
+                  {
+                    "type": "doc",
+                    "id": "android/2023-02-27-upload-cert-with-android-studio"
+                  },
                   {
                     "type": "doc",
                     "id": "android/2024-01-28-build-release-android-app"

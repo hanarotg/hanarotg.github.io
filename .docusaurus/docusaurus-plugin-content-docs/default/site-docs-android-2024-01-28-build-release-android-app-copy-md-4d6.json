@@ -1,0 +1,44 @@
+{
+  "id": "android/2024-01-28-build-release-android-app copy",
+  "title": "배포용 안드로이드 앱 번들 빌드하기",
+  "description": "안드로이드 스튜디오를 활용해서 배포용 안드로이드 앱 번들을 빌드해 보겠습니다.",
+  "source": "@site/docs/android/2024-01-28-build-release-android-app copy.md",
+  "sourceDirName": "android",
+  "slug": "/android/2024-01-28-build-release-android-app copy",
+  "permalink": "/android/2024-01-28-build-release-android-app copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/android/2024-01-28-build-release-android-app copy.md",
+  "tags": [
+    {
+      "label": "android",
+      "permalink": "/tags/android"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "title": "배포용 안드로이드 앱 번들 빌드하기",
+    "description": "안드로이드 스튜디오를 활용해서 배포용 안드로이드 앱 번들을 빌드해 보겠습니다.",
+    "keywords": [
+      "안드로이드",
+      "빌드",
+      "배포",
+      "release"
+    ],
+    "tags": [
+      "android"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Android",
+    "permalink": "/category/android"
+  },
+  "next": {
+    "title": "배포용 안드로이드 앱 번들 빌드하기",
+    "permalink": "/android/2024-01-28-build-release-android-app"
+  }
+}

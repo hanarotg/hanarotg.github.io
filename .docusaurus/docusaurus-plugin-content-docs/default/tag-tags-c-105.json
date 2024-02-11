@@ -2,7 +2,7 @@
   "label": "c++",
   "permalink": "/tags/c",
   "allTagsPath": "/tags",
-  "count": 2,
+  "count": 3,
   "items": [
     {
       "id": "computer-science/algorithm/2024-02-02-boj-2178",
@@ -15,6 +15,12 @@
       "title": "Fast I/O C++ 코드",
       "description": "Fast I/O C++ 코드",
       "permalink": "/computer-science/algorithm/2024-02-11-fast-io"
+    },
+    {
+      "id": "computer-science/algorithm/2024-02-11-strick-weak-ordering",
+      "title": "strict weak ordering 이해",
+      "description": "strict weak ordering 이해",
+      "permalink": "/computer-science/algorithm/2024-02-11-strick-weak-ordering"
     }
   ],
   "unlisted": false

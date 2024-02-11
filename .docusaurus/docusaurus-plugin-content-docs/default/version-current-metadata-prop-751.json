@@ -24,6 +24,13 @@
         "items": [
           {
             "type": "link",
+            "label": "업로드 키, 인증서 재설정하기",
+            "href": "/android/2023-02-27-upload-cert-with-android-studio",
+            "docId": "android/2023-02-27-upload-cert-with-android-studio",
+            "unlisted": false
+          },
+          {
+            "type": "link",
             "label": "배포용 안드로이드 앱 번들 빌드하기",
             "href": "/android/2024-01-28-build-release-android-app",
             "docId": "android/2024-01-28-build-release-android-app",
@@ -161,6 +168,12 @@
     ]
   },
   "docs": {
+    "android/2023-02-27-upload-cert-with-android-studio": {
+      "id": "android/2023-02-27-upload-cert-with-android-studio",
+      "title": "업로드 키, 인증서 재설정하기",
+      "description": "기존 업로드 키를 분실하거나 더이상 사용할 수 없는 경우 새로운 업로드 키를 생성, 반영해야 합니다.",
+      "sidebar": "tutorialSidebar"
+    },
     "android/2024-01-28-build-release-android-app": {
       "id": "android/2024-01-28-build-release-android-app",
       "title": "배포용 안드로이드 앱 번들 빌드하기",

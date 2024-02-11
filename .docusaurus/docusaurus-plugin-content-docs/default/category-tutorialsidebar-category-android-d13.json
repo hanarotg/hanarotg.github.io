@@ -9,8 +9,8 @@
       "permalink": "/"
     },
     "next": {
-      "title": "배포용 안드로이드 앱 번들 빌드하기",
-      "permalink": "/android/2024-01-28-build-release-android-app"
+      "title": "업로드 키, 인증서 재설정하기",
+      "permalink": "/android/2023-02-27-upload-cert-with-android-studio"
     }
   }
 }

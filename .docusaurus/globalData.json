@@ -11,6 +11,11 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "android/2023-02-27-upload-cert-with-android-studio",
+              "path": "/android/2023-02-27-upload-cert-with-android-studio",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "android/2024-01-28-build-release-android-app",
               "path": "/android/2024-01-28-build-release-android-app",
               "sidebar": "tutorialSidebar"
