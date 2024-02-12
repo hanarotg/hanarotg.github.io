@@ -7,10 +7,19 @@ tags: [git, docusaurus]
 
 ## 스크립트
 
+:::warning
+
+MacOS(Darwin) 운영체제에서만 호환됩니다.
+
+:::
+
 `package.json` script 파트에 아래와 같이 추가해 주세요.
 
-```bash
-    "all": "docusaurus build && GIT_USER=깃허브계정아이디 docusaurus deploy && git add . && git commit -m 'update .' && git push origin main"
+```json
+    "commit": "git add . && git commit -m 'update .' && git push origin main",
+    "deploy-ps": "cmd /C \"set \"GIT_USER=hanarotg\" && yarn deploy\"",
+    "deploy-mac": "GIT_USER=hanarotg docusaurus deploy",
+    "all": "docusaurus build && GIT_USER=hanarotg docusaurus deploy && commit"
 ```
 
 ```json
@@ -26,7 +35,10 @@ tags: [git, docusaurus]
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
 // highlight-start
-    "all": "docusaurus build && GIT_USER=깃허브계정아이디 docusaurus deploy && git add . && git commit -m 'update .' && git push origin main"
+    "commit": "git add . && git commit -m 'update .' && git push origin main",
+    "deploy-ps": "cmd /C \"set \"GIT_USER=hanarotg\" && yarn deploy\"",
+    "deploy-mac": "GIT_USER=hanarotg docusaurus deploy",
+    "all": "docusaurus build && GIT_USER=hanarotg docusaurus deploy && commit"
 // highlight-end
   },
 ...
@@ -37,3 +49,13 @@ tags: [git, docusaurus]
 ```bash
 yarn all
 ```
+
+## 참고 자료
+
+:::info
+
+운영 체제 별 다른 명령어 제공 추가 예정입니다.
+
+:::
+
+- https://stackoverflow.com/questions/45082648/npm-package-json-os-specific-script

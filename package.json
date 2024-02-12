@@ -12,7 +12,10 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "all": "docusaurus build && GIT_USER=hanarotg docusaurus deploy && git add . && git commit -m 'update .' && git push origin main"
+    "commit": "git add . && git commit -m 'update .' && git push origin main",
+    "deploy-ps": "cmd /C \"set \"GIT_USER=hanarotg\" && yarn deploy\"",
+    "deploy-mac": "GIT_USER=hanarotg docusaurus deploy",
+    "all": "docusaurus build && GIT_USER=hanarotg docusaurus deploy && commit"
   },
   "dependencies": {
     "@docusaurus/core": "3.1.1",
