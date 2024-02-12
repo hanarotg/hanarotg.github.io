@@ -2,7 +2,7 @@
   "label": "docusaurus",
   "permalink": "/tags/docusaurus",
   "allTagsPath": "/tags",
-  "count": 2,
+  "count": 3,
   "items": [
     {
       "id": "software/docusaurus/2024-01-28-docusaurus-deploy copy",
@@ -15,6 +15,12 @@
       "title": "올인원 배포 스크립트",
       "description": "docusaurus 빌드, 배포, 깃허브 commit, push 스크립트",
       "permalink": "/software/docusaurus/2024-01-29-docusaurus-all-in-one-script"
+    },
+    {
+      "id": "software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode",
+      "title": "Docusaurus utterances 다크 모드 적용",
+      "description": "Docusaurus utterances 다크 모드 적용 dark mode",
+      "permalink": "/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode"
     }
   ],
   "unlisted": false

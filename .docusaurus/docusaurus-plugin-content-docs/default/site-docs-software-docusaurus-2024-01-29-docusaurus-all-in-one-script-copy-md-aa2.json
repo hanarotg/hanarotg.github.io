@@ -1,0 +1,47 @@
+{
+  "id": "software/docusaurus/2024-01-29-docusaurus-all-in-one-script copy",
+  "title": "올인원 배포 스크립트",
+  "description": "docusaurus 빌드, 배포, 깃허브 commit, push 스크립트",
+  "source": "@site/docs/software/docusaurus/2024-01-29-docusaurus-all-in-one-script copy.md",
+  "sourceDirName": "software/docusaurus",
+  "slug": "/software/docusaurus/2024-01-29-docusaurus-all-in-one-script copy",
+  "permalink": "/software/docusaurus/2024-01-29-docusaurus-all-in-one-script copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/docusaurus/2024-01-29-docusaurus-all-in-one-script copy.md",
+  "tags": [
+    {
+      "label": "git",
+      "permalink": "/tags/git"
+    },
+    {
+      "label": "docusaurus",
+      "permalink": "/tags/docusaurus"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "title": "올인원 배포 스크립트",
+    "description": "docusaurus 빌드, 배포, 깃허브 commit, push 스크립트",
+    "keywords": [
+      "git",
+      "docusaurus"
+    ],
+    "tags": [
+      "git",
+      "docusaurus"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "배포하기",
+    "permalink": "/software/docusaurus/2024-01-28-docusaurus-deploy copy"
+  },
+  "next": {
+    "title": "올인원 배포 스크립트",
+    "permalink": "/software/docusaurus/2024-01-29-docusaurus-all-in-one-script"
+  }
+}

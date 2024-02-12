@@ -45,6 +45,11 @@ export default {
     ]
   ],
   "themeConfig": {
+    "colorMode": {
+      "respectPrefersColorScheme": true,
+      "defaultMode": "light",
+      "disableSwitch": false
+    },
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
       "title": "이태경",
@@ -52,6 +57,7 @@ export default {
         "alt": "My Site Logo",
         "src": "img/logo.png"
       },
+      "hideOnScroll": true,
       "items": [
         {
           "type": "docSidebar",
@@ -63,9 +69,12 @@ export default {
           "to": "/blog",
           "label": "블로그",
           "position": "left"
+        },
+        {
+          "type": "search",
+          "position": "right"
         }
-      ],
-      "hideOnScroll": false
+      ]
     },
     "prism": {
       "theme": {
@@ -280,11 +289,6 @@ export default {
           }
         }
       ]
-    },
-    "colorMode": {
-      "defaultMode": "light",
-      "disableSwitch": false,
-      "respectPrefersColorScheme": false
     },
     "docs": {
       "versionPersistence": "localStorage",

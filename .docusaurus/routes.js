@@ -4,31 +4,31 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '395'),
+    component: ComponentCreator('/blog', '93e'),
     exact: true
   },
   {
     path: '/blog/about-me',
-    component: ComponentCreator('/blog/about-me', '067'),
+    component: ComponentCreator('/blog/about-me', 'cec'),
     exact: true
   },
   {
     path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', '7f8'),
+    component: ComponentCreator('/blog/archive', 'af4'),
     exact: true
   },
   {
     path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', '911'),
+    component: ComponentCreator('/markdown-page', '73b'),
     exact: true
   },
   {
     path: '/',
-    component: ComponentCreator('/', '246'),
+    component: ComponentCreator('/', '8ed'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', 'd50'),
+        component: ComponentCreator('/', 'ce1'),
         routes: [
           {
             path: '/tags',
@@ -101,8 +101,13 @@ export default [
             exact: true
           },
           {
+            path: '/tags/utterances',
+            component: ComponentCreator('/tags/utterances', 'a1e'),
+            exact: true
+          },
+          {
             path: '/',
-            component: ComponentCreator('/', 'ee3'),
+            component: ComponentCreator('/', 'e02'),
             routes: [
               {
                 path: '/android/2023-02-27-upload-cert-with-android-studio',
@@ -233,6 +238,12 @@ export default [
               {
                 path: '/software/docusaurus/2024-01-29-docusaurus-all-in-one-script',
                 component: ComponentCreator('/software/docusaurus/2024-01-29-docusaurus-all-in-one-script', '326'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode',
+                component: ComponentCreator('/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode', '766'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

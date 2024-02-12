@@ -67,6 +67,9 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        respectPrefersColorScheme: true,
+      },
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
@@ -75,6 +78,7 @@ const config = {
           alt: "My Site Logo",
           src: "img/logo.png",
         },
+        hideOnScroll: true,
         items: [
           {
             type: "docSidebar",
@@ -83,6 +87,10 @@ const config = {
             label: "문서",
           },
           { to: "/blog", label: "블로그", position: "left" },
+          {
+            type: "search",
+            position: "right",
+          },
         ],
       },
       prism: {

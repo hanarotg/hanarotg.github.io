@@ -126,6 +126,13 @@
                 "href": "/software/docusaurus/2024-01-29-docusaurus-all-in-one-script",
                 "docId": "software/docusaurus/2024-01-29-docusaurus-all-in-one-script",
                 "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Docusaurus utterances 다크 모드 적용",
+                "href": "/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode",
+                "docId": "software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode",
+                "unlisted": false
               }
             ],
             "href": "/category/docusaurus"
@@ -280,6 +287,12 @@
       "id": "software/docusaurus/2024-01-29-docusaurus-all-in-one-script",
       "title": "올인원 배포 스크립트",
       "description": "docusaurus 빌드, 배포, 깃허브 commit, push 스크립트",
+      "sidebar": "tutorialSidebar"
+    },
+    "software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode": {
+      "id": "software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode",
+      "title": "Docusaurus utterances 다크 모드 적용",
+      "description": "Docusaurus utterances 다크 모드 적용 dark mode",
       "sidebar": "tutorialSidebar"
     },
     "software/python/2024-01-30-python-background": {

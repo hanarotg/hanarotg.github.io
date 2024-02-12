@@ -16,6 +16,9 @@
     }
   ],
   "version": "current",
+  "lastUpdatedBy": "Taegyeong Lee",
+  "lastUpdatedAt": 1707652246,
+  "formattedLastUpdatedAt": "Feb 11, 2024",
   "frontMatter": {
     "title": "kotlin nullability",
     "description": "코틀린 nullability",

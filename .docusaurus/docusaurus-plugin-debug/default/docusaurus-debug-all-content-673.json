@@ -15,9 +15,9 @@
           "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/taegyeonglee/Documents/GitHub/hanarotg.github.io/sidebars.js",
-          "contentPath": "/Users/taegyeonglee/Documents/GitHub/hanarotg.github.io/docs",
-          "contentPathLocalized": "/Users/taegyeonglee/Documents/GitHub/hanarotg.github.io/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "C:\\Users\\hanar\\Desktop\\GitHub\\hanarotg.github.io\\sidebars.js",
+          "contentPath": "C:\\Users\\hanar\\Desktop\\GitHub\\hanarotg.github.io\\docs",
+          "contentPathLocalized": "C:\\Users\\hanar\\Desktop\\GitHub\\hanarotg.github.io\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
               "id": "android/2023-02-27-upload-cert-with-android-studio",
@@ -592,6 +592,53 @@
                 "permalink": "/software/docusaurus/2024-01-28-docusaurus-deploy copy"
               },
               "next": {
+                "title": "Docusaurus utterances 다크 모드 적용",
+                "permalink": "/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode"
+              }
+            },
+            {
+              "id": "software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode",
+              "title": "Docusaurus utterances 다크 모드 적용",
+              "description": "Docusaurus utterances 다크 모드 적용 dark mode",
+              "source": "@site/docs/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode.md",
+              "sourceDirName": "software/docusaurus",
+              "slug": "/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode",
+              "permalink": "/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode.md",
+              "tags": [
+                {
+                  "label": "docusaurus",
+                  "permalink": "/tags/docusaurus"
+                },
+                {
+                  "label": "utterances",
+                  "permalink": "/tags/utterances"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {
+                "title": "Docusaurus utterances 다크 모드 적용",
+                "description": "Docusaurus utterances 다크 모드 적용 dark mode",
+                "keywords": [
+                  "docusaurus",
+                  "utterances"
+                ],
+                "tags": [
+                  "docusaurus",
+                  "utterances"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "올인원 배포 스크립트",
+                "permalink": "/software/docusaurus/2024-01-29-docusaurus-all-in-one-script"
+              },
+              "next": {
                 "title": "Computer Science",
                 "permalink": "/category/computer-science"
               }
@@ -754,6 +801,10 @@
                       {
                         "type": "doc",
                         "id": "software/docusaurus/2024-01-29-docusaurus-all-in-one-script"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode"
                       }
                     ],
                     "link": {
