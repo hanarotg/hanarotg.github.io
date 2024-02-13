@@ -8,7 +8,7 @@ export default {
   "tagline": "개발자",
   "favicon": "img/favicon.ico",
   "url": "https://hanarotg.github.io",
-  "baseUrl": "/",
+  "baseUrl": "/en/",
   "organizationName": "hanarotg",
   "projectName": "hanarotg.github.io",
   "trailingSlash": false,
@@ -16,8 +16,9 @@ export default {
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
-    "defaultLocale": "en",
+    "defaultLocale": "ko",
     "locales": [
+      "ko",
       "en"
     ],
     "path": "i18n",
@@ -314,8 +315,27 @@ export default {
     "tableOfContents": {
       "minHeadingLevel": 2,
       "maxHeadingLevel": 3
+    },
+    "mermaid": {
+      "theme": {
+        "dark": "dark",
+        "light": "default"
+      },
+      "options": {}
     }
   },
+  "markdown": {
+    "mermaid": true,
+    "format": "mdx",
+    "mdx1Compat": {
+      "comments": true,
+      "admonitions": true,
+      "headingIds": true
+    }
+  },
+  "themes": [
+    "@docusaurus/theme-mermaid"
+  ],
   "baseUrlIssueBanner": true,
   "onBrokenAnchors": "warn",
   "onDuplicateRoutes": "warn",
@@ -324,20 +344,10 @@ export default {
   ],
   "customFields": {},
   "plugins": [],
-  "themes": [],
   "scripts": [],
   "headTags": [],
   "stylesheets": [],
   "clientModules": [],
   "titleDelimiter": "|",
-  "noIndex": false,
-  "markdown": {
-    "format": "mdx",
-    "mermaid": false,
-    "mdx1Compat": {
-      "comments": true,
-      "admonitions": true,
-      "headingIds": true
-    }
-  }
+  "noIndex": false
 };

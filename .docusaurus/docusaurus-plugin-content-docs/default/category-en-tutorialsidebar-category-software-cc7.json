@@ -1,0 +1,16 @@
+{
+  "title": "Software",
+  "description": "소프트웨어",
+  "slug": "/category/software",
+  "permalink": "/en/category/software",
+  "navigation": {
+    "previous": {
+      "title": "Create a Blog Post",
+      "permalink": "/en/flutter/create-a-blog-post"
+    },
+    "next": {
+      "title": "Linux",
+      "permalink": "/en/category/linux"
+    }
+  }
+}

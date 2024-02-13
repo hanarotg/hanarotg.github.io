@@ -5,18 +5,18 @@
   "source": "@site/docs/android/2023-06-24-gradle-in-android.md",
   "sourceDirName": "android",
   "slug": "/android/2023-06-24-gradle-in-android",
-  "permalink": "/android/2023-06-24-gradle-in-android",
+  "permalink": "/en/android/2023-06-24-gradle-in-android",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/android/2023-06-24-gradle-in-android.md",
   "tags": [
     {
       "label": "android",
-      "permalink": "/tags/android"
+      "permalink": "/en/tags/android"
     },
     {
       "label": "gradle",
-      "permalink": "/tags/gradle"
+      "permalink": "/en/tags/gradle"
     }
   ],
   "version": "current",
@@ -38,10 +38,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "업로드 키, 인증서 재설정하기",
-    "permalink": "/android/2023-02-27-upload-cert-with-android-studio"
+    "permalink": "/en/android/2023-02-27-upload-cert-with-android-studio"
   },
   "next": {
     "title": "배포용 안드로이드 앱 번들 빌드하기",
-    "permalink": "/android/2024-01-28-build-release-android-app"
+    "permalink": "/en/android/2024-01-28-build-release-android-app"
   }
 }

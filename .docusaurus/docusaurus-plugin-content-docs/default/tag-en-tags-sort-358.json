@@ -1,0 +1,15 @@
+{
+  "label": "sort",
+  "permalink": "/en/tags/sort",
+  "allTagsPath": "/en/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "computer-science/algorithm/2024-02-11-strick-weak-ordering",
+      "title": "strict weak ordering 이해",
+      "description": "strict weak ordering 이해",
+      "permalink": "/en/computer-science/algorithm/2024-02-11-strick-weak-ordering"
+    }
+  ],
+  "unlisted": false
+}

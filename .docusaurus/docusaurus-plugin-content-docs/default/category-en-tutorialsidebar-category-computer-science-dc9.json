@@ -1,0 +1,16 @@
+{
+  "title": "Computer Science",
+  "description": "컴퓨터공학",
+  "slug": "/category/computer-science",
+  "permalink": "/en/category/computer-science",
+  "navigation": {
+    "previous": {
+      "title": "Tensorflow windows 11 설치",
+      "permalink": "/en/software/2024-02-12-tensorflow-windows-install"
+    },
+    "next": {
+      "title": "Algorithm",
+      "permalink": "/en/category/algorithm"
+    }
+  }
+}

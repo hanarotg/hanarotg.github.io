@@ -1,0 +1,15 @@
+{
+  "label": "tensorflow",
+  "permalink": "/en/tags/tensorflow",
+  "allTagsPath": "/en/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "software/2024-02-12-tensorflow-windows-install",
+      "title": "Tensorflow windows 11 설치",
+      "description": "Tensorflow windows 11 wsl2 활용 설치 가이드",
+      "permalink": "/en/software/2024-02-12-tensorflow-windows-install"
+    }
+  ],
+  "unlisted": false
+}

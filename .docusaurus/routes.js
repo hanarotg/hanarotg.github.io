@@ -3,280 +3,280 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/blog',
-    component: ComponentCreator('/blog', '93e'),
+    path: '/en/blog',
+    component: ComponentCreator('/en/blog', '04f'),
     exact: true
   },
   {
-    path: '/blog/about-me',
-    component: ComponentCreator('/blog/about-me', 'cec'),
+    path: '/en/blog/about-me',
+    component: ComponentCreator('/en/blog/about-me', '92c'),
     exact: true
   },
   {
-    path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', 'af4'),
+    path: '/en/blog/archive',
+    component: ComponentCreator('/en/blog/archive', 'd3d'),
     exact: true
   },
   {
-    path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', '73b'),
+    path: '/en/markdown-page',
+    component: ComponentCreator('/en/markdown-page', '2bf'),
     exact: true
   },
   {
-    path: '/search',
-    component: ComponentCreator('/search', '721'),
+    path: '/en/search',
+    component: ComponentCreator('/en/search', '072'),
     exact: true
   },
   {
-    path: '/',
-    component: ComponentCreator('/', 'a8a'),
+    path: '/en/',
+    component: ComponentCreator('/en/', '075'),
     routes: [
       {
-        path: '/',
-        component: ComponentCreator('/', '22f'),
+        path: '/en/',
+        component: ComponentCreator('/en/', 'b7b'),
         routes: [
           {
-            path: '/tags',
-            component: ComponentCreator('/tags', 'd7a'),
+            path: '/en/tags',
+            component: ComponentCreator('/en/tags', '01c'),
             exact: true
           },
           {
-            path: '/tags/2178',
-            component: ComponentCreator('/tags/2178', '60b'),
+            path: '/en/tags/2178',
+            component: ComponentCreator('/en/tags/2178', '982'),
             exact: true
           },
           {
-            path: '/tags/백준',
-            component: ComponentCreator('/tags/백준', 'b85'),
+            path: '/en/tags/백준',
+            component: ComponentCreator('/en/tags/백준', '90b'),
             exact: true
           },
           {
-            path: '/tags/android',
-            component: ComponentCreator('/tags/android', '27c'),
+            path: '/en/tags/android',
+            component: ComponentCreator('/en/tags/android', 'b96'),
             exact: true
           },
           {
-            path: '/tags/bfs',
-            component: ComponentCreator('/tags/bfs', '16c'),
+            path: '/en/tags/bfs',
+            component: ComponentCreator('/en/tags/bfs', '023'),
             exact: true
           },
           {
-            path: '/tags/c',
-            component: ComponentCreator('/tags/c', '4e7'),
+            path: '/en/tags/c',
+            component: ComponentCreator('/en/tags/c', '4e9'),
             exact: true
           },
           {
-            path: '/tags/docusaurus',
-            component: ComponentCreator('/tags/docusaurus', '0fe'),
+            path: '/en/tags/docusaurus',
+            component: ComponentCreator('/en/tags/docusaurus', 'd22'),
             exact: true
           },
           {
-            path: '/tags/git',
-            component: ComponentCreator('/tags/git', '66f'),
+            path: '/en/tags/git',
+            component: ComponentCreator('/en/tags/git', '4e6'),
             exact: true
           },
           {
-            path: '/tags/gradle',
-            component: ComponentCreator('/tags/gradle', 'f81'),
+            path: '/en/tags/gradle',
+            component: ComponentCreator('/en/tags/gradle', '417'),
             exact: true
           },
           {
-            path: '/tags/kotlin',
-            component: ComponentCreator('/tags/kotlin', '4e9'),
+            path: '/en/tags/kotlin',
+            component: ComponentCreator('/en/tags/kotlin', '609'),
             exact: true
           },
           {
-            path: '/tags/linux',
-            component: ComponentCreator('/tags/linux', 'd3c'),
+            path: '/en/tags/linux',
+            component: ComponentCreator('/en/tags/linux', '87e'),
             exact: true
           },
           {
-            path: '/tags/python',
-            component: ComponentCreator('/tags/python', '5f7'),
+            path: '/en/tags/python',
+            component: ComponentCreator('/en/tags/python', '883'),
             exact: true
           },
           {
-            path: '/tags/sort',
-            component: ComponentCreator('/tags/sort', 'a1a'),
+            path: '/en/tags/sort',
+            component: ComponentCreator('/en/tags/sort', '26b'),
             exact: true
           },
           {
-            path: '/tags/strict-weak-ordering',
-            component: ComponentCreator('/tags/strict-weak-ordering', 'b2e'),
+            path: '/en/tags/strict-weak-ordering',
+            component: ComponentCreator('/en/tags/strict-weak-ordering', 'aaa'),
             exact: true
           },
           {
-            path: '/tags/tensorflow',
-            component: ComponentCreator('/tags/tensorflow', 'a1b'),
+            path: '/en/tags/tensorflow',
+            component: ComponentCreator('/en/tags/tensorflow', '39c'),
             exact: true
           },
           {
-            path: '/tags/utterances',
-            component: ComponentCreator('/tags/utterances', 'a1e'),
+            path: '/en/tags/utterances',
+            component: ComponentCreator('/en/tags/utterances', '2ac'),
             exact: true
           },
           {
-            path: '/tags/windows',
-            component: ComponentCreator('/tags/windows', '64e'),
+            path: '/en/tags/windows',
+            component: ComponentCreator('/en/tags/windows', '7ed'),
             exact: true
           },
           {
-            path: '/',
-            component: ComponentCreator('/', '2f0'),
+            path: '/en/',
+            component: ComponentCreator('/en/', 'd14'),
             routes: [
               {
-                path: '/android/2023-02-27-upload-cert-with-android-studio',
-                component: ComponentCreator('/android/2023-02-27-upload-cert-with-android-studio', '160'),
+                path: '/en/android/2023-02-27-upload-cert-with-android-studio',
+                component: ComponentCreator('/en/android/2023-02-27-upload-cert-with-android-studio', '031'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/android/2023-06-24-gradle-in-android',
-                component: ComponentCreator('/android/2023-06-24-gradle-in-android', '5d9'),
+                path: '/en/android/2023-06-24-gradle-in-android',
+                component: ComponentCreator('/en/android/2023-06-24-gradle-in-android', '8b9'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/android/2024-01-28-build-release-android-app',
-                component: ComponentCreator('/android/2024-01-28-build-release-android-app', '2f4'),
+                path: '/en/android/2024-01-28-build-release-android-app',
+                component: ComponentCreator('/en/android/2024-01-28-build-release-android-app', 'e3f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/android/kotlin/2023-04-26-kotlin-nullability',
-                component: ComponentCreator('/android/kotlin/2023-04-26-kotlin-nullability', '53e'),
+                path: '/en/android/kotlin/2023-04-26-kotlin-nullability',
+                component: ComponentCreator('/en/android/kotlin/2023-04-26-kotlin-nullability', '713'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/android/kotlin/2023-05-28-kotlin-array',
-                component: ComponentCreator('/android/kotlin/2023-05-28-kotlin-array', 'e1e'),
+                path: '/en/android/kotlin/2023-05-28-kotlin-array',
+                component: ComponentCreator('/en/android/kotlin/2023-05-28-kotlin-array', '178'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/category/algorithm',
-                component: ComponentCreator('/category/algorithm', '549'),
+                path: '/en/category/algorithm',
+                component: ComponentCreator('/en/category/algorithm', '1f3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/category/android',
-                component: ComponentCreator('/category/android', '848'),
+                path: '/en/category/android',
+                component: ComponentCreator('/en/category/android', '641'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/category/computer-science',
-                component: ComponentCreator('/category/computer-science', '9a4'),
+                path: '/en/category/computer-science',
+                component: ComponentCreator('/en/category/computer-science', '6b8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/category/docusaurus',
-                component: ComponentCreator('/category/docusaurus', '6fa'),
+                path: '/en/category/docusaurus',
+                component: ComponentCreator('/en/category/docusaurus', '0ae'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/category/flutter',
-                component: ComponentCreator('/category/flutter', 'cbc'),
+                path: '/en/category/flutter',
+                component: ComponentCreator('/en/category/flutter', '233'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/category/kotlin',
-                component: ComponentCreator('/category/kotlin', '3bc'),
+                path: '/en/category/kotlin',
+                component: ComponentCreator('/en/category/kotlin', '070'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/category/linux',
-                component: ComponentCreator('/category/linux', '96d'),
+                path: '/en/category/linux',
+                component: ComponentCreator('/en/category/linux', '2d7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/category/others',
-                component: ComponentCreator('/category/others', '70a'),
+                path: '/en/category/others',
+                component: ComponentCreator('/en/category/others', '3a5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/category/software',
-                component: ComponentCreator('/category/software', '6e2'),
+                path: '/en/category/software',
+                component: ComponentCreator('/en/category/software', 'f54'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/computer-science/algorithm/2024-02-02-boj-2178',
-                component: ComponentCreator('/computer-science/algorithm/2024-02-02-boj-2178', '9db'),
+                path: '/en/computer-science/algorithm/2024-02-02-boj-2178',
+                component: ComponentCreator('/en/computer-science/algorithm/2024-02-02-boj-2178', '0a1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/computer-science/algorithm/2024-02-11-fast-io',
-                component: ComponentCreator('/computer-science/algorithm/2024-02-11-fast-io', 'b38'),
+                path: '/en/computer-science/algorithm/2024-02-11-fast-io',
+                component: ComponentCreator('/en/computer-science/algorithm/2024-02-11-fast-io', '565'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/computer-science/algorithm/2024-02-11-strick-weak-ordering',
-                component: ComponentCreator('/computer-science/algorithm/2024-02-11-strick-weak-ordering', 'bd6'),
+                path: '/en/computer-science/algorithm/2024-02-11-strick-weak-ordering',
+                component: ComponentCreator('/en/computer-science/algorithm/2024-02-11-strick-weak-ordering', 'a22'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/flutter/create-a-blog-post',
-                component: ComponentCreator('/flutter/create-a-blog-post', 'c6d'),
+                path: '/en/flutter/create-a-blog-post',
+                component: ComponentCreator('/en/flutter/create-a-blog-post', '031'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/others/2024-02-02-select-book',
-                component: ComponentCreator('/others/2024-02-02-select-book', '45e'),
+                path: '/en/others/2024-02-02-select-book',
+                component: ComponentCreator('/en/others/2024-02-02-select-book', '651'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/others/2024-02-08-link',
-                component: ComponentCreator('/others/2024-02-08-link', '422'),
+                path: '/en/others/2024-02-08-link',
+                component: ComponentCreator('/en/others/2024-02-08-link', '199'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/software/2024-02-12-tensorflow-windows-install',
-                component: ComponentCreator('/software/2024-02-12-tensorflow-windows-install', '292'),
+                path: '/en/software/2024-02-12-tensorflow-windows-install',
+                component: ComponentCreator('/en/software/2024-02-12-tensorflow-windows-install', '757'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/software/docusaurus/2024-01-28-docusaurus-deploy copy',
-                component: ComponentCreator('/software/docusaurus/2024-01-28-docusaurus-deploy copy', 'b29'),
+                path: '/en/software/docusaurus/2024-01-28-docusaurus-deploy copy',
+                component: ComponentCreator('/en/software/docusaurus/2024-01-28-docusaurus-deploy copy', '09d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/software/docusaurus/2024-01-29-docusaurus-all-in-one-script',
-                component: ComponentCreator('/software/docusaurus/2024-01-29-docusaurus-all-in-one-script', '326'),
+                path: '/en/software/docusaurus/2024-01-29-docusaurus-all-in-one-script',
+                component: ComponentCreator('/en/software/docusaurus/2024-01-29-docusaurus-all-in-one-script', '831'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode',
-                component: ComponentCreator('/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode', '766'),
+                path: '/en/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode',
+                component: ComponentCreator('/en/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode', 'ce6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/software/python/2024-01-30-python-background',
-                component: ComponentCreator('/software/python/2024-01-30-python-background', '51e'),
+                path: '/en/software/python/2024-01-30-python-background',
+                component: ComponentCreator('/en/software/python/2024-01-30-python-background', '385'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/',
-                component: ComponentCreator('/', '96c'),
+                path: '/en/',
+                component: ComponentCreator('/en/', '0d1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

@@ -5,22 +5,22 @@
   "source": "@site/docs/computer-science/algorithm/2024-02-11-strick-weak-ordering.md",
   "sourceDirName": "computer-science/algorithm",
   "slug": "/computer-science/algorithm/2024-02-11-strick-weak-ordering",
-  "permalink": "/computer-science/algorithm/2024-02-11-strick-weak-ordering",
+  "permalink": "/en/computer-science/algorithm/2024-02-11-strick-weak-ordering",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/algorithm/2024-02-11-strick-weak-ordering.md",
   "tags": [
     {
       "label": "strict weak ordering",
-      "permalink": "/tags/strict-weak-ordering"
+      "permalink": "/en/tags/strict-weak-ordering"
     },
     {
       "label": "c++",
-      "permalink": "/tags/c"
+      "permalink": "/en/tags/c"
     },
     {
       "label": "sort",
-      "permalink": "/tags/sort"
+      "permalink": "/en/tags/sort"
     }
   ],
   "version": "current",
@@ -44,10 +44,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Fast I/O C++ 코드",
-    "permalink": "/computer-science/algorithm/2024-02-11-fast-io"
+    "permalink": "/en/computer-science/algorithm/2024-02-11-fast-io"
   },
   "next": {
     "title": "Others",
-    "permalink": "/category/others"
+    "permalink": "/en/category/others"
   }
 }

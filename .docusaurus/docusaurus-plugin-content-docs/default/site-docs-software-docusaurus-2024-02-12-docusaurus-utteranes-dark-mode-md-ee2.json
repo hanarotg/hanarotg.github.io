@@ -5,18 +5,18 @@
   "source": "@site/docs/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode.md",
   "sourceDirName": "software/docusaurus",
   "slug": "/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode",
-  "permalink": "/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode",
+  "permalink": "/en/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode.md",
   "tags": [
     {
       "label": "docusaurus",
-      "permalink": "/tags/docusaurus"
+      "permalink": "/en/tags/docusaurus"
     },
     {
       "label": "utterances",
-      "permalink": "/tags/utterances"
+      "permalink": "/en/tags/utterances"
     }
   ],
   "version": "current",
@@ -38,10 +38,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "올인원 배포 스크립트",
-    "permalink": "/software/docusaurus/2024-01-29-docusaurus-all-in-one-script"
+    "permalink": "/en/software/docusaurus/2024-01-29-docusaurus-all-in-one-script"
   },
   "next": {
-    "title": "Tensorflow windows 11 wsl2로 설치",
-    "permalink": "/software/2024-02-12-tensorflow-windows-install"
+    "title": "Tensorflow windows 11 설치",
+    "permalink": "/en/software/2024-02-12-tensorflow-windows-install"
   }
 }

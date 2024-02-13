@@ -5,14 +5,14 @@
   "source": "@site/docs/computer-science/algorithm/2024-02-11-fast-io.md",
   "sourceDirName": "computer-science/algorithm",
   "slug": "/computer-science/algorithm/2024-02-11-fast-io",
-  "permalink": "/computer-science/algorithm/2024-02-11-fast-io",
+  "permalink": "/en/computer-science/algorithm/2024-02-11-fast-io",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/algorithm/2024-02-11-fast-io.md",
   "tags": [
     {
       "label": "c++",
-      "permalink": "/tags/c"
+      "permalink": "/en/tags/c"
     }
   ],
   "version": "current",
@@ -32,10 +32,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "백준 2178 미로 탐색 C++ 문제 풀이",
-    "permalink": "/computer-science/algorithm/2024-02-02-boj-2178"
+    "permalink": "/en/computer-science/algorithm/2024-02-02-boj-2178"
   },
   "next": {
     "title": "strict weak ordering 이해",
-    "permalink": "/computer-science/algorithm/2024-02-11-strick-weak-ordering"
+    "permalink": "/en/computer-science/algorithm/2024-02-11-strick-weak-ordering"
   }
 }

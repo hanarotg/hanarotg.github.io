@@ -1,82 +1,82 @@
 [
   {
     "label": "android",
-    "permalink": "/tags/android",
+    "permalink": "/en/tags/android",
     "count": 3
   },
   {
     "label": "gradle",
-    "permalink": "/tags/gradle",
+    "permalink": "/en/tags/gradle",
     "count": 1
   },
   {
     "label": "kotlin",
-    "permalink": "/tags/kotlin",
+    "permalink": "/en/tags/kotlin",
     "count": 2
   },
   {
     "label": "백준",
-    "permalink": "/tags/백준",
+    "permalink": "/en/tags/백준",
     "count": 1
   },
   {
     "label": "c++",
-    "permalink": "/tags/c",
+    "permalink": "/en/tags/c",
     "count": 3
   },
   {
     "label": "bfs",
-    "permalink": "/tags/bfs",
+    "permalink": "/en/tags/bfs",
     "count": 1
   },
   {
     "label": "2178",
-    "permalink": "/tags/2178",
+    "permalink": "/en/tags/2178",
     "count": 1
   },
   {
     "label": "strict weak ordering",
-    "permalink": "/tags/strict-weak-ordering",
+    "permalink": "/en/tags/strict-weak-ordering",
     "count": 1
   },
   {
     "label": "sort",
-    "permalink": "/tags/sort",
+    "permalink": "/en/tags/sort",
     "count": 1
   },
   {
     "label": "tensorflow",
-    "permalink": "/tags/tensorflow",
+    "permalink": "/en/tags/tensorflow",
     "count": 1
   },
   {
     "label": "windows",
-    "permalink": "/tags/windows",
+    "permalink": "/en/tags/windows",
     "count": 1
   },
   {
     "label": "git",
-    "permalink": "/tags/git",
+    "permalink": "/en/tags/git",
     "count": 2
   },
   {
     "label": "docusaurus",
-    "permalink": "/tags/docusaurus",
+    "permalink": "/en/tags/docusaurus",
     "count": 3
   },
   {
     "label": "utterances",
-    "permalink": "/tags/utterances",
+    "permalink": "/en/tags/utterances",
     "count": 1
   },
   {
     "label": "python",
-    "permalink": "/tags/python",
+    "permalink": "/en/tags/python",
     "count": 1
   },
   {
     "label": "linux",
-    "permalink": "/tags/linux",
+    "permalink": "/en/tags/linux",
     "count": 1
   }
 ]

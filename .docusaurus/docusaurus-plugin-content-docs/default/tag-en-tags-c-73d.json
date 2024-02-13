@@ -1,0 +1,27 @@
+{
+  "label": "c++",
+  "permalink": "/en/tags/c",
+  "allTagsPath": "/en/tags",
+  "count": 3,
+  "items": [
+    {
+      "id": "computer-science/algorithm/2024-02-02-boj-2178",
+      "title": "백준 2178 미로 탐색 C++ 문제 풀이",
+      "description": "백준 2178 미로 탐색 C++ 문제 풀이",
+      "permalink": "/en/computer-science/algorithm/2024-02-02-boj-2178"
+    },
+    {
+      "id": "computer-science/algorithm/2024-02-11-fast-io",
+      "title": "Fast I/O C++ 코드",
+      "description": "Fast I/O C++ 코드",
+      "permalink": "/en/computer-science/algorithm/2024-02-11-fast-io"
+    },
+    {
+      "id": "computer-science/algorithm/2024-02-11-strick-weak-ordering",
+      "title": "strict weak ordering 이해",
+      "description": "strict weak ordering 이해",
+      "permalink": "/en/computer-science/algorithm/2024-02-11-strick-weak-ordering"
+    }
+  ],
+  "unlisted": false
+}

@@ -5,18 +5,18 @@
   "source": "@site/docs/software/python/2024-01-30-python-background.md",
   "sourceDirName": "software/python",
   "slug": "/software/python/2024-01-30-python-background",
-  "permalink": "/software/python/2024-01-30-python-background",
+  "permalink": "/en/software/python/2024-01-30-python-background",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/python/2024-01-30-python-background.md",
   "tags": [
     {
       "label": "python",
-      "permalink": "/tags/python"
+      "permalink": "/en/tags/python"
     },
     {
       "label": "linux",
-      "permalink": "/tags/linux"
+      "permalink": "/en/tags/linux"
     }
   ],
   "version": "current",
@@ -38,10 +38,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Linux",
-    "permalink": "/category/linux"
+    "permalink": "/en/category/linux"
   },
   "next": {
     "title": "Docusaurus",
-    "permalink": "/category/docusaurus"
+    "permalink": "/en/category/docusaurus"
   }
 }

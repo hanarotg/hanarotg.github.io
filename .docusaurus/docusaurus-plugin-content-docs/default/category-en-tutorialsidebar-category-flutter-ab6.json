@@ -1,0 +1,16 @@
+{
+  "title": "Flutter",
+  "description": "플러터",
+  "slug": "/category/flutter",
+  "permalink": "/en/category/flutter",
+  "navigation": {
+    "previous": {
+      "title": "배포용 안드로이드 앱 번들 빌드하기",
+      "permalink": "/en/android/2024-01-28-build-release-android-app"
+    },
+    "next": {
+      "title": "Create a Blog Post",
+      "permalink": "/en/flutter/create-a-blog-post"
+    }
+  }
+}

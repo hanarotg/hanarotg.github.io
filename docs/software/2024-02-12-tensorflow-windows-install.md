@@ -1,6 +1,6 @@
 ---
-title: Tensorflow windows 11 wsl2로 설치
-description: Tensorflow windows 11 설치 가이드
+title: Tensorflow windows 11 설치
+description: Tensorflow windows 11 wsl2 활용 설치 가이드
 keywords: [tensorflow, windows]
 tags: [tensorflow, windows]
 ---
@@ -20,6 +20,16 @@ wsl --install
 설치 완료 후 재부팅해주세요.
 
 wsl 프로그램을 통해 바로 터미널로 가상 환경 개발이 가능합니다.
+
+:::tip
+
+cmd 에서 아래 명령을 통해 wsl 실행 가능
+
+```bash
+wsl.exe
+```
+
+:::
 
 ![wsl](https://github.com/hanarotg/hanarotg.github.io/assets/34812887/6e8bcd32-0c57-488f-bfbf-3703f608ec0b)
 

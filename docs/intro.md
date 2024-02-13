@@ -5,28 +5,19 @@ sidebar_position: 1
 
 # 안내
 
-안녕하세요, 방문해 주셔서 감사합니다.
-
-신뢰할 수 있는, 근거가 있는 개발 자료들을 작성하겠습니다.
-
-계속 업데이트하겠습니다.
+안녕하세요, 방문해 주셔서 감사합니다. 신뢰할 수 있는, 근거가 있는 개발 자료들을 작성하겠습니다.
 
 ## 문서 목록
 
-- Android
-- Flutter
-- React Native
-- 프로그래밍 (기타)
-- Software
-- 컴퓨터공학
-- 프로젝트
+- 모바일 개발 : [`Android (4)`](/category/android) [`Flutter (1)`](/category/flutter) [`React-Native (0)`](/)
+- 개발 : [`프로그래밍`](/) [`컴퓨터공학`](/) [`소프트웨어`](/)
+- 기타 : [`프로젝트`](/)
 
 ## 작성자
 
 안녕하세요, 이태경입니다.
 
-- [깃허브](https://github.com/hanarotg)
-- [이메일](mailto:hanrotg@naver.com)
+- [`깃허브`](https://github.com/hanarotg) [`이메일`](mailto:hanrotg@naver.com)
 
 관심 분야는 안드로이드, 크로스 플랫폼입니다. 관련 오픈소스 버그 수정, 답변 활동하고 있습니다.
 

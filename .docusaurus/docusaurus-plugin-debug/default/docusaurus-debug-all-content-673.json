@@ -12,12 +12,12 @@
           "path": "/",
           "tagsPath": "/tags",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
-          "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
+          "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/ko/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "C:\\Users\\hanar\\Desktop\\GitHub\\hanarotg.github.io\\sidebars.js",
           "contentPath": "C:\\Users\\hanar\\Desktop\\GitHub\\hanarotg.github.io\\docs",
-          "contentPathLocalized": "C:\\Users\\hanar\\Desktop\\GitHub\\hanarotg.github.io\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "contentPathLocalized": "C:\\Users\\hanar\\Desktop\\GitHub\\hanarotg.github.io\\i18n\\ko\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
               "id": "android/2023-02-27-upload-cert-with-android-studio",
@@ -39,7 +39,7 @@
               "version": "current",
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "formattedLastUpdatedAt": "2018년 10월 14일",
               "frontMatter": {
                 "title": "업로드 키, 인증서 재설정하기",
                 "description": "기존 업로드 키를 분실하거나 더이상 사용할 수 없는 경우 새로운 업로드 키를 생성, 반영해야 합니다.",
@@ -87,7 +87,7 @@
               "version": "current",
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "formattedLastUpdatedAt": "2018년 10월 14일",
               "frontMatter": {
                 "title": "안드로이드 프로젝트 gradle 스크립트에 대한 이해",
                 "description": "안드로이드 프로젝트 gradle 스크립트에 대한 이해",
@@ -130,7 +130,7 @@
               "version": "current",
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "formattedLastUpdatedAt": "2018년 10월 14일",
               "frontMatter": {
                 "title": "배포용 안드로이드 앱 번들 빌드하기",
                 "description": "안드로이드 스튜디오를 활용해서 배포용 안드로이드 앱 번들을 빌드해 보겠습니다.",
@@ -174,7 +174,7 @@
               "version": "current",
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "formattedLastUpdatedAt": "2018년 10월 14일",
               "frontMatter": {
                 "title": "kotlin nullability",
                 "description": "코틀린 nullability",
@@ -216,7 +216,7 @@
               "version": "current",
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "formattedLastUpdatedAt": "2018년 10월 14일",
               "frontMatter": {
                 "title": "kotlin Array",
                 "description": "코틀린 Array",
@@ -270,7 +270,7 @@
               "version": "current",
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "formattedLastUpdatedAt": "2018년 10월 14일",
               "frontMatter": {
                 "title": "백준 2178 미로 탐색 C++ 문제 풀이",
                 "description": "백준 2178 미로 탐색 C++ 문제 풀이",
@@ -317,7 +317,7 @@
               "version": "current",
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "formattedLastUpdatedAt": "2018년 10월 14일",
               "frontMatter": {
                 "title": "Fast I/O C++ 코드",
                 "description": "Fast I/O C++ 코드",
@@ -366,7 +366,7 @@
               "version": "current",
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "formattedLastUpdatedAt": "2018년 10월 14일",
               "frontMatter": {
                 "title": "strict weak ordering 이해",
                 "description": "strict weak ordering 이해",
@@ -406,7 +406,7 @@
               "version": "current",
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "formattedLastUpdatedAt": "2018년 10월 14일",
               "sidebarPosition": 3,
               "frontMatter": {
                 "sidebar_position": 3
@@ -424,7 +424,7 @@
             {
               "id": "intro",
               "title": "안내",
-              "description": "안녕하세요, 방문해 주셔서 감사합니다.",
+              "description": "안녕하세요, 방문해 주셔서 감사합니다. 신뢰할 수 있는, 근거가 있는 개발 자료들을 작성하겠습니다.",
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/",
@@ -436,7 +436,7 @@
               "version": "current",
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "formattedLastUpdatedAt": "2018년 10월 14일",
               "sidebarPosition": 1,
               "frontMatter": {
                 "slug": "/",
@@ -463,7 +463,7 @@
               "version": "current",
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "formattedLastUpdatedAt": "2018년 10월 14일",
               "frontMatter": {
                 "title": "책을 선택하는 방법"
               },
@@ -492,7 +492,7 @@
               "version": "current",
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "formattedLastUpdatedAt": "2018년 10월 14일",
               "frontMatter": {
                 "title": "개발 시 도움되는 링크 모음"
               },
@@ -504,8 +504,8 @@
             },
             {
               "id": "software/2024-02-12-tensorflow-windows-install",
-              "title": "Tensorflow windows 11 wsl2로 설치",
-              "description": "Tensorflow windows 11 설치 가이드",
+              "title": "Tensorflow windows 11 설치",
+              "description": "Tensorflow windows 11 wsl2 활용 설치 가이드",
               "source": "@site/docs/software/2024-02-12-tensorflow-windows-install.md",
               "sourceDirName": "software",
               "slug": "/software/2024-02-12-tensorflow-windows-install",
@@ -526,10 +526,10 @@
               "version": "current",
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "formattedLastUpdatedAt": "2018년 10월 14일",
               "frontMatter": {
-                "title": "Tensorflow windows 11 wsl2로 설치",
-                "description": "Tensorflow windows 11 설치 가이드",
+                "title": "Tensorflow windows 11 설치",
+                "description": "Tensorflow windows 11 wsl2 활용 설치 가이드",
                 "keywords": [
                   "tensorflow",
                   "windows"
@@ -573,7 +573,7 @@
               "version": "current",
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "formattedLastUpdatedAt": "2018년 10월 14일",
               "frontMatter": {
                 "title": "배포하기",
                 "description": "docusaurus gh-pages 브랜치로 deploy하는 방법",
@@ -620,7 +620,7 @@
               "version": "current",
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "formattedLastUpdatedAt": "2018년 10월 14일",
               "frontMatter": {
                 "title": "올인원 배포 스크립트",
                 "description": "docusaurus 빌드, 배포, 깃허브 commit, push 스크립트",
@@ -667,7 +667,7 @@
               "version": "current",
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "formattedLastUpdatedAt": "2018년 10월 14일",
               "frontMatter": {
                 "title": "Docusaurus utterances 다크 모드 적용",
                 "description": "Docusaurus utterances 다크 모드 적용 dark mode",
@@ -686,7 +686,7 @@
                 "permalink": "/software/docusaurus/2024-01-29-docusaurus-all-in-one-script"
               },
               "next": {
-                "title": "Tensorflow windows 11 wsl2로 설치",
+                "title": "Tensorflow windows 11 설치",
                 "permalink": "/software/2024-02-12-tensorflow-windows-install"
               }
             },
@@ -714,7 +714,7 @@
               "version": "current",
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "formattedLastUpdatedAt": "2018년 10월 14일",
               "frontMatter": {
                 "title": "python nuhup 백그라운드 실행",
                 "description": "python nuhup 백그라운드 실행하는 방법",
@@ -954,7 +954,7 @@
             "title": "About Me",
             "description": "안녕하세요",
             "date": "2024-01-28T00:00:00.000Z",
-            "formattedDate": "January 28, 2024",
+            "formattedDate": "2024년 1월 28일",
             "tags": [],
             "readingTime": 0.025,
             "hasTruncateMarker": false,
@@ -1015,6 +1015,7 @@
   "docusaurus-plugin-debug": {},
   "docusaurus-theme-classic": {},
   "docusaurus-theme-search-algolia": {},
+  "docusaurus-theme-mermaid": {},
   "docusaurus-bootstrap-plugin": {},
   "docusaurus-mdx-fallback-plugin": {}
 }
