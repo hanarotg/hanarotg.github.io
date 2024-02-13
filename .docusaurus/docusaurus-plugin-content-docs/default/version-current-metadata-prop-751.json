@@ -139,7 +139,7 @@
           },
           {
             "type": "link",
-            "label": "Tensorflow windows 11 설치 가이드",
+            "label": "Tensorflow windows 11 wsl2로 설치",
             "href": "/software/2024-02-12-tensorflow-windows-install",
             "docId": "software/2024-02-12-tensorflow-windows-install",
             "unlisted": false
@@ -286,7 +286,7 @@
     },
     "software/2024-02-12-tensorflow-windows-install": {
       "id": "software/2024-02-12-tensorflow-windows-install",
-      "title": "Tensorflow windows 11 설치 가이드",
+      "title": "Tensorflow windows 11 wsl2로 설치",
       "description": "Tensorflow windows 11 설치 가이드",
       "sidebar": "tutorialSidebar"
     },

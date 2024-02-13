@@ -1,6 +1,6 @@
 {
   "id": "software/2024-02-12-tensorflow-windows-install",
-  "title": "Tensorflow windows 11 설치 가이드",
+  "title": "Tensorflow windows 11 wsl2로 설치",
   "description": "Tensorflow windows 11 설치 가이드",
   "source": "@site/docs/software/2024-02-12-tensorflow-windows-install.md",
   "sourceDirName": "software",
@@ -20,8 +20,11 @@
     }
   ],
   "version": "current",
+  "lastUpdatedBy": "hanarotg",
+  "lastUpdatedAt": 1707802814,
+  "formattedLastUpdatedAt": "Feb 13, 2024",
   "frontMatter": {
-    "title": "Tensorflow windows 11 설치 가이드",
+    "title": "Tensorflow windows 11 wsl2로 설치",
     "description": "Tensorflow windows 11 설치 가이드",
     "keywords": [
       "tensorflow",

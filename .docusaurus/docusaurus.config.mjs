@@ -73,6 +73,11 @@ export default {
         {
           "type": "search",
           "position": "right"
+        },
+        {
+          "href": "https://github.com/hanarotg",
+          "position": "right",
+          "className": "header-github-link"
         }
       ]
     },
@@ -289,6 +294,14 @@ export default {
           }
         }
       ]
+    },
+    "algolia": {
+      "appId": "DF0NWM7N23",
+      "apiKey": "89bcb92461d9c240e2eaf25ebf327064",
+      "indexName": "hanarotgio",
+      "contextualSearch": true,
+      "searchParameters": {},
+      "searchPagePath": "search"
     },
     "docs": {
       "versionPersistence": "localStorage",

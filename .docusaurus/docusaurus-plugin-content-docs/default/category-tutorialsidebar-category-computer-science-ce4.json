@@ -5,7 +5,7 @@
   "permalink": "/category/computer-science",
   "navigation": {
     "previous": {
-      "title": "Tensorflow windows 11 설치 가이드",
+      "title": "Tensorflow windows 11 wsl2로 설치",
       "permalink": "/software/2024-02-12-tensorflow-windows-install"
     },
     "next": {

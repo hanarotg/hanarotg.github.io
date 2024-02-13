@@ -23,6 +23,11 @@ export default [
     exact: true
   },
   {
+    path: '/search',
+    component: ComponentCreator('/search', '721'),
+    exact: true
+  },
+  {
     path: '/',
     component: ComponentCreator('/', 'a8a'),
     routes: [

@@ -91,6 +91,11 @@ const config = {
             type: "search",
             position: "right",
           },
+          {
+            href: "https://github.com/hanarotg",
+            position: "right",
+            className: "header-github-link",
+          },
         ],
       },
       prism: {
@@ -107,6 +112,12 @@ const config = {
           "gradle",
           "groovy",
         ],
+      },
+      algolia: {
+        appId: "DF0NWM7N23",
+        apiKey: "89bcb92461d9c240e2eaf25ebf327064",
+        indexName: "hanarotgio",
+        contextualSearch: true,
       },
     }),
 };
