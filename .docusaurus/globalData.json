@@ -71,6 +71,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "software/2024-02-12-tensorflow-windows-install",
+              "path": "/software/2024-02-12-tensorflow-windows-install",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "software/docusaurus/2024-01-28-docusaurus-deploy copy",
               "path": "/software/docusaurus/2024-01-28-docusaurus-deploy copy",
               "sidebar": "tutorialSidebar"

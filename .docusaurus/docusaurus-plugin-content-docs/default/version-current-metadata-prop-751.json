@@ -136,6 +136,13 @@
               }
             ],
             "href": "/category/docusaurus"
+          },
+          {
+            "type": "link",
+            "label": "Tensorflow windows 11 설치 가이드",
+            "href": "/software/2024-02-12-tensorflow-windows-install",
+            "docId": "software/2024-02-12-tensorflow-windows-install",
+            "unlisted": false
           }
         ],
         "href": "/category/software"
@@ -275,6 +282,12 @@
       "id": "others/2024-02-08-link",
       "title": "개발 시 도움되는 링크 모음",
       "description": "Android",
+      "sidebar": "tutorialSidebar"
+    },
+    "software/2024-02-12-tensorflow-windows-install": {
+      "id": "software/2024-02-12-tensorflow-windows-install",
+      "title": "Tensorflow windows 11 설치 가이드",
+      "description": "Tensorflow windows 11 설치 가이드",
       "sidebar": "tutorialSidebar"
     },
     "software/docusaurus/2024-01-28-docusaurus-deploy copy": {

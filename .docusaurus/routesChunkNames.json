@@ -34,13 +34,13 @@
     },
     "content": "393be207"
   },
-  "/-8ed": {
+  "/-a8a": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "6115e6af"
     }
   },
-  "/-ce1": {
+  "/-22f": {
     "__comp": "a7bd4aaa",
     "version": "935f2afb"
   },
@@ -100,11 +100,19 @@
     "__comp": "df203c0f",
     "tag": "5f31f2c2"
   },
+  "/tags/tensorflow-a1b": {
+    "__comp": "df203c0f",
+    "tag": "4a2238e6"
+  },
   "/tags/utterances-a1e": {
     "__comp": "df203c0f",
     "tag": "da2d6a1e"
   },
-  "/-e02": {
+  "/tags/windows-64e": {
+    "__comp": "df203c0f",
+    "tag": "5e27c3f6"
+  },
+  "/-2f0": {
     "__comp": "a94703ab"
   },
   "/android/2023-02-27-upload-cert-with-android-studio-160": {
@@ -186,6 +194,10 @@
   "/others/2024-02-08-link-422": {
     "__comp": "17896441",
     "content": "11eb75ed"
+  },
+  "/software/2024-02-12-tensorflow-windows-install-292": {
+    "__comp": "17896441",
+    "content": "b58eea66"
   },
   "/software/docusaurus/2024-01-28-docusaurus-deploy copy-b29": {
     "__comp": "17896441",

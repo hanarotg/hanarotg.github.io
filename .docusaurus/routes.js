@@ -24,11 +24,11 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '8ed'),
+    component: ComponentCreator('/', 'a8a'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', 'ce1'),
+        component: ComponentCreator('/', '22f'),
         routes: [
           {
             path: '/tags',
@@ -101,13 +101,23 @@ export default [
             exact: true
           },
           {
+            path: '/tags/tensorflow',
+            component: ComponentCreator('/tags/tensorflow', 'a1b'),
+            exact: true
+          },
+          {
             path: '/tags/utterances',
             component: ComponentCreator('/tags/utterances', 'a1e'),
             exact: true
           },
           {
+            path: '/tags/windows',
+            component: ComponentCreator('/tags/windows', '64e'),
+            exact: true
+          },
+          {
             path: '/',
-            component: ComponentCreator('/', 'e02'),
+            component: ComponentCreator('/', '2f0'),
             routes: [
               {
                 path: '/android/2023-02-27-upload-cert-with-android-studio',
@@ -226,6 +236,12 @@ export default [
               {
                 path: '/others/2024-02-08-link',
                 component: ComponentCreator('/others/2024-02-08-link', '422'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/software/2024-02-12-tensorflow-windows-install',
+                component: ComponentCreator('/software/2024-02-12-tensorflow-windows-install', '292'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

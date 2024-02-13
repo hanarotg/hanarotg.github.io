@@ -1,0 +1,44 @@
+{
+  "id": "software/2024-02-12-tensorflow-windows-install",
+  "title": "Tensorflow windows 11 설치 가이드",
+  "description": "Tensorflow windows 11 설치 가이드",
+  "source": "@site/docs/software/2024-02-12-tensorflow-windows-install.md",
+  "sourceDirName": "software",
+  "slug": "/software/2024-02-12-tensorflow-windows-install",
+  "permalink": "/software/2024-02-12-tensorflow-windows-install",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/2024-02-12-tensorflow-windows-install.md",
+  "tags": [
+    {
+      "label": "tensorflow",
+      "permalink": "/tags/tensorflow"
+    },
+    {
+      "label": "windows",
+      "permalink": "/tags/windows"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "Tensorflow windows 11 설치 가이드",
+    "description": "Tensorflow windows 11 설치 가이드",
+    "keywords": [
+      "tensorflow",
+      "windows"
+    ],
+    "tags": [
+      "tensorflow",
+      "windows"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Docusaurus utterances 다크 모드 적용",
+    "permalink": "/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode"
+  },
+  "next": {
+    "title": "Computer Science",
+    "permalink": "/category/computer-science"
+  }
+}
