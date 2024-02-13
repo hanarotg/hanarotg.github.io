@@ -1,6 +1,6 @@
 export default [
-  require("C:\\Users\\hanar\\Desktop\\GitHub\\hanarotg.github.io\\node_modules\\infima\\dist\\css\\default\\default.css"),
-  require("C:\\Users\\hanar\\Desktop\\GitHub\\hanarotg.github.io\\node_modules\\@docusaurus\\theme-classic\\lib\\prism-include-languages"),
-  require("C:\\Users\\hanar\\Desktop\\GitHub\\hanarotg.github.io\\node_modules\\@docusaurus\\theme-classic\\lib\\nprogress"),
-  require("C:\\Users\\hanar\\Desktop\\GitHub\\hanarotg.github.io\\src\\css\\custom.css"),
+  require("/Users/taegyeonglee/Documents/GitHub/hanarotg.github.io/node_modules/infima/dist/css/default/default.css"),
+  require("/Users/taegyeonglee/Documents/GitHub/hanarotg.github.io/node_modules/@docusaurus/theme-classic/lib/prism-include-languages"),
+  require("/Users/taegyeonglee/Documents/GitHub/hanarotg.github.io/node_modules/@docusaurus/theme-classic/lib/nprogress"),
+  require("/Users/taegyeonglee/Documents/GitHub/hanarotg.github.io/src/css/custom.css"),
 ];
