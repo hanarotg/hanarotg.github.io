@@ -47,8 +47,8 @@ h4,
 h5,
 h6,
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
-    "One UI Sans APP VF", "One UI Sans KR VF", Pretendard, Roboto,
+  font-family: "One UI Sans APP VF", "One UI Sans KR VF", -apple-system,
+    BlinkMacSystemFont, "Apple SD Gothic Neo", Pretendard, Roboto,
     "Noto Sans KR", "Pretendard Variable", "Segoe UI", "Malgun Gothic",
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 }
