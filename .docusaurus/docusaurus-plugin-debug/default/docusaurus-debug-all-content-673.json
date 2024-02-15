@@ -334,13 +334,13 @@
                 "permalink": "/computer-science/algorithm/2024-02-02-boj-2178"
               },
               "next": {
-                "title": "strict weak ordering 이해",
+                "title": "strict weak ordering",
                 "permalink": "/computer-science/algorithm/2024-02-11-strick-weak-ordering"
               }
             },
             {
               "id": "computer-science/algorithm/2024-02-11-strick-weak-ordering",
-              "title": "strict weak ordering 이해",
+              "title": "strict weak ordering",
               "description": "strict weak ordering 이해",
               "source": "@site/docs/computer-science/algorithm/2024-02-11-strick-weak-ordering.md",
               "sourceDirName": "computer-science/algorithm",
@@ -368,7 +368,7 @@
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "2018년 10월 14일",
               "frontMatter": {
-                "title": "strict weak ordering 이해",
+                "title": "strict weak ordering",
                 "description": "strict weak ordering 이해",
                 "keywords": [
                   "strict weak ordering",
@@ -385,6 +385,47 @@
               "previous": {
                 "title": "Fast I/O C++ 코드",
                 "permalink": "/computer-science/algorithm/2024-02-11-fast-io"
+              },
+              "next": {
+                "title": "cpp",
+                "permalink": "/category/cpp"
+              }
+            },
+            {
+              "id": "computer-science/cpp/2024-02-15-cpp-vector-parameter-as-ref",
+              "title": "C++ 벡터 참조에 의한 호출",
+              "description": "C++ 벡터 주소 전달",
+              "source": "@site/docs/computer-science/cpp/2024-02-15-cpp-vector-parameter-as-ref.md",
+              "sourceDirName": "computer-science/cpp",
+              "slug": "/computer-science/cpp/2024-02-15-cpp-vector-parameter-as-ref",
+              "permalink": "/computer-science/cpp/2024-02-15-cpp-vector-parameter-as-ref",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/cpp/2024-02-15-cpp-vector-parameter-as-ref.md",
+              "tags": [
+                {
+                  "label": "c++",
+                  "permalink": "/tags/c"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "C++ 벡터 참조에 의한 호출",
+                "description": "C++ 벡터 주소 전달",
+                "keywords": [
+                  "c++"
+                ],
+                "tags": [
+                  "c++"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "cpp",
+                "permalink": "/category/cpp"
               },
               "next": {
                 "title": "Others",
@@ -903,6 +944,24 @@
                       "description": "알고리즘",
                       "slug": "/category/algorithm",
                       "permalink": "/category/algorithm"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "cpp",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "computer-science/cpp/2024-02-15-cpp-vector-parameter-as-ref"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "C++",
+                      "slug": "/category/cpp",
+                      "permalink": "/category/cpp"
                     }
                   }
                 ],

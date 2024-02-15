@@ -11,6 +11,7 @@ sidebar_position: 1
 
 :::info 최근 글
 
+- [2024-02-16 C++ 벡터 참조에 의한 호출](/computer-science/cpp/2024-02-15-cpp-vector-parameter-as-ref)
 - [2024-02-12 Tensorflow windows 11 설치](/software/2024-02-12-tensorflow-windows-install)
 
 :::

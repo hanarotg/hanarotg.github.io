@@ -1,5 +1,5 @@
 ---
-title: strict weak ordering 이해
+title: strict weak ordering
 description: strict weak ordering 이해
 keywords: ["strict weak ordering", "c++", "sort"]
 tags: ["strict weak ordering", "c++", "sort"]

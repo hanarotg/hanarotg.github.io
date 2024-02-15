@@ -5,8 +5,8 @@
   "permalink": "/en/category/others",
   "navigation": {
     "previous": {
-      "title": "strict weak ordering 이해",
-      "permalink": "/en/computer-science/algorithm/2024-02-11-strick-weak-ordering"
+      "title": "C++ 벡터 참조에 의한 호출",
+      "permalink": "/en/computer-science/cpp/2024-02-15-cpp-vector-parameter-as-ref"
     },
     "next": {
       "title": "책을 선택하는 방법",

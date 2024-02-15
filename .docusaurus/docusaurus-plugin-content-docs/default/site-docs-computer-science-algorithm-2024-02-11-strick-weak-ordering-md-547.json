@@ -1,6 +1,6 @@
 {
   "id": "computer-science/algorithm/2024-02-11-strick-weak-ordering",
-  "title": "strict weak ordering 이해",
+  "title": "strict weak ordering",
   "description": "strict weak ordering 이해",
   "source": "@site/docs/computer-science/algorithm/2024-02-11-strick-weak-ordering.md",
   "sourceDirName": "computer-science/algorithm",
@@ -28,7 +28,7 @@
   "lastUpdatedAt": 1707648705,
   "formattedLastUpdatedAt": "Feb 11, 2024",
   "frontMatter": {
-    "title": "strict weak ordering 이해",
+    "title": "strict weak ordering",
     "description": "strict weak ordering 이해",
     "keywords": [
       "strict weak ordering",
@@ -47,7 +47,7 @@
     "permalink": "/en/computer-science/algorithm/2024-02-11-fast-io"
   },
   "next": {
-    "title": "Others",
-    "permalink": "/en/category/others"
+    "title": "cpp",
+    "permalink": "/en/category/cpp"
   }
 }

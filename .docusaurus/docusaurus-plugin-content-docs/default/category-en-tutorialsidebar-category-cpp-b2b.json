@@ -1,0 +1,16 @@
+{
+  "title": "cpp",
+  "description": "C++",
+  "slug": "/category/cpp",
+  "permalink": "/en/category/cpp",
+  "navigation": {
+    "previous": {
+      "title": "strict weak ordering",
+      "permalink": "/en/computer-science/algorithm/2024-02-11-strick-weak-ordering"
+    },
+    "next": {
+      "title": "C++ 벡터 참조에 의한 호출",
+      "permalink": "/en/computer-science/cpp/2024-02-15-cpp-vector-parameter-as-ref"
+    }
+  }
+}

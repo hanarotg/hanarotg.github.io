@@ -40,13 +40,13 @@
       "plugin": "d3689f3d"
     }
   },
-  "/en/-ae2": {
+  "/en/-67b": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "c74882fd"
     }
   },
-  "/en/-b7b": {
+  "/en/-67c": {
     "__comp": "a7bd4aaa",
     "version": "935f2afb"
   },
@@ -118,7 +118,7 @@
     "__comp": "df203c0f",
     "tag": "bdf7c89d"
   },
-  "/en/-d14": {
+  "/en/-c05": {
     "__comp": "a94703ab"
   },
   "/en/android/2023-02-27-upload-cert-with-android-studio-031": {
@@ -152,6 +152,10 @@
   "/en/category/computer-science-6b8": {
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "00212d66"
+  },
+  "/en/category/cpp-b63": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "080ed07b"
   },
   "/en/category/docusaurus-0ae": {
     "__comp": "14eb3368",
@@ -188,6 +192,10 @@
   "/en/computer-science/algorithm/2024-02-11-strick-weak-ordering-a22": {
     "__comp": "17896441",
     "content": "547dad2c"
+  },
+  "/en/computer-science/cpp/2024-02-15-cpp-vector-parameter-as-ref-082": {
+    "__comp": "17896441",
+    "content": "47f9eccf"
   },
   "/en/flutter/create-a-blog-post-031": {
     "__comp": "17896441",

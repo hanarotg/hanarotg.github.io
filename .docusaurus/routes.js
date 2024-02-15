@@ -29,11 +29,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', 'ae2'),
+    component: ComponentCreator('/en/', '67b'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', 'b7b'),
+        component: ComponentCreator('/en/', '67c'),
         routes: [
           {
             path: '/en/tags',
@@ -122,7 +122,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', 'd14'),
+            component: ComponentCreator('/en/', 'c05'),
             routes: [
               {
                 path: '/en/android/2023-02-27-upload-cert-with-android-studio',
@@ -169,6 +169,12 @@ export default [
               {
                 path: '/en/category/computer-science',
                 component: ComponentCreator('/en/category/computer-science', '6b8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/category/cpp',
+                component: ComponentCreator('/en/category/cpp', 'b63'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -223,6 +229,12 @@ export default [
               {
                 path: '/en/computer-science/algorithm/2024-02-11-strick-weak-ordering',
                 component: ComponentCreator('/en/computer-science/algorithm/2024-02-11-strick-weak-ordering', 'a22'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/computer-science/cpp/2024-02-15-cpp-vector-parameter-as-ref',
+                component: ComponentCreator('/en/computer-science/cpp/2024-02-15-cpp-vector-parameter-as-ref', '082'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

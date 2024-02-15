@@ -1,0 +1,53 @@
+{
+  "id": "computer-science/cpp/2024-02-11-strick-weak-ordering",
+  "title": "strict weak ordering 이해",
+  "description": "strict weak ordering 이해",
+  "source": "@site/docs/computer-science/cpp/2024-02-11-strick-weak-ordering.md",
+  "sourceDirName": "computer-science/cpp",
+  "slug": "/computer-science/cpp/2024-02-11-strick-weak-ordering",
+  "permalink": "/computer-science/cpp/2024-02-11-strick-weak-ordering",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/cpp/2024-02-11-strick-weak-ordering.md",
+  "tags": [
+    {
+      "label": "strict weak ordering",
+      "permalink": "/tags/strict-weak-ordering"
+    },
+    {
+      "label": "c++",
+      "permalink": "/tags/c"
+    },
+    {
+      "label": "sort",
+      "permalink": "/tags/sort"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "2018년 10월 14일",
+  "frontMatter": {
+    "title": "strict weak ordering 이해",
+    "description": "strict weak ordering 이해",
+    "keywords": [
+      "strict weak ordering",
+      "c++",
+      "sort"
+    ],
+    "tags": [
+      "strict weak ordering",
+      "c++",
+      "sort"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "cpp",
+    "permalink": "/category/cpp"
+  },
+  "next": {
+    "title": "Others",
+    "permalink": "/category/others"
+  }
+}
