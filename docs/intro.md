@@ -9,6 +9,12 @@ sidebar_position: 1
 
 ## 문서 목록
 
+:::info 최근 글
+
+- [2024-02-12 Tensorflow windows 11 설치](/software/2024-02-12-tensorflow-windows-install)
+
+:::
+
 - 모바일 개발 : [`Android (4)`](/category/android) [`Flutter (1)`](/category/flutter) [`React-Native (0)`](/)
 - 개발 : [`프로그래밍`](/) [`컴퓨터공학`](/) [`소프트웨어`](/)
 - 기타 : [`프로젝트`](/)

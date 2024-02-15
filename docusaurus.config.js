@@ -117,7 +117,7 @@ const config = {
         appId: "DF0NWM7N23",
         apiKey: "89bcb92461d9c240e2eaf25ebf327064",
         indexName: "hanarotgio",
-        contextualSearch: true,
+        contextualSearch: false,
       },
     }),
   markdown: {

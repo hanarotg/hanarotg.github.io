@@ -300,9 +300,16 @@ export default {
       "appId": "DF0NWM7N23",
       "apiKey": "89bcb92461d9c240e2eaf25ebf327064",
       "indexName": "hanarotgio",
-      "contextualSearch": true,
+      "contextualSearch": false,
       "searchParameters": {},
       "searchPagePath": "search"
+    },
+    "mermaid": {
+      "theme": {
+        "dark": "dark",
+        "light": "default"
+      },
+      "options": {}
     },
     "docs": {
       "versionPersistence": "localStorage",
@@ -315,13 +322,6 @@ export default {
     "tableOfContents": {
       "minHeadingLevel": 2,
       "maxHeadingLevel": 3
-    },
-    "mermaid": {
-      "theme": {
-        "dark": "dark",
-        "light": "default"
-      },
-      "options": {}
     }
   },
   "markdown": {
