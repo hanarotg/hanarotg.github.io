@@ -393,7 +393,7 @@
             },
             {
               "id": "computer-science/cpp/2024-02-15-cpp-vector-parameter-as-ref",
-              "title": "C++ 벡터 참조에 의한 호출",
+              "title": "C++ 벡터 참조 호출",
               "description": "C++ 벡터 주소 전달",
               "source": "@site/docs/computer-science/cpp/2024-02-15-cpp-vector-parameter-as-ref.md",
               "sourceDirName": "computer-science/cpp",
@@ -413,7 +413,7 @@
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "2018년 10월 14일",
               "frontMatter": {
-                "title": "C++ 벡터 참조에 의한 호출",
+                "title": "C++ 벡터 참조 호출",
                 "description": "C++ 벡터 주소 전달",
                 "keywords": [
                   "c++"

@@ -12,7 +12,7 @@
     },
     {
       "id": "computer-science/cpp/2024-02-15-cpp-vector-parameter-as-ref",
-      "title": "C++ 벡터 참조에 의한 호출",
+      "title": "C++ 벡터 참조 호출",
       "description": "C++ 벡터 주소 전달",
       "permalink": "/en/computer-science/cpp/2024-02-15-cpp-vector-parameter-as-ref"
     },
