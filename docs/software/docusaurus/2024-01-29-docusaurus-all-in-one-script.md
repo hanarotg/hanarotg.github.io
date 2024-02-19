@@ -1,9 +1,11 @@
 ---
-title: 올인원 배포 스크립트
+title: Docusaurus 올인원 배포 스크립트
 description: docusaurus 빌드, 배포, 깃허브 commit, push 스크립트
 keywords: [git, docusaurus]
 tags: [git, docusaurus]
 ---
+
+# Docusaurus 올인원 배포 스크립트
 
 ## 스크립트
 

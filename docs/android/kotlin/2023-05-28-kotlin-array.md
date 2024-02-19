@@ -5,6 +5,8 @@ keywords: ["코틀린", "array"]
 tags: ["kotlin"]
 ---
 
+# kotlin Array
+
 코틀린의 Array 자료형을 간단하게 알아보겠습니다.
 
 ## 생성

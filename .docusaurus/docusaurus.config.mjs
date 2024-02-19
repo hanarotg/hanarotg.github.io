@@ -13,7 +13,7 @@ export default {
   "projectName": "hanarotg.github.io",
   "trailingSlash": false,
   "deploymentBranch": "gh-pages",
-  "onBrokenLinks": "throw",
+  "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
     "defaultLocale": "ko",
@@ -33,10 +33,6 @@ export default {
           "sidebarPath": "./sidebars.js",
           "showLastUpdateAuthor": true,
           "showLastUpdateTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
-        },
-        "blog": {
-          "showReadingTime": true,
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
@@ -65,11 +61,6 @@ export default {
           "sidebarId": "tutorialSidebar",
           "position": "left",
           "label": "문서"
-        },
-        {
-          "to": "/blog",
-          "label": "블로그",
-          "position": "left"
         },
         {
           "type": "search",

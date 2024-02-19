@@ -18,8 +18,13 @@ export default [
     exact: true
   },
   {
-    path: '/en/markdown-page',
-    component: ComponentCreator('/en/markdown-page', '1c3'),
+    path: '/en/document-list',
+    component: ComponentCreator('/en/document-list', '7fb'),
+    exact: true
+  },
+  {
+    path: '/en/Page',
+    component: ComponentCreator('/en/Page', 'f65'),
     exact: true
   },
   {
@@ -29,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', '766'),
+    component: ComponentCreator('/en/', '5fc'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', '142'),
+        component: ComponentCreator('/en/', 'bd0'),
         routes: [
           {
             path: '/en/tags',
@@ -137,7 +142,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', 'e75'),
+            component: ComponentCreator('/en/', '2e4'),
             routes: [
               {
                 path: '/en/android/2023-02-27-upload-cert-with-android-studio',
@@ -230,12 +235,6 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/en/computer-science/algorithm/2024-02-02-boj-1946',
-                component: ComponentCreator('/en/computer-science/algorithm/2024-02-02-boj-1946', 'ae2'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
                 path: '/en/computer-science/algorithm/2024-02-02-boj-2178',
                 component: ComponentCreator('/en/computer-science/algorithm/2024-02-02-boj-2178', '0a1'),
                 exact: true,
@@ -250,6 +249,12 @@ export default [
               {
                 path: '/en/computer-science/algorithm/2024-02-11-strick-weak-ordering',
                 component: ComponentCreator('/en/computer-science/algorithm/2024-02-11-strick-weak-ordering', 'a22'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/computer-science/algorithm/2024-02-20-boj-1946',
+                component: ComponentCreator('/en/computer-science/algorithm/2024-02-20-boj-1946', '7fd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -290,8 +295,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/en/software/docusaurus/2024-01-28-docusaurus-deploy copy',
-                component: ComponentCreator('/en/software/docusaurus/2024-01-28-docusaurus-deploy copy', '09d'),
+                path: '/en/software/docusaurus/2024-01-28-docusaurus-deplo',
+                component: ComponentCreator('/en/software/docusaurus/2024-01-28-docusaurus-deplo', '830'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

@@ -25,16 +25,6 @@
     "count": 5
   },
   {
-    "label": "greedy",
-    "permalink": "/en/tags/greedy",
-    "count": 1
-  },
-  {
-    "label": "1946",
-    "permalink": "/en/tags/1946",
-    "count": 1
-  },
-  {
     "label": "bfs",
     "permalink": "/en/tags/bfs",
     "count": 1
@@ -52,6 +42,16 @@
   {
     "label": "sort",
     "permalink": "/en/tags/sort",
+    "count": 1
+  },
+  {
+    "label": "greedy",
+    "permalink": "/en/tags/greedy",
+    "count": 1
+  },
+  {
+    "label": "1946",
+    "permalink": "/en/tags/1946",
     "count": 1
   },
   {

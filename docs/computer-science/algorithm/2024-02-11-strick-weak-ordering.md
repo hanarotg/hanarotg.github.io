@@ -5,6 +5,8 @@ keywords: ["strict weak ordering", "c++", "sort"]
 tags: ["strict weak ordering", "c++", "sort"]
 ---
 
+# strict weak ordering
+
 ## 문제 상황
 
 C++ `sort` 정렬 함수에 비교 함수를 직접 작성하는 경우 `segment fault` 에러를 접할 수 있습니다.

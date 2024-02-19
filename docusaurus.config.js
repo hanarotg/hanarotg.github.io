@@ -25,7 +25,7 @@ const config = {
   trailingSlash: false,
   deploymentBranch: "gh-pages",
 
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internationalization, you can use this field to set
@@ -46,13 +46,6 @@ const config = {
           sidebarPath: "./sidebars.js",
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-        },
-        blog: {
-          showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -86,7 +79,6 @@ const config = {
             position: "left",
             label: "문서",
           },
-          { to: "/blog", label: "블로그", position: "left" },
           {
             type: "search",
             position: "right",

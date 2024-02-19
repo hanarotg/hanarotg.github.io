@@ -1,6 +1,6 @@
 {
   "id": "software/docusaurus/2024-01-29-docusaurus-all-in-one-script",
-  "title": "올인원 배포 스크립트",
+  "title": "Docusaurus 올인원 배포 스크립트",
   "description": "docusaurus 빌드, 배포, 깃허브 commit, push 스크립트",
   "source": "@site/docs/software/docusaurus/2024-01-29-docusaurus-all-in-one-script.md",
   "sourceDirName": "software/docusaurus",
@@ -24,7 +24,7 @@
   "lastUpdatedAt": 1707718591,
   "formattedLastUpdatedAt": "Feb 12, 2024",
   "frontMatter": {
-    "title": "올인원 배포 스크립트",
+    "title": "Docusaurus 올인원 배포 스크립트",
     "description": "docusaurus 빌드, 배포, 깃허브 commit, push 스크립트",
     "keywords": [
       "git",
@@ -37,8 +37,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "배포하기",
-    "permalink": "/en/software/docusaurus/2024-01-28-docusaurus-deploy copy"
+    "title": "Docusaurus github 배포하기",
+    "permalink": "/en/software/docusaurus/2024-01-28-docusaurus-deplo"
   },
   "next": {
     "title": "Docusaurus utterances 다크 모드 적용",

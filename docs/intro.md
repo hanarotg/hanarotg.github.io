@@ -3,41 +3,38 @@ slug: /
 sidebar_position: 1
 ---
 
-# 안내
-
-안녕하세요, 방문해 주셔서 감사합니다. 신뢰할 수 있는, 근거가 있는 개발 자료들을 작성하겠습니다.
-
-## 문서 목록
-
-:::info 최근 글
-
-- [2024-02-16 C++ 벡터 참조에 의한 호출](/computer-science/cpp/2024-02-15-cpp-vector-parameter-as-ref)
-- [2024-02-12 Tensorflow windows 11 설치](/software/2024-02-12-tensorflow-windows-install)
-
-:::
-
-- 모바일 개발 : [`Android (4)`](/category/android) [`Flutter (1)`](/category/flutter) [`React-Native (0)`](/)
-- 개발 : [`프로그래밍`](/) [`컴퓨터공학`](/) [`소프트웨어`](/)
-- 기타 : [`프로젝트`](/)
-
 ## 작성자
 
-안녕하세요, 이태경입니다.
+안녕하세요, 이태경입니다. 관심 분야는 안드로이드, 크로스 플랫폼입니다.
 
-- [`깃허브`](https://github.com/hanarotg) [`이메일`](mailto:hanrotg@naver.com)
+- [`깃허브`](https://hanarotg.github.io/) [`이메일`](mailto://hanarotg@naver.com)
 
-관심 분야는 안드로이드, 크로스 플랫폼입니다. 관련 오픈소스 버그 수정, 답변 활동하고 있습니다.
+## 최신 순
 
-- 18년 숭실대학교 컴퓨터학부 재학중입니다.
-- 21년 공동 창업, 1년 동안 서비스를 개발했습니다.
-- 22년 숭실대학교 만돌린 오케스트라에서 회장을 했습니다.
-- 23년 분산지능연구실에서 안드로이드 개발을 잠시 담당하고 있습니다.
-- 24년 ?
+### 2024
 
-### 오픈소스 활동
+- 2월 20일 [백준 1946 신입 사원 C++ 문제 풀이](/computer-science/algorithm/2024-02-20-boj-1946.html)
+- 2월 19일 [CXL (Compute Express Link) 메모리](/others/tech/2024-02-19-cxl-memory.html)
+- 2월 15일 [C++ 벡터 참조에 의한 호출](/computer-science/cpp/2024-02-15-cpp-vector-parameter-as-ref.html)
+- 2월 12일 [Tensorflow windows 11 설치](/software/2024-02-12-tensorflow-windows-install.html)
+- 2월 12일 [Docusaurus utterances 다크 모드 적용](/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode.html)
+- 2월 11일 [Fast I/O C++ 코드](/computer-science/algorithm/2024-02-11-fast-io.html)
+- 2월 11일 [strict weak ordering](/computer-science/algorithm/2024-02-11-strick-weak-ordering.html)
+- 2월 8일 [개발 시 도움되는 링크 모음](/others/2024-02-08-link.html)
+- 2월 2일 [백준 2178 미로 탐색 C++ 문제 풀이](/computer-science/algorithm/2024-02-02-boj-2178.html)
+- 2월 2일 [책을 선택하는 방법](/others/personal/2024-02-02-select-book.html)
+- 1월 30일 [python nuhup 백그라운드 실행](/software/python/2024-01-30-python-background.html)
+- 1월 29일 [Docusaurus 올인원 배포 스크립트](/software/docusaurus/2024-01-29-docusaurus-all-in-one-script.html)
+- 1월 28일 [배포용 안드로이드 앱 번들 빌드하기](/android/2024-01-28-build-release-android-app.html)
+- 1월 28일 [Docusaurus github 배포하기](/software/docusaurus/2024-01-28-docusaurus-deplo.html)
 
-#### React-Native
+### 2023
 
-| 활동 분류 | 활동                                              | 링크                                                          |
-| --------- | ------------------------------------------------- | ------------------------------------------------------------- |
-| `PR`      | Empty Space added when using KeyboardAvoidingView | [Github](https://github.com/facebook/react-native/pull/36159) |
+- 6월 24일 [안드로이드 프로젝트 gradle 스크립트에 대한 이해](/android/2023-06-24-gradle-in-android.html)
+- 5월 28일 [kotlin Array](/android/kotlin/2023-05-28-kotlin-array.html)
+- 4월 26일 [kotlin nullability](/android/kotlin/2023-04-26-kotlin-nullability.html)
+- 2월 27일 [안드로이드 업로드 키, 인증서 재설정하기](/android/2023-02-27-upload-cert-with-android-studio.html)
+
+### undefined
+
+- NaN월 undefined일 [Create a Blog Post](/flutter/create-a-blog-post.html)

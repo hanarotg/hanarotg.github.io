@@ -36,11 +36,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "computer-science/algorithm/2024-02-02-boj-1946",
-              "path": "/en/computer-science/algorithm/2024-02-02-boj-1946",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "computer-science/algorithm/2024-02-02-boj-2178",
               "path": "/en/computer-science/algorithm/2024-02-02-boj-2178",
               "sidebar": "tutorialSidebar"
@@ -53,6 +48,11 @@
             {
               "id": "computer-science/algorithm/2024-02-11-strick-weak-ordering",
               "path": "/en/computer-science/algorithm/2024-02-11-strick-weak-ordering",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "computer-science/algorithm/2024-02-20-boj-1946",
+              "path": "/en/computer-science/algorithm/2024-02-20-boj-1946",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -91,8 +91,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "software/docusaurus/2024-01-28-docusaurus-deploy copy",
-              "path": "/en/software/docusaurus/2024-01-28-docusaurus-deploy copy",
+              "id": "software/docusaurus/2024-01-28-docusaurus-deplo",
+              "path": "/en/software/docusaurus/2024-01-28-docusaurus-deplo",
               "sidebar": "tutorialSidebar"
             },
             {

@@ -5,6 +5,8 @@ keywords: [python, linux]
 tags: [python, linux]
 ---
 
+# python nuhup 백그라운드 실행
+
 ## 백그라운드 실행
 
 파이썬 프로그램을 실행하는 예제입니다.

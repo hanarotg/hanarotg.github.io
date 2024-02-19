@@ -5,6 +5,8 @@ keywords: ["안드로이드", "gradle"]
 tags: ["android", "gradle"]
 ---
 
+# 안드로이드 프로젝트 gradle 스크립트에 대한 이해
+
 ## gradle
 
 gradle은 Groovy 또는 Kotlin을 사용하여 다양한 플랫폼 개발의 자동화를 돕는 스크립트 도구입니다.

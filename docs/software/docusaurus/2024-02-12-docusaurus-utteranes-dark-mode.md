@@ -5,6 +5,8 @@ keywords: [docusaurus, utterances]
 tags: [docusaurus, utterances]
 ---
 
+# Docusaurus utterances 다크 모드 적용
+
 ## 코드
 
 `/src/components/HomepageFeatures/Comment.js`에 아래 코드 몇 줄을 추가해 주세요.
