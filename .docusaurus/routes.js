@@ -29,15 +29,20 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', '10f'),
+    component: ComponentCreator('/en/', '766'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', '0c4'),
+        component: ComponentCreator('/en/', '142'),
         routes: [
           {
             path: '/en/tags',
             component: ComponentCreator('/en/tags', '01c'),
+            exact: true
+          },
+          {
+            path: '/en/tags/1946',
+            component: ComponentCreator('/en/tags/1946', 'bca'),
             exact: true
           },
           {
@@ -86,6 +91,11 @@ export default [
             exact: true
           },
           {
+            path: '/en/tags/greedy',
+            component: ComponentCreator('/en/tags/greedy', '84a'),
+            exact: true
+          },
+          {
             path: '/en/tags/kotlin',
             component: ComponentCreator('/en/tags/kotlin', '609'),
             exact: true
@@ -127,7 +137,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', '60e'),
+            component: ComponentCreator('/en/', 'e75'),
             routes: [
               {
                 path: '/en/android/2023-02-27-upload-cert-with-android-studio',
@@ -216,6 +226,12 @@ export default [
               {
                 path: '/en/category/software',
                 component: ComponentCreator('/en/category/software', 'f54'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/computer-science/algorithm/2024-02-02-boj-1946',
+                component: ComponentCreator('/en/computer-science/algorithm/2024-02-02-boj-1946', 'ae2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

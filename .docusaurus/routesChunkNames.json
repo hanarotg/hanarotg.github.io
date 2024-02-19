@@ -40,19 +40,23 @@
       "plugin": "d3689f3d"
     }
   },
-  "/en/-10f": {
+  "/en/-766": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "c74882fd"
     }
   },
-  "/en/-0c4": {
+  "/en/-142": {
     "__comp": "a7bd4aaa",
     "version": "935f2afb"
   },
   "/en/tags-01c": {
     "__comp": "3720c009",
     "tags": "55960ee5"
+  },
+  "/en/tags/1946-bca": {
+    "__comp": "df203c0f",
+    "tag": "cbbd0ed6"
   },
   "/en/tags/2178-982": {
     "__comp": "df203c0f",
@@ -90,6 +94,10 @@
     "__comp": "df203c0f",
     "tag": "2eb87a8d"
   },
+  "/en/tags/greedy-84a": {
+    "__comp": "df203c0f",
+    "tag": "37fdacf7"
+  },
   "/en/tags/kotlin-609": {
     "__comp": "df203c0f",
     "tag": "231a3b0b"
@@ -122,7 +130,7 @@
     "__comp": "df203c0f",
     "tag": "bdf7c89d"
   },
-  "/en/-60e": {
+  "/en/-e75": {
     "__comp": "a94703ab"
   },
   "/en/android/2023-02-27-upload-cert-with-android-studio-031": {
@@ -184,6 +192,10 @@
   "/en/category/software-f54": {
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "5fb3882f"
+  },
+  "/en/computer-science/algorithm/2024-02-02-boj-1946-ae2": {
+    "__comp": "17896441",
+    "content": "11b10de8"
   },
   "/en/computer-science/algorithm/2024-02-02-boj-2178-0a1": {
     "__comp": "17896441",

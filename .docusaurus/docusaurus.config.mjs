@@ -4,7 +4,7 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "이태경",
+  "title": "TaeGyeong Lee",
   "tagline": "개발자",
   "favicon": "img/favicon.ico",
   "url": "https://hanarotg.github.io",
@@ -53,7 +53,7 @@ export default {
     },
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "이태경",
+      "title": "TaeGyeong Lee",
       "logo": {
         "alt": "My Site Logo",
         "src": "img/logo.png"

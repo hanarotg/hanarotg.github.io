@@ -1,0 +1,15 @@
+{
+  "label": "greedy",
+  "permalink": "/tags/greedy",
+  "allTagsPath": "/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "computer-science/algorithm/2024-02-02-boj-1946",
+      "title": "백준 1946 신입 사원 C++ 문제 풀이",
+      "description": "백준 1946 신입 사원 C++ 문제 풀이",
+      "permalink": "/computer-science/algorithm/2024-02-02-boj-1946"
+    }
+  ],
+  "unlisted": false
+}

@@ -8,7 +8,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "이태경",
+  title: "TaeGyeong Lee",
   tagline: "개발자",
   favicon: "img/favicon.ico",
 
@@ -73,7 +73,7 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "이태경",
+        title: "TaeGyeong Lee",
         logo: {
           alt: "My Site Logo",
           src: "img/logo.png",
