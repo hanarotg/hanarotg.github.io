@@ -29,11 +29,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', '67b'),
+    component: ComponentCreator('/en/', '10f'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', '67c'),
+        component: ComponentCreator('/en/', '0c4'),
         routes: [
           {
             path: '/en/tags',
@@ -63,6 +63,11 @@ export default [
           {
             path: '/en/tags/c',
             component: ComponentCreator('/en/tags/c', '4e9'),
+            exact: true
+          },
+          {
+            path: '/en/tags/cxl',
+            component: ComponentCreator('/en/tags/cxl', 'd74'),
             exact: true
           },
           {
@@ -122,7 +127,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', 'c05'),
+            component: ComponentCreator('/en/', '60e'),
             routes: [
               {
                 path: '/en/android/2023-02-27-upload-cert-with-android-studio',
@@ -245,14 +250,20 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/en/others/2024-02-02-select-book',
-                component: ComponentCreator('/en/others/2024-02-02-select-book', '651'),
+                path: '/en/others/2024-02-08-link',
+                component: ComponentCreator('/en/others/2024-02-08-link', '199'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/en/others/2024-02-08-link',
-                component: ComponentCreator('/en/others/2024-02-08-link', '199'),
+                path: '/en/others/personal/2024-02-02-select-book',
+                component: ComponentCreator('/en/others/personal/2024-02-02-select-book', 'c55'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/others/tech/2024-02-19-cxl-memory',
+                component: ComponentCreator('/en/others/tech/2024-02-19-cxl-memory', '740'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

@@ -210,17 +210,40 @@
         "items": [
           {
             "type": "link",
-            "label": "책을 선택하는 방법",
-            "href": "/en/others/2024-02-02-select-book",
-            "docId": "others/2024-02-02-select-book",
-            "unlisted": false
-          },
-          {
-            "type": "link",
             "label": "개발 시 도움되는 링크 모음",
             "href": "/en/others/2024-02-08-link",
             "docId": "others/2024-02-08-link",
             "unlisted": false
+          },
+          {
+            "type": "category",
+            "label": "personal",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "책을 선택하는 방법",
+                "href": "/en/others/personal/2024-02-02-select-book",
+                "docId": "others/personal/2024-02-02-select-book",
+                "unlisted": false
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "tech",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "CXL 메모리",
+                "href": "/en/others/tech/2024-02-19-cxl-memory",
+                "docId": "others/tech/2024-02-19-cxl-memory",
+                "unlisted": false
+              }
+            ]
           }
         ],
         "href": "/en/category/others"
@@ -294,16 +317,22 @@
       "description": "안녕하세요, 방문해 주셔서 감사합니다. 신뢰할 수 있는, 근거가 있는 개발 자료들을 작성하겠습니다.",
       "sidebar": "tutorialSidebar"
     },
-    "others/2024-02-02-select-book": {
-      "id": "others/2024-02-02-select-book",
-      "title": "책을 선택하는 방법",
-      "description": "책 선정 기준",
-      "sidebar": "tutorialSidebar"
-    },
     "others/2024-02-08-link": {
       "id": "others/2024-02-08-link",
       "title": "개발 시 도움되는 링크 모음",
       "description": "Android",
+      "sidebar": "tutorialSidebar"
+    },
+    "others/personal/2024-02-02-select-book": {
+      "id": "others/personal/2024-02-02-select-book",
+      "title": "책을 선택하는 방법",
+      "description": "책 선정 기준",
+      "sidebar": "tutorialSidebar"
+    },
+    "others/tech/2024-02-19-cxl-memory": {
+      "id": "others/tech/2024-02-19-cxl-memory",
+      "title": "CXL 메모리",
+      "description": "CXL 메모리",
       "sidebar": "tutorialSidebar"
     },
     "software/2024-02-12-tensorflow-windows-install": {

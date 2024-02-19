@@ -19,7 +19,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
+    "title": "Others",
+    "permalink": "/en/category/others"
+  },
+  "next": {
     "title": "책을 선택하는 방법",
-    "permalink": "/en/others/2024-02-02-select-book"
+    "permalink": "/en/others/personal/2024-02-02-select-book"
   }
 }

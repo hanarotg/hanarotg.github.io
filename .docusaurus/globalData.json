@@ -66,13 +66,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "others/2024-02-02-select-book",
-              "path": "/en/others/2024-02-02-select-book",
+              "id": "others/2024-02-08-link",
+              "path": "/en/others/2024-02-08-link",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "others/2024-02-08-link",
-              "path": "/en/others/2024-02-08-link",
+              "id": "others/personal/2024-02-02-select-book",
+              "path": "/en/others/personal/2024-02-02-select-book",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "others/tech/2024-02-19-cxl-memory",
+              "path": "/en/others/tech/2024-02-19-cxl-memory",
               "sidebar": "tutorialSidebar"
             },
             {

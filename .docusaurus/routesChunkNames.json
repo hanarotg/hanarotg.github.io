@@ -40,13 +40,13 @@
       "plugin": "d3689f3d"
     }
   },
-  "/en/-67b": {
+  "/en/-10f": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "c74882fd"
     }
   },
-  "/en/-67c": {
+  "/en/-0c4": {
     "__comp": "a7bd4aaa",
     "version": "935f2afb"
   },
@@ -73,6 +73,10 @@
   "/en/tags/c-4e9": {
     "__comp": "df203c0f",
     "tag": "9f8c88b5"
+  },
+  "/en/tags/cxl-d74": {
+    "__comp": "df203c0f",
+    "tag": "20031a19"
   },
   "/en/tags/docusaurus-d22": {
     "__comp": "df203c0f",
@@ -118,7 +122,7 @@
     "__comp": "df203c0f",
     "tag": "bdf7c89d"
   },
-  "/en/-c05": {
+  "/en/-60e": {
     "__comp": "a94703ab"
   },
   "/en/android/2023-02-27-upload-cert-with-android-studio-031": {
@@ -201,13 +205,17 @@
     "__comp": "17896441",
     "content": "dcc1fcee"
   },
-  "/en/others/2024-02-02-select-book-651": {
-    "__comp": "17896441",
-    "content": "2ee074d1"
-  },
   "/en/others/2024-02-08-link-199": {
     "__comp": "17896441",
     "content": "11eb75ed"
+  },
+  "/en/others/personal/2024-02-02-select-book-c55": {
+    "__comp": "17896441",
+    "content": "c3c4e225"
+  },
+  "/en/others/tech/2024-02-19-cxl-memory-740": {
+    "__comp": "17896441",
+    "content": "7a752575"
   },
   "/en/software/2024-02-12-tensorflow-windows-install-757": {
     "__comp": "17896441",

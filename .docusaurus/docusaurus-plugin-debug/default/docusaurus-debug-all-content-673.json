@@ -490,35 +490,6 @@
               }
             },
             {
-              "id": "others/2024-02-02-select-book",
-              "title": "책을 선택하는 방법",
-              "description": "책 선정 기준",
-              "source": "@site/docs/others/2024-02-02-select-book.md",
-              "sourceDirName": "others",
-              "slug": "/others/2024-02-02-select-book",
-              "permalink": "/others/2024-02-02-select-book",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/2024-02-02-select-book.md",
-              "tags": [],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "2018년 10월 14일",
-              "frontMatter": {
-                "title": "책을 선택하는 방법"
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Others",
-                "permalink": "/category/others"
-              },
-              "next": {
-                "title": "개발 시 도움되는 링크 모음",
-                "permalink": "/others/2024-02-08-link"
-              }
-            },
-            {
               "id": "others/2024-02-08-link",
               "title": "개발 시 도움되는 링크 모음",
               "description": "Android",
@@ -539,8 +510,78 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
+                "title": "Others",
+                "permalink": "/category/others"
+              },
+              "next": {
                 "title": "책을 선택하는 방법",
-                "permalink": "/others/2024-02-02-select-book"
+                "permalink": "/others/personal/2024-02-02-select-book"
+              }
+            },
+            {
+              "id": "others/personal/2024-02-02-select-book",
+              "title": "책을 선택하는 방법",
+              "description": "책 선정 기준",
+              "source": "@site/docs/others/personal/2024-02-02-select-book.md",
+              "sourceDirName": "others/personal",
+              "slug": "/others/personal/2024-02-02-select-book",
+              "permalink": "/others/personal/2024-02-02-select-book",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/personal/2024-02-02-select-book.md",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "책을 선택하는 방법"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "개발 시 도움되는 링크 모음",
+                "permalink": "/others/2024-02-08-link"
+              },
+              "next": {
+                "title": "CXL 메모리",
+                "permalink": "/others/tech/2024-02-19-cxl-memory"
+              }
+            },
+            {
+              "id": "others/tech/2024-02-19-cxl-memory",
+              "title": "CXL 메모리",
+              "description": "CXL 메모리",
+              "source": "@site/docs/others/tech/2024-02-19-cxl-memory.md",
+              "sourceDirName": "others/tech",
+              "slug": "/others/tech/2024-02-19-cxl-memory",
+              "permalink": "/others/tech/2024-02-19-cxl-memory",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/tech/2024-02-19-cxl-memory.md",
+              "tags": [
+                {
+                  "label": "cxl",
+                  "permalink": "/tags/cxl"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "CXL 메모리",
+                "description": "CXL 메모리",
+                "keywords": [
+                  "cxl"
+                ],
+                "tags": [
+                  "cxl"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "책을 선택하는 방법",
+                "permalink": "/others/personal/2024-02-02-select-book"
               }
             },
             {
@@ -980,11 +1021,31 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "others/2024-02-02-select-book"
+                    "id": "others/2024-02-08-link"
                   },
                   {
-                    "type": "doc",
-                    "id": "others/2024-02-08-link"
+                    "type": "category",
+                    "label": "personal",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "others/personal/2024-02-02-select-book"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "label": "tech",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "others/tech/2024-02-19-cxl-memory"
+                      }
+                    ]
                   }
                 ],
                 "link": {
