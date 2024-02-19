@@ -17,8 +17,8 @@
   ],
   "version": "current",
   "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1707648705,
-  "formattedLastUpdatedAt": "Feb 11, 2024",
+  "lastUpdatedAt": 1708364160,
+  "formattedLastUpdatedAt": "Feb 19, 2024",
   "frontMatter": {
     "title": "업로드 키, 인증서 재설정하기",
     "description": "기존 업로드 키를 분실하거나 더이상 사용할 수 없는 경우 새로운 업로드 키를 생성, 반영해야 합니다.",

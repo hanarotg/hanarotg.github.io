@@ -53,7 +53,7 @@ function sortByDateDescending(a, b) {
 // 마크다운 파일로 변환하여 저장하는 함수
 function saveToMarkdownFile(data) {
   let year = data[0].date.getFullYear();
-  let markdownContent = `---\nslug: /\nsidebar_position: 1\n---\n## 작성자\n안녕하세요, 이태경입니다. 관심 분야는 안드로이드, 크로스 플랫폼입니다.\n- [\`깃허브\`](https://hanarotg.github.io/) [\`이메일\`](mailto://hanarotg@naver.com)\n## 최신 순\n### ${year}\n`;
+  let markdownContent = `---\nslug: /\nsidebar_position: 1\n---\n# 문서 소개\n## 작성자\n안녕하세요, 이태경입니다. 관심 분야는 안드로이드, 크로스 플랫폼입니다.\n- [\`깃허브\`](https://hanarotg.github.io/) [\`이메일\`](mailto://hanarotg@naver.com)\n## 문서 최신 순 (${data.length})\n### ${year}\n`;
 
   data.map(({ title, link, date }) => {
     // 작성 연도가 다를 경우 해당 작성 연도 마크다운 텍스트 추가 후 업데이트

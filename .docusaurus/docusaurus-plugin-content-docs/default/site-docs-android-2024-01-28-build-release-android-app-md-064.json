@@ -17,8 +17,8 @@
   ],
   "version": "current",
   "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1706457162,
-  "formattedLastUpdatedAt": "Jan 28, 2024",
+  "lastUpdatedAt": 1708364160,
+  "formattedLastUpdatedAt": "Feb 19, 2024",
   "frontMatter": {
     "title": "배포용 안드로이드 앱 번들 빌드하기",
     "description": "안드로이드 스튜디오를 활용해서 배포용 안드로이드 앱 번들을 빌드해 보겠습니다.",
