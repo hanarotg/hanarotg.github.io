@@ -47,13 +47,13 @@
       "plugin": "d3689f3d"
     }
   },
-  "/en/-5fc": {
+  "/en/-638": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "c74882fd"
     }
   },
-  "/en/-bd0": {
+  "/en/-926": {
     "__comp": "a7bd4aaa",
     "version": "935f2afb"
   },
@@ -137,7 +137,7 @@
     "__comp": "df203c0f",
     "tag": "bdf7c89d"
   },
-  "/en/-2e4": {
+  "/en/-b03": {
     "__comp": "a94703ab"
   },
   "/en/android/2023-02-27-upload-cert-with-android-studio-031": {
@@ -251,6 +251,10 @@
   "/en/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode-ce6": {
     "__comp": "17896441",
     "content": "ee23a9f7"
+  },
+  "/en/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode copy-02d": {
+    "__comp": "17896441",
+    "content": "1b155e56"
   },
   "/en/software/python/2024-01-30-python-background-385": {
     "__comp": "17896441",

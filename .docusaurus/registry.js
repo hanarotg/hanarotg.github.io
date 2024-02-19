@@ -9,6 +9,7 @@ export default {
   "17896441": [() => import(/* webpackChunkName: "17896441" */ "@theme/DocItem"), "@theme/DocItem", require.resolveWeak("@theme/DocItem")],
   "19cedb3d": [() => import(/* webpackChunkName: "19cedb3d" */ "@site/docs/software/docusaurus/2024-01-29-docusaurus-all-in-one-script.md"), "@site/docs/software/docusaurus/2024-01-29-docusaurus-all-in-one-script.md", require.resolveWeak("@site/docs/software/docusaurus/2024-01-29-docusaurus-all-in-one-script.md")],
   "1a4e3797": [() => import(/* webpackChunkName: "1a4e3797" */ "@theme/SearchPage"), "@theme/SearchPage", require.resolveWeak("@theme/SearchPage")],
+  "1b155e56": [() => import(/* webpackChunkName: "1b155e56" */ "@site/docs/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode copy.md"), "@site/docs/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode copy.md", require.resolveWeak("@site/docs/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode copy.md")],
   "1f391b9e": [() => import(/* webpackChunkName: "1f391b9e" */ "@theme/MDXPage"), "@theme/MDXPage", require.resolveWeak("@theme/MDXPage")],
   "20031a19": [() => import(/* webpackChunkName: "20031a19" */ "~docs/default/tag-en-tags-cxl-72c.json"), "~docs/default/tag-en-tags-cxl-72c.json", require.resolveWeak("~docs/default/tag-en-tags-cxl-72c.json")],
   "231a3b0b": [() => import(/* webpackChunkName: "231a3b0b" */ "~docs/default/tag-en-tags-kotlin-77d.json"), "~docs/default/tag-en-tags-kotlin-77d.json", require.resolveWeak("~docs/default/tag-en-tags-kotlin-77d.json")],

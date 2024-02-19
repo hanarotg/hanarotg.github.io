@@ -11,7 +11,7 @@
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "intro",
+        "label": "문서 소개",
         "href": "/en/",
         "docId": "intro",
         "unlisted": false
@@ -125,6 +125,13 @@
                 "label": "Docusaurus 올인원 배포 스크립트",
                 "href": "/en/software/docusaurus/2024-01-29-docusaurus-all-in-one-script",
                 "docId": "software/docusaurus/2024-01-29-docusaurus-all-in-one-script",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Docusaurus utterances 다크 모드 적용",
+                "href": "/en/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode copy",
+                "docId": "software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode copy",
                 "unlisted": false
               },
               {
@@ -326,7 +333,7 @@
     },
     "intro": {
       "id": "intro",
-      "title": "intro",
+      "title": "문서 소개",
       "description": "작성자",
       "sidebar": "tutorialSidebar"
     },
@@ -368,6 +375,12 @@
     },
     "software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode": {
       "id": "software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode",
+      "title": "Docusaurus utterances 다크 모드 적용",
+      "description": "Docusaurus utterances 다크 모드 적용 dark mode",
+      "sidebar": "tutorialSidebar"
+    },
+    "software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode copy": {
+      "id": "software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode copy",
       "title": "Docusaurus utterances 다크 모드 적용",
       "description": "Docusaurus utterances 다크 모드 적용 dark mode",
       "sidebar": "tutorialSidebar"

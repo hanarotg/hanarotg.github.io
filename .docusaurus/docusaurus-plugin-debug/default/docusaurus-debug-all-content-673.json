@@ -523,7 +523,7 @@
             },
             {
               "id": "intro",
-              "title": "문서 소개",
+              "title": "intro",
               "description": "작성자",
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",

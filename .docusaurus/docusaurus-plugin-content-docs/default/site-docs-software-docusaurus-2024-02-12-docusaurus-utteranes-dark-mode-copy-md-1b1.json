@@ -1,0 +1,44 @@
+{
+  "id": "software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode copy",
+  "title": "Docusaurus utterances 다크 모드 적용",
+  "description": "Docusaurus utterances 다크 모드 적용 dark mode",
+  "source": "@site/docs/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode copy.md",
+  "sourceDirName": "software/docusaurus",
+  "slug": "/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode copy",
+  "permalink": "/en/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode copy.md",
+  "tags": [
+    {
+      "label": "docusaurus",
+      "permalink": "/en/tags/docusaurus"
+    },
+    {
+      "label": "utterances",
+      "permalink": "/en/tags/utterances"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "Docusaurus utterances 다크 모드 적용",
+    "description": "Docusaurus utterances 다크 모드 적용 dark mode",
+    "keywords": [
+      "docusaurus",
+      "utterances"
+    ],
+    "tags": [
+      "docusaurus",
+      "utterances"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Docusaurus 올인원 배포 스크립트",
+    "permalink": "/en/software/docusaurus/2024-01-29-docusaurus-all-in-one-script"
+  },
+  "next": {
+    "title": "Docusaurus utterances 다크 모드 적용",
+    "permalink": "/en/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode"
+  }
+}
