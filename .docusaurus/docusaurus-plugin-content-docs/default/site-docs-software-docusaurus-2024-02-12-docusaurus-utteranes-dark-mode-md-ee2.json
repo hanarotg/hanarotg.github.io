@@ -37,11 +37,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Docusaurus utterances 다크 모드 적용",
-    "permalink": "/en/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode copy"
+    "title": "Docusaurus 올인원 배포 스크립트",
+    "permalink": "/en/software/docusaurus/2024-01-29-docusaurus-all-in-one-script"
   },
   "next": {
-    "title": "Tensorflow windows 11 설치",
-    "permalink": "/en/software/2024-02-12-tensorflow-windows-install"
+    "title": "Docusaurus 문서 작성 최신 정렬 스크립트",
+    "permalink": "/en/software/docusaurus/2024-02-20-docusaurus-autogenerate-list"
   }
 }

@@ -37,8 +37,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Docusaurus utterances 다크 모드 적용",
-    "permalink": "/en/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode"
+    "title": "Docusaurus 문서 작성 최신 정렬 스크립트",
+    "permalink": "/en/software/docusaurus/2024-02-20-docusaurus-autogenerate-list"
   },
   "next": {
     "title": "Computer Science",

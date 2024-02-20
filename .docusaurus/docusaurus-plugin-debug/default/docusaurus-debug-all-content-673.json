@@ -523,7 +523,7 @@
             },
             {
               "id": "intro",
-              "title": "intro",
+              "title": "문서 소개",
               "description": "작성자",
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
@@ -682,8 +682,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Docusaurus utterances 다크 모드 적용",
-                "permalink": "/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode"
+                "title": "Docusaurus 문서 작성 최신 정렬 스크립트",
+                "permalink": "/software/docusaurus/2024-02-20-docusaurus-autogenerate-list"
               },
               "next": {
                 "title": "Computer Science",
@@ -825,6 +825,47 @@
               "previous": {
                 "title": "Docusaurus 올인원 배포 스크립트",
                 "permalink": "/software/docusaurus/2024-01-29-docusaurus-all-in-one-script"
+              },
+              "next": {
+                "title": "Docusaurus 문서 작성 최신 정렬 스크립트",
+                "permalink": "/software/docusaurus/2024-02-20-docusaurus-autogenerate-list"
+              }
+            },
+            {
+              "id": "software/docusaurus/2024-02-20-docusaurus-autogenerate-list",
+              "title": "Docusaurus 문서 작성 최신 정렬 스크립트",
+              "description": "Docusaurus 문서 작성 최신 정렬 스크립트",
+              "source": "@site/docs/software/docusaurus/2024-02-20-docusaurus-autogenerate-list.md",
+              "sourceDirName": "software/docusaurus",
+              "slug": "/software/docusaurus/2024-02-20-docusaurus-autogenerate-list",
+              "permalink": "/software/docusaurus/2024-02-20-docusaurus-autogenerate-list",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/docusaurus/2024-02-20-docusaurus-autogenerate-list.md",
+              "tags": [
+                {
+                  "label": "docusaurus",
+                  "permalink": "/tags/docusaurus"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "Docusaurus 문서 작성 최신 정렬 스크립트",
+                "description": "Docusaurus 문서 작성 최신 정렬 스크립트",
+                "keywords": [
+                  "docusaurus"
+                ],
+                "tags": [
+                  "docusaurus"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Docusaurus utterances 다크 모드 적용",
+                "permalink": "/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode"
               },
               "next": {
                 "title": "Tensorflow windows 11 설치",
@@ -993,6 +1034,10 @@
                       {
                         "type": "doc",
                         "id": "software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "software/docusaurus/2024-02-20-docusaurus-autogenerate-list"
                       }
                     ],
                     "link": {

@@ -5,6 +5,12 @@
   "count": 4,
   "items": [
     {
+      "id": "software/docusaurus/2024-02-20-docusaurus-autogenerate-list",
+      "title": "Docusaurus 문서 작성 최신 정렬 스크립트",
+      "description": "Docusaurus 문서 작성 최신 정렬 스크립트",
+      "permalink": "/software/docusaurus/2024-02-20-docusaurus-autogenerate-list"
+    },
+    {
       "id": "software/docusaurus/2024-01-29-docusaurus-all-in-one-script",
       "title": "Docusaurus 올인원 배포 스크립트",
       "description": "docusaurus 빌드, 배포, 깃허브 commit, push 스크립트",
@@ -21,12 +27,6 @@
       "title": "Docusaurus utterances 다크 모드 적용",
       "description": "Docusaurus utterances 다크 모드 적용 dark mode",
       "permalink": "/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode"
-    },
-    {
-      "id": "software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode copy",
-      "title": "Docusaurus utterances 다크 모드 적용",
-      "description": "Docusaurus utterances 다크 모드 적용 dark mode",
-      "permalink": "/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode copy"
     }
   ],
   "unlisted": false

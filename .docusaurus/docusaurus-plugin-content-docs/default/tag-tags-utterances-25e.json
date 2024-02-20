@@ -2,19 +2,13 @@
   "label": "utterances",
   "permalink": "/tags/utterances",
   "allTagsPath": "/tags",
-  "count": 2,
+  "count": 1,
   "items": [
     {
       "id": "software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode",
       "title": "Docusaurus utterances 다크 모드 적용",
       "description": "Docusaurus utterances 다크 모드 적용 dark mode",
       "permalink": "/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode"
-    },
-    {
-      "id": "software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode copy",
-      "title": "Docusaurus utterances 다크 모드 적용",
-      "description": "Docusaurus utterances 다크 모드 적용 dark mode",
-      "permalink": "/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode copy"
     }
   ],
   "unlisted": false

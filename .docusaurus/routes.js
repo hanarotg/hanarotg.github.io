@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', '638'),
+    component: ComponentCreator('/en/', '06e'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', '926'),
+        component: ComponentCreator('/en/', '579'),
         routes: [
           {
             path: '/en/tags',
@@ -142,7 +142,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', 'b03'),
+            component: ComponentCreator('/en/', 'f0f'),
             routes: [
               {
                 path: '/en/android/2023-02-27-upload-cert-with-android-studio',
@@ -313,8 +313,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/en/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode copy',
-                component: ComponentCreator('/en/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode copy', '02d'),
+                path: '/en/software/docusaurus/2024-02-20-docusaurus-autogenerate-list',
+                component: ComponentCreator('/en/software/docusaurus/2024-02-20-docusaurus-autogenerate-list', '3db'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
