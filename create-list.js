@@ -19,14 +19,17 @@ function extractTitleAndLink(filePath) {
 // 문서 폴더 내의 모든 Markdown 파일 탐색
 function findDocsTitlesAndLinks(dir) {
   const files = fs.readdirSync(dir);
+
   files.forEach((file) => {
     const filePath = path.join(dir, file);
     const stat = fs.statSync(filePath);
+
     if (stat.isDirectory()) {
       findDocsTitlesAndLinks(filePath);
     } else if (file.endsWith(".md") && file !== "intro.md") {
       // intro.md 파일 제외
       const { title, link } = extractTitleAndLink(filePath);
+
       if (title && link) {
         titlesAndLinks.push({
           title,
@@ -53,6 +56,7 @@ function sortByDateDescending(a, b) {
 // 마크다운 파일로 변환하여 저장하는 함수
 function saveToMarkdownFile(data) {
   let year = data[0].date.getFullYear();
+  let yearCount = 0;
   let markdownContent = `---\nslug: /\nsidebar_position: 1\n---\n# 문서 소개\n## 작성자\n안녕하세요, 이태경입니다. 관심 분야는 안드로이드, 크로스 플랫폼입니다.\n- [\`깃허브\`](https://hanarotg.github.io/) [\`이메일\`](mailto://hanarotg@naver.com)\n## 문서 목록 (${data.length})\n### ${year}년\n`;
 
   data.map(({ title, link, date }) => {
