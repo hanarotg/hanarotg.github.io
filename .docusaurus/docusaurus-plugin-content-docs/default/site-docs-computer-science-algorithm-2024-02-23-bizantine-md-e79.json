@@ -1,0 +1,53 @@
+{
+  "id": "computer-science/algorithm/2024-02-23-bizantine",
+  "title": "strict weak ordering",
+  "description": "strict weak ordering 이해",
+  "source": "@site/docs/computer-science/algorithm/2024-02-23-bizantine.md",
+  "sourceDirName": "computer-science/algorithm",
+  "slug": "/computer-science/algorithm/2024-02-23-bizantine",
+  "permalink": "/computer-science/algorithm/2024-02-23-bizantine",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/algorithm/2024-02-23-bizantine.md",
+  "tags": [
+    {
+      "label": "strict weak ordering",
+      "permalink": "/tags/strict-weak-ordering"
+    },
+    {
+      "label": "c++",
+      "permalink": "/tags/c"
+    },
+    {
+      "label": "sort",
+      "permalink": "/tags/sort"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "2018년 10월 14일",
+  "frontMatter": {
+    "title": "strict weak ordering",
+    "description": "strict weak ordering 이해",
+    "keywords": [
+      "strict weak ordering",
+      "c++",
+      "sort"
+    ],
+    "tags": [
+      "strict weak ordering",
+      "c++",
+      "sort"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "백준 1946 신입 사원 C++ 문제 풀이",
+    "permalink": "/computer-science/algorithm/2024-02-20-boj-1946"
+  },
+  "next": {
+    "title": "cpp",
+    "permalink": "/category/cpp"
+  }
+}

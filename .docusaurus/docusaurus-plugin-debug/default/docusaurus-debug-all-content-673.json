@@ -446,6 +446,53 @@
                 "permalink": "/computer-science/algorithm/2024-02-11-strick-weak-ordering"
               },
               "next": {
+                "title": "비잔틴 장애 허용 (Byzantine Fault Tolerance)",
+                "permalink": "/computer-science/algorithm/2024-02-23-byzantine-fault-tolerance"
+              }
+            },
+            {
+              "id": "computer-science/algorithm/2024-02-23-byzantine-fault-tolerance",
+              "title": "비잔틴 장애 허용 (Byzantine Fault Tolerance)",
+              "description": "비잔틴 장애 허용",
+              "source": "@site/docs/computer-science/algorithm/2024-02-23-byzantine-fault-tolerance.md",
+              "sourceDirName": "computer-science/algorithm",
+              "slug": "/computer-science/algorithm/2024-02-23-byzantine-fault-tolerance",
+              "permalink": "/computer-science/algorithm/2024-02-23-byzantine-fault-tolerance",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/algorithm/2024-02-23-byzantine-fault-tolerance.md",
+              "tags": [
+                {
+                  "label": "비잔틴 장애 허용",
+                  "permalink": "/tags/비잔틴-장애-허용"
+                },
+                {
+                  "label": "비트코인",
+                  "permalink": "/tags/비트코인"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "비잔틴 장애 허용 (Byzantine Fault Tolerance)",
+                "description": "비잔틴 장애 허용",
+                "keywords": [
+                  "비잔틴 장애 허용",
+                  "비트코인"
+                ],
+                "tags": [
+                  "비잔틴 장애 허용",
+                  "비트코인"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "백준 1946 신입 사원 C++ 문제 풀이",
+                "permalink": "/computer-science/algorithm/2024-02-20-boj-1946"
+              },
+              "next": {
                 "title": "cpp",
                 "permalink": "/category/cpp"
               }
@@ -1086,6 +1133,10 @@
                       {
                         "type": "doc",
                         "id": "computer-science/algorithm/2024-02-20-boj-1946"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "computer-science/algorithm/2024-02-23-byzantine-fault-tolerance"
                       }
                     ],
                     "link": {

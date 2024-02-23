@@ -1,0 +1,15 @@
+{
+  "label": "암호화폐",
+  "permalink": "/tags/암호화폐",
+  "allTagsPath": "/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "computer-science/algorithm/2024-02-23-byzantine-fault-tolerance",
+      "title": "비잔틴 장애 허용 (Byzantine Fault Tolerance)",
+      "description": "비잔틴 장애 허용",
+      "permalink": "/computer-science/algorithm/2024-02-23-byzantine-fault-tolerance"
+    }
+  ],
+  "unlisted": false
+}

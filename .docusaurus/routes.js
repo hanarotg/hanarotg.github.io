@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', '06e'),
+    component: ComponentCreator('/en/', 'd6a'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', '579'),
+        component: ComponentCreator('/en/', '4cf'),
         routes: [
           {
             path: '/en/tags',
@@ -58,6 +58,16 @@ export default [
           {
             path: '/en/tags/백준',
             component: ComponentCreator('/en/tags/백준', '90b'),
+            exact: true
+          },
+          {
+            path: '/en/tags/비잔틴-장애-허용',
+            component: ComponentCreator('/en/tags/비잔틴-장애-허용', '2f9'),
+            exact: true
+          },
+          {
+            path: '/en/tags/비트코인',
+            component: ComponentCreator('/en/tags/비트코인', 'c85'),
             exact: true
           },
           {
@@ -142,7 +152,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', 'f0f'),
+            component: ComponentCreator('/en/', 'b30'),
             routes: [
               {
                 path: '/en/android/2023-02-27-upload-cert-with-android-studio',
@@ -255,6 +265,12 @@ export default [
               {
                 path: '/en/computer-science/algorithm/2024-02-20-boj-1946',
                 component: ComponentCreator('/en/computer-science/algorithm/2024-02-20-boj-1946', '7fd'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/computer-science/algorithm/2024-02-23-byzantine-fault-tolerance',
+                component: ComponentCreator('/en/computer-science/algorithm/2024-02-23-byzantine-fault-tolerance', '542'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

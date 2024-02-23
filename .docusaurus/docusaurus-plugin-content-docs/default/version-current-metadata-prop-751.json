@@ -193,6 +193,13 @@
                 "href": "/en/computer-science/algorithm/2024-02-20-boj-1946",
                 "docId": "computer-science/algorithm/2024-02-20-boj-1946",
                 "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "비잔틴 장애 허용 (Byzantine Fault Tolerance)",
+                "href": "/en/computer-science/algorithm/2024-02-23-byzantine-fault-tolerance",
+                "docId": "computer-science/algorithm/2024-02-23-byzantine-fault-tolerance",
+                "unlisted": false
               }
             ],
             "href": "/en/category/algorithm"
@@ -317,6 +324,12 @@
       "id": "computer-science/algorithm/2024-02-20-boj-1946",
       "title": "백준 1946 신입 사원 C++ 문제 풀이",
       "description": "백준 1946 신입 사원 C++ 문제 풀이",
+      "sidebar": "tutorialSidebar"
+    },
+    "computer-science/algorithm/2024-02-23-byzantine-fault-tolerance": {
+      "id": "computer-science/algorithm/2024-02-23-byzantine-fault-tolerance",
+      "title": "비잔틴 장애 허용 (Byzantine Fault Tolerance)",
+      "description": "비잔틴 장애 허용",
       "sidebar": "tutorialSidebar"
     },
     "computer-science/cpp/2024-02-15-cpp-vector-parameter-as-ref": {
