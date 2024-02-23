@@ -493,6 +493,53 @@
                 "permalink": "/computer-science/algorithm/2024-02-20-boj-1946"
               },
               "next": {
+                "title": "나머지 분배법칙",
+                "permalink": "/computer-science/algorithm/2024-02-23-division-in-algorithm"
+              }
+            },
+            {
+              "id": "computer-science/algorithm/2024-02-23-division-in-algorithm",
+              "title": "나머지 분배법칙",
+              "description": "나머지 분배법칙",
+              "source": "@site/docs/computer-science/algorithm/2024-02-23-division-in-algorithm.md",
+              "sourceDirName": "computer-science/algorithm",
+              "slug": "/computer-science/algorithm/2024-02-23-division-in-algorithm",
+              "permalink": "/computer-science/algorithm/2024-02-23-division-in-algorithm",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/algorithm/2024-02-23-division-in-algorithm.md",
+              "tags": [
+                {
+                  "label": "나머지",
+                  "permalink": "/tags/나머지"
+                },
+                {
+                  "label": "분배법칙",
+                  "permalink": "/tags/분배법칙"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "나머지 분배법칙",
+                "description": "나머지 분배법칙",
+                "keywords": [
+                  "나머지",
+                  "분배법칙"
+                ],
+                "tags": [
+                  "나머지",
+                  "분배법칙"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "비잔틴 장애 허용 (Byzantine Fault Tolerance)",
+                "permalink": "/computer-science/algorithm/2024-02-23-byzantine-fault-tolerance"
+              },
+              "next": {
                 "title": "cpp",
                 "permalink": "/category/cpp"
               }
@@ -1137,6 +1184,10 @@
                       {
                         "type": "doc",
                         "id": "computer-science/algorithm/2024-02-23-byzantine-fault-tolerance"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "computer-science/algorithm/2024-02-23-division-in-algorithm"
                       }
                     ],
                     "link": {

@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', 'd6a'),
+    component: ComponentCreator('/en/', '56b'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', '4cf'),
+        component: ComponentCreator('/en/', '993'),
         routes: [
           {
             path: '/en/tags',
@@ -56,8 +56,18 @@ export default [
             exact: true
           },
           {
+            path: '/en/tags/나머지',
+            component: ComponentCreator('/en/tags/나머지', '37f'),
+            exact: true
+          },
+          {
             path: '/en/tags/백준',
             component: ComponentCreator('/en/tags/백준', '90b'),
+            exact: true
+          },
+          {
+            path: '/en/tags/분배법칙',
+            component: ComponentCreator('/en/tags/분배법칙', 'e57'),
             exact: true
           },
           {
@@ -152,7 +162,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', 'b30'),
+            component: ComponentCreator('/en/', 'bbe'),
             routes: [
               {
                 path: '/en/android/2023-02-27-upload-cert-with-android-studio',
@@ -271,6 +281,12 @@ export default [
               {
                 path: '/en/computer-science/algorithm/2024-02-23-byzantine-fault-tolerance',
                 component: ComponentCreator('/en/computer-science/algorithm/2024-02-23-byzantine-fault-tolerance', '542'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/computer-science/algorithm/2024-02-23-division-in-algorithm',
+                component: ComponentCreator('/en/computer-science/algorithm/2024-02-23-division-in-algorithm', '467'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

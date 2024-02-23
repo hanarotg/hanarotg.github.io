@@ -5,8 +5,8 @@
   "permalink": "/en/category/cpp",
   "navigation": {
     "previous": {
-      "title": "비잔틴 장애 허용 (Byzantine Fault Tolerance)",
-      "permalink": "/en/computer-science/algorithm/2024-02-23-byzantine-fault-tolerance"
+      "title": "나머지 분배법칙",
+      "permalink": "/en/computer-science/algorithm/2024-02-23-division-in-algorithm"
     },
     "next": {
       "title": "C++ 벡터 참조 호출",

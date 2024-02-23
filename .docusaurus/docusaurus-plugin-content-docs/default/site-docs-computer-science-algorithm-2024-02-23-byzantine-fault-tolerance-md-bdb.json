@@ -21,7 +21,7 @@
   ],
   "version": "current",
   "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1708662418,
+  "lastUpdatedAt": 1708663431,
   "formattedLastUpdatedAt": "Feb 23, 2024",
   "frontMatter": {
     "title": "비잔틴 장애 허용 (Byzantine Fault Tolerance)",
@@ -41,7 +41,7 @@
     "permalink": "/en/computer-science/algorithm/2024-02-20-boj-1946"
   },
   "next": {
-    "title": "cpp",
-    "permalink": "/en/category/cpp"
+    "title": "나머지 분배법칙",
+    "permalink": "/en/computer-science/algorithm/2024-02-23-division-in-algorithm"
   }
 }

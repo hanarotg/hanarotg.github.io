@@ -6,9 +6,10 @@ sidebar_position: 1
 ## 작성자
 안녕하세요, 이태경입니다. 관심 분야는 안드로이드, 크로스 플랫폼입니다.
 - [`깃허브`](https://hanarotg.github.io/) [`이메일`](mailto://hanarotg@naver.com)
-## 문서 목록 (21)
+## 문서 목록 (22)
 ### 2024년
 - 2월 23일 [비잔틴 장애 허용 (Byzantine Fault Tolerance)](/computer-science/algorithm/2024-02-23-byzantine-fault-tolerance.html)
+- 2월 23일 [나머지 분배법칙](/computer-science/algorithm/2024-02-23-division-in-algorithm.html)
 - 2월 20일 [백준 1946 신입 사원 C++ 문제 풀이](/computer-science/algorithm/2024-02-20-boj-1946.html)
 - 2월 20일 [Docusaurus 문서 작성 최신 순 정렬 스크립트](/software/docusaurus/2024-02-20-docusaurus-autogenerate-list.html)
 - 2월 19일 [CXL (Compute Express Link) 메모리](/others/tech/2024-02-19-cxl-memory.html)

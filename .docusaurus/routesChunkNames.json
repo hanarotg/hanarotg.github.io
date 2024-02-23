@@ -47,13 +47,13 @@
       "plugin": "d3689f3d"
     }
   },
-  "/en/-d6a": {
+  "/en/-56b": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "c74882fd"
     }
   },
-  "/en/-4cf": {
+  "/en/-993": {
     "__comp": "a7bd4aaa",
     "version": "935f2afb"
   },
@@ -69,9 +69,17 @@
     "__comp": "df203c0f",
     "tag": "7f2d3f6d"
   },
+  "/en/tags/나머지-37f": {
+    "__comp": "df203c0f",
+    "tag": "7f16b01d"
+  },
   "/en/tags/백준-90b": {
     "__comp": "df203c0f",
     "tag": "ab6eb5c8"
+  },
+  "/en/tags/분배법칙-e57": {
+    "__comp": "df203c0f",
+    "tag": "31111779"
   },
   "/en/tags/비잔틴-장애-허용-2f9": {
     "__comp": "df203c0f",
@@ -145,7 +153,7 @@
     "__comp": "df203c0f",
     "tag": "bdf7c89d"
   },
-  "/en/-b30": {
+  "/en/-bbe": {
     "__comp": "a94703ab"
   },
   "/en/android/2023-02-27-upload-cert-with-android-studio-031": {
@@ -227,6 +235,10 @@
   "/en/computer-science/algorithm/2024-02-23-byzantine-fault-tolerance-542": {
     "__comp": "17896441",
     "content": "bdbe216f"
+  },
+  "/en/computer-science/algorithm/2024-02-23-division-in-algorithm-467": {
+    "__comp": "17896441",
+    "content": "a6f523ea"
   },
   "/en/computer-science/cpp/2024-02-15-cpp-vector-parameter-as-ref-082": {
     "__comp": "17896441",
