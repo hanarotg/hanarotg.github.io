@@ -1,0 +1,49 @@
+{
+  "id": "android/2024-02-23-android-mvc-pattern",
+  "title": "안드로이드 MVC MVP MVVM MVI 패턴",
+  "description": "안드로이드 MVC MVP MVVM MVI 패턴",
+  "source": "@site/docs/android/2024-02-23-android-mvc-pattern.md",
+  "sourceDirName": "android",
+  "slug": "/android/2024-02-23-android-mvc-pattern",
+  "permalink": "/android/2024-02-23-android-mvc-pattern",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/android/2024-02-23-android-mvc-pattern.md",
+  "tags": [
+    {
+      "label": "android",
+      "permalink": "/tags/android"
+    },
+    {
+      "label": "mvc",
+      "permalink": "/tags/mvc"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "2018년 10월 14일",
+  "frontMatter": {
+    "title": "안드로이드 MVC MVP MVVM MVI 패턴",
+    "description": "안드로이드 MVC MVP MVVM MVI 패턴",
+    "keywords": [
+      "android",
+      "mvc",
+      "패턴",
+      "안드로이드"
+    ],
+    "tags": [
+      "android",
+      "mvc"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "배포용 안드로이드 앱 번들 빌드하기",
+    "permalink": "/android/2024-01-28-build-release-android-app"
+  },
+  "next": {
+    "title": "Flutter",
+    "permalink": "/category/flutter"
+  }
+}

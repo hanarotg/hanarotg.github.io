@@ -1,0 +1,15 @@
+{
+  "label": "mvc",
+  "permalink": "/tags/mvc",
+  "allTagsPath": "/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "android/2024-02-23-android-mvc-pattern",
+      "title": "안드로이드 MVC MVP MVVM MVI 패턴",
+      "description": "안드로이드 MVC MVP MVVM MVI 패턴",
+      "permalink": "/android/2024-02-23-android-mvc-pattern"
+    }
+  ],
+  "unlisted": false
+}
