@@ -26,6 +26,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "android/2024-02-24-android-tag-id-name",
+              "path": "/en/android/2024-02-24-android-tag-id-name",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "android/kotlin/2023-04-26-kotlin-nullability",
               "path": "/en/android/kotlin/2023-04-26-kotlin-nullability",
               "sidebar": "tutorialSidebar"

@@ -2,7 +2,7 @@
   "label": "android",
   "permalink": "/tags/android",
   "allTagsPath": "/tags",
-  "count": 3,
+  "count": 4,
   "items": [
     {
       "id": "android/2024-01-28-build-release-android-app",
@@ -15,6 +15,12 @@
       "title": "안드로이드 프로젝트 gradle 스크립트에 대한 이해",
       "description": "안드로이드 프로젝트 gradle 스크립트에 대한 이해",
       "permalink": "/android/2023-06-24-gradle-in-android"
+    },
+    {
+      "id": "android/2024-02-24-android-tag-id-name",
+      "title": "안드로이드 id tag name 차이",
+      "description": "안드로이드 android:id android:tag android:name 차이",
+      "permalink": "/android/2024-02-24-android-tag-id-name"
     },
     {
       "id": "android/2023-02-27-upload-cert-with-android-studio",

@@ -65,6 +65,13 @@
             "href": "/en/android/2024-01-28-build-release-android-app",
             "docId": "android/2024-01-28-build-release-android-app",
             "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "안드로이드 id tag name 차이",
+            "href": "/en/android/2024-02-24-android-tag-id-name",
+            "docId": "android/2024-02-24-android-tag-id-name",
+            "unlisted": false
           }
         ],
         "href": "/en/category/android"
@@ -295,6 +302,12 @@
       "id": "android/2024-01-28-build-release-android-app",
       "title": "배포용 안드로이드 앱 번들 빌드하기",
       "description": "안드로이드 스튜디오를 활용해서 배포용 안드로이드 앱 번들을 빌드해 보겠습니다.",
+      "sidebar": "tutorialSidebar"
+    },
+    "android/2024-02-24-android-tag-id-name": {
+      "id": "android/2024-02-24-android-tag-id-name",
+      "title": "안드로이드 id tag name 차이",
+      "description": "안드로이드 android:id android:tag android:name 차이",
       "sidebar": "tutorialSidebar"
     },
     "android/kotlin/2023-04-26-kotlin-nullability": {

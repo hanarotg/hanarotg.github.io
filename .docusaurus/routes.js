@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', '56b'),
+    component: ComponentCreator('/en/', '480'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', '993'),
+        component: ComponentCreator('/en/', '854'),
         routes: [
           {
             path: '/en/tags',
@@ -162,7 +162,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', 'bbe'),
+            component: ComponentCreator('/en/', 'dbd'),
             routes: [
               {
                 path: '/en/android/2023-02-27-upload-cert-with-android-studio',
@@ -179,6 +179,12 @@ export default [
               {
                 path: '/en/android/2024-01-28-build-release-android-app',
                 component: ComponentCreator('/en/android/2024-01-28-build-release-android-app', 'e3f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/android/2024-02-24-android-tag-id-name',
+                component: ComponentCreator('/en/android/2024-02-24-android-tag-id-name', 'a23'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

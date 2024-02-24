@@ -6,8 +6,11 @@ sidebar_position: 1
 ## 작성자
 안녕하세요, 이태경입니다. 관심 분야는 안드로이드, 크로스 플랫폼입니다.
 - [`깃허브`](https://hanarotg.github.io/) [`이메일`](mailto://hanarotg@naver.com)
-## 문서 목록 (22)
-### 2024년
+## 문서 목록 (23)
+<details open>
+<summary>2024년</summary>
+<div>
+- 2월 24일 [안드로이드 android:tag android:name android:id 차이](/android/2024-02-24-android-tag-id-name.html)
 - 2월 23일 [비잔틴 장애 허용 (Byzantine Fault Tolerance)](/computer-science/algorithm/2024-02-23-byzantine-fault-tolerance.html)
 - 2월 23일 [나머지 분배법칙](/computer-science/algorithm/2024-02-23-division-in-algorithm.html)
 - 2월 20일 [백준 1946 신입 사원 C++ 문제 풀이](/computer-science/algorithm/2024-02-20-boj-1946.html)
@@ -25,10 +28,23 @@ sidebar_position: 1
 - 1월 29일 [Docusaurus 올인원 배포 스크립트](/software/docusaurus/2024-01-29-docusaurus-all-in-one-script.html)
 - 1월 28일 [배포용 안드로이드 앱 번들 빌드하기](/android/2024-01-28-build-release-android-app.html)
 - 1월 28일 [Docusaurus github 배포하기](/software/docusaurus/2024-01-28-docusaurus-deplo.html)
-### 2023년
+
+</div>
+</details>
+<details>
+<summary>2023년</summary>
+<div>
 - 6월 24일 [안드로이드 프로젝트 gradle 스크립트에 대한 이해](/android/2023-06-24-gradle-in-android.html)
 - 5월 28일 [kotlin Array](/android/kotlin/2023-05-28-kotlin-array.html)
 - 4월 26일 [kotlin nullability](/android/kotlin/2023-04-26-kotlin-nullability.html)
 - 2월 27일 [안드로이드 업로드 키, 인증서 재설정하기](/android/2023-02-27-upload-cert-with-android-studio.html)
-### undefined년
+
+</div>
+</details>
+<details>
+<summary>undefined년</summary>
+<div>
 - NaN월 undefined일 [Create a Blog Post](/flutter/create-a-blog-post.html)
+
+</div>
+</details>

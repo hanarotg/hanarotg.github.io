@@ -5,8 +5,8 @@
   "permalink": "/en/category/flutter",
   "navigation": {
     "previous": {
-      "title": "배포용 안드로이드 앱 번들 빌드하기",
-      "permalink": "/en/android/2024-01-28-build-release-android-app"
+      "title": "안드로이드 id tag name 차이",
+      "permalink": "/en/android/2024-02-24-android-tag-id-name"
     },
     "next": {
       "title": "Create a Blog Post",
