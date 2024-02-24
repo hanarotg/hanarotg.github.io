@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', '480'),
+    component: ComponentCreator('/en/', '5f2'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', '854'),
+        component: ComponentCreator('/en/', '6a3'),
         routes: [
           {
             path: '/en/tags',
@@ -131,6 +131,11 @@ export default [
             exact: true
           },
           {
+            path: '/en/tags/play-console',
+            component: ComponentCreator('/en/tags/play-console', 'f50'),
+            exact: true
+          },
+          {
             path: '/en/tags/python',
             component: ComponentCreator('/en/tags/python', '883'),
             exact: true
@@ -162,7 +167,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', 'dbd'),
+            component: ComponentCreator('/en/', '6ec'),
             routes: [
               {
                 path: '/en/android/2023-02-27-upload-cert-with-android-studio',
@@ -329,6 +334,12 @@ export default [
               {
                 path: '/en/software/2024-02-12-tensorflow-windows-install',
                 component: ComponentCreator('/en/software/2024-02-12-tensorflow-windows-install', '757'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/software/2024-02-24-play-console-developer-authentication',
+                component: ComponentCreator('/en/software/2024-02-24-play-console-developer-authentication', '5ea'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

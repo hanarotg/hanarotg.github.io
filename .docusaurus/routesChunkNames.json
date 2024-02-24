@@ -47,13 +47,13 @@
       "plugin": "d3689f3d"
     }
   },
-  "/en/-480": {
+  "/en/-5f2": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "c74882fd"
     }
   },
-  "/en/-854": {
+  "/en/-6a3": {
     "__comp": "a7bd4aaa",
     "version": "935f2afb"
   },
@@ -129,6 +129,10 @@
     "__comp": "df203c0f",
     "tag": "2d11e8e2"
   },
+  "/en/tags/play-console-f50": {
+    "__comp": "df203c0f",
+    "tag": "d1274e1b"
+  },
   "/en/tags/python-883": {
     "__comp": "df203c0f",
     "tag": "73ebe919"
@@ -153,7 +157,7 @@
     "__comp": "df203c0f",
     "tag": "bdf7c89d"
   },
-  "/en/-dbd": {
+  "/en/-6ec": {
     "__comp": "a94703ab"
   },
   "/en/android/2023-02-27-upload-cert-with-android-studio-031": {
@@ -267,6 +271,10 @@
   "/en/software/2024-02-12-tensorflow-windows-install-757": {
     "__comp": "17896441",
     "content": "b58eea66"
+  },
+  "/en/software/2024-02-24-play-console-developer-authentication-5ea": {
+    "__comp": "17896441",
+    "content": "cee3a27c"
   },
   "/en/software/docusaurus/2024-01-28-docusaurus-deplo-830": {
     "__comp": "17896441",

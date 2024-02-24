@@ -824,6 +824,51 @@
                 "permalink": "/software/docusaurus/2024-02-20-docusaurus-autogenerate-list"
               },
               "next": {
+                "title": "Play console 개발자 계정 인증",
+                "permalink": "/software/2024-02-24-play-console-developer-authentication"
+              }
+            },
+            {
+              "id": "software/2024-02-24-play-console-developer-authentication",
+              "title": "Play console 개발자 계정 인증",
+              "description": "Play console 개발자 계장 인증",
+              "source": "@site/docs/software/2024-02-24-play-console-developer-authentication.md",
+              "sourceDirName": "software",
+              "slug": "/software/2024-02-24-play-console-developer-authentication",
+              "permalink": "/software/2024-02-24-play-console-developer-authentication",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/2024-02-24-play-console-developer-authentication.md",
+              "tags": [
+                {
+                  "label": "play console",
+                  "permalink": "/tags/play-console"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "Play console 개발자 계정 인증",
+                "description": "Play console 개발자 계장 인증",
+                "keywords": [
+                  "play",
+                  "console",
+                  "개발자",
+                  "계정",
+                  "인증"
+                ],
+                "tags": [
+                  "play console"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tensorflow windows 11 설치",
+                "permalink": "/software/2024-02-12-tensorflow-windows-install"
+              },
+              "next": {
                 "title": "Computer Science",
                 "permalink": "/category/computer-science"
               }
@@ -1192,6 +1237,10 @@
                   {
                     "type": "doc",
                     "id": "software/2024-02-12-tensorflow-windows-install"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "software/2024-02-24-play-console-developer-authentication"
                   }
                 ],
                 "link": {

@@ -157,6 +157,13 @@
             "href": "/en/software/2024-02-12-tensorflow-windows-install",
             "docId": "software/2024-02-12-tensorflow-windows-install",
             "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Play console 개발자 계정 인증",
+            "href": "/en/software/2024-02-24-play-console-developer-authentication",
+            "docId": "software/2024-02-24-play-console-developer-authentication",
+            "unlisted": false
           }
         ],
         "href": "/en/category/software"
@@ -398,6 +405,12 @@
       "id": "software/2024-02-12-tensorflow-windows-install",
       "title": "Tensorflow windows 11 설치",
       "description": "Tensorflow windows 11 wsl2 활용 설치 가이드",
+      "sidebar": "tutorialSidebar"
+    },
+    "software/2024-02-24-play-console-developer-authentication": {
+      "id": "software/2024-02-24-play-console-developer-authentication",
+      "title": "Play console 개발자 계정 인증",
+      "description": "Play console 개발자 계장 인증",
       "sidebar": "tutorialSidebar"
     },
     "software/docusaurus/2024-01-28-docusaurus-deplo": {
