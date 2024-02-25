@@ -1,0 +1,41 @@
+{
+  "id": "software/docusaurus/2024-02-20-docusaurus-autogenerate-list copy",
+  "title": "Docusaurus 문서 작성 최신 정렬 스크립트",
+  "description": "Docusaurus 문서 작성 최신 정렬 스크립트",
+  "source": "@site/docs/software/docusaurus/2024-02-20-docusaurus-autogenerate-list copy.md",
+  "sourceDirName": "software/docusaurus",
+  "slug": "/software/docusaurus/2024-02-20-docusaurus-autogenerate-list copy",
+  "permalink": "/software/docusaurus/2024-02-20-docusaurus-autogenerate-list copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/docusaurus/2024-02-20-docusaurus-autogenerate-list copy.md",
+  "tags": [
+    {
+      "label": "docusaurus",
+      "permalink": "/tags/docusaurus"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "2018년 10월 14일",
+  "frontMatter": {
+    "title": "Docusaurus 문서 작성 최신 정렬 스크립트",
+    "description": "Docusaurus 문서 작성 최신 정렬 스크립트",
+    "keywords": [
+      "docusaurus"
+    ],
+    "tags": [
+      "docusaurus"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Docusaurus utterances 다크 모드 적용",
+    "permalink": "/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode"
+  },
+  "next": {
+    "title": "Docusaurus 문서 작성 최신 정렬 스크립트",
+    "permalink": "/software/docusaurus/2024-02-20-docusaurus-autogenerate-list"
+  }
+}

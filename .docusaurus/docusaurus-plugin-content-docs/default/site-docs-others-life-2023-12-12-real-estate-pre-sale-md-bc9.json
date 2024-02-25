@@ -1,0 +1,26 @@
+{
+  "id": "others/life/2023-12-12-real-estate-pre-sale",
+  "title": "미등기 전매 (중간생략등기)",
+  "description": "부동산 거래에서 등기하지 않은 채 타인에게 되파는 행위",
+  "source": "@site/docs/others/life/2023-12-12-real-estate-pre-sale.md",
+  "sourceDirName": "others/life",
+  "slug": "/others/life/2023-12-12-real-estate-pre-sale",
+  "permalink": "/en/others/life/2023-12-12-real-estate-pre-sale",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/life/2023-12-12-real-estate-pre-sale.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "미등기 전매 (중간생략등기)"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "개발 시 도움되는 링크 모음",
+    "permalink": "/en/others/2024-02-08-link"
+  },
+  "next": {
+    "title": "책을 선택하는 방법",
+    "permalink": "/en/others/life/2024-02-02-select-book"
+  }
+}
