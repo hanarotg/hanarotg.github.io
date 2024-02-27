@@ -5,7 +5,7 @@ keywords: [python, linux]
 tags: [python, linux]
 ---
 
-# python nuhup 백그라운드 실행
+# python nohup 백그라운드 실행
 
 ## 백그라운드 실행
 

@@ -6,10 +6,11 @@ sidebar_position: 1
 ## 작성자
 안녕하세요, 이태경입니다. 관심 분야는 안드로이드, 크로스 플랫폼입니다.
 - [`깃허브`](https://hanarotg.github.io/) [`이메일`](mailto://hanarotg@naver.com)
-## 문서 목록 (25)
+## 문서 목록 (26)
 <details open>
 <summary>2024년</summary>
 <div>
+- 2월 27일 [NightShade](/others/tech/2024-02-27-night-shade-chicago.html)
 - 2월 24일 [안드로이드 android:tag android:name android:id 차이](/android/2024-02-24-android-tag-id-name.html)
 - 2월 24일 [Play console 개발자 계정 인증](/software/2024-02-24-play-console-developer-authentication.html)
 - 2월 23일 [비잔틴 장애 허용 (Byzantine Fault Tolerance)](/computer-science/algorithm/2024-02-23-byzantine-fault-tolerance.html)
@@ -25,7 +26,7 @@ sidebar_position: 1
 - 2월 8일 [개발 시 도움되는 링크 모음](/others/2024-02-08-link.html)
 - 2월 2일 [백준 2178 미로 탐색 C++ 문제 풀이](/computer-science/algorithm/2024-02-02-boj-2178.html)
 - 2월 2일 [책을 선택하는 방법](/others/life/2024-02-02-select-book.html)
-- 1월 30일 [python nuhup 백그라운드 실행](/software/python/2024-01-30-python-background.html)
+- 1월 30일 [python nohup 백그라운드 실행](/software/python/2024-01-30-python-background.html)
 - 1월 29일 [Docusaurus 올인원 배포 스크립트](/software/docusaurus/2024-01-29-docusaurus-all-in-one-script.html)
 - 1월 28일 [배포용 안드로이드 앱 번들 빌드하기](/android/2024-01-28-build-release-android-app.html)
 - 1월 28일 [Docusaurus github 배포하기](/software/docusaurus/2024-01-28-docusaurus-deplo.html)

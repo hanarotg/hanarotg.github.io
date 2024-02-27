@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', 'dcb'),
+    component: ComponentCreator('/en/', '853'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', '532'),
+        component: ComponentCreator('/en/', 'd1d'),
         routes: [
           {
             path: '/en/tags',
@@ -131,6 +131,11 @@ export default [
             exact: true
           },
           {
+            path: '/en/tags/nightshade',
+            component: ComponentCreator('/en/tags/nightshade', '685'),
+            exact: true
+          },
+          {
             path: '/en/tags/play-console',
             component: ComponentCreator('/en/tags/play-console', 'f50'),
             exact: true
@@ -167,7 +172,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', 'c49'),
+            component: ComponentCreator('/en/', '3a7'),
             routes: [
               {
                 path: '/en/android/2023-02-27-upload-cert-with-android-studio',
@@ -334,6 +339,12 @@ export default [
               {
                 path: '/en/others/tech/2024-02-19-cxl-memory',
                 component: ComponentCreator('/en/others/tech/2024-02-19-cxl-memory', '740'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/others/tech/2024-02-27-night-shade-chicago',
+                component: ComponentCreator('/en/others/tech/2024-02-27-night-shade-chicago', 'cc7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
