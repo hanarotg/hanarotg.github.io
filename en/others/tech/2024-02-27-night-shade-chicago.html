@@ -9,7 +9,7 @@
 
 
 <link rel="search" type="application/opensearchdescription+xml" title="TaeGyeong Lee" href="/en/opensearch.xml"><link rel="stylesheet" href="/en/assets/css/styles.622f01a1.css">
-<script src="/en/assets/js/runtime~main.538722c6.js" defer="defer"></script>
+<script src="/en/assets/js/runtime~main.82ef2605.js" defer="defer"></script>
 <script src="/en/assets/js/main.0291c553.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -19,20 +19,24 @@
 <p>발전 과정에서 허가되지 않은 이미지들이 무단으로 학습에 활용되고 있음</p>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="정의">정의<a href="#정의" class="hash-link" aria-label="Direct link to 정의" title="Direct link to 정의">​</a></h3>
 <p>NightShade는 이미지에 픽셀 단위로 특정한 워터마크를 주입하는 기술</p>
-<p>해당 기술을 통해 특정한 워터마크가 주입된 이미지를 독이 있는(poisoned) 이미지로 표현</p>
-<p>시카고 대학 연구진이 23년 10월에 발표한 기술</p>
-<p>NightShade가 적용된 이미지를 학습 데이터로 사용하는 경우 이미지 내 &#x27;독성&#x27;을 먹은 모델은 잘못된 학습을 하게 됨</p>
-<p>NightShade를 원본 이미지에 적용하는 가이드를 배포하고 있음</p>
+<p>해당 기술을 통해 특정한 워터마크가 이미지에 주입되는데, 이 이미지를 독이 있는(poisoned) 이미지라고 칭한다.</p>
+<p>사람이 보았을 때 인지하기 어려운 형태로 워터마크가 각인됨</p>
+<p>그리고 독이 있는 이미지를 학습한 모델을 poisoned model로 칭한다.</p>
+<p>모델이 NightShade가 적용된 이미지를 학습 데이터로 사용하는 경우 이미지 내 &#x27;독성&#x27;을 먹은 모델은 잘못된 학습을 하게 됨</p>
+<p>잘못된 학습을 한 모델(poisoned model)은 당연히 성능이 떨어짐.</p>
+<p>공식 홈페이지에서 NightShade를 원본 이미지에 적용하여 인터넷에 배포하는 방법을 안내하고 있음 (디지털 윤리 운동 느낌..)</p>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="예시">예시<a href="#예시" class="hash-link" aria-label="Direct link to 예시" title="Direct link to 예시">​</a></h3>
-<p>해당 논문에 게시된, 동일한 모델에 독성이 있는 이미지 학습 여부에 따른 결과물 차이</p>
+<p>해당 논문에 게시된, 독성이 있는 이미지 학습 여부에 따른 결과물</p>
 <p><img decoding="async" loading="lazy" src="https://github.com/hanarotg/hanarotg.github.io/assets/34812887/17e7d4ba-27b0-4304-82d6-0ecfdf219536" alt="diff" class="img_ev3q"></p>
-<p>더 많은 독성 이미지를 학습할 수록 더 낮은 성능의 모델이 만들어짐</p>
+<p>독성 이미지를 학습할 수록 더 낮은 성능의 모델이 만들어짐</p>
+<p>Clean Model보다 부자연스러운 결과물을 출력</p>
 <h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="한계">한계<a href="#한계" class="hash-link" aria-label="Direct link to 한계" title="Direct link to 한계">​</a></h2>
 <p>해당 기술은 모델의 학습을 방해하는 것이 목표이므로 원천적인 문제의 해결책(무단 이미지 학습에 대한)이 될 수는 없음</p>
+<p>독이 있는 이미지를 만드는 과정을 공개하였으므로, 이미지를 해독하는 방법도 금방 나오지 않을까</p>
 <h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="참고-자료">참고 자료<a href="#참고-자료" class="hash-link" aria-label="Direct link to 참고 자료" title="Direct link to 참고 자료">​</a></h2>
 <ul>
 <li><a href="https://nightshade.cs.uchicago.edu/whatis.html" target="_blank" rel="noopener noreferrer">https://nightshade.cs.uchicago.edu/whatis.html</a></li>
 <li><a href="https://arxiv.org/abs/2310.13828" target="_blank" rel="noopener noreferrer">https://arxiv.org/abs/2310.13828</a></li>
-</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="theme-doc-footer-tags-row row margin-bottom--sm"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/en/tags/nightshade">nightshade</a></li></ul></div></div><div class="theme-doc-footer-edit-meta-row row"><div class="col"><a href="https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/tech/2024-02-27-night-shade-chicago.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_VsjB"></div></div></footer></article><div></div><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/en/others/tech/2024-02-19-cxl-memory"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">CXL 메모리</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#개요" class="table-of-contents__link toc-highlight">개요</a><ul><li><a href="#정의" class="table-of-contents__link toc-highlight">정의</a></li><li><a href="#예시" class="table-of-contents__link toc-highlight">예시</a></li></ul></li><li><a href="#한계" class="table-of-contents__link toc-highlight">한계</a></li><li><a href="#참고-자료" class="table-of-contents__link toc-highlight">참고 자료</a></li></ul></div></div></div></div></main></div></div></div></div>
+</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="theme-doc-footer-tags-row row margin-bottom--sm"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/en/tags/nightshade">nightshade</a></li></ul></div></div><div class="theme-doc-footer-edit-meta-row row"><div class="col"><a href="https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/tech/2024-02-27-night-shade-chicago.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_VsjB"><span class="theme-last-updated">Last updated<!-- --> on <b><time datetime="2024-02-27T10:12:45.000Z">Feb 27, 2024</time></b> by <b>Taegyeong Lee</b></span></div></div></footer></article><div></div><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/en/others/tech/2024-02-19-cxl-memory"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">CXL 메모리</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#개요" class="table-of-contents__link toc-highlight">개요</a><ul><li><a href="#정의" class="table-of-contents__link toc-highlight">정의</a></li><li><a href="#예시" class="table-of-contents__link toc-highlight">예시</a></li></ul></li><li><a href="#한계" class="table-of-contents__link toc-highlight">한계</a></li><li><a href="#참고-자료" class="table-of-contents__link toc-highlight">참고 자료</a></li></ul></div></div></div></div></main></div></div></div></div>
 </body>
 </html>
