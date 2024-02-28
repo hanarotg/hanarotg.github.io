@@ -16,6 +16,9 @@
     }
   ],
   "version": "current",
+  "lastUpdatedBy": "Taegyeong Lee",
+  "lastUpdatedAt": 1709131165,
+  "formattedLastUpdatedAt": "Feb 28, 2024",
   "frontMatter": {
     "title": "flutter Incorrect use of ParentDataWidget 에러",
     "description": "flutter Incorrect use of ParentDataWidget 에러",
@@ -33,7 +36,7 @@
     "permalink": "/en/category/flutter"
   },
   "next": {
-    "title": "flutter Don't use 'BuildContext's across async gaps.",
+    "title": "React Native 특정 버전으로 프로젝트 시작하기",
     "permalink": "/en/flutter/2024-02-28-flutter-mount-buildcontext-of"
   }
 }

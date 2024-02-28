@@ -1,7 +1,7 @@
 {
   "id": "flutter/2024-02-28-flutter-mount-buildcontext-of",
-  "title": "flutter Don't use 'BuildContext's across async gaps.",
-  "description": "flutter Don't use 'BuildContext's across async gaps.",
+  "title": "React Native 특정 버전으로 프로젝트 시작하기",
+  "description": "React Native 특정 버전으로 프로젝트 시작하기",
   "source": "@site/docs/flutter/2024-02-28-flutter-mount-buildcontext-of.md",
   "sourceDirName": "flutter",
   "slug": "/flutter/2024-02-28-flutter-mount-buildcontext-of",
@@ -11,20 +11,24 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/flutter/2024-02-28-flutter-mount-buildcontext-of.md",
   "tags": [
     {
-      "label": "flutter",
-      "permalink": "/en/tags/flutter"
+      "label": "react-native",
+      "permalink": "/en/tags/react-native"
     }
   ],
   "version": "current",
+  "lastUpdatedBy": "Taegyeong Lee",
+  "lastUpdatedAt": 1709131165,
+  "formattedLastUpdatedAt": "Feb 28, 2024",
   "frontMatter": {
-    "title": "flutter Don't use 'BuildContext's across async gaps.",
-    "description": "flutter Don't use 'BuildContext's across async gaps.",
+    "title": "React Native 특정 버전으로 프로젝트 시작하기",
+    "description": "React Native 특정 버전으로 프로젝트 시작하기",
     "keywords": [
-      "플러터",
-      "flutter"
+      "react-native",
+      "react",
+      "native"
     ],
     "tags": [
-      "flutter"
+      "react-native"
     ]
   },
   "sidebar": "tutorialSidebar",
@@ -33,7 +37,7 @@
     "permalink": "/en/flutter/2024-02-28-flutter-expanded-widget-height-error"
   },
   "next": {
-    "title": "Software",
-    "permalink": "/en/category/software"
+    "title": "React-Native",
+    "permalink": "/en/category/react-native"
   }
 }

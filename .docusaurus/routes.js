@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', '477'),
+    component: ComponentCreator('/en/', '819'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', 'aa9'),
+        component: ComponentCreator('/en/', '9f8'),
         routes: [
           {
             path: '/en/tags',
@@ -151,6 +151,11 @@ export default [
             exact: true
           },
           {
+            path: '/en/tags/react-native',
+            component: ComponentCreator('/en/tags/react-native', '8b1'),
+            exact: true
+          },
+          {
             path: '/en/tags/sort',
             component: ComponentCreator('/en/tags/sort', '26b'),
             exact: true
@@ -177,7 +182,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', 'b1d'),
+            component: ComponentCreator('/en/', 'd25'),
             routes: [
               {
                 path: '/en/android/2023-02-27-upload-cert-with-android-studio',
@@ -270,6 +275,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/en/category/react-native',
+                component: ComponentCreator('/en/category/react-native', '274'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/en/category/software',
                 component: ComponentCreator('/en/category/software', 'f54'),
                 exact: true,
@@ -356,6 +367,12 @@ export default [
               {
                 path: '/en/others/tech/2024-02-27-night-shade-chicago',
                 component: ComponentCreator('/en/others/tech/2024-02-27-night-shade-chicago', 'cc7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/react-native/2024-02-29-react-native-speicifc-version-init',
+                component: ComponentCreator('/en/react-native/2024-02-29-react-native-speicifc-version-init', '9af'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

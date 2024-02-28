@@ -1,0 +1,42 @@
+{
+  "id": "react-native/2024-02-28-flutter-expanded-widget-height-error",
+  "title": "flutter Incorrect use of ParentDataWidget 에러",
+  "description": "flutter Incorrect use of ParentDataWidget 에러",
+  "source": "@site/docs/react-native/2024-02-28-flutter-expanded-widget-height-error.md",
+  "sourceDirName": "react-native",
+  "slug": "/react-native/2024-02-28-flutter-expanded-widget-height-error",
+  "permalink": "/react-native/2024-02-28-flutter-expanded-widget-height-error",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-native/2024-02-28-flutter-expanded-widget-height-error.md",
+  "tags": [
+    {
+      "label": "flutter",
+      "permalink": "/tags/flutter"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "2018년 10월 14일",
+  "frontMatter": {
+    "title": "flutter Incorrect use of ParentDataWidget 에러",
+    "description": "flutter Incorrect use of ParentDataWidget 에러",
+    "keywords": [
+      "플러터",
+      "flutter"
+    ],
+    "tags": [
+      "flutter"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "React-Native",
+    "permalink": "/category/react-native"
+  },
+  "next": {
+    "title": "Software",
+    "permalink": "/category/software"
+  }
+}
