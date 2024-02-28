@@ -5,8 +5,8 @@
   "permalink": "/en/category/software",
   "navigation": {
     "previous": {
-      "title": "Create a Blog Post",
-      "permalink": "/en/flutter/create-a-blog-post"
+      "title": "flutter Don't use 'BuildContext's across async gaps.",
+      "permalink": "/en/flutter/2024-02-28-flutter-mount-buildcontext-of"
     },
     "next": {
       "title": "Linux",

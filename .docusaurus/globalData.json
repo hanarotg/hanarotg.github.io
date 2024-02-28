@@ -76,8 +76,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "flutter/create-a-blog-post",
-              "path": "/en/flutter/create-a-blog-post",
+              "id": "flutter/2024-02-28-flutter-expanded-widget-height-error",
+              "path": "/en/flutter/2024-02-28-flutter-expanded-widget-height-error",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "flutter/2024-02-28-flutter-mount-buildcontext-of",
+              "path": "/en/flutter/2024-02-28-flutter-mount-buildcontext-of",
               "sidebar": "tutorialSidebar"
             },
             {

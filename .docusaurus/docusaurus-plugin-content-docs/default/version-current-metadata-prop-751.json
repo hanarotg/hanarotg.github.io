@@ -84,9 +84,16 @@
         "items": [
           {
             "type": "link",
-            "label": "Create a Blog Post",
-            "href": "/en/flutter/create-a-blog-post",
-            "docId": "flutter/create-a-blog-post",
+            "label": "flutter Incorrect use of ParentDataWidget 에러",
+            "href": "/en/flutter/2024-02-28-flutter-expanded-widget-height-error",
+            "docId": "flutter/2024-02-28-flutter-expanded-widget-height-error",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "flutter Don't use 'BuildContext's across async gaps.",
+            "href": "/en/flutter/2024-02-28-flutter-mount-buildcontext-of",
+            "docId": "flutter/2024-02-28-flutter-mount-buildcontext-of",
             "unlisted": false
           }
         ],
@@ -385,10 +392,16 @@
       "description": "C++ 벡터 주소 전달",
       "sidebar": "tutorialSidebar"
     },
-    "flutter/create-a-blog-post": {
-      "id": "flutter/create-a-blog-post",
-      "title": "Create a Blog Post",
-      "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
+    "flutter/2024-02-28-flutter-expanded-widget-height-error": {
+      "id": "flutter/2024-02-28-flutter-expanded-widget-height-error",
+      "title": "flutter Incorrect use of ParentDataWidget 에러",
+      "description": "flutter Incorrect use of ParentDataWidget 에러",
+      "sidebar": "tutorialSidebar"
+    },
+    "flutter/2024-02-28-flutter-mount-buildcontext-of": {
+      "id": "flutter/2024-02-28-flutter-mount-buildcontext-of",
+      "title": "flutter Don't use 'BuildContext's across async gaps.",
+      "description": "flutter Don't use 'BuildContext's across async gaps.",
       "sidebar": "tutorialSidebar"
     },
     "intro": {

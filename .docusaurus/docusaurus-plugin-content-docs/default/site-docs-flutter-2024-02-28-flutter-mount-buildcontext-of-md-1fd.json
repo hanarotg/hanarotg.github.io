@@ -1,0 +1,39 @@
+{
+  "id": "flutter/2024-02-28-flutter-mount-buildcontext-of",
+  "title": "flutter Don't use 'BuildContext's across async gaps.",
+  "description": "flutter Don't use 'BuildContext's across async gaps.",
+  "source": "@site/docs/flutter/2024-02-28-flutter-mount-buildcontext-of.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/2024-02-28-flutter-mount-buildcontext-of",
+  "permalink": "/en/flutter/2024-02-28-flutter-mount-buildcontext-of",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/flutter/2024-02-28-flutter-mount-buildcontext-of.md",
+  "tags": [
+    {
+      "label": "flutter",
+      "permalink": "/en/tags/flutter"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "flutter Don't use 'BuildContext's across async gaps.",
+    "description": "flutter Don't use 'BuildContext's across async gaps.",
+    "keywords": [
+      "플러터",
+      "flutter"
+    ],
+    "tags": [
+      "flutter"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "flutter Incorrect use of ParentDataWidget 에러",
+    "permalink": "/en/flutter/2024-02-28-flutter-expanded-widget-height-error"
+  },
+  "next": {
+    "title": "Software",
+    "permalink": "/en/category/software"
+  }
+}

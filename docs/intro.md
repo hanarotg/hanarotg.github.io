@@ -6,10 +6,12 @@ sidebar_position: 1
 ## 작성자
 안녕하세요, 이태경입니다. 관심 분야는 안드로이드, 크로스 플랫폼입니다.
 - [`깃허브`](https://hanarotg.github.io/) [`이메일`](mailto://hanarotg@naver.com)
-## 문서 목록 (26)
+## 문서 목록 (27)
 <details open>
 <summary>2024년</summary>
 <div>
+- 2월 28일 [flutter Incorrect use of ParentDataWidget 에러](/flutter/2024-02-28-flutter-expanded-widget-height-error.html)
+- 2월 28일 [Flutter Don't use 'BuildContext's across async gaps.](/flutter/2024-02-28-flutter-mount-buildcontext-of.html)
 - 2월 27일 [NightShade](/others/tech/2024-02-27-night-shade-chicago.html)
 - 2월 24일 [안드로이드 android:tag android:name android:id 차이](/android/2024-02-24-android-tag-id-name.html)
 - 2월 24일 [Play console 개발자 계정 인증](/software/2024-02-24-play-console-developer-authentication.html)
@@ -41,13 +43,6 @@ sidebar_position: 1
 - 5월 28일 [kotlin Array](/android/kotlin/2023-05-28-kotlin-array.html)
 - 4월 26일 [kotlin nullability](/android/kotlin/2023-04-26-kotlin-nullability.html)
 - 2월 27일 [안드로이드 업로드 키, 인증서 재설정하기](/android/2023-02-27-upload-cert-with-android-studio.html)
-
-</div>
-</details>
-<details>
-<summary>undefined년</summary>
-<div>
-- NaN월 undefined일 [Create a Blog Post](/flutter/create-a-blog-post.html)
 
 </div>
 </details>
