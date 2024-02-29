@@ -88,13 +88,6 @@
             "href": "/en/flutter/2024-02-28-flutter-expanded-widget-height-error",
             "docId": "flutter/2024-02-28-flutter-expanded-widget-height-error",
             "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "React Native 특정 버전으로 프로젝트 시작하기",
-            "href": "/en/flutter/2024-02-28-flutter-mount-buildcontext-of",
-            "docId": "flutter/2024-02-28-flutter-mount-buildcontext-of",
-            "unlisted": false
           }
         ],
         "href": "/en/category/flutter"
@@ -412,12 +405,6 @@
       "id": "flutter/2024-02-28-flutter-expanded-widget-height-error",
       "title": "flutter Incorrect use of ParentDataWidget 에러",
       "description": "flutter Incorrect use of ParentDataWidget 에러",
-      "sidebar": "tutorialSidebar"
-    },
-    "flutter/2024-02-28-flutter-mount-buildcontext-of": {
-      "id": "flutter/2024-02-28-flutter-mount-buildcontext-of",
-      "title": "React Native 특정 버전으로 프로젝트 시작하기",
-      "description": "React Native 특정 버전으로 프로젝트 시작하기",
       "sidebar": "tutorialSidebar"
     },
     "intro": {

@@ -2,14 +2,8 @@
   "label": "react-native",
   "permalink": "/tags/react-native",
   "allTagsPath": "/tags",
-  "count": 2,
+  "count": 1,
   "items": [
-    {
-      "id": "flutter/2024-02-28-flutter-mount-buildcontext-of",
-      "title": "React Native 특정 버전으로 프로젝트 시작하기",
-      "description": "React Native 특정 버전으로 프로젝트 시작하기",
-      "permalink": "/flutter/2024-02-28-flutter-mount-buildcontext-of"
-    },
     {
       "id": "react-native/2024-02-29-react-native-speicifc-version-init",
       "title": "React Native 특정 버전으로 프로젝트 시작하기",

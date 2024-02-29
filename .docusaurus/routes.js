@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', '819'),
+    component: ComponentCreator('/en/', '95c'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', '9f8'),
+        component: ComponentCreator('/en/', '785'),
         routes: [
           {
             path: '/en/tags',
@@ -182,7 +182,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', 'd25'),
+            component: ComponentCreator('/en/', 'dbe'),
             routes: [
               {
                 path: '/en/android/2023-02-27-upload-cert-with-android-studio',
@@ -331,12 +331,6 @@ export default [
               {
                 path: '/en/flutter/2024-02-28-flutter-expanded-widget-height-error',
                 component: ComponentCreator('/en/flutter/2024-02-28-flutter-expanded-widget-height-error', '5b0'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/flutter/2024-02-28-flutter-mount-buildcontext-of',
-                component: ComponentCreator('/en/flutter/2024-02-28-flutter-mount-buildcontext-of', 'aa0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

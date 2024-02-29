@@ -6,13 +6,12 @@ sidebar_position: 1
 ## 작성자
 안녕하세요, 이태경입니다. 관심 분야는 안드로이드, 크로스 플랫폼입니다.
 - [`깃허브`](https://github.com/hanarotg) [`이메일`](mailto:hanarotg@naver.com)
-## 문서 목록 (28)
+## 문서 목록 (27)
 <details open>
 <summary>2024년</summary>
 <div>
 - 2월 29일 [React-Native 특정 버전으로 프로젝트 시작하기](/react-native/2024-02-29-react-native-speicifc-version-init.html)
 - 2월 28일 [flutter Incorrect use of ParentDataWidget 에러](/flutter/2024-02-28-flutter-expanded-widget-height-error.html)
-- 2월 28일 [React-Native 특정 버전으로 프로젝트 시작하기](/flutter/2024-02-28-flutter-mount-buildcontext-of.html)
 - 2월 27일 [NightShade](/others/tech/2024-02-27-night-shade-chicago.html)
 - 2월 24일 [안드로이드 android:tag android:name android:id 차이](/android/2024-02-24-android-tag-id-name.html)
 - 2월 24일 [Play console 개발자 계정 인증](/software/2024-02-24-play-console-developer-authentication.html)
