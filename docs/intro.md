@@ -5,7 +5,7 @@ sidebar_position: 1
 # 문서 소개
 ## 작성자
 안녕하세요, 이태경입니다. 관심 분야는 안드로이드, 크로스 플랫폼입니다.
-- [`깃허브`](https://hanarotg.github.io/) [`이메일`](mailto://hanarotg@naver.com)
+- [`깃허브`](https://github.com/hanarotg) [`이메일`](mailto:hanarotg@naver.com)
 ## 문서 목록 (28)
 <details open>
 <summary>2024년</summary>
