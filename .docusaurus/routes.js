@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', '95c'),
+    component: ComponentCreator('/en/', 'dbc'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', '785'),
+        component: ComponentCreator('/en/', 'bf6'),
         routes: [
           {
             path: '/en/tags',
@@ -91,8 +91,18 @@ export default [
             exact: true
           },
           {
+            path: '/en/tags/blockchain',
+            component: ComponentCreator('/en/tags/blockchain', 'ecf'),
+            exact: true
+          },
+          {
             path: '/en/tags/c',
             component: ComponentCreator('/en/tags/c', '4e9'),
+            exact: true
+          },
+          {
+            path: '/en/tags/chainlink',
+            component: ComponentCreator('/en/tags/chainlink', '96f'),
             exact: true
           },
           {
@@ -182,7 +192,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', 'dbe'),
+            component: ComponentCreator('/en/', 'b35'),
             routes: [
               {
                 path: '/en/android/2023-02-27-upload-cert-with-android-studio',
@@ -361,6 +371,12 @@ export default [
               {
                 path: '/en/others/tech/2024-02-27-night-shade-chicago',
                 component: ComponentCreator('/en/others/tech/2024-02-27-night-shade-chicago', 'cc7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/others/tech/2024-03-01-chainlink-blockchain-solutions',
+                component: ComponentCreator('/en/others/tech/2024-03-01-chainlink-blockchain-solutions', 'a00'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

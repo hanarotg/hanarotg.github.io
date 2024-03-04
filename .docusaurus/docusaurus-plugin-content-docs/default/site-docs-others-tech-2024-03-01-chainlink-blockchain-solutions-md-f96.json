@@ -1,0 +1,40 @@
+{
+  "id": "others/tech/2024-03-01-chainlink-blockchain-solutions",
+  "title": "Chainlink",
+  "description": "블록체인 솔루션 기업 Chainlink",
+  "source": "@site/docs/others/tech/2024-03-01-chainlink-blockchain-solutions.md",
+  "sourceDirName": "others/tech",
+  "slug": "/others/tech/2024-03-01-chainlink-blockchain-solutions",
+  "permalink": "/en/others/tech/2024-03-01-chainlink-blockchain-solutions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/tech/2024-03-01-chainlink-blockchain-solutions.md",
+  "tags": [
+    {
+      "label": "chainlink",
+      "permalink": "/en/tags/chainlink"
+    },
+    {
+      "label": "blockchain",
+      "permalink": "/en/tags/blockchain"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "Chainlink",
+    "description": "블록체인 솔루션 기업 Chainlink",
+    "keywords": [
+      "chainlink",
+      "blockchain"
+    ],
+    "tags": [
+      "chainlink",
+      "blockchain"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "nightshade",
+    "permalink": "/en/others/tech/2024-02-27-night-shade-chicago"
+  }
+}

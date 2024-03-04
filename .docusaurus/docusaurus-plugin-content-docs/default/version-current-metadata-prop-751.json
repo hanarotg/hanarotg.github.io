@@ -314,6 +314,13 @@
                 "href": "/en/others/tech/2024-02-27-night-shade-chicago",
                 "docId": "others/tech/2024-02-27-night-shade-chicago",
                 "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Chainlink",
+                "href": "/en/others/tech/2024-03-01-chainlink-blockchain-solutions",
+                "docId": "others/tech/2024-03-01-chainlink-blockchain-solutions",
+                "unlisted": false
               }
             ]
           }
@@ -441,6 +448,12 @@
       "id": "others/tech/2024-02-27-night-shade-chicago",
       "title": "nightshade",
       "description": "nightshade 이해",
+      "sidebar": "tutorialSidebar"
+    },
+    "others/tech/2024-03-01-chainlink-blockchain-solutions": {
+      "id": "others/tech/2024-03-01-chainlink-blockchain-solutions",
+      "title": "Chainlink",
+      "description": "블록체인 솔루션 기업 Chainlink",
       "sidebar": "tutorialSidebar"
     },
     "react-native/2024-02-29-react-native-speicifc-version-init": {
