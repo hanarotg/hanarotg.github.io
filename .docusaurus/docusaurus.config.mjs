@@ -40,6 +40,9 @@ export default {
         },
         "gtag": {
           "trackingID": "G-PSM1SDYJFY"
+        },
+        "googleTagManager": {
+          "containerId": "GTM-5SML85MT"
         }
       }
     ]
