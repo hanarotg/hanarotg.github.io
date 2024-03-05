@@ -37,6 +37,9 @@ export default {
         },
         "theme": {
           "customCss": "./src/css/custom.css"
+        },
+        "gtag": {
+          "trackingID": "GTM-5SML85MT"
         }
       }
     ]

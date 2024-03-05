@@ -1,4 +1,13 @@
 {
+  "docusaurus-plugin-google-gtag": {
+    "default": {
+      "trackingID": [
+        "GTM-5SML85MT"
+      ],
+      "anonymizeIP": false,
+      "id": "default"
+    }
+  },
   "docusaurus-plugin-content-docs": {
     "default": {
       "path": "/en/",
