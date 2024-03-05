@@ -39,7 +39,7 @@ export default {
           "customCss": "./src/css/custom.css"
         },
         "gtag": {
-          "trackingID": "GTM-5SML85MT"
+          "trackingID": "G-PSM1SDYJFY"
         }
       }
     ]

@@ -2,7 +2,7 @@
   "docusaurus-plugin-google-gtag": {
     "default": {
       "trackingID": [
-        "GTM-5SML85MT"
+        "G-PSM1SDYJFY"
       ],
       "anonymizeIP": false,
       "id": "default"
