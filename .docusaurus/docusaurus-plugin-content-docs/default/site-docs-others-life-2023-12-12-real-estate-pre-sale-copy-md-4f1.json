@@ -1,0 +1,29 @@
+{
+  "id": "others/life/2023-12-12-real-estate-pre-sale copy",
+  "title": "장기보유특별공제",
+  "description": "",
+  "source": "@site/docs/others/life/2023-12-12-real-estate-pre-sale copy.md",
+  "sourceDirName": "others/life",
+  "slug": "/others/life/2023-12-12-real-estate-pre-sale copy",
+  "permalink": "/others/life/2023-12-12-real-estate-pre-sale copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/life/2023-12-12-real-estate-pre-sale copy.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "2018년 10월 14일",
+  "frontMatter": {
+    "title": "장기보유특별공제"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "개발 시 도움되는 링크 모음",
+    "permalink": "/others/2024-02-08-link"
+  },
+  "next": {
+    "title": "미등기 전매 (중간생략등기)",
+    "permalink": "/others/life/2023-12-12-real-estate-pre-sale"
+  }
+}

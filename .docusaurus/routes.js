@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', 'dbc'),
+    component: ComponentCreator('/en/', 'edd'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', 'bf6'),
+        component: ComponentCreator('/en/', 'e78'),
         routes: [
           {
             path: '/en/tags',
@@ -192,7 +192,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', 'b35'),
+            component: ComponentCreator('/en/', 'e03'),
             routes: [
               {
                 path: '/en/android/2023-02-27-upload-cert-with-android-studio',
@@ -353,6 +353,12 @@ export default [
               {
                 path: '/en/others/life/2023-12-12-real-estate-pre-sale',
                 component: ComponentCreator('/en/others/life/2023-12-12-real-estate-pre-sale', '7c7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/others/life/2023-12-13-long-term-real-estate-sale',
+                component: ComponentCreator('/en/others/life/2023-12-13-long-term-real-estate-sale', '8d1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
