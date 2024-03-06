@@ -1,0 +1,15 @@
+{
+  "label": "다익스트라",
+  "permalink": "/tags/다익스트라",
+  "allTagsPath": "/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "computer-science/algorithm/2024-03-06-boj-1167",
+      "title": "백준 1167 트리의 지름 C++ 문제 풀이",
+      "description": "백준 1167 트리의 지름 C++ 문제 풀이",
+      "permalink": "/computer-science/algorithm/2024-03-06-boj-1167"
+    }
+  ],
+  "unlisted": false
+}

@@ -34,15 +34,20 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', 'edd'),
+    component: ComponentCreator('/en/', '563'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', 'e78'),
+        component: ComponentCreator('/en/', '477'),
         routes: [
           {
             path: '/en/tags',
             component: ComponentCreator('/en/tags', '01c'),
+            exact: true
+          },
+          {
+            path: '/en/tags/1167',
+            component: ComponentCreator('/en/tags/1167', '84f'),
             exact: true
           },
           {
@@ -58,6 +63,11 @@ export default [
           {
             path: '/en/tags/나머지',
             component: ComponentCreator('/en/tags/나머지', '37f'),
+            exact: true
+          },
+          {
+            path: '/en/tags/다익스트라',
+            component: ComponentCreator('/en/tags/다익스트라', '97b'),
             exact: true
           },
           {
@@ -192,7 +202,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', 'e03'),
+            component: ComponentCreator('/en/', 'a3a'),
             routes: [
               {
                 path: '/en/android/2023-02-27-upload-cert-with-android-studio',
@@ -329,6 +339,12 @@ export default [
               {
                 path: '/en/computer-science/algorithm/2024-02-23-division-in-algorithm',
                 component: ComponentCreator('/en/computer-science/algorithm/2024-02-23-division-in-algorithm', '467'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/computer-science/algorithm/2024-03-06-boj-1167',
+                component: ComponentCreator('/en/computer-science/algorithm/2024-03-06-boj-1167', '7d8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

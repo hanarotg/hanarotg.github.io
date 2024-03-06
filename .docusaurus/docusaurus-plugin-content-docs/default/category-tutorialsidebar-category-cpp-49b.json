@@ -5,8 +5,8 @@
   "permalink": "/category/cpp",
   "navigation": {
     "previous": {
-      "title": "나머지 분배법칙",
-      "permalink": "/computer-science/algorithm/2024-02-23-division-in-algorithm"
+      "title": "백준 1167 트리의 지름 C++ 문제 풀이",
+      "permalink": "/computer-science/algorithm/2024-03-06-boj-1167"
     },
     "next": {
       "title": "C++ 벡터 참조 호출",

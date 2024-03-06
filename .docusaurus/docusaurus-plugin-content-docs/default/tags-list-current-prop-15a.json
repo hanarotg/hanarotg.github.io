@@ -17,12 +17,12 @@
   {
     "label": "백준",
     "permalink": "/en/tags/백준",
-    "count": 2
+    "count": 3
   },
   {
     "label": "c++",
     "permalink": "/en/tags/c",
-    "count": 5
+    "count": 6
   },
   {
     "label": "bfs",
@@ -72,6 +72,16 @@
   {
     "label": "분배법칙",
     "permalink": "/en/tags/분배법칙",
+    "count": 1
+  },
+  {
+    "label": "다익스트라",
+    "permalink": "/en/tags/다익스트라",
+    "count": 1
+  },
+  {
+    "label": "1167",
+    "permalink": "/en/tags/1167",
     "count": 1
   },
   {

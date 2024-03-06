@@ -47,19 +47,23 @@
       "plugin": "d3689f3d"
     }
   },
-  "/en/-edd": {
+  "/en/-563": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "c74882fd"
     }
   },
-  "/en/-e78": {
+  "/en/-477": {
     "__comp": "a7bd4aaa",
     "version": "935f2afb"
   },
   "/en/tags-01c": {
     "__comp": "3720c009",
     "tags": "55960ee5"
+  },
+  "/en/tags/1167-84f": {
+    "__comp": "df203c0f",
+    "tag": "bf3c7a06"
   },
   "/en/tags/1946-bca": {
     "__comp": "df203c0f",
@@ -72,6 +76,10 @@
   "/en/tags/나머지-37f": {
     "__comp": "df203c0f",
     "tag": "7f16b01d"
+  },
+  "/en/tags/다익스트라-97b": {
+    "__comp": "df203c0f",
+    "tag": "368a8b0c"
   },
   "/en/tags/백준-90b": {
     "__comp": "df203c0f",
@@ -177,7 +185,7 @@
     "__comp": "df203c0f",
     "tag": "bdf7c89d"
   },
-  "/en/-e03": {
+  "/en/-a3a": {
     "__comp": "a94703ab"
   },
   "/en/android/2023-02-27-upload-cert-with-android-studio-031": {
@@ -271,6 +279,10 @@
   "/en/computer-science/algorithm/2024-02-23-division-in-algorithm-467": {
     "__comp": "17896441",
     "content": "a6f523ea"
+  },
+  "/en/computer-science/algorithm/2024-03-06-boj-1167-7d8": {
+    "__comp": "17896441",
+    "content": "4f2c35ea"
   },
   "/en/computer-science/cpp/2024-02-15-cpp-vector-parameter-as-ref-082": {
     "__comp": "17896441",

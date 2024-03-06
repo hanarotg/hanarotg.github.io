@@ -1,16 +1,16 @@
 {
+  "docusaurus-plugin-google-tag-manager": {
+    "default": {
+      "containerId": "GTM-5SML85MT",
+      "id": "default"
+    }
+  },
   "docusaurus-plugin-google-gtag": {
     "default": {
       "trackingID": [
         "G-PSM1SDYJFY"
       ],
       "anonymizeIP": false,
-      "id": "default"
-    }
-  },
-  "docusaurus-plugin-google-tag-manager": {
-    "default": {
-      "containerId": "GTM-5SML85MT",
       "id": "default"
     }
   },
@@ -83,6 +83,11 @@
             {
               "id": "computer-science/algorithm/2024-02-23-division-in-algorithm",
               "path": "/en/computer-science/algorithm/2024-02-23-division-in-algorithm",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "computer-science/algorithm/2024-03-06-boj-1167",
+              "path": "/en/computer-science/algorithm/2024-03-06-boj-1167",
               "sidebar": "tutorialSidebar"
             },
             {

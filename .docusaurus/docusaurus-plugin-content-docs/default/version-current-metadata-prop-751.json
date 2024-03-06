@@ -237,6 +237,13 @@
                 "href": "/en/computer-science/algorithm/2024-02-23-division-in-algorithm",
                 "docId": "computer-science/algorithm/2024-02-23-division-in-algorithm",
                 "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "백준 1167 트리의 지름 C++ 문제 풀이",
+                "href": "/en/computer-science/algorithm/2024-03-06-boj-1167",
+                "docId": "computer-science/algorithm/2024-03-06-boj-1167",
+                "unlisted": false
               }
             ],
             "href": "/en/category/algorithm"
@@ -407,6 +414,12 @@
       "id": "computer-science/algorithm/2024-02-23-division-in-algorithm",
       "title": "나머지 분배법칙",
       "description": "나머지 분배법칙",
+      "sidebar": "tutorialSidebar"
+    },
+    "computer-science/algorithm/2024-03-06-boj-1167": {
+      "id": "computer-science/algorithm/2024-03-06-boj-1167",
+      "title": "백준 1167 트리의 지름 C++ 문제 풀이",
+      "description": "백준 1167 트리의 지름 C++ 문제 풀이",
       "sidebar": "tutorialSidebar"
     },
     "computer-science/cpp/2024-02-15-cpp-vector-parameter-as-ref": {
