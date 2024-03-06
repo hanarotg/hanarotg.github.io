@@ -4,37 +4,37 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/en/blog',
-    component: ComponentCreator('/en/blog', '84b'),
+    component: ComponentCreator('/en/blog', '04f'),
     exact: true
   },
   {
     path: '/en/blog/about-me',
-    component: ComponentCreator('/en/blog/about-me', 'a09'),
+    component: ComponentCreator('/en/blog/about-me', '92c'),
     exact: true
   },
   {
     path: '/en/blog/archive',
-    component: ComponentCreator('/en/blog/archive', '3ea'),
+    component: ComponentCreator('/en/blog/archive', 'd3d'),
     exact: true
   },
   {
     path: '/en/document-list',
-    component: ComponentCreator('/en/document-list', '7fb'),
+    component: ComponentCreator('/en/document-list', 'a48'),
     exact: true
   },
   {
     path: '/en/Page',
-    component: ComponentCreator('/en/Page', 'f65'),
+    component: ComponentCreator('/en/Page', 'ffc'),
     exact: true
   },
   {
     path: '/en/search',
-    component: ComponentCreator('/en/search', 'a68'),
+    component: ComponentCreator('/en/search', '072'),
     exact: true
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', '563'),
+    component: ComponentCreator('/en/', 'a4e'),
     routes: [
       {
         path: '/en/',
