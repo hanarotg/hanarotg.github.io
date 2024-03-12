@@ -47,13 +47,13 @@
       "plugin": "d3689f3d"
     }
   },
-  "/en/-563": {
+  "/en/-1c2": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "c74882fd"
     }
   },
-  "/en/-477": {
+  "/en/-890": {
     "__comp": "a7bd4aaa",
     "version": "935f2afb"
   },
@@ -125,6 +125,10 @@
     "__comp": "df203c0f",
     "tag": "5fee9fd7"
   },
+  "/en/tags/equinix-35f": {
+    "__comp": "df203c0f",
+    "tag": "ea8e6ad3"
+  },
   "/en/tags/flutter-cbd": {
     "__comp": "df203c0f",
     "tag": "f95fd1e7"
@@ -140,6 +144,10 @@
   "/en/tags/greedy-84a": {
     "__comp": "df203c0f",
     "tag": "37fdacf7"
+  },
+  "/en/tags/interconnection-fb2": {
+    "__comp": "df203c0f",
+    "tag": "e3c390cc"
   },
   "/en/tags/kotlin-609": {
     "__comp": "df203c0f",
@@ -185,7 +193,7 @@
     "__comp": "df203c0f",
     "tag": "bdf7c89d"
   },
-  "/en/-a3a": {
+  "/en/-1d1": {
     "__comp": "a94703ab"
   },
   "/en/android/2023-02-27-upload-cert-with-android-studio-031": {
@@ -319,6 +327,10 @@
   "/en/others/tech/2024-03-01-chainlink-blockchain-solutions-a00": {
     "__comp": "17896441",
     "content": "f96ca873"
+  },
+  "/en/others/tech/2024-03-12-equinix-interconnection-solutions-d18": {
+    "__comp": "17896441",
+    "content": "bb5acc0f"
   },
   "/en/react-native/2024-02-29-react-native-speicifc-version-init-9af": {
     "__comp": "17896441",

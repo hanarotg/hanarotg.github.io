@@ -6,10 +6,11 @@ sidebar_position: 1
 ## 작성자
 안녕하세요, 이태경입니다.
 - [`깃허브`](https://github.com/hanarotg) [`링크드인`](https://linkedin.com/in/hanarotg) [`이메일`](mailto:hanarotg@naver.com)
-## 문서 목록 (30)
+## 문서 목록 (31)
 <details open>
 <summary>2024년</summary>
 <div>
+- 3월 12일 [Equinix Interconnection Solution](/others/tech/2024-03-12-equinix-interconnection-solutions.html)
 - 3월 6일 [백준 1167 트리의 지름 C++ 문제 풀이](/computer-science/algorithm/2024-03-06-boj-1167.html)
 - 3월 1일 [Chainlink](/others/tech/2024-03-01-chainlink-blockchain-solutions.html)
 - 2월 29일 [React-Native 특정 버전으로 프로젝트 시작하기](/react-native/2024-02-29-react-native-speicifc-version-init.html)

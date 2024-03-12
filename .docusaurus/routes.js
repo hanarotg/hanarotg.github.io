@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', '563'),
+    component: ComponentCreator('/en/', '1c2'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', '477'),
+        component: ComponentCreator('/en/', '890'),
         routes: [
           {
             path: '/en/tags',
@@ -126,6 +126,11 @@ export default [
             exact: true
           },
           {
+            path: '/en/tags/equinix',
+            component: ComponentCreator('/en/tags/equinix', '35f'),
+            exact: true
+          },
+          {
             path: '/en/tags/flutter',
             component: ComponentCreator('/en/tags/flutter', 'cbd'),
             exact: true
@@ -143,6 +148,11 @@ export default [
           {
             path: '/en/tags/greedy',
             component: ComponentCreator('/en/tags/greedy', '84a'),
+            exact: true
+          },
+          {
+            path: '/en/tags/interconnection',
+            component: ComponentCreator('/en/tags/interconnection', 'fb2'),
             exact: true
           },
           {
@@ -202,7 +212,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', 'a3a'),
+            component: ComponentCreator('/en/', '1d1'),
             routes: [
               {
                 path: '/en/android/2023-02-27-upload-cert-with-android-studio',
@@ -399,6 +409,12 @@ export default [
               {
                 path: '/en/others/tech/2024-03-01-chainlink-blockchain-solutions',
                 component: ComponentCreator('/en/others/tech/2024-03-01-chainlink-blockchain-solutions', 'a00'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/others/tech/2024-03-12-equinix-interconnection-solutions',
+                component: ComponentCreator('/en/others/tech/2024-03-12-equinix-interconnection-solutions', 'd18'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
