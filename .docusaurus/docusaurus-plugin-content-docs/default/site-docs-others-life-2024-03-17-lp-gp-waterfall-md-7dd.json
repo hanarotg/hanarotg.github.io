@@ -1,7 +1,7 @@
 {
   "id": "others/life/2024-03-17-lp-gp-waterfall",
   "title": "워터폴",
-  "description": "개요",
+  "description": "경제학적 용어 워터폴 waterfall에 대한 이해",
   "source": "@site/docs/others/life/2024-03-17-lp-gp-waterfall.md",
   "sourceDirName": "others/life",
   "slug": "/others/life/2024-03-17-lp-gp-waterfall",
@@ -9,10 +9,26 @@
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/life/2024-03-17-lp-gp-waterfall.md",
-  "tags": [],
+  "tags": [
+    {
+      "label": "waterfall",
+      "permalink": "/en/tags/waterfall"
+    }
+  ],
   "version": "current",
+  "lastUpdatedBy": "Taegyeong Lee",
+  "lastUpdatedAt": 1710655004,
+  "formattedLastUpdatedAt": "Mar 17, 2024",
   "frontMatter": {
-    "title": "워터폴"
+    "title": "워터폴",
+    "description": "경제학적 용어 워터폴 waterfall에 대한 이해",
+    "keywords": [
+      "waterfall",
+      "워터폴"
+    ],
+    "tags": [
+      "waterfall"
+    ]
   },
   "sidebar": "tutorialSidebar",
   "previous": {

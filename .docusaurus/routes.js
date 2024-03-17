@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', '573'),
+    component: ComponentCreator('/en/', 'b1a'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', 'd36'),
+        component: ComponentCreator('/en/', 'f04'),
         routes: [
           {
             path: '/en/tags',
@@ -203,6 +203,11 @@ export default [
           {
             path: '/en/tags/utterances',
             component: ComponentCreator('/en/tags/utterances', '2ac'),
+            exact: true
+          },
+          {
+            path: '/en/tags/waterfall',
+            component: ComponentCreator('/en/tags/waterfall', 'ce2'),
             exact: true
           },
           {

@@ -1,8 +1,13 @@
 ---
 title: 워터폴
+description: 경제학적 용어 워터폴 waterfall에 대한 이해
+keywords: ["waterfall", "워터폴"]
+tags: ["waterfall"]
 ---
 
 # 워터폴 (Waterfall)
+
+소프트웨어 공학 모델 중 하나인 [워터폴 모델](https://ko.wikipedia.org/wiki/%ED%8F%AD%ED%8F%AC%EC%88%98_%EB%AA%A8%EB%8D%B8)과 비슷한 맥락을 가짐, 여기서 설명하는 용어는 경제학적 용어
 
 ## 개요
 
