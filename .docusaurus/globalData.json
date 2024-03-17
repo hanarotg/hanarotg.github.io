@@ -126,6 +126,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "others/life/2024-03-17-lp-gp-waterfall",
+              "path": "/en/others/life/2024-03-17-lp-gp-waterfall",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "others/tech/2024-02-19-cxl-memory",
               "path": "/en/others/tech/2024-02-19-cxl-memory",
               "sidebar": "tutorialSidebar"

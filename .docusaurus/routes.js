@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', '1c2'),
+    component: ComponentCreator('/en/', '573'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', '890'),
+        component: ComponentCreator('/en/', 'd36'),
         routes: [
           {
             path: '/en/tags',
@@ -212,7 +212,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', '1d1'),
+            component: ComponentCreator('/en/', 'c97'),
             routes: [
               {
                 path: '/en/android/2023-02-27-upload-cert-with-android-studio',
@@ -391,6 +391,12 @@ export default [
               {
                 path: '/en/others/life/2024-02-02-select-book',
                 component: ComponentCreator('/en/others/life/2024-02-02-select-book', '205'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/others/life/2024-03-17-lp-gp-waterfall',
+                component: ComponentCreator('/en/others/life/2024-03-17-lp-gp-waterfall', '80d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

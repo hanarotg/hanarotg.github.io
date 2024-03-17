@@ -306,6 +306,13 @@
                 "href": "/en/others/life/2024-02-02-select-book",
                 "docId": "others/life/2024-02-02-select-book",
                 "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "워터폴",
+                "href": "/en/others/life/2024-03-17-lp-gp-waterfall",
+                "docId": "others/life/2024-03-17-lp-gp-waterfall",
+                "unlisted": false
               }
             ]
           },
@@ -469,6 +476,12 @@
       "id": "others/life/2024-02-02-select-book",
       "title": "책을 선택하는 방법",
       "description": "책 선정 기준",
+      "sidebar": "tutorialSidebar"
+    },
+    "others/life/2024-03-17-lp-gp-waterfall": {
+      "id": "others/life/2024-03-17-lp-gp-waterfall",
+      "title": "워터폴",
+      "description": "개요",
       "sidebar": "tutorialSidebar"
     },
     "others/tech/2024-02-19-cxl-memory": {
