@@ -1,16 +1,16 @@
 {
+  "docusaurus-plugin-google-tag-manager": {
+    "default": {
+      "containerId": "GTM-5SML85MT",
+      "id": "default"
+    }
+  },
   "docusaurus-plugin-google-gtag": {
     "default": {
       "trackingID": [
         "G-PSM1SDYJFY"
       ],
       "anonymizeIP": false,
-      "id": "default"
-    }
-  },
-  "docusaurus-plugin-google-tag-manager": {
-    "default": {
-      "containerId": "GTM-5SML85MT",
       "id": "default"
     }
   },
