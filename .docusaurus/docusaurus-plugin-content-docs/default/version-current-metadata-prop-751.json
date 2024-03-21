@@ -349,6 +349,13 @@
                 "href": "/en/others/tech/2024-03-12-equinix-interconnection-solutions",
                 "docId": "others/tech/2024-03-12-equinix-interconnection-solutions",
                 "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "HBM",
+                "href": "/en/others/tech/2024-03-21-hbm",
+                "docId": "others/tech/2024-03-21-hbm",
+                "unlisted": false
               }
             ]
           }
@@ -506,6 +513,12 @@
       "id": "others/tech/2024-03-12-equinix-interconnection-solutions",
       "title": "Equinix Interconnection Solution",
       "description": "에퀴닉스 Interconnection Solution",
+      "sidebar": "tutorialSidebar"
+    },
+    "others/tech/2024-03-21-hbm": {
+      "id": "others/tech/2024-03-21-hbm",
+      "title": "HBM",
+      "description": "HBM",
       "sidebar": "tutorialSidebar"
     },
     "react-native/2024-02-29-react-native-speicifc-version-init": {

@@ -21,8 +21,8 @@
   ],
   "version": "current",
   "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1710253239,
-  "formattedLastUpdatedAt": "Mar 12, 2024",
+  "lastUpdatedAt": 1710950362,
+  "formattedLastUpdatedAt": "Mar 20, 2024",
   "frontMatter": {
     "title": "Equinix Interconnection Solution",
     "description": "에퀴닉스 Interconnection Solution",
@@ -39,5 +39,9 @@
   "previous": {
     "title": "Chainlink",
     "permalink": "/en/others/tech/2024-03-01-chainlink-blockchain-solutions"
+  },
+  "next": {
+    "title": "HBM",
+    "permalink": "/en/others/tech/2024-03-21-hbm"
   }
 }

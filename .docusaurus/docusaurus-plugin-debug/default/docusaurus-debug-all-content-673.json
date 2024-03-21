@@ -1085,6 +1085,47 @@
               "previous": {
                 "title": "Chainlink",
                 "permalink": "/others/tech/2024-03-01-chainlink-blockchain-solutions"
+              },
+              "next": {
+                "title": "HBM",
+                "permalink": "/others/tech/2024-03-21-hbm"
+              }
+            },
+            {
+              "id": "others/tech/2024-03-21-hbm",
+              "title": "HBM",
+              "description": "HBM",
+              "source": "@site/docs/others/tech/2024-03-21-hbm.md",
+              "sourceDirName": "others/tech",
+              "slug": "/others/tech/2024-03-21-hbm",
+              "permalink": "/others/tech/2024-03-21-hbm",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/tech/2024-03-21-hbm.md",
+              "tags": [
+                {
+                  "label": "HBM",
+                  "permalink": "/tags/hbm"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "HBM",
+                "description": "HBM",
+                "keywords": [
+                  "HBM"
+                ],
+                "tags": [
+                  "HBM"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Equinix Interconnection Solution",
+                "permalink": "/others/tech/2024-03-12-equinix-interconnection-solutions"
               }
             },
             {
@@ -1746,6 +1787,10 @@
                       {
                         "type": "doc",
                         "id": "others/tech/2024-03-12-equinix-interconnection-solutions"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "others/tech/2024-03-21-hbm"
                       }
                     ]
                   }

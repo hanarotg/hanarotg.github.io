@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', 'b1a'),
+    component: ComponentCreator('/en/', 'ae2'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', 'f04'),
+        component: ComponentCreator('/en/', 'c5b'),
         routes: [
           {
             path: '/en/tags',
@@ -151,6 +151,11 @@ export default [
             exact: true
           },
           {
+            path: '/en/tags/hbm',
+            component: ComponentCreator('/en/tags/hbm', '7c3'),
+            exact: true
+          },
+          {
             path: '/en/tags/interconnection',
             component: ComponentCreator('/en/tags/interconnection', 'fb2'),
             exact: true
@@ -217,7 +222,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', 'c97'),
+            component: ComponentCreator('/en/', '402'),
             routes: [
               {
                 path: '/en/android/2023-02-27-upload-cert-with-android-studio',
@@ -426,6 +431,12 @@ export default [
               {
                 path: '/en/others/tech/2024-03-12-equinix-interconnection-solutions',
                 component: ComponentCreator('/en/others/tech/2024-03-12-equinix-interconnection-solutions', 'd18'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/others/tech/2024-03-21-hbm',
+                component: ComponentCreator('/en/others/tech/2024-03-21-hbm', '4b0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
