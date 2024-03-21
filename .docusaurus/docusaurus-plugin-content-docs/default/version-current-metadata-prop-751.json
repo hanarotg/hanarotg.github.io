@@ -88,6 +88,13 @@
             "href": "/en/flutter/2024-02-28-flutter-expanded-widget-height-error",
             "docId": "flutter/2024-02-28-flutter-expanded-widget-height-error",
             "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "flutter Futurebuilder Future reload",
+            "href": "/en/flutter/2024-03-21-flutter-futurebuilder-reload",
+            "docId": "flutter/2024-03-21-flutter-futurebuilder-reload",
+            "unlisted": false
           }
         ],
         "href": "/en/category/flutter"
@@ -453,6 +460,12 @@
       "id": "flutter/2024-02-28-flutter-expanded-widget-height-error",
       "title": "flutter Incorrect use of ParentDataWidget 에러",
       "description": "flutter Incorrect use of ParentDataWidget 에러",
+      "sidebar": "tutorialSidebar"
+    },
+    "flutter/2024-03-21-flutter-futurebuilder-reload": {
+      "id": "flutter/2024-03-21-flutter-futurebuilder-reload",
+      "title": "flutter Futurebuilder Future reload",
+      "description": "flutter Futurebuilder Future 객체 리로드 시 상태 반영하기",
       "sidebar": "tutorialSidebar"
     },
     "intro": {

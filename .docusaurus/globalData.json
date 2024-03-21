@@ -1,16 +1,16 @@
 {
+  "docusaurus-plugin-google-tag-manager": {
+    "default": {
+      "containerId": "GTM-5SML85MT",
+      "id": "default"
+    }
+  },
   "docusaurus-plugin-google-gtag": {
     "default": {
       "trackingID": [
         "G-PSM1SDYJFY"
       ],
       "anonymizeIP": false,
-      "id": "default"
-    }
-  },
-  "docusaurus-plugin-google-tag-manager": {
-    "default": {
-      "containerId": "GTM-5SML85MT",
       "id": "default"
     }
   },
@@ -98,6 +98,11 @@
             {
               "id": "flutter/2024-02-28-flutter-expanded-widget-height-error",
               "path": "/en/flutter/2024-02-28-flutter-expanded-widget-height-error",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "flutter/2024-03-21-flutter-futurebuilder-reload",
+              "path": "/en/flutter/2024-03-21-flutter-futurebuilder-reload",
               "sidebar": "tutorialSidebar"
             },
             {
