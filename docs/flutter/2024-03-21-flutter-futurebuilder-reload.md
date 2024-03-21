@@ -9,7 +9,7 @@ tags: ["flutter", "FutureBuilder"]
 
 ## 개요
 
-FutureBuilder 를 통해 Future 객체의 상태에 따라 다른 위젯을 출력할 수 있습니다.
+FutureBuilder Future 객체의 상태를 snapshot 속성을 통해 감지할 수 있습니다.
 
 첫 Future 객체가 성공적으로 불러온 후에 다시 Future 객체 정보를 불러들이는 경우 (새로고침 또는 불러올 정보가 바뀔 때)
 
