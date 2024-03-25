@@ -197,7 +197,7 @@ vscode extension인 REMOTE DEVELOPMENT 설치. vscode 상단 중앙에서 `> wsl
 
 :::warning
 
-매우 주의, wsl이 아니라 windows에 설치된 python 인터프리터가 아니라, wsl에 tensorflow 라이브러리를 설치한 파이썬 인터프리터를 선택해야 함.
+매우 주의, windows에 설치된 python 인터프리터가 아니라, wsl에 tensorflow 라이브러리를 설치한 파이썬 인터프리터를 선택해야 합니다. 이 가이드는 windows가 아니라 **wsl 가상머신 내부**에 텐서플로 개발 환경 설정 방법을 알려주는 것임을 기억하세요!
 
 :::
 
