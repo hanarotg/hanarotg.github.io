@@ -1,0 +1,38 @@
+{
+  "id": "react-native/2023-02-12-react-native-tips",
+  "title": "React Native 개발할 때 알면 좋은 팁",
+  "description": "React Native 개발할 때 알면 좋은 팁",
+  "source": "@site/docs/react-native/2023-02-12-react-native-tips.md",
+  "sourceDirName": "react-native",
+  "slug": "/react-native/2023-02-12-react-native-tips",
+  "permalink": "/en/react-native/2023-02-12-react-native-tips",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-native/2023-02-12-react-native-tips.md",
+  "tags": [
+    {
+      "label": "react-native",
+      "permalink": "/en/tags/react-native"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "React Native 개발할 때 알면 좋은 팁",
+    "description": "React Native 개발할 때 알면 좋은 팁",
+    "keywords": [
+      "react-native"
+    ],
+    "tags": [
+      "react-native"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "React Native gradle unsupported claass file major verion 62 error 해결하기",
+    "permalink": "/en/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error"
+  },
+  "next": {
+    "title": "React Native 특정 버전으로 프로젝트 시작하기",
+    "permalink": "/en/react-native/2024-02-29-react-native-speicifc-version-init"
+  }
+}

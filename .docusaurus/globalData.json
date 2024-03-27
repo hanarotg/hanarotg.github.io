@@ -171,6 +171,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "react-native/2023-02-12-react-native-tips",
+              "path": "/en/react-native/2023-02-12-react-native-tips",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "react-native/2024-02-29-react-native-speicifc-version-init",
               "path": "/en/react-native/2024-02-29-react-native-speicifc-version-init",
               "sidebar": "tutorialSidebar"

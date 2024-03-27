@@ -6,7 +6,7 @@ sidebar_position: 1
 ## 작성자
 안녕하세요, 이태경입니다.
 - [`깃허브`](https://github.com/hanarotg) [`링크드인`](https://linkedin.com/in/hanarotg) [`이메일`](mailto:hanarotg@naver.com)
-## 문서 목록 (36)
+## 문서 목록 (37)
 <details open>
 <summary>2024년</summary>
 <div>
@@ -52,6 +52,7 @@ sidebar_position: 1
 - 2월 27일 [안드로이드 업로드 키, 인증서 재설정하기](/android/2023-02-27-upload-cert-with-android-studio.html)
 - 2월 12일 [React-Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding 해결하기](/react-native/2023-02-12-react-native-android-includefontpadding.html)
 - 2월 12일 [React-Native gradle unsupported claass file major verion 62 error 해결하기](/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error.html)
+- 2월 12일 [React-Native 개발할 때 알면 좋은 팁](/react-native/2023-02-12-react-native-tips.html)
 
 </div>
 </details>

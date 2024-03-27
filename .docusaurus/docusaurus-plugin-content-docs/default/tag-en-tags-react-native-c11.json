@@ -2,8 +2,14 @@
   "label": "react-native",
   "permalink": "/en/tags/react-native",
   "allTagsPath": "/en/tags",
-  "count": 3,
+  "count": 4,
   "items": [
+    {
+      "id": "react-native/2023-02-12-react-native-tips",
+      "title": "React Native 개발할 때 알면 좋은 팁",
+      "description": "React Native 개발할 때 알면 좋은 팁",
+      "permalink": "/en/react-native/2023-02-12-react-native-tips"
+    },
     {
       "id": "react-native/2023-02-12-react-native-android-includefontpadding",
       "title": "React Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding 해결하기",

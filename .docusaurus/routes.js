@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', '729'),
+    component: ComponentCreator('/en/', '3f0'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', 'af7'),
+        component: ComponentCreator('/en/', '4bb'),
         routes: [
           {
             path: '/en/tags',
@@ -232,7 +232,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', '0c6'),
+            component: ComponentCreator('/en/', 'e9d'),
             routes: [
               {
                 path: '/en/android/2023-02-27-upload-cert-with-android-studio',
@@ -465,6 +465,12 @@ export default [
               {
                 path: '/en/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error',
                 component: ComponentCreator('/en/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error', '650'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/react-native/2023-02-12-react-native-tips',
+                component: ComponentCreator('/en/react-native/2023-02-12-react-native-tips', '04e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
