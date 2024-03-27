@@ -100,6 +100,16 @@
     "count": 1
   },
   {
+    "label": "react-native",
+    "permalink": "/en/tags/react-native",
+    "count": 6
+  },
+  {
+    "label": "checked",
+    "permalink": "/en/tags/checked",
+    "count": 1
+  },
+  {
     "label": "cxl",
     "permalink": "/en/tags/cxl",
     "count": 1
@@ -133,11 +143,6 @@
     "label": "HBM",
     "permalink": "/en/tags/hbm",
     "count": 1
-  },
-  {
-    "label": "react-native",
-    "permalink": "/en/tags/react-native",
-    "count": 5
   },
   {
     "label": "opensource",

@@ -47,13 +47,13 @@
       "plugin": "d3689f3d"
     }
   },
-  "/en/-bb8": {
+  "/en/-edb": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "c74882fd"
     }
   },
-  "/en/-fb9": {
+  "/en/-77f": {
     "__comp": "a7bd4aaa",
     "version": "935f2afb"
   },
@@ -120,6 +120,10 @@
   "/en/tags/chainlink-96f": {
     "__comp": "df203c0f",
     "tag": "86e1ba21"
+  },
+  "/en/tags/checked-1d2": {
+    "__comp": "df203c0f",
+    "tag": "bfe0c795"
   },
   "/en/tags/cxl-d74": {
     "__comp": "df203c0f",
@@ -213,7 +217,7 @@
     "__comp": "df203c0f",
     "tag": "bdf7c89d"
   },
-  "/en/-b31": {
+  "/en/-f8c": {
     "__comp": "a94703ab"
   },
   "/en/android/2023-02-27-upload-cert-with-android-studio-031": {
@@ -275,6 +279,10 @@
   "/en/category/others-3a5": {
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "69e656f7"
+  },
+  "/en/category/portfolio-81b": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "7ebfeb5a"
   },
   "/en/category/react-native-274": {
     "__comp": "14eb3368",
@@ -343,6 +351,10 @@
   "/en/others/life/2024-03-17-lp-gp-waterfall-80d": {
     "__comp": "17896441",
     "content": "7ddeaa97"
+  },
+  "/en/others/portfolio/2023-08-06-checked-f96": {
+    "__comp": "17896441",
+    "content": "fb1e7a12"
   },
   "/en/others/tech/2024-02-19-cxl-memory-740": {
     "__comp": "17896441",

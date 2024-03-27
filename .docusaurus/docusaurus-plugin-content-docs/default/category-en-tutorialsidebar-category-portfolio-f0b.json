@@ -1,0 +1,16 @@
+{
+  "title": "portfolio",
+  "description": "프로젝트 포트폴리오 모음",
+  "slug": "/category/portfolio",
+  "permalink": "/en/category/portfolio",
+  "navigation": {
+    "previous": {
+      "title": "Others",
+      "permalink": "/en/category/others"
+    },
+    "next": {
+      "title": "체크드 독서 기록 앱",
+      "permalink": "/en/others/portfolio/2023-08-06-checked"
+    }
+  }
+}

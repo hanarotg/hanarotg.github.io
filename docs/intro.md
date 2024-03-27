@@ -6,7 +6,7 @@ sidebar_position: 1
 ## 작성자
 안녕하세요, 이태경입니다.
 - [`깃허브`](https://github.com/hanarotg) [`링크드인`](https://linkedin.com/in/hanarotg) [`이메일`](mailto:hanarotg@naver.com)
-## 문서 목록 (39)
+## 문서 목록 (40)
 <details open>
 <summary>2024년</summary>
 <div>
@@ -46,6 +46,7 @@ sidebar_position: 1
 <div>
 - 12월 13일 [장기보유특별공제 (부동산)](/others/life/2023-12-13-long-term-real-estate-sale.html)
 - 12월 12일 [미등기 전매 (중간생략등기)](/others/life/2023-12-12-real-estate-pre-sale.html)
+- 8월 6일 [체크드](/others/portfolio/2023-08-06-checked.html)
 - 6월 24일 [안드로이드 프로젝트 gradle 스크립트에 대한 이해](/android/2023-06-24-gradle-in-android.html)
 - 5월 28일 [kotlin Array](/android/kotlin/2023-05-28-kotlin-array.html)
 - 4월 26일 [kotlin nullability](/android/kotlin/2023-04-26-kotlin-nullability.html)

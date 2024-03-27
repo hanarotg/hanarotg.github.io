@@ -316,6 +316,22 @@
         "collapsed": true,
         "items": [
           {
+            "type": "category",
+            "label": "portfolio",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "체크드 독서 기록 앱",
+                "href": "/en/others/portfolio/2023-08-06-checked",
+                "docId": "others/portfolio/2023-08-06-checked",
+                "unlisted": false
+              }
+            ],
+            "href": "/en/category/portfolio"
+          },
+          {
             "type": "link",
             "label": "개발 시 도움되는 링크 모음",
             "href": "/en/others/2024-02-08-link",
@@ -537,6 +553,12 @@
       "id": "others/life/2024-03-17-lp-gp-waterfall",
       "title": "워터폴",
       "description": "경제학적 용어 워터폴 waterfall에 대한 이해",
+      "sidebar": "tutorialSidebar"
+    },
+    "others/portfolio/2023-08-06-checked": {
+      "id": "others/portfolio/2023-08-06-checked",
+      "title": "체크드 독서 기록 앱",
+      "description": "react native 체크드 독서 기록 앱",
       "sidebar": "tutorialSidebar"
     },
     "others/tech/2024-02-19-cxl-memory": {

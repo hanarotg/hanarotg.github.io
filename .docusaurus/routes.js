@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', 'bb8'),
+    component: ComponentCreator('/en/', 'edb'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', 'fb9'),
+        component: ComponentCreator('/en/', '77f'),
         routes: [
           {
             path: '/en/tags',
@@ -118,6 +118,11 @@ export default [
           {
             path: '/en/tags/chainlink',
             component: ComponentCreator('/en/tags/chainlink', '96f'),
+            exact: true
+          },
+          {
+            path: '/en/tags/checked',
+            component: ComponentCreator('/en/tags/checked', '1d2'),
             exact: true
           },
           {
@@ -237,7 +242,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', 'b31'),
+            component: ComponentCreator('/en/', 'f8c'),
             routes: [
               {
                 path: '/en/android/2023-02-27-upload-cert-with-android-studio',
@@ -326,6 +331,12 @@ export default [
               {
                 path: '/en/category/others',
                 component: ComponentCreator('/en/category/others', '3a5'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/category/portfolio',
+                component: ComponentCreator('/en/category/portfolio', '81b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -428,6 +439,12 @@ export default [
               {
                 path: '/en/others/life/2024-03-17-lp-gp-waterfall',
                 component: ComponentCreator('/en/others/life/2024-03-17-lp-gp-waterfall', '80d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/others/portfolio/2023-08-06-checked',
+                component: ComponentCreator('/en/others/portfolio/2023-08-06-checked', 'f96'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

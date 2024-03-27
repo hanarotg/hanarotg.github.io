@@ -826,8 +826,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Others",
-                "permalink": "/category/others"
+                "title": "체크드 독서 기록 앱",
+                "permalink": "/others/portfolio/2023-08-06-checked"
               },
               "next": {
                 "title": "미등기 전매 (중간생략등기)",
@@ -961,6 +961,55 @@
               "next": {
                 "title": "CXL 메모리",
                 "permalink": "/others/tech/2024-02-19-cxl-memory"
+              }
+            },
+            {
+              "id": "others/portfolio/2023-08-06-checked",
+              "title": "체크드 독서 기록 앱",
+              "description": "react native 체크드 독서 기록 앱",
+              "source": "@site/docs/others/portfolio/2023-08-06-checked.md",
+              "sourceDirName": "others/portfolio",
+              "slug": "/others/portfolio/2023-08-06-checked",
+              "permalink": "/others/portfolio/2023-08-06-checked",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/portfolio/2023-08-06-checked.md",
+              "tags": [
+                {
+                  "label": "react-native",
+                  "permalink": "/tags/react-native"
+                },
+                {
+                  "label": "checked",
+                  "permalink": "/tags/checked"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "체크드 독서 기록 앱",
+                "description": "react native 체크드 독서 기록 앱",
+                "keywords": [
+                  "react-native",
+                  "checked",
+                  "체크드",
+                  "독서"
+                ],
+                "tags": [
+                  "react-native",
+                  "checked"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "portfolio",
+                "permalink": "/category/portfolio"
+              },
+              "next": {
+                "title": "개발 시 도움되는 링크 모음",
+                "permalink": "/others/2024-02-08-link"
               }
             },
             {
@@ -2031,6 +2080,24 @@
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
+                  {
+                    "type": "category",
+                    "label": "portfolio",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "others/portfolio/2023-08-06-checked"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "프로젝트 포트폴리오 모음",
+                      "slug": "/category/portfolio",
+                      "permalink": "/category/portfolio"
+                    }
+                  },
                   {
                     "type": "doc",
                     "id": "others/2024-02-08-link"
