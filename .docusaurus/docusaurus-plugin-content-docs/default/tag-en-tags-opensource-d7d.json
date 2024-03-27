@@ -1,0 +1,15 @@
+{
+  "label": "opensource",
+  "permalink": "/en/tags/opensource",
+  "allTagsPath": "/en/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error",
+      "title": "React Native gradle unsupported claass file major verion 62 error 해결하기",
+      "description": "gradle unsupported claass file major verion 62 error",
+      "permalink": "/en/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error"
+    }
+  ],
+  "unlisted": false
+}

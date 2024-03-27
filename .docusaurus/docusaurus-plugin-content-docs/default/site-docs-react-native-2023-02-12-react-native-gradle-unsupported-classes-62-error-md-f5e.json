@@ -1,0 +1,45 @@
+{
+  "id": "react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error",
+  "title": "React Native gradle unsupported claass file major verion 62 error 해결하기",
+  "description": "gradle unsupported claass file major verion 62 error",
+  "source": "@site/docs/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error.md",
+  "sourceDirName": "react-native",
+  "slug": "/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error",
+  "permalink": "/en/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error.md",
+  "tags": [
+    {
+      "label": "react-native",
+      "permalink": "/en/tags/react-native"
+    },
+    {
+      "label": "opensource",
+      "permalink": "/en/tags/opensource"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "React Native gradle unsupported claass file major verion 62 error 해결하기",
+    "description": "gradle unsupported claass file major verion 62 error",
+    "keywords": [
+      "react-native",
+      "gradle",
+      "62"
+    ],
+    "tags": [
+      "react-native",
+      "opensource"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "React-Native",
+    "permalink": "/en/category/react-native"
+  },
+  "next": {
+    "title": "React Native 특정 버전으로 프로젝트 시작하기",
+    "permalink": "/en/react-native/2024-02-29-react-native-speicifc-version-init"
+  }
+}

@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', 'a17'),
+    component: ComponentCreator('/en/', '5bd'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', '40f'),
+        component: ComponentCreator('/en/', 'd7d'),
         routes: [
           {
             path: '/en/tags',
@@ -181,6 +181,11 @@ export default [
             exact: true
           },
           {
+            path: '/en/tags/opensource',
+            component: ComponentCreator('/en/tags/opensource', '138'),
+            exact: true
+          },
+          {
             path: '/en/tags/play-console',
             component: ComponentCreator('/en/tags/play-console', 'f50'),
             exact: true
@@ -227,7 +232,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', '34f'),
+            component: ComponentCreator('/en/', 'b35'),
             routes: [
               {
                 path: '/en/android/2023-02-27-upload-cert-with-android-studio',
@@ -448,6 +453,12 @@ export default [
               {
                 path: '/en/others/tech/2024-03-21-hbm',
                 component: ComponentCreator('/en/others/tech/2024-03-21-hbm', '4b0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error',
+                component: ComponentCreator('/en/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error', '650'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
