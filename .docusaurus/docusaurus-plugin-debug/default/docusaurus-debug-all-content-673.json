@@ -1352,6 +1352,52 @@
               }
             },
             {
+              "id": "software/2023-02-13-appstore-connect-curl-api",
+              "title": "appstore connect 앱 스크린샷 업로드 오류를 Curl API를 통해 우회적으로 해결하기",
+              "description": "appstore connect 앱 스크린샷 업로드 오류를 Curl API를 통해 우회적으로 해결하기",
+              "source": "@site/docs/software/2023-02-13-appstore-connect-curl-api.md",
+              "sourceDirName": "software",
+              "slug": "/software/2023-02-13-appstore-connect-curl-api",
+              "permalink": "/software/2023-02-13-appstore-connect-curl-api",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/2023-02-13-appstore-connect-curl-api.md",
+              "tags": [
+                {
+                  "label": "appstore connect",
+                  "permalink": "/tags/appstore-connect"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "appstore connect 앱 스크린샷 업로드 오류를 Curl API를 통해 우회적으로 해결하기",
+                "description": "appstore connect 앱 스크린샷 업로드 오류를 Curl API를 통해 우회적으로 해결하기",
+                "keywords": [
+                  "appstore connect",
+                  "스크린샷",
+                  "업로드",
+                  "오류",
+                  "curl",
+                  "API"
+                ],
+                "tags": [
+                  "appstore connect"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Docusaurus 문서 작성 최신 정렬 스크립트",
+                "permalink": "/software/docusaurus/2024-02-20-docusaurus-autogenerate-list"
+              },
+              "next": {
+                "title": "Tensorflow windows 11 설치",
+                "permalink": "/software/2024-02-12-tensorflow-windows-install"
+              }
+            },
+            {
               "id": "software/2024-02-12-tensorflow-windows-install",
               "title": "Tensorflow windows 11 설치",
               "description": "Tensorflow windows 11 wsl2 활용 설치 가이드",
@@ -1390,8 +1436,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Docusaurus 문서 작성 최신 정렬 스크립트",
-                "permalink": "/software/docusaurus/2024-02-20-docusaurus-autogenerate-list"
+                "title": "appstore connect 앱 스크린샷 업로드 오류를 Curl API를 통해 우회적으로 해결하기",
+                "permalink": "/software/2023-02-13-appstore-connect-curl-api"
               },
               "next": {
                 "title": "Play console 개발자 계정 인증",
@@ -1621,8 +1667,8 @@
                 "permalink": "/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode"
               },
               "next": {
-                "title": "Tensorflow windows 11 설치",
-                "permalink": "/software/2024-02-12-tensorflow-windows-install"
+                "title": "appstore connect 앱 스크린샷 업로드 오류를 Curl API를 통해 우회적으로 해결하기",
+                "permalink": "/software/2023-02-13-appstore-connect-curl-api"
               }
             },
             {
@@ -1837,6 +1883,10 @@
                       "slug": "/category/docusaurus",
                       "permalink": "/category/docusaurus"
                     }
+                  },
+                  {
+                    "type": "doc",
+                    "id": "software/2023-02-13-appstore-connect-curl-api"
                   },
                   {
                     "type": "doc",

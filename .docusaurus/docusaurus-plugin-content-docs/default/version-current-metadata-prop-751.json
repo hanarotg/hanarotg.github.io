@@ -197,6 +197,13 @@
           },
           {
             "type": "link",
+            "label": "appstore connect 앱 스크린샷 업로드 오류를 Curl API를 통해 우회적으로 해결하기",
+            "href": "/en/software/2023-02-13-appstore-connect-curl-api",
+            "docId": "software/2023-02-13-appstore-connect-curl-api",
+            "unlisted": false
+          },
+          {
+            "type": "link",
             "label": "Tensorflow windows 11 설치",
             "href": "/en/software/2024-02-12-tensorflow-windows-install",
             "docId": "software/2024-02-12-tensorflow-windows-install",
@@ -577,6 +584,12 @@
       "id": "react-native/2024-02-29-react-native-speicifc-version-init",
       "title": "React Native 특정 버전으로 프로젝트 시작하기",
       "description": "React Native 특정 버전으로 프로젝트 시작하기",
+      "sidebar": "tutorialSidebar"
+    },
+    "software/2023-02-13-appstore-connect-curl-api": {
+      "id": "software/2023-02-13-appstore-connect-curl-api",
+      "title": "appstore connect 앱 스크린샷 업로드 오류를 Curl API를 통해 우회적으로 해결하기",
+      "description": "appstore connect 앱 스크린샷 업로드 오류를 Curl API를 통해 우회적으로 해결하기",
       "sidebar": "tutorialSidebar"
     },
     "software/2024-02-12-tensorflow-windows-install": {

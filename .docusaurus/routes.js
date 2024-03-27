@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', '3f0'),
+    component: ComponentCreator('/en/', 'c83'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', '4bb'),
+        component: ComponentCreator('/en/', '4d3'),
         routes: [
           {
             path: '/en/tags',
@@ -93,6 +93,11 @@ export default [
           {
             path: '/en/tags/android',
             component: ComponentCreator('/en/tags/android', 'b96'),
+            exact: true
+          },
+          {
+            path: '/en/tags/appstore-connect',
+            component: ComponentCreator('/en/tags/appstore-connect', 'e0d'),
             exact: true
           },
           {
@@ -232,7 +237,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', 'e9d'),
+            component: ComponentCreator('/en/', '318'),
             routes: [
               {
                 path: '/en/android/2023-02-27-upload-cert-with-android-studio',
@@ -477,6 +482,12 @@ export default [
               {
                 path: '/en/react-native/2024-02-29-react-native-speicifc-version-init',
                 component: ComponentCreator('/en/react-native/2024-02-29-react-native-speicifc-version-init', '9af'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/software/2023-02-13-appstore-connect-curl-api',
+                component: ComponentCreator('/en/software/2023-02-13-appstore-connect-curl-api', '1bf'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
