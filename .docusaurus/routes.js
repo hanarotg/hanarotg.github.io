@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', 'c83'),
+    component: ComponentCreator('/en/', 'bb8'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', '4d3'),
+        component: ComponentCreator('/en/', 'fb9'),
         routes: [
           {
             path: '/en/tags',
@@ -237,7 +237,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', '318'),
+            component: ComponentCreator('/en/', 'b31'),
             routes: [
               {
                 path: '/en/android/2023-02-27-upload-cert-with-android-studio',
@@ -464,6 +464,12 @@ export default [
               {
                 path: '/en/react-native/2023-02-12-react-native-android-includefontpadding',
                 component: ComponentCreator('/en/react-native/2023-02-12-react-native-android-includefontpadding', 'adf'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/react-native/2023-02-12-react-native-google-signin-sha-1',
+                component: ComponentCreator('/en/react-native/2023-02-12-react-native-google-signin-sha-1', '416'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

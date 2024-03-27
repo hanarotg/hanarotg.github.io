@@ -37,7 +37,7 @@
     "permalink": "/en/category/react-native"
   },
   "next": {
-    "title": "React Native gradle unsupported claass file major verion 62 error 해결하기",
-    "permalink": "/en/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error"
+    "title": "react-native-google-singin 앱 심사에 통과하기 위한 앱 서명 인증서(SHA-1) 키 적용하기",
+    "permalink": "/en/react-native/2023-02-12-react-native-google-signin-sha-1"
   }
 }

@@ -1,0 +1,40 @@
+{
+  "id": "react-native/2023-02-12-react-native-google-signin-sha-1",
+  "title": "react-native-google-singin 앱 심사에 통과하기 위한 앱 서명 인증서(SHA-1) 키 적용하기",
+  "description": "react-native-google-singin 앱 심사에 통과하기 위한 앱 서명 인증서(SHA-1) 키 적용하기",
+  "source": "@site/docs/react-native/2023-02-12-react-native-google-signin-sha-1.md",
+  "sourceDirName": "react-native",
+  "slug": "/react-native/2023-02-12-react-native-google-signin-sha-1",
+  "permalink": "/en/react-native/2023-02-12-react-native-google-signin-sha-1",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-native/2023-02-12-react-native-google-signin-sha-1.md",
+  "tags": [
+    {
+      "label": "react-native",
+      "permalink": "/en/tags/react-native"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "react-native-google-singin 앱 심사에 통과하기 위한 앱 서명 인증서(SHA-1) 키 적용하기",
+    "description": "react-native-google-singin 앱 심사에 통과하기 위한 앱 서명 인증서(SHA-1) 키 적용하기",
+    "keywords": [
+      "react-native",
+      "react-native-google-singin",
+      "sha-1"
+    ],
+    "tags": [
+      "react-native"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "React Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding 해결하기",
+    "permalink": "/en/react-native/2023-02-12-react-native-android-includefontpadding"
+  },
+  "next": {
+    "title": "React Native gradle unsupported claass file major verion 62 error 해결하기",
+    "permalink": "/en/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error"
+  }
+}

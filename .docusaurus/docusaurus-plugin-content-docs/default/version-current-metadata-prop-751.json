@@ -114,6 +114,13 @@
           },
           {
             "type": "link",
+            "label": "react-native-google-singin 앱 심사에 통과하기 위한 앱 서명 인증서(SHA-1) 키 적용하기",
+            "href": "/en/react-native/2023-02-12-react-native-google-signin-sha-1",
+            "docId": "react-native/2023-02-12-react-native-google-signin-sha-1",
+            "unlisted": false
+          },
+          {
+            "type": "link",
             "label": "React Native gradle unsupported claass file major verion 62 error 해결하기",
             "href": "/en/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error",
             "docId": "react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error",
@@ -566,6 +573,12 @@
       "id": "react-native/2023-02-12-react-native-android-includefontpadding",
       "title": "React Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding 해결하기",
       "description": "React Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding",
+      "sidebar": "tutorialSidebar"
+    },
+    "react-native/2023-02-12-react-native-google-signin-sha-1": {
+      "id": "react-native/2023-02-12-react-native-google-signin-sha-1",
+      "title": "react-native-google-singin 앱 심사에 통과하기 위한 앱 서명 인증서(SHA-1) 키 적용하기",
+      "description": "react-native-google-singin 앱 심사에 통과하기 위한 앱 서명 인증서(SHA-1) 키 적용하기",
       "sidebar": "tutorialSidebar"
     },
     "react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error": {

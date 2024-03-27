@@ -47,13 +47,13 @@
       "plugin": "d3689f3d"
     }
   },
-  "/en/-c83": {
+  "/en/-bb8": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "c74882fd"
     }
   },
-  "/en/-4d3": {
+  "/en/-fb9": {
     "__comp": "a7bd4aaa",
     "version": "935f2afb"
   },
@@ -213,7 +213,7 @@
     "__comp": "df203c0f",
     "tag": "bdf7c89d"
   },
-  "/en/-318": {
+  "/en/-b31": {
     "__comp": "a94703ab"
   },
   "/en/android/2023-02-27-upload-cert-with-android-studio-031": {
@@ -367,6 +367,10 @@
   "/en/react-native/2023-02-12-react-native-android-includefontpadding-adf": {
     "__comp": "17896441",
     "content": "5192856e"
+  },
+  "/en/react-native/2023-02-12-react-native-google-signin-sha-1-416": {
+    "__comp": "17896441",
+    "content": "e0a6bf91"
   },
   "/en/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error-650": {
     "__comp": "17896441",

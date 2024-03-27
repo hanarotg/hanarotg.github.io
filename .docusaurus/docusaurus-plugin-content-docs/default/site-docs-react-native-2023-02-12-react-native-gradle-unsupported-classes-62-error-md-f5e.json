@@ -38,8 +38,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "React Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding 해결하기",
-    "permalink": "/en/react-native/2023-02-12-react-native-android-includefontpadding"
+    "title": "react-native-google-singin 앱 심사에 통과하기 위한 앱 서명 인증서(SHA-1) 키 적용하기",
+    "permalink": "/en/react-native/2023-02-12-react-native-google-signin-sha-1"
   },
   "next": {
     "title": "React Native 개발할 때 알면 좋은 팁",
