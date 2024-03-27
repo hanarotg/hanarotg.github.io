@@ -20,6 +20,9 @@
     }
   ],
   "version": "current",
+  "lastUpdatedBy": "Taegyeong Lee",
+  "lastUpdatedAt": 1711553650,
+  "formattedLastUpdatedAt": "Mar 27, 2024",
   "frontMatter": {
     "title": "React Native gradle unsupported claass file major verion 62 error 해결하기",
     "description": "gradle unsupported claass file major verion 62 error",
@@ -35,8 +38,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "React-Native",
-    "permalink": "/en/category/react-native"
+    "title": "React Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding 해결하기",
+    "permalink": "/en/react-native/2023-02-12-react-native-android-includefontpadding"
   },
   "next": {
     "title": "React Native 특정 버전으로 프로젝트 시작하기",

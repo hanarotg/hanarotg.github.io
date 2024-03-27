@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', '5bd'),
+    component: ComponentCreator('/en/', '729'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', 'd7d'),
+        component: ComponentCreator('/en/', 'af7'),
         routes: [
           {
             path: '/en/tags',
@@ -232,7 +232,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', 'b35'),
+            component: ComponentCreator('/en/', '0c6'),
             routes: [
               {
                 path: '/en/android/2023-02-27-upload-cert-with-android-studio',
@@ -453,6 +453,12 @@ export default [
               {
                 path: '/en/others/tech/2024-03-21-hbm',
                 component: ComponentCreator('/en/others/tech/2024-03-21-hbm', '4b0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/react-native/2023-02-12-react-native-android-includefontpadding',
+                component: ComponentCreator('/en/react-native/2023-02-12-react-native-android-includefontpadding', 'adf'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

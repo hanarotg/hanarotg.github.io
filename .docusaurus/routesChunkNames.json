@@ -47,13 +47,13 @@
       "plugin": "d3689f3d"
     }
   },
-  "/en/-5bd": {
+  "/en/-729": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "c74882fd"
     }
   },
-  "/en/-d7d": {
+  "/en/-af7": {
     "__comp": "a7bd4aaa",
     "version": "935f2afb"
   },
@@ -209,7 +209,7 @@
     "__comp": "df203c0f",
     "tag": "bdf7c89d"
   },
-  "/en/-b35": {
+  "/en/-0c6": {
     "__comp": "a94703ab"
   },
   "/en/android/2023-02-27-upload-cert-with-android-studio-031": {
@@ -359,6 +359,10 @@
   "/en/others/tech/2024-03-21-hbm-4b0": {
     "__comp": "17896441",
     "content": "36085ea1"
+  },
+  "/en/react-native/2023-02-12-react-native-android-includefontpadding-adf": {
+    "__comp": "17896441",
+    "content": "5192856e"
   },
   "/en/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error-650": {
     "__comp": "17896441",

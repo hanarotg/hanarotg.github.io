@@ -107,6 +107,13 @@
         "items": [
           {
             "type": "link",
+            "label": "React Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding 해결하기",
+            "href": "/en/react-native/2023-02-12-react-native-android-includefontpadding",
+            "docId": "react-native/2023-02-12-react-native-android-includefontpadding",
+            "unlisted": false
+          },
+          {
+            "type": "link",
             "label": "React Native gradle unsupported claass file major verion 62 error 해결하기",
             "href": "/en/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error",
             "docId": "react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error",
@@ -539,6 +546,12 @@
       "id": "others/tech/2024-03-21-hbm",
       "title": "HBM",
       "description": "HBM",
+      "sidebar": "tutorialSidebar"
+    },
+    "react-native/2023-02-12-react-native-android-includefontpadding": {
+      "id": "react-native/2023-02-12-react-native-android-includefontpadding",
+      "title": "React Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding 해결하기",
+      "description": "React Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding",
       "sidebar": "tutorialSidebar"
     },
     "react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error": {
