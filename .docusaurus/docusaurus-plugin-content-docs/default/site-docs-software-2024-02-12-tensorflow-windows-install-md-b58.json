@@ -37,8 +37,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "appstore connect 앱 스크린샷 업로드 오류를 Curl API를 통해 우회적으로 해결하기",
-    "permalink": "/en/software/2023-02-13-appstore-connect-curl-api"
+    "title": "MacOS Homebrew로 node 버전 바꾸기",
+    "permalink": "/en/software/2023-02-13-macos-homebrew-node-version-change"
   },
   "next": {
     "title": "Play console 개발자 계정 인증",

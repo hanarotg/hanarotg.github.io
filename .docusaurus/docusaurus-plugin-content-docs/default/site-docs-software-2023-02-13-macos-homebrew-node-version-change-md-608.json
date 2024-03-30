@@ -1,0 +1,52 @@
+{
+  "id": "software/2023-02-13-macos-homebrew-node-version-change",
+  "title": "MacOS Homebrew로 node 버전 바꾸기",
+  "description": "MacOS Homebrew로 node 버전 바꾸기",
+  "source": "@site/docs/software/2023-02-13-macos-homebrew-node-version-change.md",
+  "sourceDirName": "software",
+  "slug": "/software/2023-02-13-macos-homebrew-node-version-change",
+  "permalink": "/en/software/2023-02-13-macos-homebrew-node-version-change",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/2023-02-13-macos-homebrew-node-version-change.md",
+  "tags": [
+    {
+      "label": "MacOS",
+      "permalink": "/en/tags/mac-os"
+    },
+    {
+      "label": "homebrew",
+      "permalink": "/en/tags/homebrew"
+    },
+    {
+      "label": "node",
+      "permalink": "/en/tags/node"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "MacOS Homebrew로 node 버전 바꾸기",
+    "description": "MacOS Homebrew로 node 버전 바꾸기",
+    "keywords": [
+      "MacOS",
+      "Homebrew",
+      "node",
+      "버전",
+      "바꾸기"
+    ],
+    "tags": [
+      "MacOS",
+      "homebrew",
+      "node"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "appstore connect 앱 스크린샷 업로드 오류를 Curl API를 통해 우회적으로 해결하기",
+    "permalink": "/en/software/2023-02-13-appstore-connect-curl-api"
+  },
+  "next": {
+    "title": "Tensorflow windows 11 설치",
+    "permalink": "/en/software/2024-02-12-tensorflow-windows-install"
+  }
+}

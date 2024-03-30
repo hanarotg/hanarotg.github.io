@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', '5a5'),
+    component: ComponentCreator('/en/', '2ec'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', '005'),
+        component: ComponentCreator('/en/', 'c23'),
         routes: [
           {
             path: '/en/tags',
@@ -171,6 +171,11 @@ export default [
             exact: true
           },
           {
+            path: '/en/tags/homebrew',
+            component: ComponentCreator('/en/tags/homebrew', 'f0c'),
+            exact: true
+          },
+          {
             path: '/en/tags/interconnection',
             component: ComponentCreator('/en/tags/interconnection', 'fb2'),
             exact: true
@@ -186,8 +191,18 @@ export default [
             exact: true
           },
           {
+            path: '/en/tags/mac-os',
+            component: ComponentCreator('/en/tags/mac-os', 'e06'),
+            exact: true
+          },
+          {
             path: '/en/tags/nightshade',
             component: ComponentCreator('/en/tags/nightshade', '685'),
+            exact: true
+          },
+          {
+            path: '/en/tags/node',
+            component: ComponentCreator('/en/tags/node', '33a'),
             exact: true
           },
           {
@@ -242,7 +257,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', 'ba1'),
+            component: ComponentCreator('/en/', '555'),
             routes: [
               {
                 path: '/en/android/2023-02-27-upload-cert-with-android-studio',
@@ -523,6 +538,12 @@ export default [
               {
                 path: '/en/software/2023-02-13-appstore-connect-curl-api',
                 component: ComponentCreator('/en/software/2023-02-13-appstore-connect-curl-api', '1bf'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/software/2023-02-13-macos-homebrew-node-version-change',
+                component: ComponentCreator('/en/software/2023-02-13-macos-homebrew-node-version-change', '68b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

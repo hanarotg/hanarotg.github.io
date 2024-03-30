@@ -232,6 +232,13 @@
           },
           {
             "type": "link",
+            "label": "MacOS Homebrew로 node 버전 바꾸기",
+            "href": "/en/software/2023-02-13-macos-homebrew-node-version-change",
+            "docId": "software/2023-02-13-macos-homebrew-node-version-change",
+            "unlisted": false
+          },
+          {
+            "type": "link",
             "label": "Tensorflow windows 11 설치",
             "href": "/en/software/2024-02-12-tensorflow-windows-install",
             "docId": "software/2024-02-12-tensorflow-windows-install",
@@ -658,6 +665,12 @@
       "id": "software/2023-02-13-appstore-connect-curl-api",
       "title": "appstore connect 앱 스크린샷 업로드 오류를 Curl API를 통해 우회적으로 해결하기",
       "description": "appstore connect 앱 스크린샷 업로드 오류를 Curl API를 통해 우회적으로 해결하기",
+      "sidebar": "tutorialSidebar"
+    },
+    "software/2023-02-13-macos-homebrew-node-version-change": {
+      "id": "software/2023-02-13-macos-homebrew-node-version-change",
+      "title": "MacOS Homebrew로 node 버전 바꾸기",
+      "description": "MacOS Homebrew로 node 버전 바꾸기",
       "sidebar": "tutorialSidebar"
     },
     "software/2024-02-12-tensorflow-windows-install": {

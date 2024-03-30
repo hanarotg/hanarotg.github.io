@@ -1,0 +1,15 @@
+{
+  "label": "homebrew",
+  "permalink": "/tags/homebrew",
+  "allTagsPath": "/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "software/2023-02-13-macos-homebrew-node-version-change",
+      "title": "MacOS Homebrew로 node 버전 바꾸기",
+      "description": "MacOS Homebrew로 node 버전 바꾸기",
+      "permalink": "/software/2023-02-13-macos-homebrew-node-version-change"
+    }
+  ],
+  "unlisted": false
+}

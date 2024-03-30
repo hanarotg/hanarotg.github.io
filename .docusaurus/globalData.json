@@ -206,6 +206,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "software/2023-02-13-macos-homebrew-node-version-change",
+              "path": "/en/software/2023-02-13-macos-homebrew-node-version-change",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "software/2024-02-12-tensorflow-windows-install",
               "path": "/en/software/2024-02-12-tensorflow-windows-install",
               "sidebar": "tutorialSidebar"

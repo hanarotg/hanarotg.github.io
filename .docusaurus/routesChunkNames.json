@@ -47,13 +47,13 @@
       "plugin": "d3689f3d"
     }
   },
-  "/en/-5a5": {
+  "/en/-2ec": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "c74882fd"
     }
   },
-  "/en/-005": {
+  "/en/-c23": {
     "__comp": "a7bd4aaa",
     "version": "935f2afb"
   },
@@ -161,6 +161,10 @@
     "__comp": "df203c0f",
     "tag": "51354f82"
   },
+  "/en/tags/homebrew-f0c": {
+    "__comp": "df203c0f",
+    "tag": "d4876b7a"
+  },
   "/en/tags/interconnection-fb2": {
     "__comp": "df203c0f",
     "tag": "e3c390cc"
@@ -173,9 +177,17 @@
     "__comp": "df203c0f",
     "tag": "2d11e8e2"
   },
+  "/en/tags/mac-os-e06": {
+    "__comp": "df203c0f",
+    "tag": "4a2a4ada"
+  },
   "/en/tags/nightshade-685": {
     "__comp": "df203c0f",
     "tag": "8f5a38b6"
+  },
+  "/en/tags/node-33a": {
+    "__comp": "df203c0f",
+    "tag": "6ce44fd1"
   },
   "/en/tags/opensource-138": {
     "__comp": "df203c0f",
@@ -217,7 +229,7 @@
     "__comp": "df203c0f",
     "tag": "bdf7c89d"
   },
-  "/en/-ba1": {
+  "/en/-555": {
     "__comp": "a94703ab"
   },
   "/en/android/2023-02-27-upload-cert-with-android-studio-031": {
@@ -407,6 +419,10 @@
   "/en/software/2023-02-13-appstore-connect-curl-api-1bf": {
     "__comp": "17896441",
     "content": "11631d8e"
+  },
+  "/en/software/2023-02-13-macos-homebrew-node-version-change-68b": {
+    "__comp": "17896441",
+    "content": "6087d4ed"
   },
   "/en/software/2024-02-12-tensorflow-windows-install-757": {
     "__comp": "17896441",

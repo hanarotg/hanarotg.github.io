@@ -6,7 +6,7 @@ sidebar_position: 1
 ## 작성자
 안녕하세요, 이태경입니다.
 - [`깃허브`](https://github.com/hanarotg) [`링크드인`](https://linkedin.com/in/hanarotg) [`이메일`](mailto:hanarotg@naver.com)
-## 문서 목록 (43)
+## 문서 목록 (44)
 <details open>
 <summary>2024년</summary>
 <div>
@@ -54,6 +54,7 @@ sidebar_position: 1
 - 4월 26일 [kotlin nullability](/android/kotlin/2023-04-26-kotlin-nullability.html)
 - 2월 27일 [안드로이드 업로드 키, 인증서 재설정하기](/android/2023-02-27-upload-cert-with-android-studio.html)
 - 2월 13일 [appstore connect 앱 스크린샷 업로드 오류를 Curl API를 통해 우회적으로 해결하기](/software/2023-02-13-appstore-connect-curl-api.html)
+- 2월 13일 [MacOS Homebrew로 node 버전 바꾸기](/software/2023-02-13-macos-homebrew-node-version-change.html)
 - 2월 12일 [React-Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding 해결하기](/react-native/2023-02-12-react-native-android-includefontpadding.html)
 - 2월 12일 [react-native-google-singin 앱 심사에 통과하기 위한 앱 서명 인증서(SHA-1) 키 적용하기](/react-native/2023-02-12-react-native-google-signin-sha-1.html)
 - 2월 12일 [React-Native gradle unsupported claass file major verion 62 error 해결하기](/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error.html)
