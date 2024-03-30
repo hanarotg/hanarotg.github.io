@@ -1396,6 +1396,49 @@
                 "permalink": "/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error"
               },
               "next": {
+                "title": "Pressable 컴포넌트로 재사용 가능한 버튼 구성하기",
+                "permalink": "/react-native/2024-02-12-react-native-reusable-pressable"
+              }
+            },
+            {
+              "id": "react-native/2024-02-12-react-native-reusable-pressable",
+              "title": "Pressable 컴포넌트로 재사용 가능한 버튼 구성하기",
+              "description": "Pressable 컴포넌트로 재사용 가능한 버튼 구성하기",
+              "source": "@site/docs/react-native/2024-02-12-react-native-reusable-pressable.md",
+              "sourceDirName": "react-native",
+              "slug": "/react-native/2024-02-12-react-native-reusable-pressable",
+              "permalink": "/react-native/2024-02-12-react-native-reusable-pressable",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-native/2024-02-12-react-native-reusable-pressable.md",
+              "tags": [
+                {
+                  "label": "react-native",
+                  "permalink": "/tags/react-native"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "Pressable 컴포넌트로 재사용 가능한 버튼 구성하기",
+                "description": "Pressable 컴포넌트로 재사용 가능한 버튼 구성하기",
+                "keywords": [
+                  "react-native",
+                  "pressable",
+                  "재사용"
+                ],
+                "tags": [
+                  "react-native"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "React Native 개발할 때 알면 좋은 팁",
+                "permalink": "/react-native/2023-02-12-react-native-tips"
+              },
+              "next": {
                 "title": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",
                 "permalink": "/react-native/2024-02-12-react-native-webview-android-webview-error"
               }
@@ -1434,8 +1477,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "React Native 개발할 때 알면 좋은 팁",
-                "permalink": "/react-native/2023-02-12-react-native-tips"
+                "title": "Pressable 컴포넌트로 재사용 가능한 버튼 구성하기",
+                "permalink": "/react-native/2024-02-12-react-native-reusable-pressable"
               },
               "next": {
                 "title": "React Native 특정 버전으로 프로젝트 시작하기",
@@ -1955,6 +1998,10 @@
                   {
                     "type": "doc",
                     "id": "react-native/2023-02-12-react-native-tips"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "react-native/2024-02-12-react-native-reusable-pressable"
                   },
                   {
                     "type": "doc",

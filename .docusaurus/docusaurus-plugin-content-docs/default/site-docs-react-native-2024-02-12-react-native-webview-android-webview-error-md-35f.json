@@ -16,6 +16,9 @@
     }
   ],
   "version": "current",
+  "lastUpdatedBy": "Taegyeong Lee",
+  "lastUpdatedAt": 1711806309,
+  "formattedLastUpdatedAt": "Mar 30, 2024",
   "frontMatter": {
     "title": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",
     "description": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",
@@ -29,7 +32,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",
+    "title": "Pressable 컴포넌트로 재사용 가능한 버튼 구성하기",
     "permalink": "/en/react-native/2024-02-12-react-native-reusable-pressable"
   },
   "next": {

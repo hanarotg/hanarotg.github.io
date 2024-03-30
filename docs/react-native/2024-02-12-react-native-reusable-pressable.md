@@ -1,62 +1,63 @@
 ---
-title: react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제
-description: react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제
-keywords: ["react-native", "react-native-webview"]
+title: Pressable 컴포넌트로 재사용 가능한 버튼 구성하기
+description: Pressable 컴포넌트로 재사용 가능한 버튼 구성하기
+keywords: ["react-native", "pressable", "재사용"]
 tags: ["react-native"]
 ---
 
-# react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제
+# Pressable 컴포넌트로 재사용 가능한 버튼 구성하기
 
 ## 개요
 
-앱 내 웹뷰를 이식하려고 했습니다. 웹뷰를 사용하기 위해 react-native-webview 라이브러리를 사용하려 했으나.. 안드로이드 플랫폼에서 정상적으로 출력이 되지 않았습니다.
+Presssable 컴포넌트는 RN 앱 개발을 위해 반드시 알아야 하는 컴포넌트입니다.
 
-빈 공간만 출력되었습니다.
+press 상호작용에 관한 기능을 제공하는 컴포넌트이기 때문에 적절히 커스텀해서 버튼 등의 기능을 대신할 수 있습니다. (RN 기본 컴포넌트 Button 컴포넌트는 너무 빈약합니다.)
 
-IOS 플랫폼에선 정상적으로 원하는 웹뷰가 출력되었습니다. 안드로이드 플랫폼에서만 발생하는 문제였습니다.
+## 구성
 
-깃허브 issue 항목에 비슷한 문제에 대한 해결 방법을 찾을 수 있었습니다.
+그러나 Pressable을 재사용 가능한 버튼으로 바로 사용하기에는 난감한 문제들이 있습니다.
 
-## 상위 컴포넌트 없이 리턴
-
-View 나 ScrollView 같은 상위 컴포넌트가 존재할 때 리턴하는 경우 발생하는 문제였습니다.
-
-### 잘못된 예
+버튼 뿐만 아니라 기타 press event에도 대응하기 위해(버튼 그 이상의 목적으로 광범위한 용도를 위해) 만들어졌기 때문입니다.
 
 ```jsx
-return (
-  <View>
-    <WebView
-      startInLoadingState={true}
-      source={{ uri: "https://reactnative.dev/" }}
-    />
-  </View>
-);
+import React from "react";
+import { Pressable, Text } from "react-native";
+
+const ButtonCustom = ({ onPress, text, type, line }) => {
+  return (
+    <Pressable
+      onPress={onPress}
+      style={({ pressed }) => [
+        {
+          // 모든 버튼이 공유하는 고정값
+          padding: 14,
+          borderRadius: 10,
+          borderWidth: 1,
+          alignItems: "center",
+          // 받은 인자에 따라 변화하는 값
+          borderColor: line ? line : color,
+          backgroundColor: pressed ? color : "#ffffff",
+        },
+      ]}
+    >
+      <Text style={{ color: color }}>{text}</Text>
+    </Pressable>
+  );
+};
+
+export default ButtonCustom;
 ```
 
-### 올바른 예
+## 사용 예
 
 ```jsx
-return <WebView source={{ uri: "https://reactnative.dev/" }} />;
+<View style={{ paddingBottom: 10 }}>
+  <ButtonCustom
+    text="도서 상세 정보"
+    type="primary"
+    onPress={() => {
+      Linking.openURL(book && book.url);
+    }}
+  />
+</View>
 ```
-
-## WebSize 옵션 추가(선택)
-
-webview의 width 와 height 를 명시하고 startInLoadingState 옵션을 설정합니다.
-
-```jsx
-<WebView
-  style={{
-    marginTop: 20,
-    width: Dimensions.get("window").width,
-    height: Dimensions.get("window").height,
-  }}
-  startInLoadingState={true}
-  source={{ uri: "https://reactnative.dev/" }}
-/>
-```
-
-## 참고
-
-- https://github.com/react-native-webview/react-native-webview/issues/1426#issuecomment-1207378759
-- https://github.com/react-native-webview/react-native-webview/issues/1426

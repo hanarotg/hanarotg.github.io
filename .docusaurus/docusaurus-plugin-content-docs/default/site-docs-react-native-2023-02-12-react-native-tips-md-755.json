@@ -35,7 +35,7 @@
     "permalink": "/en/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error"
   },
   "next": {
-    "title": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",
+    "title": "Pressable 컴포넌트로 재사용 가능한 버튼 구성하기",
     "permalink": "/en/react-native/2024-02-12-react-native-reusable-pressable"
   }
 }

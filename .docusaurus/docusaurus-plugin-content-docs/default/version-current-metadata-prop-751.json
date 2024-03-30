@@ -135,7 +135,7 @@
           },
           {
             "type": "link",
-            "label": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",
+            "label": "Pressable 컴포넌트로 재사용 가능한 버튼 구성하기",
             "href": "/en/react-native/2024-02-12-react-native-reusable-pressable",
             "docId": "react-native/2024-02-12-react-native-reusable-pressable",
             "unlisted": false
@@ -631,8 +631,8 @@
     },
     "react-native/2024-02-12-react-native-reusable-pressable": {
       "id": "react-native/2024-02-12-react-native-reusable-pressable",
-      "title": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",
-      "description": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",
+      "title": "Pressable 컴포넌트로 재사용 가능한 버튼 구성하기",
+      "description": "Pressable 컴포넌트로 재사용 가능한 버튼 구성하기",
       "sidebar": "tutorialSidebar"
     },
     "react-native/2024-02-12-react-native-webview-android-webview-error": {
