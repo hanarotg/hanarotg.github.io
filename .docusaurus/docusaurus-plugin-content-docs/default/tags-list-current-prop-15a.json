@@ -2,7 +2,7 @@
   {
     "label": "android",
     "permalink": "/en/tags/android",
-    "count": 4
+    "count": 5
   },
   {
     "label": "gradle",
@@ -107,6 +107,16 @@
   {
     "label": "checked",
     "permalink": "/en/tags/checked",
+    "count": 1
+  },
+  {
+    "label": "ios",
+    "permalink": "/en/tags/ios",
+    "count": 1
+  },
+  {
+    "label": "soongfi",
+    "permalink": "/en/tags/soongfi",
     "count": 1
   },
   {

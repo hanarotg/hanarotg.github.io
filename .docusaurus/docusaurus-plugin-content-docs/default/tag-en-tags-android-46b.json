@@ -2,13 +2,19 @@
   "label": "android",
   "permalink": "/en/tags/android",
   "allTagsPath": "/en/tags",
-  "count": 4,
+  "count": 5,
   "items": [
     {
       "id": "android/2024-01-28-build-release-android-app",
       "title": "배포용 안드로이드 앱 번들 빌드하기",
       "description": "안드로이드 스튜디오를 활용해서 배포용 안드로이드 앱 번들을 빌드해 보겠습니다.",
       "permalink": "/en/android/2024-01-28-build-release-android-app"
+    },
+    {
+      "id": "others/portfolio/2023-08-06-soongfi",
+      "title": "숭파이 숭실대 인터넷 문제 해결 앱",
+      "description": "숭파이 숭실대 인터넷 문제 해결 앱",
+      "permalink": "/en/others/portfolio/2023-08-06-soongfi"
     },
     {
       "id": "android/2023-06-24-gradle-in-android",

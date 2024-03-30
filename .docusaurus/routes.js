@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', '2ec'),
+    component: ComponentCreator('/en/', 'b09'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', 'c23'),
+        component: ComponentCreator('/en/', 'b78'),
         routes: [
           {
             path: '/en/tags',
@@ -181,6 +181,11 @@ export default [
             exact: true
           },
           {
+            path: '/en/tags/ios',
+            component: ComponentCreator('/en/tags/ios', 'e64'),
+            exact: true
+          },
+          {
             path: '/en/tags/kotlin',
             component: ComponentCreator('/en/tags/kotlin', '609'),
             exact: true
@@ -226,6 +231,11 @@ export default [
             exact: true
           },
           {
+            path: '/en/tags/soongfi',
+            component: ComponentCreator('/en/tags/soongfi', 'c78'),
+            exact: true
+          },
+          {
             path: '/en/tags/sort',
             component: ComponentCreator('/en/tags/sort', '26b'),
             exact: true
@@ -257,7 +267,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', '555'),
+            component: ComponentCreator('/en/', '30c'),
             routes: [
               {
                 path: '/en/android/2023-02-27-upload-cert-with-android-studio',
@@ -460,6 +470,12 @@ export default [
               {
                 path: '/en/others/portfolio/2023-08-06-checked',
                 component: ComponentCreator('/en/others/portfolio/2023-08-06-checked', 'f96'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/others/portfolio/2023-08-06-soongfi',
+                component: ComponentCreator('/en/others/portfolio/2023-08-06-soongfi', 'b7a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
