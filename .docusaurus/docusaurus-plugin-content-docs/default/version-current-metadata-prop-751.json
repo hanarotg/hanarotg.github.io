@@ -165,10 +165,17 @@
         "items": [
           {
             "type": "category",
-            "label": "Linux",
+            "label": "python",
             "collapsible": true,
             "collapsed": true,
             "items": [
+              {
+                "type": "link",
+                "label": "python 다차원 리스트 생성",
+                "href": "/en/software/python/2023-02-12-python-multi-list",
+                "docId": "software/python/2023-02-12-python-multi-list",
+                "unlisted": false
+              },
               {
                 "type": "link",
                 "label": "python nuhup 백그라운드 실행",
@@ -177,7 +184,7 @@
                 "unlisted": false
               }
             ],
-            "href": "/en/category/linux"
+            "href": "/en/category/python"
           },
           {
             "type": "category",
@@ -687,6 +694,12 @@
       "id": "software/docusaurus/2024-02-20-docusaurus-autogenerate-list",
       "title": "Docusaurus 문서 작성 최신 정렬 스크립트",
       "description": "Docusaurus 문서 작성 최신 정렬 스크립트",
+      "sidebar": "tutorialSidebar"
+    },
+    "software/python/2023-02-12-python-multi-list": {
+      "id": "software/python/2023-02-12-python-multi-list",
+      "title": "python 다차원 리스트 생성",
+      "description": "python 다차원 리스트 생성",
       "sidebar": "tutorialSidebar"
     },
     "software/python/2024-01-30-python-background": {

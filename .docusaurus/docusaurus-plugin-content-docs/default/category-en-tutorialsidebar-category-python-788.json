@@ -1,0 +1,16 @@
+{
+  "title": "python",
+  "description": "파이썬",
+  "slug": "/category/python",
+  "permalink": "/en/category/python",
+  "navigation": {
+    "previous": {
+      "title": "Software",
+      "permalink": "/en/category/software"
+    },
+    "next": {
+      "title": "python 다차원 리스트 생성",
+      "permalink": "/en/software/python/2023-02-12-python-multi-list"
+    }
+  }
+}

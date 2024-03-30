@@ -37,8 +37,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Linux",
-    "permalink": "/en/category/linux"
+    "title": "python 다차원 리스트 생성",
+    "permalink": "/en/software/python/2023-02-12-python-multi-list"
   },
   "next": {
     "title": "Docusaurus",

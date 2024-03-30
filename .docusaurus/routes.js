@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', '421'),
+    component: ComponentCreator('/en/', '5a5'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', '900'),
+        component: ComponentCreator('/en/', '005'),
         routes: [
           {
             path: '/en/tags',
@@ -242,7 +242,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', 'ef4'),
+            component: ComponentCreator('/en/', 'ba1'),
             routes: [
               {
                 path: '/en/android/2023-02-27-upload-cert-with-android-studio',
@@ -323,12 +323,6 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/en/category/linux',
-                component: ComponentCreator('/en/category/linux', '2d7'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
                 path: '/en/category/others',
                 component: ComponentCreator('/en/category/others', '3a5'),
                 exact: true,
@@ -337,6 +331,12 @@ export default [
               {
                 path: '/en/category/portfolio',
                 component: ComponentCreator('/en/category/portfolio', '81b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/category/python',
+                component: ComponentCreator('/en/category/python', 'cb1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -559,6 +559,12 @@ export default [
               {
                 path: '/en/software/docusaurus/2024-02-20-docusaurus-autogenerate-list',
                 component: ComponentCreator('/en/software/docusaurus/2024-02-20-docusaurus-autogenerate-list', '3db'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/software/python/2023-02-12-python-multi-list',
+                component: ComponentCreator('/en/software/python/2023-02-12-python-multi-list', '5f7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

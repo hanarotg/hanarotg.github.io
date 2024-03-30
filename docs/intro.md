@@ -6,7 +6,7 @@ sidebar_position: 1
 ## 작성자
 안녕하세요, 이태경입니다.
 - [`깃허브`](https://github.com/hanarotg) [`링크드인`](https://linkedin.com/in/hanarotg) [`이메일`](mailto:hanarotg@naver.com)
-## 문서 목록 (42)
+## 문서 목록 (43)
 <details open>
 <summary>2024년</summary>
 <div>
@@ -58,6 +58,7 @@ sidebar_position: 1
 - 2월 12일 [react-native-google-singin 앱 심사에 통과하기 위한 앱 서명 인증서(SHA-1) 키 적용하기](/react-native/2023-02-12-react-native-google-signin-sha-1.html)
 - 2월 12일 [React-Native gradle unsupported claass file major verion 62 error 해결하기](/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error.html)
 - 2월 12일 [React-Native 개발할 때 알면 좋은 팁](/react-native/2023-02-12-react-native-tips.html)
+- 2월 12일 [python 다차원 리스트 생성](/software/python/2023-02-12-python-multi-list.html)
 
 </div>
 </details>
