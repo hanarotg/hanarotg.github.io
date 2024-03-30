@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', 'edb'),
+    component: ComponentCreator('/en/', '421'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', '77f'),
+        component: ComponentCreator('/en/', '900'),
         routes: [
           {
             path: '/en/tags',
@@ -242,7 +242,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', 'f8c'),
+            component: ComponentCreator('/en/', 'ef4'),
             routes: [
               {
                 path: '/en/android/2023-02-27-upload-cert-with-android-studio',
@@ -499,6 +499,18 @@ export default [
               {
                 path: '/en/react-native/2023-02-12-react-native-tips',
                 component: ComponentCreator('/en/react-native/2023-02-12-react-native-tips', '04e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/react-native/2024-02-12-react-native-reusable-pressable',
+                component: ComponentCreator('/en/react-native/2024-02-12-react-native-reusable-pressable', 'fa2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/react-native/2024-02-12-react-native-webview-android-webview-error',
+                component: ComponentCreator('/en/react-native/2024-02-12-react-native-webview-android-webview-error', 'a06'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

@@ -20,6 +20,9 @@
     }
   ],
   "version": "current",
+  "lastUpdatedBy": "Taegyeong Lee",
+  "lastUpdatedAt": 1711557401,
+  "formattedLastUpdatedAt": "Mar 27, 2024",
   "frontMatter": {
     "title": "체크드 독서 기록 앱",
     "description": "react native 체크드 독서 기록 앱",

@@ -1,16 +1,16 @@
 {
-  "docusaurus-plugin-google-tag-manager": {
-    "default": {
-      "containerId": "GTM-5SML85MT",
-      "id": "default"
-    }
-  },
   "docusaurus-plugin-google-gtag": {
     "default": {
       "trackingID": [
         "G-PSM1SDYJFY"
       ],
       "anonymizeIP": false,
+      "id": "default"
+    }
+  },
+  "docusaurus-plugin-google-tag-manager": {
+    "default": {
+      "containerId": "GTM-5SML85MT",
       "id": "default"
     }
   },
@@ -183,6 +183,16 @@
             {
               "id": "react-native/2023-02-12-react-native-tips",
               "path": "/en/react-native/2023-02-12-react-native-tips",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react-native/2024-02-12-react-native-reusable-pressable",
+              "path": "/en/react-native/2024-02-12-react-native-reusable-pressable",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react-native/2024-02-12-react-native-webview-android-webview-error",
+              "path": "/en/react-native/2024-02-12-react-native-webview-android-webview-error",
               "sidebar": "tutorialSidebar"
             },
             {

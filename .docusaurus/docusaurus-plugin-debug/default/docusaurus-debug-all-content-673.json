@@ -1396,6 +1396,48 @@
                 "permalink": "/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error"
               },
               "next": {
+                "title": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",
+                "permalink": "/react-native/2024-02-12-react-native-webview-android-webview-error"
+              }
+            },
+            {
+              "id": "react-native/2024-02-12-react-native-webview-android-webview-error",
+              "title": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",
+              "description": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",
+              "source": "@site/docs/react-native/2024-02-12-react-native-webview-android-webview-error.md",
+              "sourceDirName": "react-native",
+              "slug": "/react-native/2024-02-12-react-native-webview-android-webview-error",
+              "permalink": "/react-native/2024-02-12-react-native-webview-android-webview-error",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-native/2024-02-12-react-native-webview-android-webview-error.md",
+              "tags": [
+                {
+                  "label": "react-native",
+                  "permalink": "/tags/react-native"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",
+                "description": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",
+                "keywords": [
+                  "react-native",
+                  "react-native-webview"
+                ],
+                "tags": [
+                  "react-native"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "React Native 개발할 때 알면 좋은 팁",
+                "permalink": "/react-native/2023-02-12-react-native-tips"
+              },
+              "next": {
                 "title": "React Native 특정 버전으로 프로젝트 시작하기",
                 "permalink": "/react-native/2024-02-29-react-native-speicifc-version-init"
               }
@@ -1435,8 +1477,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "React Native 개발할 때 알면 좋은 팁",
-                "permalink": "/react-native/2023-02-12-react-native-tips"
+                "title": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",
+                "permalink": "/react-native/2024-02-12-react-native-webview-android-webview-error"
               },
               "next": {
                 "title": "Software",
@@ -1913,6 +1955,10 @@
                   {
                     "type": "doc",
                     "id": "react-native/2023-02-12-react-native-tips"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "react-native/2024-02-12-react-native-webview-android-webview-error"
                   },
                   {
                     "type": "doc",
