@@ -5,8 +5,8 @@
   "permalink": "/category/cpp",
   "navigation": {
     "previous": {
-      "title": "백준 1167 트리의 지름 C++ 문제 풀이",
-      "permalink": "/computer-science/algorithm/2024-03-06-boj-1167"
+      "title": "대각선에 위치한 좌표 체크하기",
+      "permalink": "/computer-science/algorithm/2024-04-07-digonal-check"
     },
     "next": {
       "title": "C++ 벡터 참조 호출",

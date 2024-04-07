@@ -1,0 +1,39 @@
+{
+  "id": "computer-science/algorithm/2024-04-07-digonal-check",
+  "title": "대각선에 위치한 좌표 체크하기",
+  "description": "대각선에 위치한 좌표 체크하기",
+  "source": "@site/docs/computer-science/algorithm/2024-04-07-digonal-check.md",
+  "sourceDirName": "computer-science/algorithm",
+  "slug": "/computer-science/algorithm/2024-04-07-digonal-check",
+  "permalink": "/en/computer-science/algorithm/2024-04-07-digonal-check",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/algorithm/2024-04-07-digonal-check.md",
+  "tags": [
+    {
+      "label": "대각선",
+      "permalink": "/en/tags/대각선"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "대각선에 위치한 좌표 체크하기",
+    "description": "대각선에 위치한 좌표 체크하기",
+    "keywords": [
+      "대각선",
+      "좌표"
+    ],
+    "tags": [
+      "대각선"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "백준 1167 트리의 지름 C++ 문제 풀이",
+    "permalink": "/en/computer-science/algorithm/2024-03-06-boj-1167"
+  },
+  "next": {
+    "title": "cpp",
+    "permalink": "/en/category/cpp"
+  }
+}

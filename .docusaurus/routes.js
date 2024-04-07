@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', 'b09'),
+    component: ComponentCreator('/en/', '18e'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', 'b78'),
+        component: ComponentCreator('/en/', '8e3'),
         routes: [
           {
             path: '/en/tags',
@@ -68,6 +68,11 @@ export default [
           {
             path: '/en/tags/다익스트라',
             component: ComponentCreator('/en/tags/다익스트라', '97b'),
+            exact: true
+          },
+          {
+            path: '/en/tags/대각선',
+            component: ComponentCreator('/en/tags/대각선', '02f'),
             exact: true
           },
           {
@@ -267,7 +272,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', '30c'),
+            component: ComponentCreator('/en/', '6b5'),
             routes: [
               {
                 path: '/en/android/2023-02-27-upload-cert-with-android-studio',
@@ -416,6 +421,12 @@ export default [
               {
                 path: '/en/computer-science/algorithm/2024-03-06-boj-1167',
                 component: ComponentCreator('/en/computer-science/algorithm/2024-03-06-boj-1167', '7d8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/computer-science/algorithm/2024-04-07-digonal-check',
+                component: ComponentCreator('/en/computer-science/algorithm/2024-04-07-digonal-check', '8f1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

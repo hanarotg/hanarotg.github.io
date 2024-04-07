@@ -6,10 +6,11 @@ sidebar_position: 1
 ## 작성자
 안녕하세요, 이태경입니다.
 - [`깃허브`](https://github.com/hanarotg) [`링크드인`](https://linkedin.com/in/hanarotg) [`이메일`](mailto:hanarotg@naver.com)
-## 문서 목록 (45)
+## 문서 목록 (46)
 <details open>
 <summary>2024년</summary>
 <div>
+- 4월 7일 [대각선에 위치한 좌표 체크하기](/computer-science/algorithm/2024-04-07-digonal-check.html)
 - 3월 21일 [flutter Futurebuilder Future 객체 리로드 시 상태 반영하기](/flutter/2024-03-21-flutter-futurebuilder-reload.html)
 - 3월 21일 [HBM (High Bandwidth Memory)](/others/tech/2024-03-21-hbm.html)
 - 3월 17일 [워터폴 (Waterfall)](/others/life/2024-03-17-lp-gp-waterfall.html)

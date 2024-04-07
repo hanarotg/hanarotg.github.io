@@ -314,6 +314,13 @@
                 "href": "/en/computer-science/algorithm/2024-03-06-boj-1167",
                 "docId": "computer-science/algorithm/2024-03-06-boj-1167",
                 "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "대각선에 위치한 좌표 체크하기",
+                "href": "/en/computer-science/algorithm/2024-04-07-digonal-check",
+                "docId": "computer-science/algorithm/2024-04-07-digonal-check",
+                "unlisted": false
               }
             ],
             "href": "/en/category/algorithm"
@@ -534,6 +541,12 @@
       "id": "computer-science/algorithm/2024-03-06-boj-1167",
       "title": "백준 1167 트리의 지름 C++ 문제 풀이",
       "description": "백준 1167 트리의 지름 C++ 문제 풀이",
+      "sidebar": "tutorialSidebar"
+    },
+    "computer-science/algorithm/2024-04-07-digonal-check": {
+      "id": "computer-science/algorithm/2024-04-07-digonal-check",
+      "title": "대각선에 위치한 좌표 체크하기",
+      "description": "대각선에 위치한 좌표 체크하기",
       "sidebar": "tutorialSidebar"
     },
     "computer-science/cpp/2024-02-15-cpp-vector-parameter-as-ref": {
