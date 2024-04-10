@@ -5,8 +5,8 @@
   "permalink": "/category/cpp",
   "navigation": {
     "previous": {
-      "title": "대각선에 위치한 좌표 체크하기",
-      "permalink": "/computer-science/algorithm/2024-04-07-digonal-check"
+      "title": "알고리즘 메모리 제한 벡터 크기 어림잡기",
+      "permalink": "/computer-science/algorithm/2024-04-10-memory-vector-size"
     },
     "next": {
       "title": "C++ 벡터 참조 호출",

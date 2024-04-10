@@ -47,13 +47,13 @@
       "plugin": "d3689f3d"
     }
   },
-  "/en/-18e": {
+  "/en/-e86": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "c74882fd"
     }
   },
-  "/en/-8e3": {
+  "/en/-664": {
     "__comp": "a7bd4aaa",
     "version": "935f2afb"
   },
@@ -84,6 +84,10 @@
   "/en/tags/대각선-02f": {
     "__comp": "df203c0f",
     "tag": "a2ace288"
+  },
+  "/en/tags/메모리-e7b": {
+    "__comp": "df203c0f",
+    "tag": "e331b651"
   },
   "/en/tags/백준-90b": {
     "__comp": "df203c0f",
@@ -241,7 +245,7 @@
     "__comp": "df203c0f",
     "tag": "bdf7c89d"
   },
-  "/en/-6b5": {
+  "/en/-fba": {
     "__comp": "a94703ab"
   },
   "/en/android/2023-02-27-upload-cert-with-android-studio-031": {
@@ -347,6 +351,10 @@
   "/en/computer-science/algorithm/2024-04-07-digonal-check-8f1": {
     "__comp": "17896441",
     "content": "7cf0cbff"
+  },
+  "/en/computer-science/algorithm/2024-04-10-memory-vector-size-132": {
+    "__comp": "17896441",
+    "content": "6f1740e6"
   },
   "/en/computer-science/cpp/2024-02-15-cpp-vector-parameter-as-ref-082": {
     "__comp": "17896441",

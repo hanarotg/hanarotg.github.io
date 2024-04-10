@@ -685,6 +685,48 @@
                 "permalink": "/computer-science/algorithm/2024-03-06-boj-1167"
               },
               "next": {
+                "title": "알고리즘 메모리 제한 벡터 크기 어림잡기",
+                "permalink": "/computer-science/algorithm/2024-04-10-memory-vector-size"
+              }
+            },
+            {
+              "id": "computer-science/algorithm/2024-04-10-memory-vector-size",
+              "title": "알고리즘 메모리 제한 벡터 크기 어림잡기",
+              "description": "알고리즘 메모리 제한 벡터 크기 어림잡기",
+              "source": "@site/docs/computer-science/algorithm/2024-04-10-memory-vector-size.md",
+              "sourceDirName": "computer-science/algorithm",
+              "slug": "/computer-science/algorithm/2024-04-10-memory-vector-size",
+              "permalink": "/computer-science/algorithm/2024-04-10-memory-vector-size",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/algorithm/2024-04-10-memory-vector-size.md",
+              "tags": [
+                {
+                  "label": "메모리",
+                  "permalink": "/tags/메모리"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "알고리즘 메모리 제한 벡터 크기 어림잡기",
+                "description": "알고리즘 메모리 제한 벡터 크기 어림잡기",
+                "keywords": [
+                  "메모리",
+                  "벡터"
+                ],
+                "tags": [
+                  "메모리"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "대각선에 위치한 좌표 체크하기",
+                "permalink": "/computer-science/algorithm/2024-04-07-digonal-check"
+              },
+              "next": {
                 "title": "cpp",
                 "permalink": "/category/cpp"
               }
@@ -2345,6 +2387,10 @@
                       {
                         "type": "doc",
                         "id": "computer-science/algorithm/2024-04-07-digonal-check"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "computer-science/algorithm/2024-04-10-memory-vector-size"
                       }
                     ],
                     "link": {

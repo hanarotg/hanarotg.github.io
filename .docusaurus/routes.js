@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', '18e'),
+    component: ComponentCreator('/en/', 'e86'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', '8e3'),
+        component: ComponentCreator('/en/', '664'),
         routes: [
           {
             path: '/en/tags',
@@ -73,6 +73,11 @@ export default [
           {
             path: '/en/tags/대각선',
             component: ComponentCreator('/en/tags/대각선', '02f'),
+            exact: true
+          },
+          {
+            path: '/en/tags/메모리',
+            component: ComponentCreator('/en/tags/메모리', 'e7b'),
             exact: true
           },
           {
@@ -272,7 +277,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', '6b5'),
+            component: ComponentCreator('/en/', 'fba'),
             routes: [
               {
                 path: '/en/android/2023-02-27-upload-cert-with-android-studio',
@@ -427,6 +432,12 @@ export default [
               {
                 path: '/en/computer-science/algorithm/2024-04-07-digonal-check',
                 component: ComponentCreator('/en/computer-science/algorithm/2024-04-07-digonal-check', '8f1'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/computer-science/algorithm/2024-04-10-memory-vector-size',
+                component: ComponentCreator('/en/computer-science/algorithm/2024-04-10-memory-vector-size', '132'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

@@ -60,6 +60,13 @@ export default {
     ]
   ],
   "themeConfig": {
+    "docs": {
+      "sidebar": {
+        "autoCollapseCategories": true,
+        "hideable": false
+      },
+      "versionPersistence": "localStorage"
+    },
     "colorMode": {
       "respectPrefersColorScheme": true,
       "defaultMode": "light",
@@ -312,13 +319,6 @@ export default {
       "contextualSearch": false,
       "searchParameters": {},
       "searchPagePath": "search"
-    },
-    "docs": {
-      "versionPersistence": "localStorage",
-      "sidebar": {
-        "hideable": false,
-        "autoCollapseCategories": false
-      }
     },
     "metadata": [],
     "tableOfContents": {

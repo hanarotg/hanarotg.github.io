@@ -1,0 +1,15 @@
+{
+  "label": "algorithm",
+  "permalink": "/tags/algorithm",
+  "allTagsPath": "/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "computer-science/algorithm/2024-04-10-memory-vector-size",
+      "title": "알고리즘 메모리 제한 벡터 크기 어림잡기",
+      "description": "알고리즘 메모리 제한 벡터 크기 어림잡기",
+      "permalink": "/computer-science/algorithm/2024-04-10-memory-vector-size"
+    }
+  ],
+  "unlisted": false
+}

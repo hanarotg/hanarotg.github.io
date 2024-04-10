@@ -16,6 +16,9 @@
     }
   ],
   "version": "current",
+  "lastUpdatedBy": "Taegyeong Lee",
+  "lastUpdatedAt": 1712492737,
+  "formattedLastUpdatedAt": "Apr 7, 2024",
   "frontMatter": {
     "title": "대각선에 위치한 좌표 체크하기",
     "description": "대각선에 위치한 좌표 체크하기",
@@ -33,7 +36,7 @@
     "permalink": "/en/computer-science/algorithm/2024-03-06-boj-1167"
   },
   "next": {
-    "title": "cpp",
-    "permalink": "/en/category/cpp"
+    "title": "알고리즘 메모리 제한 벡터 크기 어림잡기",
+    "permalink": "/en/computer-science/algorithm/2024-04-10-memory-vector-size"
   }
 }
