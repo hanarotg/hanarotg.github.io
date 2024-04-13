@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', 'e86'),
+    component: ComponentCreator('/en/', '554'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', '664'),
+        component: ComponentCreator('/en/', '629'),
         routes: [
           {
             path: '/en/tags',
@@ -98,6 +98,11 @@ export default [
           {
             path: '/en/tags/비트코인',
             component: ComponentCreator('/en/tags/비트코인', 'c85'),
+            exact: true
+          },
+          {
+            path: '/en/tags/acp',
+            component: ComponentCreator('/en/tags/acp', '888'),
             exact: true
           },
           {
@@ -277,7 +282,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', 'fba'),
+            component: ComponentCreator('/en/', '5d9'),
             routes: [
               {
                 path: '/en/android/2023-02-27-upload-cert-with-android-studio',
@@ -486,6 +491,12 @@ export default [
               {
                 path: '/en/others/life/2024-03-17-lp-gp-waterfall',
                 component: ComponentCreator('/en/others/life/2024-03-17-lp-gp-waterfall', '80d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/others/life/2024-04-13-acp-law',
+                component: ComponentCreator('/en/others/life/2024-04-13-acp-law', '269'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

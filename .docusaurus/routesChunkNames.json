@@ -47,13 +47,13 @@
       "plugin": "d3689f3d"
     }
   },
-  "/en/-e86": {
+  "/en/-554": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "c74882fd"
     }
   },
-  "/en/-664": {
+  "/en/-629": {
     "__comp": "a7bd4aaa",
     "version": "935f2afb"
   },
@@ -104,6 +104,10 @@
   "/en/tags/비트코인-c85": {
     "__comp": "df203c0f",
     "tag": "f0343d69"
+  },
+  "/en/tags/acp-888": {
+    "__comp": "df203c0f",
+    "tag": "b92c1e2f"
   },
   "/en/tags/android-b96": {
     "__comp": "df203c0f",
@@ -245,7 +249,7 @@
     "__comp": "df203c0f",
     "tag": "bdf7c89d"
   },
-  "/en/-fba": {
+  "/en/-5d9": {
     "__comp": "a94703ab"
   },
   "/en/android/2023-02-27-upload-cert-with-android-studio-031": {
@@ -387,6 +391,10 @@
   "/en/others/life/2024-03-17-lp-gp-waterfall-80d": {
     "__comp": "17896441",
     "content": "7ddeaa97"
+  },
+  "/en/others/life/2024-04-13-acp-law-269": {
+    "__comp": "17896441",
+    "content": "7afb31e8"
   },
   "/en/others/portfolio/2023-08-06-checked-f96": {
     "__comp": "17896441",

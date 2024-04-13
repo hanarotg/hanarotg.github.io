@@ -1043,6 +1043,47 @@
                 "permalink": "/others/life/2024-02-02-select-book"
               },
               "next": {
+                "title": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
+                "permalink": "/others/life/2024-04-13-acp-law"
+              }
+            },
+            {
+              "id": "others/life/2024-04-13-acp-law",
+              "title": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
+              "description": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
+              "source": "@site/docs/others/life/2024-04-13-acp-law.md",
+              "sourceDirName": "others/life",
+              "slug": "/others/life/2024-04-13-acp-law",
+              "permalink": "/others/life/2024-04-13-acp-law",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/life/2024-04-13-acp-law.md",
+              "tags": [
+                {
+                  "label": "acp",
+                  "permalink": "/tags/acp"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
+                "description": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
+                "keywords": [
+                  "acp"
+                ],
+                "tags": [
+                  "acp"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "워터폴",
+                "permalink": "/others/life/2024-03-17-lp-gp-waterfall"
+              },
+              "next": {
                 "title": "CXL 메모리",
                 "permalink": "/others/tech/2024-02-19-cxl-memory"
               }
@@ -1189,8 +1230,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "워터폴",
-                "permalink": "/others/life/2024-03-17-lp-gp-waterfall"
+                "title": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
+                "permalink": "/others/life/2024-04-13-acp-law"
               },
               "next": {
                 "title": "nightshade",
@@ -2479,6 +2520,10 @@
                       {
                         "type": "doc",
                         "id": "others/life/2024-03-17-lp-gp-waterfall"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "others/life/2024-04-13-acp-law"
                       }
                     ]
                   },

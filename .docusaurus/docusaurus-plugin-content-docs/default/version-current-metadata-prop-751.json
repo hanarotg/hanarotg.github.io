@@ -420,6 +420,13 @@
                 "href": "/en/others/life/2024-03-17-lp-gp-waterfall",
                 "docId": "others/life/2024-03-17-lp-gp-waterfall",
                 "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
+                "href": "/en/others/life/2024-04-13-acp-law",
+                "docId": "others/life/2024-04-13-acp-law",
+                "unlisted": false
               }
             ]
           },
@@ -614,6 +621,12 @@
       "id": "others/life/2024-03-17-lp-gp-waterfall",
       "title": "워터폴",
       "description": "경제학적 용어 워터폴 waterfall에 대한 이해",
+      "sidebar": "tutorialSidebar"
+    },
+    "others/life/2024-04-13-acp-law": {
+      "id": "others/life/2024-04-13-acp-law",
+      "title": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
+      "description": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
       "sidebar": "tutorialSidebar"
     },
     "others/portfolio/2023-08-06-checked": {
