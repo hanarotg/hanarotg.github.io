@@ -1,0 +1,38 @@
+{
+  "id": "computer-science/programming/react-native/2023-02-12-react-native-tips",
+  "title": "React Native 개발할 때 알면 좋은 팁",
+  "description": "React Native 개발할 때 알면 좋은 팁",
+  "source": "@site/docs/computer-science/programming/react-native/2023-02-12-react-native-tips.md",
+  "sourceDirName": "computer-science/programming/react-native",
+  "slug": "/computer-science/programming/react-native/2023-02-12-react-native-tips",
+  "permalink": "/en/computer-science/programming/react-native/2023-02-12-react-native-tips",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/react-native/2023-02-12-react-native-tips.md",
+  "tags": [
+    {
+      "label": "react-native",
+      "permalink": "/en/tags/react-native"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "React Native 개발할 때 알면 좋은 팁",
+    "description": "React Native 개발할 때 알면 좋은 팁",
+    "keywords": [
+      "react-native"
+    ],
+    "tags": [
+      "react-native"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "React Native gradle unsupported claass file major verion 62 error 해결하기",
+    "permalink": "/en/computer-science/programming/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error"
+  },
+  "next": {
+    "title": "Pressable 컴포넌트로 재사용 가능한 버튼 구성하기",
+    "permalink": "/en/computer-science/programming/react-native/2024-02-12-react-native-reusable-pressable"
+  }
+}

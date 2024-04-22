@@ -5,20 +5,20 @@
   "source": "@site/docs/others/life/2024-03-17-lp-gp-waterfall.md",
   "sourceDirName": "others/life",
   "slug": "/others/life/2024-03-17-lp-gp-waterfall",
-  "permalink": "/en/others/life/2024-03-17-lp-gp-waterfall",
+  "permalink": "/others/life/2024-03-17-lp-gp-waterfall",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/life/2024-03-17-lp-gp-waterfall.md",
   "tags": [
     {
       "label": "waterfall",
-      "permalink": "/en/tags/waterfall"
+      "permalink": "/tags/waterfall"
     }
   ],
   "version": "current",
-  "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1710685532,
-  "formattedLastUpdatedAt": "Mar 17, 2024",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "2018년 10월 14일",
   "frontMatter": {
     "title": "워터폴",
     "description": "경제학적 용어 워터폴 waterfall에 대한 이해",
@@ -33,10 +33,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "책을 선택하는 방법",
-    "permalink": "/en/others/life/2024-02-02-select-book"
+    "permalink": "/others/life/2024-02-02-select-book"
   },
   "next": {
     "title": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
-    "permalink": "/en/others/life/2024-04-13-acp-law"
+    "permalink": "/others/life/2024-04-13-acp-law"
   }
 }

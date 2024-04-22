@@ -5,20 +5,20 @@
   "source": "@site/docs/others/tech/2024-02-19-cxl-memory.md",
   "sourceDirName": "others/tech",
   "slug": "/others/tech/2024-02-19-cxl-memory",
-  "permalink": "/en/others/tech/2024-02-19-cxl-memory",
+  "permalink": "/others/tech/2024-02-19-cxl-memory",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/tech/2024-02-19-cxl-memory.md",
   "tags": [
     {
       "label": "cxl",
-      "permalink": "/en/tags/cxl"
+      "permalink": "/tags/cxl"
     }
   ],
   "version": "current",
-  "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1708356282,
-  "formattedLastUpdatedAt": "Feb 19, 2024",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "2018년 10월 14일",
   "frontMatter": {
     "title": "CXL 메모리",
     "description": "CXL 메모리",
@@ -32,10 +32,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
-    "permalink": "/en/others/life/2024-04-13-acp-law"
+    "permalink": "/others/life/2024-04-13-acp-law"
   },
   "next": {
     "title": "nightshade",
-    "permalink": "/en/others/tech/2024-02-27-night-shade-chicago"
+    "permalink": "/others/tech/2024-02-27-night-shade-chicago"
   }
 }

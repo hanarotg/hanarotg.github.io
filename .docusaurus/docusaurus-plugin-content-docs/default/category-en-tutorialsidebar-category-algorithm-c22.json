@@ -5,8 +5,8 @@
   "permalink": "/en/category/algorithm",
   "navigation": {
     "previous": {
-      "title": "Computer Science",
-      "permalink": "/en/category/computer-science"
+      "title": "💻 Computer Science",
+      "permalink": "/en/category/-computer-science"
     },
     "next": {
       "title": "백준 2178 미로 탐색 C++ 문제 풀이",

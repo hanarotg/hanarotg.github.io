@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', '554'),
+    component: ComponentCreator('/en/', '22b'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', '629'),
+        component: ComponentCreator('/en/', '75a'),
         routes: [
           {
             path: '/en/tags',
@@ -58,6 +58,11 @@ export default [
           {
             path: '/en/tags/2178',
             component: ComponentCreator('/en/tags/2178', '982'),
+            exact: true
+          },
+          {
+            path: '/en/tags/광케이블',
+            component: ComponentCreator('/en/tags/광케이블', 'cfa'),
             exact: true
           },
           {
@@ -211,6 +216,11 @@ export default [
             exact: true
           },
           {
+            path: '/en/tags/liquid-cooling',
+            component: ComponentCreator('/en/tags/liquid-cooling', 'a84'),
+            exact: true
+          },
+          {
             path: '/en/tags/mac-os',
             component: ComponentCreator('/en/tags/mac-os', 'e06'),
             exact: true
@@ -282,41 +292,29 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', '5d9'),
+            component: ComponentCreator('/en/', 'd8a'),
             routes: [
               {
-                path: '/en/android/2023-02-27-upload-cert-with-android-studio',
-                component: ComponentCreator('/en/android/2023-02-27-upload-cert-with-android-studio', '031'),
+                path: '/en/category/-computer-science',
+                component: ComponentCreator('/en/category/-computer-science', 'bd6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/en/android/2023-06-24-gradle-in-android',
-                component: ComponentCreator('/en/android/2023-06-24-gradle-in-android', '8b9'),
+                path: '/en/category/️-data-center',
+                component: ComponentCreator('/en/category/️-data-center', 'c1e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/en/android/2024-01-28-build-release-android-app',
-                component: ComponentCreator('/en/android/2024-01-28-build-release-android-app', 'e3f'),
+                path: '/en/category/-life-and-tech',
+                component: ComponentCreator('/en/category/-life-and-tech', 'd28'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/en/android/2024-02-24-android-tag-id-name',
-                component: ComponentCreator('/en/android/2024-02-24-android-tag-id-name', 'a23'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/android/kotlin/2023-04-26-kotlin-nullability',
-                component: ComponentCreator('/en/android/kotlin/2023-04-26-kotlin-nullability', '713'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/android/kotlin/2023-05-28-kotlin-array',
-                component: ComponentCreator('/en/android/kotlin/2023-05-28-kotlin-array', '178'),
+                path: '/en/category/️-software',
+                component: ComponentCreator('/en/category/️-software', '941'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -329,12 +327,6 @@ export default [
               {
                 path: '/en/category/android',
                 component: ComponentCreator('/en/category/android', '641'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/category/computer-science',
-                component: ComponentCreator('/en/category/computer-science', '6b8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -369,12 +361,6 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/en/category/portfolio',
-                component: ComponentCreator('/en/category/portfolio', '81b'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
                 path: '/en/category/python',
                 component: ComponentCreator('/en/category/python', 'cb1'),
                 exact: true,
@@ -383,12 +369,6 @@ export default [
               {
                 path: '/en/category/react-native',
                 component: ComponentCreator('/en/category/react-native', '274'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/category/software',
-                component: ComponentCreator('/en/category/software', 'f54'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -447,140 +427,200 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/en/computer-science/cpp/2024-02-15-cpp-vector-parameter-as-ref',
-                component: ComponentCreator('/en/computer-science/cpp/2024-02-15-cpp-vector-parameter-as-ref', '082'),
+                path: '/en/computer-science/programming/android/2023-02-27-upload-cert-with-android-studio',
+                component: ComponentCreator('/en/computer-science/programming/android/2023-02-27-upload-cert-with-android-studio', '048'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/en/flutter/2024-02-28-flutter-expanded-widget-height-error',
-                component: ComponentCreator('/en/flutter/2024-02-28-flutter-expanded-widget-height-error', '5b0'),
+                path: '/en/computer-science/programming/android/2023-06-24-gradle-in-android',
+                component: ComponentCreator('/en/computer-science/programming/android/2023-06-24-gradle-in-android', '6a0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/en/flutter/2024-03-21-flutter-futurebuilder-reload',
-                component: ComponentCreator('/en/flutter/2024-03-21-flutter-futurebuilder-reload', '2f6'),
+                path: '/en/computer-science/programming/android/2024-01-28-build-release-android-app',
+                component: ComponentCreator('/en/computer-science/programming/android/2024-01-28-build-release-android-app', '187'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/computer-science/programming/android/2024-02-24-android-tag-id-name',
+                component: ComponentCreator('/en/computer-science/programming/android/2024-02-24-android-tag-id-name', '7db'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/computer-science/programming/android/kotlin/2023-04-26-kotlin-nullability',
+                component: ComponentCreator('/en/computer-science/programming/android/kotlin/2023-04-26-kotlin-nullability', '5f6'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/computer-science/programming/android/kotlin/2023-05-28-kotlin-array',
+                component: ComponentCreator('/en/computer-science/programming/android/kotlin/2023-05-28-kotlin-array', 'bed'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/computer-science/programming/cpp/2024-02-15-cpp-vector-parameter-as-ref',
+                component: ComponentCreator('/en/computer-science/programming/cpp/2024-02-15-cpp-vector-parameter-as-ref', '59b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/computer-science/programming/flutter/2024-02-28-flutter-expanded-widget-height-error',
+                component: ComponentCreator('/en/computer-science/programming/flutter/2024-02-28-flutter-expanded-widget-height-error', 'd85'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/computer-science/programming/flutter/2024-03-21-flutter-futurebuilder-reload',
+                component: ComponentCreator('/en/computer-science/programming/flutter/2024-03-21-flutter-futurebuilder-reload', '889'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/computer-science/programming/python/2023-02-12-python-multi-list',
+                component: ComponentCreator('/en/computer-science/programming/python/2023-02-12-python-multi-list', '60b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/computer-science/programming/python/2024-01-30-python-background',
+                component: ComponentCreator('/en/computer-science/programming/python/2024-01-30-python-background', '44e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/computer-science/programming/react-native/2023-02-12-react-native-android-includefontpadding',
+                component: ComponentCreator('/en/computer-science/programming/react-native/2023-02-12-react-native-android-includefontpadding', '205'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/computer-science/programming/react-native/2023-02-12-react-native-google-signin-sha-1',
+                component: ComponentCreator('/en/computer-science/programming/react-native/2023-02-12-react-native-google-signin-sha-1', 'ceb'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/computer-science/programming/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error',
+                component: ComponentCreator('/en/computer-science/programming/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error', '2a0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/computer-science/programming/react-native/2023-02-12-react-native-tips',
+                component: ComponentCreator('/en/computer-science/programming/react-native/2023-02-12-react-native-tips', '467'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/computer-science/programming/react-native/2024-02-12-react-native-reusable-pressable',
+                component: ComponentCreator('/en/computer-science/programming/react-native/2024-02-12-react-native-reusable-pressable', '411'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/computer-science/programming/react-native/2024-02-12-react-native-webview-android-webview-error',
+                component: ComponentCreator('/en/computer-science/programming/react-native/2024-02-12-react-native-webview-android-webview-error', 'b03'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/computer-science/programming/react-native/2024-02-29-react-native-speicifc-version-init',
+                component: ComponentCreator('/en/computer-science/programming/react-native/2024-02-29-react-native-speicifc-version-init', '6d7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/data-center/2024-04-20-fiber-sm-mm',
+                component: ComponentCreator('/en/data-center/2024-04-20-fiber-sm-mm', '324'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/data-center/2024-04-21-liquid-cooling',
+                component: ComponentCreator('/en/data-center/2024-04-21-liquid-cooling', 'da3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/life-and-tech/2023-12-12-real-estate-pre-sale',
+                component: ComponentCreator('/en/life-and-tech/2023-12-12-real-estate-pre-sale', 'fe9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/life-and-tech/2023-12-13-long-term-real-estate-sale',
+                component: ComponentCreator('/en/life-and-tech/2023-12-13-long-term-real-estate-sale', '352'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/life-and-tech/2024-02-02-select-book',
+                component: ComponentCreator('/en/life-and-tech/2024-02-02-select-book', '208'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/life-and-tech/2024-02-19-cxl-memory',
+                component: ComponentCreator('/en/life-and-tech/2024-02-19-cxl-memory', 'bb3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/life-and-tech/2024-02-27-night-shade-chicago',
+                component: ComponentCreator('/en/life-and-tech/2024-02-27-night-shade-chicago', '2ae'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/life-and-tech/2024-03-01-chainlink-blockchain-solutions',
+                component: ComponentCreator('/en/life-and-tech/2024-03-01-chainlink-blockchain-solutions', '7a4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/life-and-tech/2024-03-12-equinix-interconnection-solutions',
+                component: ComponentCreator('/en/life-and-tech/2024-03-12-equinix-interconnection-solutions', 'e15'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/life-and-tech/2024-03-17-lp-gp-waterfall',
+                component: ComponentCreator('/en/life-and-tech/2024-03-17-lp-gp-waterfall', 'acb'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/life-and-tech/2024-03-21-hbm',
+                component: ComponentCreator('/en/life-and-tech/2024-03-21-hbm', '443'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/life-and-tech/2024-04-13-acp-law',
+                component: ComponentCreator('/en/life-and-tech/2024-04-13-acp-law', '01d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/others/2023-08-06-checked',
+                component: ComponentCreator('/en/others/2023-08-06-checked', 'bc5'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/others/2023-08-06-soongfi',
+                component: ComponentCreator('/en/others/2023-08-06-soongfi', '642'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/en/others/2024-02-08-link',
                 component: ComponentCreator('/en/others/2024-02-08-link', '199'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/others/life/2023-12-12-real-estate-pre-sale',
-                component: ComponentCreator('/en/others/life/2023-12-12-real-estate-pre-sale', '7c7'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/others/life/2023-12-13-long-term-real-estate-sale',
-                component: ComponentCreator('/en/others/life/2023-12-13-long-term-real-estate-sale', '8d1'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/others/life/2024-02-02-select-book',
-                component: ComponentCreator('/en/others/life/2024-02-02-select-book', '205'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/others/life/2024-03-17-lp-gp-waterfall',
-                component: ComponentCreator('/en/others/life/2024-03-17-lp-gp-waterfall', '80d'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/others/life/2024-04-13-acp-law',
-                component: ComponentCreator('/en/others/life/2024-04-13-acp-law', '269'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/others/portfolio/2023-08-06-checked',
-                component: ComponentCreator('/en/others/portfolio/2023-08-06-checked', 'f96'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/others/portfolio/2023-08-06-soongfi',
-                component: ComponentCreator('/en/others/portfolio/2023-08-06-soongfi', 'b7a'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/others/tech/2024-02-19-cxl-memory',
-                component: ComponentCreator('/en/others/tech/2024-02-19-cxl-memory', '740'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/others/tech/2024-02-27-night-shade-chicago',
-                component: ComponentCreator('/en/others/tech/2024-02-27-night-shade-chicago', 'cc7'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/others/tech/2024-03-01-chainlink-blockchain-solutions',
-                component: ComponentCreator('/en/others/tech/2024-03-01-chainlink-blockchain-solutions', 'a00'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/others/tech/2024-03-12-equinix-interconnection-solutions',
-                component: ComponentCreator('/en/others/tech/2024-03-12-equinix-interconnection-solutions', 'd18'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/others/tech/2024-03-21-hbm',
-                component: ComponentCreator('/en/others/tech/2024-03-21-hbm', '4b0'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/react-native/2023-02-12-react-native-android-includefontpadding',
-                component: ComponentCreator('/en/react-native/2023-02-12-react-native-android-includefontpadding', 'adf'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/react-native/2023-02-12-react-native-google-signin-sha-1',
-                component: ComponentCreator('/en/react-native/2023-02-12-react-native-google-signin-sha-1', '416'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error',
-                component: ComponentCreator('/en/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error', '650'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/react-native/2023-02-12-react-native-tips',
-                component: ComponentCreator('/en/react-native/2023-02-12-react-native-tips', '04e'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/react-native/2024-02-12-react-native-reusable-pressable',
-                component: ComponentCreator('/en/react-native/2024-02-12-react-native-reusable-pressable', 'fa2'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/react-native/2024-02-12-react-native-webview-android-webview-error',
-                component: ComponentCreator('/en/react-native/2024-02-12-react-native-webview-android-webview-error', 'a06'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/react-native/2024-02-29-react-native-speicifc-version-init',
-                component: ComponentCreator('/en/react-native/2024-02-29-react-native-speicifc-version-init', '9af'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -629,18 +669,6 @@ export default [
               {
                 path: '/en/software/docusaurus/2024-02-20-docusaurus-autogenerate-list',
                 component: ComponentCreator('/en/software/docusaurus/2024-02-20-docusaurus-autogenerate-list', '3db'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/software/python/2023-02-12-python-multi-list',
-                component: ComponentCreator('/en/software/python/2023-02-12-python-multi-list', '5f7'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/software/python/2024-01-30-python-background',
-                component: ComponentCreator('/en/software/python/2024-01-30-python-background', '385'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

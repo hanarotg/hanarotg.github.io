@@ -1,0 +1,16 @@
+{
+  "title": "🍎 Life and Tech",
+  "description": "기술 및 생활 정보 메모",
+  "slug": "/category/-life-and-tech",
+  "permalink": "/category/-life-and-tech",
+  "navigation": {
+    "previous": {
+      "title": "React Native 특정 버전으로 프로젝트 시작하기",
+      "permalink": "/computer-science/programming/react-native/2024-02-29-react-native-speicifc-version-init"
+    },
+    "next": {
+      "title": "미등기 전매 (중간생략등기)",
+      "permalink": "/life-and-tech/2023-12-12-real-estate-pre-sale"
+    }
+  }
+}

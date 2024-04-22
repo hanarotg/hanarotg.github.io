@@ -1,0 +1,38 @@
+{
+  "id": "life-and-tech/2024-04-13-acp-law",
+  "title": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
+  "description": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
+  "source": "@site/docs/life-and-tech/2024-04-13-acp-law.md",
+  "sourceDirName": "life-and-tech",
+  "slug": "/life-and-tech/2024-04-13-acp-law",
+  "permalink": "/en/life-and-tech/2024-04-13-acp-law",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/life-and-tech/2024-04-13-acp-law.md",
+  "tags": [
+    {
+      "label": "acp",
+      "permalink": "/en/tags/acp"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
+    "description": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
+    "keywords": [
+      "acp"
+    ],
+    "tags": [
+      "acp"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "HBM",
+    "permalink": "/en/life-and-tech/2024-03-21-hbm"
+  },
+  "next": {
+    "title": "🗄️ Data Center",
+    "permalink": "/en/category/️-data-center"
+  }
+}

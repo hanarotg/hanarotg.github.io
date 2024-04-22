@@ -5,12 +5,12 @@
   "permalink": "/category/others",
   "navigation": {
     "previous": {
-      "title": "C++ 벡터 참조 호출",
-      "permalink": "/computer-science/cpp/2024-02-15-cpp-vector-parameter-as-ref"
+      "title": "Liquid Cooling (Direct to Chip, Rear Door, Immersions)",
+      "permalink": "/data-center/2024-04-21-liquid-cooling"
     },
     "next": {
-      "title": "portfolio",
-      "permalink": "/category/portfolio"
+      "title": "체크드 독서 기록 앱",
+      "permalink": "/others/2023-08-06-checked"
     }
   }
 }

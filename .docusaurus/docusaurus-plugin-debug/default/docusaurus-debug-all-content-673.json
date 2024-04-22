@@ -20,269 +20,6 @@
           "contentPathLocalized": "/Users/taegyeonglee/Documents/GitHub/hanarotg.github.io/i18n/ko/docusaurus-plugin-content-docs/current",
           "docs": [
             {
-              "id": "android/2023-02-27-upload-cert-with-android-studio",
-              "title": "업로드 키, 인증서 재설정하기",
-              "description": "기존 업로드 키를 분실하거나 더이상 사용할 수 없는 경우 새로운 업로드 키를 생성, 반영해야 합니다.",
-              "source": "@site/docs/android/2023-02-27-upload-cert-with-android-studio.md",
-              "sourceDirName": "android",
-              "slug": "/android/2023-02-27-upload-cert-with-android-studio",
-              "permalink": "/android/2023-02-27-upload-cert-with-android-studio",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/android/2023-02-27-upload-cert-with-android-studio.md",
-              "tags": [
-                {
-                  "label": "android",
-                  "permalink": "/tags/android"
-                }
-              ],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "2018년 10월 14일",
-              "frontMatter": {
-                "title": "업로드 키, 인증서 재설정하기",
-                "description": "기존 업로드 키를 분실하거나 더이상 사용할 수 없는 경우 새로운 업로드 키를 생성, 반영해야 합니다.",
-                "keywords": [
-                  "안드로이드",
-                  "업로드",
-                  "재설정",
-                  "인증서"
-                ],
-                "tags": [
-                  "android"
-                ]
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "kotlin Array",
-                "permalink": "/android/kotlin/2023-05-28-kotlin-array"
-              },
-              "next": {
-                "title": "안드로이드 프로젝트 gradle 스크립트에 대한 이해",
-                "permalink": "/android/2023-06-24-gradle-in-android"
-              }
-            },
-            {
-              "id": "android/2023-06-24-gradle-in-android",
-              "title": "안드로이드 프로젝트 gradle 스크립트에 대한 이해",
-              "description": "안드로이드 프로젝트 gradle 스크립트에 대한 이해",
-              "source": "@site/docs/android/2023-06-24-gradle-in-android.md",
-              "sourceDirName": "android",
-              "slug": "/android/2023-06-24-gradle-in-android",
-              "permalink": "/android/2023-06-24-gradle-in-android",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/android/2023-06-24-gradle-in-android.md",
-              "tags": [
-                {
-                  "label": "android",
-                  "permalink": "/tags/android"
-                },
-                {
-                  "label": "gradle",
-                  "permalink": "/tags/gradle"
-                }
-              ],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "2018년 10월 14일",
-              "frontMatter": {
-                "title": "안드로이드 프로젝트 gradle 스크립트에 대한 이해",
-                "description": "안드로이드 프로젝트 gradle 스크립트에 대한 이해",
-                "keywords": [
-                  "안드로이드",
-                  "gradle"
-                ],
-                "tags": [
-                  "android",
-                  "gradle"
-                ]
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "업로드 키, 인증서 재설정하기",
-                "permalink": "/android/2023-02-27-upload-cert-with-android-studio"
-              },
-              "next": {
-                "title": "배포용 안드로이드 앱 번들 빌드하기",
-                "permalink": "/android/2024-01-28-build-release-android-app"
-              }
-            },
-            {
-              "id": "android/2024-01-28-build-release-android-app",
-              "title": "배포용 안드로이드 앱 번들 빌드하기",
-              "description": "안드로이드 스튜디오를 활용해서 배포용 안드로이드 앱 번들을 빌드해 보겠습니다.",
-              "source": "@site/docs/android/2024-01-28-build-release-android-app.md",
-              "sourceDirName": "android",
-              "slug": "/android/2024-01-28-build-release-android-app",
-              "permalink": "/android/2024-01-28-build-release-android-app",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/android/2024-01-28-build-release-android-app.md",
-              "tags": [
-                {
-                  "label": "android",
-                  "permalink": "/tags/android"
-                }
-              ],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "2018년 10월 14일",
-              "frontMatter": {
-                "title": "배포용 안드로이드 앱 번들 빌드하기",
-                "description": "안드로이드 스튜디오를 활용해서 배포용 안드로이드 앱 번들을 빌드해 보겠습니다.",
-                "keywords": [
-                  "안드로이드",
-                  "빌드",
-                  "배포",
-                  "release"
-                ],
-                "tags": [
-                  "android"
-                ]
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "안드로이드 프로젝트 gradle 스크립트에 대한 이해",
-                "permalink": "/android/2023-06-24-gradle-in-android"
-              },
-              "next": {
-                "title": "안드로이드 id tag name 차이",
-                "permalink": "/android/2024-02-24-android-tag-id-name"
-              }
-            },
-            {
-              "id": "android/2024-02-24-android-tag-id-name",
-              "title": "안드로이드 id tag name 차이",
-              "description": "안드로이드 android:id android:tag android:name 차이",
-              "source": "@site/docs/android/2024-02-24-android-tag-id-name.md",
-              "sourceDirName": "android",
-              "slug": "/android/2024-02-24-android-tag-id-name",
-              "permalink": "/android/2024-02-24-android-tag-id-name",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/android/2024-02-24-android-tag-id-name.md",
-              "tags": [
-                {
-                  "label": "android",
-                  "permalink": "/tags/android"
-                }
-              ],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "2018년 10월 14일",
-              "frontMatter": {
-                "title": "안드로이드 id tag name 차이",
-                "description": "안드로이드 android:id android:tag android:name 차이",
-                "keywords": [
-                  "안드로이드",
-                  "tag",
-                  "name",
-                  "id"
-                ],
-                "tags": [
-                  "android"
-                ]
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "배포용 안드로이드 앱 번들 빌드하기",
-                "permalink": "/android/2024-01-28-build-release-android-app"
-              },
-              "next": {
-                "title": "Flutter",
-                "permalink": "/category/flutter"
-              }
-            },
-            {
-              "id": "android/kotlin/2023-04-26-kotlin-nullability",
-              "title": "kotlin nullability",
-              "description": "코틀린 nullability",
-              "source": "@site/docs/android/kotlin/2023-04-26-kotlin-nullability.md",
-              "sourceDirName": "android/kotlin",
-              "slug": "/android/kotlin/2023-04-26-kotlin-nullability",
-              "permalink": "/android/kotlin/2023-04-26-kotlin-nullability",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/android/kotlin/2023-04-26-kotlin-nullability.md",
-              "tags": [
-                {
-                  "label": "kotlin",
-                  "permalink": "/tags/kotlin"
-                }
-              ],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "2018년 10월 14일",
-              "frontMatter": {
-                "title": "kotlin nullability",
-                "description": "코틀린 nullability",
-                "keywords": [
-                  "코틀린",
-                  "nullability"
-                ],
-                "tags": [
-                  "kotlin"
-                ]
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Kotlin",
-                "permalink": "/category/kotlin"
-              },
-              "next": {
-                "title": "kotlin Array",
-                "permalink": "/android/kotlin/2023-05-28-kotlin-array"
-              }
-            },
-            {
-              "id": "android/kotlin/2023-05-28-kotlin-array",
-              "title": "kotlin Array",
-              "description": "코틀린 Array",
-              "source": "@site/docs/android/kotlin/2023-05-28-kotlin-array.md",
-              "sourceDirName": "android/kotlin",
-              "slug": "/android/kotlin/2023-05-28-kotlin-array",
-              "permalink": "/android/kotlin/2023-05-28-kotlin-array",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/android/kotlin/2023-05-28-kotlin-array.md",
-              "tags": [
-                {
-                  "label": "kotlin",
-                  "permalink": "/tags/kotlin"
-                }
-              ],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "2018년 10월 14일",
-              "frontMatter": {
-                "title": "kotlin Array",
-                "description": "코틀린 Array",
-                "keywords": [
-                  "코틀린",
-                  "array"
-                ],
-                "tags": [
-                  "kotlin"
-                ]
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "kotlin nullability",
-                "permalink": "/android/kotlin/2023-04-26-kotlin-nullability"
-              },
-              "next": {
-                "title": "업로드 키, 인증서 재설정하기",
-                "permalink": "/android/2023-02-27-upload-cert-with-android-studio"
-              }
-            },
-            {
               "id": "computer-science/algorithm/2024-02-02-boj-2178",
               "title": "백준 2178 미로 탐색 C++ 문제 풀이",
               "description": "백준 2178 미로 탐색 C++ 문제 풀이",
@@ -727,21 +464,284 @@
                 "permalink": "/computer-science/algorithm/2024-04-07-digonal-check"
               },
               "next": {
+                "title": "Python",
+                "permalink": "/category/python"
+              }
+            },
+            {
+              "id": "computer-science/programming/android/2023-02-27-upload-cert-with-android-studio",
+              "title": "업로드 키, 인증서 재설정하기",
+              "description": "기존 업로드 키를 분실하거나 더이상 사용할 수 없는 경우 새로운 업로드 키를 생성, 반영해야 합니다.",
+              "source": "@site/docs/computer-science/programming/android/2023-02-27-upload-cert-with-android-studio.md",
+              "sourceDirName": "computer-science/programming/android",
+              "slug": "/computer-science/programming/android/2023-02-27-upload-cert-with-android-studio",
+              "permalink": "/computer-science/programming/android/2023-02-27-upload-cert-with-android-studio",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/android/2023-02-27-upload-cert-with-android-studio.md",
+              "tags": [
+                {
+                  "label": "android",
+                  "permalink": "/tags/android"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "업로드 키, 인증서 재설정하기",
+                "description": "기존 업로드 키를 분실하거나 더이상 사용할 수 없는 경우 새로운 업로드 키를 생성, 반영해야 합니다.",
+                "keywords": [
+                  "안드로이드",
+                  "업로드",
+                  "재설정",
+                  "인증서"
+                ],
+                "tags": [
+                  "android"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "kotlin Array",
+                "permalink": "/computer-science/programming/android/kotlin/2023-05-28-kotlin-array"
+              },
+              "next": {
+                "title": "안드로이드 프로젝트 gradle 스크립트에 대한 이해",
+                "permalink": "/computer-science/programming/android/2023-06-24-gradle-in-android"
+              }
+            },
+            {
+              "id": "computer-science/programming/android/2023-06-24-gradle-in-android",
+              "title": "안드로이드 프로젝트 gradle 스크립트에 대한 이해",
+              "description": "안드로이드 프로젝트 gradle 스크립트에 대한 이해",
+              "source": "@site/docs/computer-science/programming/android/2023-06-24-gradle-in-android.md",
+              "sourceDirName": "computer-science/programming/android",
+              "slug": "/computer-science/programming/android/2023-06-24-gradle-in-android",
+              "permalink": "/computer-science/programming/android/2023-06-24-gradle-in-android",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/android/2023-06-24-gradle-in-android.md",
+              "tags": [
+                {
+                  "label": "android",
+                  "permalink": "/tags/android"
+                },
+                {
+                  "label": "gradle",
+                  "permalink": "/tags/gradle"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "안드로이드 프로젝트 gradle 스크립트에 대한 이해",
+                "description": "안드로이드 프로젝트 gradle 스크립트에 대한 이해",
+                "keywords": [
+                  "안드로이드",
+                  "gradle"
+                ],
+                "tags": [
+                  "android",
+                  "gradle"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "업로드 키, 인증서 재설정하기",
+                "permalink": "/computer-science/programming/android/2023-02-27-upload-cert-with-android-studio"
+              },
+              "next": {
+                "title": "배포용 안드로이드 앱 번들 빌드하기",
+                "permalink": "/computer-science/programming/android/2024-01-28-build-release-android-app"
+              }
+            },
+            {
+              "id": "computer-science/programming/android/2024-01-28-build-release-android-app",
+              "title": "배포용 안드로이드 앱 번들 빌드하기",
+              "description": "안드로이드 스튜디오를 활용해서 배포용 안드로이드 앱 번들을 빌드해 보겠습니다.",
+              "source": "@site/docs/computer-science/programming/android/2024-01-28-build-release-android-app.md",
+              "sourceDirName": "computer-science/programming/android",
+              "slug": "/computer-science/programming/android/2024-01-28-build-release-android-app",
+              "permalink": "/computer-science/programming/android/2024-01-28-build-release-android-app",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/android/2024-01-28-build-release-android-app.md",
+              "tags": [
+                {
+                  "label": "android",
+                  "permalink": "/tags/android"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "배포용 안드로이드 앱 번들 빌드하기",
+                "description": "안드로이드 스튜디오를 활용해서 배포용 안드로이드 앱 번들을 빌드해 보겠습니다.",
+                "keywords": [
+                  "안드로이드",
+                  "빌드",
+                  "배포",
+                  "release"
+                ],
+                "tags": [
+                  "android"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "안드로이드 프로젝트 gradle 스크립트에 대한 이해",
+                "permalink": "/computer-science/programming/android/2023-06-24-gradle-in-android"
+              },
+              "next": {
+                "title": "안드로이드 id tag name 차이",
+                "permalink": "/computer-science/programming/android/2024-02-24-android-tag-id-name"
+              }
+            },
+            {
+              "id": "computer-science/programming/android/2024-02-24-android-tag-id-name",
+              "title": "안드로이드 id tag name 차이",
+              "description": "안드로이드 android:id android:tag android:name 차이",
+              "source": "@site/docs/computer-science/programming/android/2024-02-24-android-tag-id-name.md",
+              "sourceDirName": "computer-science/programming/android",
+              "slug": "/computer-science/programming/android/2024-02-24-android-tag-id-name",
+              "permalink": "/computer-science/programming/android/2024-02-24-android-tag-id-name",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/android/2024-02-24-android-tag-id-name.md",
+              "tags": [
+                {
+                  "label": "android",
+                  "permalink": "/tags/android"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "안드로이드 id tag name 차이",
+                "description": "안드로이드 android:id android:tag android:name 차이",
+                "keywords": [
+                  "안드로이드",
+                  "tag",
+                  "name",
+                  "id"
+                ],
+                "tags": [
+                  "android"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "배포용 안드로이드 앱 번들 빌드하기",
+                "permalink": "/computer-science/programming/android/2024-01-28-build-release-android-app"
+              },
+              "next": {
                 "title": "cpp",
                 "permalink": "/category/cpp"
               }
             },
             {
-              "id": "computer-science/cpp/2024-02-15-cpp-vector-parameter-as-ref",
-              "title": "C++ 벡터 참조 호출",
-              "description": "C++ 벡터 주소 전달",
-              "source": "@site/docs/computer-science/cpp/2024-02-15-cpp-vector-parameter-as-ref.md",
-              "sourceDirName": "computer-science/cpp",
-              "slug": "/computer-science/cpp/2024-02-15-cpp-vector-parameter-as-ref",
-              "permalink": "/computer-science/cpp/2024-02-15-cpp-vector-parameter-as-ref",
+              "id": "computer-science/programming/android/kotlin/2023-04-26-kotlin-nullability",
+              "title": "kotlin nullability",
+              "description": "코틀린 nullability",
+              "source": "@site/docs/computer-science/programming/android/kotlin/2023-04-26-kotlin-nullability.md",
+              "sourceDirName": "computer-science/programming/android/kotlin",
+              "slug": "/computer-science/programming/android/kotlin/2023-04-26-kotlin-nullability",
+              "permalink": "/computer-science/programming/android/kotlin/2023-04-26-kotlin-nullability",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/cpp/2024-02-15-cpp-vector-parameter-as-ref.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/android/kotlin/2023-04-26-kotlin-nullability.md",
+              "tags": [
+                {
+                  "label": "kotlin",
+                  "permalink": "/tags/kotlin"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "kotlin nullability",
+                "description": "코틀린 nullability",
+                "keywords": [
+                  "코틀린",
+                  "nullability"
+                ],
+                "tags": [
+                  "kotlin"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Kotlin",
+                "permalink": "/category/kotlin"
+              },
+              "next": {
+                "title": "kotlin Array",
+                "permalink": "/computer-science/programming/android/kotlin/2023-05-28-kotlin-array"
+              }
+            },
+            {
+              "id": "computer-science/programming/android/kotlin/2023-05-28-kotlin-array",
+              "title": "kotlin Array",
+              "description": "코틀린 Array",
+              "source": "@site/docs/computer-science/programming/android/kotlin/2023-05-28-kotlin-array.md",
+              "sourceDirName": "computer-science/programming/android/kotlin",
+              "slug": "/computer-science/programming/android/kotlin/2023-05-28-kotlin-array",
+              "permalink": "/computer-science/programming/android/kotlin/2023-05-28-kotlin-array",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/android/kotlin/2023-05-28-kotlin-array.md",
+              "tags": [
+                {
+                  "label": "kotlin",
+                  "permalink": "/tags/kotlin"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "kotlin Array",
+                "description": "코틀린 Array",
+                "keywords": [
+                  "코틀린",
+                  "array"
+                ],
+                "tags": [
+                  "kotlin"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "kotlin nullability",
+                "permalink": "/computer-science/programming/android/kotlin/2023-04-26-kotlin-nullability"
+              },
+              "next": {
+                "title": "업로드 키, 인증서 재설정하기",
+                "permalink": "/computer-science/programming/android/2023-02-27-upload-cert-with-android-studio"
+              }
+            },
+            {
+              "id": "computer-science/programming/cpp/2024-02-15-cpp-vector-parameter-as-ref",
+              "title": "C++ 벡터 참조 호출",
+              "description": "C++ 벡터 주소 전달",
+              "source": "@site/docs/computer-science/programming/cpp/2024-02-15-cpp-vector-parameter-as-ref.md",
+              "sourceDirName": "computer-science/programming/cpp",
+              "slug": "/computer-science/programming/cpp/2024-02-15-cpp-vector-parameter-as-ref",
+              "permalink": "/computer-science/programming/cpp/2024-02-15-cpp-vector-parameter-as-ref",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/cpp/2024-02-15-cpp-vector-parameter-as-ref.md",
               "tags": [
                 {
                   "label": "c++",
@@ -768,21 +768,21 @@
                 "permalink": "/category/cpp"
               },
               "next": {
-                "title": "Others",
-                "permalink": "/category/others"
+                "title": "Flutter",
+                "permalink": "/category/flutter"
               }
             },
             {
-              "id": "flutter/2024-02-28-flutter-expanded-widget-height-error",
+              "id": "computer-science/programming/flutter/2024-02-28-flutter-expanded-widget-height-error",
               "title": "flutter Incorrect use of ParentDataWidget 에러",
               "description": "flutter Incorrect use of ParentDataWidget 에러",
-              "source": "@site/docs/flutter/2024-02-28-flutter-expanded-widget-height-error.md",
-              "sourceDirName": "flutter",
-              "slug": "/flutter/2024-02-28-flutter-expanded-widget-height-error",
-              "permalink": "/flutter/2024-02-28-flutter-expanded-widget-height-error",
+              "source": "@site/docs/computer-science/programming/flutter/2024-02-28-flutter-expanded-widget-height-error.md",
+              "sourceDirName": "computer-science/programming/flutter",
+              "slug": "/computer-science/programming/flutter/2024-02-28-flutter-expanded-widget-height-error",
+              "permalink": "/computer-science/programming/flutter/2024-02-28-flutter-expanded-widget-height-error",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/flutter/2024-02-28-flutter-expanded-widget-height-error.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/flutter/2024-02-28-flutter-expanded-widget-height-error.md",
               "tags": [
                 {
                   "label": "flutter",
@@ -811,20 +811,20 @@
               },
               "next": {
                 "title": "flutter Futurebuilder Future reload",
-                "permalink": "/flutter/2024-03-21-flutter-futurebuilder-reload"
+                "permalink": "/computer-science/programming/flutter/2024-03-21-flutter-futurebuilder-reload"
               }
             },
             {
-              "id": "flutter/2024-03-21-flutter-futurebuilder-reload",
+              "id": "computer-science/programming/flutter/2024-03-21-flutter-futurebuilder-reload",
               "title": "flutter Futurebuilder Future reload",
               "description": "flutter Futurebuilder Future 객체 리로드 시 상태 반영하기",
-              "source": "@site/docs/flutter/2024-03-21-flutter-futurebuilder-reload.md",
-              "sourceDirName": "flutter",
-              "slug": "/flutter/2024-03-21-flutter-futurebuilder-reload",
-              "permalink": "/flutter/2024-03-21-flutter-futurebuilder-reload",
+              "source": "@site/docs/computer-science/programming/flutter/2024-03-21-flutter-futurebuilder-reload.md",
+              "sourceDirName": "computer-science/programming/flutter",
+              "slug": "/computer-science/programming/flutter/2024-03-21-flutter-futurebuilder-reload",
+              "permalink": "/computer-science/programming/flutter/2024-03-21-flutter-futurebuilder-reload",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/flutter/2024-03-21-flutter-futurebuilder-reload.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/flutter/2024-03-21-flutter-futurebuilder-reload.md",
               "tags": [
                 {
                   "label": "flutter",
@@ -855,11 +855,489 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "flutter Incorrect use of ParentDataWidget 에러",
-                "permalink": "/flutter/2024-02-28-flutter-expanded-widget-height-error"
+                "permalink": "/computer-science/programming/flutter/2024-02-28-flutter-expanded-widget-height-error"
               },
               "next": {
                 "title": "React-Native",
                 "permalink": "/category/react-native"
+              }
+            },
+            {
+              "id": "computer-science/programming/python/2023-02-12-python-multi-list",
+              "title": "python 다차원 리스트 생성",
+              "description": "python 다차원 리스트 생성",
+              "source": "@site/docs/computer-science/programming/python/2023-02-12-python-multi-list.md",
+              "sourceDirName": "computer-science/programming/python",
+              "slug": "/computer-science/programming/python/2023-02-12-python-multi-list",
+              "permalink": "/computer-science/programming/python/2023-02-12-python-multi-list",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/python/2023-02-12-python-multi-list.md",
+              "tags": [
+                {
+                  "label": "python",
+                  "permalink": "/tags/python"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "python 다차원 리스트 생성",
+                "description": "python 다차원 리스트 생성",
+                "keywords": [
+                  "python",
+                  "list",
+                  "다차원",
+                  "리스트"
+                ],
+                "tags": [
+                  "python"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Python",
+                "permalink": "/category/python"
+              },
+              "next": {
+                "title": "python nuhup 백그라운드 실행",
+                "permalink": "/computer-science/programming/python/2024-01-30-python-background"
+              }
+            },
+            {
+              "id": "computer-science/programming/python/2024-01-30-python-background",
+              "title": "python nuhup 백그라운드 실행",
+              "description": "python nuhup 백그라운드 실행하는 방법",
+              "source": "@site/docs/computer-science/programming/python/2024-01-30-python-background.md",
+              "sourceDirName": "computer-science/programming/python",
+              "slug": "/computer-science/programming/python/2024-01-30-python-background",
+              "permalink": "/computer-science/programming/python/2024-01-30-python-background",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/python/2024-01-30-python-background.md",
+              "tags": [
+                {
+                  "label": "python",
+                  "permalink": "/tags/python"
+                },
+                {
+                  "label": "linux",
+                  "permalink": "/tags/linux"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "python nuhup 백그라운드 실행",
+                "description": "python nuhup 백그라운드 실행하는 방법",
+                "keywords": [
+                  "python",
+                  "linux"
+                ],
+                "tags": [
+                  "python",
+                  "linux"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "python 다차원 리스트 생성",
+                "permalink": "/computer-science/programming/python/2023-02-12-python-multi-list"
+              },
+              "next": {
+                "title": "Android",
+                "permalink": "/category/android"
+              }
+            },
+            {
+              "id": "computer-science/programming/react-native/2023-02-12-react-native-android-includefontpadding",
+              "title": "React Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding 해결하기",
+              "description": "React Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding",
+              "source": "@site/docs/computer-science/programming/react-native/2023-02-12-react-native-android-includefontpadding.md",
+              "sourceDirName": "computer-science/programming/react-native",
+              "slug": "/computer-science/programming/react-native/2023-02-12-react-native-android-includefontpadding",
+              "permalink": "/computer-science/programming/react-native/2023-02-12-react-native-android-includefontpadding",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/react-native/2023-02-12-react-native-android-includefontpadding.md",
+              "tags": [
+                {
+                  "label": "react-native",
+                  "permalink": "/tags/react-native"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "React Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding 해결하기",
+                "description": "React Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding",
+                "keywords": [
+                  "react-native",
+                  "android",
+                  "IncludeFontPadding"
+                ],
+                "tags": [
+                  "react-native"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "React-Native",
+                "permalink": "/category/react-native"
+              },
+              "next": {
+                "title": "react-native-google-singin 앱 심사에 통과하기 위한 앱 서명 인증서(SHA-1) 키 적용하기",
+                "permalink": "/computer-science/programming/react-native/2023-02-12-react-native-google-signin-sha-1"
+              }
+            },
+            {
+              "id": "computer-science/programming/react-native/2023-02-12-react-native-google-signin-sha-1",
+              "title": "react-native-google-singin 앱 심사에 통과하기 위한 앱 서명 인증서(SHA-1) 키 적용하기",
+              "description": "react-native-google-singin 앱 심사에 통과하기 위한 앱 서명 인증서(SHA-1) 키 적용하기",
+              "source": "@site/docs/computer-science/programming/react-native/2023-02-12-react-native-google-signin-sha-1.md",
+              "sourceDirName": "computer-science/programming/react-native",
+              "slug": "/computer-science/programming/react-native/2023-02-12-react-native-google-signin-sha-1",
+              "permalink": "/computer-science/programming/react-native/2023-02-12-react-native-google-signin-sha-1",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/react-native/2023-02-12-react-native-google-signin-sha-1.md",
+              "tags": [
+                {
+                  "label": "react-native",
+                  "permalink": "/tags/react-native"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "react-native-google-singin 앱 심사에 통과하기 위한 앱 서명 인증서(SHA-1) 키 적용하기",
+                "description": "react-native-google-singin 앱 심사에 통과하기 위한 앱 서명 인증서(SHA-1) 키 적용하기",
+                "keywords": [
+                  "react-native",
+                  "react-native-google-singin",
+                  "sha-1"
+                ],
+                "tags": [
+                  "react-native"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "React Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding 해결하기",
+                "permalink": "/computer-science/programming/react-native/2023-02-12-react-native-android-includefontpadding"
+              },
+              "next": {
+                "title": "React Native gradle unsupported claass file major verion 62 error 해결하기",
+                "permalink": "/computer-science/programming/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error"
+              }
+            },
+            {
+              "id": "computer-science/programming/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error",
+              "title": "React Native gradle unsupported claass file major verion 62 error 해결하기",
+              "description": "gradle unsupported claass file major verion 62 error",
+              "source": "@site/docs/computer-science/programming/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error.md",
+              "sourceDirName": "computer-science/programming/react-native",
+              "slug": "/computer-science/programming/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error",
+              "permalink": "/computer-science/programming/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error.md",
+              "tags": [
+                {
+                  "label": "react-native",
+                  "permalink": "/tags/react-native"
+                },
+                {
+                  "label": "opensource",
+                  "permalink": "/tags/opensource"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "React Native gradle unsupported claass file major verion 62 error 해결하기",
+                "description": "gradle unsupported claass file major verion 62 error",
+                "keywords": [
+                  "react-native",
+                  "gradle",
+                  "62"
+                ],
+                "tags": [
+                  "react-native",
+                  "opensource"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "react-native-google-singin 앱 심사에 통과하기 위한 앱 서명 인증서(SHA-1) 키 적용하기",
+                "permalink": "/computer-science/programming/react-native/2023-02-12-react-native-google-signin-sha-1"
+              },
+              "next": {
+                "title": "React Native 개발할 때 알면 좋은 팁",
+                "permalink": "/computer-science/programming/react-native/2023-02-12-react-native-tips"
+              }
+            },
+            {
+              "id": "computer-science/programming/react-native/2023-02-12-react-native-tips",
+              "title": "React Native 개발할 때 알면 좋은 팁",
+              "description": "React Native 개발할 때 알면 좋은 팁",
+              "source": "@site/docs/computer-science/programming/react-native/2023-02-12-react-native-tips.md",
+              "sourceDirName": "computer-science/programming/react-native",
+              "slug": "/computer-science/programming/react-native/2023-02-12-react-native-tips",
+              "permalink": "/computer-science/programming/react-native/2023-02-12-react-native-tips",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/react-native/2023-02-12-react-native-tips.md",
+              "tags": [
+                {
+                  "label": "react-native",
+                  "permalink": "/tags/react-native"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "React Native 개발할 때 알면 좋은 팁",
+                "description": "React Native 개발할 때 알면 좋은 팁",
+                "keywords": [
+                  "react-native"
+                ],
+                "tags": [
+                  "react-native"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "React Native gradle unsupported claass file major verion 62 error 해결하기",
+                "permalink": "/computer-science/programming/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error"
+              },
+              "next": {
+                "title": "Pressable 컴포넌트로 재사용 가능한 버튼 구성하기",
+                "permalink": "/computer-science/programming/react-native/2024-02-12-react-native-reusable-pressable"
+              }
+            },
+            {
+              "id": "computer-science/programming/react-native/2024-02-12-react-native-reusable-pressable",
+              "title": "Pressable 컴포넌트로 재사용 가능한 버튼 구성하기",
+              "description": "Pressable 컴포넌트로 재사용 가능한 버튼 구성하기",
+              "source": "@site/docs/computer-science/programming/react-native/2024-02-12-react-native-reusable-pressable.md",
+              "sourceDirName": "computer-science/programming/react-native",
+              "slug": "/computer-science/programming/react-native/2024-02-12-react-native-reusable-pressable",
+              "permalink": "/computer-science/programming/react-native/2024-02-12-react-native-reusable-pressable",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/react-native/2024-02-12-react-native-reusable-pressable.md",
+              "tags": [
+                {
+                  "label": "react-native",
+                  "permalink": "/tags/react-native"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "Pressable 컴포넌트로 재사용 가능한 버튼 구성하기",
+                "description": "Pressable 컴포넌트로 재사용 가능한 버튼 구성하기",
+                "keywords": [
+                  "react-native",
+                  "pressable",
+                  "재사용"
+                ],
+                "tags": [
+                  "react-native"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "React Native 개발할 때 알면 좋은 팁",
+                "permalink": "/computer-science/programming/react-native/2023-02-12-react-native-tips"
+              },
+              "next": {
+                "title": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",
+                "permalink": "/computer-science/programming/react-native/2024-02-12-react-native-webview-android-webview-error"
+              }
+            },
+            {
+              "id": "computer-science/programming/react-native/2024-02-12-react-native-webview-android-webview-error",
+              "title": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",
+              "description": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",
+              "source": "@site/docs/computer-science/programming/react-native/2024-02-12-react-native-webview-android-webview-error.md",
+              "sourceDirName": "computer-science/programming/react-native",
+              "slug": "/computer-science/programming/react-native/2024-02-12-react-native-webview-android-webview-error",
+              "permalink": "/computer-science/programming/react-native/2024-02-12-react-native-webview-android-webview-error",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/react-native/2024-02-12-react-native-webview-android-webview-error.md",
+              "tags": [
+                {
+                  "label": "react-native",
+                  "permalink": "/tags/react-native"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",
+                "description": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",
+                "keywords": [
+                  "react-native",
+                  "react-native-webview"
+                ],
+                "tags": [
+                  "react-native"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Pressable 컴포넌트로 재사용 가능한 버튼 구성하기",
+                "permalink": "/computer-science/programming/react-native/2024-02-12-react-native-reusable-pressable"
+              },
+              "next": {
+                "title": "React Native 특정 버전으로 프로젝트 시작하기",
+                "permalink": "/computer-science/programming/react-native/2024-02-29-react-native-speicifc-version-init"
+              }
+            },
+            {
+              "id": "computer-science/programming/react-native/2024-02-29-react-native-speicifc-version-init",
+              "title": "React Native 특정 버전으로 프로젝트 시작하기",
+              "description": "React Native 특정 버전으로 프로젝트 시작하기",
+              "source": "@site/docs/computer-science/programming/react-native/2024-02-29-react-native-speicifc-version-init.md",
+              "sourceDirName": "computer-science/programming/react-native",
+              "slug": "/computer-science/programming/react-native/2024-02-29-react-native-speicifc-version-init",
+              "permalink": "/computer-science/programming/react-native/2024-02-29-react-native-speicifc-version-init",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/react-native/2024-02-29-react-native-speicifc-version-init.md",
+              "tags": [
+                {
+                  "label": "react-native",
+                  "permalink": "/tags/react-native"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "React Native 특정 버전으로 프로젝트 시작하기",
+                "description": "React Native 특정 버전으로 프로젝트 시작하기",
+                "keywords": [
+                  "react-native",
+                  "react",
+                  "native"
+                ],
+                "tags": [
+                  "react-native"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",
+                "permalink": "/computer-science/programming/react-native/2024-02-12-react-native-webview-android-webview-error"
+              },
+              "next": {
+                "title": "🍎 Life and Tech",
+                "permalink": "/category/-life-and-tech"
+              }
+            },
+            {
+              "id": "data-center/2024-04-20-fiber-sm-mm",
+              "title": "광케이블 종류와 특성",
+              "description": "광케이블 종류와 특성",
+              "source": "@site/docs/data-center/2024-04-20-fiber-sm-mm.md",
+              "sourceDirName": "data-center",
+              "slug": "/data-center/2024-04-20-fiber-sm-mm",
+              "permalink": "/data-center/2024-04-20-fiber-sm-mm",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/data-center/2024-04-20-fiber-sm-mm.md",
+              "tags": [
+                {
+                  "label": "광케이블",
+                  "permalink": "/tags/광케이블"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "광케이블 종류와 특성",
+                "description": "광케이블 종류와 특성",
+                "keywords": [
+                  "광케이블"
+                ],
+                "tags": [
+                  "광케이블"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "🗄️ Data Center",
+                "permalink": "/category/️-data-center"
+              },
+              "next": {
+                "title": "Liquid Cooling (Direct to Chip, Rear Door, Immersions)",
+                "permalink": "/data-center/2024-04-21-liquid-cooling"
+              }
+            },
+            {
+              "id": "data-center/2024-04-21-liquid-cooling",
+              "title": "Liquid Cooling (Direct to Chip, Rear Door, Immersions)",
+              "description": "액체 냉각 방식 세 가지 비교",
+              "source": "@site/docs/data-center/2024-04-21-liquid-cooling.md",
+              "sourceDirName": "data-center",
+              "slug": "/data-center/2024-04-21-liquid-cooling",
+              "permalink": "/data-center/2024-04-21-liquid-cooling",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/data-center/2024-04-21-liquid-cooling.md",
+              "tags": [
+                {
+                  "label": "Liquid Cooling",
+                  "permalink": "/tags/liquid-cooling"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "Liquid Cooling (Direct to Chip, Rear Door, Immersions)",
+                "description": "액체 냉각 방식 세 가지 비교",
+                "keywords": [
+                  "Direct to Chip",
+                  "Rear Door",
+                  "Immersions"
+                ],
+                "tags": [
+                  "Liquid Cooling"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "광케이블 종류와 특성",
+                "permalink": "/data-center/2024-04-20-fiber-sm-mm"
+              },
+              "next": {
+                "title": "Others",
+                "permalink": "/category/others"
               }
             },
             {
@@ -885,50 +1363,21 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "Android",
-                "permalink": "/category/android"
+                "title": "🛠️ Software",
+                "permalink": "/category/️-software"
               }
             },
             {
-              "id": "others/2024-02-08-link",
-              "title": "개발 시 도움되는 링크 모음",
-              "description": "Android",
-              "source": "@site/docs/others/2024-02-08-link.md",
-              "sourceDirName": "others",
-              "slug": "/others/2024-02-08-link",
-              "permalink": "/others/2024-02-08-link",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/2024-02-08-link.md",
-              "tags": [],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "2018년 10월 14일",
-              "frontMatter": {
-                "title": "개발 시 도움되는 링크 모음"
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "숭파이 숭실대 인터넷 문제 해결 앱",
-                "permalink": "/others/portfolio/2023-08-06-soongfi"
-              },
-              "next": {
-                "title": "미등기 전매 (중간생략등기)",
-                "permalink": "/others/life/2023-12-12-real-estate-pre-sale"
-              }
-            },
-            {
-              "id": "others/life/2023-12-12-real-estate-pre-sale",
+              "id": "life-and-tech/2023-12-12-real-estate-pre-sale",
               "title": "미등기 전매 (중간생략등기)",
               "description": "부동산 거래에서 등기하지 않은 채 타인에게 되파는 행위",
-              "source": "@site/docs/others/life/2023-12-12-real-estate-pre-sale.md",
-              "sourceDirName": "others/life",
-              "slug": "/others/life/2023-12-12-real-estate-pre-sale",
-              "permalink": "/others/life/2023-12-12-real-estate-pre-sale",
+              "source": "@site/docs/life-and-tech/2023-12-12-real-estate-pre-sale.md",
+              "sourceDirName": "life-and-tech",
+              "slug": "/life-and-tech/2023-12-12-real-estate-pre-sale",
+              "permalink": "/life-and-tech/2023-12-12-real-estate-pre-sale",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/life/2023-12-12-real-estate-pre-sale.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/life-and-tech/2023-12-12-real-estate-pre-sale.md",
               "tags": [],
               "version": "current",
               "lastUpdatedBy": "Author",
@@ -939,25 +1388,25 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "개발 시 도움되는 링크 모음",
-                "permalink": "/others/2024-02-08-link"
+                "title": "🍎 Life and Tech",
+                "permalink": "/category/-life-and-tech"
               },
               "next": {
                 "title": "장기보유특별공제",
-                "permalink": "/others/life/2023-12-13-long-term-real-estate-sale"
+                "permalink": "/life-and-tech/2023-12-13-long-term-real-estate-sale"
               }
             },
             {
-              "id": "others/life/2023-12-13-long-term-real-estate-sale",
+              "id": "life-and-tech/2023-12-13-long-term-real-estate-sale",
               "title": "장기보유특별공제",
               "description": "개요",
-              "source": "@site/docs/others/life/2023-12-13-long-term-real-estate-sale.md",
-              "sourceDirName": "others/life",
-              "slug": "/others/life/2023-12-13-long-term-real-estate-sale",
-              "permalink": "/others/life/2023-12-13-long-term-real-estate-sale",
+              "source": "@site/docs/life-and-tech/2023-12-13-long-term-real-estate-sale.md",
+              "sourceDirName": "life-and-tech",
+              "slug": "/life-and-tech/2023-12-13-long-term-real-estate-sale",
+              "permalink": "/life-and-tech/2023-12-13-long-term-real-estate-sale",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/life/2023-12-13-long-term-real-estate-sale.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/life-and-tech/2023-12-13-long-term-real-estate-sale.md",
               "tags": [],
               "version": "current",
               "lastUpdatedBy": "Author",
@@ -969,24 +1418,24 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "미등기 전매 (중간생략등기)",
-                "permalink": "/others/life/2023-12-12-real-estate-pre-sale"
+                "permalink": "/life-and-tech/2023-12-12-real-estate-pre-sale"
               },
               "next": {
                 "title": "책을 선택하는 방법",
-                "permalink": "/others/life/2024-02-02-select-book"
+                "permalink": "/life-and-tech/2024-02-02-select-book"
               }
             },
             {
-              "id": "others/life/2024-02-02-select-book",
+              "id": "life-and-tech/2024-02-02-select-book",
               "title": "책을 선택하는 방법",
               "description": "책 선정 기준",
-              "source": "@site/docs/others/life/2024-02-02-select-book.md",
-              "sourceDirName": "others/life",
-              "slug": "/others/life/2024-02-02-select-book",
-              "permalink": "/others/life/2024-02-02-select-book",
+              "source": "@site/docs/life-and-tech/2024-02-02-select-book.md",
+              "sourceDirName": "life-and-tech",
+              "slug": "/life-and-tech/2024-02-02-select-book",
+              "permalink": "/life-and-tech/2024-02-02-select-book",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/life/2024-02-02-select-book.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/life-and-tech/2024-02-02-select-book.md",
               "tags": [],
               "version": "current",
               "lastUpdatedBy": "Author",
@@ -998,24 +1447,200 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "장기보유특별공제",
-                "permalink": "/others/life/2023-12-13-long-term-real-estate-sale"
+                "permalink": "/life-and-tech/2023-12-13-long-term-real-estate-sale"
               },
               "next": {
-                "title": "워터폴",
-                "permalink": "/others/life/2024-03-17-lp-gp-waterfall"
+                "title": "CXL 메모리",
+                "permalink": "/life-and-tech/2024-02-19-cxl-memory"
               }
             },
             {
-              "id": "others/life/2024-03-17-lp-gp-waterfall",
-              "title": "워터폴",
-              "description": "경제학적 용어 워터폴 waterfall에 대한 이해",
-              "source": "@site/docs/others/life/2024-03-17-lp-gp-waterfall.md",
-              "sourceDirName": "others/life",
-              "slug": "/others/life/2024-03-17-lp-gp-waterfall",
-              "permalink": "/others/life/2024-03-17-lp-gp-waterfall",
+              "id": "life-and-tech/2024-02-19-cxl-memory",
+              "title": "CXL 메모리",
+              "description": "CXL 메모리",
+              "source": "@site/docs/life-and-tech/2024-02-19-cxl-memory.md",
+              "sourceDirName": "life-and-tech",
+              "slug": "/life-and-tech/2024-02-19-cxl-memory",
+              "permalink": "/life-and-tech/2024-02-19-cxl-memory",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/life/2024-03-17-lp-gp-waterfall.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/life-and-tech/2024-02-19-cxl-memory.md",
+              "tags": [
+                {
+                  "label": "cxl",
+                  "permalink": "/tags/cxl"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "CXL 메모리",
+                "description": "CXL 메모리",
+                "keywords": [
+                  "cxl"
+                ],
+                "tags": [
+                  "cxl"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "책을 선택하는 방법",
+                "permalink": "/life-and-tech/2024-02-02-select-book"
+              },
+              "next": {
+                "title": "nightshade",
+                "permalink": "/life-and-tech/2024-02-27-night-shade-chicago"
+              }
+            },
+            {
+              "id": "life-and-tech/2024-02-27-night-shade-chicago",
+              "title": "nightshade",
+              "description": "nightshade 이해",
+              "source": "@site/docs/life-and-tech/2024-02-27-night-shade-chicago.md",
+              "sourceDirName": "life-and-tech",
+              "slug": "/life-and-tech/2024-02-27-night-shade-chicago",
+              "permalink": "/life-and-tech/2024-02-27-night-shade-chicago",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/life-and-tech/2024-02-27-night-shade-chicago.md",
+              "tags": [
+                {
+                  "label": "nightshade",
+                  "permalink": "/tags/nightshade"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "nightshade",
+                "description": "nightshade 이해",
+                "keywords": [
+                  "nightshade"
+                ],
+                "tags": [
+                  "nightshade"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "CXL 메모리",
+                "permalink": "/life-and-tech/2024-02-19-cxl-memory"
+              },
+              "next": {
+                "title": "Chainlink",
+                "permalink": "/life-and-tech/2024-03-01-chainlink-blockchain-solutions"
+              }
+            },
+            {
+              "id": "life-and-tech/2024-03-01-chainlink-blockchain-solutions",
+              "title": "Chainlink",
+              "description": "블록체인 솔루션 기업 Chainlink",
+              "source": "@site/docs/life-and-tech/2024-03-01-chainlink-blockchain-solutions.md",
+              "sourceDirName": "life-and-tech",
+              "slug": "/life-and-tech/2024-03-01-chainlink-blockchain-solutions",
+              "permalink": "/life-and-tech/2024-03-01-chainlink-blockchain-solutions",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/life-and-tech/2024-03-01-chainlink-blockchain-solutions.md",
+              "tags": [
+                {
+                  "label": "chainlink",
+                  "permalink": "/tags/chainlink"
+                },
+                {
+                  "label": "blockchain",
+                  "permalink": "/tags/blockchain"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "Chainlink",
+                "description": "블록체인 솔루션 기업 Chainlink",
+                "keywords": [
+                  "chainlink",
+                  "blockchain"
+                ],
+                "tags": [
+                  "chainlink",
+                  "blockchain"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "nightshade",
+                "permalink": "/life-and-tech/2024-02-27-night-shade-chicago"
+              },
+              "next": {
+                "title": "Equinix Interconnection Solution",
+                "permalink": "/life-and-tech/2024-03-12-equinix-interconnection-solutions"
+              }
+            },
+            {
+              "id": "life-and-tech/2024-03-12-equinix-interconnection-solutions",
+              "title": "Equinix Interconnection Solution",
+              "description": "에퀴닉스 Interconnection Solution",
+              "source": "@site/docs/life-and-tech/2024-03-12-equinix-interconnection-solutions.md",
+              "sourceDirName": "life-and-tech",
+              "slug": "/life-and-tech/2024-03-12-equinix-interconnection-solutions",
+              "permalink": "/life-and-tech/2024-03-12-equinix-interconnection-solutions",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/life-and-tech/2024-03-12-equinix-interconnection-solutions.md",
+              "tags": [
+                {
+                  "label": "Equinix",
+                  "permalink": "/tags/equinix"
+                },
+                {
+                  "label": "Interconnection",
+                  "permalink": "/tags/interconnection"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "Equinix Interconnection Solution",
+                "description": "에퀴닉스 Interconnection Solution",
+                "keywords": [
+                  "Equinix",
+                  "Interconnection"
+                ],
+                "tags": [
+                  "Equinix",
+                  "Interconnection"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Chainlink",
+                "permalink": "/life-and-tech/2024-03-01-chainlink-blockchain-solutions"
+              },
+              "next": {
+                "title": "워터폴",
+                "permalink": "/life-and-tech/2024-03-17-lp-gp-waterfall"
+              }
+            },
+            {
+              "id": "life-and-tech/2024-03-17-lp-gp-waterfall",
+              "title": "워터폴",
+              "description": "경제학적 용어 워터폴 waterfall에 대한 이해",
+              "source": "@site/docs/life-and-tech/2024-03-17-lp-gp-waterfall.md",
+              "sourceDirName": "life-and-tech",
+              "slug": "/life-and-tech/2024-03-17-lp-gp-waterfall",
+              "permalink": "/life-and-tech/2024-03-17-lp-gp-waterfall",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/life-and-tech/2024-03-17-lp-gp-waterfall.md",
               "tags": [
                 {
                   "label": "waterfall",
@@ -1039,25 +1664,66 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "책을 선택하는 방법",
-                "permalink": "/others/life/2024-02-02-select-book"
+                "title": "Equinix Interconnection Solution",
+                "permalink": "/life-and-tech/2024-03-12-equinix-interconnection-solutions"
               },
               "next": {
-                "title": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
-                "permalink": "/others/life/2024-04-13-acp-law"
+                "title": "HBM",
+                "permalink": "/life-and-tech/2024-03-21-hbm"
               }
             },
             {
-              "id": "others/life/2024-04-13-acp-law",
-              "title": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
-              "description": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
-              "source": "@site/docs/others/life/2024-04-13-acp-law.md",
-              "sourceDirName": "others/life",
-              "slug": "/others/life/2024-04-13-acp-law",
-              "permalink": "/others/life/2024-04-13-acp-law",
+              "id": "life-and-tech/2024-03-21-hbm",
+              "title": "HBM",
+              "description": "HBM",
+              "source": "@site/docs/life-and-tech/2024-03-21-hbm.md",
+              "sourceDirName": "life-and-tech",
+              "slug": "/life-and-tech/2024-03-21-hbm",
+              "permalink": "/life-and-tech/2024-03-21-hbm",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/life/2024-04-13-acp-law.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/life-and-tech/2024-03-21-hbm.md",
+              "tags": [
+                {
+                  "label": "HBM",
+                  "permalink": "/tags/hbm"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "HBM",
+                "description": "HBM",
+                "keywords": [
+                  "HBM"
+                ],
+                "tags": [
+                  "HBM"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "워터폴",
+                "permalink": "/life-and-tech/2024-03-17-lp-gp-waterfall"
+              },
+              "next": {
+                "title": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
+                "permalink": "/life-and-tech/2024-04-13-acp-law"
+              }
+            },
+            {
+              "id": "life-and-tech/2024-04-13-acp-law",
+              "title": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
+              "description": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
+              "source": "@site/docs/life-and-tech/2024-04-13-acp-law.md",
+              "sourceDirName": "life-and-tech",
+              "slug": "/life-and-tech/2024-04-13-acp-law",
+              "permalink": "/life-and-tech/2024-04-13-acp-law",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/life-and-tech/2024-04-13-acp-law.md",
               "tags": [
                 {
                   "label": "acp",
@@ -1080,25 +1746,25 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "워터폴",
-                "permalink": "/others/life/2024-03-17-lp-gp-waterfall"
+                "title": "HBM",
+                "permalink": "/life-and-tech/2024-03-21-hbm"
               },
               "next": {
-                "title": "CXL 메모리",
-                "permalink": "/others/tech/2024-02-19-cxl-memory"
+                "title": "🗄️ Data Center",
+                "permalink": "/category/️-data-center"
               }
             },
             {
-              "id": "others/portfolio/2023-08-06-checked",
+              "id": "others/2023-08-06-checked",
               "title": "체크드 독서 기록 앱",
               "description": "react native 체크드 독서 기록 앱",
-              "source": "@site/docs/others/portfolio/2023-08-06-checked.md",
-              "sourceDirName": "others/portfolio",
-              "slug": "/others/portfolio/2023-08-06-checked",
-              "permalink": "/others/portfolio/2023-08-06-checked",
+              "source": "@site/docs/others/2023-08-06-checked.md",
+              "sourceDirName": "others",
+              "slug": "/others/2023-08-06-checked",
+              "permalink": "/others/2023-08-06-checked",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/portfolio/2023-08-06-checked.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/2023-08-06-checked.md",
               "tags": [
                 {
                   "label": "react-native",
@@ -1129,25 +1795,25 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "portfolio",
-                "permalink": "/category/portfolio"
+                "title": "Others",
+                "permalink": "/category/others"
               },
               "next": {
                 "title": "숭파이 숭실대 인터넷 문제 해결 앱",
-                "permalink": "/others/portfolio/2023-08-06-soongfi"
+                "permalink": "/others/2023-08-06-soongfi"
               }
             },
             {
-              "id": "others/portfolio/2023-08-06-soongfi",
+              "id": "others/2023-08-06-soongfi",
               "title": "숭파이 숭실대 인터넷 문제 해결 앱",
               "description": "숭파이 숭실대 인터넷 문제 해결 앱",
-              "source": "@site/docs/others/portfolio/2023-08-06-soongfi.md",
-              "sourceDirName": "others/portfolio",
-              "slug": "/others/portfolio/2023-08-06-soongfi",
-              "permalink": "/others/portfolio/2023-08-06-soongfi",
+              "source": "@site/docs/others/2023-08-06-soongfi.md",
+              "sourceDirName": "others",
+              "slug": "/others/2023-08-06-soongfi",
+              "permalink": "/others/2023-08-06-soongfi",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/portfolio/2023-08-06-soongfi.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/2023-08-06-soongfi.md",
               "tags": [
                 {
                   "label": "android",
@@ -1190,7 +1856,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "체크드 독서 기록 앱",
-                "permalink": "/others/portfolio/2023-08-06-checked"
+                "permalink": "/others/2023-08-06-checked"
               },
               "next": {
                 "title": "개발 시 도움되는 링크 모음",
@@ -1198,519 +1864,28 @@
               }
             },
             {
-              "id": "others/tech/2024-02-19-cxl-memory",
-              "title": "CXL 메모리",
-              "description": "CXL 메모리",
-              "source": "@site/docs/others/tech/2024-02-19-cxl-memory.md",
-              "sourceDirName": "others/tech",
-              "slug": "/others/tech/2024-02-19-cxl-memory",
-              "permalink": "/others/tech/2024-02-19-cxl-memory",
+              "id": "others/2024-02-08-link",
+              "title": "개발 시 도움되는 링크 모음",
+              "description": "Android",
+              "source": "@site/docs/others/2024-02-08-link.md",
+              "sourceDirName": "others",
+              "slug": "/others/2024-02-08-link",
+              "permalink": "/others/2024-02-08-link",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/tech/2024-02-19-cxl-memory.md",
-              "tags": [
-                {
-                  "label": "cxl",
-                  "permalink": "/tags/cxl"
-                }
-              ],
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/2024-02-08-link.md",
+              "tags": [],
               "version": "current",
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "2018년 10월 14일",
               "frontMatter": {
-                "title": "CXL 메모리",
-                "description": "CXL 메모리",
-                "keywords": [
-                  "cxl"
-                ],
-                "tags": [
-                  "cxl"
-                ]
+                "title": "개발 시 도움되는 링크 모음"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
-                "permalink": "/others/life/2024-04-13-acp-law"
-              },
-              "next": {
-                "title": "nightshade",
-                "permalink": "/others/tech/2024-02-27-night-shade-chicago"
-              }
-            },
-            {
-              "id": "others/tech/2024-02-27-night-shade-chicago",
-              "title": "nightshade",
-              "description": "nightshade 이해",
-              "source": "@site/docs/others/tech/2024-02-27-night-shade-chicago.md",
-              "sourceDirName": "others/tech",
-              "slug": "/others/tech/2024-02-27-night-shade-chicago",
-              "permalink": "/others/tech/2024-02-27-night-shade-chicago",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/tech/2024-02-27-night-shade-chicago.md",
-              "tags": [
-                {
-                  "label": "nightshade",
-                  "permalink": "/tags/nightshade"
-                }
-              ],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "2018년 10월 14일",
-              "frontMatter": {
-                "title": "nightshade",
-                "description": "nightshade 이해",
-                "keywords": [
-                  "nightshade"
-                ],
-                "tags": [
-                  "nightshade"
-                ]
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "CXL 메모리",
-                "permalink": "/others/tech/2024-02-19-cxl-memory"
-              },
-              "next": {
-                "title": "Chainlink",
-                "permalink": "/others/tech/2024-03-01-chainlink-blockchain-solutions"
-              }
-            },
-            {
-              "id": "others/tech/2024-03-01-chainlink-blockchain-solutions",
-              "title": "Chainlink",
-              "description": "블록체인 솔루션 기업 Chainlink",
-              "source": "@site/docs/others/tech/2024-03-01-chainlink-blockchain-solutions.md",
-              "sourceDirName": "others/tech",
-              "slug": "/others/tech/2024-03-01-chainlink-blockchain-solutions",
-              "permalink": "/others/tech/2024-03-01-chainlink-blockchain-solutions",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/tech/2024-03-01-chainlink-blockchain-solutions.md",
-              "tags": [
-                {
-                  "label": "chainlink",
-                  "permalink": "/tags/chainlink"
-                },
-                {
-                  "label": "blockchain",
-                  "permalink": "/tags/blockchain"
-                }
-              ],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "2018년 10월 14일",
-              "frontMatter": {
-                "title": "Chainlink",
-                "description": "블록체인 솔루션 기업 Chainlink",
-                "keywords": [
-                  "chainlink",
-                  "blockchain"
-                ],
-                "tags": [
-                  "chainlink",
-                  "blockchain"
-                ]
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "nightshade",
-                "permalink": "/others/tech/2024-02-27-night-shade-chicago"
-              },
-              "next": {
-                "title": "Equinix Interconnection Solution",
-                "permalink": "/others/tech/2024-03-12-equinix-interconnection-solutions"
-              }
-            },
-            {
-              "id": "others/tech/2024-03-12-equinix-interconnection-solutions",
-              "title": "Equinix Interconnection Solution",
-              "description": "에퀴닉스 Interconnection Solution",
-              "source": "@site/docs/others/tech/2024-03-12-equinix-interconnection-solutions.md",
-              "sourceDirName": "others/tech",
-              "slug": "/others/tech/2024-03-12-equinix-interconnection-solutions",
-              "permalink": "/others/tech/2024-03-12-equinix-interconnection-solutions",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/tech/2024-03-12-equinix-interconnection-solutions.md",
-              "tags": [
-                {
-                  "label": "Equinix",
-                  "permalink": "/tags/equinix"
-                },
-                {
-                  "label": "Interconnection",
-                  "permalink": "/tags/interconnection"
-                }
-              ],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "2018년 10월 14일",
-              "frontMatter": {
-                "title": "Equinix Interconnection Solution",
-                "description": "에퀴닉스 Interconnection Solution",
-                "keywords": [
-                  "Equinix",
-                  "Interconnection"
-                ],
-                "tags": [
-                  "Equinix",
-                  "Interconnection"
-                ]
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Chainlink",
-                "permalink": "/others/tech/2024-03-01-chainlink-blockchain-solutions"
-              },
-              "next": {
-                "title": "HBM",
-                "permalink": "/others/tech/2024-03-21-hbm"
-              }
-            },
-            {
-              "id": "others/tech/2024-03-21-hbm",
-              "title": "HBM",
-              "description": "HBM",
-              "source": "@site/docs/others/tech/2024-03-21-hbm.md",
-              "sourceDirName": "others/tech",
-              "slug": "/others/tech/2024-03-21-hbm",
-              "permalink": "/others/tech/2024-03-21-hbm",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/tech/2024-03-21-hbm.md",
-              "tags": [
-                {
-                  "label": "HBM",
-                  "permalink": "/tags/hbm"
-                }
-              ],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "2018년 10월 14일",
-              "frontMatter": {
-                "title": "HBM",
-                "description": "HBM",
-                "keywords": [
-                  "HBM"
-                ],
-                "tags": [
-                  "HBM"
-                ]
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Equinix Interconnection Solution",
-                "permalink": "/others/tech/2024-03-12-equinix-interconnection-solutions"
-              }
-            },
-            {
-              "id": "react-native/2023-02-12-react-native-android-includefontpadding",
-              "title": "React Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding 해결하기",
-              "description": "React Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding",
-              "source": "@site/docs/react-native/2023-02-12-react-native-android-includefontpadding.md",
-              "sourceDirName": "react-native",
-              "slug": "/react-native/2023-02-12-react-native-android-includefontpadding",
-              "permalink": "/react-native/2023-02-12-react-native-android-includefontpadding",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-native/2023-02-12-react-native-android-includefontpadding.md",
-              "tags": [
-                {
-                  "label": "react-native",
-                  "permalink": "/tags/react-native"
-                }
-              ],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "2018년 10월 14일",
-              "frontMatter": {
-                "title": "React Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding 해결하기",
-                "description": "React Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding",
-                "keywords": [
-                  "react-native",
-                  "android",
-                  "IncludeFontPadding"
-                ],
-                "tags": [
-                  "react-native"
-                ]
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "React-Native",
-                "permalink": "/category/react-native"
-              },
-              "next": {
-                "title": "react-native-google-singin 앱 심사에 통과하기 위한 앱 서명 인증서(SHA-1) 키 적용하기",
-                "permalink": "/react-native/2023-02-12-react-native-google-signin-sha-1"
-              }
-            },
-            {
-              "id": "react-native/2023-02-12-react-native-google-signin-sha-1",
-              "title": "react-native-google-singin 앱 심사에 통과하기 위한 앱 서명 인증서(SHA-1) 키 적용하기",
-              "description": "react-native-google-singin 앱 심사에 통과하기 위한 앱 서명 인증서(SHA-1) 키 적용하기",
-              "source": "@site/docs/react-native/2023-02-12-react-native-google-signin-sha-1.md",
-              "sourceDirName": "react-native",
-              "slug": "/react-native/2023-02-12-react-native-google-signin-sha-1",
-              "permalink": "/react-native/2023-02-12-react-native-google-signin-sha-1",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-native/2023-02-12-react-native-google-signin-sha-1.md",
-              "tags": [
-                {
-                  "label": "react-native",
-                  "permalink": "/tags/react-native"
-                }
-              ],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "2018년 10월 14일",
-              "frontMatter": {
-                "title": "react-native-google-singin 앱 심사에 통과하기 위한 앱 서명 인증서(SHA-1) 키 적용하기",
-                "description": "react-native-google-singin 앱 심사에 통과하기 위한 앱 서명 인증서(SHA-1) 키 적용하기",
-                "keywords": [
-                  "react-native",
-                  "react-native-google-singin",
-                  "sha-1"
-                ],
-                "tags": [
-                  "react-native"
-                ]
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "React Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding 해결하기",
-                "permalink": "/react-native/2023-02-12-react-native-android-includefontpadding"
-              },
-              "next": {
-                "title": "React Native gradle unsupported claass file major verion 62 error 해결하기",
-                "permalink": "/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error"
-              }
-            },
-            {
-              "id": "react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error",
-              "title": "React Native gradle unsupported claass file major verion 62 error 해결하기",
-              "description": "gradle unsupported claass file major verion 62 error",
-              "source": "@site/docs/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error.md",
-              "sourceDirName": "react-native",
-              "slug": "/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error",
-              "permalink": "/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error.md",
-              "tags": [
-                {
-                  "label": "react-native",
-                  "permalink": "/tags/react-native"
-                },
-                {
-                  "label": "opensource",
-                  "permalink": "/tags/opensource"
-                }
-              ],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "2018년 10월 14일",
-              "frontMatter": {
-                "title": "React Native gradle unsupported claass file major verion 62 error 해결하기",
-                "description": "gradle unsupported claass file major verion 62 error",
-                "keywords": [
-                  "react-native",
-                  "gradle",
-                  "62"
-                ],
-                "tags": [
-                  "react-native",
-                  "opensource"
-                ]
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "react-native-google-singin 앱 심사에 통과하기 위한 앱 서명 인증서(SHA-1) 키 적용하기",
-                "permalink": "/react-native/2023-02-12-react-native-google-signin-sha-1"
-              },
-              "next": {
-                "title": "React Native 개발할 때 알면 좋은 팁",
-                "permalink": "/react-native/2023-02-12-react-native-tips"
-              }
-            },
-            {
-              "id": "react-native/2023-02-12-react-native-tips",
-              "title": "React Native 개발할 때 알면 좋은 팁",
-              "description": "React Native 개발할 때 알면 좋은 팁",
-              "source": "@site/docs/react-native/2023-02-12-react-native-tips.md",
-              "sourceDirName": "react-native",
-              "slug": "/react-native/2023-02-12-react-native-tips",
-              "permalink": "/react-native/2023-02-12-react-native-tips",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-native/2023-02-12-react-native-tips.md",
-              "tags": [
-                {
-                  "label": "react-native",
-                  "permalink": "/tags/react-native"
-                }
-              ],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "2018년 10월 14일",
-              "frontMatter": {
-                "title": "React Native 개발할 때 알면 좋은 팁",
-                "description": "React Native 개발할 때 알면 좋은 팁",
-                "keywords": [
-                  "react-native"
-                ],
-                "tags": [
-                  "react-native"
-                ]
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "React Native gradle unsupported claass file major verion 62 error 해결하기",
-                "permalink": "/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error"
-              },
-              "next": {
-                "title": "Pressable 컴포넌트로 재사용 가능한 버튼 구성하기",
-                "permalink": "/react-native/2024-02-12-react-native-reusable-pressable"
-              }
-            },
-            {
-              "id": "react-native/2024-02-12-react-native-reusable-pressable",
-              "title": "Pressable 컴포넌트로 재사용 가능한 버튼 구성하기",
-              "description": "Pressable 컴포넌트로 재사용 가능한 버튼 구성하기",
-              "source": "@site/docs/react-native/2024-02-12-react-native-reusable-pressable.md",
-              "sourceDirName": "react-native",
-              "slug": "/react-native/2024-02-12-react-native-reusable-pressable",
-              "permalink": "/react-native/2024-02-12-react-native-reusable-pressable",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-native/2024-02-12-react-native-reusable-pressable.md",
-              "tags": [
-                {
-                  "label": "react-native",
-                  "permalink": "/tags/react-native"
-                }
-              ],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "2018년 10월 14일",
-              "frontMatter": {
-                "title": "Pressable 컴포넌트로 재사용 가능한 버튼 구성하기",
-                "description": "Pressable 컴포넌트로 재사용 가능한 버튼 구성하기",
-                "keywords": [
-                  "react-native",
-                  "pressable",
-                  "재사용"
-                ],
-                "tags": [
-                  "react-native"
-                ]
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "React Native 개발할 때 알면 좋은 팁",
-                "permalink": "/react-native/2023-02-12-react-native-tips"
-              },
-              "next": {
-                "title": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",
-                "permalink": "/react-native/2024-02-12-react-native-webview-android-webview-error"
-              }
-            },
-            {
-              "id": "react-native/2024-02-12-react-native-webview-android-webview-error",
-              "title": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",
-              "description": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",
-              "source": "@site/docs/react-native/2024-02-12-react-native-webview-android-webview-error.md",
-              "sourceDirName": "react-native",
-              "slug": "/react-native/2024-02-12-react-native-webview-android-webview-error",
-              "permalink": "/react-native/2024-02-12-react-native-webview-android-webview-error",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-native/2024-02-12-react-native-webview-android-webview-error.md",
-              "tags": [
-                {
-                  "label": "react-native",
-                  "permalink": "/tags/react-native"
-                }
-              ],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "2018년 10월 14일",
-              "frontMatter": {
-                "title": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",
-                "description": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",
-                "keywords": [
-                  "react-native",
-                  "react-native-webview"
-                ],
-                "tags": [
-                  "react-native"
-                ]
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Pressable 컴포넌트로 재사용 가능한 버튼 구성하기",
-                "permalink": "/react-native/2024-02-12-react-native-reusable-pressable"
-              },
-              "next": {
-                "title": "React Native 특정 버전으로 프로젝트 시작하기",
-                "permalink": "/react-native/2024-02-29-react-native-speicifc-version-init"
-              }
-            },
-            {
-              "id": "react-native/2024-02-29-react-native-speicifc-version-init",
-              "title": "React Native 특정 버전으로 프로젝트 시작하기",
-              "description": "React Native 특정 버전으로 프로젝트 시작하기",
-              "source": "@site/docs/react-native/2024-02-29-react-native-speicifc-version-init.md",
-              "sourceDirName": "react-native",
-              "slug": "/react-native/2024-02-29-react-native-speicifc-version-init",
-              "permalink": "/react-native/2024-02-29-react-native-speicifc-version-init",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-native/2024-02-29-react-native-speicifc-version-init.md",
-              "tags": [
-                {
-                  "label": "react-native",
-                  "permalink": "/tags/react-native"
-                }
-              ],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "2018년 10월 14일",
-              "frontMatter": {
-                "title": "React Native 특정 버전으로 프로젝트 시작하기",
-                "description": "React Native 특정 버전으로 프로젝트 시작하기",
-                "keywords": [
-                  "react-native",
-                  "react",
-                  "native"
-                ],
-                "tags": [
-                  "react-native"
-                ]
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",
-                "permalink": "/react-native/2024-02-12-react-native-webview-android-webview-error"
-              },
-              "next": {
-                "title": "Software",
-                "permalink": "/category/software"
+                "title": "숭파이 숭실대 인터넷 문제 해결 앱",
+                "permalink": "/others/2023-08-06-soongfi"
               }
             },
             {
@@ -1902,8 +2077,8 @@
                 "permalink": "/software/2024-02-12-tensorflow-windows-install"
               },
               "next": {
-                "title": "Computer Science",
-                "permalink": "/category/computer-science"
+                "title": "💻 Computer Science",
+                "permalink": "/category/-computer-science"
               }
             },
             {
@@ -2087,97 +2262,6 @@
                 "title": "appstore connect 앱 스크린샷 업로드 오류를 Curl API를 통해 우회적으로 해결하기",
                 "permalink": "/software/2023-02-13-appstore-connect-curl-api"
               }
-            },
-            {
-              "id": "software/python/2023-02-12-python-multi-list",
-              "title": "python 다차원 리스트 생성",
-              "description": "python 다차원 리스트 생성",
-              "source": "@site/docs/software/python/2023-02-12-python-multi-list.md",
-              "sourceDirName": "software/python",
-              "slug": "/software/python/2023-02-12-python-multi-list",
-              "permalink": "/software/python/2023-02-12-python-multi-list",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/python/2023-02-12-python-multi-list.md",
-              "tags": [
-                {
-                  "label": "python",
-                  "permalink": "/tags/python"
-                }
-              ],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "2018년 10월 14일",
-              "frontMatter": {
-                "title": "python 다차원 리스트 생성",
-                "description": "python 다차원 리스트 생성",
-                "keywords": [
-                  "python",
-                  "list",
-                  "다차원",
-                  "리스트"
-                ],
-                "tags": [
-                  "python"
-                ]
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "python",
-                "permalink": "/category/python"
-              },
-              "next": {
-                "title": "python nuhup 백그라운드 실행",
-                "permalink": "/software/python/2024-01-30-python-background"
-              }
-            },
-            {
-              "id": "software/python/2024-01-30-python-background",
-              "title": "python nuhup 백그라운드 실행",
-              "description": "python nuhup 백그라운드 실행하는 방법",
-              "source": "@site/docs/software/python/2024-01-30-python-background.md",
-              "sourceDirName": "software/python",
-              "slug": "/software/python/2024-01-30-python-background",
-              "permalink": "/software/python/2024-01-30-python-background",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/python/2024-01-30-python-background.md",
-              "tags": [
-                {
-                  "label": "python",
-                  "permalink": "/tags/python"
-                },
-                {
-                  "label": "linux",
-                  "permalink": "/tags/linux"
-                }
-              ],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "2018년 10월 14일",
-              "frontMatter": {
-                "title": "python nuhup 백그라운드 실행",
-                "description": "python nuhup 백그라운드 실행하는 방법",
-                "keywords": [
-                  "python",
-                  "linux"
-                ],
-                "tags": [
-                  "python",
-                  "linux"
-                ]
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "python 다차원 리스트 생성",
-                "permalink": "/software/python/2023-02-12-python-multi-list"
-              },
-              "next": {
-                "title": "Docusaurus",
-                "permalink": "/category/docusaurus"
-              }
             }
           ],
           "drafts": [],
@@ -2189,148 +2273,10 @@
               },
               {
                 "type": "category",
-                "label": "Android",
+                "label": "🛠️ Software",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
-                  {
-                    "type": "category",
-                    "label": "Kotlin",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "android/kotlin/2023-04-26-kotlin-nullability"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "android/kotlin/2023-05-28-kotlin-array"
-                      }
-                    ],
-                    "link": {
-                      "type": "generated-index",
-                      "description": "코틀린",
-                      "slug": "/category/kotlin",
-                      "permalink": "/category/kotlin"
-                    }
-                  },
-                  {
-                    "type": "doc",
-                    "id": "android/2023-02-27-upload-cert-with-android-studio"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "android/2023-06-24-gradle-in-android"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "android/2024-01-28-build-release-android-app"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "android/2024-02-24-android-tag-id-name"
-                  }
-                ],
-                "link": {
-                  "type": "generated-index",
-                  "description": "안드로이드",
-                  "slug": "/category/android",
-                  "permalink": "/category/android"
-                }
-              },
-              {
-                "type": "category",
-                "label": "Flutter",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "flutter/2024-02-28-flutter-expanded-widget-height-error"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "flutter/2024-03-21-flutter-futurebuilder-reload"
-                  }
-                ],
-                "link": {
-                  "type": "generated-index",
-                  "description": "플러터",
-                  "slug": "/category/flutter",
-                  "permalink": "/category/flutter"
-                }
-              },
-              {
-                "type": "category",
-                "label": "React-Native",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "react-native/2023-02-12-react-native-android-includefontpadding"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "react-native/2023-02-12-react-native-google-signin-sha-1"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "react-native/2023-02-12-react-native-tips"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "react-native/2024-02-12-react-native-reusable-pressable"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "react-native/2024-02-12-react-native-webview-android-webview-error"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "react-native/2024-02-29-react-native-speicifc-version-init"
-                  }
-                ],
-                "link": {
-                  "type": "generated-index",
-                  "description": "리액트 네이티브",
-                  "slug": "/category/react-native",
-                  "permalink": "/category/react-native"
-                }
-              },
-              {
-                "type": "category",
-                "label": "Software",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "category",
-                    "label": "python",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "software/python/2023-02-12-python-multi-list"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "software/python/2024-01-30-python-background"
-                      }
-                    ],
-                    "link": {
-                      "type": "generated-index",
-                      "description": "파이썬",
-                      "slug": "/category/python",
-                      "permalink": "/category/python"
-                    }
-                  },
                   {
                     "type": "category",
                     "label": "Docusaurus",
@@ -2381,13 +2327,13 @@
                 "link": {
                   "type": "generated-index",
                   "description": "소프트웨어",
-                  "slug": "/category/software",
-                  "permalink": "/category/software"
+                  "slug": "/category/️-software",
+                  "permalink": "/category/️-software"
                 }
               },
               {
                 "type": "category",
-                "label": "Computer Science",
+                "label": "💻 Computer Science",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
@@ -2443,28 +2389,250 @@
                   },
                   {
                     "type": "category",
-                    "label": "cpp",
+                    "label": "programming",
                     "collapsible": true,
                     "collapsed": true,
                     "items": [
                       {
-                        "type": "doc",
-                        "id": "computer-science/cpp/2024-02-15-cpp-vector-parameter-as-ref"
+                        "type": "category",
+                        "label": "Python",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "computer-science/programming/python/2023-02-12-python-multi-list"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "computer-science/programming/python/2024-01-30-python-background"
+                          }
+                        ],
+                        "link": {
+                          "type": "generated-index",
+                          "description": "파이썬",
+                          "slug": "/category/python",
+                          "permalink": "/category/python"
+                        }
+                      },
+                      {
+                        "type": "category",
+                        "label": "Android",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "category",
+                            "label": "Kotlin",
+                            "collapsible": true,
+                            "collapsed": true,
+                            "items": [
+                              {
+                                "type": "doc",
+                                "id": "computer-science/programming/android/kotlin/2023-04-26-kotlin-nullability"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "computer-science/programming/android/kotlin/2023-05-28-kotlin-array"
+                              }
+                            ],
+                            "link": {
+                              "type": "generated-index",
+                              "description": "코틀린",
+                              "slug": "/category/kotlin",
+                              "permalink": "/category/kotlin"
+                            }
+                          },
+                          {
+                            "type": "doc",
+                            "id": "computer-science/programming/android/2023-02-27-upload-cert-with-android-studio"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "computer-science/programming/android/2023-06-24-gradle-in-android"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "computer-science/programming/android/2024-01-28-build-release-android-app"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "computer-science/programming/android/2024-02-24-android-tag-id-name"
+                          }
+                        ],
+                        "link": {
+                          "type": "generated-index",
+                          "description": "안드로이드",
+                          "slug": "/category/android",
+                          "permalink": "/category/android"
+                        }
+                      },
+                      {
+                        "type": "category",
+                        "label": "cpp",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "computer-science/programming/cpp/2024-02-15-cpp-vector-parameter-as-ref"
+                          }
+                        ],
+                        "link": {
+                          "type": "generated-index",
+                          "description": "C++",
+                          "slug": "/category/cpp",
+                          "permalink": "/category/cpp"
+                        }
+                      },
+                      {
+                        "type": "category",
+                        "label": "Flutter",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "computer-science/programming/flutter/2024-02-28-flutter-expanded-widget-height-error"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "computer-science/programming/flutter/2024-03-21-flutter-futurebuilder-reload"
+                          }
+                        ],
+                        "link": {
+                          "type": "generated-index",
+                          "description": "플러터",
+                          "slug": "/category/flutter",
+                          "permalink": "/category/flutter"
+                        }
+                      },
+                      {
+                        "type": "category",
+                        "label": "React-Native",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "computer-science/programming/react-native/2023-02-12-react-native-android-includefontpadding"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "computer-science/programming/react-native/2023-02-12-react-native-google-signin-sha-1"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "computer-science/programming/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "computer-science/programming/react-native/2023-02-12-react-native-tips"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "computer-science/programming/react-native/2024-02-12-react-native-reusable-pressable"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "computer-science/programming/react-native/2024-02-12-react-native-webview-android-webview-error"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "computer-science/programming/react-native/2024-02-29-react-native-speicifc-version-init"
+                          }
+                        ],
+                        "link": {
+                          "type": "generated-index",
+                          "description": "리액트 네이티브",
+                          "slug": "/category/react-native",
+                          "permalink": "/category/react-native"
+                        }
                       }
-                    ],
-                    "link": {
-                      "type": "generated-index",
-                      "description": "C++",
-                      "slug": "/category/cpp",
-                      "permalink": "/category/cpp"
-                    }
+                    ]
                   }
                 ],
                 "link": {
                   "type": "generated-index",
                   "description": "컴퓨터공학",
-                  "slug": "/category/computer-science",
-                  "permalink": "/category/computer-science"
+                  "slug": "/category/-computer-science",
+                  "permalink": "/category/-computer-science"
+                }
+              },
+              {
+                "type": "category",
+                "label": "🍎 Life and Tech",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "life-and-tech/2023-12-12-real-estate-pre-sale"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "life-and-tech/2023-12-13-long-term-real-estate-sale"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "life-and-tech/2024-02-02-select-book"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "life-and-tech/2024-02-19-cxl-memory"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "life-and-tech/2024-02-27-night-shade-chicago"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "life-and-tech/2024-03-01-chainlink-blockchain-solutions"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "life-and-tech/2024-03-12-equinix-interconnection-solutions"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "life-and-tech/2024-03-17-lp-gp-waterfall"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "life-and-tech/2024-03-21-hbm"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "life-and-tech/2024-04-13-acp-law"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "기술 및 생활 정보 메모",
+                  "slug": "/category/-life-and-tech",
+                  "permalink": "/category/-life-and-tech"
+                }
+              },
+              {
+                "type": "category",
+                "label": "🗄️ Data Center",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "data-center/2024-04-20-fiber-sm-mm"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "data-center/2024-04-21-liquid-cooling"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "데이터센터",
+                  "slug": "/category/️-data-center",
+                  "permalink": "/category/️-data-center"
                 }
               },
               {
@@ -2474,86 +2642,16 @@
                 "collapsed": true,
                 "items": [
                   {
-                    "type": "category",
-                    "label": "portfolio",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "others/portfolio/2023-08-06-checked"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "others/portfolio/2023-08-06-soongfi"
-                      }
-                    ],
-                    "link": {
-                      "type": "generated-index",
-                      "description": "프로젝트 포트폴리오 모음",
-                      "slug": "/category/portfolio",
-                      "permalink": "/category/portfolio"
-                    }
+                    "type": "doc",
+                    "id": "others/2023-08-06-checked"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "others/2023-08-06-soongfi"
                   },
                   {
                     "type": "doc",
                     "id": "others/2024-02-08-link"
-                  },
-                  {
-                    "type": "category",
-                    "label": "life",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "others/life/2023-12-12-real-estate-pre-sale"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "others/life/2023-12-13-long-term-real-estate-sale"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "others/life/2024-02-02-select-book"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "others/life/2024-03-17-lp-gp-waterfall"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "others/life/2024-04-13-acp-law"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "category",
-                    "label": "tech",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "others/tech/2024-02-19-cxl-memory"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "others/tech/2024-02-27-night-shade-chicago"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "others/tech/2024-03-01-chainlink-blockchain-solutions"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "others/tech/2024-03-12-equinix-interconnection-solutions"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "others/tech/2024-03-21-hbm"
-                      }
-                    ]
                   }
                 ],
                 "link": {

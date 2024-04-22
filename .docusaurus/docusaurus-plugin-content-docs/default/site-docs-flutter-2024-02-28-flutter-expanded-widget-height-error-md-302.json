@@ -5,20 +5,20 @@
   "source": "@site/docs/flutter/2024-02-28-flutter-expanded-widget-height-error.md",
   "sourceDirName": "flutter",
   "slug": "/flutter/2024-02-28-flutter-expanded-widget-height-error",
-  "permalink": "/en/flutter/2024-02-28-flutter-expanded-widget-height-error",
+  "permalink": "/flutter/2024-02-28-flutter-expanded-widget-height-error",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/flutter/2024-02-28-flutter-expanded-widget-height-error.md",
   "tags": [
     {
       "label": "flutter",
-      "permalink": "/en/tags/flutter"
+      "permalink": "/tags/flutter"
     }
   ],
   "version": "current",
-  "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1709202230,
-  "formattedLastUpdatedAt": "Feb 29, 2024",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "2018년 10월 14일",
   "frontMatter": {
     "title": "flutter Incorrect use of ParentDataWidget 에러",
     "description": "flutter Incorrect use of ParentDataWidget 에러",
@@ -33,10 +33,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Flutter",
-    "permalink": "/en/category/flutter"
+    "permalink": "/category/flutter"
   },
   "next": {
     "title": "flutter Futurebuilder Future reload",
-    "permalink": "/en/flutter/2024-03-21-flutter-futurebuilder-reload"
+    "permalink": "/flutter/2024-03-21-flutter-futurebuilder-reload"
   }
 }

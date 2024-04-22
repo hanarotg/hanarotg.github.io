@@ -1,0 +1,16 @@
+{
+  "title": "Others",
+  "description": "기타 미분류",
+  "slug": "/category/others-1",
+  "permalink": "/category/others-1",
+  "navigation": {
+    "previous": {
+      "title": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
+      "permalink": "/life-and-tech/2024-04-13-acp-law"
+    },
+    "next": {
+      "title": "portfolio",
+      "permalink": "/category/portfolio"
+    }
+  }
+}

@@ -1,20 +1,5 @@
 [
   {
-    "label": "android",
-    "permalink": "/en/tags/android",
-    "count": 5
-  },
-  {
-    "label": "gradle",
-    "permalink": "/en/tags/gradle",
-    "count": 1
-  },
-  {
-    "label": "kotlin",
-    "permalink": "/en/tags/kotlin",
-    "count": 2
-  },
-  {
     "label": "백준",
     "permalink": "/en/tags/백준",
     "count": 3
@@ -95,6 +80,21 @@
     "count": 1
   },
   {
+    "label": "android",
+    "permalink": "/en/tags/android",
+    "count": 5
+  },
+  {
+    "label": "gradle",
+    "permalink": "/en/tags/gradle",
+    "count": 1
+  },
+  {
+    "label": "kotlin",
+    "permalink": "/en/tags/kotlin",
+    "count": 2
+  },
+  {
     "label": "flutter",
     "permalink": "/en/tags/flutter",
     "count": 2
@@ -105,13 +105,13 @@
     "count": 1
   },
   {
-    "label": "waterfall",
-    "permalink": "/en/tags/waterfall",
-    "count": 1
+    "label": "python",
+    "permalink": "/en/tags/python",
+    "count": 2
   },
   {
-    "label": "acp",
-    "permalink": "/en/tags/acp",
+    "label": "linux",
+    "permalink": "/en/tags/linux",
     "count": 1
   },
   {
@@ -120,18 +120,18 @@
     "count": 8
   },
   {
-    "label": "checked",
-    "permalink": "/en/tags/checked",
+    "label": "opensource",
+    "permalink": "/en/tags/opensource",
     "count": 1
   },
   {
-    "label": "ios",
-    "permalink": "/en/tags/ios",
+    "label": "광케이블",
+    "permalink": "/en/tags/광케이블",
     "count": 1
   },
   {
-    "label": "soongfi",
-    "permalink": "/en/tags/soongfi",
+    "label": "Liquid Cooling",
+    "permalink": "/en/tags/liquid-cooling",
     "count": 1
   },
   {
@@ -165,13 +165,33 @@
     "count": 1
   },
   {
+    "label": "waterfall",
+    "permalink": "/en/tags/waterfall",
+    "count": 1
+  },
+  {
     "label": "HBM",
     "permalink": "/en/tags/hbm",
     "count": 1
   },
   {
-    "label": "opensource",
-    "permalink": "/en/tags/opensource",
+    "label": "acp",
+    "permalink": "/en/tags/acp",
+    "count": 1
+  },
+  {
+    "label": "checked",
+    "permalink": "/en/tags/checked",
+    "count": 1
+  },
+  {
+    "label": "ios",
+    "permalink": "/en/tags/ios",
+    "count": 1
+  },
+  {
+    "label": "soongfi",
+    "permalink": "/en/tags/soongfi",
     "count": 1
   },
   {
@@ -222,16 +242,6 @@
   {
     "label": "utterances",
     "permalink": "/en/tags/utterances",
-    "count": 1
-  },
-  {
-    "label": "python",
-    "permalink": "/en/tags/python",
-    "count": 2
-  },
-  {
-    "label": "linux",
-    "permalink": "/en/tags/linux",
     "count": 1
   }
 ]

@@ -1,0 +1,16 @@
+{
+  "title": "🗄️ Data Center",
+  "description": "데이터센터",
+  "slug": "/category/️-data-center",
+  "permalink": "/category/️-data-center",
+  "navigation": {
+    "previous": {
+      "title": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
+      "permalink": "/life-and-tech/2024-04-13-acp-law"
+    },
+    "next": {
+      "title": "광케이블 종류와 특성",
+      "permalink": "/data-center/2024-04-20-fiber-sm-mm"
+    }
+  }
+}

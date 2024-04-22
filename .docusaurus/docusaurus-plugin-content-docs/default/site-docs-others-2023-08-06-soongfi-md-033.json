@@ -1,0 +1,57 @@
+{
+  "id": "others/2023-08-06-soongfi",
+  "title": "숭파이 숭실대 인터넷 문제 해결 앱",
+  "description": "숭파이 숭실대 인터넷 문제 해결 앱",
+  "source": "@site/docs/others/2023-08-06-soongfi.md",
+  "sourceDirName": "others",
+  "slug": "/others/2023-08-06-soongfi",
+  "permalink": "/en/others/2023-08-06-soongfi",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/2023-08-06-soongfi.md",
+  "tags": [
+    {
+      "label": "android",
+      "permalink": "/en/tags/android"
+    },
+    {
+      "label": "ios",
+      "permalink": "/en/tags/ios"
+    },
+    {
+      "label": "soongfi",
+      "permalink": "/en/tags/soongfi"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "숭파이 숭실대 인터넷 문제 해결 앱",
+    "description": "숭파이 숭실대 인터넷 문제 해결 앱",
+    "keywords": [
+      "android",
+      "ios",
+      "soongfi",
+      "숭파이",
+      "숭실대학교",
+      "인터넷",
+      "wifi",
+      "앱",
+      "soongsil_wifi",
+      "ssuwifi"
+    ],
+    "tags": [
+      "android",
+      "ios",
+      "soongfi"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "체크드 독서 기록 앱",
+    "permalink": "/en/others/2023-08-06-checked"
+  },
+  "next": {
+    "title": "개발 시 도움되는 링크 모음",
+    "permalink": "/en/others/2024-02-08-link"
+  }
+}

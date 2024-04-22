@@ -1,0 +1,45 @@
+{
+  "id": "computer-science/programming/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error",
+  "title": "React Native gradle unsupported claass file major verion 62 error 해결하기",
+  "description": "gradle unsupported claass file major verion 62 error",
+  "source": "@site/docs/computer-science/programming/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error.md",
+  "sourceDirName": "computer-science/programming/react-native",
+  "slug": "/computer-science/programming/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error",
+  "permalink": "/en/computer-science/programming/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error.md",
+  "tags": [
+    {
+      "label": "react-native",
+      "permalink": "/en/tags/react-native"
+    },
+    {
+      "label": "opensource",
+      "permalink": "/en/tags/opensource"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "React Native gradle unsupported claass file major verion 62 error 해결하기",
+    "description": "gradle unsupported claass file major verion 62 error",
+    "keywords": [
+      "react-native",
+      "gradle",
+      "62"
+    ],
+    "tags": [
+      "react-native",
+      "opensource"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "react-native-google-singin 앱 심사에 통과하기 위한 앱 서명 인증서(SHA-1) 키 적용하기",
+    "permalink": "/en/computer-science/programming/react-native/2023-02-12-react-native-google-signin-sha-1"
+  },
+  "next": {
+    "title": "React Native 개발할 때 알면 좋은 팁",
+    "permalink": "/en/computer-science/programming/react-native/2023-02-12-react-native-tips"
+  }
+}

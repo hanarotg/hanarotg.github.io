@@ -1,0 +1,16 @@
+{
+  "title": "🛠️ Software",
+  "description": "소프트웨어",
+  "slug": "/category/️-software",
+  "permalink": "/category/️-software",
+  "navigation": {
+    "previous": {
+      "title": "문서 소개",
+      "permalink": "/"
+    },
+    "next": {
+      "title": "Docusaurus",
+      "permalink": "/category/docusaurus"
+    }
+  }
+}

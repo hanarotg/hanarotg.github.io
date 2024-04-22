@@ -5,16 +5,16 @@
   "count": 2,
   "items": [
     {
-      "id": "flutter/2024-03-21-flutter-futurebuilder-reload",
+      "id": "computer-science/programming/flutter/2024-03-21-flutter-futurebuilder-reload",
       "title": "flutter Futurebuilder Future reload",
       "description": "flutter Futurebuilder Future 객체 리로드 시 상태 반영하기",
-      "permalink": "/en/flutter/2024-03-21-flutter-futurebuilder-reload"
+      "permalink": "/en/computer-science/programming/flutter/2024-03-21-flutter-futurebuilder-reload"
     },
     {
-      "id": "flutter/2024-02-28-flutter-expanded-widget-height-error",
+      "id": "computer-science/programming/flutter/2024-02-28-flutter-expanded-widget-height-error",
       "title": "flutter Incorrect use of ParentDataWidget 에러",
       "description": "flutter Incorrect use of ParentDataWidget 에러",
-      "permalink": "/en/flutter/2024-02-28-flutter-expanded-widget-height-error"
+      "permalink": "/en/computer-science/programming/flutter/2024-02-28-flutter-expanded-widget-height-error"
     }
   ],
   "unlisted": false

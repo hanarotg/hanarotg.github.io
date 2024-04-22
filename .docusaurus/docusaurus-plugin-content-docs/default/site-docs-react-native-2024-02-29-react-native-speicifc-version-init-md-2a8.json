@@ -5,20 +5,20 @@
   "source": "@site/docs/react-native/2024-02-29-react-native-speicifc-version-init.md",
   "sourceDirName": "react-native",
   "slug": "/react-native/2024-02-29-react-native-speicifc-version-init",
-  "permalink": "/en/react-native/2024-02-29-react-native-speicifc-version-init",
+  "permalink": "/react-native/2024-02-29-react-native-speicifc-version-init",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-native/2024-02-29-react-native-speicifc-version-init.md",
   "tags": [
     {
       "label": "react-native",
-      "permalink": "/en/tags/react-native"
+      "permalink": "/tags/react-native"
     }
   ],
   "version": "current",
-  "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1709144098,
-  "formattedLastUpdatedAt": "Feb 28, 2024",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "2018년 10월 14일",
   "frontMatter": {
     "title": "React Native 특정 버전으로 프로젝트 시작하기",
     "description": "React Native 특정 버전으로 프로젝트 시작하기",
@@ -34,10 +34,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",
-    "permalink": "/en/react-native/2024-02-12-react-native-webview-android-webview-error"
+    "permalink": "/react-native/2024-02-12-react-native-webview-android-webview-error"
   },
   "next": {
     "title": "Software",
-    "permalink": "/en/category/software"
+    "permalink": "/category/software"
   }
 }

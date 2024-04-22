@@ -5,17 +5,20 @@
   "source": "@site/docs/others/life/2024-04-13-acp-law.md",
   "sourceDirName": "others/life",
   "slug": "/others/life/2024-04-13-acp-law",
-  "permalink": "/en/others/life/2024-04-13-acp-law",
+  "permalink": "/others/life/2024-04-13-acp-law",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/life/2024-04-13-acp-law.md",
   "tags": [
     {
       "label": "acp",
-      "permalink": "/en/tags/acp"
+      "permalink": "/tags/acp"
     }
   ],
   "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "2018년 10월 14일",
   "frontMatter": {
     "title": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
     "description": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
@@ -29,10 +32,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "워터폴",
-    "permalink": "/en/others/life/2024-03-17-lp-gp-waterfall"
+    "permalink": "/others/life/2024-03-17-lp-gp-waterfall"
   },
   "next": {
     "title": "CXL 메모리",
-    "permalink": "/en/others/tech/2024-02-19-cxl-memory"
+    "permalink": "/others/tech/2024-02-19-cxl-memory"
   }
 }

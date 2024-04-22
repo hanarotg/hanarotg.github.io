@@ -1,16 +1,16 @@
 {
+  "docusaurus-plugin-google-tag-manager": {
+    "default": {
+      "containerId": "GTM-5SML85MT",
+      "id": "default"
+    }
+  },
   "docusaurus-plugin-google-gtag": {
     "default": {
       "trackingID": [
         "G-PSM1SDYJFY"
       ],
       "anonymizeIP": false,
-      "id": "default"
-    }
-  },
-  "docusaurus-plugin-google-tag-manager": {
-    "default": {
-      "containerId": "GTM-5SML85MT",
       "id": "default"
     }
   },
@@ -25,36 +25,6 @@
           "path": "/en/",
           "mainDocId": "intro",
           "docs": [
-            {
-              "id": "android/2023-02-27-upload-cert-with-android-studio",
-              "path": "/en/android/2023-02-27-upload-cert-with-android-studio",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "android/2023-06-24-gradle-in-android",
-              "path": "/en/android/2023-06-24-gradle-in-android",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "android/2024-01-28-build-release-android-app",
-              "path": "/en/android/2024-01-28-build-release-android-app",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "android/2024-02-24-android-tag-id-name",
-              "path": "/en/android/2024-02-24-android-tag-id-name",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "android/kotlin/2023-04-26-kotlin-nullability",
-              "path": "/en/android/kotlin/2023-04-26-kotlin-nullability",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "android/kotlin/2023-05-28-kotlin-array",
-              "path": "/en/android/kotlin/2023-05-28-kotlin-array",
-              "sidebar": "tutorialSidebar"
-            },
             {
               "id": "computer-science/algorithm/2024-02-02-boj-2178",
               "path": "/en/computer-science/algorithm/2024-02-02-boj-2178",
@@ -101,18 +71,103 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "computer-science/cpp/2024-02-15-cpp-vector-parameter-as-ref",
-              "path": "/en/computer-science/cpp/2024-02-15-cpp-vector-parameter-as-ref",
+              "id": "computer-science/programming/android/2023-02-27-upload-cert-with-android-studio",
+              "path": "/en/computer-science/programming/android/2023-02-27-upload-cert-with-android-studio",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "flutter/2024-02-28-flutter-expanded-widget-height-error",
-              "path": "/en/flutter/2024-02-28-flutter-expanded-widget-height-error",
+              "id": "computer-science/programming/android/2023-06-24-gradle-in-android",
+              "path": "/en/computer-science/programming/android/2023-06-24-gradle-in-android",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "flutter/2024-03-21-flutter-futurebuilder-reload",
-              "path": "/en/flutter/2024-03-21-flutter-futurebuilder-reload",
+              "id": "computer-science/programming/android/2024-01-28-build-release-android-app",
+              "path": "/en/computer-science/programming/android/2024-01-28-build-release-android-app",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "computer-science/programming/android/2024-02-24-android-tag-id-name",
+              "path": "/en/computer-science/programming/android/2024-02-24-android-tag-id-name",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "computer-science/programming/android/kotlin/2023-04-26-kotlin-nullability",
+              "path": "/en/computer-science/programming/android/kotlin/2023-04-26-kotlin-nullability",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "computer-science/programming/android/kotlin/2023-05-28-kotlin-array",
+              "path": "/en/computer-science/programming/android/kotlin/2023-05-28-kotlin-array",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "computer-science/programming/cpp/2024-02-15-cpp-vector-parameter-as-ref",
+              "path": "/en/computer-science/programming/cpp/2024-02-15-cpp-vector-parameter-as-ref",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "computer-science/programming/flutter/2024-02-28-flutter-expanded-widget-height-error",
+              "path": "/en/computer-science/programming/flutter/2024-02-28-flutter-expanded-widget-height-error",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "computer-science/programming/flutter/2024-03-21-flutter-futurebuilder-reload",
+              "path": "/en/computer-science/programming/flutter/2024-03-21-flutter-futurebuilder-reload",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "computer-science/programming/python/2023-02-12-python-multi-list",
+              "path": "/en/computer-science/programming/python/2023-02-12-python-multi-list",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "computer-science/programming/python/2024-01-30-python-background",
+              "path": "/en/computer-science/programming/python/2024-01-30-python-background",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "computer-science/programming/react-native/2023-02-12-react-native-android-includefontpadding",
+              "path": "/en/computer-science/programming/react-native/2023-02-12-react-native-android-includefontpadding",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "computer-science/programming/react-native/2023-02-12-react-native-google-signin-sha-1",
+              "path": "/en/computer-science/programming/react-native/2023-02-12-react-native-google-signin-sha-1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "computer-science/programming/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error",
+              "path": "/en/computer-science/programming/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "computer-science/programming/react-native/2023-02-12-react-native-tips",
+              "path": "/en/computer-science/programming/react-native/2023-02-12-react-native-tips",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "computer-science/programming/react-native/2024-02-12-react-native-reusable-pressable",
+              "path": "/en/computer-science/programming/react-native/2024-02-12-react-native-reusable-pressable",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "computer-science/programming/react-native/2024-02-12-react-native-webview-android-webview-error",
+              "path": "/en/computer-science/programming/react-native/2024-02-12-react-native-webview-android-webview-error",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "computer-science/programming/react-native/2024-02-29-react-native-speicifc-version-init",
+              "path": "/en/computer-science/programming/react-native/2024-02-29-react-native-speicifc-version-init",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-center/2024-04-20-fiber-sm-mm",
+              "path": "/en/data-center/2024-04-20-fiber-sm-mm",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-center/2024-04-21-liquid-cooling",
+              "path": "/en/data-center/2024-04-21-liquid-cooling",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -121,103 +176,68 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "life-and-tech/2023-12-12-real-estate-pre-sale",
+              "path": "/en/life-and-tech/2023-12-12-real-estate-pre-sale",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "life-and-tech/2023-12-13-long-term-real-estate-sale",
+              "path": "/en/life-and-tech/2023-12-13-long-term-real-estate-sale",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "life-and-tech/2024-02-02-select-book",
+              "path": "/en/life-and-tech/2024-02-02-select-book",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "life-and-tech/2024-02-19-cxl-memory",
+              "path": "/en/life-and-tech/2024-02-19-cxl-memory",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "life-and-tech/2024-02-27-night-shade-chicago",
+              "path": "/en/life-and-tech/2024-02-27-night-shade-chicago",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "life-and-tech/2024-03-01-chainlink-blockchain-solutions",
+              "path": "/en/life-and-tech/2024-03-01-chainlink-blockchain-solutions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "life-and-tech/2024-03-12-equinix-interconnection-solutions",
+              "path": "/en/life-and-tech/2024-03-12-equinix-interconnection-solutions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "life-and-tech/2024-03-17-lp-gp-waterfall",
+              "path": "/en/life-and-tech/2024-03-17-lp-gp-waterfall",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "life-and-tech/2024-03-21-hbm",
+              "path": "/en/life-and-tech/2024-03-21-hbm",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "life-and-tech/2024-04-13-acp-law",
+              "path": "/en/life-and-tech/2024-04-13-acp-law",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "others/2023-08-06-checked",
+              "path": "/en/others/2023-08-06-checked",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "others/2023-08-06-soongfi",
+              "path": "/en/others/2023-08-06-soongfi",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "others/2024-02-08-link",
               "path": "/en/others/2024-02-08-link",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "others/life/2023-12-12-real-estate-pre-sale",
-              "path": "/en/others/life/2023-12-12-real-estate-pre-sale",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "others/life/2023-12-13-long-term-real-estate-sale",
-              "path": "/en/others/life/2023-12-13-long-term-real-estate-sale",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "others/life/2024-02-02-select-book",
-              "path": "/en/others/life/2024-02-02-select-book",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "others/life/2024-03-17-lp-gp-waterfall",
-              "path": "/en/others/life/2024-03-17-lp-gp-waterfall",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "others/life/2024-04-13-acp-law",
-              "path": "/en/others/life/2024-04-13-acp-law",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "others/portfolio/2023-08-06-checked",
-              "path": "/en/others/portfolio/2023-08-06-checked",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "others/portfolio/2023-08-06-soongfi",
-              "path": "/en/others/portfolio/2023-08-06-soongfi",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "others/tech/2024-02-19-cxl-memory",
-              "path": "/en/others/tech/2024-02-19-cxl-memory",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "others/tech/2024-02-27-night-shade-chicago",
-              "path": "/en/others/tech/2024-02-27-night-shade-chicago",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "others/tech/2024-03-01-chainlink-blockchain-solutions",
-              "path": "/en/others/tech/2024-03-01-chainlink-blockchain-solutions",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "others/tech/2024-03-12-equinix-interconnection-solutions",
-              "path": "/en/others/tech/2024-03-12-equinix-interconnection-solutions",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "others/tech/2024-03-21-hbm",
-              "path": "/en/others/tech/2024-03-21-hbm",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "react-native/2023-02-12-react-native-android-includefontpadding",
-              "path": "/en/react-native/2023-02-12-react-native-android-includefontpadding",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "react-native/2023-02-12-react-native-google-signin-sha-1",
-              "path": "/en/react-native/2023-02-12-react-native-google-signin-sha-1",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error",
-              "path": "/en/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "react-native/2023-02-12-react-native-tips",
-              "path": "/en/react-native/2023-02-12-react-native-tips",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "react-native/2024-02-12-react-native-reusable-pressable",
-              "path": "/en/react-native/2024-02-12-react-native-reusable-pressable",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "react-native/2024-02-12-react-native-webview-android-webview-error",
-              "path": "/en/react-native/2024-02-12-react-native-webview-android-webview-error",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "react-native/2024-02-29-react-native-speicifc-version-init",
-              "path": "/en/react-native/2024-02-29-react-native-speicifc-version-init",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -261,13 +281,28 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "software/python/2023-02-12-python-multi-list",
-              "path": "/en/software/python/2023-02-12-python-multi-list",
+              "id": "/category/️-software",
+              "path": "/en/category/️-software",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "software/python/2024-01-30-python-background",
-              "path": "/en/software/python/2024-01-30-python-background",
+              "id": "/category/docusaurus",
+              "path": "/en/category/docusaurus",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/-computer-science",
+              "path": "/en/category/-computer-science",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/algorithm",
+              "path": "/en/category/algorithm",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/python",
+              "path": "/en/category/python",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -281,6 +316,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/cpp",
+              "path": "/en/category/cpp",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/flutter",
               "path": "/en/category/flutter",
               "sidebar": "tutorialSidebar"
@@ -291,43 +331,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/software",
-              "path": "/en/category/software",
+              "id": "/category/-life-and-tech",
+              "path": "/en/category/-life-and-tech",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/python",
-              "path": "/en/category/python",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/docusaurus",
-              "path": "/en/category/docusaurus",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/computer-science",
-              "path": "/en/category/computer-science",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/algorithm",
-              "path": "/en/category/algorithm",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/cpp",
-              "path": "/en/category/cpp",
+              "id": "/category/️-data-center",
+              "path": "/en/category/️-data-center",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/others",
               "path": "/en/category/others",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/portfolio",
-              "path": "/en/category/portfolio",
               "sidebar": "tutorialSidebar"
             }
           ],

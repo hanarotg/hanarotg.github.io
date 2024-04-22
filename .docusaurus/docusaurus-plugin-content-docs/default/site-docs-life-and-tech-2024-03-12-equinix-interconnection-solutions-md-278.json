@@ -1,0 +1,44 @@
+{
+  "id": "life-and-tech/2024-03-12-equinix-interconnection-solutions",
+  "title": "Equinix Interconnection Solution",
+  "description": "에퀴닉스 Interconnection Solution",
+  "source": "@site/docs/life-and-tech/2024-03-12-equinix-interconnection-solutions.md",
+  "sourceDirName": "life-and-tech",
+  "slug": "/life-and-tech/2024-03-12-equinix-interconnection-solutions",
+  "permalink": "/en/life-and-tech/2024-03-12-equinix-interconnection-solutions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/life-and-tech/2024-03-12-equinix-interconnection-solutions.md",
+  "tags": [
+    {
+      "label": "Equinix",
+      "permalink": "/en/tags/equinix"
+    },
+    {
+      "label": "Interconnection",
+      "permalink": "/en/tags/interconnection"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "Equinix Interconnection Solution",
+    "description": "에퀴닉스 Interconnection Solution",
+    "keywords": [
+      "Equinix",
+      "Interconnection"
+    ],
+    "tags": [
+      "Equinix",
+      "Interconnection"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chainlink",
+    "permalink": "/en/life-and-tech/2024-03-01-chainlink-blockchain-solutions"
+  },
+  "next": {
+    "title": "워터폴",
+    "permalink": "/en/life-and-tech/2024-03-17-lp-gp-waterfall"
+  }
+}

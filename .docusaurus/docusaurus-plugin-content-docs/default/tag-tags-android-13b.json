@@ -5,34 +5,34 @@
   "count": 5,
   "items": [
     {
-      "id": "android/2024-01-28-build-release-android-app",
+      "id": "computer-science/programming/android/2024-01-28-build-release-android-app",
       "title": "배포용 안드로이드 앱 번들 빌드하기",
       "description": "안드로이드 스튜디오를 활용해서 배포용 안드로이드 앱 번들을 빌드해 보겠습니다.",
-      "permalink": "/android/2024-01-28-build-release-android-app"
+      "permalink": "/computer-science/programming/android/2024-01-28-build-release-android-app"
     },
     {
-      "id": "others/portfolio/2023-08-06-soongfi",
+      "id": "others/2023-08-06-soongfi",
       "title": "숭파이 숭실대 인터넷 문제 해결 앱",
       "description": "숭파이 숭실대 인터넷 문제 해결 앱",
-      "permalink": "/others/portfolio/2023-08-06-soongfi"
+      "permalink": "/others/2023-08-06-soongfi"
     },
     {
-      "id": "android/2023-06-24-gradle-in-android",
+      "id": "computer-science/programming/android/2023-06-24-gradle-in-android",
       "title": "안드로이드 프로젝트 gradle 스크립트에 대한 이해",
       "description": "안드로이드 프로젝트 gradle 스크립트에 대한 이해",
-      "permalink": "/android/2023-06-24-gradle-in-android"
+      "permalink": "/computer-science/programming/android/2023-06-24-gradle-in-android"
     },
     {
-      "id": "android/2024-02-24-android-tag-id-name",
+      "id": "computer-science/programming/android/2024-02-24-android-tag-id-name",
       "title": "안드로이드 id tag name 차이",
       "description": "안드로이드 android:id android:tag android:name 차이",
-      "permalink": "/android/2024-02-24-android-tag-id-name"
+      "permalink": "/computer-science/programming/android/2024-02-24-android-tag-id-name"
     },
     {
-      "id": "android/2023-02-27-upload-cert-with-android-studio",
+      "id": "computer-science/programming/android/2023-02-27-upload-cert-with-android-studio",
       "title": "업로드 키, 인증서 재설정하기",
       "description": "기존 업로드 키를 분실하거나 더이상 사용할 수 없는 경우 새로운 업로드 키를 생성, 반영해야 합니다.",
-      "permalink": "/android/2023-02-27-upload-cert-with-android-studio"
+      "permalink": "/computer-science/programming/android/2023-02-27-upload-cert-with-android-studio"
     }
   ],
   "unlisted": false

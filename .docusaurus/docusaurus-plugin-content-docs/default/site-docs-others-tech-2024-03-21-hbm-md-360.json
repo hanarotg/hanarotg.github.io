@@ -5,20 +5,20 @@
   "source": "@site/docs/others/tech/2024-03-21-hbm.md",
   "sourceDirName": "others/tech",
   "slug": "/others/tech/2024-03-21-hbm",
-  "permalink": "/en/others/tech/2024-03-21-hbm",
+  "permalink": "/others/tech/2024-03-21-hbm",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/tech/2024-03-21-hbm.md",
   "tags": [
     {
       "label": "HBM",
-      "permalink": "/en/tags/hbm"
+      "permalink": "/tags/hbm"
     }
   ],
   "version": "current",
-  "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1711016041,
-  "formattedLastUpdatedAt": "Mar 21, 2024",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "2018년 10월 14일",
   "frontMatter": {
     "title": "HBM",
     "description": "HBM",
@@ -32,6 +32,6 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Equinix Interconnection Solution",
-    "permalink": "/en/others/tech/2024-03-12-equinix-interconnection-solutions"
+    "permalink": "/others/tech/2024-03-12-equinix-interconnection-solutions"
   }
 }

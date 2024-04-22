@@ -1,0 +1,44 @@
+{
+  "id": "computer-science/programming/python/2024-01-30-python-background",
+  "title": "python nuhup 백그라운드 실행",
+  "description": "python nuhup 백그라운드 실행하는 방법",
+  "source": "@site/docs/computer-science/programming/python/2024-01-30-python-background.md",
+  "sourceDirName": "computer-science/programming/python",
+  "slug": "/computer-science/programming/python/2024-01-30-python-background",
+  "permalink": "/en/computer-science/programming/python/2024-01-30-python-background",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/python/2024-01-30-python-background.md",
+  "tags": [
+    {
+      "label": "python",
+      "permalink": "/en/tags/python"
+    },
+    {
+      "label": "linux",
+      "permalink": "/en/tags/linux"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "python nuhup 백그라운드 실행",
+    "description": "python nuhup 백그라운드 실행하는 방법",
+    "keywords": [
+      "python",
+      "linux"
+    ],
+    "tags": [
+      "python",
+      "linux"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "python 다차원 리스트 생성",
+    "permalink": "/en/computer-science/programming/python/2023-02-12-python-multi-list"
+  },
+  "next": {
+    "title": "Android",
+    "permalink": "/en/category/android"
+  }
+}

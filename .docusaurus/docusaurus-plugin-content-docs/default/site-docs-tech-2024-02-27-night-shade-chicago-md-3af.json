@@ -1,0 +1,41 @@
+{
+  "id": "tech/2024-02-27-night-shade-chicago",
+  "title": "nightshade",
+  "description": "nightshade 이해",
+  "source": "@site/docs/tech/2024-02-27-night-shade-chicago.md",
+  "sourceDirName": "tech",
+  "slug": "/tech/2024-02-27-night-shade-chicago",
+  "permalink": "/tech/2024-02-27-night-shade-chicago",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tech/2024-02-27-night-shade-chicago.md",
+  "tags": [
+    {
+      "label": "nightshade",
+      "permalink": "/tags/nightshade"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "2018년 10월 14일",
+  "frontMatter": {
+    "title": "nightshade",
+    "description": "nightshade 이해",
+    "keywords": [
+      "nightshade"
+    ],
+    "tags": [
+      "nightshade"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CXL 메모리",
+    "permalink": "/tech/2024-02-19-cxl-memory"
+  },
+  "next": {
+    "title": "Chainlink",
+    "permalink": "/tech/2024-03-01-chainlink-blockchain-solutions"
+  }
+}

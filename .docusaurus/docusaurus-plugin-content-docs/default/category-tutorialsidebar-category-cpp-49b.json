@@ -5,12 +5,12 @@
   "permalink": "/category/cpp",
   "navigation": {
     "previous": {
-      "title": "알고리즘 메모리 제한 벡터 크기 어림잡기",
-      "permalink": "/computer-science/algorithm/2024-04-10-memory-vector-size"
+      "title": "안드로이드 id tag name 차이",
+      "permalink": "/computer-science/programming/android/2024-02-24-android-tag-id-name"
     },
     "next": {
       "title": "C++ 벡터 참조 호출",
-      "permalink": "/computer-science/cpp/2024-02-15-cpp-vector-parameter-as-ref"
+      "permalink": "/computer-science/programming/cpp/2024-02-15-cpp-vector-parameter-as-ref"
     }
   }
 }

@@ -5,12 +5,12 @@
   "permalink": "/en/category/flutter",
   "navigation": {
     "previous": {
-      "title": "안드로이드 id tag name 차이",
-      "permalink": "/en/android/2024-02-24-android-tag-id-name"
+      "title": "C++ 벡터 참조 호출",
+      "permalink": "/en/computer-science/programming/cpp/2024-02-15-cpp-vector-parameter-as-ref"
     },
     "next": {
       "title": "flutter Incorrect use of ParentDataWidget 에러",
-      "permalink": "/en/flutter/2024-02-28-flutter-expanded-widget-height-error"
+      "permalink": "/en/computer-science/programming/flutter/2024-02-28-flutter-expanded-widget-height-error"
     }
   }
 }

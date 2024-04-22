@@ -1,0 +1,41 @@
+{
+  "id": "data-center/2024-04-13-acp-law copy",
+  "title": "광케이블 종류와 특성",
+  "description": "광케이블 종류와 특성",
+  "source": "@site/docs/data-center/2024-04-13-acp-law copy.md",
+  "sourceDirName": "data-center",
+  "slug": "/data-center/2024-04-13-acp-law copy",
+  "permalink": "/data-center/2024-04-13-acp-law copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/data-center/2024-04-13-acp-law copy.md",
+  "tags": [
+    {
+      "label": "광케이블",
+      "permalink": "/tags/광케이블"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "2018년 10월 14일",
+  "frontMatter": {
+    "title": "광케이블 종류와 특성",
+    "description": "광케이블 종류와 특성",
+    "keywords": [
+      "광광케이블"
+    ],
+    "tags": [
+      "광케이블"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "🗄️ Data Center",
+    "permalink": "/category/️-data-center"
+  },
+  "next": {
+    "title": "광케이블 종류와 특성",
+    "permalink": "/data-center/2024-04-20-fiber-sm-mm"
+  }
+}

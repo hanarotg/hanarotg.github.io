@@ -1,0 +1,16 @@
+{
+  "title": "💻 Computer Science",
+  "description": "컴퓨터공학",
+  "slug": "/category/-computer-science",
+  "permalink": "/category/-computer-science",
+  "navigation": {
+    "previous": {
+      "title": "Play console 개발자 계정 인증",
+      "permalink": "/software/2024-02-24-play-console-developer-authentication"
+    },
+    "next": {
+      "title": "Algorithm",
+      "permalink": "/category/algorithm"
+    }
+  }
+}

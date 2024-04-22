@@ -1,0 +1,39 @@
+{
+  "id": "computer-science/programming/react-native/2024-02-12-react-native-webview-android-webview-error",
+  "title": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",
+  "description": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",
+  "source": "@site/docs/computer-science/programming/react-native/2024-02-12-react-native-webview-android-webview-error.md",
+  "sourceDirName": "computer-science/programming/react-native",
+  "slug": "/computer-science/programming/react-native/2024-02-12-react-native-webview-android-webview-error",
+  "permalink": "/en/computer-science/programming/react-native/2024-02-12-react-native-webview-android-webview-error",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/react-native/2024-02-12-react-native-webview-android-webview-error.md",
+  "tags": [
+    {
+      "label": "react-native",
+      "permalink": "/en/tags/react-native"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",
+    "description": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",
+    "keywords": [
+      "react-native",
+      "react-native-webview"
+    ],
+    "tags": [
+      "react-native"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Pressable 컴포넌트로 재사용 가능한 버튼 구성하기",
+    "permalink": "/en/computer-science/programming/react-native/2024-02-12-react-native-reusable-pressable"
+  },
+  "next": {
+    "title": "React Native 특정 버전으로 프로젝트 시작하기",
+    "permalink": "/en/computer-science/programming/react-native/2024-02-29-react-native-speicifc-version-init"
+  }
+}
