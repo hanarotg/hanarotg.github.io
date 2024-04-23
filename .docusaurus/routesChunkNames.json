@@ -47,13 +47,13 @@
       "plugin": "d3689f3d"
     }
   },
-  "/en/-22b": {
+  "/en/-b03": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "c74882fd"
     }
   },
-  "/en/-75a": {
+  "/en/-67b": {
     "__comp": "a7bd4aaa",
     "version": "935f2afb"
   },
@@ -132,6 +132,10 @@
   "/en/tags/c-4e9": {
     "__comp": "df203c0f",
     "tag": "9f8c88b5"
+  },
+  "/en/tags/cdn-141": {
+    "__comp": "df203c0f",
+    "tag": "62038fde"
   },
   "/en/tags/chainlink-96f": {
     "__comp": "df203c0f",
@@ -225,6 +229,10 @@
     "__comp": "df203c0f",
     "tag": "73ebe919"
   },
+  "/en/tags/qlearning-1e2": {
+    "__comp": "df203c0f",
+    "tag": "28238557"
+  },
   "/en/tags/react-native-8b1": {
     "__comp": "df203c0f",
     "tag": "6f11e9db"
@@ -257,16 +265,16 @@
     "__comp": "df203c0f",
     "tag": "bdf7c89d"
   },
-  "/en/-d8a": {
+  "/en/-df9": {
     "__comp": "a94703ab"
   },
   "/en/category/-computer-science-bd6": {
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "6a933d22"
   },
-  "/en/category/️-data-center-c1e": {
+  "/en/category/️-data-center-engineering-e52": {
     "__comp": "14eb3368",
-    "categoryGeneratedIndex": "d10b7fd7"
+    "categoryGeneratedIndex": "f755c92a"
   },
   "/en/category/-life-and-tech-d28": {
     "__comp": "14eb3368",
@@ -299,6 +307,10 @@
   "/en/category/kotlin-070": {
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "547d1065"
+  },
+  "/en/category/network-d9f": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "fecd606a"
   },
   "/en/category/others-3a5": {
     "__comp": "14eb3368",
@@ -347,6 +359,10 @@
   "/en/computer-science/algorithm/2024-04-10-memory-vector-size-132": {
     "__comp": "17896441",
     "content": "6f1740e6"
+  },
+  "/en/computer-science/network/2024-04-23-cdn-a39": {
+    "__comp": "17896441",
+    "content": "aac1f10d"
   },
   "/en/computer-science/programming/android/2023-02-27-upload-cert-with-android-studio-048": {
     "__comp": "17896441",
@@ -467,6 +483,10 @@
   "/en/life-and-tech/2024-04-13-acp-law-01d": {
     "__comp": "17896441",
     "content": "eb1fa491"
+  },
+  "/en/others/2023-08-06-bitcoin-auto-with-ml-8eb": {
+    "__comp": "17896441",
+    "content": "7fd41eb5"
   },
   "/en/others/2023-08-06-checked-bc5": {
     "__comp": "17896441",

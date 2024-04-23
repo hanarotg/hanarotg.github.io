@@ -1,6 +1,6 @@
 {
   "id": "data-center/2024-04-20-fiber-sm-mm",
-  "title": "광케이블 종류와 특성",
+  "title": "광케이블",
   "description": "광케이블 종류와 특성",
   "source": "@site/docs/data-center/2024-04-20-fiber-sm-mm.md",
   "sourceDirName": "data-center",
@@ -16,8 +16,11 @@
     }
   ],
   "version": "current",
+  "lastUpdatedBy": "Taegyeong Lee",
+  "lastUpdatedAt": 1713796616,
+  "formattedLastUpdatedAt": "Apr 22, 2024",
   "frontMatter": {
-    "title": "광케이블 종류와 특성",
+    "title": "광케이블",
     "description": "광케이블 종류와 특성",
     "keywords": [
       "광케이블"
@@ -28,8 +31,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "🗄️ Data Center",
-    "permalink": "/en/category/️-data-center"
+    "title": "🗄️ Data Center Engineering",
+    "permalink": "/en/category/️-data-center-engineering"
   },
   "next": {
     "title": "Liquid Cooling (Direct to Chip, Rear Door, Immersions)",

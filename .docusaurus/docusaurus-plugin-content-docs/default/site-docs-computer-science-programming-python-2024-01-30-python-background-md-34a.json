@@ -20,6 +20,9 @@
     }
   ],
   "version": "current",
+  "lastUpdatedBy": "Taegyeong Lee",
+  "lastUpdatedAt": 1713796616,
+  "formattedLastUpdatedAt": "Apr 22, 2024",
   "frontMatter": {
     "title": "python nuhup 백그라운드 실행",
     "description": "python nuhup 백그라운드 실행하는 방법",

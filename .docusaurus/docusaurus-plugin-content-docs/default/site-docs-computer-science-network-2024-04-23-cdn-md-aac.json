@@ -1,0 +1,38 @@
+{
+  "id": "computer-science/network/2024-04-23-cdn",
+  "title": "CDN (Content Delivery Network)",
+  "description": "콘텐츠 전송 네트워크",
+  "source": "@site/docs/computer-science/network/2024-04-23-cdn.md",
+  "sourceDirName": "computer-science/network",
+  "slug": "/computer-science/network/2024-04-23-cdn",
+  "permalink": "/en/computer-science/network/2024-04-23-cdn",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/network/2024-04-23-cdn.md",
+  "tags": [
+    {
+      "label": "CDN",
+      "permalink": "/en/tags/cdn"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "CDN (Content Delivery Network)",
+    "description": "콘텐츠 전송 네트워크",
+    "keywords": [
+      "CDN"
+    ],
+    "tags": [
+      "CDN"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Network",
+    "permalink": "/en/category/network"
+  },
+  "next": {
+    "title": "Python",
+    "permalink": "/en/category/python"
+  }
+}

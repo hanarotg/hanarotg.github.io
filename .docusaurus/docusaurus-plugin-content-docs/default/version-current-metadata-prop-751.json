@@ -18,77 +18,26 @@
       },
       {
         "type": "category",
-        "label": "🛠️ Software",
+        "label": "🗄️ Data Center Engineering",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
-            "type": "category",
-            "label": "Docusaurus",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "Docusaurus github 배포하기",
-                "href": "/en/software/docusaurus/2024-01-28-docusaurus-deplo",
-                "docId": "software/docusaurus/2024-01-28-docusaurus-deplo",
-                "unlisted": false
-              },
-              {
-                "type": "link",
-                "label": "Docusaurus 올인원 배포 스크립트",
-                "href": "/en/software/docusaurus/2024-01-29-docusaurus-all-in-one-script",
-                "docId": "software/docusaurus/2024-01-29-docusaurus-all-in-one-script",
-                "unlisted": false
-              },
-              {
-                "type": "link",
-                "label": "Docusaurus utterances 다크 모드 적용",
-                "href": "/en/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode",
-                "docId": "software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode",
-                "unlisted": false
-              },
-              {
-                "type": "link",
-                "label": "Docusaurus 문서 작성 최신 정렬 스크립트",
-                "href": "/en/software/docusaurus/2024-02-20-docusaurus-autogenerate-list",
-                "docId": "software/docusaurus/2024-02-20-docusaurus-autogenerate-list",
-                "unlisted": false
-              }
-            ],
-            "href": "/en/category/docusaurus"
-          },
-          {
             "type": "link",
-            "label": "appstore connect 앱 스크린샷 업로드 오류를 Curl API를 통해 우회적으로 해결하기",
-            "href": "/en/software/2023-02-13-appstore-connect-curl-api",
-            "docId": "software/2023-02-13-appstore-connect-curl-api",
+            "label": "광케이블",
+            "href": "/en/data-center/2024-04-20-fiber-sm-mm",
+            "docId": "data-center/2024-04-20-fiber-sm-mm",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "MacOS Homebrew로 node 버전 바꾸기",
-            "href": "/en/software/2023-02-13-macos-homebrew-node-version-change",
-            "docId": "software/2023-02-13-macos-homebrew-node-version-change",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "Tensorflow windows 11 설치",
-            "href": "/en/software/2024-02-12-tensorflow-windows-install",
-            "docId": "software/2024-02-12-tensorflow-windows-install",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "Play console 개발자 계정 인증",
-            "href": "/en/software/2024-02-24-play-console-developer-authentication",
-            "docId": "software/2024-02-24-play-console-developer-authentication",
+            "label": "Liquid Cooling (Direct to Chip, Rear Door, Immersions)",
+            "href": "/en/data-center/2024-04-21-liquid-cooling",
+            "docId": "data-center/2024-04-21-liquid-cooling",
             "unlisted": false
           }
         ],
-        "href": "/en/category/️-software"
+        "href": "/en/category/️-data-center-engineering"
       },
       {
         "type": "category",
@@ -167,6 +116,22 @@
               }
             ],
             "href": "/en/category/algorithm"
+          },
+          {
+            "type": "category",
+            "label": "Network",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "CDN (Content Delivery Network)",
+                "href": "/en/computer-science/network/2024-04-23-cdn",
+                "docId": "computer-science/network/2024-04-23-cdn",
+                "unlisted": false
+              }
+            ],
+            "href": "/en/category/network"
           },
           {
             "type": "category",
@@ -440,26 +405,77 @@
       },
       {
         "type": "category",
-        "label": "🗄️ Data Center",
+        "label": "🛠️ Software",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
+            "type": "category",
+            "label": "Docusaurus",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Docusaurus github 배포하기",
+                "href": "/en/software/docusaurus/2024-01-28-docusaurus-deplo",
+                "docId": "software/docusaurus/2024-01-28-docusaurus-deplo",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Docusaurus 올인원 배포 스크립트",
+                "href": "/en/software/docusaurus/2024-01-29-docusaurus-all-in-one-script",
+                "docId": "software/docusaurus/2024-01-29-docusaurus-all-in-one-script",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Docusaurus utterances 다크 모드 적용",
+                "href": "/en/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode",
+                "docId": "software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Docusaurus 문서 작성 최신 정렬 스크립트",
+                "href": "/en/software/docusaurus/2024-02-20-docusaurus-autogenerate-list",
+                "docId": "software/docusaurus/2024-02-20-docusaurus-autogenerate-list",
+                "unlisted": false
+              }
+            ],
+            "href": "/en/category/docusaurus"
+          },
+          {
             "type": "link",
-            "label": "광케이블 종류와 특성",
-            "href": "/en/data-center/2024-04-20-fiber-sm-mm",
-            "docId": "data-center/2024-04-20-fiber-sm-mm",
+            "label": "appstore connect 앱 스크린샷 업로드 오류를 Curl API를 통해 우회적으로 해결하기",
+            "href": "/en/software/2023-02-13-appstore-connect-curl-api",
+            "docId": "software/2023-02-13-appstore-connect-curl-api",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "Liquid Cooling (Direct to Chip, Rear Door, Immersions)",
-            "href": "/en/data-center/2024-04-21-liquid-cooling",
-            "docId": "data-center/2024-04-21-liquid-cooling",
+            "label": "MacOS Homebrew로 node 버전 바꾸기",
+            "href": "/en/software/2023-02-13-macos-homebrew-node-version-change",
+            "docId": "software/2023-02-13-macos-homebrew-node-version-change",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Tensorflow windows 11 설치",
+            "href": "/en/software/2024-02-12-tensorflow-windows-install",
+            "docId": "software/2024-02-12-tensorflow-windows-install",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Play console 개발자 계정 인증",
+            "href": "/en/software/2024-02-24-play-console-developer-authentication",
+            "docId": "software/2024-02-24-play-console-developer-authentication",
             "unlisted": false
           }
         ],
-        "href": "/en/category/️-data-center"
+        "href": "/en/category/️-software"
       },
       {
         "type": "category",
@@ -467,6 +483,13 @@
         "collapsible": true,
         "collapsed": true,
         "items": [
+          {
+            "type": "link",
+            "label": "강화학습 비트코인 자동 매매 봇",
+            "href": "/en/others/2023-08-06-bitcoin-auto-with-ml",
+            "docId": "others/2023-08-06-bitcoin-auto-with-ml",
+            "unlisted": false
+          },
           {
             "type": "link",
             "label": "체크드 독서 기록 앱",
@@ -546,6 +569,12 @@
       "id": "computer-science/algorithm/2024-04-10-memory-vector-size",
       "title": "알고리즘 메모리 제한 벡터 크기 어림잡기",
       "description": "알고리즘 메모리 제한 벡터 크기 어림잡기",
+      "sidebar": "tutorialSidebar"
+    },
+    "computer-science/network/2024-04-23-cdn": {
+      "id": "computer-science/network/2024-04-23-cdn",
+      "title": "CDN (Content Delivery Network)",
+      "description": "콘텐츠 전송 네트워크",
       "sidebar": "tutorialSidebar"
     },
     "computer-science/programming/android/2023-02-27-upload-cert-with-android-studio": {
@@ -658,7 +687,7 @@
     },
     "data-center/2024-04-20-fiber-sm-mm": {
       "id": "data-center/2024-04-20-fiber-sm-mm",
-      "title": "광케이블 종류와 특성",
+      "title": "광케이블",
       "description": "광케이블 종류와 특성",
       "sidebar": "tutorialSidebar"
     },
@@ -732,6 +761,12 @@
       "id": "life-and-tech/2024-04-13-acp-law",
       "title": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
       "description": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
+      "sidebar": "tutorialSidebar"
+    },
+    "others/2023-08-06-bitcoin-auto-with-ml": {
+      "id": "others/2023-08-06-bitcoin-auto-with-ml",
+      "title": "강화학습 비트코인 자동 매매 봇",
+      "description": "강화학습 비트코인 자동 매매 봇",
       "sidebar": "tutorialSidebar"
     },
     "others/2023-08-06-checked": {

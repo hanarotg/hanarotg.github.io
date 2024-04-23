@@ -5,6 +5,8 @@ keywords: ["Direct to Chip", "Rear Door", "Immersions"]
 tags: ["Liquid Cooling"]
 ---
 
+# Liquid Cooling (Direct to Chip, Rear Door, Immersions)
+
 ## 개요
 
 대표적인 액체 냉각 방식 세 가지로, 인공지능 수요 폭증과 공랭 방식의 한계로 인해 주목받는 기술들

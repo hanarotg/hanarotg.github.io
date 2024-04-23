@@ -1,0 +1,43 @@
+{
+  "id": "computer-science/network/2024-04-21-liquid-cooling",
+  "title": "Liquid Cooling (Direct to Chip, Rear Door, Immersions)",
+  "description": "액체 냉각 방식 세 가지 비교",
+  "source": "@site/docs/computer-science/network/2024-04-21-liquid-cooling.md",
+  "sourceDirName": "computer-science/network",
+  "slug": "/computer-science/network/2024-04-21-liquid-cooling",
+  "permalink": "/computer-science/network/2024-04-21-liquid-cooling",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/network/2024-04-21-liquid-cooling.md",
+  "tags": [
+    {
+      "label": "Liquid Cooling",
+      "permalink": "/tags/liquid-cooling"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "2018년 10월 14일",
+  "frontMatter": {
+    "title": "Liquid Cooling (Direct to Chip, Rear Door, Immersions)",
+    "description": "액체 냉각 방식 세 가지 비교",
+    "keywords": [
+      "Direct to Chip",
+      "Rear Door",
+      "Immersions"
+    ],
+    "tags": [
+      "Liquid Cooling"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Network",
+    "permalink": "/category/network"
+  },
+  "next": {
+    "title": "Python",
+    "permalink": "/category/python"
+  }
+}

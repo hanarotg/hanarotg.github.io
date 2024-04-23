@@ -16,6 +16,9 @@
     }
   ],
   "version": "current",
+  "lastUpdatedBy": "Taegyeong Lee",
+  "lastUpdatedAt": 1713796616,
+  "formattedLastUpdatedAt": "Apr 22, 2024",
   "frontMatter": {
     "title": "C++ 벡터 참조 호출",
     "description": "C++ 벡터 주소 전달",

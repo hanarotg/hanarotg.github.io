@@ -1,0 +1,40 @@
+{
+  "id": "others/2023-08-06-bitcoin-auto-with-ml",
+  "title": "강화학습 비트코인 자동 매매 봇",
+  "description": "강화학습 비트코인 자동 매매 봇",
+  "source": "@site/docs/others/2023-08-06-bitcoin-auto-with-ml.md",
+  "sourceDirName": "others",
+  "slug": "/others/2023-08-06-bitcoin-auto-with-ml",
+  "permalink": "/en/others/2023-08-06-bitcoin-auto-with-ml",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/2023-08-06-bitcoin-auto-with-ml.md",
+  "tags": [
+    {
+      "label": "qlearning",
+      "permalink": "/en/tags/qlearning"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "강화학습 비트코인 자동 매매 봇",
+    "description": "강화학습 비트코인 자동 매매 봇",
+    "keywords": [
+      "bitcoin",
+      "ml",
+      "qlearning"
+    ],
+    "tags": [
+      "qlearning"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Others",
+    "permalink": "/en/category/others"
+  },
+  "next": {
+    "title": "체크드 독서 기록 앱",
+    "permalink": "/en/others/2023-08-06-checked"
+  }
+}

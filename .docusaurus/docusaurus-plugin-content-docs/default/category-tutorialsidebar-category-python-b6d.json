@@ -5,8 +5,8 @@
   "permalink": "/category/python",
   "navigation": {
     "previous": {
-      "title": "알고리즘 메모리 제한 벡터 크기 어림잡기",
-      "permalink": "/computer-science/algorithm/2024-04-10-memory-vector-size"
+      "title": "CDN (Content Delivery Network)",
+      "permalink": "/computer-science/network/2024-04-23-cdn"
     },
     "next": {
       "title": "python 다차원 리스트 생성",

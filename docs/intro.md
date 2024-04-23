@@ -7,12 +7,13 @@ sidebar_position: 1
 안녕하세요, 이태경입니다.
 - [`깃허브`](https://github.com/hanarotg) [`이메일`](mailto:hanarotg@naver.com)
   
-## 문서 목록 (50)
+## 문서 목록 (52)
 <details open>
 <summary>2024년</summary>
 <div>
-- 4월 21일 [# 개요](/data-center/2024-04-21-liquid-cooling.html)
-- 4월 20일 [광케이블 종류와 특성](/data-center/2024-04-20-fiber-sm-mm.html)
+- 4월 23일 [CDN (Content Delivery Network)](/computer-science/network/2024-04-23-cdn.html)
+- 4월 21일 [Liquid Cooling (Direct to Chip, Rear Door, Immersions)](/data-center/2024-04-21-liquid-cooling.html)
+- 4월 20일 [광케이블](/data-center/2024-04-20-fiber-sm-mm.html)
 - 4월 13일 [변호사 의뢰인 비밀보호 제도 ACP (Attorney client privilege)](/life-and-tech/2024-04-13-acp-law.html)
 - 4월 10일 [알고리즘 메모리 제한 벡터 크기 어림잡기](/computer-science/algorithm/2024-04-10-memory-vector-size.html)
 - 4월 7일 [대각선에 위치한 좌표 체크하기](/computer-science/algorithm/2024-04-07-digonal-check.html)
@@ -54,6 +55,7 @@ sidebar_position: 1
 <div>
 - 12월 13일 [장기보유특별공제 (부동산)](/life-and-tech/2023-12-13-long-term-real-estate-sale.html)
 - 12월 12일 [미등기 전매 (중간생략등기)](/life-and-tech/2023-12-12-real-estate-pre-sale.html)
+- 8월 6일 [강화학습 비트코인 자동 매매 봇](/others/2023-08-06-bitcoin-auto-with-ml.html)
 - 8월 6일 [체크드](/others/2023-08-06-checked.html)
 - 8월 6일 [숭파이](/others/2023-08-06-soongfi.html)
 - 6월 24일 [안드로이드 프로젝트 gradle 스크립트에 대한 이해](/computer-science/programming/android/2023-06-24-gradle-in-android.html)

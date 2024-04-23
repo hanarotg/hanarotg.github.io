@@ -16,6 +16,9 @@
     }
   ],
   "version": "current",
+  "lastUpdatedBy": "Taegyeong Lee",
+  "lastUpdatedAt": 1713796616,
+  "formattedLastUpdatedAt": "Apr 22, 2024",
   "frontMatter": {
     "title": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",
     "description": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",

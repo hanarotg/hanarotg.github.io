@@ -16,6 +16,9 @@
     }
   ],
   "version": "current",
+  "lastUpdatedBy": "Taegyeong Lee",
+  "lastUpdatedAt": 1713796616,
+  "formattedLastUpdatedAt": "Apr 22, 2024",
   "frontMatter": {
     "title": "React Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding 해결하기",
     "description": "React Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding",

@@ -20,6 +20,9 @@
     }
   ],
   "version": "current",
+  "lastUpdatedBy": "Taegyeong Lee",
+  "lastUpdatedAt": 1713796616,
+  "formattedLastUpdatedAt": "Apr 22, 2024",
   "frontMatter": {
     "title": "안드로이드 프로젝트 gradle 스크립트에 대한 이해",
     "description": "안드로이드 프로젝트 gradle 스크립트에 대한 이해",

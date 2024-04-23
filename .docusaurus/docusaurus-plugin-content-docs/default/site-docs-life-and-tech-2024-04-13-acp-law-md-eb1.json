@@ -16,6 +16,9 @@
     }
   ],
   "version": "current",
+  "lastUpdatedBy": "Taegyeong Lee",
+  "lastUpdatedAt": 1713796616,
+  "formattedLastUpdatedAt": "Apr 22, 2024",
   "frontMatter": {
     "title": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
     "description": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
@@ -32,7 +35,7 @@
     "permalink": "/en/life-and-tech/2024-03-21-hbm"
   },
   "next": {
-    "title": "🗄️ Data Center",
-    "permalink": "/en/category/️-data-center"
+    "title": "🛠️ Software",
+    "permalink": "/en/category/️-software"
   }
 }

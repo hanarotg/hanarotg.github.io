@@ -16,6 +16,9 @@
     }
   ],
   "version": "current",
+  "lastUpdatedBy": "Taegyeong Lee",
+  "lastUpdatedAt": 1713796616,
+  "formattedLastUpdatedAt": "Apr 22, 2024",
   "frontMatter": {
     "title": "Liquid Cooling (Direct to Chip, Rear Door, Immersions)",
     "description": "액체 냉각 방식 세 가지 비교",
@@ -30,11 +33,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "광케이블 종류와 특성",
+    "title": "광케이블",
     "permalink": "/en/data-center/2024-04-20-fiber-sm-mm"
   },
   "next": {
-    "title": "Others",
-    "permalink": "/en/category/others"
+    "title": "💻 Computer Science",
+    "permalink": "/en/category/-computer-science"
   }
 }

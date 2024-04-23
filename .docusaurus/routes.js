@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', '22b'),
+    component: ComponentCreator('/en/', 'b03'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', '75a'),
+        component: ComponentCreator('/en/', '67b'),
         routes: [
           {
             path: '/en/tags',
@@ -133,6 +133,11 @@ export default [
           {
             path: '/en/tags/c',
             component: ComponentCreator('/en/tags/c', '4e9'),
+            exact: true
+          },
+          {
+            path: '/en/tags/cdn',
+            component: ComponentCreator('/en/tags/cdn', '141'),
             exact: true
           },
           {
@@ -251,6 +256,11 @@ export default [
             exact: true
           },
           {
+            path: '/en/tags/qlearning',
+            component: ComponentCreator('/en/tags/qlearning', '1e2'),
+            exact: true
+          },
+          {
             path: '/en/tags/react-native',
             component: ComponentCreator('/en/tags/react-native', '8b1'),
             exact: true
@@ -292,7 +302,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', 'd8a'),
+            component: ComponentCreator('/en/', 'df9'),
             routes: [
               {
                 path: '/en/category/-computer-science',
@@ -301,8 +311,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/en/category/️-data-center',
-                component: ComponentCreator('/en/category/️-data-center', 'c1e'),
+                path: '/en/category/️-data-center-engineering',
+                component: ComponentCreator('/en/category/️-data-center-engineering', 'e52'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -351,6 +361,12 @@ export default [
               {
                 path: '/en/category/kotlin',
                 component: ComponentCreator('/en/category/kotlin', '070'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/category/network',
+                component: ComponentCreator('/en/category/network', 'd9f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -423,6 +439,12 @@ export default [
               {
                 path: '/en/computer-science/algorithm/2024-04-10-memory-vector-size',
                 component: ComponentCreator('/en/computer-science/algorithm/2024-04-10-memory-vector-size', '132'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/computer-science/network/2024-04-23-cdn',
+                component: ComponentCreator('/en/computer-science/network/2024-04-23-cdn', 'a39'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -603,6 +625,12 @@ export default [
               {
                 path: '/en/life-and-tech/2024-04-13-acp-law',
                 component: ComponentCreator('/en/life-and-tech/2024-04-13-acp-law', '01d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/others/2023-08-06-bitcoin-auto-with-ml',
+                component: ComponentCreator('/en/others/2023-08-06-bitcoin-auto-with-ml', '8eb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

@@ -464,6 +464,47 @@
                 "permalink": "/computer-science/algorithm/2024-04-07-digonal-check"
               },
               "next": {
+                "title": "Network",
+                "permalink": "/category/network"
+              }
+            },
+            {
+              "id": "computer-science/network/2024-04-23-cdn",
+              "title": "CDN (Content Delivery Network)",
+              "description": "콘텐츠 전송 네트워크",
+              "source": "@site/docs/computer-science/network/2024-04-23-cdn.md",
+              "sourceDirName": "computer-science/network",
+              "slug": "/computer-science/network/2024-04-23-cdn",
+              "permalink": "/computer-science/network/2024-04-23-cdn",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/network/2024-04-23-cdn.md",
+              "tags": [
+                {
+                  "label": "CDN",
+                  "permalink": "/tags/cdn"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "CDN (Content Delivery Network)",
+                "description": "콘텐츠 전송 네트워크",
+                "keywords": [
+                  "CDN"
+                ],
+                "tags": [
+                  "CDN"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Network",
+                "permalink": "/category/network"
+              },
+              "next": {
                 "title": "Python",
                 "permalink": "/category/python"
               }
@@ -1258,7 +1299,7 @@
             },
             {
               "id": "data-center/2024-04-20-fiber-sm-mm",
-              "title": "광케이블 종류와 특성",
+              "title": "광케이블",
               "description": "광케이블 종류와 특성",
               "source": "@site/docs/data-center/2024-04-20-fiber-sm-mm.md",
               "sourceDirName": "data-center",
@@ -1278,7 +1319,7 @@
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "2018년 10월 14일",
               "frontMatter": {
-                "title": "광케이블 종류와 특성",
+                "title": "광케이블",
                 "description": "광케이블 종류와 특성",
                 "keywords": [
                   "광케이블"
@@ -1289,8 +1330,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "🗄️ Data Center",
-                "permalink": "/category/️-data-center"
+                "title": "🗄️ Data Center Engineering",
+                "permalink": "/category/️-data-center-engineering"
               },
               "next": {
                 "title": "Liquid Cooling (Direct to Chip, Rear Door, Immersions)",
@@ -1332,12 +1373,12 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "광케이블 종류와 특성",
+                "title": "광케이블",
                 "permalink": "/data-center/2024-04-20-fiber-sm-mm"
               },
               "next": {
-                "title": "Others",
-                "permalink": "/category/others"
+                "title": "💻 Computer Science",
+                "permalink": "/category/-computer-science"
               }
             },
             {
@@ -1363,8 +1404,8 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "🛠️ Software",
-                "permalink": "/category/️-software"
+                "title": "🗄️ Data Center Engineering",
+                "permalink": "/category/️-data-center-engineering"
               }
             },
             {
@@ -1750,8 +1791,51 @@
                 "permalink": "/life-and-tech/2024-03-21-hbm"
               },
               "next": {
-                "title": "🗄️ Data Center",
-                "permalink": "/category/️-data-center"
+                "title": "🛠️ Software",
+                "permalink": "/category/️-software"
+              }
+            },
+            {
+              "id": "others/2023-08-06-bitcoin-auto-with-ml",
+              "title": "강화학습 비트코인 자동 매매 봇",
+              "description": "강화학습 비트코인 자동 매매 봇",
+              "source": "@site/docs/others/2023-08-06-bitcoin-auto-with-ml.md",
+              "sourceDirName": "others",
+              "slug": "/others/2023-08-06-bitcoin-auto-with-ml",
+              "permalink": "/others/2023-08-06-bitcoin-auto-with-ml",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/2023-08-06-bitcoin-auto-with-ml.md",
+              "tags": [
+                {
+                  "label": "qlearning",
+                  "permalink": "/tags/qlearning"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "강화학습 비트코인 자동 매매 봇",
+                "description": "강화학습 비트코인 자동 매매 봇",
+                "keywords": [
+                  "bitcoin",
+                  "ml",
+                  "qlearning"
+                ],
+                "tags": [
+                  "qlearning"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Others",
+                "permalink": "/category/others"
+              },
+              "next": {
+                "title": "체크드 독서 기록 앱",
+                "permalink": "/others/2023-08-06-checked"
               }
             },
             {
@@ -1795,8 +1879,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Others",
-                "permalink": "/category/others"
+                "title": "강화학습 비트코인 자동 매매 봇",
+                "permalink": "/others/2023-08-06-bitcoin-auto-with-ml"
               },
               "next": {
                 "title": "숭파이 숭실대 인터넷 문제 해결 앱",
@@ -2077,8 +2161,8 @@
                 "permalink": "/software/2024-02-12-tensorflow-windows-install"
               },
               "next": {
-                "title": "💻 Computer Science",
-                "permalink": "/category/-computer-science"
+                "title": "Others",
+                "permalink": "/category/others"
               }
             },
             {
@@ -2273,62 +2357,24 @@
               },
               {
                 "type": "category",
-                "label": "🛠️ Software",
+                "label": "🗄️ Data Center Engineering",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
-                    "type": "category",
-                    "label": "Docusaurus",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "software/docusaurus/2024-01-28-docusaurus-deplo"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "software/docusaurus/2024-01-29-docusaurus-all-in-one-script"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "software/docusaurus/2024-02-20-docusaurus-autogenerate-list"
-                      }
-                    ],
-                    "link": {
-                      "type": "generated-index",
-                      "description": "도큐사우루스",
-                      "slug": "/category/docusaurus",
-                      "permalink": "/category/docusaurus"
-                    }
+                    "type": "doc",
+                    "id": "data-center/2024-04-20-fiber-sm-mm"
                   },
                   {
                     "type": "doc",
-                    "id": "software/2023-02-13-appstore-connect-curl-api"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "software/2023-02-13-macos-homebrew-node-version-change"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "software/2024-02-12-tensorflow-windows-install"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "software/2024-02-24-play-console-developer-authentication"
+                    "id": "data-center/2024-04-21-liquid-cooling"
                   }
                 ],
                 "link": {
                   "type": "generated-index",
-                  "description": "소프트웨어",
-                  "slug": "/category/️-software",
-                  "permalink": "/category/️-software"
+                  "description": "데이터센터",
+                  "slug": "/category/️-data-center-engineering",
+                  "permalink": "/category/️-data-center-engineering"
                 }
               },
               {
@@ -2385,6 +2431,24 @@
                       "description": "알고리즘",
                       "slug": "/category/algorithm",
                       "permalink": "/category/algorithm"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "Network",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "computer-science/network/2024-04-23-cdn"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "네트워크",
+                      "slug": "/category/network",
+                      "permalink": "/category/network"
                     }
                   },
                   {
@@ -2615,24 +2679,62 @@
               },
               {
                 "type": "category",
-                "label": "🗄️ Data Center",
+                "label": "🛠️ Software",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
-                    "type": "doc",
-                    "id": "data-center/2024-04-20-fiber-sm-mm"
+                    "type": "category",
+                    "label": "Docusaurus",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "software/docusaurus/2024-01-28-docusaurus-deplo"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "software/docusaurus/2024-01-29-docusaurus-all-in-one-script"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "software/docusaurus/2024-02-20-docusaurus-autogenerate-list"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "도큐사우루스",
+                      "slug": "/category/docusaurus",
+                      "permalink": "/category/docusaurus"
+                    }
                   },
                   {
                     "type": "doc",
-                    "id": "data-center/2024-04-21-liquid-cooling"
+                    "id": "software/2023-02-13-appstore-connect-curl-api"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "software/2023-02-13-macos-homebrew-node-version-change"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "software/2024-02-12-tensorflow-windows-install"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "software/2024-02-24-play-console-developer-authentication"
                   }
                 ],
                 "link": {
                   "type": "generated-index",
-                  "description": "데이터센터",
-                  "slug": "/category/️-data-center",
-                  "permalink": "/category/️-data-center"
+                  "description": "소프트웨어",
+                  "slug": "/category/️-software",
+                  "permalink": "/category/️-software"
                 }
               },
               {
@@ -2641,6 +2743,10 @@
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
+                  {
+                    "type": "doc",
+                    "id": "others/2023-08-06-bitcoin-auto-with-ml"
+                  },
                   {
                     "type": "doc",
                     "id": "others/2023-08-06-checked"
