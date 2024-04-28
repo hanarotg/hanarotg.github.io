@@ -2,7 +2,7 @@
   "label": "react-native",
   "permalink": "/tags/react-native",
   "allTagsPath": "/tags",
-  "count": 8,
+  "count": 10,
   "items": [
     {
       "id": "others/2023-08-06-checked",
@@ -39,6 +39,18 @@
       "title": "React Native gradle unsupported claass file major verion 62 error 해결하기",
       "description": "gradle unsupported claass file major verion 62 error",
       "permalink": "/computer-science/programming/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error"
+    },
+    {
+      "id": "computer-science/programming/react-native/2023-03-14-react-native-first-github-push",
+      "title": "React-Native github 레포지토리 첫 업로드하기",
+      "description": "React-Native github 레포지토리 첫 업로드하기",
+      "permalink": "/computer-science/programming/react-native/2023-03-14-react-native-first-github-push"
+    },
+    {
+      "id": "computer-science/programming/react-native/2023-03-05-react-native-watchman-operation-not-per-error",
+      "title": "React-Native Watchman Operation not permitted 접근 권한 버그",
+      "description": "React-Native Watchman Operation not permitted 접근 권한 버그",
+      "permalink": "/computer-science/programming/react-native/2023-03-05-react-native-watchman-operation-not-per-error"
     },
     {
       "id": "computer-science/programming/react-native/2023-02-12-react-native-google-signin-sha-1",

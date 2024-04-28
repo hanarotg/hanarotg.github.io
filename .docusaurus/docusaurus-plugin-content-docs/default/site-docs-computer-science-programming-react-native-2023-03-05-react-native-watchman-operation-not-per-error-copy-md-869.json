@@ -1,0 +1,42 @@
+{
+  "id": "computer-science/programming/react-native/2023-03-05-react-native-watchman-operation-not-per-error copy",
+  "title": "React-Native Watchman Operation not permitted 접근 권한 버그",
+  "description": "React-Native Watchman Operation not permitted 접근 권한 버그",
+  "source": "@site/docs/computer-science/programming/react-native/2023-03-05-react-native-watchman-operation-not-per-error copy.md",
+  "sourceDirName": "computer-science/programming/react-native",
+  "slug": "/computer-science/programming/react-native/2023-03-05-react-native-watchman-operation-not-per-error copy",
+  "permalink": "/computer-science/programming/react-native/2023-03-05-react-native-watchman-operation-not-per-error copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/react-native/2023-03-05-react-native-watchman-operation-not-per-error copy.md",
+  "tags": [
+    {
+      "label": "react-native",
+      "permalink": "/tags/react-native"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "2018년 10월 14일",
+  "frontMatter": {
+    "title": "React-Native Watchman Operation not permitted 접근 권한 버그",
+    "description": "React-Native Watchman Operation not permitted 접근 권한 버그",
+    "keywords": [
+      "react-native",
+      "watchman"
+    ],
+    "tags": [
+      "react-native"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "React Native 개발할 때 알면 좋은 팁",
+    "permalink": "/computer-science/programming/react-native/2023-02-12-react-native-tips"
+  },
+  "next": {
+    "title": "React-Native Watchman Operation not permitted 접근 권한 버그",
+    "permalink": "/computer-science/programming/react-native/2023-03-05-react-native-watchman-operation-not-per-error"
+  }
+}

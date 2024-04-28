@@ -37,8 +37,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "MacOS Homebrew로 node 버전 바꾸기",
-    "permalink": "/en/software/2023-02-13-macos-homebrew-node-version-change"
+    "title": "npm semantic versioning 가이드라인 이해",
+    "permalink": "/en/software/2023-03-06-npm-semantic-versioning"
   },
   "next": {
     "title": "Play console 개발자 계정 인증",

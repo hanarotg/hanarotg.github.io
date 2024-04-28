@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', 'd24'),
+    component: ComponentCreator('/en/', 'a3f'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', 'a34'),
+        component: ComponentCreator('/en/', '3df'),
         routes: [
           {
             path: '/en/tags',
@@ -121,6 +121,11 @@ export default [
             exact: true
           },
           {
+            path: '/en/tags/as-tx',
+            component: ComponentCreator('/en/tags/as-tx', '79b'),
+            exact: true
+          },
+          {
             path: '/en/tags/bfs',
             component: ComponentCreator('/en/tags/bfs', '023'),
             exact: true
@@ -156,6 +161,11 @@ export default [
             exact: true
           },
           {
+            path: '/en/tags/dictionary',
+            component: ComponentCreator('/en/tags/dictionary', '9d5'),
+            exact: true
+          },
+          {
             path: '/en/tags/docusaurus',
             component: ComponentCreator('/en/tags/docusaurus', 'd22'),
             exact: true
@@ -178,6 +188,11 @@ export default [
           {
             path: '/en/tags/git',
             component: ComponentCreator('/en/tags/git', '4e6'),
+            exact: true
+          },
+          {
+            path: '/en/tags/github',
+            component: ComponentCreator('/en/tags/github', 'e0d'),
             exact: true
           },
           {
@@ -231,6 +246,11 @@ export default [
             exact: true
           },
           {
+            path: '/en/tags/ml',
+            component: ComponentCreator('/en/tags/ml', 'dea'),
+            exact: true
+          },
+          {
             path: '/en/tags/mst',
             component: ComponentCreator('/en/tags/mst', '4b7'),
             exact: true
@@ -243,6 +263,11 @@ export default [
           {
             path: '/en/tags/node',
             component: ComponentCreator('/en/tags/node', '33a'),
+            exact: true
+          },
+          {
+            path: '/en/tags/npm',
+            component: ComponentCreator('/en/tags/npm', '210'),
             exact: true
           },
           {
@@ -307,7 +332,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', 'cc6'),
+            component: ComponentCreator('/en/', '1d4'),
             routes: [
               {
                 path: '/en/category/-computer-science',
@@ -376,8 +401,20 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/en/category/machine-learning',
+                component: ComponentCreator('/en/category/machine-learning', 'fd1'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/en/category/network',
                 component: ComponentCreator('/en/category/network', 'd9f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/category/programming',
+                component: ComponentCreator('/en/category/programming', '2b1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -454,6 +491,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/en/computer-science/machine-learning/2023-03-15-prediction-inference-diff',
+                component: ComponentCreator('/en/computer-science/machine-learning/2023-03-15-prediction-inference-diff', 'a3e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/en/computer-science/network/2024-04-23-cdn',
                 component: ComponentCreator('/en/computer-science/network/2024-04-23-cdn', 'a39'),
                 exact: true,
@@ -520,6 +563,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/en/computer-science/programming/python/2023-02-13-python-dictionary',
+                component: ComponentCreator('/en/computer-science/programming/python/2023-02-13-python-dictionary', '921'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/en/computer-science/programming/python/2024-01-30-python-background',
                 component: ComponentCreator('/en/computer-science/programming/python/2024-01-30-python-background', '44e'),
                 exact: true,
@@ -546,6 +595,18 @@ export default [
               {
                 path: '/en/computer-science/programming/react-native/2023-02-12-react-native-tips',
                 component: ComponentCreator('/en/computer-science/programming/react-native/2023-02-12-react-native-tips', '467'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/computer-science/programming/react-native/2023-03-05-react-native-watchman-operation-not-per-error',
+                component: ComponentCreator('/en/computer-science/programming/react-native/2023-03-05-react-native-watchman-operation-not-per-error', '67a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/computer-science/programming/react-native/2023-03-14-react-native-first-github-push',
+                component: ComponentCreator('/en/computer-science/programming/react-native/2023-03-14-react-native-first-github-push', '2ed'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -672,6 +733,30 @@ export default [
               {
                 path: '/en/software/2023-02-13-macos-homebrew-node-version-change',
                 component: ComponentCreator('/en/software/2023-02-13-macos-homebrew-node-version-change', '68b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/software/2023-02-15-github-desktop-pull-request',
+                component: ComponentCreator('/en/software/2023-02-15-github-desktop-pull-request', '3f2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/software/2023-02-18-ahnlab-transaction',
+                component: ComponentCreator('/en/software/2023-02-18-ahnlab-transaction', 'aa6'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/software/2023-03-06-npm-package-lock-difference',
+                component: ComponentCreator('/en/software/2023-03-06-npm-package-lock-difference', 'c28'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/software/2023-03-06-npm-semantic-versioning',
+                component: ComponentCreator('/en/software/2023-03-06-npm-semantic-versioning', 'fd7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

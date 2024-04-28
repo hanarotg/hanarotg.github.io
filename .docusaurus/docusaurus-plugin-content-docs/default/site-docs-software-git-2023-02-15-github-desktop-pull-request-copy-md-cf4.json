@@ -1,0 +1,45 @@
+{
+  "id": "software/git/2023-02-15-github-desktop-pull-request copy",
+  "title": "GitHub Desktop 오픈소스 수정, Pull Request 하기",
+  "description": "GitHub Desktop 오픈소스 수정, Pull Request 하기",
+  "source": "@site/docs/software/git/2023-02-15-github-desktop-pull-request copy.md",
+  "sourceDirName": "software/git",
+  "slug": "/software/git/2023-02-15-github-desktop-pull-request copy",
+  "permalink": "/software/git/2023-02-15-github-desktop-pull-request copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/git/2023-02-15-github-desktop-pull-request copy.md",
+  "tags": [
+    {
+      "label": "github",
+      "permalink": "/tags/github"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "2018년 10월 14일",
+  "frontMatter": {
+    "title": "GitHub Desktop 오픈소스 수정, Pull Request 하기",
+    "description": "GitHub Desktop 오픈소스 수정, Pull Request 하기",
+    "keywords": [
+      "github",
+      "desktop",
+      "오픈소스",
+      "Pull",
+      "Request"
+    ],
+    "tags": [
+      "github"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Play console 개발자 계정 인증",
+    "permalink": "/software/2024-02-24-play-console-developer-authentication"
+  },
+  "next": {
+    "title": "GitHub Desktop 오픈소스 수정, Pull Request 하기",
+    "permalink": "/software/git/2023-02-15-github-desktop-pull-request"
+  }
+}

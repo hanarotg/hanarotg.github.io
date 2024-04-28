@@ -1,0 +1,45 @@
+{
+  "id": "software/2023-02-18-ahnlab-transaction copy",
+  "title": "ASTx AhnLab Safe Transaction for Mac 강제종료",
+  "description": "ASTx AhnLab Safe Transaction for Mac 강제종료",
+  "source": "@site/docs/software/2023-02-18-ahnlab-transaction copy.md",
+  "sourceDirName": "software",
+  "slug": "/software/2023-02-18-ahnlab-transaction copy",
+  "permalink": "/software/2023-02-18-ahnlab-transaction copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/2023-02-18-ahnlab-transaction copy.md",
+  "tags": [
+    {
+      "label": "ASTx",
+      "permalink": "/tags/as-tx"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "2018년 10월 14일",
+  "frontMatter": {
+    "title": "ASTx AhnLab Safe Transaction for Mac 강제종료",
+    "description": "ASTx AhnLab Safe Transaction for Mac 강제종료",
+    "keywords": [
+      "ASTx",
+      "AhnLab",
+      "Safe",
+      "Transaction",
+      "Mac"
+    ],
+    "tags": [
+      "ASTx"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "GitHub Desktop 오픈소스 수정, Pull Request 하기",
+    "permalink": "/software/2023-02-15-github-desktop-pull-request"
+  },
+  "next": {
+    "title": "ASTx AhnLab Safe Transaction for Mac 강제종료",
+    "permalink": "/software/2023-02-18-ahnlab-transaction"
+  }
+}

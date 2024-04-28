@@ -1,0 +1,41 @@
+{
+  "id": "computer-science/machine-learning/2023-03-15-prediction-inference-diff",
+  "title": "prediction 예측과 inference 추론의 차이",
+  "description": "prediction 예측과 inference 추론의 차이",
+  "source": "@site/docs/computer-science/machine-learning/2023-03-15-prediction-inference-diff.md",
+  "sourceDirName": "computer-science/machine-learning",
+  "slug": "/computer-science/machine-learning/2023-03-15-prediction-inference-diff",
+  "permalink": "/en/computer-science/machine-learning/2023-03-15-prediction-inference-diff",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/machine-learning/2023-03-15-prediction-inference-diff.md",
+  "tags": [
+    {
+      "label": "ml",
+      "permalink": "/en/tags/ml"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "prediction 예측과 inference 추론의 차이",
+    "description": "prediction 예측과 inference 추론의 차이",
+    "keywords": [
+      "prediction",
+      "inference",
+      "예측",
+      "추론"
+    ],
+    "tags": [
+      "ml"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Machine Learning",
+    "permalink": "/en/category/machine-learning"
+  },
+  "next": {
+    "title": "🍎 Life and Tech",
+    "permalink": "/en/category/-life-and-tech"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "computer-science/ai/2023-03-06-npm-semantic-versioning",
+  "title": "npm semantic versioning 가이드라인 이해",
+  "description": "npm semantic versioning 가이드라인 이해",
+  "source": "@site/docs/computer-science/ai/2023-03-06-npm-semantic-versioning.md",
+  "sourceDirName": "computer-science/ai",
+  "slug": "/computer-science/ai/2023-03-06-npm-semantic-versioning",
+  "permalink": "/computer-science/ai/2023-03-06-npm-semantic-versioning",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/ai/2023-03-06-npm-semantic-versioning.md",
+  "tags": [
+    {
+      "label": "npm",
+      "permalink": "/tags/npm"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "2018년 10월 14일",
+  "frontMatter": {
+    "title": "npm semantic versioning 가이드라인 이해",
+    "description": "npm semantic versioning 가이드라인 이해",
+    "keywords": [
+      "npm",
+      "semantic",
+      "versioning"
+    ],
+    "tags": [
+      "npm"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CDN (Content Delivery Network)",
+    "permalink": "/computer-science/network/2024-04-23-cdn"
+  },
+  "next": {
+    "title": "Python",
+    "permalink": "/category/python"
+  }
+}

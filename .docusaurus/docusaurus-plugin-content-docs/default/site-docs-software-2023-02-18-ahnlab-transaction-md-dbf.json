@@ -1,0 +1,42 @@
+{
+  "id": "software/2023-02-18-ahnlab-transaction",
+  "title": "ASTx AhnLab Safe Transaction for Mac 강제종료",
+  "description": "ASTx AhnLab Safe Transaction for Mac 강제종료",
+  "source": "@site/docs/software/2023-02-18-ahnlab-transaction.md",
+  "sourceDirName": "software",
+  "slug": "/software/2023-02-18-ahnlab-transaction",
+  "permalink": "/en/software/2023-02-18-ahnlab-transaction",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/2023-02-18-ahnlab-transaction.md",
+  "tags": [
+    {
+      "label": "ASTx",
+      "permalink": "/en/tags/as-tx"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "ASTx AhnLab Safe Transaction for Mac 강제종료",
+    "description": "ASTx AhnLab Safe Transaction for Mac 강제종료",
+    "keywords": [
+      "ASTx",
+      "AhnLab",
+      "Safe",
+      "Transaction",
+      "Mac"
+    ],
+    "tags": [
+      "ASTx"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "GitHub Desktop 오픈소스 수정, Pull Request 하기",
+    "permalink": "/en/software/2023-02-15-github-desktop-pull-request"
+  },
+  "next": {
+    "title": "npm package.json 과 package-lock.json 차이점 이해와 필요성",
+    "permalink": "/en/software/2023-03-06-npm-package-lock-difference"
+  }
+}

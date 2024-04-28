@@ -1,0 +1,16 @@
+{
+  "title": "Network",
+  "description": "네트워크",
+  "slug": "/category/network-1",
+  "permalink": "/category/network-1",
+  "navigation": {
+    "previous": {
+      "title": "prediction(예측)과 inference(추론)의 차이",
+      "permalink": "/computer-science/AI/2023-03-15-prediction-inference-diff"
+    },
+    "next": {
+      "title": "CDN (Content Delivery Network)",
+      "permalink": "/computer-science/network/2024-04-23-cdn"
+    }
+  }
+}

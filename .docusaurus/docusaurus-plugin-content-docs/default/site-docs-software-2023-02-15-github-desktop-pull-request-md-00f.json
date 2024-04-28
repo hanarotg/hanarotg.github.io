@@ -1,0 +1,42 @@
+{
+  "id": "software/2023-02-15-github-desktop-pull-request",
+  "title": "GitHub Desktop 오픈소스 수정, Pull Request 하기",
+  "description": "GitHub Desktop 오픈소스 수정, Pull Request 하기",
+  "source": "@site/docs/software/2023-02-15-github-desktop-pull-request.md",
+  "sourceDirName": "software",
+  "slug": "/software/2023-02-15-github-desktop-pull-request",
+  "permalink": "/en/software/2023-02-15-github-desktop-pull-request",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/2023-02-15-github-desktop-pull-request.md",
+  "tags": [
+    {
+      "label": "github",
+      "permalink": "/en/tags/github"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "GitHub Desktop 오픈소스 수정, Pull Request 하기",
+    "description": "GitHub Desktop 오픈소스 수정, Pull Request 하기",
+    "keywords": [
+      "github",
+      "desktop",
+      "오픈소스",
+      "Pull",
+      "Request"
+    ],
+    "tags": [
+      "github"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "MacOS Homebrew로 node 버전 바꾸기",
+    "permalink": "/en/software/2023-02-13-macos-homebrew-node-version-change"
+  },
+  "next": {
+    "title": "ASTx AhnLab Safe Transaction for Mac 강제종료",
+    "permalink": "/en/software/2023-02-18-ahnlab-transaction"
+  }
+}

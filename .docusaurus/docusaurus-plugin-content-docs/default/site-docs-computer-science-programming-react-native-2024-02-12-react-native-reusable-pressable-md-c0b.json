@@ -33,8 +33,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "React Native 개발할 때 알면 좋은 팁",
-    "permalink": "/en/computer-science/programming/react-native/2023-02-12-react-native-tips"
+    "title": "React-Native github 레포지토리 첫 업로드하기",
+    "permalink": "/en/computer-science/programming/react-native/2023-03-14-react-native-first-github-push"
   },
   "next": {
     "title": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",

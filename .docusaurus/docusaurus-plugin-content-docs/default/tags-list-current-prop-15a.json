@@ -85,6 +85,11 @@
     "count": 1
   },
   {
+    "label": "ml",
+    "permalink": "/en/tags/ml",
+    "count": 1
+  },
+  {
     "label": "CDN",
     "permalink": "/en/tags/cdn",
     "count": 1
@@ -117,7 +122,12 @@
   {
     "label": "python",
     "permalink": "/en/tags/python",
-    "count": 2
+    "count": 3
+  },
+  {
+    "label": "dictionary",
+    "permalink": "/en/tags/dictionary",
+    "count": 1
   },
   {
     "label": "linux",
@@ -127,7 +137,7 @@
   {
     "label": "react-native",
     "permalink": "/en/tags/react-native",
-    "count": 8
+    "count": 10
   },
   {
     "label": "opensource",
@@ -228,6 +238,21 @@
     "label": "node",
     "permalink": "/en/tags/node",
     "count": 1
+  },
+  {
+    "label": "github",
+    "permalink": "/en/tags/github",
+    "count": 1
+  },
+  {
+    "label": "ASTx",
+    "permalink": "/en/tags/as-tx",
+    "count": 1
+  },
+  {
+    "label": "npm",
+    "permalink": "/en/tags/npm",
+    "count": 2
   },
   {
     "label": "tensorflow",

@@ -1,0 +1,47 @@
+{
+  "id": "computer-science/programming/python/2023-06-30-python-dictionary",
+  "title": "python nuhup 백그라운드 실행",
+  "description": "python nuhup 백그라운드 실행하는 방법",
+  "source": "@site/docs/computer-science/programming/python/2023-06-30-python-dictionary.md",
+  "sourceDirName": "computer-science/programming/python",
+  "slug": "/computer-science/programming/python/2023-06-30-python-dictionary",
+  "permalink": "/computer-science/programming/python/2023-06-30-python-dictionary",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/python/2023-06-30-python-dictionary.md",
+  "tags": [
+    {
+      "label": "python",
+      "permalink": "/tags/python"
+    },
+    {
+      "label": "linux",
+      "permalink": "/tags/linux"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "2018년 10월 14일",
+  "frontMatter": {
+    "title": "python nuhup 백그라운드 실행",
+    "description": "python nuhup 백그라운드 실행하는 방법",
+    "keywords": [
+      "python",
+      "linux"
+    ],
+    "tags": [
+      "python",
+      "linux"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "python 다차원 리스트 생성",
+    "permalink": "/computer-science/programming/python/2023-02-12-python-multi-list"
+  },
+  "next": {
+    "title": "python nuhup 백그라운드 실행",
+    "permalink": "/computer-science/programming/python/2024-01-30-python-background"
+  }
+}

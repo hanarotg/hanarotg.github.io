@@ -511,6 +511,50 @@
               }
             },
             {
+              "id": "computer-science/machine-learning/2023-03-15-prediction-inference-diff",
+              "title": "prediction 예측과 inference 추론의 차이",
+              "description": "prediction 예측과 inference 추론의 차이",
+              "source": "@site/docs/computer-science/machine-learning/2023-03-15-prediction-inference-diff.md",
+              "sourceDirName": "computer-science/machine-learning",
+              "slug": "/computer-science/machine-learning/2023-03-15-prediction-inference-diff",
+              "permalink": "/computer-science/machine-learning/2023-03-15-prediction-inference-diff",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/machine-learning/2023-03-15-prediction-inference-diff.md",
+              "tags": [
+                {
+                  "label": "ml",
+                  "permalink": "/tags/ml"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "prediction 예측과 inference 추론의 차이",
+                "description": "prediction 예측과 inference 추론의 차이",
+                "keywords": [
+                  "prediction",
+                  "inference",
+                  "예측",
+                  "추론"
+                ],
+                "tags": [
+                  "ml"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Machine Learning",
+                "permalink": "/category/machine-learning"
+              },
+              "next": {
+                "title": "🍎 Life and Tech",
+                "permalink": "/category/-life-and-tech"
+              }
+            },
+            {
               "id": "computer-science/network/2024-04-23-cdn",
               "title": "CDN (Content Delivery Network)",
               "description": "콘텐츠 전송 네트워크",
@@ -547,8 +591,8 @@
                 "permalink": "/category/network"
               },
               "next": {
-                "title": "Python",
-                "permalink": "/category/python"
+                "title": "Programming",
+                "permalink": "/category/programming"
               }
             },
             {
@@ -985,6 +1029,53 @@
                 "permalink": "/category/python"
               },
               "next": {
+                "title": "python dictionary 사용 방법",
+                "permalink": "/computer-science/programming/python/2023-02-13-python-dictionary"
+              }
+            },
+            {
+              "id": "computer-science/programming/python/2023-02-13-python-dictionary",
+              "title": "python dictionary 사용 방법",
+              "description": "python dictionary 사용 방법",
+              "source": "@site/docs/computer-science/programming/python/2023-02-13-python-dictionary.md",
+              "sourceDirName": "computer-science/programming/python",
+              "slug": "/computer-science/programming/python/2023-02-13-python-dictionary",
+              "permalink": "/computer-science/programming/python/2023-02-13-python-dictionary",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/python/2023-02-13-python-dictionary.md",
+              "tags": [
+                {
+                  "label": "python",
+                  "permalink": "/tags/python"
+                },
+                {
+                  "label": "dictionary",
+                  "permalink": "/tags/dictionary"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "python dictionary 사용 방법",
+                "description": "python dictionary 사용 방법",
+                "keywords": [
+                  "python",
+                  "dictionary"
+                ],
+                "tags": [
+                  "python",
+                  "dictionary"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "python 다차원 리스트 생성",
+                "permalink": "/computer-science/programming/python/2023-02-12-python-multi-list"
+              },
+              "next": {
                 "title": "python nuhup 백그라운드 실행",
                 "permalink": "/computer-science/programming/python/2024-01-30-python-background"
               }
@@ -1028,8 +1119,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "python 다차원 리스트 생성",
-                "permalink": "/computer-science/programming/python/2023-02-12-python-multi-list"
+                "title": "python dictionary 사용 방법",
+                "permalink": "/computer-science/programming/python/2023-02-13-python-dictionary"
               },
               "next": {
                 "title": "Android",
@@ -1207,6 +1298,90 @@
                 "permalink": "/computer-science/programming/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error"
               },
               "next": {
+                "title": "React-Native Watchman Operation not permitted 접근 권한 버그",
+                "permalink": "/computer-science/programming/react-native/2023-03-05-react-native-watchman-operation-not-per-error"
+              }
+            },
+            {
+              "id": "computer-science/programming/react-native/2023-03-05-react-native-watchman-operation-not-per-error",
+              "title": "React-Native Watchman Operation not permitted 접근 권한 버그",
+              "description": "React-Native Watchman Operation not permitted 접근 권한 버그",
+              "source": "@site/docs/computer-science/programming/react-native/2023-03-05-react-native-watchman-operation-not-per-error.md",
+              "sourceDirName": "computer-science/programming/react-native",
+              "slug": "/computer-science/programming/react-native/2023-03-05-react-native-watchman-operation-not-per-error",
+              "permalink": "/computer-science/programming/react-native/2023-03-05-react-native-watchman-operation-not-per-error",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/react-native/2023-03-05-react-native-watchman-operation-not-per-error.md",
+              "tags": [
+                {
+                  "label": "react-native",
+                  "permalink": "/tags/react-native"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "React-Native Watchman Operation not permitted 접근 권한 버그",
+                "description": "React-Native Watchman Operation not permitted 접근 권한 버그",
+                "keywords": [
+                  "react-native",
+                  "watchman"
+                ],
+                "tags": [
+                  "react-native"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "React Native 개발할 때 알면 좋은 팁",
+                "permalink": "/computer-science/programming/react-native/2023-02-12-react-native-tips"
+              },
+              "next": {
+                "title": "React-Native github 레포지토리 첫 업로드하기",
+                "permalink": "/computer-science/programming/react-native/2023-03-14-react-native-first-github-push"
+              }
+            },
+            {
+              "id": "computer-science/programming/react-native/2023-03-14-react-native-first-github-push",
+              "title": "React-Native github 레포지토리 첫 업로드하기",
+              "description": "React-Native github 레포지토리 첫 업로드하기",
+              "source": "@site/docs/computer-science/programming/react-native/2023-03-14-react-native-first-github-push.md",
+              "sourceDirName": "computer-science/programming/react-native",
+              "slug": "/computer-science/programming/react-native/2023-03-14-react-native-first-github-push",
+              "permalink": "/computer-science/programming/react-native/2023-03-14-react-native-first-github-push",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/react-native/2023-03-14-react-native-first-github-push.md",
+              "tags": [
+                {
+                  "label": "react-native",
+                  "permalink": "/tags/react-native"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "React-Native github 레포지토리 첫 업로드하기",
+                "description": "React-Native github 레포지토리 첫 업로드하기",
+                "keywords": [
+                  "react-native",
+                  "github"
+                ],
+                "tags": [
+                  "react-native"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "React-Native Watchman Operation not permitted 접근 권한 버그",
+                "permalink": "/computer-science/programming/react-native/2023-03-05-react-native-watchman-operation-not-per-error"
+              },
+              "next": {
                 "title": "Pressable 컴포넌트로 재사용 가능한 버튼 구성하기",
                 "permalink": "/computer-science/programming/react-native/2024-02-12-react-native-reusable-pressable"
               }
@@ -1246,8 +1421,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "React Native 개발할 때 알면 좋은 팁",
-                "permalink": "/computer-science/programming/react-native/2023-02-12-react-native-tips"
+                "title": "React-Native github 레포지토리 첫 업로드하기",
+                "permalink": "/computer-science/programming/react-native/2023-03-14-react-native-first-github-push"
               },
               "next": {
                 "title": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",
@@ -1335,8 +1510,8 @@
                 "permalink": "/computer-science/programming/react-native/2024-02-12-react-native-webview-android-webview-error"
               },
               "next": {
-                "title": "🍎 Life and Tech",
-                "permalink": "/category/-life-and-tech"
+                "title": "Machine Learning",
+                "permalink": "/category/machine-learning"
               }
             },
             {
@@ -2111,6 +2286,183 @@
                 "permalink": "/software/2023-02-13-appstore-connect-curl-api"
               },
               "next": {
+                "title": "GitHub Desktop 오픈소스 수정, Pull Request 하기",
+                "permalink": "/software/2023-02-15-github-desktop-pull-request"
+              }
+            },
+            {
+              "id": "software/2023-02-15-github-desktop-pull-request",
+              "title": "GitHub Desktop 오픈소스 수정, Pull Request 하기",
+              "description": "GitHub Desktop 오픈소스 수정, Pull Request 하기",
+              "source": "@site/docs/software/2023-02-15-github-desktop-pull-request.md",
+              "sourceDirName": "software",
+              "slug": "/software/2023-02-15-github-desktop-pull-request",
+              "permalink": "/software/2023-02-15-github-desktop-pull-request",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/2023-02-15-github-desktop-pull-request.md",
+              "tags": [
+                {
+                  "label": "github",
+                  "permalink": "/tags/github"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "GitHub Desktop 오픈소스 수정, Pull Request 하기",
+                "description": "GitHub Desktop 오픈소스 수정, Pull Request 하기",
+                "keywords": [
+                  "github",
+                  "desktop",
+                  "오픈소스",
+                  "Pull",
+                  "Request"
+                ],
+                "tags": [
+                  "github"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "MacOS Homebrew로 node 버전 바꾸기",
+                "permalink": "/software/2023-02-13-macos-homebrew-node-version-change"
+              },
+              "next": {
+                "title": "ASTx AhnLab Safe Transaction for Mac 강제종료",
+                "permalink": "/software/2023-02-18-ahnlab-transaction"
+              }
+            },
+            {
+              "id": "software/2023-02-18-ahnlab-transaction",
+              "title": "ASTx AhnLab Safe Transaction for Mac 강제종료",
+              "description": "ASTx AhnLab Safe Transaction for Mac 강제종료",
+              "source": "@site/docs/software/2023-02-18-ahnlab-transaction.md",
+              "sourceDirName": "software",
+              "slug": "/software/2023-02-18-ahnlab-transaction",
+              "permalink": "/software/2023-02-18-ahnlab-transaction",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/2023-02-18-ahnlab-transaction.md",
+              "tags": [
+                {
+                  "label": "ASTx",
+                  "permalink": "/tags/as-tx"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "ASTx AhnLab Safe Transaction for Mac 강제종료",
+                "description": "ASTx AhnLab Safe Transaction for Mac 강제종료",
+                "keywords": [
+                  "ASTx",
+                  "AhnLab",
+                  "Safe",
+                  "Transaction",
+                  "Mac"
+                ],
+                "tags": [
+                  "ASTx"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "GitHub Desktop 오픈소스 수정, Pull Request 하기",
+                "permalink": "/software/2023-02-15-github-desktop-pull-request"
+              },
+              "next": {
+                "title": "npm package.json 과 package-lock.json 차이점 이해와 필요성",
+                "permalink": "/software/2023-03-06-npm-package-lock-difference"
+              }
+            },
+            {
+              "id": "software/2023-03-06-npm-package-lock-difference",
+              "title": "npm package.json 과 package-lock.json 차이점 이해와 필요성",
+              "description": "npm package.json 과 package-lock.json 차이점 이해와 필요성",
+              "source": "@site/docs/software/2023-03-06-npm-package-lock-difference.md",
+              "sourceDirName": "software",
+              "slug": "/software/2023-03-06-npm-package-lock-difference",
+              "permalink": "/software/2023-03-06-npm-package-lock-difference",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/2023-03-06-npm-package-lock-difference.md",
+              "tags": [
+                {
+                  "label": "npm",
+                  "permalink": "/tags/npm"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "npm package.json 과 package-lock.json 차이점 이해와 필요성",
+                "description": "npm package.json 과 package-lock.json 차이점 이해와 필요성",
+                "keywords": [
+                  "npm",
+                  "package.json",
+                  "package-lock.json",
+                  "차이"
+                ],
+                "tags": [
+                  "npm"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "ASTx AhnLab Safe Transaction for Mac 강제종료",
+                "permalink": "/software/2023-02-18-ahnlab-transaction"
+              },
+              "next": {
+                "title": "npm semantic versioning 가이드라인 이해",
+                "permalink": "/software/2023-03-06-npm-semantic-versioning"
+              }
+            },
+            {
+              "id": "software/2023-03-06-npm-semantic-versioning",
+              "title": "npm semantic versioning 가이드라인 이해",
+              "description": "npm semantic versioning 가이드라인 이해",
+              "source": "@site/docs/software/2023-03-06-npm-semantic-versioning.md",
+              "sourceDirName": "software",
+              "slug": "/software/2023-03-06-npm-semantic-versioning",
+              "permalink": "/software/2023-03-06-npm-semantic-versioning",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/2023-03-06-npm-semantic-versioning.md",
+              "tags": [
+                {
+                  "label": "npm",
+                  "permalink": "/tags/npm"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "npm semantic versioning 가이드라인 이해",
+                "description": "npm semantic versioning 가이드라인 이해",
+                "keywords": [
+                  "npm",
+                  "semantic",
+                  "versioning"
+                ],
+                "tags": [
+                  "npm"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "npm package.json 과 package-lock.json 차이점 이해와 필요성",
+                "permalink": "/software/2023-03-06-npm-package-lock-difference"
+              },
+              "next": {
                 "title": "Tensorflow windows 11 설치",
                 "permalink": "/software/2024-02-12-tensorflow-windows-install"
               }
@@ -2154,8 +2506,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "MacOS Homebrew로 node 버전 바꾸기",
-                "permalink": "/software/2023-02-13-macos-homebrew-node-version-change"
+                "title": "npm semantic versioning 가이드라인 이해",
+                "permalink": "/software/2023-03-06-npm-semantic-versioning"
               },
               "next": {
                 "title": "Play console 개발자 계정 인증",
@@ -2499,7 +2851,7 @@
                   },
                   {
                     "type": "category",
-                    "label": "programming",
+                    "label": "Programming",
                     "collapsible": true,
                     "collapsed": true,
                     "items": [
@@ -2512,6 +2864,10 @@
                           {
                             "type": "doc",
                             "id": "computer-science/programming/python/2023-02-12-python-multi-list"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "computer-science/programming/python/2023-02-13-python-dictionary"
                           },
                           {
                             "type": "doc",
@@ -2641,6 +2997,14 @@
                           },
                           {
                             "type": "doc",
+                            "id": "computer-science/programming/react-native/2023-03-05-react-native-watchman-operation-not-per-error"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "computer-science/programming/react-native/2023-03-14-react-native-first-github-push"
+                          },
+                          {
+                            "type": "doc",
                             "id": "computer-science/programming/react-native/2024-02-12-react-native-reusable-pressable"
                           },
                           {
@@ -2659,7 +3023,31 @@
                           "permalink": "/category/react-native"
                         }
                       }
-                    ]
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "프로그래밍",
+                      "slug": "/category/programming",
+                      "permalink": "/category/programming"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "Machine Learning",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "computer-science/machine-learning/2023-03-15-prediction-inference-diff"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "머신러닝",
+                      "slug": "/category/machine-learning",
+                      "permalink": "/category/machine-learning"
+                    }
                   }
                 ],
                 "link": {
@@ -2766,6 +3154,22 @@
                   {
                     "type": "doc",
                     "id": "software/2023-02-13-macos-homebrew-node-version-change"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "software/2023-02-15-github-desktop-pull-request"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "software/2023-02-18-ahnlab-transaction"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "software/2023-03-06-npm-package-lock-difference"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "software/2023-03-06-npm-semantic-versioning"
                   },
                   {
                     "type": "doc",

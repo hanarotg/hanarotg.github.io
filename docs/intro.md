@@ -7,7 +7,7 @@ sidebar_position: 1
 안녕하세요, 이태경입니다.
 - [`깃허브`](https://github.com/hanarotg) [`이메일`](mailto:hanarotg@naver.com)
   
-## 문서 목록 (53)
+## 문서 목록 (61)
 <details open>
 <summary>2024년</summary>
 <div>
@@ -62,7 +62,15 @@ sidebar_position: 1
 - 6월 24일 [안드로이드 프로젝트 gradle 스크립트에 대한 이해](/computer-science/programming/android/2023-06-24-gradle-in-android.html)
 - 5월 28일 [kotlin Array](/computer-science/programming/android/kotlin/2023-05-28-kotlin-array.html)
 - 4월 26일 [kotlin nullability](/computer-science/programming/android/kotlin/2023-04-26-kotlin-nullability.html)
+- 3월 15일 [prediction 예측과 inference 추론의 차이](/computer-science/machine-learning/2023-03-15-prediction-inference-diff.html)
+- 3월 14일 [React-Native github 레포지토리 첫 업로드하기](/computer-science/programming/react-native/2023-03-14-react-native-first-github-push.html)
+- 3월 6일 [npm package.json 과 package-lock.json 차이점 이해와 필요성](/software/2023-03-06-npm-package-lock-difference.html)
+- 3월 6일 [npm semantic versioning 가이드라인 이해](/software/2023-03-06-npm-semantic-versioning.html)
+- 3월 5일 [React-Native Watchman std::\_\_1::system_error: Operation not permitted 접근 권한 버그 해결하기](/computer-science/programming/react-native/2023-03-05-react-native-watchman-operation-not-per-error.html)
 - 2월 27일 [안드로이드 업로드 키, 인증서 재설정하기](/computer-science/programming/android/2023-02-27-upload-cert-with-android-studio.html)
+- 2월 18일 [ASTx AhnLab Safe Transaction for Mac 강제종료](/software/2023-02-18-ahnlab-transaction.html)
+- 2월 15일 [GitHub Desktop 오픈소스 수정, Pull Request 하기](/software/2023-02-15-github-desktop-pull-request.html)
+- 2월 13일 [python dictionary 사용 방법](/computer-science/programming/python/2023-02-13-python-dictionary.html)
 - 2월 13일 [appstore connect 앱 스크린샷 업로드 오류를 Curl API를 통해 우회적으로 해결하기](/software/2023-02-13-appstore-connect-curl-api.html)
 - 2월 13일 [MacOS Homebrew로 node 버전 바꾸기](/software/2023-02-13-macos-homebrew-node-version-change.html)
 - 2월 12일 [python 다차원 리스트 생성](/computer-science/programming/python/2023-02-12-python-multi-list.html)

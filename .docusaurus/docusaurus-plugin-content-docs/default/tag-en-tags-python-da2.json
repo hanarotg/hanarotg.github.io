@@ -2,13 +2,19 @@
   "label": "python",
   "permalink": "/en/tags/python",
   "allTagsPath": "/en/tags",
-  "count": 2,
+  "count": 3,
   "items": [
     {
       "id": "computer-science/programming/python/2023-02-12-python-multi-list",
       "title": "python 다차원 리스트 생성",
       "description": "python 다차원 리스트 생성",
       "permalink": "/en/computer-science/programming/python/2023-02-12-python-multi-list"
+    },
+    {
+      "id": "computer-science/programming/python/2023-02-13-python-dictionary",
+      "title": "python dictionary 사용 방법",
+      "description": "python dictionary 사용 방법",
+      "permalink": "/en/computer-science/programming/python/2023-02-13-python-dictionary"
     },
     {
       "id": "computer-science/programming/python/2024-01-30-python-background",
