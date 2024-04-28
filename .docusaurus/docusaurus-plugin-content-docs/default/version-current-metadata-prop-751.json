@@ -113,6 +113,13 @@
                 "href": "/en/computer-science/algorithm/2024-04-10-memory-vector-size",
                 "docId": "computer-science/algorithm/2024-04-10-memory-vector-size",
                 "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "최소 신장 트리 MST (Minimum Spanning Tree)",
+                "href": "/en/computer-science/algorithm/2024-04-28-mst",
+                "docId": "computer-science/algorithm/2024-04-28-mst",
+                "unlisted": false
               }
             ],
             "href": "/en/category/algorithm"
@@ -479,7 +486,7 @@
       },
       {
         "type": "category",
-        "label": "Others",
+        "label": "📚 Others",
         "collapsible": true,
         "collapsed": true,
         "items": [
@@ -512,7 +519,7 @@
             "unlisted": false
           }
         ],
-        "href": "/en/category/others"
+        "href": "/en/category/-others"
       }
     ]
   },
@@ -569,6 +576,12 @@
       "id": "computer-science/algorithm/2024-04-10-memory-vector-size",
       "title": "알고리즘 메모리 제한 벡터 크기 어림잡기",
       "description": "알고리즘 메모리 제한 벡터 크기 어림잡기",
+      "sidebar": "tutorialSidebar"
+    },
+    "computer-science/algorithm/2024-04-28-mst": {
+      "id": "computer-science/algorithm/2024-04-28-mst",
+      "title": "최소 신장 트리 MST (Minimum Spanning Tree)",
+      "description": "최소 신장 트리 MST (Minimum Spanning Tree)",
       "sidebar": "tutorialSidebar"
     },
     "computer-science/network/2024-04-23-cdn": {

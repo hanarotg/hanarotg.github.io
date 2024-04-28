@@ -5,8 +5,8 @@
   "permalink": "/category/network",
   "navigation": {
     "previous": {
-      "title": "알고리즘 메모리 제한 벡터 크기 어림잡기",
-      "permalink": "/computer-science/algorithm/2024-04-10-memory-vector-size"
+      "title": "최소 신장 트리 MST (Minimum Spanning Tree)",
+      "permalink": "/computer-science/algorithm/2024-04-28-mst"
     },
     "next": {
       "title": "CDN (Content Delivery Network)",

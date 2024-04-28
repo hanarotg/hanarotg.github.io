@@ -1,0 +1,39 @@
+{
+  "id": "computer-science/algorithm/2024-04-28-mst",
+  "title": "최소 신장 트리 MST (Minimum Spanning Tree)",
+  "description": "최소 신장 트리 MST (Minimum Spanning Tree)",
+  "source": "@site/docs/computer-science/algorithm/2024-04-28-mst.md",
+  "sourceDirName": "computer-science/algorithm",
+  "slug": "/computer-science/algorithm/2024-04-28-mst",
+  "permalink": "/en/computer-science/algorithm/2024-04-28-mst",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/algorithm/2024-04-28-mst.md",
+  "tags": [
+    {
+      "label": "MST",
+      "permalink": "/en/tags/mst"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "최소 신장 트리 MST (Minimum Spanning Tree)",
+    "description": "최소 신장 트리 MST (Minimum Spanning Tree)",
+    "keywords": [
+      "MST",
+      "최소 스패닝 트리"
+    ],
+    "tags": [
+      "MST"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "알고리즘 메모리 제한 벡터 크기 어림잡기",
+    "permalink": "/en/computer-science/algorithm/2024-04-10-memory-vector-size"
+  },
+  "next": {
+    "title": "Network",
+    "permalink": "/en/category/network"
+  }
+}

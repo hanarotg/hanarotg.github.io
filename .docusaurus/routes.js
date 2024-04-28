@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', 'b03'),
+    component: ComponentCreator('/en/', 'd24'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', '67b'),
+        component: ComponentCreator('/en/', 'a34'),
         routes: [
           {
             path: '/en/tags',
@@ -231,6 +231,11 @@ export default [
             exact: true
           },
           {
+            path: '/en/tags/mst',
+            component: ComponentCreator('/en/tags/mst', '4b7'),
+            exact: true
+          },
+          {
             path: '/en/tags/nightshade',
             component: ComponentCreator('/en/tags/nightshade', '685'),
             exact: true
@@ -302,7 +307,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', 'df9'),
+            component: ComponentCreator('/en/', 'cc6'),
             routes: [
               {
                 path: '/en/category/-computer-science',
@@ -319,6 +324,12 @@ export default [
               {
                 path: '/en/category/-life-and-tech',
                 component: ComponentCreator('/en/category/-life-and-tech', 'd28'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/category/-others',
+                component: ComponentCreator('/en/category/-others', '46c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -367,12 +378,6 @@ export default [
               {
                 path: '/en/category/network',
                 component: ComponentCreator('/en/category/network', 'd9f'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/category/others',
-                component: ComponentCreator('/en/category/others', '3a5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -439,6 +444,12 @@ export default [
               {
                 path: '/en/computer-science/algorithm/2024-04-10-memory-vector-size',
                 component: ComponentCreator('/en/computer-science/algorithm/2024-04-10-memory-vector-size', '132'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/computer-science/algorithm/2024-04-28-mst',
+                component: ComponentCreator('/en/computer-science/algorithm/2024-04-28-mst', 'dd4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

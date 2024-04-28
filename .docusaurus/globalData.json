@@ -71,6 +71,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "computer-science/algorithm/2024-04-28-mst",
+              "path": "/en/computer-science/algorithm/2024-04-28-mst",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "computer-science/network/2024-04-23-cdn",
               "path": "/en/computer-science/network/2024-04-23-cdn",
               "sidebar": "tutorialSidebar"
@@ -356,8 +361,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/others",
-              "path": "/en/category/others",
+              "id": "/category/-others",
+              "path": "/en/category/-others",
               "sidebar": "tutorialSidebar"
             }
           ],
