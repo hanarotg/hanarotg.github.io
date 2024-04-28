@@ -13,7 +13,7 @@ sidebar_position: 1
 <div>
 - 4월 28일 [최소 신장 트리 MST (Minimum Spanning Tree)](/computer-science/algorithm/2024-04-28-mst.html)
 - 4월 23일 [CDN (Content Delivery Network)](/computer-science/network/2024-04-23-cdn.html)
-- 4월 21일 [Liquid Cooling (Direct to Chip, Rear Door, Immersions)](/data-center/2024-04-21-liquid-cooling.html)
+- 4월 21일 [Liquid Cooling (Direct to Chip, Rear Door, Immersion)](/data-center/2024-04-21-liquid-cooling.html)
 - 4월 20일 [광케이블](/data-center/2024-04-20-fiber-sm-mm.html)
 - 4월 13일 [변호사 의뢰인 비밀보호 제도 ACP (Attorney client privilege)](/life-and-tech/2024-04-13-acp-law.html)
 - 4월 10일 [알고리즘 메모리 제한 벡터 크기 어림잡기](/computer-science/algorithm/2024-04-10-memory-vector-size.html)

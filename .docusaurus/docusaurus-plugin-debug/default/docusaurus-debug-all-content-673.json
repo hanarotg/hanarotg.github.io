@@ -1376,13 +1376,13 @@
                 "permalink": "/category/️-data-center-engineering"
               },
               "next": {
-                "title": "Liquid Cooling (Direct to Chip, Rear Door, Immersions)",
+                "title": "Liquid Cooling (Direct to Chip, Rear Door, Immersion)",
                 "permalink": "/data-center/2024-04-21-liquid-cooling"
               }
             },
             {
               "id": "data-center/2024-04-21-liquid-cooling",
-              "title": "Liquid Cooling (Direct to Chip, Rear Door, Immersions)",
+              "title": "Liquid Cooling (Direct to Chip, Rear Door, Immersion)",
               "description": "액체 냉각 방식 세 가지 비교",
               "source": "@site/docs/data-center/2024-04-21-liquid-cooling.md",
               "sourceDirName": "data-center",
@@ -1402,12 +1402,12 @@
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "2018년 10월 14일",
               "frontMatter": {
-                "title": "Liquid Cooling (Direct to Chip, Rear Door, Immersions)",
+                "title": "Liquid Cooling (Direct to Chip, Rear Door, Immersion)",
                 "description": "액체 냉각 방식 세 가지 비교",
                 "keywords": [
                   "Direct to Chip",
                   "Rear Door",
-                  "Immersions"
+                  "Immersion"
                 ],
                 "tags": [
                   "Liquid Cooling"
