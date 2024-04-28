@@ -16,6 +16,9 @@
     }
   ],
   "version": "current",
+  "lastUpdatedBy": "Taegyeong Lee",
+  "lastUpdatedAt": 1714290495,
+  "formattedLastUpdatedAt": "Apr 28, 2024",
   "frontMatter": {
     "title": "최소 신장 트리 MST (Minimum Spanning Tree)",
     "description": "최소 신장 트리 MST (Minimum Spanning Tree)",
