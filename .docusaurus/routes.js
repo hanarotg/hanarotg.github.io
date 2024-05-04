@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', 'a3f'),
+    component: ComponentCreator('/en/', '5de'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', '3df'),
+        component: ComponentCreator('/en/', 'dfc'),
         routes: [
           {
             path: '/en/tags',
@@ -256,6 +256,11 @@ export default [
             exact: true
           },
           {
+            path: '/en/tags/nic',
+            component: ComponentCreator('/en/tags/nic', '62a'),
+            exact: true
+          },
+          {
             path: '/en/tags/nightshade',
             component: ComponentCreator('/en/tags/nightshade', '685'),
             exact: true
@@ -332,7 +337,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', '1d4'),
+            component: ComponentCreator('/en/', 'bdf'),
             routes: [
               {
                 path: '/en/category/-computer-science',
@@ -637,6 +642,12 @@ export default [
               {
                 path: '/en/data-center/2024-04-21-liquid-cooling',
                 component: ComponentCreator('/en/data-center/2024-04-21-liquid-cooling', 'da3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/data-center/2024-05-03-nic',
+                component: ComponentCreator('/en/data-center/2024-05-03-nic', '737'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

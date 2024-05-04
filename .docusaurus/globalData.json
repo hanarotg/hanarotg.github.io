@@ -1,16 +1,16 @@
 {
-  "docusaurus-plugin-google-tag-manager": {
-    "default": {
-      "containerId": "GTM-5SML85MT",
-      "id": "default"
-    }
-  },
   "docusaurus-plugin-google-gtag": {
     "default": {
       "trackingID": [
         "G-PSM1SDYJFY"
       ],
       "anonymizeIP": false,
+      "id": "default"
+    }
+  },
+  "docusaurus-plugin-google-tag-manager": {
+    "default": {
+      "containerId": "GTM-5SML85MT",
       "id": "default"
     }
   },
@@ -198,6 +198,11 @@
             {
               "id": "data-center/2024-04-21-liquid-cooling",
               "path": "/en/data-center/2024-04-21-liquid-cooling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-center/2024-05-03-nic",
+              "path": "/en/data-center/2024-05-03-nic",
               "sidebar": "tutorialSidebar"
             },
             {

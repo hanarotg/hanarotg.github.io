@@ -47,13 +47,13 @@
       "plugin": "d3689f3d"
     }
   },
-  "/en/-a3f": {
+  "/en/-5de": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "c74882fd"
     }
   },
-  "/en/-3df": {
+  "/en/-dfc": {
     "__comp": "a7bd4aaa",
     "version": "935f2afb"
   },
@@ -229,6 +229,10 @@
     "__comp": "df203c0f",
     "tag": "cd60b1d3"
   },
+  "/en/tags/nic-62a": {
+    "__comp": "df203c0f",
+    "tag": "e434583a"
+  },
   "/en/tags/nightshade-685": {
     "__comp": "df203c0f",
     "tag": "8f5a38b6"
@@ -289,7 +293,7 @@
     "__comp": "df203c0f",
     "tag": "bdf7c89d"
   },
-  "/en/-1d4": {
+  "/en/-bdf": {
     "__comp": "a94703ab"
   },
   "/en/category/-computer-science-bd6": {
@@ -495,6 +499,10 @@
   "/en/data-center/2024-04-21-liquid-cooling-da3": {
     "__comp": "17896441",
     "content": "637f05a9"
+  },
+  "/en/data-center/2024-05-03-nic-737": {
+    "__comp": "17896441",
+    "content": "b58f419d"
   },
   "/en/life-and-tech/2023-12-12-real-estate-pre-sale-fe9": {
     "__comp": "17896441",

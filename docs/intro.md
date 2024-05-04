@@ -7,10 +7,11 @@ sidebar_position: 1
 안녕하세요, 이태경입니다.
 - [`깃허브`](https://github.com/hanarotg) [`이메일`](mailto:hanarotg@naver.com)
   
-## 문서 목록 (61)
+## 문서 목록 (62)
 <details open>
 <summary>2024년</summary>
 <div>
+- 5월 3일 [NIC (Network Interface Card)](/data-center/2024-05-03-nic.html)
 - 4월 28일 [최소 신장 트리 MST (Minimum Spanning Tree)](/computer-science/algorithm/2024-04-28-mst.html)
 - 4월 23일 [CDN (Content Delivery Network)](/computer-science/network/2024-04-23-cdn.html)
 - 4월 21일 [Liquid Cooling (Direct to Chip, Rear Door, Immersion)](/data-center/2024-04-21-liquid-cooling.html)

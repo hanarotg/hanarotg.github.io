@@ -16,6 +16,9 @@
     }
   ],
   "version": "current",
+  "lastUpdatedBy": "Taegyeong Lee",
+  "lastUpdatedAt": 1714314254,
+  "formattedLastUpdatedAt": "Apr 28, 2024",
   "frontMatter": {
     "title": "npm semantic versioning 가이드라인 이해",
     "description": "npm semantic versioning 가이드라인 이해",

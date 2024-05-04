@@ -16,6 +16,9 @@
     }
   ],
   "version": "current",
+  "lastUpdatedBy": "Taegyeong Lee",
+  "lastUpdatedAt": 1714314254,
+  "formattedLastUpdatedAt": "Apr 28, 2024",
   "frontMatter": {
     "title": "GitHub Desktop 오픈소스 수정, Pull Request 하기",
     "description": "GitHub Desktop 오픈소스 수정, Pull Request 하기",
