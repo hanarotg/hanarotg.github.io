@@ -5,19 +5,19 @@
   "source": "@site/docs/life-and-tech/2024-03-21-hbm.md",
   "sourceDirName": "life-and-tech",
   "slug": "/life-and-tech/2024-03-21-hbm",
-  "permalink": "/en/life-and-tech/2024-03-21-hbm",
+  "permalink": "/life-and-tech/2024-03-21-hbm",
   "draft": false,
   "unlisted": false,
   "tags": [
     {
       "label": "HBM",
-      "permalink": "/en/tags/hbm"
+      "permalink": "/tags/hbm"
     }
   ],
   "version": "current",
-  "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1713796616,
-  "formattedLastUpdatedAt": "Apr 22, 2024",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "2018년 10월 14일",
   "frontMatter": {
     "title": "HBM",
     "description": "HBM",
@@ -31,10 +31,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "워터폴",
-    "permalink": "/en/life-and-tech/2024-03-17-lp-gp-waterfall"
+    "permalink": "/life-and-tech/2024-03-17-lp-gp-waterfall"
   },
   "next": {
     "title": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
-    "permalink": "/en/life-and-tech/2024-04-13-acp-law"
+    "permalink": "/life-and-tech/2024-04-13-acp-law"
   }
 }

@@ -26,7 +26,10 @@ function findDocsTitlesAndLinks(dir) {
 
     if (stat.isDirectory()) {
       findDocsTitlesAndLinks(filePath);
-    } else if (file.endsWith(".md") && file !== "intro.md") {
+    } else if (
+      (file.endsWith(".md") || file.endsWith(".mdx")) &&
+      file !== "intro.md"
+    ) {
       // intro.md 파일 제외
       const { title, link } = extractTitleAndLink(filePath);
 

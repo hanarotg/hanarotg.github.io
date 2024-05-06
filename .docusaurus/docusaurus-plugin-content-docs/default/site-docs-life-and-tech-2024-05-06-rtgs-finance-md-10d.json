@@ -5,19 +5,19 @@
   "source": "@site/docs/life-and-tech/2024-05-06-rtgs-finance.md",
   "sourceDirName": "life-and-tech",
   "slug": "/life-and-tech/2024-05-06-rtgs-finance",
-  "permalink": "/en/life-and-tech/2024-05-06-rtgs-finance",
+  "permalink": "/life-and-tech/2024-05-06-rtgs-finance",
   "draft": false,
   "unlisted": false,
   "tags": [
     {
       "label": "rtgs",
-      "permalink": "/en/tags/rtgs"
+      "permalink": "/tags/rtgs"
     }
   ],
   "version": "current",
-  "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1714987537,
-  "formattedLastUpdatedAt": "May 6, 2024",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "2018년 10월 14일",
   "frontMatter": {
     "title": "실시간 총액결제 시스템 RTGS (Real-time gross settlement)",
     "description": "실시간 총액결제 시스템 RTGS (Real-time gross settlement)",
@@ -31,10 +31,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
-    "permalink": "/en/life-and-tech/2024-04-13-acp-law"
+    "permalink": "/life-and-tech/2024-04-13-acp-law"
   },
   "next": {
     "title": "🛠️ Software",
-    "permalink": "/en/category/️-software"
+    "permalink": "/category/️-software"
   }
 }

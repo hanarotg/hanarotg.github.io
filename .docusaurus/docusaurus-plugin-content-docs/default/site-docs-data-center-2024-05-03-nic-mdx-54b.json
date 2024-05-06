@@ -1,0 +1,37 @@
+{
+  "id": "data-center/2024-05-03-nic",
+  "title": "NIC (Network Interface Card)",
+  "description": "NIC (Network Interface Card)",
+  "source": "@site/docs/data-center/2024-05-03-nic.mdx",
+  "sourceDirName": "data-center",
+  "slug": "/data-center/2024-05-03-nic",
+  "permalink": "/en/data-center/2024-05-03-nic",
+  "draft": false,
+  "unlisted": false,
+  "tags": [
+    {
+      "label": "nic",
+      "permalink": "/en/tags/nic"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "NIC (Network Interface Card)",
+    "description": "NIC (Network Interface Card)",
+    "keywords": [
+      "nic"
+    ],
+    "tags": [
+      "nic"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Liquid Cooling (Direct to Chip, Rear Door, Immersion)",
+    "permalink": "/en/data-center/2024-04-21-liquid-cooling"
+  },
+  "next": {
+    "title": "💻 Computer Science",
+    "permalink": "/en/category/-computer-science"
+  }
+}

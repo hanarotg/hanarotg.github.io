@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', '30e'),
+    component: ComponentCreator('/en/', 'f84'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', '068'),
+        component: ComponentCreator('/en/', '12a'),
         routes: [
           {
             path: '/en/tags',
@@ -342,7 +342,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', '543'),
+            component: ComponentCreator('/en/', '8ab'),
             routes: [
               {
                 path: '/en/category/-computer-science',
@@ -646,19 +646,19 @@ export default [
               },
               {
                 path: '/en/data-center/2024-04-20-fiber-sm-mm',
-                component: ComponentCreator('/en/data-center/2024-04-20-fiber-sm-mm', '324'),
+                component: ComponentCreator('/en/data-center/2024-04-20-fiber-sm-mm', 'a08'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/en/data-center/2024-04-21-liquid-cooling',
-                component: ComponentCreator('/en/data-center/2024-04-21-liquid-cooling', 'da3'),
+                component: ComponentCreator('/en/data-center/2024-04-21-liquid-cooling', 'ede'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/en/data-center/2024-05-03-nic',
-                component: ComponentCreator('/en/data-center/2024-05-03-nic', '737'),
+                component: ComponentCreator('/en/data-center/2024-05-03-nic', 'ada'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -706,7 +706,7 @@ export default [
               },
               {
                 path: '/en/life-and-tech/2024-03-21-hbm',
-                component: ComponentCreator('/en/life-and-tech/2024-03-21-hbm', '443'),
+                component: ComponentCreator('/en/life-and-tech/2024-03-21-hbm', '519'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -718,7 +718,7 @@ export default [
               },
               {
                 path: '/en/life-and-tech/2024-05-06-rtgs-finance',
-                component: ComponentCreator('/en/life-and-tech/2024-05-06-rtgs-finance', '3f7'),
+                component: ComponentCreator('/en/life-and-tech/2024-05-06-rtgs-finance', 'a11'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

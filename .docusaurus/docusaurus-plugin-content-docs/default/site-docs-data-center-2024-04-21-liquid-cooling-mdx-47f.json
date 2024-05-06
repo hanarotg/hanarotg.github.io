@@ -1,0 +1,39 @@
+{
+  "id": "data-center/2024-04-21-liquid-cooling",
+  "title": "Liquid Cooling (Direct to Chip, Rear Door, Immersion)",
+  "description": "액체 냉각 방식 세 가지 비교",
+  "source": "@site/docs/data-center/2024-04-21-liquid-cooling.mdx",
+  "sourceDirName": "data-center",
+  "slug": "/data-center/2024-04-21-liquid-cooling",
+  "permalink": "/en/data-center/2024-04-21-liquid-cooling",
+  "draft": false,
+  "unlisted": false,
+  "tags": [
+    {
+      "label": "Liquid Cooling",
+      "permalink": "/en/tags/liquid-cooling"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "Liquid Cooling (Direct to Chip, Rear Door, Immersion)",
+    "description": "액체 냉각 방식 세 가지 비교",
+    "keywords": [
+      "Direct to Chip",
+      "Rear Door",
+      "Immersion"
+    ],
+    "tags": [
+      "Liquid Cooling"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "광케이블",
+    "permalink": "/en/data-center/2024-04-20-fiber-sm-mm"
+  },
+  "next": {
+    "title": "NIC (Network Interface Card)",
+    "permalink": "/en/data-center/2024-05-03-nic"
+  }
+}

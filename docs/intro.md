@@ -11,17 +11,17 @@ sidebar_position: 1
 <details open>
 <summary>2024년</summary>
 <div>
-- 5월 6일 [실시간 총액결제 시스템 RTGS (Real-time gross settlement)](/life-and-tech/2024-05-06-rtgs-finance.html)
-- 5월 3일 [NIC (Network Interface Card)](/data-center/2024-05-03-nic.html)
+- 5월 6일 [실시간 총액결제 시스템 RTGS (Real-time gross settlement)](/life-and-tech/2024-05-06-rtgs-finance.mdx)
+- 5월 3일 [NIC (Network Interface Card)](/data-center/2024-05-03-nic.mdx)
 - 4월 28일 [최소 신장 트리 MST (Minimum Spanning Tree)](/computer-science/algorithm/2024-04-28-mst.html)
 - 4월 23일 [CDN (Content Delivery Network)](/computer-science/network/2024-04-23-cdn.html)
-- 4월 21일 [Liquid Cooling (Direct to Chip, Rear Door, Immersion)](/data-center/2024-04-21-liquid-cooling.html)
-- 4월 20일 [광케이블](/data-center/2024-04-20-fiber-sm-mm.html)
+- 4월 21일 [Liquid Cooling (Direct to Chip, Rear Door, Immersion)](/data-center/2024-04-21-liquid-cooling.mdx)
+- 4월 20일 [광케이블](/data-center/2024-04-20-fiber-sm-mm.mdx)
 - 4월 13일 [변호사 의뢰인 비밀보호 제도 ACP (Attorney client privilege)](/life-and-tech/2024-04-13-acp-law.html)
 - 4월 10일 [알고리즘 메모리 제한 벡터 크기 어림잡기](/computer-science/algorithm/2024-04-10-memory-vector-size.html)
 - 4월 7일 [대각선에 위치한 좌표 체크하기](/computer-science/algorithm/2024-04-07-digonal-check.html)
 - 3월 21일 [flutter Futurebuilder Future 객체 리로드 시 상태 반영하기](/computer-science/programming/flutter/2024-03-21-flutter-futurebuilder-reload.html)
-- 3월 21일 [HBM (High Bandwidth Memory)](/life-and-tech/2024-03-21-hbm.html)
+- 3월 21일 [HBM (High Bandwidth Memory)](/life-and-tech/2024-03-21-hbm.mdx)
 - 3월 17일 [워터폴 (Waterfall)](/life-and-tech/2024-03-17-lp-gp-waterfall.html)
 - 3월 12일 [Equinix Interconnection Solution](/data-center/2024-03-12-equinix-interconnection-solutions.html)
 - 3월 6일 [백준 1167 트리의 지름 C++ 문제 풀이](/computer-science/algorithm/2024-03-06-boj-1167.html)

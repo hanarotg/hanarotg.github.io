@@ -5,19 +5,19 @@
   "source": "@site/docs/data-center/2024-05-03-nic.md",
   "sourceDirName": "data-center",
   "slug": "/data-center/2024-05-03-nic",
-  "permalink": "/en/data-center/2024-05-03-nic",
+  "permalink": "/data-center/2024-05-03-nic",
   "draft": false,
   "unlisted": false,
   "tags": [
     {
       "label": "nic",
-      "permalink": "/en/tags/nic"
+      "permalink": "/tags/nic"
     }
   ],
   "version": "current",
-  "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1714804767,
-  "formattedLastUpdatedAt": "May 4, 2024",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "2018년 10월 14일",
   "frontMatter": {
     "title": "NIC (Network Interface Card)",
     "description": "NIC (Network Interface Card)",
@@ -31,10 +31,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Liquid Cooling (Direct to Chip, Rear Door, Immersion)",
-    "permalink": "/en/data-center/2024-04-21-liquid-cooling"
+    "permalink": "/data-center/2024-04-21-liquid-cooling"
   },
   "next": {
     "title": "💻 Computer Science",
-    "permalink": "/en/category/-computer-science"
+    "permalink": "/category/-computer-science"
   }
 }
