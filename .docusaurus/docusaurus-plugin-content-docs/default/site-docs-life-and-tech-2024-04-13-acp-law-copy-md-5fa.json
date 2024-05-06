@@ -1,0 +1,41 @@
+{
+  "id": "life-and-tech/2024-04-13-acp-law copy",
+  "title": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
+  "description": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
+  "source": "@site/docs/life-and-tech/2024-04-13-acp-law copy.md",
+  "sourceDirName": "life-and-tech",
+  "slug": "/life-and-tech/2024-04-13-acp-law copy",
+  "permalink": "/life-and-tech/2024-04-13-acp-law copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/life-and-tech/2024-04-13-acp-law copy.md",
+  "tags": [
+    {
+      "label": "acp",
+      "permalink": "/tags/acp"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "2018년 10월 14일",
+  "frontMatter": {
+    "title": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
+    "description": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
+    "keywords": [
+      "acp"
+    ],
+    "tags": [
+      "acp"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "HBM",
+    "permalink": "/life-and-tech/2024-03-21-hbm"
+  },
+  "next": {
+    "title": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
+    "permalink": "/life-and-tech/2024-04-13-acp-law"
+  }
+}

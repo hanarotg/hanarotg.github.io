@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', '5de'),
+    component: ComponentCreator('/en/', 'c6e'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', 'dfc'),
+        component: ComponentCreator('/en/', '40f'),
         routes: [
           {
             path: '/en/tags',
@@ -301,6 +301,11 @@ export default [
             exact: true
           },
           {
+            path: '/en/tags/rtgs',
+            component: ComponentCreator('/en/tags/rtgs', '33b'),
+            exact: true
+          },
+          {
             path: '/en/tags/soongfi',
             component: ComponentCreator('/en/tags/soongfi', 'c78'),
             exact: true
@@ -337,7 +342,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', 'bdf'),
+            component: ComponentCreator('/en/', '3e7'),
             routes: [
               {
                 path: '/en/category/-computer-science',
@@ -708,6 +713,12 @@ export default [
               {
                 path: '/en/life-and-tech/2024-04-13-acp-law',
                 component: ComponentCreator('/en/life-and-tech/2024-04-13-acp-law', '01d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/life-and-tech/2024-05-06-rtgs-finance',
+                component: ComponentCreator('/en/life-and-tech/2024-05-06-rtgs-finance', '3f7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

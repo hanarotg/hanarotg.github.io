@@ -47,13 +47,13 @@
       "plugin": "d3689f3d"
     }
   },
-  "/en/-5de": {
+  "/en/-c6e": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "c74882fd"
     }
   },
-  "/en/-dfc": {
+  "/en/-40f": {
     "__comp": "a7bd4aaa",
     "version": "935f2afb"
   },
@@ -265,6 +265,10 @@
     "__comp": "df203c0f",
     "tag": "6f11e9db"
   },
+  "/en/tags/rtgs-33b": {
+    "__comp": "df203c0f",
+    "tag": "d3e8058e"
+  },
   "/en/tags/soongfi-c78": {
     "__comp": "df203c0f",
     "tag": "3d6c2205"
@@ -293,7 +297,7 @@
     "__comp": "df203c0f",
     "tag": "bdf7c89d"
   },
-  "/en/-bdf": {
+  "/en/-3e7": {
     "__comp": "a94703ab"
   },
   "/en/category/-computer-science-bd6": {
@@ -543,6 +547,10 @@
   "/en/life-and-tech/2024-04-13-acp-law-01d": {
     "__comp": "17896441",
     "content": "eb1fa491"
+  },
+  "/en/life-and-tech/2024-05-06-rtgs-finance-3f7": {
+    "__comp": "17896441",
+    "content": "10d54062"
   },
   "/en/others/2023-08-06-bitcoin-auto-with-ml-8eb": {
     "__comp": "17896441",

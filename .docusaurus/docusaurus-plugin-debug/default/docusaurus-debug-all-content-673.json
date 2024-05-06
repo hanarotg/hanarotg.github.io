@@ -2049,6 +2049,47 @@
                 "permalink": "/life-and-tech/2024-03-21-hbm"
               },
               "next": {
+                "title": "실시간 총액결제 시스템 RTGS (Real-time gross settlement)",
+                "permalink": "/life-and-tech/2024-05-06-rtgs-finance"
+              }
+            },
+            {
+              "id": "life-and-tech/2024-05-06-rtgs-finance",
+              "title": "실시간 총액결제 시스템 RTGS (Real-time gross settlement)",
+              "description": "실시간 총액결제 시스템 RTGS (Real-time gross settlement)",
+              "source": "@site/docs/life-and-tech/2024-05-06-rtgs-finance.md",
+              "sourceDirName": "life-and-tech",
+              "slug": "/life-and-tech/2024-05-06-rtgs-finance",
+              "permalink": "/life-and-tech/2024-05-06-rtgs-finance",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/life-and-tech/2024-05-06-rtgs-finance.md",
+              "tags": [
+                {
+                  "label": "rtgs",
+                  "permalink": "/tags/rtgs"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "실시간 총액결제 시스템 RTGS (Real-time gross settlement)",
+                "description": "실시간 총액결제 시스템 RTGS (Real-time gross settlement)",
+                "keywords": [
+                  "rtgs"
+                ],
+                "tags": [
+                  "rtgs"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
+                "permalink": "/life-and-tech/2024-04-13-acp-law"
+              },
+              "next": {
                 "title": "🛠️ Software",
                 "permalink": "/category/️-software"
               }
@@ -3147,6 +3188,10 @@
                   {
                     "type": "doc",
                     "id": "life-and-tech/2024-04-13-acp-law"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "life-and-tech/2024-05-06-rtgs-finance"
                   }
                 ],
                 "link": {

@@ -1,0 +1,46 @@
+---
+title: 실시간 총액결제 시스템 RTGS (Real-time gross settlement)
+description: 실시간 총액결제 시스템 RTGS (Real-time gross settlement)
+keywords: ["rtgs"]
+tags: ["rtgs"]
+---
+
+# 실시간 총액결제 시스템 RTGS (Real-time gross settlement)
+
+## 개요
+
+- 은행 간 지급결제 시스템 종류 중 하나.
+- 자금이체지시 처리와 최종 결제가 독립적이고 실시간으로 처리되는 시스템
+
+지급인이 본인의 농협은행에서 11,200원을 수취인 하나은행 계좌에 돈을 보내는 과정
+
+![rtgs](https://github.com/hanarotg/hanarotg.github.io/assets/34812887/630fbf02-1f77-405e-944e-12bfea1ad9e2)
+
+## 기존 시스템
+
+### 이연차액결제 시스템 DNS (Deferred Net Settlement)
+
+지급인이 수취인에게 금액 송금 시, 수취인 거래 은행이 수취인에게 우선 입금. **은행 간의 계산은 시차를 두고 한꺼번에 처리**
+
+지급인이 본인의 농협은행에서 11,200원을 수취인 하나은행 계좌에 돈을 보내는 과정
+
+![dns](https://github.com/hanarotg/hanarotg.github.io/assets/34812887/451efda6-04d7-4c39-9133-3b1d90527dae)
+
+## 필요성
+
+### 뱅크런 사태 대비
+
+- 은행 간 자금 이동에 대해서 사후 처리되는 시스템의 치명적인 단점
+- 은행의 문제로 자신의 자산을 돌려받지 못하는 사태 발생할 수 있음
+
+### 전산 기술 발전
+
+- DNS는 2001년에 대한민국에서 최초 도입한 기술
+- 당시 RTGS를 운용하기 위한 소액 결제 전산 인프라가 부족했음
+- 그러나 기술이 발전하면서 RTGS 운용하기 위한 전산 인프라 충족
+
+## 참고 자료
+
+- https://news.mt.co.kr/mtview.php?no=2023042714221211769
+- https://www.fcms.co.kr/customer/sub05_10.html?id=5459&type=read&db=fcms
+- https://www.bok.or.kr/portal/bbs/B0000232/view.do?nttId=10066184&menuNo=200725&pageIndex=1

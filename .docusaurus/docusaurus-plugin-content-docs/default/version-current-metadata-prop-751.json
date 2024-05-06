@@ -451,6 +451,13 @@
             "href": "/en/life-and-tech/2024-04-13-acp-law",
             "docId": "life-and-tech/2024-04-13-acp-law",
             "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "실시간 총액결제 시스템 RTGS (Real-time gross settlement)",
+            "href": "/en/life-and-tech/2024-05-06-rtgs-finance",
+            "docId": "life-and-tech/2024-05-06-rtgs-finance",
+            "unlisted": false
           }
         ],
         "href": "/en/category/-life-and-tech"
@@ -877,6 +884,12 @@
       "id": "life-and-tech/2024-04-13-acp-law",
       "title": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
       "description": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
+      "sidebar": "tutorialSidebar"
+    },
+    "life-and-tech/2024-05-06-rtgs-finance": {
+      "id": "life-and-tech/2024-05-06-rtgs-finance",
+      "title": "실시간 총액결제 시스템 RTGS (Real-time gross settlement)",
+      "description": "실시간 총액결제 시스템 RTGS (Real-time gross settlement)",
       "sidebar": "tutorialSidebar"
     },
     "others/2023-08-06-bitcoin-auto-with-ml": {
