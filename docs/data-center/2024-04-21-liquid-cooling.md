@@ -19,6 +19,8 @@ tags: ["Liquid Cooling"]
 
 ## Direct to Chip
 
+![dtc](https://github.com/hanarotg/hanarotg.github.io/assets/34812887/4c8b466d-879b-44c9-8807-dfefd9f067f4)
+
 냉각이 필요한 장치에 액체 주입 및 배출 호스가 있는 냉각판을 부착
 
 - 기존 칩에 냉각판을 추가로 설치하여 사용
@@ -32,6 +34,8 @@ tags: ["Liquid Cooling"]
 - 세 기술 중 현 공랭 방식에서 전환하기에 가장 현실적인 방안 (모든 칩에 냉각판을 붙이는 것보다. 캐비닛 단위로 냉각 코일 판을 설치하는 것이 당연히 합리적)
 
 ## Immersion Cooling
+
+![lc](https://github.com/hanarotg/hanarotg.github.io/assets/34812887/32c3d6fc-21e7-47ab-a010-a85b6c93fda2)
 
 액체에 장치를 넣어 냉각하는 방식
 
