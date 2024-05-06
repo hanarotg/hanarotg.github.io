@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', 'c6e'),
+    component: ComponentCreator('/en/', '30e'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', '40f'),
+        component: ComponentCreator('/en/', '068'),
         routes: [
           {
             path: '/en/tags',
@@ -342,7 +342,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', '3e7'),
+            component: ComponentCreator('/en/', '543'),
             routes: [
               {
                 path: '/en/category/-computer-science',
@@ -639,6 +639,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/en/data-center/2024-03-12-equinix-interconnection-solutions',
+                component: ComponentCreator('/en/data-center/2024-03-12-equinix-interconnection-solutions', 'bc5'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/en/data-center/2024-04-20-fiber-sm-mm',
                 component: ComponentCreator('/en/data-center/2024-04-20-fiber-sm-mm', '324'),
                 exact: true,
@@ -689,12 +695,6 @@ export default [
               {
                 path: '/en/life-and-tech/2024-03-01-chainlink-blockchain-solutions',
                 component: ComponentCreator('/en/life-and-tech/2024-03-01-chainlink-blockchain-solutions', '7a4'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/life-and-tech/2024-03-12-equinix-interconnection-solutions',
-                component: ComponentCreator('/en/life-and-tech/2024-03-12-equinix-interconnection-solutions', 'e15'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

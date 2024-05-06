@@ -32,9 +32,11 @@
 }
 
 @media only screen and (min-width: 1024px) {
+  /*
   img {
-    max-width: 480px;
+    max-width: 640px;
   }
+  */
 }
 
 .utterances {

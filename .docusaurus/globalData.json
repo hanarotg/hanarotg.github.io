@@ -1,16 +1,16 @@
 {
+  "docusaurus-plugin-google-tag-manager": {
+    "default": {
+      "containerId": "GTM-5SML85MT",
+      "id": "default"
+    }
+  },
   "docusaurus-plugin-google-gtag": {
     "default": {
       "trackingID": [
         "G-PSM1SDYJFY"
       ],
       "anonymizeIP": false,
-      "id": "default"
-    }
-  },
-  "docusaurus-plugin-google-tag-manager": {
-    "default": {
-      "containerId": "GTM-5SML85MT",
       "id": "default"
     }
   },
@@ -191,6 +191,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "data-center/2024-03-12-equinix-interconnection-solutions",
+              "path": "/en/data-center/2024-03-12-equinix-interconnection-solutions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "data-center/2024-04-20-fiber-sm-mm",
               "path": "/en/data-center/2024-04-20-fiber-sm-mm",
               "sidebar": "tutorialSidebar"
@@ -238,11 +243,6 @@
             {
               "id": "life-and-tech/2024-03-01-chainlink-blockchain-solutions",
               "path": "/en/life-and-tech/2024-03-01-chainlink-blockchain-solutions",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "life-and-tech/2024-03-12-equinix-interconnection-solutions",
-              "path": "/en/life-and-tech/2024-03-12-equinix-interconnection-solutions",
               "sidebar": "tutorialSidebar"
             },
             {

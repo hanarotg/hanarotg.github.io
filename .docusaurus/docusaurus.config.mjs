@@ -5,7 +5,7 @@
  */
 export default {
   "title": "TaeGyeong Lee",
-  "tagline": "개발자",
+  "tagline": "Engineer",
   "favicon": "img/favicon.ico",
   "url": "https://hanarotg.github.io",
   "baseUrl": "/en/",
@@ -28,10 +28,10 @@ export default {
     [
       "@docusaurus/plugin-ideal-image",
       {
-        "quality": 70,
+        "quality": 85,
         "max": 1030,
         "min": 640,
-        "steps": 2,
+        "steps": 4,
         "disableInDev": false
       }
     ]
@@ -44,8 +44,7 @@ export default {
           "routeBasePath": "/",
           "sidebarPath": "./sidebars.js",
           "showLastUpdateAuthor": true,
-          "showLastUpdateTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "showLastUpdateTime": true
         },
         "theme": {
           "customCss": "./src/css/custom.css"

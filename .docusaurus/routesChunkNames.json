@@ -47,13 +47,13 @@
       "plugin": "d3689f3d"
     }
   },
-  "/en/-c6e": {
+  "/en/-30e": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "c74882fd"
     }
   },
-  "/en/-40f": {
+  "/en/-068": {
     "__comp": "a7bd4aaa",
     "version": "935f2afb"
   },
@@ -297,7 +297,7 @@
     "__comp": "df203c0f",
     "tag": "bdf7c89d"
   },
-  "/en/-3e7": {
+  "/en/-543": {
     "__comp": "a94703ab"
   },
   "/en/category/-computer-science-bd6": {
@@ -496,6 +496,10 @@
     "__comp": "17896441",
     "content": "0a237068"
   },
+  "/en/data-center/2024-03-12-equinix-interconnection-solutions-bc5": {
+    "__comp": "17896441",
+    "content": "4cbcdaab"
+  },
   "/en/data-center/2024-04-20-fiber-sm-mm-324": {
     "__comp": "17896441",
     "content": "2515db54"
@@ -531,10 +535,6 @@
   "/en/life-and-tech/2024-03-01-chainlink-blockchain-solutions-7a4": {
     "__comp": "17896441",
     "content": "e263bb03"
-  },
-  "/en/life-and-tech/2024-03-12-equinix-interconnection-solutions-e15": {
-    "__comp": "17896441",
-    "content": "2789d393"
   },
   "/en/life-and-tech/2024-03-17-lp-gp-waterfall-acb": {
     "__comp": "17896441",

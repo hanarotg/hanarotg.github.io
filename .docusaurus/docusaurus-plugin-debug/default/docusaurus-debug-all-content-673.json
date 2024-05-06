@@ -11,8 +11,6 @@
           "className": "docs-version-current",
           "path": "/",
           "tagsPath": "/tags",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
-          "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/ko/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "/Users/taegyeonglee/Documents/GitHub/hanarotg.github.io/sidebars.js",
@@ -29,7 +27,6 @@
               "permalink": "/computer-science/algorithm/2024-02-02-boj-2178",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/algorithm/2024-02-02-boj-2178.md",
               "tags": [
                 {
                   "label": "백준",
@@ -88,7 +85,6 @@
               "permalink": "/computer-science/algorithm/2024-02-11-fast-io",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/algorithm/2024-02-11-fast-io.md",
               "tags": [
                 {
                   "label": "c++",
@@ -129,7 +125,6 @@
               "permalink": "/computer-science/algorithm/2024-02-11-strick-weak-ordering",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/algorithm/2024-02-11-strick-weak-ordering.md",
               "tags": [
                 {
                   "label": "strict weak ordering",
@@ -182,7 +177,6 @@
               "permalink": "/computer-science/algorithm/2024-02-20-boj-1946",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/algorithm/2024-02-20-boj-1946.md",
               "tags": [
                 {
                   "label": "백준",
@@ -241,7 +235,6 @@
               "permalink": "/computer-science/algorithm/2024-02-23-byzantine-fault-tolerance",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/algorithm/2024-02-23-byzantine-fault-tolerance.md",
               "tags": [
                 {
                   "label": "비잔틴 장애 허용",
@@ -288,7 +281,6 @@
               "permalink": "/computer-science/algorithm/2024-02-23-division-in-algorithm",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/algorithm/2024-02-23-division-in-algorithm.md",
               "tags": [
                 {
                   "label": "나머지",
@@ -335,7 +327,6 @@
               "permalink": "/computer-science/algorithm/2024-03-06-boj-1167",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/algorithm/2024-03-06-boj-1167.md",
               "tags": [
                 {
                   "label": "백준",
@@ -394,7 +385,6 @@
               "permalink": "/computer-science/algorithm/2024-04-07-digonal-check",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/algorithm/2024-04-07-digonal-check.md",
               "tags": [
                 {
                   "label": "대각선",
@@ -436,7 +426,6 @@
               "permalink": "/computer-science/algorithm/2024-04-10-memory-vector-size",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/algorithm/2024-04-10-memory-vector-size.md",
               "tags": [
                 {
                   "label": "메모리",
@@ -478,7 +467,6 @@
               "permalink": "/computer-science/algorithm/2024-04-28-mst",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/algorithm/2024-04-28-mst.md",
               "tags": [
                 {
                   "label": "MST",
@@ -520,7 +508,6 @@
               "permalink": "/computer-science/machine-learning/2023-03-15-prediction-inference-diff",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/machine-learning/2023-03-15-prediction-inference-diff.md",
               "tags": [
                 {
                   "label": "ml",
@@ -564,7 +551,6 @@
               "permalink": "/computer-science/network/2024-04-23-cdn",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/network/2024-04-23-cdn.md",
               "tags": [
                 {
                   "label": "CDN",
@@ -605,7 +591,6 @@
               "permalink": "/computer-science/programming/android/2023-02-27-upload-cert-with-android-studio",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/android/2023-02-27-upload-cert-with-android-studio.md",
               "tags": [
                 {
                   "label": "android",
@@ -649,7 +634,6 @@
               "permalink": "/computer-science/programming/android/2023-06-24-gradle-in-android",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/android/2023-06-24-gradle-in-android.md",
               "tags": [
                 {
                   "label": "android",
@@ -696,7 +680,6 @@
               "permalink": "/computer-science/programming/android/2024-01-28-build-release-android-app",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/android/2024-01-28-build-release-android-app.md",
               "tags": [
                 {
                   "label": "android",
@@ -740,7 +723,6 @@
               "permalink": "/computer-science/programming/android/2024-02-24-android-tag-id-name",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/android/2024-02-24-android-tag-id-name.md",
               "tags": [
                 {
                   "label": "android",
@@ -784,7 +766,6 @@
               "permalink": "/computer-science/programming/android/kotlin/2023-04-26-kotlin-nullability",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/android/kotlin/2023-04-26-kotlin-nullability.md",
               "tags": [
                 {
                   "label": "kotlin",
@@ -826,7 +807,6 @@
               "permalink": "/computer-science/programming/android/kotlin/2023-05-28-kotlin-array",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/android/kotlin/2023-05-28-kotlin-array.md",
               "tags": [
                 {
                   "label": "kotlin",
@@ -868,7 +848,6 @@
               "permalink": "/computer-science/programming/cpp/2024-02-15-cpp-vector-parameter-as-ref",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/cpp/2024-02-15-cpp-vector-parameter-as-ref.md",
               "tags": [
                 {
                   "label": "c++",
@@ -909,7 +888,6 @@
               "permalink": "/computer-science/programming/flutter/2024-02-28-flutter-expanded-widget-height-error",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/flutter/2024-02-28-flutter-expanded-widget-height-error.md",
               "tags": [
                 {
                   "label": "flutter",
@@ -951,7 +929,6 @@
               "permalink": "/computer-science/programming/flutter/2024-03-21-flutter-futurebuilder-reload",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/flutter/2024-03-21-flutter-futurebuilder-reload.md",
               "tags": [
                 {
                   "label": "flutter",
@@ -999,7 +976,6 @@
               "permalink": "/computer-science/programming/python/2023-02-12-python-multi-list",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/python/2023-02-12-python-multi-list.md",
               "tags": [
                 {
                   "label": "python",
@@ -1043,7 +1019,6 @@
               "permalink": "/computer-science/programming/python/2023-02-13-python-dictionary",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/python/2023-02-13-python-dictionary.md",
               "tags": [
                 {
                   "label": "python",
@@ -1090,7 +1065,6 @@
               "permalink": "/computer-science/programming/python/2024-01-30-python-background",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/python/2024-01-30-python-background.md",
               "tags": [
                 {
                   "label": "python",
@@ -1137,7 +1111,6 @@
               "permalink": "/computer-science/programming/react-native/2023-02-12-react-native-android-includefontpadding",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/react-native/2023-02-12-react-native-android-includefontpadding.md",
               "tags": [
                 {
                   "label": "react-native",
@@ -1180,7 +1153,6 @@
               "permalink": "/computer-science/programming/react-native/2023-02-12-react-native-google-signin-sha-1",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/react-native/2023-02-12-react-native-google-signin-sha-1.md",
               "tags": [
                 {
                   "label": "react-native",
@@ -1223,7 +1195,6 @@
               "permalink": "/computer-science/programming/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error.md",
               "tags": [
                 {
                   "label": "react-native",
@@ -1271,7 +1242,6 @@
               "permalink": "/computer-science/programming/react-native/2023-02-12-react-native-tips",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/react-native/2023-02-12-react-native-tips.md",
               "tags": [
                 {
                   "label": "react-native",
@@ -1312,7 +1282,6 @@
               "permalink": "/computer-science/programming/react-native/2023-03-05-react-native-watchman-operation-not-per-error",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/react-native/2023-03-05-react-native-watchman-operation-not-per-error.md",
               "tags": [
                 {
                   "label": "react-native",
@@ -1354,7 +1323,6 @@
               "permalink": "/computer-science/programming/react-native/2023-03-14-react-native-first-github-push",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/react-native/2023-03-14-react-native-first-github-push.md",
               "tags": [
                 {
                   "label": "react-native",
@@ -1396,7 +1364,6 @@
               "permalink": "/computer-science/programming/react-native/2024-02-12-react-native-reusable-pressable",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/react-native/2024-02-12-react-native-reusable-pressable.md",
               "tags": [
                 {
                   "label": "react-native",
@@ -1439,7 +1406,6 @@
               "permalink": "/computer-science/programming/react-native/2024-02-12-react-native-webview-android-webview-error",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/react-native/2024-02-12-react-native-webview-android-webview-error.md",
               "tags": [
                 {
                   "label": "react-native",
@@ -1481,7 +1447,6 @@
               "permalink": "/computer-science/programming/react-native/2024-02-29-react-native-speicifc-version-init",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/computer-science/programming/react-native/2024-02-29-react-native-speicifc-version-init.md",
               "tags": [
                 {
                   "label": "react-native",
@@ -1515,6 +1480,52 @@
               }
             },
             {
+              "id": "data-center/2024-03-12-equinix-interconnection-solutions",
+              "title": "Equinix Interconnection Solution",
+              "description": "에퀴닉스 Interconnection Solution",
+              "source": "@site/docs/data-center/2024-03-12-equinix-interconnection-solutions.md",
+              "sourceDirName": "data-center",
+              "slug": "/data-center/2024-03-12-equinix-interconnection-solutions",
+              "permalink": "/data-center/2024-03-12-equinix-interconnection-solutions",
+              "draft": false,
+              "unlisted": false,
+              "tags": [
+                {
+                  "label": "Equinix",
+                  "permalink": "/tags/equinix"
+                },
+                {
+                  "label": "Interconnection",
+                  "permalink": "/tags/interconnection"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "Equinix Interconnection Solution",
+                "description": "에퀴닉스 Interconnection Solution",
+                "keywords": [
+                  "Equinix",
+                  "Interconnection"
+                ],
+                "tags": [
+                  "Equinix",
+                  "Interconnection"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "🗄️ Data Center Engineering",
+                "permalink": "/category/️-data-center-engineering"
+              },
+              "next": {
+                "title": "광케이블",
+                "permalink": "/data-center/2024-04-20-fiber-sm-mm"
+              }
+            },
+            {
               "id": "data-center/2024-04-20-fiber-sm-mm",
               "title": "광케이블",
               "description": "광케이블 종류와 특성",
@@ -1524,7 +1535,6 @@
               "permalink": "/data-center/2024-04-20-fiber-sm-mm",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/data-center/2024-04-20-fiber-sm-mm.md",
               "tags": [
                 {
                   "label": "광케이블",
@@ -1547,8 +1557,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "🗄️ Data Center Engineering",
-                "permalink": "/category/️-data-center-engineering"
+                "title": "Equinix Interconnection Solution",
+                "permalink": "/data-center/2024-03-12-equinix-interconnection-solutions"
               },
               "next": {
                 "title": "Liquid Cooling (Direct to Chip, Rear Door, Immersion)",
@@ -1565,7 +1575,6 @@
               "permalink": "/data-center/2024-04-21-liquid-cooling",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/data-center/2024-04-21-liquid-cooling.md",
               "tags": [
                 {
                   "label": "Liquid Cooling",
@@ -1608,7 +1617,6 @@
               "permalink": "/data-center/2024-05-03-nic",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/data-center/2024-05-03-nic.md",
               "tags": [
                 {
                   "label": "nic",
@@ -1649,7 +1657,6 @@
               "permalink": "/",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
               "tags": [],
               "version": "current",
               "lastUpdatedBy": "Author",
@@ -1676,7 +1683,6 @@
               "permalink": "/life-and-tech/2023-12-12-real-estate-pre-sale",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/life-and-tech/2023-12-12-real-estate-pre-sale.md",
               "tags": [],
               "version": "current",
               "lastUpdatedBy": "Author",
@@ -1705,7 +1711,6 @@
               "permalink": "/life-and-tech/2023-12-13-long-term-real-estate-sale",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/life-and-tech/2023-12-13-long-term-real-estate-sale.md",
               "tags": [],
               "version": "current",
               "lastUpdatedBy": "Author",
@@ -1734,7 +1739,6 @@
               "permalink": "/life-and-tech/2024-02-02-select-book",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/life-and-tech/2024-02-02-select-book.md",
               "tags": [],
               "version": "current",
               "lastUpdatedBy": "Author",
@@ -1763,7 +1767,6 @@
               "permalink": "/life-and-tech/2024-02-19-cxl-memory",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/life-and-tech/2024-02-19-cxl-memory.md",
               "tags": [
                 {
                   "label": "cxl",
@@ -1804,7 +1807,6 @@
               "permalink": "/life-and-tech/2024-02-27-night-shade-chicago",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/life-and-tech/2024-02-27-night-shade-chicago.md",
               "tags": [
                 {
                   "label": "nightshade",
@@ -1845,7 +1847,6 @@
               "permalink": "/life-and-tech/2024-03-01-chainlink-blockchain-solutions",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/life-and-tech/2024-03-01-chainlink-blockchain-solutions.md",
               "tags": [
                 {
                   "label": "chainlink",
@@ -1878,53 +1879,6 @@
                 "permalink": "/life-and-tech/2024-02-27-night-shade-chicago"
               },
               "next": {
-                "title": "Equinix Interconnection Solution",
-                "permalink": "/life-and-tech/2024-03-12-equinix-interconnection-solutions"
-              }
-            },
-            {
-              "id": "life-and-tech/2024-03-12-equinix-interconnection-solutions",
-              "title": "Equinix Interconnection Solution",
-              "description": "에퀴닉스 Interconnection Solution",
-              "source": "@site/docs/life-and-tech/2024-03-12-equinix-interconnection-solutions.md",
-              "sourceDirName": "life-and-tech",
-              "slug": "/life-and-tech/2024-03-12-equinix-interconnection-solutions",
-              "permalink": "/life-and-tech/2024-03-12-equinix-interconnection-solutions",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/life-and-tech/2024-03-12-equinix-interconnection-solutions.md",
-              "tags": [
-                {
-                  "label": "Equinix",
-                  "permalink": "/tags/equinix"
-                },
-                {
-                  "label": "Interconnection",
-                  "permalink": "/tags/interconnection"
-                }
-              ],
-              "version": "current",
-              "lastUpdatedBy": "Author",
-              "lastUpdatedAt": 1539502055,
-              "formattedLastUpdatedAt": "2018년 10월 14일",
-              "frontMatter": {
-                "title": "Equinix Interconnection Solution",
-                "description": "에퀴닉스 Interconnection Solution",
-                "keywords": [
-                  "Equinix",
-                  "Interconnection"
-                ],
-                "tags": [
-                  "Equinix",
-                  "Interconnection"
-                ]
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Chainlink",
-                "permalink": "/life-and-tech/2024-03-01-chainlink-blockchain-solutions"
-              },
-              "next": {
                 "title": "워터폴",
                 "permalink": "/life-and-tech/2024-03-17-lp-gp-waterfall"
               }
@@ -1939,7 +1893,6 @@
               "permalink": "/life-and-tech/2024-03-17-lp-gp-waterfall",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/life-and-tech/2024-03-17-lp-gp-waterfall.md",
               "tags": [
                 {
                   "label": "waterfall",
@@ -1963,8 +1916,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Equinix Interconnection Solution",
-                "permalink": "/life-and-tech/2024-03-12-equinix-interconnection-solutions"
+                "title": "Chainlink",
+                "permalink": "/life-and-tech/2024-03-01-chainlink-blockchain-solutions"
               },
               "next": {
                 "title": "HBM",
@@ -1981,7 +1934,6 @@
               "permalink": "/life-and-tech/2024-03-21-hbm",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/life-and-tech/2024-03-21-hbm.md",
               "tags": [
                 {
                   "label": "HBM",
@@ -2022,7 +1974,6 @@
               "permalink": "/life-and-tech/2024-04-13-acp-law",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/life-and-tech/2024-04-13-acp-law.md",
               "tags": [
                 {
                   "label": "acp",
@@ -2063,7 +2014,6 @@
               "permalink": "/life-and-tech/2024-05-06-rtgs-finance",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/life-and-tech/2024-05-06-rtgs-finance.md",
               "tags": [
                 {
                   "label": "rtgs",
@@ -2104,7 +2054,6 @@
               "permalink": "/others/2023-08-06-bitcoin-auto-with-ml",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/2023-08-06-bitcoin-auto-with-ml.md",
               "tags": [
                 {
                   "label": "qlearning",
@@ -2147,7 +2096,6 @@
               "permalink": "/others/2023-08-06-checked",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/2023-08-06-checked.md",
               "tags": [
                 {
                   "label": "react-native",
@@ -2196,7 +2144,6 @@
               "permalink": "/others/2023-08-06-soongfi",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/2023-08-06-soongfi.md",
               "tags": [
                 {
                   "label": "android",
@@ -2256,7 +2203,6 @@
               "permalink": "/others/2024-02-08-link",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/others/2024-02-08-link.md",
               "tags": [],
               "version": "current",
               "lastUpdatedBy": "Author",
@@ -2281,7 +2227,6 @@
               "permalink": "/software/2023-02-13-appstore-connect-curl-api",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/2023-02-13-appstore-connect-curl-api.md",
               "tags": [
                 {
                   "label": "appstore connect",
@@ -2327,7 +2272,6 @@
               "permalink": "/software/2023-02-13-macos-homebrew-node-version-change",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/2023-02-13-macos-homebrew-node-version-change.md",
               "tags": [
                 {
                   "label": "MacOS",
@@ -2382,7 +2326,6 @@
               "permalink": "/software/2023-02-15-github-desktop-pull-request",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/2023-02-15-github-desktop-pull-request.md",
               "tags": [
                 {
                   "label": "github",
@@ -2427,7 +2370,6 @@
               "permalink": "/software/2023-02-18-ahnlab-transaction",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/2023-02-18-ahnlab-transaction.md",
               "tags": [
                 {
                   "label": "ASTx",
@@ -2472,7 +2414,6 @@
               "permalink": "/software/2023-03-06-npm-package-lock-difference",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/2023-03-06-npm-package-lock-difference.md",
               "tags": [
                 {
                   "label": "npm",
@@ -2516,7 +2457,6 @@
               "permalink": "/software/2023-03-06-npm-semantic-versioning",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/2023-03-06-npm-semantic-versioning.md",
               "tags": [
                 {
                   "label": "npm",
@@ -2559,7 +2499,6 @@
               "permalink": "/software/2024-02-12-tensorflow-windows-install",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/2024-02-12-tensorflow-windows-install.md",
               "tags": [
                 {
                   "label": "tensorflow",
@@ -2606,7 +2545,6 @@
               "permalink": "/software/2024-02-24-play-console-developer-authentication",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/2024-02-24-play-console-developer-authentication.md",
               "tags": [
                 {
                   "label": "play console",
@@ -2651,7 +2589,6 @@
               "permalink": "/software/docusaurus/2024-01-28-docusaurus-deplo",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/docusaurus/2024-01-28-docusaurus-deplo.md",
               "tags": [
                 {
                   "label": "git",
@@ -2698,7 +2635,6 @@
               "permalink": "/software/docusaurus/2024-01-29-docusaurus-all-in-one-script",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/docusaurus/2024-01-29-docusaurus-all-in-one-script.md",
               "tags": [
                 {
                   "label": "git",
@@ -2745,7 +2681,6 @@
               "permalink": "/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode.md",
               "tags": [
                 {
                   "label": "docusaurus",
@@ -2792,7 +2727,6 @@
               "permalink": "/software/docusaurus/2024-02-20-docusaurus-autogenerate-list",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/software/docusaurus/2024-02-20-docusaurus-autogenerate-list.md",
               "tags": [
                 {
                   "label": "docusaurus",
@@ -2837,6 +2771,10 @@
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
+                  {
+                    "type": "doc",
+                    "id": "data-center/2024-03-12-equinix-interconnection-solutions"
+                  },
                   {
                     "type": "doc",
                     "id": "data-center/2024-04-20-fiber-sm-mm"
@@ -3172,10 +3110,6 @@
                   {
                     "type": "doc",
                     "id": "life-and-tech/2024-03-01-chainlink-blockchain-solutions"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "life-and-tech/2024-03-12-equinix-interconnection-solutions"
                   },
                   {
                     "type": "doc",

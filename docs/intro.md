@@ -23,7 +23,7 @@ sidebar_position: 1
 - 3월 21일 [flutter Futurebuilder Future 객체 리로드 시 상태 반영하기](/computer-science/programming/flutter/2024-03-21-flutter-futurebuilder-reload.html)
 - 3월 21일 [HBM (High Bandwidth Memory)](/life-and-tech/2024-03-21-hbm.html)
 - 3월 17일 [워터폴 (Waterfall)](/life-and-tech/2024-03-17-lp-gp-waterfall.html)
-- 3월 12일 [Equinix Interconnection Solution](/life-and-tech/2024-03-12-equinix-interconnection-solutions.html)
+- 3월 12일 [Equinix Interconnection Solution](/data-center/2024-03-12-equinix-interconnection-solutions.html)
 - 3월 6일 [백준 1167 트리의 지름 C++ 문제 풀이](/computer-science/algorithm/2024-03-06-boj-1167.html)
 - 3월 1일 [Chainlink](/life-and-tech/2024-03-01-chainlink-blockchain-solutions.html)
 - 2월 29일 [React-Native 특정 버전으로 프로젝트 시작하기](/computer-science/programming/react-native/2024-02-29-react-native-speicifc-version-init.html)

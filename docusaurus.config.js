@@ -9,7 +9,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "TaeGyeong Lee",
-  tagline: "개발자",
+  tagline: "Engineer",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -40,10 +40,10 @@ const config = {
     [
       "@docusaurus/plugin-ideal-image",
       {
-        quality: 70,
+        quality: 85,
         max: 1030, // max resized image's size.
         min: 640, // min resized image's size. if original is lower, use that size.
-        steps: 2, // the max number of images generated between min and max (inclusive)
+        steps: 4, // the max number of images generated between min and max (inclusive)
         disableInDev: false,
       },
     ],
@@ -59,10 +59,6 @@ const config = {
           sidebarPath: "./sidebars.js",
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         theme: {
           customCss: "./src/css/custom.css",
