@@ -11,6 +11,7 @@ tags: ["rtgs"]
 
 - 은행 간 지급결제 시스템 종류 중 하나.
 - 자금이체지시 처리와 최종 결제가 독립적이고 실시간으로 처리되는 시스템
+- 한국은행에서 DNS 시스템에서 RTGS 시스템 전환을 추진 중
 
 지급인이 본인의 농협은행에서 11,200원을 수취인 하나은행 계좌에 돈을 보내는 과정
 
@@ -24,9 +25,9 @@ tags: ["rtgs"]
 
 지급인이 본인의 농협은행에서 11,200원을 수취인 하나은행 계좌에 돈을 보내는 과정
 
-![dns](https://github.com/hanarotg/hanarotg.github.io/assets/34812887/451efda6-04d7-4c39-9133-3b1d90527dae)
+![dns](https://github.com/hanarotg/hanarotg.github.io/assets/34812887/7f1afd05-afb5-4d21-8eaa-1caec3d1034c)
 
-## 필요성
+## 전환 필요성
 
 ### 뱅크런 사태 대비
 
