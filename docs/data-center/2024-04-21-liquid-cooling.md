@@ -27,6 +27,8 @@ tags: ["Liquid Cooling"]
 
 ## Rear Door Heat Exchange
 
+![drhe](https://github.com/hanarotg/hanarotg.github.io/assets/34812887/6b9fbbbf-6b97-449e-8d51-52d878212a44)
+
 냉각 코일과 팬을 통해 캐비닛 내부 장치의 열을 해소
 
 - 직접 장치를 냉각하는 것이 아님
