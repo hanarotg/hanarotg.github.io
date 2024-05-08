@@ -15,6 +15,9 @@
     }
   ],
   "version": "current",
+  "lastUpdatedBy": "Taegyeong Lee",
+  "lastUpdatedAt": 1715175094,
+  "formattedLastUpdatedAt": "May 8, 2024",
   "frontMatter": {
     "title": "Docusaurus plugin-ideal-images width 문제 해결",
     "description": "Docusaurus plugin-ideal-images width 문제 해결",
