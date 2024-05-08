@@ -501,6 +501,13 @@
                 "href": "/en/software/docusaurus/2024-02-20-docusaurus-autogenerate-list",
                 "docId": "software/docusaurus/2024-02-20-docusaurus-autogenerate-list",
                 "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Docusaurus 각 문서마다 hits 조회수 표시하기",
+                "href": "/en/software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document",
+                "docId": "software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document",
+                "unlisted": false
               }
             ],
             "href": "/en/category/docusaurus"
@@ -986,6 +993,12 @@
       "id": "software/docusaurus/2024-02-20-docusaurus-autogenerate-list",
       "title": "Docusaurus 문서 작성 최신 정렬 스크립트",
       "description": "Docusaurus 문서 작성 최신 정렬 스크립트",
+      "sidebar": "tutorialSidebar"
+    },
+    "software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document": {
+      "id": "software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document",
+      "title": "Docusaurus 각 문서마다 hits 조회수 표시하기",
+      "description": "Docusaurus 각 문서마다 hits 조회수 표시하기",
       "sidebar": "tutorialSidebar"
     }
   }

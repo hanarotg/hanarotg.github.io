@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', 'f84'),
+    component: ComponentCreator('/en/', '0d8'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', '12a'),
+        component: ComponentCreator('/en/', 'e42'),
         routes: [
           {
             path: '/en/tags',
@@ -342,7 +342,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', '8ab'),
+            component: ComponentCreator('/en/', '328'),
             routes: [
               {
                 path: '/en/category/-computer-science',
@@ -815,6 +815,12 @@ export default [
               {
                 path: '/en/software/docusaurus/2024-02-20-docusaurus-autogenerate-list',
                 component: ComponentCreator('/en/software/docusaurus/2024-02-20-docusaurus-autogenerate-list', '3db'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document',
+                component: ComponentCreator('/en/software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document', '97a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

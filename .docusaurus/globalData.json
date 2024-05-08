@@ -1,16 +1,16 @@
 {
+  "docusaurus-plugin-google-tag-manager": {
+    "default": {
+      "containerId": "GTM-5SML85MT",
+      "id": "default"
+    }
+  },
   "docusaurus-plugin-google-gtag": {
     "default": {
       "trackingID": [
         "G-PSM1SDYJFY"
       ],
       "anonymizeIP": false,
-      "id": "default"
-    }
-  },
-  "docusaurus-plugin-google-tag-manager": {
-    "default": {
-      "containerId": "GTM-5SML85MT",
       "id": "default"
     }
   },
@@ -343,6 +343,11 @@
             {
               "id": "software/docusaurus/2024-02-20-docusaurus-autogenerate-list",
               "path": "/en/software/docusaurus/2024-02-20-docusaurus-autogenerate-list",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document",
+              "path": "/en/software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document",
               "sidebar": "tutorialSidebar"
             },
             {

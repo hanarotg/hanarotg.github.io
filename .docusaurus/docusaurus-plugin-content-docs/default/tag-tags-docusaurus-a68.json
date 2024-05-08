@@ -2,8 +2,14 @@
   "label": "docusaurus",
   "permalink": "/tags/docusaurus",
   "allTagsPath": "/tags",
-  "count": 4,
+  "count": 5,
   "items": [
+    {
+      "id": "software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document",
+      "title": "Docusaurus 각 문서마다 hits 조회수 표시하기",
+      "description": "Docusaurus 각 문서마다 hits 조회수 표시하기",
+      "permalink": "/software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document"
+    },
     {
       "id": "software/docusaurus/2024-02-20-docusaurus-autogenerate-list",
       "title": "Docusaurus 문서 작성 최신 정렬 스크립트",

@@ -1,0 +1,91 @@
+---
+title: Docusaurus 각 문서마다 hits 조회수 표시하기
+description: Docusaurus 각 문서마다 hits 조회수 표시하기
+keywords: ["docusaurus", "hits"]
+tags: ["docusaurus"]
+---
+
+# Docusaurus 각 문서마다 hits 조회수 표시하기
+
+## 개요
+
+스크린샷과 같이 문서 별 조회수를 표시하는 [hits](https://hits.seeyoufarm.com/) 를 추가합니다.
+
+import Image from "@theme/IdealImage";
+
+<Image img={require("/static/img/docusaurus-hits1.png")} />
+
+## 적용
+
+### DocItem Swizzling
+
+:::info
+
+DocItem Swizzling이 이미 완료된 경우, 다음 단계로 넘어가세요.
+
+:::
+
+Docusaurus에서 제공하는 기능들을 직접 수정하기 위해서는 Swizzle이라는 작업이 필요합니다.
+
+DocItem을 직접 수정할 수 있도록 아래 명령을 수행해 주세요.
+
+```bash
+yarn run swizzle @docusaurus/theme-classic DocItem
+```
+
+### 컴포넌트 생성
+
+src → theme → DocItem → Content → index.js 파일을 열어 아래 코드를 추가합니다.
+
+`blog_link` 변수를 본인의 블로그 주소로 바꾸어 주세요.
+
+```jsx
+function Hits() {
+  const { metadata } = useDoc();
+
+  const blog_link = "https://hanrotg.github.io"; // <---- 여기를 본인의 블로그 링크로 교체하세요.
+  const hits_url = "https://hits.seeyoufarm.com/api/count/incr/badge.svg";
+
+  if (metadata?.permalink) {
+    var content_link = metadata.permalink;
+    var hits = `${hits_url}?url=${blog_link}%2F${content_link}%2Fhit-counter`;
+
+    return (
+      <a href="https://hits.seeyoufarm.com">
+        <img src={hits} />
+      </a>
+    );
+  }
+}
+```
+
+## 컴포넌트 추가
+
+아래와 같이 `DocItemContent` 반환문에 생성한 컴포넌트를 추가하세요.
+
+```jsx
+export default function DocItemContent({ children }) {
+  const syntheticTitle = useSyntheticTitle();
+
+  return (
+    <>
+      // highlight-next-line
+      <Hits />
+      <div className={clsx(ThemeClassNames.docs.docMarkdown, "markdown")}>
+        {syntheticTitle && (
+          <header>
+            <Heading as="h1">{syntheticTitle}</Heading>
+          </header>
+        )}
+        <MDXContent>{children}</MDXContent>
+      </div>
+    </>
+  );
+}
+```
+
+## 참고 자료
+
+- https://hits.seeyoufarm.com/
+- https://melonicedlatte.com/2023/02/12/174600.html
+- https://younho9.dev/docusaurus-manage-docs-2

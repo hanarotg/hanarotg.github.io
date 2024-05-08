@@ -35,8 +35,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Docusaurus 문서 작성 최신 정렬 스크립트",
-    "permalink": "/en/software/docusaurus/2024-02-20-docusaurus-autogenerate-list"
+    "title": "Docusaurus 각 문서마다 hits 조회수 표시하기",
+    "permalink": "/en/software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document"
   },
   "next": {
     "title": "MacOS Homebrew로 node 버전 바꾸기",

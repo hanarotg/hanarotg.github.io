@@ -47,13 +47,13 @@
       "plugin": "d3689f3d"
     }
   },
-  "/en/-f84": {
+  "/en/-0d8": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "c74882fd"
     }
   },
-  "/en/-12a": {
+  "/en/-e42": {
     "__comp": "a7bd4aaa",
     "version": "935f2afb"
   },
@@ -297,7 +297,7 @@
     "__comp": "df203c0f",
     "tag": "bdf7c89d"
   },
-  "/en/-8ab": {
+  "/en/-328": {
     "__comp": "a94703ab"
   },
   "/en/category/-computer-science-bd6": {
@@ -615,6 +615,10 @@
   "/en/software/docusaurus/2024-02-20-docusaurus-autogenerate-list-3db": {
     "__comp": "17896441",
     "content": "e8df59d2"
+  },
+  "/en/software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document-97a": {
+    "__comp": "17896441",
+    "content": "7069edc9"
   },
   "/en/-0d1": {
     "__comp": "17896441",

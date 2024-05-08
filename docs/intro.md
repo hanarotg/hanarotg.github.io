@@ -7,10 +7,11 @@ sidebar_position: 1
 안녕하세요, 이태경입니다.
 - [`깃허브`](https://github.com/hanarotg) [`이메일`](mailto:hanarotg@naver.com)
   
-## 문서 목록 (63)
+## 문서 목록 (64)
 <details open>
 <summary>2024년</summary>
 <div>
+- 5월 8일 [Docusaurus 각 문서마다 hits 조회수 표시하기](/software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document.mdx)
 - 5월 6일 [실시간 총액결제 시스템 RTGS (Real-time gross settlement)](/life-and-tech/2024-05-06-rtgs-finance.mdx)
 - 5월 3일 [NIC (Network Interface Card)](/data-center/2024-05-03-nic.mdx)
 - 4월 28일 [최소 신장 트리 MST (Minimum Spanning Tree)](/computer-science/algorithm/2024-04-28-mst.html)

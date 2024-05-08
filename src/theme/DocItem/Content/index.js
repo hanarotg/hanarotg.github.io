@@ -26,9 +26,22 @@ function useSyntheticTitle() {
   return metadata.title;
 }
 
-function usePageLink() {
+function Hits() {
   const { metadata } = useDoc();
-  return metadata.permalink;
+
+  const blog_link = "https://hanrotg.github.io";
+  const hits_url = "https://hits.seeyoufarm.com/api/count/incr/badge.svg";
+
+  if (metadata?.permalink) {
+    var content_link = metadata.permalink;
+    var hits = `${hits_url}?url=${blog_link}%2F${content_link}%2Fhit-counter`;
+
+    return (
+      <a href="https://hits.seeyoufarm.com">
+        <img src={hits} />
+      </a>
+    );
+  }
 }
 
 export default function DocItemContent({ children }) {
@@ -36,9 +49,7 @@ export default function DocItemContent({ children }) {
 
   return (
     <>
-      <a href="https://hits.seeyoufarm.com">
-        <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgjbae1212%2Fhit-counter" />
-      </a>
+      <Hits />
       <div className={clsx(ThemeClassNames.docs.docMarkdown, "markdown")}>
         {syntheticTitle && (
           <header>
