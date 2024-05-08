@@ -40,6 +40,8 @@ const config = {
     [
       "@docusaurus/plugin-ideal-image",
       {
+        min: 360,
+        max: 960,
         quality: 70,
         steps: 4, // the max number of images generated between min and max (inclusive)
         disableInDev: false,

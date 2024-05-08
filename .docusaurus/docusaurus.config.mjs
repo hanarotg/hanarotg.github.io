@@ -28,6 +28,8 @@ export default {
     [
       "@docusaurus/plugin-ideal-image",
       {
+        "min": 360,
+        "max": 960,
         "quality": 70,
         "steps": 4,
         "disableInDev": false
