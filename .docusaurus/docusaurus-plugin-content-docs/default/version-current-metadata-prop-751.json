@@ -508,6 +508,13 @@
                 "href": "/en/software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document",
                 "docId": "software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document",
                 "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Docusaurus plugin-ideal-images width 문제 해결",
+                "href": "/en/software/docusaurus/2024-05-08-docusaurus-ideal-image-width",
+                "docId": "software/docusaurus/2024-05-08-docusaurus-ideal-image-width",
+                "unlisted": false
               }
             ],
             "href": "/en/category/docusaurus"
@@ -999,6 +1006,12 @@
       "id": "software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document",
       "title": "Docusaurus 각 문서마다 hits 조회수 표시하기",
       "description": "Docusaurus 각 문서마다 hits 조회수 표시하기",
+      "sidebar": "tutorialSidebar"
+    },
+    "software/docusaurus/2024-05-08-docusaurus-ideal-image-width": {
+      "id": "software/docusaurus/2024-05-08-docusaurus-ideal-image-width",
+      "title": "Docusaurus plugin-ideal-images width 문제 해결",
+      "description": "Docusaurus plugin-ideal-images width 문제 해결",
       "sidebar": "tutorialSidebar"
     }
   }

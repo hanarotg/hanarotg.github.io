@@ -1,0 +1,41 @@
+{
+  "id": "software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document copy",
+  "title": "Docusaurus 각 문서마다 hits 조회수 표시하기",
+  "description": "Docusaurus 각 문서마다 hits 조회수 표시하기",
+  "source": "@site/docs/software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document copy.mdx",
+  "sourceDirName": "software/docusaurus",
+  "slug": "/software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document copy",
+  "permalink": "/software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document copy",
+  "draft": false,
+  "unlisted": false,
+  "tags": [
+    {
+      "label": "docusaurus",
+      "permalink": "/tags/docusaurus"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "2018년 10월 14일",
+  "frontMatter": {
+    "title": "Docusaurus 각 문서마다 hits 조회수 표시하기",
+    "description": "Docusaurus 각 문서마다 hits 조회수 표시하기",
+    "keywords": [
+      "docusaurus",
+      "hits"
+    ],
+    "tags": [
+      "docusaurus"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Docusaurus 문서 작성 최신 정렬 스크립트",
+    "permalink": "/software/docusaurus/2024-02-20-docusaurus-autogenerate-list"
+  },
+  "next": {
+    "title": "Docusaurus 각 문서마다 hits 조회수 표시하기",
+    "permalink": "/software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document"
+  }
+}

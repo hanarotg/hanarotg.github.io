@@ -2,7 +2,7 @@
   "label": "docusaurus",
   "permalink": "/en/tags/docusaurus",
   "allTagsPath": "/en/tags",
-  "count": 5,
+  "count": 6,
   "items": [
     {
       "id": "software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document",
@@ -27,6 +27,12 @@
       "title": "Docusaurus github 배포하기",
       "description": "docusaurus gh-pages 브랜치로 deploy하는 방법",
       "permalink": "/en/software/docusaurus/2024-01-28-docusaurus-deplo"
+    },
+    {
+      "id": "software/docusaurus/2024-05-08-docusaurus-ideal-image-width",
+      "title": "Docusaurus plugin-ideal-images width 문제 해결",
+      "description": "Docusaurus plugin-ideal-images width 문제 해결",
+      "permalink": "/en/software/docusaurus/2024-05-08-docusaurus-ideal-image-width"
     },
     {
       "id": "software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode",

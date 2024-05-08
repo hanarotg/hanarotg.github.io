@@ -47,13 +47,13 @@
       "plugin": "d3689f3d"
     }
   },
-  "/en/-0d8": {
+  "/en/-081": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "c74882fd"
     }
   },
-  "/en/-e42": {
+  "/en/-b45": {
     "__comp": "a7bd4aaa",
     "version": "935f2afb"
   },
@@ -297,7 +297,7 @@
     "__comp": "df203c0f",
     "tag": "bdf7c89d"
   },
-  "/en/-328": {
+  "/en/-d45": {
     "__comp": "a94703ab"
   },
   "/en/category/-computer-science-bd6": {
@@ -619,6 +619,10 @@
   "/en/software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document-97a": {
     "__comp": "17896441",
     "content": "7069edc9"
+  },
+  "/en/software/docusaurus/2024-05-08-docusaurus-ideal-image-width-fbf": {
+    "__comp": "17896441",
+    "content": "07872c32"
   },
   "/en/-0d1": {
     "__comp": "17896441",

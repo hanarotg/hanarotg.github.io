@@ -1,0 +1,37 @@
+{
+  "id": "software/docusaurus/2024-05-08-docusaurus-ideal-image-width",
+  "title": "Docusaurus plugin-ideal-images width 문제 해결",
+  "description": "Docusaurus plugin-ideal-images width 문제 해결",
+  "source": "@site/docs/software/docusaurus/2024-05-08-docusaurus-ideal-image-width.mdx",
+  "sourceDirName": "software/docusaurus",
+  "slug": "/software/docusaurus/2024-05-08-docusaurus-ideal-image-width",
+  "permalink": "/en/software/docusaurus/2024-05-08-docusaurus-ideal-image-width",
+  "draft": false,
+  "unlisted": false,
+  "tags": [
+    {
+      "label": "docusaurus",
+      "permalink": "/en/tags/docusaurus"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "Docusaurus plugin-ideal-images width 문제 해결",
+    "description": "Docusaurus plugin-ideal-images width 문제 해결",
+    "keywords": [
+      "docusaurus"
+    ],
+    "tags": [
+      "docusaurus"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Docusaurus 각 문서마다 hits 조회수 표시하기",
+    "permalink": "/en/software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document"
+  },
+  "next": {
+    "title": "appstore connect 앱 스크린샷 업로드 오류를 Curl API를 통해 우회적으로 해결하기",
+    "permalink": "/en/software/2023-02-13-appstore-connect-curl-api"
+  }
+}

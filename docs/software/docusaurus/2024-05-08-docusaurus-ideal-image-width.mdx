@@ -1,0 +1,28 @@
+---
+title: Docusaurus plugin-ideal-images width 문제 해결
+description: Docusaurus plugin-ideal-images width 문제 해결
+keywords: ["docusaurus"]
+tags: ["docusaurus"]
+---
+
+# Docusaurus plugin-ideal-images width 문제 해결
+
+## 개요
+
+plugin-ideal-images 사용하여 이미지 로딩 시 이미지 가로 길이가 항상 100%를 유지하는 문제가 있습니다.
+
+```jsx
+import Image from "@theme/IdealImage";
+
+<Image img={require("/static/img/docusaurus-hits1.png")} />;
+```
+
+## 적용
+
+src → css → custom.css 에 아래 코드를 추가하세요.
+
+```css
+img {
+  width: auto !important;
+}
+```
