@@ -1,28 +1,40 @@
 ---
-title: Docusaurus plugin-ideal-images width 문제 해결
-description: Docusaurus plugin-ideal-images width 문제 해결
+title: Docusaurus zoom image 플러그인 적용
+description: Docusaurus zoom image 플러그인 적용
 keywords: ["docusaurus"]
 tags: ["docusaurus"]
 ---
 
-# Docusaurus plugin-ideal-images width 문제 해결
+# Docusaurus zoom image 플러그인 적용
 
 ## 개요
 
-plugin-ideal-images 사용하여 이미지 로딩 시 이미지 가로 길이가 항상 100%를 유지하는 문제가 있습니다.
-
-```jsx
-import Image from "@theme/IdealImage";
-
-<Image img={require("/static/img/software/docusaurus-hits1.png")} />;
-```
+이미지를 클릭하면 확대되는 플러그인 설치 방법
 
 ## 적용
 
-src → css → custom.css 에 아래 코드를 추가하세요.
+### 설치
 
-```css
-img {
-  width: auto !important;
-}
+```bash
+yarn add docusaurus-plugin-zooming
 ```
+
+### 적용
+
+`docusaurus.config.js` 파일 수정
+
+```jsx
+plugins: [
+  //highlight-start
+    "docusaurus-plugin-zooming",
+  //highlight-end
+  ],
+```
+
+## 참고 사항
+
+페이지 마지막 이미지만 확대되지 않는 버그가 있습니다.
+
+## 참고 자료
+
+- https://github.com/inovector/docusaurus-plugin-zooming

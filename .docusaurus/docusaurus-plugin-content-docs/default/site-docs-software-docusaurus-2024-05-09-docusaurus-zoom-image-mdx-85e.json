@@ -1,7 +1,7 @@
 {
   "id": "software/docusaurus/2024-05-09-docusaurus-zoom-image",
-  "title": "Docusaurus plugin-ideal-images width 문제 해결",
-  "description": "Docusaurus plugin-ideal-images width 문제 해결",
+  "title": "Docusaurus zoom image 플러그인 적용",
+  "description": "Docusaurus zoom image 플러그인 적용",
   "source": "@site/docs/software/docusaurus/2024-05-09-docusaurus-zoom-image.mdx",
   "sourceDirName": "software/docusaurus",
   "slug": "/software/docusaurus/2024-05-09-docusaurus-zoom-image",
@@ -15,9 +15,11 @@
     }
   ],
   "version": "current",
+  "lastUpdatedBy": "Taegyeong Lee",
+  "lastUpdatedAt": 1715439499000,
   "frontMatter": {
-    "title": "Docusaurus plugin-ideal-images width 문제 해결",
-    "description": "Docusaurus plugin-ideal-images width 문제 해결",
+    "title": "Docusaurus zoom image 플러그인 적용",
+    "description": "Docusaurus zoom image 플러그인 적용",
     "keywords": [
       "docusaurus"
     ],

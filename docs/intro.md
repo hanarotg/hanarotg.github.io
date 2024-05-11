@@ -7,11 +7,12 @@ sidebar_position: 1
 안녕하세요, 이태경입니다.
 - [`깃허브`](https://github.com/hanarotg) [`이메일`](mailto:hanarotg@naver.com)
   
-## 문서 목록 (66)
+## 문서 목록 (67)
 <details open>
 <summary>2024년</summary>
 <div>
 - 5월 10일 [WDM (Wavelength Division Multiplexing)](/data-center/2024-05-10-wdm.mdx)
+- 5월 9일 [Docusaurus zoom image 플러그인 적용](/software/docusaurus/2024-05-09-docusaurus-zoom-image.mdx)
 - 5월 8일 [Docusaurus 각 문서마다 hits 조회수 표시하기](/software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document.mdx)
 - 5월 8일 [Docusaurus plugin-ideal-images width 문제 해결](/software/docusaurus/2024-05-08-docusaurus-ideal-image-width.mdx)
 - 5월 6일 [실시간 총액결제 시스템 RTGS (Real-time gross settlement)](/life-and-tech/2024-05-06-rtgs-finance.mdx)
