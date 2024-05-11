@@ -16,8 +16,7 @@
   ],
   "version": "current",
   "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1708404930,
-  "formattedLastUpdatedAt": "Feb 20, 2024",
+  "lastUpdatedAt": 1708404930000,
   "frontMatter": {
     "title": "Docusaurus 문서 작성 최신 정렬 스크립트",
     "description": "Docusaurus 문서 작성 최신 정렬 스크립트",

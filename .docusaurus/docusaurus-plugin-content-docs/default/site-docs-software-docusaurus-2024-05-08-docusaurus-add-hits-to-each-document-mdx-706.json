@@ -16,8 +16,7 @@
   ],
   "version": "current",
   "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1715174251,
-  "formattedLastUpdatedAt": "May 8, 2024",
+  "lastUpdatedAt": 1715176230000,
   "frontMatter": {
     "title": "Docusaurus 각 문서마다 hits 조회수 표시하기",
     "description": "Docusaurus 각 문서마다 hits 조회수 표시하기",

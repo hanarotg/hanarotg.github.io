@@ -16,8 +16,7 @@
   ],
   "version": "current",
   "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1713882286,
-  "formattedLastUpdatedAt": "Apr 23, 2024",
+  "lastUpdatedAt": 1713882286000,
   "frontMatter": {
     "title": "CDN (Content Delivery Network)",
     "description": "콘텐츠 전송 네트워크",

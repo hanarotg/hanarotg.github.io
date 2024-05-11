@@ -16,8 +16,7 @@
   ],
   "version": "current",
   "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1715170547,
-  "formattedLastUpdatedAt": "May 8, 2024",
+  "lastUpdatedAt": 1715176230000,
   "frontMatter": {
     "title": "NIC (Network Interface Card)",
     "description": "NIC (Network Interface Card)",
@@ -34,7 +33,7 @@
     "permalink": "/en/data-center/2024-04-21-liquid-cooling"
   },
   "next": {
-    "title": "💻 Computer Science",
-    "permalink": "/en/category/-computer-science"
+    "title": "WDM (Wavelength Division Multiplexing)",
+    "permalink": "/en/data-center/2024-05-10-wdm"
   }
 }

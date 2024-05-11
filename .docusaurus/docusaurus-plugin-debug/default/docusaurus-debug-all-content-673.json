@@ -1643,6 +1643,48 @@
                 "permalink": "/data-center/2024-04-21-liquid-cooling"
               },
               "next": {
+                "title": "WDM (Wavelength Division Multiplexing)",
+                "permalink": "/data-center/2024-05-10-wdm"
+              }
+            },
+            {
+              "id": "data-center/2024-05-10-wdm",
+              "title": "WDM (Wavelength Division Multiplexing)",
+              "description": "WDM (Wavelength Division Multiplexing)",
+              "source": "@site/docs/data-center/2024-05-10-wdm.mdx",
+              "sourceDirName": "data-center",
+              "slug": "/data-center/2024-05-10-wdm",
+              "permalink": "/data-center/2024-05-10-wdm",
+              "draft": false,
+              "unlisted": false,
+              "tags": [
+                {
+                  "label": "wdm",
+                  "permalink": "/tags/wdm"
+                }
+              ],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "2018년 10월 14일",
+              "frontMatter": {
+                "title": "WDM (Wavelength Division Multiplexing)",
+                "description": "WDM (Wavelength Division Multiplexing)",
+                "keywords": [
+                  "wdm",
+                  "dwdm",
+                  "cwdm"
+                ],
+                "tags": [
+                  "wdm"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "NIC (Network Interface Card)",
+                "permalink": "/data-center/2024-05-03-nic"
+              },
+              "next": {
                 "title": "💻 Computer Science",
                 "permalink": "/category/-computer-science"
               }
@@ -2867,6 +2909,10 @@
                   {
                     "type": "doc",
                     "id": "data-center/2024-05-03-nic"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "data-center/2024-05-10-wdm"
                   }
                 ],
                 "link": {

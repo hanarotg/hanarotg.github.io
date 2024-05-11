@@ -20,8 +20,7 @@
   ],
   "version": "current",
   "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1713796616,
-  "formattedLastUpdatedAt": "Apr 22, 2024",
+  "lastUpdatedAt": 1713796616000,
   "frontMatter": {
     "title": "flutter Futurebuilder Future reload",
     "description": "flutter Futurebuilder Future 객체 리로드 시 상태 반영하기",

@@ -16,8 +16,7 @@
   ],
   "version": "current",
   "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1713796616,
-  "formattedLastUpdatedAt": "Apr 22, 2024",
+  "lastUpdatedAt": 1713796616000,
   "frontMatter": {
     "title": "안드로이드 id tag name 차이",
     "description": "안드로이드 android:id android:tag android:name 차이",

@@ -12,7 +12,7 @@
       {
         "type": "link",
         "label": "문서 소개",
-        "href": "/en/",
+        "href": "/",
         "docId": "intro",
         "unlisted": false
       },
@@ -25,33 +25,40 @@
           {
             "type": "link",
             "label": "Equinix Interconnection Solution",
-            "href": "/en/data-center/2024-03-12-equinix-interconnection-solutions",
+            "href": "/data-center/2024-03-12-equinix-interconnection-solutions",
             "docId": "data-center/2024-03-12-equinix-interconnection-solutions",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "광케이블",
-            "href": "/en/data-center/2024-04-20-fiber-sm-mm",
+            "href": "/data-center/2024-04-20-fiber-sm-mm",
             "docId": "data-center/2024-04-20-fiber-sm-mm",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Liquid Cooling (Direct to Chip, Rear Door, Immersion)",
-            "href": "/en/data-center/2024-04-21-liquid-cooling",
+            "href": "/data-center/2024-04-21-liquid-cooling",
             "docId": "data-center/2024-04-21-liquid-cooling",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "NIC (Network Interface Card)",
-            "href": "/en/data-center/2024-05-03-nic",
+            "href": "/data-center/2024-05-03-nic",
             "docId": "data-center/2024-05-03-nic",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "WDM (Wavelength Division Multiplexing)",
+            "href": "/data-center/2024-05-10-wdm",
+            "docId": "data-center/2024-05-10-wdm",
             "unlisted": false
           }
         ],
-        "href": "/en/category/️-data-center-engineering"
+        "href": "/category/️-data-center-engineering"
       },
       {
         "type": "category",
@@ -68,75 +75,75 @@
               {
                 "type": "link",
                 "label": "백준 2178 미로 탐색 C++ 문제 풀이",
-                "href": "/en/computer-science/algorithm/2024-02-02-boj-2178",
+                "href": "/computer-science/algorithm/2024-02-02-boj-2178",
                 "docId": "computer-science/algorithm/2024-02-02-boj-2178",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "Fast I/O C++ 코드",
-                "href": "/en/computer-science/algorithm/2024-02-11-fast-io",
+                "href": "/computer-science/algorithm/2024-02-11-fast-io",
                 "docId": "computer-science/algorithm/2024-02-11-fast-io",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "strict weak ordering",
-                "href": "/en/computer-science/algorithm/2024-02-11-strick-weak-ordering",
+                "href": "/computer-science/algorithm/2024-02-11-strick-weak-ordering",
                 "docId": "computer-science/algorithm/2024-02-11-strick-weak-ordering",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "백준 1946 신입 사원 C++ 문제 풀이",
-                "href": "/en/computer-science/algorithm/2024-02-20-boj-1946",
+                "href": "/computer-science/algorithm/2024-02-20-boj-1946",
                 "docId": "computer-science/algorithm/2024-02-20-boj-1946",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "비잔틴 장애 허용 (Byzantine Fault Tolerance)",
-                "href": "/en/computer-science/algorithm/2024-02-23-byzantine-fault-tolerance",
+                "href": "/computer-science/algorithm/2024-02-23-byzantine-fault-tolerance",
                 "docId": "computer-science/algorithm/2024-02-23-byzantine-fault-tolerance",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "나머지 분배법칙",
-                "href": "/en/computer-science/algorithm/2024-02-23-division-in-algorithm",
+                "href": "/computer-science/algorithm/2024-02-23-division-in-algorithm",
                 "docId": "computer-science/algorithm/2024-02-23-division-in-algorithm",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "백준 1167 트리의 지름 C++ 문제 풀이",
-                "href": "/en/computer-science/algorithm/2024-03-06-boj-1167",
+                "href": "/computer-science/algorithm/2024-03-06-boj-1167",
                 "docId": "computer-science/algorithm/2024-03-06-boj-1167",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "대각선에 위치한 좌표 체크하기",
-                "href": "/en/computer-science/algorithm/2024-04-07-digonal-check",
+                "href": "/computer-science/algorithm/2024-04-07-digonal-check",
                 "docId": "computer-science/algorithm/2024-04-07-digonal-check",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "알고리즘 메모리 제한 벡터 크기 어림잡기",
-                "href": "/en/computer-science/algorithm/2024-04-10-memory-vector-size",
+                "href": "/computer-science/algorithm/2024-04-10-memory-vector-size",
                 "docId": "computer-science/algorithm/2024-04-10-memory-vector-size",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "최소 신장 트리 MST (Minimum Spanning Tree)",
-                "href": "/en/computer-science/algorithm/2024-04-28-mst",
+                "href": "/computer-science/algorithm/2024-04-28-mst",
                 "docId": "computer-science/algorithm/2024-04-28-mst",
                 "unlisted": false
               }
             ],
-            "href": "/en/category/algorithm"
+            "href": "/category/algorithm"
           },
           {
             "type": "category",
@@ -147,12 +154,12 @@
               {
                 "type": "link",
                 "label": "CDN (Content Delivery Network)",
-                "href": "/en/computer-science/network/2024-04-23-cdn",
+                "href": "/computer-science/network/2024-04-23-cdn",
                 "docId": "computer-science/network/2024-04-23-cdn",
                 "unlisted": false
               }
             ],
-            "href": "/en/category/network"
+            "href": "/category/network"
           },
           {
             "type": "category",
@@ -169,26 +176,26 @@
                   {
                     "type": "link",
                     "label": "python 다차원 리스트 생성",
-                    "href": "/en/computer-science/programming/python/2023-02-12-python-multi-list",
+                    "href": "/computer-science/programming/python/2023-02-12-python-multi-list",
                     "docId": "computer-science/programming/python/2023-02-12-python-multi-list",
                     "unlisted": false
                   },
                   {
                     "type": "link",
                     "label": "python dictionary 사용 방법",
-                    "href": "/en/computer-science/programming/python/2023-02-13-python-dictionary",
+                    "href": "/computer-science/programming/python/2023-02-13-python-dictionary",
                     "docId": "computer-science/programming/python/2023-02-13-python-dictionary",
                     "unlisted": false
                   },
                   {
                     "type": "link",
                     "label": "python nuhup 백그라운드 실행",
-                    "href": "/en/computer-science/programming/python/2024-01-30-python-background",
+                    "href": "/computer-science/programming/python/2024-01-30-python-background",
                     "docId": "computer-science/programming/python/2024-01-30-python-background",
                     "unlisted": false
                   }
                 ],
-                "href": "/en/category/python"
+                "href": "/category/python"
               },
               {
                 "type": "category",
@@ -205,50 +212,50 @@
                       {
                         "type": "link",
                         "label": "kotlin nullability",
-                        "href": "/en/computer-science/programming/android/kotlin/2023-04-26-kotlin-nullability",
+                        "href": "/computer-science/programming/android/kotlin/2023-04-26-kotlin-nullability",
                         "docId": "computer-science/programming/android/kotlin/2023-04-26-kotlin-nullability",
                         "unlisted": false
                       },
                       {
                         "type": "link",
                         "label": "kotlin Array",
-                        "href": "/en/computer-science/programming/android/kotlin/2023-05-28-kotlin-array",
+                        "href": "/computer-science/programming/android/kotlin/2023-05-28-kotlin-array",
                         "docId": "computer-science/programming/android/kotlin/2023-05-28-kotlin-array",
                         "unlisted": false
                       }
                     ],
-                    "href": "/en/category/kotlin"
+                    "href": "/category/kotlin"
                   },
                   {
                     "type": "link",
                     "label": "업로드 키, 인증서 재설정하기",
-                    "href": "/en/computer-science/programming/android/2023-02-27-upload-cert-with-android-studio",
+                    "href": "/computer-science/programming/android/2023-02-27-upload-cert-with-android-studio",
                     "docId": "computer-science/programming/android/2023-02-27-upload-cert-with-android-studio",
                     "unlisted": false
                   },
                   {
                     "type": "link",
                     "label": "안드로이드 프로젝트 gradle 스크립트에 대한 이해",
-                    "href": "/en/computer-science/programming/android/2023-06-24-gradle-in-android",
+                    "href": "/computer-science/programming/android/2023-06-24-gradle-in-android",
                     "docId": "computer-science/programming/android/2023-06-24-gradle-in-android",
                     "unlisted": false
                   },
                   {
                     "type": "link",
                     "label": "배포용 안드로이드 앱 번들 빌드하기",
-                    "href": "/en/computer-science/programming/android/2024-01-28-build-release-android-app",
+                    "href": "/computer-science/programming/android/2024-01-28-build-release-android-app",
                     "docId": "computer-science/programming/android/2024-01-28-build-release-android-app",
                     "unlisted": false
                   },
                   {
                     "type": "link",
                     "label": "안드로이드 id tag name 차이",
-                    "href": "/en/computer-science/programming/android/2024-02-24-android-tag-id-name",
+                    "href": "/computer-science/programming/android/2024-02-24-android-tag-id-name",
                     "docId": "computer-science/programming/android/2024-02-24-android-tag-id-name",
                     "unlisted": false
                   }
                 ],
-                "href": "/en/category/android"
+                "href": "/category/android"
               },
               {
                 "type": "category",
@@ -259,12 +266,12 @@
                   {
                     "type": "link",
                     "label": "C++ 벡터 참조 호출",
-                    "href": "/en/computer-science/programming/cpp/2024-02-15-cpp-vector-parameter-as-ref",
+                    "href": "/computer-science/programming/cpp/2024-02-15-cpp-vector-parameter-as-ref",
                     "docId": "computer-science/programming/cpp/2024-02-15-cpp-vector-parameter-as-ref",
                     "unlisted": false
                   }
                 ],
-                "href": "/en/category/cpp"
+                "href": "/category/cpp"
               },
               {
                 "type": "category",
@@ -275,19 +282,19 @@
                   {
                     "type": "link",
                     "label": "flutter Incorrect use of ParentDataWidget 에러",
-                    "href": "/en/computer-science/programming/flutter/2024-02-28-flutter-expanded-widget-height-error",
+                    "href": "/computer-science/programming/flutter/2024-02-28-flutter-expanded-widget-height-error",
                     "docId": "computer-science/programming/flutter/2024-02-28-flutter-expanded-widget-height-error",
                     "unlisted": false
                   },
                   {
                     "type": "link",
                     "label": "flutter Futurebuilder Future reload",
-                    "href": "/en/computer-science/programming/flutter/2024-03-21-flutter-futurebuilder-reload",
+                    "href": "/computer-science/programming/flutter/2024-03-21-flutter-futurebuilder-reload",
                     "docId": "computer-science/programming/flutter/2024-03-21-flutter-futurebuilder-reload",
                     "unlisted": false
                   }
                 ],
-                "href": "/en/category/flutter"
+                "href": "/category/flutter"
               },
               {
                 "type": "category",
@@ -298,71 +305,71 @@
                   {
                     "type": "link",
                     "label": "React Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding 해결하기",
-                    "href": "/en/computer-science/programming/react-native/2023-02-12-react-native-android-includefontpadding",
+                    "href": "/computer-science/programming/react-native/2023-02-12-react-native-android-includefontpadding",
                     "docId": "computer-science/programming/react-native/2023-02-12-react-native-android-includefontpadding",
                     "unlisted": false
                   },
                   {
                     "type": "link",
                     "label": "react-native-google-singin 앱 심사에 통과하기 위한 앱 서명 인증서(SHA-1) 키 적용하기",
-                    "href": "/en/computer-science/programming/react-native/2023-02-12-react-native-google-signin-sha-1",
+                    "href": "/computer-science/programming/react-native/2023-02-12-react-native-google-signin-sha-1",
                     "docId": "computer-science/programming/react-native/2023-02-12-react-native-google-signin-sha-1",
                     "unlisted": false
                   },
                   {
                     "type": "link",
                     "label": "React Native gradle unsupported claass file major verion 62 error 해결하기",
-                    "href": "/en/computer-science/programming/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error",
+                    "href": "/computer-science/programming/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error",
                     "docId": "computer-science/programming/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error",
                     "unlisted": false
                   },
                   {
                     "type": "link",
                     "label": "React Native 개발할 때 알면 좋은 팁",
-                    "href": "/en/computer-science/programming/react-native/2023-02-12-react-native-tips",
+                    "href": "/computer-science/programming/react-native/2023-02-12-react-native-tips",
                     "docId": "computer-science/programming/react-native/2023-02-12-react-native-tips",
                     "unlisted": false
                   },
                   {
                     "type": "link",
                     "label": "React-Native Watchman Operation not permitted 접근 권한 버그",
-                    "href": "/en/computer-science/programming/react-native/2023-03-05-react-native-watchman-operation-not-per-error",
+                    "href": "/computer-science/programming/react-native/2023-03-05-react-native-watchman-operation-not-per-error",
                     "docId": "computer-science/programming/react-native/2023-03-05-react-native-watchman-operation-not-per-error",
                     "unlisted": false
                   },
                   {
                     "type": "link",
                     "label": "React-Native github 레포지토리 첫 업로드하기",
-                    "href": "/en/computer-science/programming/react-native/2023-03-14-react-native-first-github-push",
+                    "href": "/computer-science/programming/react-native/2023-03-14-react-native-first-github-push",
                     "docId": "computer-science/programming/react-native/2023-03-14-react-native-first-github-push",
                     "unlisted": false
                   },
                   {
                     "type": "link",
                     "label": "Pressable 컴포넌트로 재사용 가능한 버튼 구성하기",
-                    "href": "/en/computer-science/programming/react-native/2024-02-12-react-native-reusable-pressable",
+                    "href": "/computer-science/programming/react-native/2024-02-12-react-native-reusable-pressable",
                     "docId": "computer-science/programming/react-native/2024-02-12-react-native-reusable-pressable",
                     "unlisted": false
                   },
                   {
                     "type": "link",
                     "label": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",
-                    "href": "/en/computer-science/programming/react-native/2024-02-12-react-native-webview-android-webview-error",
+                    "href": "/computer-science/programming/react-native/2024-02-12-react-native-webview-android-webview-error",
                     "docId": "computer-science/programming/react-native/2024-02-12-react-native-webview-android-webview-error",
                     "unlisted": false
                   },
                   {
                     "type": "link",
                     "label": "React Native 특정 버전으로 프로젝트 시작하기",
-                    "href": "/en/computer-science/programming/react-native/2024-02-29-react-native-speicifc-version-init",
+                    "href": "/computer-science/programming/react-native/2024-02-29-react-native-speicifc-version-init",
                     "docId": "computer-science/programming/react-native/2024-02-29-react-native-speicifc-version-init",
                     "unlisted": false
                   }
                 ],
-                "href": "/en/category/react-native"
+                "href": "/category/react-native"
               }
             ],
-            "href": "/en/category/programming"
+            "href": "/category/programming"
           },
           {
             "type": "category",
@@ -373,15 +380,15 @@
               {
                 "type": "link",
                 "label": "prediction 예측과 inference 추론의 차이",
-                "href": "/en/computer-science/machine-learning/2023-03-15-prediction-inference-diff",
+                "href": "/computer-science/machine-learning/2023-03-15-prediction-inference-diff",
                 "docId": "computer-science/machine-learning/2023-03-15-prediction-inference-diff",
                 "unlisted": false
               }
             ],
-            "href": "/en/category/machine-learning"
+            "href": "/category/machine-learning"
           }
         ],
-        "href": "/en/category/-computer-science"
+        "href": "/category/-computer-science"
       },
       {
         "type": "category",
@@ -392,75 +399,75 @@
           {
             "type": "link",
             "label": "미등기 전매 (중간생략등기)",
-            "href": "/en/life-and-tech/2023-12-12-real-estate-pre-sale",
+            "href": "/life-and-tech/2023-12-12-real-estate-pre-sale",
             "docId": "life-and-tech/2023-12-12-real-estate-pre-sale",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "장기보유특별공제",
-            "href": "/en/life-and-tech/2023-12-13-long-term-real-estate-sale",
+            "href": "/life-and-tech/2023-12-13-long-term-real-estate-sale",
             "docId": "life-and-tech/2023-12-13-long-term-real-estate-sale",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "책을 선택하는 방법",
-            "href": "/en/life-and-tech/2024-02-02-select-book",
+            "href": "/life-and-tech/2024-02-02-select-book",
             "docId": "life-and-tech/2024-02-02-select-book",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "CXL 메모리",
-            "href": "/en/life-and-tech/2024-02-19-cxl-memory",
+            "href": "/life-and-tech/2024-02-19-cxl-memory",
             "docId": "life-and-tech/2024-02-19-cxl-memory",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "nightshade",
-            "href": "/en/life-and-tech/2024-02-27-night-shade-chicago",
+            "href": "/life-and-tech/2024-02-27-night-shade-chicago",
             "docId": "life-and-tech/2024-02-27-night-shade-chicago",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Chainlink",
-            "href": "/en/life-and-tech/2024-03-01-chainlink-blockchain-solutions",
+            "href": "/life-and-tech/2024-03-01-chainlink-blockchain-solutions",
             "docId": "life-and-tech/2024-03-01-chainlink-blockchain-solutions",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "워터폴",
-            "href": "/en/life-and-tech/2024-03-17-lp-gp-waterfall",
+            "href": "/life-and-tech/2024-03-17-lp-gp-waterfall",
             "docId": "life-and-tech/2024-03-17-lp-gp-waterfall",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "HBM",
-            "href": "/en/life-and-tech/2024-03-21-hbm",
+            "href": "/life-and-tech/2024-03-21-hbm",
             "docId": "life-and-tech/2024-03-21-hbm",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
-            "href": "/en/life-and-tech/2024-04-13-acp-law",
+            "href": "/life-and-tech/2024-04-13-acp-law",
             "docId": "life-and-tech/2024-04-13-acp-law",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "실시간 총액결제 시스템 RTGS (Real-time gross settlement)",
-            "href": "/en/life-and-tech/2024-05-06-rtgs-finance",
+            "href": "/life-and-tech/2024-05-06-rtgs-finance",
             "docId": "life-and-tech/2024-05-06-rtgs-finance",
             "unlisted": false
           }
         ],
-        "href": "/en/category/-life-and-tech"
+        "href": "/category/-life-and-tech"
       },
       {
         "type": "category",
@@ -477,106 +484,106 @@
               {
                 "type": "link",
                 "label": "Docusaurus github 배포하기",
-                "href": "/en/software/docusaurus/2024-01-28-docusaurus-deplo",
+                "href": "/software/docusaurus/2024-01-28-docusaurus-deplo",
                 "docId": "software/docusaurus/2024-01-28-docusaurus-deplo",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "Docusaurus 올인원 배포 스크립트",
-                "href": "/en/software/docusaurus/2024-01-29-docusaurus-all-in-one-script",
+                "href": "/software/docusaurus/2024-01-29-docusaurus-all-in-one-script",
                 "docId": "software/docusaurus/2024-01-29-docusaurus-all-in-one-script",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "Docusaurus utterances 다크 모드 적용",
-                "href": "/en/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode",
+                "href": "/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode",
                 "docId": "software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "Docusaurus 문서 작성 최신 정렬 스크립트",
-                "href": "/en/software/docusaurus/2024-02-20-docusaurus-autogenerate-list",
+                "href": "/software/docusaurus/2024-02-20-docusaurus-autogenerate-list",
                 "docId": "software/docusaurus/2024-02-20-docusaurus-autogenerate-list",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "Docusaurus 각 문서마다 hits 조회수 표시하기",
-                "href": "/en/software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document",
+                "href": "/software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document",
                 "docId": "software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "Docusaurus plugin-ideal-images width 문제 해결",
-                "href": "/en/software/docusaurus/2024-05-08-docusaurus-ideal-image-width",
+                "href": "/software/docusaurus/2024-05-08-docusaurus-ideal-image-width",
                 "docId": "software/docusaurus/2024-05-08-docusaurus-ideal-image-width",
                 "unlisted": false
               }
             ],
-            "href": "/en/category/docusaurus"
+            "href": "/category/docusaurus"
           },
           {
             "type": "link",
             "label": "appstore connect 앱 스크린샷 업로드 오류를 Curl API를 통해 우회적으로 해결하기",
-            "href": "/en/software/2023-02-13-appstore-connect-curl-api",
+            "href": "/software/2023-02-13-appstore-connect-curl-api",
             "docId": "software/2023-02-13-appstore-connect-curl-api",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "MacOS Homebrew로 node 버전 바꾸기",
-            "href": "/en/software/2023-02-13-macos-homebrew-node-version-change",
+            "href": "/software/2023-02-13-macos-homebrew-node-version-change",
             "docId": "software/2023-02-13-macos-homebrew-node-version-change",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "GitHub Desktop 오픈소스 수정, Pull Request 하기",
-            "href": "/en/software/2023-02-15-github-desktop-pull-request",
+            "href": "/software/2023-02-15-github-desktop-pull-request",
             "docId": "software/2023-02-15-github-desktop-pull-request",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "ASTx AhnLab Safe Transaction for Mac 강제종료",
-            "href": "/en/software/2023-02-18-ahnlab-transaction",
+            "href": "/software/2023-02-18-ahnlab-transaction",
             "docId": "software/2023-02-18-ahnlab-transaction",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "npm package.json 과 package-lock.json 차이점 이해와 필요성",
-            "href": "/en/software/2023-03-06-npm-package-lock-difference",
+            "href": "/software/2023-03-06-npm-package-lock-difference",
             "docId": "software/2023-03-06-npm-package-lock-difference",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "npm semantic versioning 가이드라인 이해",
-            "href": "/en/software/2023-03-06-npm-semantic-versioning",
+            "href": "/software/2023-03-06-npm-semantic-versioning",
             "docId": "software/2023-03-06-npm-semantic-versioning",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Tensorflow windows 11 설치",
-            "href": "/en/software/2024-02-12-tensorflow-windows-install",
+            "href": "/software/2024-02-12-tensorflow-windows-install",
             "docId": "software/2024-02-12-tensorflow-windows-install",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Play console 개발자 계정 인증",
-            "href": "/en/software/2024-02-24-play-console-developer-authentication",
+            "href": "/software/2024-02-24-play-console-developer-authentication",
             "docId": "software/2024-02-24-play-console-developer-authentication",
             "unlisted": false
           }
         ],
-        "href": "/en/category/️-software"
+        "href": "/category/️-software"
       },
       {
         "type": "category",
@@ -587,33 +594,33 @@
           {
             "type": "link",
             "label": "강화학습 비트코인 자동 매매 봇",
-            "href": "/en/others/2023-08-06-bitcoin-auto-with-ml",
+            "href": "/others/2023-08-06-bitcoin-auto-with-ml",
             "docId": "others/2023-08-06-bitcoin-auto-with-ml",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "체크드 독서 기록 앱",
-            "href": "/en/others/2023-08-06-checked",
+            "href": "/others/2023-08-06-checked",
             "docId": "others/2023-08-06-checked",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "숭파이 숭실대 인터넷 문제 해결 앱",
-            "href": "/en/others/2023-08-06-soongfi",
+            "href": "/others/2023-08-06-soongfi",
             "docId": "others/2023-08-06-soongfi",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "개발 시 도움되는 링크 모음",
-            "href": "/en/others/2024-02-08-link",
+            "href": "/others/2024-02-08-link",
             "docId": "others/2024-02-08-link",
             "unlisted": false
           }
         ],
-        "href": "/en/category/-others"
+        "href": "/category/-others"
       }
     ]
   },
@@ -838,6 +845,12 @@
       "id": "data-center/2024-05-03-nic",
       "title": "NIC (Network Interface Card)",
       "description": "NIC (Network Interface Card)",
+      "sidebar": "tutorialSidebar"
+    },
+    "data-center/2024-05-10-wdm": {
+      "id": "data-center/2024-05-10-wdm",
+      "title": "WDM (Wavelength Division Multiplexing)",
+      "description": "WDM (Wavelength Division Multiplexing)",
       "sidebar": "tutorialSidebar"
     },
     "intro": {

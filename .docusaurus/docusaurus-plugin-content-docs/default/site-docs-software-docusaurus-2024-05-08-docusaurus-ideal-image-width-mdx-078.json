@@ -16,8 +16,7 @@
   ],
   "version": "current",
   "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1715175094,
-  "formattedLastUpdatedAt": "May 8, 2024",
+  "lastUpdatedAt": 1715176230000,
   "frontMatter": {
     "title": "Docusaurus plugin-ideal-images width 문제 해결",
     "description": "Docusaurus plugin-ideal-images width 문제 해결",
@@ -34,7 +33,7 @@
     "permalink": "/en/software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document"
   },
   "next": {
-    "title": "appstore connect 앱 스크린샷 업로드 오류를 Curl API를 통해 우회적으로 해결하기",
-    "permalink": "/en/software/2023-02-13-appstore-connect-curl-api"
+    "title": "Docusaurus plugin-ideal-images width 문제 해결",
+    "permalink": "/en/software/docusaurus/2024-05-09-docusaurus-zoom-image"
   }
 }

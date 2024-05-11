@@ -24,8 +24,7 @@
   ],
   "version": "current",
   "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1711807276,
-  "formattedLastUpdatedAt": "Mar 30, 2024",
+  "lastUpdatedAt": 1711807276000,
   "frontMatter": {
     "title": "MacOS Homebrew로 node 버전 바꾸기",
     "description": "MacOS Homebrew로 node 버전 바꾸기",

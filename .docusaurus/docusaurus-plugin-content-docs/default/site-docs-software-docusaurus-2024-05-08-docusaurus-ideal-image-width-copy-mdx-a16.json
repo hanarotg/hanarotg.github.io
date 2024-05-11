@@ -1,0 +1,37 @@
+{
+  "id": "software/docusaurus/2024-05-08-docusaurus-ideal-image-width copy",
+  "title": "Docusaurus plugin-ideal-images width 문제 해결",
+  "description": "Docusaurus plugin-ideal-images width 문제 해결",
+  "source": "@site/docs/software/docusaurus/2024-05-08-docusaurus-ideal-image-width copy.mdx",
+  "sourceDirName": "software/docusaurus",
+  "slug": "/software/docusaurus/2024-05-08-docusaurus-ideal-image-width copy",
+  "permalink": "/en/software/docusaurus/2024-05-08-docusaurus-ideal-image-width copy",
+  "draft": false,
+  "unlisted": false,
+  "tags": [
+    {
+      "label": "docusaurus",
+      "permalink": "/en/tags/docusaurus"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "Docusaurus plugin-ideal-images width 문제 해결",
+    "description": "Docusaurus plugin-ideal-images width 문제 해결",
+    "keywords": [
+      "docusaurus"
+    ],
+    "tags": [
+      "docusaurus"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Docusaurus 각 문서마다 hits 조회수 표시하기",
+    "permalink": "/en/software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document"
+  },
+  "next": {
+    "title": "Docusaurus plugin-ideal-images width 문제 해결",
+    "permalink": "/en/software/docusaurus/2024-05-08-docusaurus-ideal-image-width"
+  }
+}

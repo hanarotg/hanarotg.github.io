@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkhanarotg_github_io=self.webpackChunkhanarotg_github_io||[]).push([[1878],{68185:e=>{e.exports=JSON.parse('{"label":"HBM","permalink":"/tags/hbm","allTagsPath":"/tags","count":1,"items":[{"id":"life-and-tech/2024-03-21-hbm","title":"HBM","description":"HBM","permalink":"/life-and-tech/2024-03-21-hbm"}],"unlisted":false}')}}]);

@@ -16,8 +16,7 @@
   ],
   "version": "current",
   "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1714314254,
-  "formattedLastUpdatedAt": "Apr 28, 2024",
+  "lastUpdatedAt": 1714314254000,
   "frontMatter": {
     "title": "npm package.json 과 package-lock.json 차이점 이해와 필요성",
     "description": "npm package.json 과 package-lock.json 차이점 이해와 필요성",

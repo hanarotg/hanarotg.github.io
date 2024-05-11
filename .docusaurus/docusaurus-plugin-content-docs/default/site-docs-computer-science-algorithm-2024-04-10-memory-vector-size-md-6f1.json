@@ -16,8 +16,7 @@
   ],
   "version": "current",
   "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1712739643,
-  "formattedLastUpdatedAt": "Apr 10, 2024",
+  "lastUpdatedAt": 1712739643000,
   "frontMatter": {
     "title": "알고리즘 메모리 제한 벡터 크기 어림잡기",
     "description": "알고리즘 메모리 제한 벡터 크기 어림잡기",

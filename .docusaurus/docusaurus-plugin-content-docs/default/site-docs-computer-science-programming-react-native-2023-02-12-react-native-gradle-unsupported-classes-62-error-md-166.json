@@ -20,8 +20,7 @@
   ],
   "version": "current",
   "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1713796616,
-  "formattedLastUpdatedAt": "Apr 22, 2024",
+  "lastUpdatedAt": 1713796616000,
   "frontMatter": {
     "title": "React Native gradle unsupported claass file major verion 62 error 해결하기",
     "description": "gradle unsupported claass file major verion 62 error",

@@ -16,8 +16,7 @@
   ],
   "version": "current",
   "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1708364160,
-  "formattedLastUpdatedAt": "Feb 19, 2024",
+  "lastUpdatedAt": 1708364160000,
   "frontMatter": {
     "title": "Fast I/O C++ 코드",
     "description": "Fast I/O C++ 코드",

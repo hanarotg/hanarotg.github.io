@@ -44,6 +44,7 @@ const config = {
         disableInDev: false,
       },
     ],
+    "docusaurus-plugin-zooming",
   ],
 
   presets: [

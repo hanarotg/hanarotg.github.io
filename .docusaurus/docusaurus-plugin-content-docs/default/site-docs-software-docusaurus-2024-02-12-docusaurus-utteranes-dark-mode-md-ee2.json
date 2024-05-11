@@ -20,8 +20,7 @@
   ],
   "version": "current",
   "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1708364160,
-  "formattedLastUpdatedAt": "Feb 19, 2024",
+  "lastUpdatedAt": 1708364160000,
   "frontMatter": {
     "title": "Docusaurus utterances 다크 모드 적용",
     "description": "Docusaurus utterances 다크 모드 적용 dark mode",

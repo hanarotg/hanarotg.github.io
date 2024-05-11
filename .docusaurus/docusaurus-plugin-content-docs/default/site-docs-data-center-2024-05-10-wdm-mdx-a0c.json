@@ -1,0 +1,39 @@
+{
+  "id": "data-center/2024-05-10-wdm",
+  "title": "WDM (Wavelength Division Multiplexing)",
+  "description": "WDM (Wavelength Division Multiplexing)",
+  "source": "@site/docs/data-center/2024-05-10-wdm.mdx",
+  "sourceDirName": "data-center",
+  "slug": "/data-center/2024-05-10-wdm",
+  "permalink": "/en/data-center/2024-05-10-wdm",
+  "draft": false,
+  "unlisted": false,
+  "tags": [
+    {
+      "label": "wdm",
+      "permalink": "/en/tags/wdm"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "WDM (Wavelength Division Multiplexing)",
+    "description": "WDM (Wavelength Division Multiplexing)",
+    "keywords": [
+      "wdm",
+      "dwdm",
+      "cwdm"
+    ],
+    "tags": [
+      "wdm"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "NIC (Network Interface Card)",
+    "permalink": "/en/data-center/2024-05-03-nic"
+  },
+  "next": {
+    "title": "💻 Computer Science",
+    "permalink": "/en/category/-computer-science"
+  }
+}

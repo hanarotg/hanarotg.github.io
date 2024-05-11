@@ -1,19 +1,4 @@
 {
-  "docusaurus-plugin-google-gtag": {
-    "default": {
-      "trackingID": [
-        "G-PSM1SDYJFY"
-      ],
-      "anonymizeIP": false,
-      "id": "default"
-    }
-  },
-  "docusaurus-plugin-google-tag-manager": {
-    "default": {
-      "containerId": "GTM-5SML85MT",
-      "id": "default"
-    }
-  },
   "docusaurus-plugin-content-docs": {
     "default": {
       "path": "/en/",
@@ -211,6 +196,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "data-center/2024-05-10-wdm",
+              "path": "/en/data-center/2024-05-10-wdm",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/en/",
               "sidebar": "tutorialSidebar"
@@ -356,6 +346,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "software/docusaurus/2024-05-09-docusaurus-zoom-image",
+              "path": "/en/software/docusaurus/2024-05-09-docusaurus-zoom-image",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/️-data-center-engineering",
               "path": "/en/category/️-data-center-engineering",
               "sidebar": "tutorialSidebar"
@@ -448,6 +443,21 @@
         }
       ],
       "breadcrumbs": true
+    }
+  },
+  "docusaurus-plugin-google-gtag": {
+    "default": {
+      "trackingID": [
+        "G-PSM1SDYJFY"
+      ],
+      "anonymizeIP": false,
+      "id": "default"
+    }
+  },
+  "docusaurus-plugin-google-tag-manager": {
+    "default": {
+      "containerId": "GTM-5SML85MT",
+      "id": "default"
     }
   }
 }

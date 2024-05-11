@@ -31,7 +31,8 @@ export default {
         "quality": 70,
         "disableInDev": false
       }
-    ]
+    ],
+    "docusaurus-plugin-zooming"
   ],
   "presets": [
     [
@@ -336,6 +337,9 @@ export default {
       "comments": true,
       "admonitions": true,
       "headingIds": true
+    },
+    "anchors": {
+      "maintainCase": false
     }
   },
   "themes": [
