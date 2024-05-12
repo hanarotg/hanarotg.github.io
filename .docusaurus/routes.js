@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', '16c'),
+    component: ComponentCreator('/en/', 'd1a'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', '480'),
+        component: ComponentCreator('/en/', '30c'),
         routes: [
           {
             path: '/en/tags',
@@ -103,6 +103,11 @@ export default [
           {
             path: '/en/tags/비트코인',
             component: ComponentCreator('/en/tags/비트코인', 'a76'),
+            exact: true
+          },
+          {
+            path: '/en/tags/연말정산',
+            component: ComponentCreator('/en/tags/연말정산', '666'),
             exact: true
           },
           {
@@ -347,7 +352,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', '5ac'),
+            component: ComponentCreator('/en/', '1a1'),
             routes: [
               {
                 path: '/en/category/-computer-science',
@@ -734,6 +739,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/en/life-and-tech/2024-05-12-korean-tax-deduction',
+                component: ComponentCreator('/en/life-and-tech/2024-05-12-korean-tax-deduction', 'a75'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/en/others/2023-08-06-bitcoin-auto-with-ml',
                 component: ComponentCreator('/en/others/2023-08-06-bitcoin-auto-with-ml', '477'),
                 exact: true,
@@ -843,13 +854,13 @@ export default [
               },
               {
                 path: '/en/software/docusaurus/2024-05-09-docusaurus-zoom-image',
-                component: ComponentCreator('/en/software/docusaurus/2024-05-09-docusaurus-zoom-image', 'ba9'),
+                component: ComponentCreator('/en/software/docusaurus/2024-05-09-docusaurus-zoom-image', 'f75'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/en/',
-                component: ComponentCreator('/en/', 'e61'),
+                component: ComponentCreator('/en/', '45d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

@@ -50,13 +50,13 @@
       "plugin": "c141421f"
     }
   },
-  "/en/-16c": {
+  "/en/-d1a": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/en/-480": {
+  "/en/-30c": {
     "__comp": "a7bd4aaa",
     "__props": "0928ef9a"
   },
@@ -111,6 +111,10 @@
   "/en/tags/비트코인-a76": {
     "__comp": "df203c0f",
     "__props": "79004224"
+  },
+  "/en/tags/연말정산-666": {
+    "__comp": "df203c0f",
+    "__props": "8dadef4a"
   },
   "/en/tags/acp-489": {
     "__comp": "df203c0f",
@@ -304,7 +308,7 @@
     "__comp": "df203c0f",
     "__props": "523d51db"
   },
-  "/en/-5ac": {
+  "/en/-1a1": {
     "__comp": "a94703ab"
   },
   "/en/category/-computer-science-892": {
@@ -563,6 +567,10 @@
     "__comp": "17896441",
     "content": "755cafb2"
   },
+  "/en/life-and-tech/2024-05-12-korean-tax-deduction-a75": {
+    "__comp": "17896441",
+    "content": "6b1a3433"
+  },
   "/en/others/2023-08-06-bitcoin-auto-with-ml-477": {
     "__comp": "17896441",
     "content": "7fd41eb5"
@@ -635,11 +643,11 @@
     "__comp": "17896441",
     "content": "07872c32"
   },
-  "/en/software/docusaurus/2024-05-09-docusaurus-zoom-image-ba9": {
+  "/en/software/docusaurus/2024-05-09-docusaurus-zoom-image-f75": {
     "__comp": "17896441",
     "content": "85eaf793"
   },
-  "/en/-e61": {
+  "/en/-45d": {
     "__comp": "17896441",
     "content": "0e384e19"
   }
