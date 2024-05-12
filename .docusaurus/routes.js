@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', 'd1a'),
+    component: ComponentCreator('/en/', 'd29'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', '30c'),
+        component: ComponentCreator('/en/', 'dd5'),
         routes: [
           {
             path: '/en/tags',
@@ -352,7 +352,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', '1a1'),
+            component: ComponentCreator('/en/', 'be2'),
             routes: [
               {
                 path: '/en/category/-computer-science',
@@ -674,7 +674,7 @@ export default [
               },
               {
                 path: '/en/data-center/2024-05-10-wdm',
-                component: ComponentCreator('/en/data-center/2024-05-10-wdm', '760'),
+                component: ComponentCreator('/en/data-center/2024-05-10-wdm', '9c8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -740,7 +740,7 @@ export default [
               },
               {
                 path: '/en/life-and-tech/2024-05-12-korean-tax-deduction',
-                component: ComponentCreator('/en/life-and-tech/2024-05-12-korean-tax-deduction', 'a75'),
+                component: ComponentCreator('/en/life-and-tech/2024-05-12-korean-tax-deduction', '83b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -854,13 +854,13 @@ export default [
               },
               {
                 path: '/en/software/docusaurus/2024-05-09-docusaurus-zoom-image',
-                component: ComponentCreator('/en/software/docusaurus/2024-05-09-docusaurus-zoom-image', 'f75'),
+                component: ComponentCreator('/en/software/docusaurus/2024-05-09-docusaurus-zoom-image', '257'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/en/',
-                component: ComponentCreator('/en/', '45d'),
+                component: ComponentCreator('/en/', 'cbd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
