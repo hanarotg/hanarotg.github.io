@@ -50,13 +50,13 @@
       "plugin": "c141421f"
     }
   },
-  "/en/-d29": {
+  "/en/-56c": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/en/-dd5": {
+  "/en/-0ca": {
     "__comp": "a7bd4aaa",
     "__props": "0928ef9a"
   },
@@ -111,6 +111,10 @@
   "/en/tags/비트코인-a76": {
     "__comp": "df203c0f",
     "__props": "79004224"
+  },
+  "/en/tags/상장-247": {
+    "__comp": "df203c0f",
+    "__props": "65d86208"
   },
   "/en/tags/연말정산-666": {
     "__comp": "df203c0f",
@@ -308,7 +312,7 @@
     "__comp": "df203c0f",
     "__props": "523d51db"
   },
-  "/en/-be2": {
+  "/en/-37d": {
     "__comp": "a94703ab"
   },
   "/en/category/-computer-science-892": {
@@ -567,9 +571,13 @@
     "__comp": "17896441",
     "content": "755cafb2"
   },
-  "/en/life-and-tech/2024-05-12-korean-tax-deduction-83b": {
+  "/en/life-and-tech/2024-05-12-korean-tax-deduction-b74": {
     "__comp": "17896441",
     "content": "6b1a3433"
+  },
+  "/en/life-and-tech/2024-06-18-korean-firm-usa-stock-6aa": {
+    "__comp": "17896441",
+    "content": "fef80f17"
   },
   "/en/others/2023-08-06-bitcoin-auto-with-ml-477": {
     "__comp": "17896441",

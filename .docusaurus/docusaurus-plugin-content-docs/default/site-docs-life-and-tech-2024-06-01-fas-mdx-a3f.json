@@ -1,0 +1,42 @@
+{
+  "id": "life-and-tech/2024-06-01-fas",
+  "title": "연말정산 종합소득세 소득공제 세액공제 차이",
+  "description": "연말정산 소득공제 세액공제 차이",
+  "source": "@site/docs/life-and-tech/2024-06-01-fas.mdx",
+  "sourceDirName": "life-and-tech",
+  "slug": "/life-and-tech/2024-06-01-fas",
+  "permalink": "/life-and-tech/2024-06-01-fas",
+  "draft": false,
+  "unlisted": false,
+  "tags": [
+    {
+      "label": "연말정산",
+      "permalink": "/tags/연말정산"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {
+    "title": "연말정산 종합소득세 소득공제 세액공제 차이",
+    "description": "연말정산 소득공제 세액공제 차이",
+    "keywords": [
+      "연말정산",
+      "종합소득세",
+      "소득공제",
+      "세액공제"
+    ],
+    "tags": [
+      "연말정산"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "연말정산 종합소득세 소득공제 세액공제 차이",
+    "permalink": "/life-and-tech/2024-05-12-korean-tax-deduction"
+  },
+  "next": {
+    "title": "🛠️ Software",
+    "permalink": "/category/️-software"
+  }
+}

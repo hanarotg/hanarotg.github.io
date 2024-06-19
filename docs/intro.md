@@ -7,10 +7,11 @@ sidebar_position: 1
 안녕하세요, 이태경입니다.
 - [`깃허브`](https://github.com/hanarotg) [`이메일`](mailto:hanarotg@naver.com)
   
-## 문서 목록 (68)
+## 문서 목록 (69)
 <details open>
 <summary>2024년</summary>
 <div>
+- 6월 18일 [국내 기업이 미국 증시에 상장하는 방법](/life-and-tech/2024-06-18-korean-firm-usa-stock.mdx)
 - 5월 12일 [연말정산 vs 종합소득세 신고와 소득공제 vs 세액공제](/life-and-tech/2024-05-12-korean-tax-deduction.mdx)
 - 5월 10일 [WDM (Wavelength Division Multiplexing)](/data-center/2024-05-10-wdm.mdx)
 - 5월 9일 [Docusaurus zoom image 플러그인 적용](/software/docusaurus/2024-05-09-docusaurus-zoom-image.mdx)

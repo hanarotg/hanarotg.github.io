@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', 'd29'),
+    component: ComponentCreator('/en/', '56c'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', 'dd5'),
+        component: ComponentCreator('/en/', '0ca'),
         routes: [
           {
             path: '/en/tags',
@@ -103,6 +103,11 @@ export default [
           {
             path: '/en/tags/비트코인',
             component: ComponentCreator('/en/tags/비트코인', 'a76'),
+            exact: true
+          },
+          {
+            path: '/en/tags/상장',
+            component: ComponentCreator('/en/tags/상장', '247'),
             exact: true
           },
           {
@@ -352,7 +357,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', 'be2'),
+            component: ComponentCreator('/en/', '37d'),
             routes: [
               {
                 path: '/en/category/-computer-science',
@@ -740,7 +745,13 @@ export default [
               },
               {
                 path: '/en/life-and-tech/2024-05-12-korean-tax-deduction',
-                component: ComponentCreator('/en/life-and-tech/2024-05-12-korean-tax-deduction', '83b'),
+                component: ComponentCreator('/en/life-and-tech/2024-05-12-korean-tax-deduction', 'b74'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/life-and-tech/2024-06-18-korean-firm-usa-stock',
+                component: ComponentCreator('/en/life-and-tech/2024-06-18-korean-firm-usa-stock', '6aa'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
