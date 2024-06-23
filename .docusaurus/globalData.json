@@ -61,6 +61,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "computer-science/algorithm/2024-06-22-erathosthes-shive",
+              "path": "/en/computer-science/algorithm/2024-06-22-erathosthes-shive",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "computer-science/machine-learning/2023-03-15-prediction-inference-diff",
               "path": "/en/computer-science/machine-learning/2023-03-15-prediction-inference-diff",
               "sidebar": "tutorialSidebar"
@@ -68,6 +73,11 @@
             {
               "id": "computer-science/network/2024-04-23-cdn",
               "path": "/en/computer-science/network/2024-04-23-cdn",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "computer-science/network/2024-06-19-vlan",
+              "path": "/en/computer-science/network/2024-06-19-vlan",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -201,6 +211,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "data-center/2024-06-20-smf-loop-back-test",
+              "path": "/en/data-center/2024-06-20-smf-loop-back-test",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/en/",
               "sidebar": "tutorialSidebar"
@@ -283,6 +298,11 @@
             {
               "id": "others/2024-02-08-link",
               "path": "/en/others/2024-02-08-link",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "others/2024-06-21-blog-rules",
+              "path": "/en/others/2024-06-21-blog-rules",
               "sidebar": "tutorialSidebar"
             },
             {

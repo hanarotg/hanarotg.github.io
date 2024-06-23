@@ -1,0 +1,72 @@
+---
+title: Physical Loop back Test
+description: Physical Loop back Test
+keywords: ["Loop back"]
+tags: ["Loop back"]
+---
+
+# Physical Loop back Test
+
+import Image from "@theme/IdealImage";
+
+## 개요
+
+:::info
+
+본 글은 SMF(Single Mode Fiber) 루프백 테스트를 기준으로 설명합니다.
+
+:::
+
+네트워크의 송수신 이상 유무를 판단하기 위한 테스트. Optic의 문제를 확인하기 위해 사용하기도 하고 선로 구간의 문제를 확인하기 이해 사용하기도 한다.
+
+이상 유무를 판단하기 위한 SMF, 특별한 케이블이 아니라 단순히 길이가 매우 짧은 케이블이다.
+
+<Image img={require("/static/img/data-center/loopback1.png")} />
+
+## 사전 지식
+
+### Tx Rx 차이
+
+광케이블 두 개의 선이 결합된 형태로 사용되는 데 하나는 송신선, 하나는 수신선의 역할을 한다.
+
+- Tx : 송신
+- Rx : 수신
+
+가끔 Tx, Rx 를 반대로 연결하여 네트워크 송수신에 문제가 생기는 경우가 있다.
+
+<Image img={require("/static/img/data-center/loopback2.png")} />
+
+선 자체가 송수신 구분이 되어 있는 것이 아니라, end device optic을 기준으로 Tx ↔ Rx, Rx ↔ Tx 연결이 되어야 한다.
+
+## 판단
+
+루프백 케이블을 연결한 후, 스위치 CLI 명령을 통해 Tx, Rx Power를 확인한다.
+
+:::info
+
+스위치 CLI power 확인 명령은 스위치마다 다르므로 스위치 명세서를 확인하세요.
+
+:::
+
+```bash
+Port  Temperature   Tx Power     Rx Power       Tx Bias Current
++----+-----------+--------------+--------------+-----------------+
+1/3/3   37.8515 C  -002.3448 dBm -012.2257 dBm    8.402 mA
+        Normal      Normal        Normal         Normal
+```
+
+해당 스위치에 사용된 Optic 명세서를 살펴보면 손실값 허용 범위를 확인할 수 있다. 아래는 예시로 사용할 Cisco사의 QSFP-100G-SR4-S optic의 명세입니다.
+
+<Image img={require("/static/img/data-center/loopback3.png")} />
+
+CLI에서 확인한 Tx Power, Rx power가 모두 허용 구간 내에 있음을 확인할 수 있다. 이때, 루프백 테스트는 성공했다고 말할 수 있다.
+
+## 참고 자료
+
+- [How to Make a Loopback Test (qsfptek.com)](https://www.qsfptek.com/qt-news/how-to-make-a-loopback-test.html)
+- [DLB (ktword.co.kr)](http://www.ktword.co.kr/test/view/view.php?no=1860)
+- [Loopback: Testing and Troubleshooting in Fiber Networks (holightoptic.com)](https://www.holightoptic.com/what-is-fiber-loopback/)
+- [Soft Loop & Hard Loop? - Cisco Community](https://community.cisco.com/t5/other-network-architecture-subjects/soft-loop-hard-loop/td-p/23737)
+- [Step-by-Step Guide on performing a Loopback test on a switch port (edgeoptic.com)](https://edgeoptic.com/kb_article/how-to-loopback-test/)
+- http://wirelessall.co.kr/board_view.php?data=idx=89164&pagecnt=&letter_no=&offset=&search=&searchstring=&present_num=5&boardIndex=12
+- https://buy.customcable.com/Accessories/index.cfm?fuseaction=Loopbacks

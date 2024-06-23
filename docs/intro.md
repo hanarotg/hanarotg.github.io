@@ -7,10 +7,14 @@ sidebar_position: 1
 안녕하세요, 이태경입니다.
 - [`깃허브`](https://github.com/hanarotg) [`이메일`](mailto:hanarotg@naver.com)
   
-## 문서 목록 (69)
+## 문서 목록 (73)
 <details open>
 <summary>2024년</summary>
 <div>
+- 6월 22일 [에라토스테네스의 체](/computer-science/algorithm/2024-06-22-erathosthes-shive.mdx)
+- 6월 21일 [블로그 글 작성 규칙](/others/2024-06-21-blog-rules.mdx)
+- 6월 20일 [Physical Loop back Test](/data-center/2024-06-20-smf-loop-back-test.mdx)
+- 6월 19일 [VLAN](/computer-science/network/2024-06-19-vlan.mdx)
 - 6월 18일 [국내 기업이 미국 증시에 상장하는 방법](/life-and-tech/2024-06-18-korean-firm-usa-stock.mdx)
 - 5월 12일 [연말정산 vs 종합소득세 신고와 소득공제 vs 세액공제](/life-and-tech/2024-05-12-korean-tax-deduction.mdx)
 - 5월 10일 [WDM (Wavelength Division Multiplexing)](/data-center/2024-05-10-wdm.mdx)

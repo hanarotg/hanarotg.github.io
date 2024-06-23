@@ -1,0 +1,39 @@
+{
+  "id": "computer-science/network/2024-06-20-smf-loop-back-test",
+  "title": "Physical Loop back Test",
+  "description": "Physical Loop back Test",
+  "source": "@site/docs/computer-science/network/2024-06-20-smf-loop-back-test.mdx",
+  "sourceDirName": "computer-science/network",
+  "slug": "/computer-science/network/2024-06-20-smf-loop-back-test",
+  "permalink": "/computer-science/network/2024-06-20-smf-loop-back-test",
+  "draft": false,
+  "unlisted": false,
+  "tags": [
+    {
+      "label": "Loop back",
+      "permalink": "/tags/loop-back"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {
+    "title": "Physical Loop back Test",
+    "description": "Physical Loop back Test",
+    "keywords": [
+      "Loop back"
+    ],
+    "tags": [
+      "Loop back"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CDN (Content Delivery Network)",
+    "permalink": "/computer-science/network/2024-04-23-cdn"
+  },
+  "next": {
+    "title": "Programming",
+    "permalink": "/category/programming"
+  }
+}

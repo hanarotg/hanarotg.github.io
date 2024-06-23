@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', '56c'),
+    component: ComponentCreator('/en/', '7fc'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', '0ca'),
+        component: ComponentCreator('/en/', '13a'),
         routes: [
           {
             path: '/en/tags',
@@ -108,6 +108,11 @@ export default [
           {
             path: '/en/tags/상장',
             component: ComponentCreator('/en/tags/상장', '247'),
+            exact: true
+          },
+          {
+            path: '/en/tags/에라토스테네스의-체',
+            component: ComponentCreator('/en/tags/에라토스테네스의-체', 'e84'),
             exact: true
           },
           {
@@ -251,6 +256,11 @@ export default [
             exact: true
           },
           {
+            path: '/en/tags/loop-back',
+            component: ComponentCreator('/en/tags/loop-back', 'dfa'),
+            exact: true
+          },
+          {
             path: '/en/tags/mac-os',
             component: ComponentCreator('/en/tags/mac-os', '7b7'),
             exact: true
@@ -341,6 +351,11 @@ export default [
             exact: true
           },
           {
+            path: '/en/tags/vlan',
+            component: ComponentCreator('/en/tags/vlan', '05f'),
+            exact: true
+          },
+          {
             path: '/en/tags/waterfall',
             component: ComponentCreator('/en/tags/waterfall', 'fad'),
             exact: true
@@ -357,7 +372,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', '37d'),
+            component: ComponentCreator('/en/', 'aea'),
             routes: [
               {
                 path: '/en/category/-computer-science',
@@ -516,6 +531,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/en/computer-science/algorithm/2024-06-22-erathosthes-shive',
+                component: ComponentCreator('/en/computer-science/algorithm/2024-06-22-erathosthes-shive', '347'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/en/computer-science/machine-learning/2023-03-15-prediction-inference-diff',
                 component: ComponentCreator('/en/computer-science/machine-learning/2023-03-15-prediction-inference-diff', 'f4b'),
                 exact: true,
@@ -524,6 +545,12 @@ export default [
               {
                 path: '/en/computer-science/network/2024-04-23-cdn',
                 component: ComponentCreator('/en/computer-science/network/2024-04-23-cdn', '4c3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/computer-science/network/2024-06-19-vlan',
+                component: ComponentCreator('/en/computer-science/network/2024-06-19-vlan', '02c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -684,6 +711,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/en/data-center/2024-06-20-smf-loop-back-test',
+                component: ComponentCreator('/en/data-center/2024-06-20-smf-loop-back-test', '2d2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/en/life-and-tech/2023-12-12-real-estate-pre-sale',
                 component: ComponentCreator('/en/life-and-tech/2023-12-12-real-estate-pre-sale', '4c0'),
                 exact: true,
@@ -751,7 +784,7 @@ export default [
               },
               {
                 path: '/en/life-and-tech/2024-06-18-korean-firm-usa-stock',
-                component: ComponentCreator('/en/life-and-tech/2024-06-18-korean-firm-usa-stock', '6aa'),
+                component: ComponentCreator('/en/life-and-tech/2024-06-18-korean-firm-usa-stock', '9ec'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -776,6 +809,12 @@ export default [
               {
                 path: '/en/others/2024-02-08-link',
                 component: ComponentCreator('/en/others/2024-02-08-link', '063'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/en/others/2024-06-21-blog-rules',
+                component: ComponentCreator('/en/others/2024-06-21-blog-rules', '60f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -871,7 +910,7 @@ export default [
               },
               {
                 path: '/en/',
-                component: ComponentCreator('/en/', 'cbd'),
+                component: ComponentCreator('/en/', 'dcc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

@@ -1,0 +1,42 @@
+{
+  "id": "life-and-tech/2024-06-18-korean-firm-usa-stock copy",
+  "title": "국내 기업이 미국 증시에 상장하는 방법",
+  "description": "국내 기업이 미국에 상장하는 방법",
+  "source": "@site/docs/life-and-tech/2024-06-18-korean-firm-usa-stock copy.mdx",
+  "sourceDirName": "life-and-tech",
+  "slug": "/life-and-tech/2024-06-18-korean-firm-usa-stock copy",
+  "permalink": "/life-and-tech/2024-06-18-korean-firm-usa-stock copy",
+  "draft": false,
+  "unlisted": false,
+  "tags": [
+    {
+      "label": "상장",
+      "permalink": "/tags/상장"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {
+    "title": "국내 기업이 미국 증시에 상장하는 방법",
+    "description": "국내 기업이 미국에 상장하는 방법",
+    "keywords": [
+      "국내",
+      "기업",
+      "미국",
+      "상장"
+    ],
+    "tags": [
+      "상장"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "연말정산 종합소득세 소득공제 세액공제 차이",
+    "permalink": "/life-and-tech/2024-05-12-korean-tax-deduction"
+  },
+  "next": {
+    "title": "국내 기업이 미국 증시에 상장하는 방법",
+    "permalink": "/life-and-tech/2024-06-18-korean-firm-usa-stock"
+  }
+}
