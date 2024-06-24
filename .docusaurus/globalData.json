@@ -1,463 +1,463 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/en/",
+      "path": "/",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/en/",
+          "path": "/",
           "mainDocId": "intro",
           "docs": [
             {
               "id": "computer-science/algorithm/2024-02-02-boj-2178",
-              "path": "/en/computer-science/algorithm/2024-02-02-boj-2178",
+              "path": "/computer-science/algorithm/2024-02-02-boj-2178",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "computer-science/algorithm/2024-02-11-fast-io",
-              "path": "/en/computer-science/algorithm/2024-02-11-fast-io",
+              "path": "/computer-science/algorithm/2024-02-11-fast-io",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "computer-science/algorithm/2024-02-11-strick-weak-ordering",
-              "path": "/en/computer-science/algorithm/2024-02-11-strick-weak-ordering",
+              "path": "/computer-science/algorithm/2024-02-11-strick-weak-ordering",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "computer-science/algorithm/2024-02-20-boj-1946",
-              "path": "/en/computer-science/algorithm/2024-02-20-boj-1946",
+              "path": "/computer-science/algorithm/2024-02-20-boj-1946",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "computer-science/algorithm/2024-02-23-byzantine-fault-tolerance",
-              "path": "/en/computer-science/algorithm/2024-02-23-byzantine-fault-tolerance",
+              "path": "/computer-science/algorithm/2024-02-23-byzantine-fault-tolerance",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "computer-science/algorithm/2024-02-23-division-in-algorithm",
-              "path": "/en/computer-science/algorithm/2024-02-23-division-in-algorithm",
+              "path": "/computer-science/algorithm/2024-02-23-division-in-algorithm",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "computer-science/algorithm/2024-03-06-boj-1167",
-              "path": "/en/computer-science/algorithm/2024-03-06-boj-1167",
+              "path": "/computer-science/algorithm/2024-03-06-boj-1167",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "computer-science/algorithm/2024-04-07-digonal-check",
-              "path": "/en/computer-science/algorithm/2024-04-07-digonal-check",
+              "path": "/computer-science/algorithm/2024-04-07-digonal-check",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "computer-science/algorithm/2024-04-10-memory-vector-size",
-              "path": "/en/computer-science/algorithm/2024-04-10-memory-vector-size",
+              "path": "/computer-science/algorithm/2024-04-10-memory-vector-size",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "computer-science/algorithm/2024-04-28-mst",
-              "path": "/en/computer-science/algorithm/2024-04-28-mst",
+              "path": "/computer-science/algorithm/2024-04-28-mst",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "computer-science/algorithm/2024-06-22-erathosthes-shive",
-              "path": "/en/computer-science/algorithm/2024-06-22-erathosthes-shive",
+              "path": "/computer-science/algorithm/2024-06-22-erathosthes-shive",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "computer-science/machine-learning/2023-03-15-prediction-inference-diff",
-              "path": "/en/computer-science/machine-learning/2023-03-15-prediction-inference-diff",
+              "path": "/computer-science/machine-learning/2023-03-15-prediction-inference-diff",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "computer-science/network/2024-04-23-cdn",
-              "path": "/en/computer-science/network/2024-04-23-cdn",
+              "path": "/computer-science/network/2024-04-23-cdn",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "computer-science/network/2024-06-19-vlan",
-              "path": "/en/computer-science/network/2024-06-19-vlan",
+              "path": "/computer-science/network/2024-06-19-vlan",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "computer-science/programming/android/2023-02-27-upload-cert-with-android-studio",
-              "path": "/en/computer-science/programming/android/2023-02-27-upload-cert-with-android-studio",
+              "path": "/computer-science/programming/android/2023-02-27-upload-cert-with-android-studio",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "computer-science/programming/android/2023-06-24-gradle-in-android",
-              "path": "/en/computer-science/programming/android/2023-06-24-gradle-in-android",
+              "path": "/computer-science/programming/android/2023-06-24-gradle-in-android",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "computer-science/programming/android/2024-01-28-build-release-android-app",
-              "path": "/en/computer-science/programming/android/2024-01-28-build-release-android-app",
+              "path": "/computer-science/programming/android/2024-01-28-build-release-android-app",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "computer-science/programming/android/2024-02-24-android-tag-id-name",
-              "path": "/en/computer-science/programming/android/2024-02-24-android-tag-id-name",
+              "path": "/computer-science/programming/android/2024-02-24-android-tag-id-name",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "computer-science/programming/android/kotlin/2023-04-26-kotlin-nullability",
-              "path": "/en/computer-science/programming/android/kotlin/2023-04-26-kotlin-nullability",
+              "path": "/computer-science/programming/android/kotlin/2023-04-26-kotlin-nullability",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "computer-science/programming/android/kotlin/2023-05-28-kotlin-array",
-              "path": "/en/computer-science/programming/android/kotlin/2023-05-28-kotlin-array",
+              "path": "/computer-science/programming/android/kotlin/2023-05-28-kotlin-array",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "computer-science/programming/cpp/2024-02-15-cpp-vector-parameter-as-ref",
-              "path": "/en/computer-science/programming/cpp/2024-02-15-cpp-vector-parameter-as-ref",
+              "path": "/computer-science/programming/cpp/2024-02-15-cpp-vector-parameter-as-ref",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "computer-science/programming/flutter/2024-02-28-flutter-expanded-widget-height-error",
-              "path": "/en/computer-science/programming/flutter/2024-02-28-flutter-expanded-widget-height-error",
+              "path": "/computer-science/programming/flutter/2024-02-28-flutter-expanded-widget-height-error",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "computer-science/programming/flutter/2024-03-21-flutter-futurebuilder-reload",
-              "path": "/en/computer-science/programming/flutter/2024-03-21-flutter-futurebuilder-reload",
+              "path": "/computer-science/programming/flutter/2024-03-21-flutter-futurebuilder-reload",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "computer-science/programming/python/2023-02-12-python-multi-list",
-              "path": "/en/computer-science/programming/python/2023-02-12-python-multi-list",
+              "path": "/computer-science/programming/python/2023-02-12-python-multi-list",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "computer-science/programming/python/2023-02-13-python-dictionary",
-              "path": "/en/computer-science/programming/python/2023-02-13-python-dictionary",
+              "path": "/computer-science/programming/python/2023-02-13-python-dictionary",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "computer-science/programming/python/2024-01-30-python-background",
-              "path": "/en/computer-science/programming/python/2024-01-30-python-background",
+              "path": "/computer-science/programming/python/2024-01-30-python-background",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "computer-science/programming/react-native/2023-02-12-react-native-android-includefontpadding",
-              "path": "/en/computer-science/programming/react-native/2023-02-12-react-native-android-includefontpadding",
+              "path": "/computer-science/programming/react-native/2023-02-12-react-native-android-includefontpadding",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "computer-science/programming/react-native/2023-02-12-react-native-google-signin-sha-1",
-              "path": "/en/computer-science/programming/react-native/2023-02-12-react-native-google-signin-sha-1",
+              "path": "/computer-science/programming/react-native/2023-02-12-react-native-google-signin-sha-1",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "computer-science/programming/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error",
-              "path": "/en/computer-science/programming/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error",
+              "path": "/computer-science/programming/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "computer-science/programming/react-native/2023-02-12-react-native-tips",
-              "path": "/en/computer-science/programming/react-native/2023-02-12-react-native-tips",
+              "path": "/computer-science/programming/react-native/2023-02-12-react-native-tips",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "computer-science/programming/react-native/2023-03-05-react-native-watchman-operation-not-per-error",
-              "path": "/en/computer-science/programming/react-native/2023-03-05-react-native-watchman-operation-not-per-error",
+              "path": "/computer-science/programming/react-native/2023-03-05-react-native-watchman-operation-not-per-error",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "computer-science/programming/react-native/2023-03-14-react-native-first-github-push",
-              "path": "/en/computer-science/programming/react-native/2023-03-14-react-native-first-github-push",
+              "path": "/computer-science/programming/react-native/2023-03-14-react-native-first-github-push",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "computer-science/programming/react-native/2024-02-12-react-native-reusable-pressable",
-              "path": "/en/computer-science/programming/react-native/2024-02-12-react-native-reusable-pressable",
+              "path": "/computer-science/programming/react-native/2024-02-12-react-native-reusable-pressable",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "computer-science/programming/react-native/2024-02-12-react-native-webview-android-webview-error",
-              "path": "/en/computer-science/programming/react-native/2024-02-12-react-native-webview-android-webview-error",
+              "path": "/computer-science/programming/react-native/2024-02-12-react-native-webview-android-webview-error",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "computer-science/programming/react-native/2024-02-29-react-native-speicifc-version-init",
-              "path": "/en/computer-science/programming/react-native/2024-02-29-react-native-speicifc-version-init",
+              "path": "/computer-science/programming/react-native/2024-02-29-react-native-speicifc-version-init",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "data-center/2024-03-12-equinix-interconnection-solutions",
-              "path": "/en/data-center/2024-03-12-equinix-interconnection-solutions",
+              "path": "/data-center/2024-03-12-equinix-interconnection-solutions",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "data-center/2024-04-20-fiber-sm-mm",
-              "path": "/en/data-center/2024-04-20-fiber-sm-mm",
+              "path": "/data-center/2024-04-20-fiber-sm-mm",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "data-center/2024-04-21-liquid-cooling",
-              "path": "/en/data-center/2024-04-21-liquid-cooling",
+              "path": "/data-center/2024-04-21-liquid-cooling",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "data-center/2024-05-03-nic",
-              "path": "/en/data-center/2024-05-03-nic",
+              "path": "/data-center/2024-05-03-nic",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "data-center/2024-05-10-wdm",
-              "path": "/en/data-center/2024-05-10-wdm",
+              "path": "/data-center/2024-05-10-wdm",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "data-center/2024-06-20-smf-loop-back-test",
-              "path": "/en/data-center/2024-06-20-smf-loop-back-test",
+              "path": "/data-center/2024-06-20-smf-loop-back-test",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "intro",
-              "path": "/en/",
+              "path": "/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "life-and-tech/2023-12-12-real-estate-pre-sale",
-              "path": "/en/life-and-tech/2023-12-12-real-estate-pre-sale",
+              "path": "/life-and-tech/2023-12-12-real-estate-pre-sale",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "life-and-tech/2023-12-13-long-term-real-estate-sale",
-              "path": "/en/life-and-tech/2023-12-13-long-term-real-estate-sale",
+              "path": "/life-and-tech/2023-12-13-long-term-real-estate-sale",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "life-and-tech/2024-02-02-select-book",
-              "path": "/en/life-and-tech/2024-02-02-select-book",
+              "path": "/life-and-tech/2024-02-02-select-book",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "life-and-tech/2024-02-19-cxl-memory",
-              "path": "/en/life-and-tech/2024-02-19-cxl-memory",
+              "path": "/life-and-tech/2024-02-19-cxl-memory",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "life-and-tech/2024-02-27-night-shade-chicago",
-              "path": "/en/life-and-tech/2024-02-27-night-shade-chicago",
+              "path": "/life-and-tech/2024-02-27-night-shade-chicago",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "life-and-tech/2024-03-01-chainlink-blockchain-solutions",
-              "path": "/en/life-and-tech/2024-03-01-chainlink-blockchain-solutions",
+              "path": "/life-and-tech/2024-03-01-chainlink-blockchain-solutions",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "life-and-tech/2024-03-17-lp-gp-waterfall",
-              "path": "/en/life-and-tech/2024-03-17-lp-gp-waterfall",
+              "path": "/life-and-tech/2024-03-17-lp-gp-waterfall",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "life-and-tech/2024-03-21-hbm",
-              "path": "/en/life-and-tech/2024-03-21-hbm",
+              "path": "/life-and-tech/2024-03-21-hbm",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "life-and-tech/2024-04-13-acp-law",
-              "path": "/en/life-and-tech/2024-04-13-acp-law",
+              "path": "/life-and-tech/2024-04-13-acp-law",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "life-and-tech/2024-05-06-rtgs-finance",
-              "path": "/en/life-and-tech/2024-05-06-rtgs-finance",
+              "path": "/life-and-tech/2024-05-06-rtgs-finance",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "life-and-tech/2024-05-12-korean-tax-deduction",
-              "path": "/en/life-and-tech/2024-05-12-korean-tax-deduction",
+              "path": "/life-and-tech/2024-05-12-korean-tax-deduction",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "life-and-tech/2024-06-18-korean-firm-usa-stock",
-              "path": "/en/life-and-tech/2024-06-18-korean-firm-usa-stock",
+              "path": "/life-and-tech/2024-06-18-korean-firm-usa-stock",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "others/2023-08-06-bitcoin-auto-with-ml",
-              "path": "/en/others/2023-08-06-bitcoin-auto-with-ml",
+              "path": "/others/2023-08-06-bitcoin-auto-with-ml",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "others/2023-08-06-checked",
-              "path": "/en/others/2023-08-06-checked",
+              "path": "/others/2023-08-06-checked",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "others/2023-08-06-soongfi",
-              "path": "/en/others/2023-08-06-soongfi",
+              "path": "/others/2023-08-06-soongfi",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "others/2024-02-08-link",
-              "path": "/en/others/2024-02-08-link",
+              "path": "/others/2024-02-08-link",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "others/2024-06-21-blog-rules",
-              "path": "/en/others/2024-06-21-blog-rules",
+              "path": "/others/2024-06-21-blog-rules",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "software/2023-02-13-appstore-connect-curl-api",
-              "path": "/en/software/2023-02-13-appstore-connect-curl-api",
+              "path": "/software/2023-02-13-appstore-connect-curl-api",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "software/2023-02-13-macos-homebrew-node-version-change",
-              "path": "/en/software/2023-02-13-macos-homebrew-node-version-change",
+              "path": "/software/2023-02-13-macos-homebrew-node-version-change",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "software/2023-02-15-github-desktop-pull-request",
-              "path": "/en/software/2023-02-15-github-desktop-pull-request",
+              "path": "/software/2023-02-15-github-desktop-pull-request",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "software/2023-02-18-ahnlab-transaction",
-              "path": "/en/software/2023-02-18-ahnlab-transaction",
+              "path": "/software/2023-02-18-ahnlab-transaction",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "software/2023-03-06-npm-package-lock-difference",
-              "path": "/en/software/2023-03-06-npm-package-lock-difference",
+              "path": "/software/2023-03-06-npm-package-lock-difference",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "software/2023-03-06-npm-semantic-versioning",
-              "path": "/en/software/2023-03-06-npm-semantic-versioning",
+              "path": "/software/2023-03-06-npm-semantic-versioning",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "software/2024-02-12-tensorflow-windows-install",
-              "path": "/en/software/2024-02-12-tensorflow-windows-install",
+              "path": "/software/2024-02-12-tensorflow-windows-install",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "software/2024-02-24-play-console-developer-authentication",
-              "path": "/en/software/2024-02-24-play-console-developer-authentication",
+              "path": "/software/2024-02-24-play-console-developer-authentication",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "software/docusaurus/2024-01-28-docusaurus-deplo",
-              "path": "/en/software/docusaurus/2024-01-28-docusaurus-deplo",
+              "path": "/software/docusaurus/2024-01-28-docusaurus-deplo",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "software/docusaurus/2024-01-29-docusaurus-all-in-one-script",
-              "path": "/en/software/docusaurus/2024-01-29-docusaurus-all-in-one-script",
+              "path": "/software/docusaurus/2024-01-29-docusaurus-all-in-one-script",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode",
-              "path": "/en/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode",
+              "path": "/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "software/docusaurus/2024-02-20-docusaurus-autogenerate-list",
-              "path": "/en/software/docusaurus/2024-02-20-docusaurus-autogenerate-list",
+              "path": "/software/docusaurus/2024-02-20-docusaurus-autogenerate-list",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document",
-              "path": "/en/software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document",
+              "path": "/software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "software/docusaurus/2024-05-08-docusaurus-ideal-image-width",
-              "path": "/en/software/docusaurus/2024-05-08-docusaurus-ideal-image-width",
+              "path": "/software/docusaurus/2024-05-08-docusaurus-ideal-image-width",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "software/docusaurus/2024-05-09-docusaurus-zoom-image",
-              "path": "/en/software/docusaurus/2024-05-09-docusaurus-zoom-image",
+              "path": "/software/docusaurus/2024-05-09-docusaurus-zoom-image",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/️-data-center-engineering",
-              "path": "/en/category/️-data-center-engineering",
+              "path": "/category/️-data-center-engineering",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/-computer-science",
-              "path": "/en/category/-computer-science",
+              "path": "/category/-computer-science",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/algorithm",
-              "path": "/en/category/algorithm",
+              "path": "/category/algorithm",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/network",
-              "path": "/en/category/network",
+              "path": "/category/network",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/programming",
-              "path": "/en/category/programming",
+              "path": "/category/programming",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/python",
-              "path": "/en/category/python",
+              "path": "/category/python",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/android",
-              "path": "/en/category/android",
+              "path": "/category/android",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/kotlin",
-              "path": "/en/category/kotlin",
+              "path": "/category/kotlin",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/cpp",
-              "path": "/en/category/cpp",
+              "path": "/category/cpp",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/flutter",
-              "path": "/en/category/flutter",
+              "path": "/category/flutter",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/react-native",
-              "path": "/en/category/react-native",
+              "path": "/category/react-native",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/machine-learning",
-              "path": "/en/category/machine-learning",
+              "path": "/category/machine-learning",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/-life-and-tech",
-              "path": "/en/category/-life-and-tech",
+              "path": "/category/-life-and-tech",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/️-software",
-              "path": "/en/category/️-software",
+              "path": "/category/️-software",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/docusaurus",
-              "path": "/en/category/docusaurus",
+              "path": "/category/docusaurus",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/-others",
-              "path": "/en/category/-others",
+              "path": "/category/-others",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -465,7 +465,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/en/",
+                "path": "/",
                 "label": "intro"
               }
             }

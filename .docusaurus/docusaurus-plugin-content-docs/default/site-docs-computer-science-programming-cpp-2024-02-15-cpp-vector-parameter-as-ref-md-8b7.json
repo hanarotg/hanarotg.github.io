@@ -5,18 +5,18 @@
   "source": "@site/docs/computer-science/programming/cpp/2024-02-15-cpp-vector-parameter-as-ref.md",
   "sourceDirName": "computer-science/programming/cpp",
   "slug": "/computer-science/programming/cpp/2024-02-15-cpp-vector-parameter-as-ref",
-  "permalink": "/en/computer-science/programming/cpp/2024-02-15-cpp-vector-parameter-as-ref",
+  "permalink": "/computer-science/programming/cpp/2024-02-15-cpp-vector-parameter-as-ref",
   "draft": false,
   "unlisted": false,
   "tags": [
     {
       "label": "c++",
-      "permalink": "/en/tags/c"
+      "permalink": "/tags/c"
     }
   ],
   "version": "current",
-  "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1713796616000,
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
   "frontMatter": {
     "title": "C++ 벡터 참조 호출",
     "description": "C++ 벡터 주소 전달",
@@ -30,10 +30,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "cpp",
-    "permalink": "/en/category/cpp"
+    "permalink": "/category/cpp"
   },
   "next": {
     "title": "Flutter",
-    "permalink": "/en/category/flutter"
+    "permalink": "/category/flutter"
   }
 }

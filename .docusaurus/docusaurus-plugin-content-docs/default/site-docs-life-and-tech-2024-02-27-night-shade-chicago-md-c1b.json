@@ -5,18 +5,18 @@
   "source": "@site/docs/life-and-tech/2024-02-27-night-shade-chicago.md",
   "sourceDirName": "life-and-tech",
   "slug": "/life-and-tech/2024-02-27-night-shade-chicago",
-  "permalink": "/en/life-and-tech/2024-02-27-night-shade-chicago",
+  "permalink": "/life-and-tech/2024-02-27-night-shade-chicago",
   "draft": false,
   "unlisted": false,
   "tags": [
     {
       "label": "nightshade",
-      "permalink": "/en/tags/nightshade"
+      "permalink": "/tags/nightshade"
     }
   ],
   "version": "current",
-  "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1713796616000,
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
   "frontMatter": {
     "title": "nightshade",
     "description": "nightshade 이해",
@@ -30,10 +30,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "CXL 메모리",
-    "permalink": "/en/life-and-tech/2024-02-19-cxl-memory"
+    "permalink": "/life-and-tech/2024-02-19-cxl-memory"
   },
   "next": {
     "title": "Chainlink",
-    "permalink": "/en/life-and-tech/2024-03-01-chainlink-blockchain-solutions"
+    "permalink": "/life-and-tech/2024-03-01-chainlink-blockchain-solutions"
   }
 }

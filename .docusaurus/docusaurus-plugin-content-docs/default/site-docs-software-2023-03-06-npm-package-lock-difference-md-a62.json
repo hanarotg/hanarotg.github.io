@@ -5,18 +5,18 @@
   "source": "@site/docs/software/2023-03-06-npm-package-lock-difference.md",
   "sourceDirName": "software",
   "slug": "/software/2023-03-06-npm-package-lock-difference",
-  "permalink": "/en/software/2023-03-06-npm-package-lock-difference",
+  "permalink": "/software/2023-03-06-npm-package-lock-difference",
   "draft": false,
   "unlisted": false,
   "tags": [
     {
       "label": "npm",
-      "permalink": "/en/tags/npm"
+      "permalink": "/tags/npm"
     }
   ],
   "version": "current",
-  "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1714314254000,
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
   "frontMatter": {
     "title": "npm package.json 과 package-lock.json 차이점 이해와 필요성",
     "description": "npm package.json 과 package-lock.json 차이점 이해와 필요성",
@@ -33,10 +33,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "ASTx AhnLab Safe Transaction for Mac 강제종료",
-    "permalink": "/en/software/2023-02-18-ahnlab-transaction"
+    "permalink": "/software/2023-02-18-ahnlab-transaction"
   },
   "next": {
     "title": "npm semantic versioning 가이드라인 이해",
-    "permalink": "/en/software/2023-03-06-npm-semantic-versioning"
+    "permalink": "/software/2023-03-06-npm-semantic-versioning"
   }
 }

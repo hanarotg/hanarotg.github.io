@@ -5,18 +5,18 @@
   "source": "@site/docs/computer-science/programming/android/2023-02-27-upload-cert-with-android-studio.md",
   "sourceDirName": "computer-science/programming/android",
   "slug": "/computer-science/programming/android/2023-02-27-upload-cert-with-android-studio",
-  "permalink": "/en/computer-science/programming/android/2023-02-27-upload-cert-with-android-studio",
+  "permalink": "/computer-science/programming/android/2023-02-27-upload-cert-with-android-studio",
   "draft": false,
   "unlisted": false,
   "tags": [
     {
       "label": "android",
-      "permalink": "/en/tags/android"
+      "permalink": "/tags/android"
     }
   ],
   "version": "current",
-  "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1713796616000,
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
   "frontMatter": {
     "title": "업로드 키, 인증서 재설정하기",
     "description": "기존 업로드 키를 분실하거나 더이상 사용할 수 없는 경우 새로운 업로드 키를 생성, 반영해야 합니다.",
@@ -33,10 +33,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "kotlin Array",
-    "permalink": "/en/computer-science/programming/android/kotlin/2023-05-28-kotlin-array"
+    "permalink": "/computer-science/programming/android/kotlin/2023-05-28-kotlin-array"
   },
   "next": {
     "title": "안드로이드 프로젝트 gradle 스크립트에 대한 이해",
-    "permalink": "/en/computer-science/programming/android/2023-06-24-gradle-in-android"
+    "permalink": "/computer-science/programming/android/2023-06-24-gradle-in-android"
   }
 }

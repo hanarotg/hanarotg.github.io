@@ -3,7 +3,7 @@
   "items": [
     {
       "title": "About Me",
-      "permalink": "/en/blog/about-me",
+      "permalink": "/blog/about-me",
       "unlisted": false
     }
   ]

@@ -5,18 +5,18 @@
   "source": "@site/docs/computer-science/programming/react-native/2023-02-12-react-native-android-includefontpadding.md",
   "sourceDirName": "computer-science/programming/react-native",
   "slug": "/computer-science/programming/react-native/2023-02-12-react-native-android-includefontpadding",
-  "permalink": "/en/computer-science/programming/react-native/2023-02-12-react-native-android-includefontpadding",
+  "permalink": "/computer-science/programming/react-native/2023-02-12-react-native-android-includefontpadding",
   "draft": false,
   "unlisted": false,
   "tags": [
     {
       "label": "react-native",
-      "permalink": "/en/tags/react-native"
+      "permalink": "/tags/react-native"
     }
   ],
   "version": "current",
-  "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1713796616000,
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
   "frontMatter": {
     "title": "React Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding 해결하기",
     "description": "React Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding",
@@ -32,10 +32,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "React-Native",
-    "permalink": "/en/category/react-native"
+    "permalink": "/category/react-native"
   },
   "next": {
     "title": "react-native-google-singin 앱 심사에 통과하기 위한 앱 서명 인증서(SHA-1) 키 적용하기",
-    "permalink": "/en/computer-science/programming/react-native/2023-02-12-react-native-google-signin-sha-1"
+    "permalink": "/computer-science/programming/react-native/2023-02-12-react-native-google-signin-sha-1"
   }
 }

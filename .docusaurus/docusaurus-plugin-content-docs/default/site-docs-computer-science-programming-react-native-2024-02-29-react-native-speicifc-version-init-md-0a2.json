@@ -5,18 +5,18 @@
   "source": "@site/docs/computer-science/programming/react-native/2024-02-29-react-native-speicifc-version-init.md",
   "sourceDirName": "computer-science/programming/react-native",
   "slug": "/computer-science/programming/react-native/2024-02-29-react-native-speicifc-version-init",
-  "permalink": "/en/computer-science/programming/react-native/2024-02-29-react-native-speicifc-version-init",
+  "permalink": "/computer-science/programming/react-native/2024-02-29-react-native-speicifc-version-init",
   "draft": false,
   "unlisted": false,
   "tags": [
     {
       "label": "react-native",
-      "permalink": "/en/tags/react-native"
+      "permalink": "/tags/react-native"
     }
   ],
   "version": "current",
-  "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1713796616000,
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
   "frontMatter": {
     "title": "React Native 특정 버전으로 프로젝트 시작하기",
     "description": "React Native 특정 버전으로 프로젝트 시작하기",
@@ -32,10 +32,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "react-native-webview 안드로이드 플랫폼에서 웹뷰를 출력하지 않는 문제",
-    "permalink": "/en/computer-science/programming/react-native/2024-02-12-react-native-webview-android-webview-error"
+    "permalink": "/computer-science/programming/react-native/2024-02-12-react-native-webview-android-webview-error"
   },
   "next": {
     "title": "Machine Learning",
-    "permalink": "/en/category/machine-learning"
+    "permalink": "/category/machine-learning"
   }
 }

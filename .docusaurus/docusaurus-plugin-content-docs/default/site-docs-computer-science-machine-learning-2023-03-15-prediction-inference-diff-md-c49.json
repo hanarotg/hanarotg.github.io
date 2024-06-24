@@ -5,18 +5,18 @@
   "source": "@site/docs/computer-science/machine-learning/2023-03-15-prediction-inference-diff.md",
   "sourceDirName": "computer-science/machine-learning",
   "slug": "/computer-science/machine-learning/2023-03-15-prediction-inference-diff",
-  "permalink": "/en/computer-science/machine-learning/2023-03-15-prediction-inference-diff",
+  "permalink": "/computer-science/machine-learning/2023-03-15-prediction-inference-diff",
   "draft": false,
   "unlisted": false,
   "tags": [
     {
       "label": "ml",
-      "permalink": "/en/tags/ml"
+      "permalink": "/tags/ml"
     }
   ],
   "version": "current",
-  "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1714314254000,
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
   "frontMatter": {
     "title": "prediction 예측과 inference 추론의 차이",
     "description": "prediction 예측과 inference 추론의 차이",
@@ -33,10 +33,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Machine Learning",
-    "permalink": "/en/category/machine-learning"
+    "permalink": "/category/machine-learning"
   },
   "next": {
     "title": "🍎 Life and Tech",
-    "permalink": "/en/category/-life-and-tech"
+    "permalink": "/category/-life-and-tech"
   }
 }

@@ -5,22 +5,22 @@
   "source": "@site/docs/life-and-tech/2024-03-01-chainlink-blockchain-solutions.md",
   "sourceDirName": "life-and-tech",
   "slug": "/life-and-tech/2024-03-01-chainlink-blockchain-solutions",
-  "permalink": "/en/life-and-tech/2024-03-01-chainlink-blockchain-solutions",
+  "permalink": "/life-and-tech/2024-03-01-chainlink-blockchain-solutions",
   "draft": false,
   "unlisted": false,
   "tags": [
     {
       "label": "chainlink",
-      "permalink": "/en/tags/chainlink"
+      "permalink": "/tags/chainlink"
     },
     {
       "label": "blockchain",
-      "permalink": "/en/tags/blockchain"
+      "permalink": "/tags/blockchain"
     }
   ],
   "version": "current",
-  "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1713796616000,
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
   "frontMatter": {
     "title": "Chainlink",
     "description": "블록체인 솔루션 기업 Chainlink",
@@ -36,10 +36,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "nightshade",
-    "permalink": "/en/life-and-tech/2024-02-27-night-shade-chicago"
+    "permalink": "/life-and-tech/2024-02-27-night-shade-chicago"
   },
   "next": {
     "title": "워터폴",
-    "permalink": "/en/life-and-tech/2024-03-17-lp-gp-waterfall"
+    "permalink": "/life-and-tech/2024-03-17-lp-gp-waterfall"
   }
 }

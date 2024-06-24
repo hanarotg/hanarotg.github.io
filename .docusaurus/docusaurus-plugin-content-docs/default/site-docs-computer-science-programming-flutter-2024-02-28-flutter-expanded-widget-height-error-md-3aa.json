@@ -5,18 +5,18 @@
   "source": "@site/docs/computer-science/programming/flutter/2024-02-28-flutter-expanded-widget-height-error.md",
   "sourceDirName": "computer-science/programming/flutter",
   "slug": "/computer-science/programming/flutter/2024-02-28-flutter-expanded-widget-height-error",
-  "permalink": "/en/computer-science/programming/flutter/2024-02-28-flutter-expanded-widget-height-error",
+  "permalink": "/computer-science/programming/flutter/2024-02-28-flutter-expanded-widget-height-error",
   "draft": false,
   "unlisted": false,
   "tags": [
     {
       "label": "flutter",
-      "permalink": "/en/tags/flutter"
+      "permalink": "/tags/flutter"
     }
   ],
   "version": "current",
-  "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1713796616000,
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
   "frontMatter": {
     "title": "flutter Incorrect use of ParentDataWidget 에러",
     "description": "flutter Incorrect use of ParentDataWidget 에러",
@@ -31,10 +31,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Flutter",
-    "permalink": "/en/category/flutter"
+    "permalink": "/category/flutter"
   },
   "next": {
     "title": "flutter Futurebuilder Future reload",
-    "permalink": "/en/computer-science/programming/flutter/2024-03-21-flutter-futurebuilder-reload"
+    "permalink": "/computer-science/programming/flutter/2024-03-21-flutter-futurebuilder-reload"
   }
 }

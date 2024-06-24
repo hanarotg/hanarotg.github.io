@@ -5,22 +5,22 @@
   "source": "@site/docs/software/2024-02-12-tensorflow-windows-install.md",
   "sourceDirName": "software",
   "slug": "/software/2024-02-12-tensorflow-windows-install",
-  "permalink": "/en/software/2024-02-12-tensorflow-windows-install",
+  "permalink": "/software/2024-02-12-tensorflow-windows-install",
   "draft": false,
   "unlisted": false,
   "tags": [
     {
       "label": "tensorflow",
-      "permalink": "/en/tags/tensorflow"
+      "permalink": "/tags/tensorflow"
     },
     {
       "label": "windows",
-      "permalink": "/en/tags/windows"
+      "permalink": "/tags/windows"
     }
   ],
   "version": "current",
-  "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1711385290000,
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
   "frontMatter": {
     "title": "Tensorflow windows 11 설치",
     "description": "Tensorflow windows 11 wsl2 활용 설치 가이드",
@@ -36,10 +36,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "npm semantic versioning 가이드라인 이해",
-    "permalink": "/en/software/2023-03-06-npm-semantic-versioning"
+    "permalink": "/software/2023-03-06-npm-semantic-versioning"
   },
   "next": {
     "title": "Play console 개발자 계정 인증",
-    "permalink": "/en/software/2024-02-24-play-console-developer-authentication"
+    "permalink": "/software/2024-02-24-play-console-developer-authentication"
   }
 }

@@ -8,7 +8,7 @@ export default {
   "tagline": "Engineer",
   "favicon": "img/favicon.ico",
   "url": "https://hanarotg.github.io",
-  "baseUrl": "/en/",
+  "baseUrl": "/",
   "organizationName": "hanarotg",
   "projectName": "hanarotg.github.io",
   "trailingSlash": false,
@@ -317,17 +317,17 @@ export default {
       "searchParameters": {},
       "searchPagePath": "search"
     },
+    "metadata": [],
+    "tableOfContents": {
+      "minHeadingLevel": 2,
+      "maxHeadingLevel": 3
+    },
     "mermaid": {
       "theme": {
         "dark": "dark",
         "light": "default"
       },
       "options": {}
-    },
-    "metadata": [],
-    "tableOfContents": {
-      "minHeadingLevel": 2,
-      "maxHeadingLevel": 3
     }
   },
   "markdown": {

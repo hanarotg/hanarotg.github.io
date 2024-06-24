@@ -5,16 +5,18 @@
   "source": "@site/docs/computer-science/network/2024-06-19-vlan.mdx",
   "sourceDirName": "computer-science/network",
   "slug": "/computer-science/network/2024-06-19-vlan",
-  "permalink": "/en/computer-science/network/2024-06-19-vlan",
+  "permalink": "/computer-science/network/2024-06-19-vlan",
   "draft": false,
   "unlisted": false,
   "tags": [
     {
       "label": "VLAN",
-      "permalink": "/en/tags/vlan"
+      "permalink": "/tags/vlan"
     }
   ],
   "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
   "frontMatter": {
     "title": "VLAN",
     "description": "VLAN",
@@ -28,10 +30,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "CDN (Content Delivery Network)",
-    "permalink": "/en/computer-science/network/2024-04-23-cdn"
+    "permalink": "/computer-science/network/2024-04-23-cdn"
   },
   "next": {
     "title": "Programming",
-    "permalink": "/en/category/programming"
+    "permalink": "/category/programming"
   }
 }

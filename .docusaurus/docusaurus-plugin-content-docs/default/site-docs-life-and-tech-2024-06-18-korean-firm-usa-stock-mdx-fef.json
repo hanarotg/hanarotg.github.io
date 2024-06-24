@@ -5,18 +5,18 @@
   "source": "@site/docs/life-and-tech/2024-06-18-korean-firm-usa-stock.mdx",
   "sourceDirName": "life-and-tech",
   "slug": "/life-and-tech/2024-06-18-korean-firm-usa-stock",
-  "permalink": "/en/life-and-tech/2024-06-18-korean-firm-usa-stock",
+  "permalink": "/life-and-tech/2024-06-18-korean-firm-usa-stock",
   "draft": false,
   "unlisted": false,
   "tags": [
     {
       "label": "상장",
-      "permalink": "/en/tags/상장"
+      "permalink": "/tags/상장"
     }
   ],
   "version": "current",
-  "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1718798992000,
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
   "frontMatter": {
     "title": "국내 기업이 미국 증시에 상장하는 방법",
     "description": "국내 기업이 미국에 상장하는 방법",
@@ -33,10 +33,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "연말정산 종합소득세 소득공제 세액공제 차이",
-    "permalink": "/en/life-and-tech/2024-05-12-korean-tax-deduction"
+    "permalink": "/life-and-tech/2024-05-12-korean-tax-deduction"
   },
   "next": {
     "title": "🛠️ Software",
-    "permalink": "/en/category/️-software"
+    "permalink": "/category/️-software"
   }
 }

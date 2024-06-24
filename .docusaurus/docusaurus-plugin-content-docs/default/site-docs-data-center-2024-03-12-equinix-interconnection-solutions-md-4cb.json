@@ -5,22 +5,22 @@
   "source": "@site/docs/data-center/2024-03-12-equinix-interconnection-solutions.md",
   "sourceDirName": "data-center",
   "slug": "/data-center/2024-03-12-equinix-interconnection-solutions",
-  "permalink": "/en/data-center/2024-03-12-equinix-interconnection-solutions",
+  "permalink": "/data-center/2024-03-12-equinix-interconnection-solutions",
   "draft": false,
   "unlisted": false,
   "tags": [
     {
       "label": "Equinix",
-      "permalink": "/en/tags/equinix"
+      "permalink": "/tags/equinix"
     },
     {
       "label": "Interconnection",
-      "permalink": "/en/tags/interconnection"
+      "permalink": "/tags/interconnection"
     }
   ],
   "version": "current",
-  "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1715003352000,
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
   "frontMatter": {
     "title": "Equinix Interconnection Solution",
     "description": "에퀴닉스 Interconnection Solution",
@@ -36,10 +36,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "🗄️ Data Center Engineering",
-    "permalink": "/en/category/️-data-center-engineering"
+    "permalink": "/category/️-data-center-engineering"
   },
   "next": {
     "title": "광케이블",
-    "permalink": "/en/data-center/2024-04-20-fiber-sm-mm"
+    "permalink": "/data-center/2024-04-20-fiber-sm-mm"
   }
 }

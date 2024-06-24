@@ -5,16 +5,18 @@
   "source": "@site/docs/data-center/2024-06-20-smf-loop-back-test.mdx",
   "sourceDirName": "data-center",
   "slug": "/data-center/2024-06-20-smf-loop-back-test",
-  "permalink": "/en/data-center/2024-06-20-smf-loop-back-test",
+  "permalink": "/data-center/2024-06-20-smf-loop-back-test",
   "draft": false,
   "unlisted": false,
   "tags": [
     {
       "label": "Loop back",
-      "permalink": "/en/tags/loop-back"
+      "permalink": "/tags/loop-back"
     }
   ],
   "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
   "frontMatter": {
     "title": "Physical Loop back Test",
     "description": "Physical Loop back Test",
@@ -28,10 +30,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "WDM (Wavelength Division Multiplexing)",
-    "permalink": "/en/data-center/2024-05-10-wdm"
+    "permalink": "/data-center/2024-05-10-wdm"
   },
   "next": {
     "title": "💻 Computer Science",
-    "permalink": "/en/category/-computer-science"
+    "permalink": "/category/-computer-science"
   }
 }

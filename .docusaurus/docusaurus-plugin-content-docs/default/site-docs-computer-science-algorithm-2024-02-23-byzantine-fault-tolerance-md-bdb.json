@@ -5,22 +5,22 @@
   "source": "@site/docs/computer-science/algorithm/2024-02-23-byzantine-fault-tolerance.md",
   "sourceDirName": "computer-science/algorithm",
   "slug": "/computer-science/algorithm/2024-02-23-byzantine-fault-tolerance",
-  "permalink": "/en/computer-science/algorithm/2024-02-23-byzantine-fault-tolerance",
+  "permalink": "/computer-science/algorithm/2024-02-23-byzantine-fault-tolerance",
   "draft": false,
   "unlisted": false,
   "tags": [
     {
       "label": "비잔틴 장애 허용",
-      "permalink": "/en/tags/비잔틴-장애-허용"
+      "permalink": "/tags/비잔틴-장애-허용"
     },
     {
       "label": "비트코인",
-      "permalink": "/en/tags/비트코인"
+      "permalink": "/tags/비트코인"
     }
   ],
   "version": "current",
-  "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1708670024000,
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
   "frontMatter": {
     "title": "비잔틴 장애 허용 (Byzantine Fault Tolerance)",
     "description": "비잔틴 장애 허용",
@@ -36,10 +36,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "백준 1946 신입 사원 C++ 문제 풀이",
-    "permalink": "/en/computer-science/algorithm/2024-02-20-boj-1946"
+    "permalink": "/computer-science/algorithm/2024-02-20-boj-1946"
   },
   "next": {
     "title": "나머지 분배법칙",
-    "permalink": "/en/computer-science/algorithm/2024-02-23-division-in-algorithm"
+    "permalink": "/computer-science/algorithm/2024-02-23-division-in-algorithm"
   }
 }

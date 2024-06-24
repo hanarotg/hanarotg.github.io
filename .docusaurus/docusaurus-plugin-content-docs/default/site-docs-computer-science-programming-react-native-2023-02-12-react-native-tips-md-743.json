@@ -5,18 +5,18 @@
   "source": "@site/docs/computer-science/programming/react-native/2023-02-12-react-native-tips.md",
   "sourceDirName": "computer-science/programming/react-native",
   "slug": "/computer-science/programming/react-native/2023-02-12-react-native-tips",
-  "permalink": "/en/computer-science/programming/react-native/2023-02-12-react-native-tips",
+  "permalink": "/computer-science/programming/react-native/2023-02-12-react-native-tips",
   "draft": false,
   "unlisted": false,
   "tags": [
     {
       "label": "react-native",
-      "permalink": "/en/tags/react-native"
+      "permalink": "/tags/react-native"
     }
   ],
   "version": "current",
-  "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1713796616000,
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
   "frontMatter": {
     "title": "React Native 개발할 때 알면 좋은 팁",
     "description": "React Native 개발할 때 알면 좋은 팁",
@@ -30,10 +30,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "React Native gradle unsupported claass file major verion 62 error 해결하기",
-    "permalink": "/en/computer-science/programming/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error"
+    "permalink": "/computer-science/programming/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error"
   },
   "next": {
     "title": "React-Native Watchman Operation not permitted 접근 권한 버그",
-    "permalink": "/en/computer-science/programming/react-native/2023-03-05-react-native-watchman-operation-not-per-error"
+    "permalink": "/computer-science/programming/react-native/2023-03-05-react-native-watchman-operation-not-per-error"
   }
 }

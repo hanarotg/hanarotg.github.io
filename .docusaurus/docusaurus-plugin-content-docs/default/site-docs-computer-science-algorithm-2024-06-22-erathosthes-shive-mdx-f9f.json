@@ -5,16 +5,18 @@
   "source": "@site/docs/computer-science/algorithm/2024-06-22-erathosthes-shive.mdx",
   "sourceDirName": "computer-science/algorithm",
   "slug": "/computer-science/algorithm/2024-06-22-erathosthes-shive",
-  "permalink": "/en/computer-science/algorithm/2024-06-22-erathosthes-shive",
+  "permalink": "/computer-science/algorithm/2024-06-22-erathosthes-shive",
   "draft": false,
   "unlisted": false,
   "tags": [
     {
       "label": "에라토스테네스의 체",
-      "permalink": "/en/tags/에라토스테네스의-체"
+      "permalink": "/tags/에라토스테네스의-체"
     }
   ],
   "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
   "frontMatter": {
     "title": "에라토스테네스의 체",
     "description": "에라토스테네스의 체",
@@ -28,10 +30,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "최소 신장 트리 MST (Minimum Spanning Tree)",
-    "permalink": "/en/computer-science/algorithm/2024-04-28-mst"
+    "permalink": "/computer-science/algorithm/2024-04-28-mst"
   },
   "next": {
     "title": "Network",
-    "permalink": "/en/category/network"
+    "permalink": "/category/network"
   }
 }

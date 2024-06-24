@@ -5,18 +5,18 @@
   "source": "@site/docs/computer-science/programming/python/2023-02-12-python-multi-list.md",
   "sourceDirName": "computer-science/programming/python",
   "slug": "/computer-science/programming/python/2023-02-12-python-multi-list",
-  "permalink": "/en/computer-science/programming/python/2023-02-12-python-multi-list",
+  "permalink": "/computer-science/programming/python/2023-02-12-python-multi-list",
   "draft": false,
   "unlisted": false,
   "tags": [
     {
       "label": "python",
-      "permalink": "/en/tags/python"
+      "permalink": "/tags/python"
     }
   ],
   "version": "current",
-  "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1713796616000,
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
   "frontMatter": {
     "title": "python 다차원 리스트 생성",
     "description": "python 다차원 리스트 생성",
@@ -33,10 +33,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Python",
-    "permalink": "/en/category/python"
+    "permalink": "/category/python"
   },
   "next": {
     "title": "python dictionary 사용 방법",
-    "permalink": "/en/computer-science/programming/python/2023-02-13-python-dictionary"
+    "permalink": "/computer-science/programming/python/2023-02-13-python-dictionary"
   }
 }

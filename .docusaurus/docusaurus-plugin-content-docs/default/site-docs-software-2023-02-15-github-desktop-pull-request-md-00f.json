@@ -5,18 +5,18 @@
   "source": "@site/docs/software/2023-02-15-github-desktop-pull-request.md",
   "sourceDirName": "software",
   "slug": "/software/2023-02-15-github-desktop-pull-request",
-  "permalink": "/en/software/2023-02-15-github-desktop-pull-request",
+  "permalink": "/software/2023-02-15-github-desktop-pull-request",
   "draft": false,
   "unlisted": false,
   "tags": [
     {
       "label": "github",
-      "permalink": "/en/tags/github"
+      "permalink": "/tags/github"
     }
   ],
   "version": "current",
-  "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1714314254000,
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
   "frontMatter": {
     "title": "GitHub Desktop 오픈소스 수정, Pull Request 하기",
     "description": "GitHub Desktop 오픈소스 수정, Pull Request 하기",
@@ -34,10 +34,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "MacOS Homebrew로 node 버전 바꾸기",
-    "permalink": "/en/software/2023-02-13-macos-homebrew-node-version-change"
+    "permalink": "/software/2023-02-13-macos-homebrew-node-version-change"
   },
   "next": {
     "title": "ASTx AhnLab Safe Transaction for Mac 강제종료",
-    "permalink": "/en/software/2023-02-18-ahnlab-transaction"
+    "permalink": "/software/2023-02-18-ahnlab-transaction"
   }
 }
