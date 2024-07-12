@@ -5,18 +5,18 @@
   "source": "@site/docs/computer-science/programming/react-native/2023-03-05-react-native-watchman-operation-not-per-error.md",
   "sourceDirName": "computer-science/programming/react-native",
   "slug": "/computer-science/programming/react-native/2023-03-05-react-native-watchman-operation-not-per-error",
-  "permalink": "/computer-science/programming/react-native/2023-03-05-react-native-watchman-operation-not-per-error",
+  "permalink": "/en/computer-science/programming/react-native/2023-03-05-react-native-watchman-operation-not-per-error",
   "draft": false,
   "unlisted": false,
   "tags": [
     {
       "label": "react-native",
-      "permalink": "/tags/react-native"
+      "permalink": "/en/tags/react-native"
     }
   ],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
+  "lastUpdatedBy": "Taegyeong Lee",
+  "lastUpdatedAt": 1714314254000,
   "frontMatter": {
     "title": "React-Native Watchman Operation not permitted 접근 권한 버그",
     "description": "React-Native Watchman Operation not permitted 접근 권한 버그",
@@ -31,10 +31,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "React Native 개발할 때 알면 좋은 팁",
-    "permalink": "/computer-science/programming/react-native/2023-02-12-react-native-tips"
+    "permalink": "/en/computer-science/programming/react-native/2023-02-12-react-native-tips"
   },
   "next": {
     "title": "React-Native github 레포지토리 첫 업로드하기",
-    "permalink": "/computer-science/programming/react-native/2023-03-14-react-native-first-github-push"
+    "permalink": "/en/computer-science/programming/react-native/2023-03-14-react-native-first-github-push"
   }
 }

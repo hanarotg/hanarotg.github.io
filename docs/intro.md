@@ -8,7 +8,7 @@ sidebar_position: 1
 - [`깃허브`](https://github.com/hanarotg) [`이메일`](mailto:hanarotg@naver.com)
   
 ## 문서 목록 (73)
-<details open>
+<details>
 <summary>2024년</summary>
 <div>
 - 6월 22일 [에라토스테네스의 체](/computer-science/algorithm/2024-06-22-erathosthes-shive.mdx)

@@ -5,22 +5,22 @@
   "source": "@site/docs/others/2023-08-06-checked.md",
   "sourceDirName": "others",
   "slug": "/others/2023-08-06-checked",
-  "permalink": "/others/2023-08-06-checked",
+  "permalink": "/en/others/2023-08-06-checked",
   "draft": false,
   "unlisted": false,
   "tags": [
     {
       "label": "react-native",
-      "permalink": "/tags/react-native"
+      "permalink": "/en/tags/react-native"
     },
     {
       "label": "checked",
-      "permalink": "/tags/checked"
+      "permalink": "/en/tags/checked"
     }
   ],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
+  "lastUpdatedBy": "Taegyeong Lee",
+  "lastUpdatedAt": 1713796616000,
   "frontMatter": {
     "title": "체크드 독서 기록 앱",
     "description": "react native 체크드 독서 기록 앱",
@@ -38,10 +38,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "강화학습 비트코인 자동 매매 봇",
-    "permalink": "/others/2023-08-06-bitcoin-auto-with-ml"
+    "permalink": "/en/others/2023-08-06-bitcoin-auto-with-ml"
   },
   "next": {
     "title": "숭파이 숭실대 인터넷 문제 해결 앱",
-    "permalink": "/others/2023-08-06-soongfi"
+    "permalink": "/en/others/2023-08-06-soongfi"
   }
 }

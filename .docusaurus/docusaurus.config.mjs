@@ -8,7 +8,7 @@ export default {
   "tagline": "Engineer",
   "favicon": "img/favicon.ico",
   "url": "https://hanarotg.github.io",
-  "baseUrl": "/",
+  "baseUrl": "/en/",
   "organizationName": "hanarotg",
   "projectName": "hanarotg.github.io",
   "trailingSlash": false,

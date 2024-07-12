@@ -5,30 +5,30 @@
   "source": "@site/docs/computer-science/algorithm/2024-03-06-boj-1167.md",
   "sourceDirName": "computer-science/algorithm",
   "slug": "/computer-science/algorithm/2024-03-06-boj-1167",
-  "permalink": "/computer-science/algorithm/2024-03-06-boj-1167",
+  "permalink": "/en/computer-science/algorithm/2024-03-06-boj-1167",
   "draft": false,
   "unlisted": false,
   "tags": [
     {
       "label": "백준",
-      "permalink": "/tags/백준"
+      "permalink": "/en/tags/백준"
     },
     {
       "label": "c++",
-      "permalink": "/tags/c"
+      "permalink": "/en/tags/c"
     },
     {
       "label": "다익스트라",
-      "permalink": "/tags/다익스트라"
+      "permalink": "/en/tags/다익스트라"
     },
     {
       "label": "1167",
-      "permalink": "/tags/1167"
+      "permalink": "/en/tags/1167"
     }
   ],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
+  "lastUpdatedBy": "hanarotg",
+  "lastUpdatedAt": 1709723894000,
   "frontMatter": {
     "title": "백준 1167 트리의 지름 C++ 문제 풀이",
     "description": "백준 1167 트리의 지름 C++ 문제 풀이",
@@ -48,10 +48,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "나머지 분배법칙",
-    "permalink": "/computer-science/algorithm/2024-02-23-division-in-algorithm"
+    "permalink": "/en/computer-science/algorithm/2024-02-23-division-in-algorithm"
   },
   "next": {
     "title": "대각선에 위치한 좌표 체크하기",
-    "permalink": "/computer-science/algorithm/2024-04-07-digonal-check"
+    "permalink": "/en/computer-science/algorithm/2024-04-07-digonal-check"
   }
 }

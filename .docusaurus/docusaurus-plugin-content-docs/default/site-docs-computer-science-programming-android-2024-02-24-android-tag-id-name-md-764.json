@@ -5,18 +5,18 @@
   "source": "@site/docs/computer-science/programming/android/2024-02-24-android-tag-id-name.md",
   "sourceDirName": "computer-science/programming/android",
   "slug": "/computer-science/programming/android/2024-02-24-android-tag-id-name",
-  "permalink": "/computer-science/programming/android/2024-02-24-android-tag-id-name",
+  "permalink": "/en/computer-science/programming/android/2024-02-24-android-tag-id-name",
   "draft": false,
   "unlisted": false,
   "tags": [
     {
       "label": "android",
-      "permalink": "/tags/android"
+      "permalink": "/en/tags/android"
     }
   ],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
+  "lastUpdatedBy": "Taegyeong Lee",
+  "lastUpdatedAt": 1713796616000,
   "frontMatter": {
     "title": "안드로이드 id tag name 차이",
     "description": "안드로이드 android:id android:tag android:name 차이",
@@ -33,10 +33,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "배포용 안드로이드 앱 번들 빌드하기",
-    "permalink": "/computer-science/programming/android/2024-01-28-build-release-android-app"
+    "permalink": "/en/computer-science/programming/android/2024-01-28-build-release-android-app"
   },
   "next": {
     "title": "cpp",
-    "permalink": "/category/cpp"
+    "permalink": "/en/category/cpp"
   }
 }

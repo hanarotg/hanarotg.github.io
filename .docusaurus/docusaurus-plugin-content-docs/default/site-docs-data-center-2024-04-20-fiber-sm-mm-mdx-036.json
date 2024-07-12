@@ -5,18 +5,18 @@
   "source": "@site/docs/data-center/2024-04-20-fiber-sm-mm.mdx",
   "sourceDirName": "data-center",
   "slug": "/data-center/2024-04-20-fiber-sm-mm",
-  "permalink": "/data-center/2024-04-20-fiber-sm-mm",
+  "permalink": "/en/data-center/2024-04-20-fiber-sm-mm",
   "draft": false,
   "unlisted": false,
   "tags": [
     {
       "label": "광케이블",
-      "permalink": "/tags/광케이블"
+      "permalink": "/en/tags/광케이블"
     }
   ],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
+  "lastUpdatedBy": "Taegyeong Lee",
+  "lastUpdatedAt": 1715176230000,
   "frontMatter": {
     "title": "광케이블",
     "description": "광케이블 종류와 특성",
@@ -30,10 +30,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Equinix Interconnection Solution",
-    "permalink": "/data-center/2024-03-12-equinix-interconnection-solutions"
+    "permalink": "/en/data-center/2024-03-12-equinix-interconnection-solutions"
   },
   "next": {
     "title": "Liquid Cooling (Direct to Chip, Rear Door, Immersion)",
-    "permalink": "/data-center/2024-04-21-liquid-cooling"
+    "permalink": "/en/data-center/2024-04-21-liquid-cooling"
   }
 }

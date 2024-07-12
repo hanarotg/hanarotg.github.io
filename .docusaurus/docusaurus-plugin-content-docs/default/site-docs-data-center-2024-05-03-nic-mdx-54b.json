@@ -5,18 +5,18 @@
   "source": "@site/docs/data-center/2024-05-03-nic.mdx",
   "sourceDirName": "data-center",
   "slug": "/data-center/2024-05-03-nic",
-  "permalink": "/data-center/2024-05-03-nic",
+  "permalink": "/en/data-center/2024-05-03-nic",
   "draft": false,
   "unlisted": false,
   "tags": [
     {
       "label": "nic",
-      "permalink": "/tags/nic"
+      "permalink": "/en/tags/nic"
     }
   ],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
+  "lastUpdatedBy": "Taegyeong Lee",
+  "lastUpdatedAt": 1715176230000,
   "frontMatter": {
     "title": "NIC (Network Interface Card)",
     "description": "NIC (Network Interface Card)",
@@ -30,10 +30,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Liquid Cooling (Direct to Chip, Rear Door, Immersion)",
-    "permalink": "/data-center/2024-04-21-liquid-cooling"
+    "permalink": "/en/data-center/2024-04-21-liquid-cooling"
   },
   "next": {
     "title": "WDM (Wavelength Division Multiplexing)",
-    "permalink": "/data-center/2024-05-10-wdm"
+    "permalink": "/en/data-center/2024-05-10-wdm"
   }
 }

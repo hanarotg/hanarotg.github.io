@@ -17,11 +17,6 @@
       "name": "@docusaurus/plugin-content-pages",
       "version": "3.3.2"
     },
-    "docusaurus-plugin-debug": {
-      "type": "package",
-      "name": "@docusaurus/plugin-debug",
-      "version": "3.3.2"
-    },
     "docusaurus-plugin-google-gtag": {
       "type": "package",
       "name": "@docusaurus/plugin-google-gtag",
@@ -30,6 +25,11 @@
     "docusaurus-plugin-google-tag-manager": {
       "type": "package",
       "name": "@docusaurus/plugin-google-tag-manager",
+      "version": "3.3.2"
+    },
+    "docusaurus-plugin-sitemap": {
+      "type": "package",
+      "name": "@docusaurus/plugin-sitemap",
       "version": "3.3.2"
     },
     "docusaurus-theme-classic": {

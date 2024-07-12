@@ -5,30 +5,30 @@
   "source": "@site/docs/computer-science/algorithm/2024-02-20-boj-1946.md",
   "sourceDirName": "computer-science/algorithm",
   "slug": "/computer-science/algorithm/2024-02-20-boj-1946",
-  "permalink": "/computer-science/algorithm/2024-02-20-boj-1946",
+  "permalink": "/en/computer-science/algorithm/2024-02-20-boj-1946",
   "draft": false,
   "unlisted": false,
   "tags": [
     {
       "label": "백준",
-      "permalink": "/tags/백준"
+      "permalink": "/en/tags/백준"
     },
     {
       "label": "c++",
-      "permalink": "/tags/c"
+      "permalink": "/en/tags/c"
     },
     {
       "label": "greedy",
-      "permalink": "/tags/greedy"
+      "permalink": "/en/tags/greedy"
     },
     {
       "label": "1946",
-      "permalink": "/tags/1946"
+      "permalink": "/en/tags/1946"
     }
   ],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
+  "lastUpdatedBy": "Taegyeong Lee",
+  "lastUpdatedAt": 1708364160000,
   "frontMatter": {
     "title": "백준 1946 신입 사원 C++ 문제 풀이",
     "description": "백준 1946 신입 사원 C++ 문제 풀이",
@@ -48,10 +48,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "strict weak ordering",
-    "permalink": "/computer-science/algorithm/2024-02-11-strick-weak-ordering"
+    "permalink": "/en/computer-science/algorithm/2024-02-11-strick-weak-ordering"
   },
   "next": {
     "title": "비잔틴 장애 허용 (Byzantine Fault Tolerance)",
-    "permalink": "/computer-science/algorithm/2024-02-23-byzantine-fault-tolerance"
+    "permalink": "/en/computer-science/algorithm/2024-02-23-byzantine-fault-tolerance"
   }
 }

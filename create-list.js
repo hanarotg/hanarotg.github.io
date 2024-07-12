@@ -67,7 +67,7 @@ function saveToMarkdownFile(data) {
     if (year !== (curYear = date?.getFullYear())) {
       // 가장 최신 연도만 펼치기
       if (year === 0) {
-        markdownContent += `<details open>`;
+        markdownContent += `<details>`; // <detail open> 으로 설정 시 펼치기가 기본
       } else {
         markdownContent += `<details>`;
       }

@@ -1,6 +1,6 @@
 {
   "type": "mdx",
-  "permalink": "/document-list",
+  "permalink": "/en/document-list",
   "source": "@site/src/pages/document-list.md",
   "title": "문서 최신순",
   "description": "2024",

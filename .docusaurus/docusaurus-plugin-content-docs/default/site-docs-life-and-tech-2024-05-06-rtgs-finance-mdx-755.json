@@ -5,18 +5,18 @@
   "source": "@site/docs/life-and-tech/2024-05-06-rtgs-finance.mdx",
   "sourceDirName": "life-and-tech",
   "slug": "/life-and-tech/2024-05-06-rtgs-finance",
-  "permalink": "/life-and-tech/2024-05-06-rtgs-finance",
+  "permalink": "/en/life-and-tech/2024-05-06-rtgs-finance",
   "draft": false,
   "unlisted": false,
   "tags": [
     {
       "label": "rtgs",
-      "permalink": "/tags/rtgs"
+      "permalink": "/en/tags/rtgs"
     }
   ],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
+  "lastUpdatedBy": "Taegyeong Lee",
+  "lastUpdatedAt": 1715176230000,
   "frontMatter": {
     "title": "실시간 총액결제 시스템 RTGS (Real-time gross settlement)",
     "description": "실시간 총액결제 시스템 RTGS (Real-time gross settlement)",
@@ -30,10 +30,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "변호사 의뢰인 비밀보호 제도 ACP Attorney client privilege",
-    "permalink": "/life-and-tech/2024-04-13-acp-law"
+    "permalink": "/en/life-and-tech/2024-04-13-acp-law"
   },
   "next": {
     "title": "연말정산 종합소득세 소득공제 세액공제 차이",
-    "permalink": "/life-and-tech/2024-05-12-korean-tax-deduction"
+    "permalink": "/en/life-and-tech/2024-05-12-korean-tax-deduction"
   }
 }

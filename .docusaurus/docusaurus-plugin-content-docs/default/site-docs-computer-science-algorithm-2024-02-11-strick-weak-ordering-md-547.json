@@ -5,26 +5,26 @@
   "source": "@site/docs/computer-science/algorithm/2024-02-11-strick-weak-ordering.md",
   "sourceDirName": "computer-science/algorithm",
   "slug": "/computer-science/algorithm/2024-02-11-strick-weak-ordering",
-  "permalink": "/computer-science/algorithm/2024-02-11-strick-weak-ordering",
+  "permalink": "/en/computer-science/algorithm/2024-02-11-strick-weak-ordering",
   "draft": false,
   "unlisted": false,
   "tags": [
     {
       "label": "strict weak ordering",
-      "permalink": "/tags/strict-weak-ordering"
+      "permalink": "/en/tags/strict-weak-ordering"
     },
     {
       "label": "c++",
-      "permalink": "/tags/c"
+      "permalink": "/en/tags/c"
     },
     {
       "label": "sort",
-      "permalink": "/tags/sort"
+      "permalink": "/en/tags/sort"
     }
   ],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
+  "lastUpdatedBy": "Taegyeong Lee",
+  "lastUpdatedAt": 1708364160000,
   "frontMatter": {
     "title": "strict weak ordering",
     "description": "strict weak ordering 이해",
@@ -42,10 +42,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Fast I/O C++ 코드",
-    "permalink": "/computer-science/algorithm/2024-02-11-fast-io"
+    "permalink": "/en/computer-science/algorithm/2024-02-11-fast-io"
   },
   "next": {
     "title": "백준 1946 신입 사원 C++ 문제 풀이",
-    "permalink": "/computer-science/algorithm/2024-02-20-boj-1946"
+    "permalink": "/en/computer-science/algorithm/2024-02-20-boj-1946"
   }
 }

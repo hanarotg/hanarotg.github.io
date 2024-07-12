@@ -5,18 +5,18 @@
   "source": "@site/docs/computer-science/network/2024-04-23-cdn.md",
   "sourceDirName": "computer-science/network",
   "slug": "/computer-science/network/2024-04-23-cdn",
-  "permalink": "/computer-science/network/2024-04-23-cdn",
+  "permalink": "/en/computer-science/network/2024-04-23-cdn",
   "draft": false,
   "unlisted": false,
   "tags": [
     {
       "label": "CDN",
-      "permalink": "/tags/cdn"
+      "permalink": "/en/tags/cdn"
     }
   ],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
+  "lastUpdatedBy": "Taegyeong Lee",
+  "lastUpdatedAt": 1713882286000,
   "frontMatter": {
     "title": "CDN (Content Delivery Network)",
     "description": "콘텐츠 전송 네트워크",
@@ -30,10 +30,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Network",
-    "permalink": "/category/network"
+    "permalink": "/en/category/network"
   },
   "next": {
     "title": "VLAN",
-    "permalink": "/computer-science/network/2024-06-19-vlan"
+    "permalink": "/en/computer-science/network/2024-06-19-vlan"
   }
 }

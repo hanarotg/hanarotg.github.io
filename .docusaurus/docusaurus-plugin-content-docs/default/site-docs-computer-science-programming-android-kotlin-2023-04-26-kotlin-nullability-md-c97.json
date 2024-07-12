@@ -5,18 +5,18 @@
   "source": "@site/docs/computer-science/programming/android/kotlin/2023-04-26-kotlin-nullability.md",
   "sourceDirName": "computer-science/programming/android/kotlin",
   "slug": "/computer-science/programming/android/kotlin/2023-04-26-kotlin-nullability",
-  "permalink": "/computer-science/programming/android/kotlin/2023-04-26-kotlin-nullability",
+  "permalink": "/en/computer-science/programming/android/kotlin/2023-04-26-kotlin-nullability",
   "draft": false,
   "unlisted": false,
   "tags": [
     {
       "label": "kotlin",
-      "permalink": "/tags/kotlin"
+      "permalink": "/en/tags/kotlin"
     }
   ],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
+  "lastUpdatedBy": "Taegyeong Lee",
+  "lastUpdatedAt": 1713796616000,
   "frontMatter": {
     "title": "kotlin nullability",
     "description": "코틀린 nullability",
@@ -31,10 +31,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Kotlin",
-    "permalink": "/category/kotlin"
+    "permalink": "/en/category/kotlin"
   },
   "next": {
     "title": "kotlin Array",
-    "permalink": "/computer-science/programming/android/kotlin/2023-05-28-kotlin-array"
+    "permalink": "/en/computer-science/programming/android/kotlin/2023-05-28-kotlin-array"
   }
 }

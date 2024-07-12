@@ -4,8 +4,6 @@
  * work well for content-centric websites.
  */
 
-@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css");
-
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #0078d7;
@@ -38,17 +36,16 @@ img {
 .utterances {
   max-width: 100%;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
-    "One UI Sans KR VF", Roboto, "Noto Sans KR", "Pretendard Variable",
-    "Segoe UI", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol", sans-serif;
+
+h1 {
+  background: linear-gradient(to right, #7f00ff, #e100ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  border-bottom: 1px solid #c8c8c8;
+  padding-bottom: 10px;
 }
 
 .header-github-link:hover {
