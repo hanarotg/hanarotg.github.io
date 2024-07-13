@@ -1,0 +1,24 @@
+{
+  "id": "others/2024-07-13-recommand-bookmarks",
+  "title": "디자인 및 기술 관련",
+  "description": "list of sites that ususally refer",
+  "source": "@site/docs/others/2024-07-13-recommand-bookmarks.mdx",
+  "sourceDirName": "others",
+  "slug": "/others/2024-07-13-recommand-bookmarks",
+  "permalink": "/others/2024-07-13-recommand-bookmarks",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {
+    "title": "디자인 및 기술 관련",
+    "description": "list of sites that ususally refer"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "블로그 글 작성 규칙",
+    "permalink": "/others/2024-06-21-blog-rules"
+  }
+}

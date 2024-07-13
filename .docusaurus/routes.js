@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', 'b9e'),
+    component: ComponentCreator('/en/', '6b1'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', '481'),
+        component: ComponentCreator('/en/', '703'),
         routes: [
           {
             path: '/en/tags',
@@ -372,7 +372,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', '4fa'),
+            component: ComponentCreator('/en/', '2b8'),
             routes: [
               {
                 path: '/en/category/-computer-science',
@@ -910,7 +910,7 @@ export default [
               },
               {
                 path: '/en/',
-                component: ComponentCreator('/en/', 'd79'),
+                component: ComponentCreator('/en/', 'b13'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

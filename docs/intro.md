@@ -2,7 +2,7 @@
 slug: /
 sidebar_position: 1
 ---
-# 문서 소개
+# TaeGyeong Lee Blog
 ## 작성자
 안녕하세요, 이태경입니다.
 - [`깃허브`](https://github.com/hanarotg) [`이메일`](mailto:hanarotg@naver.com)

@@ -1,0 +1,28 @@
+{
+  "id": "others/2024-06-21-blog-rules copy",
+  "title": "블로그 글 작성 규칙",
+  "description": "블로그 글 작성 규칙",
+  "source": "@site/docs/others/2024-06-21-blog-rules copy.mdx",
+  "sourceDirName": "others",
+  "slug": "/others/2024-06-21-blog-rules copy",
+  "permalink": "/others/2024-06-21-blog-rules copy",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {
+    "title": "블로그 글 작성 규칙",
+    "description": "블로그 글 작성 규칙"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "개발 시 도움되는 링크 모음",
+    "permalink": "/others/2024-02-08-link"
+  },
+  "next": {
+    "title": "블로그 글 작성 규칙",
+    "permalink": "/others/2024-06-21-blog-rules"
+  }
+}
