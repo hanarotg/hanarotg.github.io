@@ -32,14 +32,5 @@
       "python",
       "linux"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "python dictionary 사용 방법",
-    "permalink": "/en/computer-science/programming/python/2023-02-13-python-dictionary"
-  },
-  "next": {
-    "title": "Android",
-    "permalink": "/en/category/android"
   }
 }

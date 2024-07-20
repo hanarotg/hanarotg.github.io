@@ -7,7 +7,7 @@ sidebar_position: 1
 안녕하세요, 이태경입니다.
 - [`깃허브`](https://github.com/hanarotg) [`이메일`](mailto:hanarotg@naver.com)
   
-## 문서 목록 (73)
+## 문서 목록 (74)
 <details>
 <summary>2024년</summary>
 <div>
@@ -90,6 +90,13 @@ sidebar_position: 1
 - 2월 12일 [react-native-google-singin 앱 심사에 통과하기 위한 앱 서명 인증서(SHA-1) 키 적용하기](/computer-science/programming/react-native/2023-02-12-react-native-google-signin-sha-1.html)
 - 2월 12일 [React-Native gradle unsupported claass file major verion 62 error 해결하기](/computer-science/programming/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error.html)
 - 2월 12일 [React-Native 개발할 때 알면 좋은 팁](/computer-science/programming/react-native/2023-02-12-react-native-tips.html)
+
+</div>
+</details>
+<details>
+<summary>undefined년</summary>
+<div>
+- NaN월 undefined일 [Hello](/hello.html)
 
 </div>
 </details>

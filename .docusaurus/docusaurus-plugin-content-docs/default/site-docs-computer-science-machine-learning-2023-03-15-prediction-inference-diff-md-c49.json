@@ -29,14 +29,5 @@
     "tags": [
       "ml"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Machine Learning",
-    "permalink": "/en/category/machine-learning"
-  },
-  "next": {
-    "title": "🍎 Life and Tech",
-    "permalink": "/en/category/-life-and-tech"
   }
 }

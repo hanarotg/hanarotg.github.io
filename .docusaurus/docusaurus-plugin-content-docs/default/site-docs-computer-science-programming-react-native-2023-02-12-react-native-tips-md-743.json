@@ -26,14 +26,5 @@
     "tags": [
       "react-native"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "React Native gradle unsupported claass file major verion 62 error 해결하기",
-    "permalink": "/en/computer-science/programming/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error"
-  },
-  "next": {
-    "title": "React-Native Watchman Operation not permitted 접근 권한 버그",
-    "permalink": "/en/computer-science/programming/react-native/2023-03-05-react-native-watchman-operation-not-per-error"
   }
 }

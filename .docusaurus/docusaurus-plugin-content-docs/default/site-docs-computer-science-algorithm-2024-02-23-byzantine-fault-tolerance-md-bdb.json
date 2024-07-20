@@ -32,14 +32,5 @@
       "비잔틴 장애 허용",
       "비트코인"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "백준 1946 신입 사원 C++ 문제 풀이",
-    "permalink": "/en/computer-science/algorithm/2024-02-20-boj-1946"
-  },
-  "next": {
-    "title": "나머지 분배법칙",
-    "permalink": "/en/computer-science/algorithm/2024-02-23-division-in-algorithm"
   }
 }

@@ -27,14 +27,5 @@
     "tags": [
       "대각선"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "백준 1167 트리의 지름 C++ 문제 풀이",
-    "permalink": "/en/computer-science/algorithm/2024-03-06-boj-1167"
-  },
-  "next": {
-    "title": "알고리즘 메모리 제한 벡터 크기 어림잡기",
-    "permalink": "/en/computer-science/algorithm/2024-04-10-memory-vector-size"
   }
 }

@@ -20,7 +20,7 @@
   ],
   "version": "current",
   "lastUpdatedBy": "Taegyeong Lee",
-  "lastUpdatedAt": 1715003352000,
+  "lastUpdatedAt": 1721449564000,
   "frontMatter": {
     "title": "Equinix Interconnection Solution",
     "description": "에퀴닉스 Interconnection Solution",
@@ -31,15 +31,7 @@
     "tags": [
       "Equinix",
       "Interconnection"
-    ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "🗄️ Data Center Engineering",
-    "permalink": "/en/category/️-data-center-engineering"
-  },
-  "next": {
-    "title": "광케이블",
-    "permalink": "/en/data-center/2024-04-20-fiber-sm-mm"
+    ],
+    "image": "/static/img/docusaurus"
   }
 }

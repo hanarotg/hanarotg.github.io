@@ -29,14 +29,5 @@
     "tags": [
       "python"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Python",
-    "permalink": "/en/category/python"
-  },
-  "next": {
-    "title": "python dictionary 사용 방법",
-    "permalink": "/en/computer-science/programming/python/2023-02-13-python-dictionary"
   }
 }

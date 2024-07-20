@@ -26,14 +26,5 @@
     "tags": [
       "docusaurus"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Docusaurus utterances 다크 모드 적용",
-    "permalink": "/en/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode"
-  },
-  "next": {
-    "title": "Docusaurus 각 문서마다 hits 조회수 표시하기",
-    "permalink": "/en/software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document"
   }
 }

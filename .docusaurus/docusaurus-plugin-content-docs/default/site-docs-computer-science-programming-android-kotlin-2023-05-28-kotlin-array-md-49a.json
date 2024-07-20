@@ -27,14 +27,5 @@
     "tags": [
       "kotlin"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "kotlin nullability",
-    "permalink": "/en/computer-science/programming/android/kotlin/2023-04-26-kotlin-nullability"
-  },
-  "next": {
-    "title": "업로드 키, 인증서 재설정하기",
-    "permalink": "/en/computer-science/programming/android/2023-02-27-upload-cert-with-android-studio"
   }
 }

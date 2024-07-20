@@ -31,14 +31,5 @@
     "tags": [
       "appstore connect"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Docusaurus zoom image 플러그인 적용",
-    "permalink": "/en/software/docusaurus/2024-05-09-docusaurus-zoom-image"
-  },
-  "next": {
-    "title": "MacOS Homebrew로 node 버전 바꾸기",
-    "permalink": "/en/software/2023-02-13-macos-homebrew-node-version-change"
   }
 }

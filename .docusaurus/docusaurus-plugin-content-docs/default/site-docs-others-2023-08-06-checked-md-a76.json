@@ -34,14 +34,5 @@
       "react-native",
       "checked"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "강화학습 비트코인 자동 매매 봇",
-    "permalink": "/en/others/2023-08-06-bitcoin-auto-with-ml"
-  },
-  "next": {
-    "title": "숭파이 숭실대 인터넷 문제 해결 앱",
-    "permalink": "/en/others/2023-08-06-soongfi"
   }
 }

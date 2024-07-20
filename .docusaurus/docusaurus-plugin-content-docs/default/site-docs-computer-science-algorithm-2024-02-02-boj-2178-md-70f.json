@@ -44,14 +44,5 @@
       "bfs",
       "2178"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Algorithm",
-    "permalink": "/en/category/algorithm"
-  },
-  "next": {
-    "title": "Fast I/O C++ 코드",
-    "permalink": "/en/computer-science/algorithm/2024-02-11-fast-io"
   }
 }

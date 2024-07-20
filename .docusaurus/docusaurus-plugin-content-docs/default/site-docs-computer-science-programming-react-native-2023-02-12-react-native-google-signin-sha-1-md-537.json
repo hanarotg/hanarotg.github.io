@@ -28,14 +28,5 @@
     "tags": [
       "react-native"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "React Native 안드로이드 커스텀 폰트 출력 문제 IncludeFontPadding 해결하기",
-    "permalink": "/en/computer-science/programming/react-native/2023-02-12-react-native-android-includefontpadding"
-  },
-  "next": {
-    "title": "React Native gradle unsupported claass file major verion 62 error 해결하기",
-    "permalink": "/en/computer-science/programming/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error"
   }
 }

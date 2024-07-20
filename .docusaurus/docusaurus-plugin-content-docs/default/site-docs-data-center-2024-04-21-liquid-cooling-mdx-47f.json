@@ -28,14 +28,5 @@
     "tags": [
       "Liquid Cooling"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "광케이블",
-    "permalink": "/en/data-center/2024-04-20-fiber-sm-mm"
-  },
-  "next": {
-    "title": "NIC (Network Interface Card)",
-    "permalink": "/en/data-center/2024-05-03-nic"
   }
 }

@@ -26,14 +26,5 @@
     "tags": [
       "c++"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "cpp",
-    "permalink": "/en/category/cpp"
-  },
-  "next": {
-    "title": "Flutter",
-    "permalink": "/en/category/flutter"
   }
 }

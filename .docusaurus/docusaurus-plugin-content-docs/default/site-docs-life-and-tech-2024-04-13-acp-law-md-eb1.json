@@ -26,14 +26,5 @@
     "tags": [
       "acp"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "HBM",
-    "permalink": "/en/life-and-tech/2024-03-21-hbm"
-  },
-  "next": {
-    "title": "실시간 총액결제 시스템 RTGS (Real-time gross settlement)",
-    "permalink": "/en/life-and-tech/2024-05-06-rtgs-finance"
   }
 }

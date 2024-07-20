@@ -32,14 +32,5 @@
       "git",
       "docusaurus"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Docusaurus github 배포하기",
-    "permalink": "/en/software/docusaurus/2024-01-28-docusaurus-deplo"
-  },
-  "next": {
-    "title": "Docusaurus utterances 다크 모드 적용",
-    "permalink": "/en/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode"
   }
 }

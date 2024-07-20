@@ -28,14 +28,5 @@
     "tags": [
       "react-native"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "React-Native",
-    "permalink": "/en/category/react-native"
-  },
-  "next": {
-    "title": "react-native-google-singin 앱 심사에 통과하기 위한 앱 서명 인증서(SHA-1) 키 적용하기",
-    "permalink": "/en/computer-science/programming/react-native/2023-02-12-react-native-google-signin-sha-1"
   }
 }

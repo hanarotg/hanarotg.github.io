@@ -29,14 +29,5 @@
     "tags": [
       "연말정산"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "실시간 총액결제 시스템 RTGS (Real-time gross settlement)",
-    "permalink": "/en/life-and-tech/2024-05-06-rtgs-finance"
-  },
-  "next": {
-    "title": "국내 기업이 미국 증시에 상장하는 방법",
-    "permalink": "/en/life-and-tech/2024-06-18-korean-firm-usa-stock"
   }
 }

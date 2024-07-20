@@ -27,14 +27,5 @@
     "tags": [
       "메모리"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "대각선에 위치한 좌표 체크하기",
-    "permalink": "/en/computer-science/algorithm/2024-04-07-digonal-check"
-  },
-  "next": {
-    "title": "최소 신장 트리 MST (Minimum Spanning Tree)",
-    "permalink": "/en/computer-science/algorithm/2024-04-28-mst"
   }
 }

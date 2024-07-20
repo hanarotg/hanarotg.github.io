@@ -29,14 +29,5 @@
     "tags": [
       "npm"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "ASTx AhnLab Safe Transaction for Mac 강제종료",
-    "permalink": "/en/software/2023-02-18-ahnlab-transaction"
-  },
-  "next": {
-    "title": "npm semantic versioning 가이드라인 이해",
-    "permalink": "/en/software/2023-03-06-npm-semantic-versioning"
   }
 }

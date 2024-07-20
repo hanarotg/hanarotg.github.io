@@ -27,14 +27,5 @@
     "tags": [
       "react-native"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "React Native 개발할 때 알면 좋은 팁",
-    "permalink": "/en/computer-science/programming/react-native/2023-02-12-react-native-tips"
-  },
-  "next": {
-    "title": "React-Native github 레포지토리 첫 업로드하기",
-    "permalink": "/en/computer-science/programming/react-native/2023-03-14-react-native-first-github-push"
   }
 }

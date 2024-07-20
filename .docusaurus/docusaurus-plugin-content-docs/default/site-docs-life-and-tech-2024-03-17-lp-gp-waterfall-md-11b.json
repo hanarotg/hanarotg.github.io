@@ -27,14 +27,5 @@
     "tags": [
       "waterfall"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Chainlink",
-    "permalink": "/en/life-and-tech/2024-03-01-chainlink-blockchain-solutions"
-  },
-  "next": {
-    "title": "HBM",
-    "permalink": "/en/life-and-tech/2024-03-21-hbm"
   }
 }

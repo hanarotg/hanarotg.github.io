@@ -27,14 +27,5 @@
     "tags": [
       "flutter"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Flutter",
-    "permalink": "/en/category/flutter"
-  },
-  "next": {
-    "title": "flutter Futurebuilder Future reload",
-    "permalink": "/en/computer-science/programming/flutter/2024-03-21-flutter-futurebuilder-reload"
   }
 }

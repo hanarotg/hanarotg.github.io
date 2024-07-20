@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', '4a4'),
+    component: ComponentCreator('/en/', '05c'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', 'af0'),
+        component: ComponentCreator('/en/', '2c2'),
         routes: [
           {
             path: '/en/tags',
@@ -372,547 +372,383 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', '79c'),
+            component: ComponentCreator('/en/', '530'),
             routes: [
               {
-                path: '/en/category/-computer-science',
-                component: ComponentCreator('/en/category/-computer-science', '892'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/category/️-data-center-engineering',
-                component: ComponentCreator('/en/category/️-data-center-engineering', '0b4'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/category/-life-and-tech',
-                component: ComponentCreator('/en/category/-life-and-tech', '846'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/category/-others',
-                component: ComponentCreator('/en/category/-others', '1d3'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/category/️-software',
-                component: ComponentCreator('/en/category/️-software', '38c'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/category/algorithm',
-                component: ComponentCreator('/en/category/algorithm', '3ad'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/category/android',
-                component: ComponentCreator('/en/category/android', '438'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/category/cpp',
-                component: ComponentCreator('/en/category/cpp', 'e4c'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/category/docusaurus',
-                component: ComponentCreator('/en/category/docusaurus', '3fa'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/category/flutter',
-                component: ComponentCreator('/en/category/flutter', 'b79'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/category/kotlin',
-                component: ComponentCreator('/en/category/kotlin', 'cf3'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/category/machine-learning',
-                component: ComponentCreator('/en/category/machine-learning', 'e59'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/category/network',
-                component: ComponentCreator('/en/category/network', '86c'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/category/programming',
-                component: ComponentCreator('/en/category/programming', '430'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/category/python',
-                component: ComponentCreator('/en/category/python', 'feb'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/en/category/react-native',
-                component: ComponentCreator('/en/category/react-native', 'b8a'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
                 path: '/en/computer-science/algorithm/2024-02-02-boj-2178',
-                component: ComponentCreator('/en/computer-science/algorithm/2024-02-02-boj-2178', 'c35'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/computer-science/algorithm/2024-02-02-boj-2178', 'f21'),
+                exact: true
               },
               {
                 path: '/en/computer-science/algorithm/2024-02-11-fast-io',
-                component: ComponentCreator('/en/computer-science/algorithm/2024-02-11-fast-io', 'a70'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/computer-science/algorithm/2024-02-11-fast-io', '675'),
+                exact: true
               },
               {
                 path: '/en/computer-science/algorithm/2024-02-11-strick-weak-ordering',
-                component: ComponentCreator('/en/computer-science/algorithm/2024-02-11-strick-weak-ordering', 'ea8'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/computer-science/algorithm/2024-02-11-strick-weak-ordering', '7aa'),
+                exact: true
               },
               {
                 path: '/en/computer-science/algorithm/2024-02-20-boj-1946',
-                component: ComponentCreator('/en/computer-science/algorithm/2024-02-20-boj-1946', 'f4f'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/computer-science/algorithm/2024-02-20-boj-1946', 'dd9'),
+                exact: true
               },
               {
                 path: '/en/computer-science/algorithm/2024-02-23-byzantine-fault-tolerance',
-                component: ComponentCreator('/en/computer-science/algorithm/2024-02-23-byzantine-fault-tolerance', '932'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/computer-science/algorithm/2024-02-23-byzantine-fault-tolerance', '5e6'),
+                exact: true
               },
               {
                 path: '/en/computer-science/algorithm/2024-02-23-division-in-algorithm',
-                component: ComponentCreator('/en/computer-science/algorithm/2024-02-23-division-in-algorithm', '803'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/computer-science/algorithm/2024-02-23-division-in-algorithm', '3a7'),
+                exact: true
               },
               {
                 path: '/en/computer-science/algorithm/2024-03-06-boj-1167',
-                component: ComponentCreator('/en/computer-science/algorithm/2024-03-06-boj-1167', 'bdb'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/computer-science/algorithm/2024-03-06-boj-1167', 'e7b'),
+                exact: true
               },
               {
                 path: '/en/computer-science/algorithm/2024-04-07-digonal-check',
-                component: ComponentCreator('/en/computer-science/algorithm/2024-04-07-digonal-check', 'c93'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/computer-science/algorithm/2024-04-07-digonal-check', '4c5'),
+                exact: true
               },
               {
                 path: '/en/computer-science/algorithm/2024-04-10-memory-vector-size',
-                component: ComponentCreator('/en/computer-science/algorithm/2024-04-10-memory-vector-size', 'da2'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/computer-science/algorithm/2024-04-10-memory-vector-size', '19f'),
+                exact: true
               },
               {
                 path: '/en/computer-science/algorithm/2024-04-28-mst',
-                component: ComponentCreator('/en/computer-science/algorithm/2024-04-28-mst', 'eba'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/computer-science/algorithm/2024-04-28-mst', '3d7'),
+                exact: true
               },
               {
                 path: '/en/computer-science/algorithm/2024-06-22-erathosthes-shive',
-                component: ComponentCreator('/en/computer-science/algorithm/2024-06-22-erathosthes-shive', 'c43'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/computer-science/algorithm/2024-06-22-erathosthes-shive', '68d'),
+                exact: true
               },
               {
                 path: '/en/computer-science/machine-learning/2023-03-15-prediction-inference-diff',
-                component: ComponentCreator('/en/computer-science/machine-learning/2023-03-15-prediction-inference-diff', 'f4b'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/computer-science/machine-learning/2023-03-15-prediction-inference-diff', '1a5'),
+                exact: true
               },
               {
                 path: '/en/computer-science/network/2024-04-23-cdn',
-                component: ComponentCreator('/en/computer-science/network/2024-04-23-cdn', '4c3'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/computer-science/network/2024-04-23-cdn', '1d8'),
+                exact: true
               },
               {
                 path: '/en/computer-science/network/2024-06-19-vlan',
-                component: ComponentCreator('/en/computer-science/network/2024-06-19-vlan', '55e'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/computer-science/network/2024-06-19-vlan', '4f3'),
+                exact: true
               },
               {
                 path: '/en/computer-science/programming/android/2023-02-27-upload-cert-with-android-studio',
-                component: ComponentCreator('/en/computer-science/programming/android/2023-02-27-upload-cert-with-android-studio', '1e0'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/computer-science/programming/android/2023-02-27-upload-cert-with-android-studio', '263'),
+                exact: true
               },
               {
                 path: '/en/computer-science/programming/android/2023-06-24-gradle-in-android',
-                component: ComponentCreator('/en/computer-science/programming/android/2023-06-24-gradle-in-android', 'f68'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/computer-science/programming/android/2023-06-24-gradle-in-android', 'd83'),
+                exact: true
               },
               {
                 path: '/en/computer-science/programming/android/2024-01-28-build-release-android-app',
-                component: ComponentCreator('/en/computer-science/programming/android/2024-01-28-build-release-android-app', '5a8'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/computer-science/programming/android/2024-01-28-build-release-android-app', '23c'),
+                exact: true
               },
               {
                 path: '/en/computer-science/programming/android/2024-02-24-android-tag-id-name',
-                component: ComponentCreator('/en/computer-science/programming/android/2024-02-24-android-tag-id-name', '6bf'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/computer-science/programming/android/2024-02-24-android-tag-id-name', 'b56'),
+                exact: true
               },
               {
                 path: '/en/computer-science/programming/android/kotlin/2023-04-26-kotlin-nullability',
-                component: ComponentCreator('/en/computer-science/programming/android/kotlin/2023-04-26-kotlin-nullability', '54a'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/computer-science/programming/android/kotlin/2023-04-26-kotlin-nullability', 'ce4'),
+                exact: true
               },
               {
                 path: '/en/computer-science/programming/android/kotlin/2023-05-28-kotlin-array',
-                component: ComponentCreator('/en/computer-science/programming/android/kotlin/2023-05-28-kotlin-array', 'a96'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/computer-science/programming/android/kotlin/2023-05-28-kotlin-array', '525'),
+                exact: true
               },
               {
                 path: '/en/computer-science/programming/cpp/2024-02-15-cpp-vector-parameter-as-ref',
-                component: ComponentCreator('/en/computer-science/programming/cpp/2024-02-15-cpp-vector-parameter-as-ref', 'f05'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/computer-science/programming/cpp/2024-02-15-cpp-vector-parameter-as-ref', '3bd'),
+                exact: true
               },
               {
                 path: '/en/computer-science/programming/flutter/2024-02-28-flutter-expanded-widget-height-error',
-                component: ComponentCreator('/en/computer-science/programming/flutter/2024-02-28-flutter-expanded-widget-height-error', '765'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/computer-science/programming/flutter/2024-02-28-flutter-expanded-widget-height-error', '88a'),
+                exact: true
               },
               {
                 path: '/en/computer-science/programming/flutter/2024-03-21-flutter-futurebuilder-reload',
-                component: ComponentCreator('/en/computer-science/programming/flutter/2024-03-21-flutter-futurebuilder-reload', 'b8f'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/computer-science/programming/flutter/2024-03-21-flutter-futurebuilder-reload', '458'),
+                exact: true
               },
               {
                 path: '/en/computer-science/programming/python/2023-02-12-python-multi-list',
-                component: ComponentCreator('/en/computer-science/programming/python/2023-02-12-python-multi-list', '770'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/computer-science/programming/python/2023-02-12-python-multi-list', 'd36'),
+                exact: true
               },
               {
                 path: '/en/computer-science/programming/python/2023-02-13-python-dictionary',
-                component: ComponentCreator('/en/computer-science/programming/python/2023-02-13-python-dictionary', 'f9a'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/computer-science/programming/python/2023-02-13-python-dictionary', '38c'),
+                exact: true
               },
               {
                 path: '/en/computer-science/programming/python/2024-01-30-python-background',
-                component: ComponentCreator('/en/computer-science/programming/python/2024-01-30-python-background', 'add'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/computer-science/programming/python/2024-01-30-python-background', '730'),
+                exact: true
               },
               {
                 path: '/en/computer-science/programming/react-native/2023-02-12-react-native-android-includefontpadding',
-                component: ComponentCreator('/en/computer-science/programming/react-native/2023-02-12-react-native-android-includefontpadding', '801'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/computer-science/programming/react-native/2023-02-12-react-native-android-includefontpadding', '498'),
+                exact: true
               },
               {
                 path: '/en/computer-science/programming/react-native/2023-02-12-react-native-google-signin-sha-1',
-                component: ComponentCreator('/en/computer-science/programming/react-native/2023-02-12-react-native-google-signin-sha-1', '9d7'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/computer-science/programming/react-native/2023-02-12-react-native-google-signin-sha-1', '372'),
+                exact: true
               },
               {
                 path: '/en/computer-science/programming/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error',
-                component: ComponentCreator('/en/computer-science/programming/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error', 'fc0'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/computer-science/programming/react-native/2023-02-12-react-native-gradle-unsupported-classes-62-error', '2d4'),
+                exact: true
               },
               {
                 path: '/en/computer-science/programming/react-native/2023-02-12-react-native-tips',
-                component: ComponentCreator('/en/computer-science/programming/react-native/2023-02-12-react-native-tips', 'ac8'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/computer-science/programming/react-native/2023-02-12-react-native-tips', '7af'),
+                exact: true
               },
               {
                 path: '/en/computer-science/programming/react-native/2023-03-05-react-native-watchman-operation-not-per-error',
-                component: ComponentCreator('/en/computer-science/programming/react-native/2023-03-05-react-native-watchman-operation-not-per-error', '576'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/computer-science/programming/react-native/2023-03-05-react-native-watchman-operation-not-per-error', '28d'),
+                exact: true
               },
               {
                 path: '/en/computer-science/programming/react-native/2023-03-14-react-native-first-github-push',
-                component: ComponentCreator('/en/computer-science/programming/react-native/2023-03-14-react-native-first-github-push', 'd2b'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/computer-science/programming/react-native/2023-03-14-react-native-first-github-push', 'd5a'),
+                exact: true
               },
               {
                 path: '/en/computer-science/programming/react-native/2024-02-12-react-native-reusable-pressable',
-                component: ComponentCreator('/en/computer-science/programming/react-native/2024-02-12-react-native-reusable-pressable', 'f11'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/computer-science/programming/react-native/2024-02-12-react-native-reusable-pressable', 'e2e'),
+                exact: true
               },
               {
                 path: '/en/computer-science/programming/react-native/2024-02-12-react-native-webview-android-webview-error',
-                component: ComponentCreator('/en/computer-science/programming/react-native/2024-02-12-react-native-webview-android-webview-error', '2e2'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/computer-science/programming/react-native/2024-02-12-react-native-webview-android-webview-error', '601'),
+                exact: true
               },
               {
                 path: '/en/computer-science/programming/react-native/2024-02-29-react-native-speicifc-version-init',
-                component: ComponentCreator('/en/computer-science/programming/react-native/2024-02-29-react-native-speicifc-version-init', '090'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/computer-science/programming/react-native/2024-02-29-react-native-speicifc-version-init', 'a29'),
+                exact: true
               },
               {
                 path: '/en/data-center/2024-03-12-equinix-interconnection-solutions',
-                component: ComponentCreator('/en/data-center/2024-03-12-equinix-interconnection-solutions', '4c4'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/data-center/2024-03-12-equinix-interconnection-solutions', 'd5c'),
+                exact: true
               },
               {
                 path: '/en/data-center/2024-04-20-fiber-sm-mm',
-                component: ComponentCreator('/en/data-center/2024-04-20-fiber-sm-mm', '83f'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/data-center/2024-04-20-fiber-sm-mm', 'de0'),
+                exact: true
               },
               {
                 path: '/en/data-center/2024-04-21-liquid-cooling',
-                component: ComponentCreator('/en/data-center/2024-04-21-liquid-cooling', 'fbe'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/data-center/2024-04-21-liquid-cooling', 'af6'),
+                exact: true
               },
               {
                 path: '/en/data-center/2024-05-03-nic',
-                component: ComponentCreator('/en/data-center/2024-05-03-nic', '0ae'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/data-center/2024-05-03-nic', '724'),
+                exact: true
               },
               {
                 path: '/en/data-center/2024-05-10-wdm',
-                component: ComponentCreator('/en/data-center/2024-05-10-wdm', '9c8'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/data-center/2024-05-10-wdm', '4f4'),
+                exact: true
               },
               {
                 path: '/en/data-center/2024-06-20-smf-loop-back-test',
-                component: ComponentCreator('/en/data-center/2024-06-20-smf-loop-back-test', '73a'),
+                component: ComponentCreator('/en/data-center/2024-06-20-smf-loop-back-test', '277'),
+                exact: true
+              },
+              {
+                path: '/en/hello',
+                component: ComponentCreator('/en/hello', '7ed'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/en/life-and-tech/2023-12-12-real-estate-pre-sale',
-                component: ComponentCreator('/en/life-and-tech/2023-12-12-real-estate-pre-sale', '4c0'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/life-and-tech/2023-12-12-real-estate-pre-sale', 'b9b'),
+                exact: true
               },
               {
                 path: '/en/life-and-tech/2023-12-13-long-term-real-estate-sale',
-                component: ComponentCreator('/en/life-and-tech/2023-12-13-long-term-real-estate-sale', '7a8'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/life-and-tech/2023-12-13-long-term-real-estate-sale', 'c16'),
+                exact: true
               },
               {
                 path: '/en/life-and-tech/2024-02-02-select-book',
-                component: ComponentCreator('/en/life-and-tech/2024-02-02-select-book', '237'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/life-and-tech/2024-02-02-select-book', '329'),
+                exact: true
               },
               {
                 path: '/en/life-and-tech/2024-02-19-cxl-memory',
-                component: ComponentCreator('/en/life-and-tech/2024-02-19-cxl-memory', '336'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/life-and-tech/2024-02-19-cxl-memory', 'bbd'),
+                exact: true
               },
               {
                 path: '/en/life-and-tech/2024-02-27-night-shade-chicago',
-                component: ComponentCreator('/en/life-and-tech/2024-02-27-night-shade-chicago', 'cad'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/life-and-tech/2024-02-27-night-shade-chicago', '8e9'),
+                exact: true
               },
               {
                 path: '/en/life-and-tech/2024-03-01-chainlink-blockchain-solutions',
-                component: ComponentCreator('/en/life-and-tech/2024-03-01-chainlink-blockchain-solutions', 'c93'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/life-and-tech/2024-03-01-chainlink-blockchain-solutions', '9c9'),
+                exact: true
               },
               {
                 path: '/en/life-and-tech/2024-03-17-lp-gp-waterfall',
-                component: ComponentCreator('/en/life-and-tech/2024-03-17-lp-gp-waterfall', '13f'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/life-and-tech/2024-03-17-lp-gp-waterfall', '587'),
+                exact: true
               },
               {
                 path: '/en/life-and-tech/2024-03-21-hbm',
-                component: ComponentCreator('/en/life-and-tech/2024-03-21-hbm', 'bab'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/life-and-tech/2024-03-21-hbm', '3fa'),
+                exact: true
               },
               {
                 path: '/en/life-and-tech/2024-04-13-acp-law',
-                component: ComponentCreator('/en/life-and-tech/2024-04-13-acp-law', '13f'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/life-and-tech/2024-04-13-acp-law', '9c4'),
+                exact: true
               },
               {
                 path: '/en/life-and-tech/2024-05-06-rtgs-finance',
-                component: ComponentCreator('/en/life-and-tech/2024-05-06-rtgs-finance', '539'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/life-and-tech/2024-05-06-rtgs-finance', 'b6e'),
+                exact: true
               },
               {
                 path: '/en/life-and-tech/2024-05-12-korean-tax-deduction',
-                component: ComponentCreator('/en/life-and-tech/2024-05-12-korean-tax-deduction', 'b74'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/life-and-tech/2024-05-12-korean-tax-deduction', 'bbe'),
+                exact: true
               },
               {
                 path: '/en/life-and-tech/2024-06-18-korean-firm-usa-stock',
-                component: ComponentCreator('/en/life-and-tech/2024-06-18-korean-firm-usa-stock', '9ec'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/life-and-tech/2024-06-18-korean-firm-usa-stock', 'd50'),
+                exact: true
               },
               {
                 path: '/en/others/2023-08-06-bitcoin-auto-with-ml',
-                component: ComponentCreator('/en/others/2023-08-06-bitcoin-auto-with-ml', '477'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/others/2023-08-06-bitcoin-auto-with-ml', '032'),
+                exact: true
               },
               {
                 path: '/en/others/2023-08-06-checked',
-                component: ComponentCreator('/en/others/2023-08-06-checked', '162'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/others/2023-08-06-checked', 'e9a'),
+                exact: true
               },
               {
                 path: '/en/others/2023-08-06-soongfi',
-                component: ComponentCreator('/en/others/2023-08-06-soongfi', '037'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/others/2023-08-06-soongfi', '464'),
+                exact: true
               },
               {
                 path: '/en/others/2024-02-08-link',
-                component: ComponentCreator('/en/others/2024-02-08-link', '9df'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/others/2024-02-08-link', 'f98'),
+                exact: true
               },
               {
                 path: '/en/others/2024-06-21-blog-rules',
-                component: ComponentCreator('/en/others/2024-06-21-blog-rules', '0b5'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/others/2024-06-21-blog-rules', 'b4b'),
+                exact: true
               },
               {
                 path: '/en/software/2023-02-13-appstore-connect-curl-api',
-                component: ComponentCreator('/en/software/2023-02-13-appstore-connect-curl-api', '407'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/software/2023-02-13-appstore-connect-curl-api', 'e5f'),
+                exact: true
               },
               {
                 path: '/en/software/2023-02-13-macos-homebrew-node-version-change',
-                component: ComponentCreator('/en/software/2023-02-13-macos-homebrew-node-version-change', 'e58'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/software/2023-02-13-macos-homebrew-node-version-change', 'ce3'),
+                exact: true
               },
               {
                 path: '/en/software/2023-02-15-github-desktop-pull-request',
-                component: ComponentCreator('/en/software/2023-02-15-github-desktop-pull-request', 'b5a'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/software/2023-02-15-github-desktop-pull-request', '9f1'),
+                exact: true
               },
               {
                 path: '/en/software/2023-02-18-ahnlab-transaction',
-                component: ComponentCreator('/en/software/2023-02-18-ahnlab-transaction', 'a35'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/software/2023-02-18-ahnlab-transaction', '1f5'),
+                exact: true
               },
               {
                 path: '/en/software/2023-03-06-npm-package-lock-difference',
-                component: ComponentCreator('/en/software/2023-03-06-npm-package-lock-difference', '05a'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/software/2023-03-06-npm-package-lock-difference', '915'),
+                exact: true
               },
               {
                 path: '/en/software/2023-03-06-npm-semantic-versioning',
-                component: ComponentCreator('/en/software/2023-03-06-npm-semantic-versioning', 'af1'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/software/2023-03-06-npm-semantic-versioning', 'bd2'),
+                exact: true
               },
               {
                 path: '/en/software/2024-02-12-tensorflow-windows-install',
-                component: ComponentCreator('/en/software/2024-02-12-tensorflow-windows-install', '6c8'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/software/2024-02-12-tensorflow-windows-install', '994'),
+                exact: true
               },
               {
                 path: '/en/software/2024-02-24-play-console-developer-authentication',
-                component: ComponentCreator('/en/software/2024-02-24-play-console-developer-authentication', '84d'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/software/2024-02-24-play-console-developer-authentication', '4e9'),
+                exact: true
               },
               {
                 path: '/en/software/docusaurus/2024-01-28-docusaurus-deplo',
-                component: ComponentCreator('/en/software/docusaurus/2024-01-28-docusaurus-deplo', '57e'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/software/docusaurus/2024-01-28-docusaurus-deplo', 'cdb'),
+                exact: true
               },
               {
                 path: '/en/software/docusaurus/2024-01-29-docusaurus-all-in-one-script',
-                component: ComponentCreator('/en/software/docusaurus/2024-01-29-docusaurus-all-in-one-script', 'ba5'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/software/docusaurus/2024-01-29-docusaurus-all-in-one-script', '286'),
+                exact: true
               },
               {
                 path: '/en/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode',
-                component: ComponentCreator('/en/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode', '686'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/software/docusaurus/2024-02-12-docusaurus-utteranes-dark-mode', '735'),
+                exact: true
               },
               {
                 path: '/en/software/docusaurus/2024-02-20-docusaurus-autogenerate-list',
-                component: ComponentCreator('/en/software/docusaurus/2024-02-20-docusaurus-autogenerate-list', 'de7'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/software/docusaurus/2024-02-20-docusaurus-autogenerate-list', '399'),
+                exact: true
               },
               {
                 path: '/en/software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document',
-                component: ComponentCreator('/en/software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document', 'e50'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document', '4ec'),
+                exact: true
               },
               {
                 path: '/en/software/docusaurus/2024-05-08-docusaurus-ideal-image-width',
-                component: ComponentCreator('/en/software/docusaurus/2024-05-08-docusaurus-ideal-image-width', '087'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/software/docusaurus/2024-05-08-docusaurus-ideal-image-width', 'd11'),
+                exact: true
               },
               {
                 path: '/en/software/docusaurus/2024-05-09-docusaurus-zoom-image',
-                component: ComponentCreator('/en/software/docusaurus/2024-05-09-docusaurus-zoom-image', '257'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/software/docusaurus/2024-05-09-docusaurus-zoom-image', '36c'),
+                exact: true
               },
               {
                 path: '/en/',
-                component: ComponentCreator('/en/', '303'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/en/', 'e0f'),
+                exact: true
               }
             ]
           }

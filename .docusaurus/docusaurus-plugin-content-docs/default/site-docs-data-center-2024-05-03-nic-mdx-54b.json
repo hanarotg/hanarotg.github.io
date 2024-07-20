@@ -26,14 +26,5 @@
     "tags": [
       "nic"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Liquid Cooling (Direct to Chip, Rear Door, Immersion)",
-    "permalink": "/en/data-center/2024-04-21-liquid-cooling"
-  },
-  "next": {
-    "title": "WDM (Wavelength Division Multiplexing)",
-    "permalink": "/en/data-center/2024-05-10-wdm"
   }
 }

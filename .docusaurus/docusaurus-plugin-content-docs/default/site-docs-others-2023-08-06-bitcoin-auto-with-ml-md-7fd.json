@@ -28,14 +28,5 @@
     "tags": [
       "qlearning"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "📚 Others",
-    "permalink": "/en/category/-others"
-  },
-  "next": {
-    "title": "체크드 독서 기록 앱",
-    "permalink": "/en/others/2023-08-06-checked"
   }
 }

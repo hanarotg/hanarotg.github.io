@@ -30,14 +30,5 @@
     "tags": [
       "github"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "MacOS Homebrew로 node 버전 바꾸기",
-    "permalink": "/en/software/2023-02-13-macos-homebrew-node-version-change"
-  },
-  "next": {
-    "title": "ASTx AhnLab Safe Transaction for Mac 강제종료",
-    "permalink": "/en/software/2023-02-18-ahnlab-transaction"
   }
 }

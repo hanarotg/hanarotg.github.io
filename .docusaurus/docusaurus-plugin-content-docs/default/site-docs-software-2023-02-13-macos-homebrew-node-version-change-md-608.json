@@ -40,14 +40,5 @@
       "homebrew",
       "node"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "appstore connect 앱 스크린샷 업로드 오류를 Curl API를 통해 우회적으로 해결하기",
-    "permalink": "/en/software/2023-02-13-appstore-connect-curl-api"
-  },
-  "next": {
-    "title": "GitHub Desktop 오픈소스 수정, Pull Request 하기",
-    "permalink": "/en/software/2023-02-15-github-desktop-pull-request"
   }
 }

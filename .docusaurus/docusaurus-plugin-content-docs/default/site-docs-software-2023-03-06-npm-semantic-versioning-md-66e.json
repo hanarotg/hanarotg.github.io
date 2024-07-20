@@ -28,14 +28,5 @@
     "tags": [
       "npm"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "npm package.json 과 package-lock.json 차이점 이해와 필요성",
-    "permalink": "/en/software/2023-03-06-npm-package-lock-difference"
-  },
-  "next": {
-    "title": "Tensorflow windows 11 설치",
-    "permalink": "/en/software/2024-02-12-tensorflow-windows-install"
   }
 }

@@ -33,14 +33,5 @@
       "flutter",
       "FutureBuilder"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "flutter Incorrect use of ParentDataWidget 에러",
-    "permalink": "/en/computer-science/programming/flutter/2024-02-28-flutter-expanded-widget-height-error"
-  },
-  "next": {
-    "title": "React-Native",
-    "permalink": "/en/category/react-native"
   }
 }

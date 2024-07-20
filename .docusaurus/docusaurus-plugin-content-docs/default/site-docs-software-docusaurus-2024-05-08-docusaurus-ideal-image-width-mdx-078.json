@@ -26,14 +26,5 @@
     "tags": [
       "docusaurus"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Docusaurus 각 문서마다 hits 조회수 표시하기",
-    "permalink": "/en/software/docusaurus/2024-05-08-docusaurus-add-hits-to-each-document"
-  },
-  "next": {
-    "title": "Docusaurus zoom image 플러그인 적용",
-    "permalink": "/en/software/docusaurus/2024-05-09-docusaurus-zoom-image"
   }
 }

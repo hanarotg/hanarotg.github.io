@@ -44,14 +44,5 @@
       "greedy",
       "1946"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "strict weak ordering",
-    "permalink": "/en/computer-science/algorithm/2024-02-11-strick-weak-ordering"
-  },
-  "next": {
-    "title": "비잔틴 장애 허용 (Byzantine Fault Tolerance)",
-    "permalink": "/en/computer-science/algorithm/2024-02-23-byzantine-fault-tolerance"
   }
 }

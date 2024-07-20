@@ -26,14 +26,5 @@
     "tags": [
       "에라토스테네스의 체"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "최소 신장 트리 MST (Minimum Spanning Tree)",
-    "permalink": "/en/computer-science/algorithm/2024-04-28-mst"
-  },
-  "next": {
-    "title": "Network",
-    "permalink": "/en/category/network"
   }
 }

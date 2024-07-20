@@ -26,14 +26,5 @@
     "tags": [
       "CDN"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Network",
-    "permalink": "/en/category/network"
-  },
-  "next": {
-    "title": "VLAN",
-    "permalink": "/en/computer-science/network/2024-06-19-vlan"
   }
 }

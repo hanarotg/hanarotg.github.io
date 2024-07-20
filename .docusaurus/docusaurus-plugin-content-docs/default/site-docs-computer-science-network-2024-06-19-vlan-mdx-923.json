@@ -26,14 +26,5 @@
     "tags": [
       "VLAN"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "CDN (Content Delivery Network)",
-    "permalink": "/en/computer-science/network/2024-04-23-cdn"
-  },
-  "next": {
-    "title": "Programming",
-    "permalink": "/en/category/programming"
   }
 }

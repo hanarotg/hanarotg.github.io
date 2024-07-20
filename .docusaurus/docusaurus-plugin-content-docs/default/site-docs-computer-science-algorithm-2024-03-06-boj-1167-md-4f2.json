@@ -44,14 +44,5 @@
       "다익스트라",
       "1167"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "나머지 분배법칙",
-    "permalink": "/en/computer-science/algorithm/2024-02-23-division-in-algorithm"
-  },
-  "next": {
-    "title": "대각선에 위치한 좌표 체크하기",
-    "permalink": "/en/computer-science/algorithm/2024-04-07-digonal-check"
   }
 }

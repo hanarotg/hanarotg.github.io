@@ -28,14 +28,5 @@
     "tags": [
       "wdm"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "NIC (Network Interface Card)",
-    "permalink": "/en/data-center/2024-05-03-nic"
-  },
-  "next": {
-    "title": "Physical Loop back Test",
-    "permalink": "/en/data-center/2024-06-20-smf-loop-back-test"
   }
 }

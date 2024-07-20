@@ -16,10 +16,5 @@
   "frontMatter": {
     "slug": "/",
     "sidebar_position": 1
-  },
-  "sidebar": "tutorialSidebar",
-  "next": {
-    "title": "🗄️ Data Center Engineering",
-    "permalink": "/en/category/️-data-center-engineering"
   }
 }

@@ -32,14 +32,5 @@
       "git",
       "docusaurus"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Docusaurus",
-    "permalink": "/en/category/docusaurus"
-  },
-  "next": {
-    "title": "Docusaurus 올인원 배포 스크립트",
-    "permalink": "/en/software/docusaurus/2024-01-29-docusaurus-all-in-one-script"
   }
 }

@@ -27,14 +27,5 @@
     "tags": [
       "kotlin"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Kotlin",
-    "permalink": "/en/category/kotlin"
-  },
-  "next": {
-    "title": "kotlin Array",
-    "permalink": "/en/computer-science/programming/android/kotlin/2023-05-28-kotlin-array"
   }
 }

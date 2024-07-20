@@ -32,14 +32,5 @@
       "android",
       "gradle"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "업로드 키, 인증서 재설정하기",
-    "permalink": "/en/computer-science/programming/android/2023-02-27-upload-cert-with-android-studio"
-  },
-  "next": {
-    "title": "배포용 안드로이드 앱 번들 빌드하기",
-    "permalink": "/en/computer-science/programming/android/2024-01-28-build-release-android-app"
   }
 }

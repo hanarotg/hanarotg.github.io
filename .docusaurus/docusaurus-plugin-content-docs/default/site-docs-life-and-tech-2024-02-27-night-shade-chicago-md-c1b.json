@@ -26,14 +26,5 @@
     "tags": [
       "nightshade"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "CXL 메모리",
-    "permalink": "/en/life-and-tech/2024-02-19-cxl-memory"
-  },
-  "next": {
-    "title": "Chainlink",
-    "permalink": "/en/life-and-tech/2024-03-01-chainlink-blockchain-solutions"
   }
 }

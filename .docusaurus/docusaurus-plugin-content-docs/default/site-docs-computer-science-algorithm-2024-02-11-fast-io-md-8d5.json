@@ -26,14 +26,5 @@
     "tags": [
       "c++"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "백준 2178 미로 탐색 C++ 문제 풀이",
-    "permalink": "/en/computer-science/algorithm/2024-02-02-boj-2178"
-  },
-  "next": {
-    "title": "strict weak ordering",
-    "permalink": "/en/computer-science/algorithm/2024-02-11-strick-weak-ordering"
   }
 }

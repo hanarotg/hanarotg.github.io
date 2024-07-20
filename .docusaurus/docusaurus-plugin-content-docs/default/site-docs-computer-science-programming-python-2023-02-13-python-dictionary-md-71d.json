@@ -32,14 +32,5 @@
       "python",
       "dictionary"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "python 다차원 리스트 생성",
-    "permalink": "/en/computer-science/programming/python/2023-02-12-python-multi-list"
-  },
-  "next": {
-    "title": "python nuhup 백그라운드 실행",
-    "permalink": "/en/computer-science/programming/python/2024-01-30-python-background"
   }
 }

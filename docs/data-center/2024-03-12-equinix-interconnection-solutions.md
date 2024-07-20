@@ -3,15 +3,12 @@ title: Equinix Interconnection Solution
 description: 에퀴닉스 Interconnection Solution
 keywords: ["Equinix", "Interconnection"]
 tags: ["Equinix", "Interconnection"]
+image: "/static/img/docusaurus"
 ---
-
-import Icon from '/static/icon/equinixmetal.svg';
 
 # Equinix Interconnection Solution
 
 ## 개요
-
-<Icon fill="#ED2224" height="64px" />
 
 데이터센터 리츠사 에퀴닉스에서 제공하는 솔루션들 중 하나로 데이터센터 간 사적인 방식으로 데이터 교환을 연결하는 솔루션
 

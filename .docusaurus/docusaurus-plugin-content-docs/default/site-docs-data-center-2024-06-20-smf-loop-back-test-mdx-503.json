@@ -26,14 +26,5 @@
     "tags": [
       "Loop back"
     ]
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "WDM (Wavelength Division Multiplexing)",
-    "permalink": "/en/data-center/2024-05-10-wdm"
-  },
-  "next": {
-    "title": "💻 Computer Science",
-    "permalink": "/en/category/-computer-science"
   }
 }
