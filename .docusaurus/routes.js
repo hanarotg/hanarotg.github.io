@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', '6b1'),
+    component: ComponentCreator('/en/', '4a4'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', '703'),
+        component: ComponentCreator('/en/', 'af0'),
         routes: [
           {
             path: '/en/tags',
@@ -372,7 +372,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', '2b8'),
+            component: ComponentCreator('/en/', '79c'),
             routes: [
               {
                 path: '/en/category/-computer-science',
@@ -808,7 +808,7 @@ export default [
               },
               {
                 path: '/en/others/2024-02-08-link',
-                component: ComponentCreator('/en/others/2024-02-08-link', '063'),
+                component: ComponentCreator('/en/others/2024-02-08-link', '9df'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -910,7 +910,7 @@ export default [
               },
               {
                 path: '/en/',
-                component: ComponentCreator('/en/', 'b13'),
+                component: ComponentCreator('/en/', '303'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
