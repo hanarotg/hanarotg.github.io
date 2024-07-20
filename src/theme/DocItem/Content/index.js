@@ -34,7 +34,7 @@ function Hits() {
 
   if (metadata?.permalink) {
     var content_link = metadata.permalink;
-    var hits = `${hits_url}?url=${blog_link}%2F${content_link}%2Fhit-counter`;
+    var hits = `${hits_url}?url=${blog_link}%2F${content_link}%2Fhit-counter&count_bg=%230078D7&title_bg=%23A8A8A8&icon=&icon_color=%23E7E7E7&title=page+view`;
 
     return (
       <a href="https://hits.seeyoufarm.com">

@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', '05c'),
+    component: ComponentCreator('/en/', '6bc'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', '2c2'),
+        component: ComponentCreator('/en/', '3d4'),
         routes: [
           {
             path: '/en/tags',
@@ -372,7 +372,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', '530'),
+            component: ComponentCreator('/en/', '9c7'),
             routes: [
               {
                 path: '/en/computer-science/algorithm/2024-02-02-boj-2178',
@@ -551,7 +551,7 @@ export default [
               },
               {
                 path: '/en/data-center/2024-03-12-equinix-interconnection-solutions',
-                component: ComponentCreator('/en/data-center/2024-03-12-equinix-interconnection-solutions', 'd5c'),
+                component: ComponentCreator('/en/data-center/2024-03-12-equinix-interconnection-solutions', '68a'),
                 exact: true
               },
               {
@@ -581,7 +581,7 @@ export default [
               },
               {
                 path: '/en/hello',
-                component: ComponentCreator('/en/hello', '7ed'),
+                component: ComponentCreator('/en/hello', '26f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -747,7 +747,7 @@ export default [
               },
               {
                 path: '/en/',
-                component: ComponentCreator('/en/', 'e0f'),
+                component: ComponentCreator('/en/', 'e8d'),
                 exact: true
               }
             ]
