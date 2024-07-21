@@ -103,6 +103,10 @@
               "path": "/en/computer-science/programming/flutter/2024-03-21-flutter-futurebuilder-reload"
             },
             {
+              "id": "computer-science/programming/flutter/2024-07-20-flutter-futurebuilder-listview-template",
+              "path": "/en/computer-science/programming/flutter/2024-07-20-flutter-futurebuilder-listview-template"
+            },
+            {
               "id": "computer-science/programming/python/2023-02-12-python-multi-list",
               "path": "/en/computer-science/programming/python/2023-02-12-python-multi-list"
             },
@@ -173,11 +177,6 @@
             {
               "id": "data-center/2024-06-20-smf-loop-back-test",
               "path": "/en/data-center/2024-06-20-smf-loop-back-test"
-            },
-            {
-              "id": "hello",
-              "path": "/en/hello",
-              "sidebar": "tutorialSidebar"
             },
             {
               "id": "intro",
@@ -310,17 +309,14 @@
             {
               "id": "software/docusaurus/2024-05-09-docusaurus-zoom-image",
               "path": "/en/software/docusaurus/2024-05-09-docusaurus-zoom-image"
+            },
+            {
+              "id": "software/docusaurus/2024-05-09-docusaurus-zoom-image copy",
+              "path": "/en/software/docusaurus/2024-05-09-docusaurus-zoom-image copy"
             }
           ],
           "draftIds": [],
-          "sidebars": {
-            "tutorialSidebar": {
-              "link": {
-                "path": "/en/hello",
-                "label": "hello"
-              }
-            }
-          }
+          "sidebars": {}
         }
       ],
       "breadcrumbs": true

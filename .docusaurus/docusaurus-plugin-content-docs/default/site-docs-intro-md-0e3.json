@@ -1,7 +1,7 @@
 {
   "id": "intro",
   "title": "TaeGyeong Lee Blog",
-  "description": "작성자",
+  "description": "대문",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/",

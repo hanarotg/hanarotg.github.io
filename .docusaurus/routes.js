@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', '6bc'),
+    component: ComponentCreator('/en/', '0ff'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', '3d4'),
+        component: ComponentCreator('/en/', '5eb'),
         routes: [
           {
             path: '/en/tags',
@@ -372,7 +372,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', '9c7'),
+            component: ComponentCreator('/en/', '27a'),
             routes: [
               {
                 path: '/en/computer-science/algorithm/2024-02-02-boj-2178',
@@ -490,6 +490,11 @@ export default [
                 exact: true
               },
               {
+                path: '/en/computer-science/programming/flutter/2024-07-20-flutter-futurebuilder-listview-template',
+                component: ComponentCreator('/en/computer-science/programming/flutter/2024-07-20-flutter-futurebuilder-listview-template', 'd08'),
+                exact: true
+              },
+              {
                 path: '/en/computer-science/programming/python/2023-02-12-python-multi-list',
                 component: ComponentCreator('/en/computer-science/programming/python/2023-02-12-python-multi-list', 'd36'),
                 exact: true
@@ -578,12 +583,6 @@ export default [
                 path: '/en/data-center/2024-06-20-smf-loop-back-test',
                 component: ComponentCreator('/en/data-center/2024-06-20-smf-loop-back-test', '277'),
                 exact: true
-              },
-              {
-                path: '/en/hello',
-                component: ComponentCreator('/en/hello', '26f'),
-                exact: true,
-                sidebar: "tutorialSidebar"
               },
               {
                 path: '/en/life-and-tech/2023-12-12-real-estate-pre-sale',
@@ -743,6 +742,11 @@ export default [
               {
                 path: '/en/software/docusaurus/2024-05-09-docusaurus-zoom-image',
                 component: ComponentCreator('/en/software/docusaurus/2024-05-09-docusaurus-zoom-image', '36c'),
+                exact: true
+              },
+              {
+                path: '/en/software/docusaurus/2024-05-09-docusaurus-zoom-image copy',
+                component: ComponentCreator('/en/software/docusaurus/2024-05-09-docusaurus-zoom-image copy', '928'),
                 exact: true
               },
               {

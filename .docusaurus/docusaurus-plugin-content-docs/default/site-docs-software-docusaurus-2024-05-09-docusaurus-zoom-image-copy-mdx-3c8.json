@@ -1,0 +1,28 @@
+{
+  "id": "software/docusaurus/2024-05-09-docusaurus-zoom-image copy",
+  "title": "Docusaurus zoom image 플러그인 적용",
+  "description": "Docusaurus zoom image 플러그인 적용",
+  "source": "@site/docs/software/docusaurus/2024-05-09-docusaurus-zoom-image copy.mdx",
+  "sourceDirName": "software/docusaurus",
+  "slug": "/software/docusaurus/2024-05-09-docusaurus-zoom-image copy",
+  "permalink": "/en/software/docusaurus/2024-05-09-docusaurus-zoom-image copy",
+  "draft": false,
+  "unlisted": false,
+  "tags": [
+    {
+      "label": "docusaurus",
+      "permalink": "/en/tags/docusaurus"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "Docusaurus zoom image 플러그인 적용",
+    "description": "Docusaurus zoom image 플러그인 적용",
+    "keywords": [
+      "docusaurus"
+    ],
+    "tags": [
+      "docusaurus"
+    ]
+  }
+}

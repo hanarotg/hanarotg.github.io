@@ -50,13 +50,13 @@
       "plugin": "c141421f"
     }
   },
-  "/en/-6bc": {
+  "/en/-0ff": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/en/-3d4": {
+  "/en/-5eb": {
     "__comp": "a7bd4aaa",
     "__props": "0928ef9a"
   },
@@ -324,7 +324,7 @@
     "__comp": "df203c0f",
     "__props": "523d51db"
   },
-  "/en/-9c7": {
+  "/en/-27a": {
     "__comp": "a94703ab"
   },
   "/en/computer-science/algorithm/2024-02-02-boj-2178-f21": {
@@ -419,6 +419,10 @@
     "__comp": "17896441",
     "content": "3eb96a3a"
   },
+  "/en/computer-science/programming/flutter/2024-07-20-flutter-futurebuilder-listview-template-d08": {
+    "__comp": "17896441",
+    "content": "9701757a"
+  },
   "/en/computer-science/programming/python/2023-02-12-python-multi-list-d36": {
     "__comp": "17896441",
     "content": "62bdcba8"
@@ -490,10 +494,6 @@
   "/en/data-center/2024-06-20-smf-loop-back-test-277": {
     "__comp": "17896441",
     "content": "50341570"
-  },
-  "/en/hello-26f": {
-    "__comp": "17896441",
-    "content": "9dfd250b"
   },
   "/en/life-and-tech/2023-12-12-real-estate-pre-sale-b9b": {
     "__comp": "17896441",
@@ -622,6 +622,10 @@
   "/en/software/docusaurus/2024-05-09-docusaurus-zoom-image-36c": {
     "__comp": "17896441",
     "content": "85eaf793"
+  },
+  "/en/software/docusaurus/2024-05-09-docusaurus-zoom-image copy-928": {
+    "__comp": "17896441",
+    "content": "3c843475"
   },
   "/en/-e8d": {
     "__comp": "17896441",

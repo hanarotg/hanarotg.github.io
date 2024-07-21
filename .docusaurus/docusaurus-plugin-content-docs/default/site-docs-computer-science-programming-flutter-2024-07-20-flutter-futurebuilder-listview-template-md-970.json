@@ -1,0 +1,35 @@
+{
+  "id": "computer-science/programming/flutter/2024-07-20-flutter-futurebuilder-listview-template",
+  "title": "flutter Futurebuilder Future ListView 템플릿",
+  "description": "flutter Futurebuilder Future ListView 템플릿",
+  "source": "@site/docs/computer-science/programming/flutter/2024-07-20-flutter-futurebuilder-listview-template.md",
+  "sourceDirName": "computer-science/programming/flutter",
+  "slug": "/computer-science/programming/flutter/2024-07-20-flutter-futurebuilder-listview-template",
+  "permalink": "/en/computer-science/programming/flutter/2024-07-20-flutter-futurebuilder-listview-template",
+  "draft": false,
+  "unlisted": false,
+  "tags": [
+    {
+      "label": "flutter",
+      "permalink": "/en/tags/flutter"
+    },
+    {
+      "label": "FutureBuilder",
+      "permalink": "/en/tags/future-builder"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "flutter Futurebuilder Future ListView 템플릿",
+    "description": "flutter Futurebuilder Future ListView 템플릿",
+    "keywords": [
+      "플러터",
+      "flutter",
+      "FutureBuilder"
+    ],
+    "tags": [
+      "flutter",
+      "FutureBuilder"
+    ]
+  }
+}

@@ -59,7 +59,7 @@ function sortByDateDescending(a, b) {
 // 마크다운 파일로 변환하여 저장하는 함수
 function saveToMarkdownFile(data) {
   let year = 0;
-  let markdownContent = `---\nslug: /\nsidebar_position: 1\n---\n# TaeGyeong Lee Blog\n## 작성자\n안녕하세요, 이태경입니다.\n- [\`깃허브\`](https://github.com/hanarotg) [\`이메일\`](mailto:hanarotg@naver.com)
+  let markdownContent = `---\nslug: /\nsidebar_position: 1\n---\n# TaeGyeong Lee Blog\n## 대문\n안녕하세요, 이태경입니다.\n
   \n## 문서 목록 (${data.length})\n`;
 
   data.map(({ title, link, date }, index) => {

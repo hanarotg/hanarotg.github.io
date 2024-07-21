@@ -79,12 +79,6 @@ export default {
       "hideOnScroll": true,
       "items": [
         {
-          "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
-          "position": "left",
-          "label": "문서"
-        },
-        {
           "type": "search",
           "position": "right"
         },
