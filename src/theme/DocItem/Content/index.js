@@ -56,6 +56,7 @@ export default function DocItemContent({ children }) {
             <Heading as="h1">{syntheticTitle}</Heading>
           </header>
         )}
+
         <MDXContent>{children}</MDXContent>
       </div>
     </>

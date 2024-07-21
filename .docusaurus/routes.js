@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', 'baa'),
+    component: ComponentCreator('/en/', 'e80'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', 'cf2'),
+        component: ComponentCreator('/en/', '17a'),
         routes: [
           {
             path: '/en/tags',
@@ -372,7 +372,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', 'f84'),
+            component: ComponentCreator('/en/', '777'),
             routes: [
               {
                 path: '/en/computer-science/algorithm/2024-02-02-boj-2178',
@@ -746,12 +746,12 @@ export default [
               },
               {
                 path: '/en/software/docusaurus/2024-07-19-docusaurus-side-sidebar',
-                component: ComponentCreator('/en/software/docusaurus/2024-07-19-docusaurus-side-sidebar', 'a5e'),
+                component: ComponentCreator('/en/software/docusaurus/2024-07-19-docusaurus-side-sidebar', '7a9'),
                 exact: true
               },
               {
                 path: '/en/',
-                component: ComponentCreator('/en/', 'c70'),
+                component: ComponentCreator('/en/', 'd6e'),
                 exact: true
               }
             ]
