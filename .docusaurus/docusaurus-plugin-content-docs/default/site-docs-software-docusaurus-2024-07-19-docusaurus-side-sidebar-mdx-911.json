@@ -1,0 +1,30 @@
+{
+  "id": "software/docusaurus/2024-07-19-docusaurus-side-sidebar",
+  "title": "Docusaurus sidebar 숨기기",
+  "description": "Docusaurus sidebar 숨기기",
+  "source": "@site/docs/software/docusaurus/2024-07-19-docusaurus-side-sidebar.mdx",
+  "sourceDirName": "software/docusaurus",
+  "slug": "/software/docusaurus/2024-07-19-docusaurus-side-sidebar",
+  "permalink": "/en/software/docusaurus/2024-07-19-docusaurus-side-sidebar",
+  "draft": false,
+  "unlisted": false,
+  "tags": [
+    {
+      "label": "docusaurus",
+      "permalink": "/en/tags/docusaurus"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "Taegyeong Lee",
+  "lastUpdatedAt": 1721569933000,
+  "frontMatter": {
+    "title": "Docusaurus sidebar 숨기기",
+    "description": "Docusaurus sidebar 숨기기",
+    "keywords": [
+      "docusaurus"
+    ],
+    "tags": [
+      "docusaurus"
+    ]
+  }
+}

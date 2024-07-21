@@ -19,6 +19,8 @@
     }
   ],
   "version": "current",
+  "lastUpdatedBy": "Taegyeong Lee",
+  "lastUpdatedAt": 1721569933000,
   "frontMatter": {
     "title": "flutter Futurebuilder Future ListView 템플릿",
     "description": "flutter Futurebuilder Future ListView 템플릿",

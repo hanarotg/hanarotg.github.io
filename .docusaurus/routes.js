@@ -34,11 +34,11 @@ export default [
   },
   {
     path: '/en/',
-    component: ComponentCreator('/en/', '0ff'),
+    component: ComponentCreator('/en/', 'baa'),
     routes: [
       {
         path: '/en/',
-        component: ComponentCreator('/en/', '5eb'),
+        component: ComponentCreator('/en/', 'cf2'),
         routes: [
           {
             path: '/en/tags',
@@ -372,7 +372,7 @@ export default [
           },
           {
             path: '/en/',
-            component: ComponentCreator('/en/', '27a'),
+            component: ComponentCreator('/en/', 'f84'),
             routes: [
               {
                 path: '/en/computer-science/algorithm/2024-02-02-boj-2178',
@@ -491,7 +491,7 @@ export default [
               },
               {
                 path: '/en/computer-science/programming/flutter/2024-07-20-flutter-futurebuilder-listview-template',
-                component: ComponentCreator('/en/computer-science/programming/flutter/2024-07-20-flutter-futurebuilder-listview-template', 'd08'),
+                component: ComponentCreator('/en/computer-science/programming/flutter/2024-07-20-flutter-futurebuilder-listview-template', 'ab8'),
                 exact: true
               },
               {
@@ -745,13 +745,13 @@ export default [
                 exact: true
               },
               {
-                path: '/en/software/docusaurus/2024-05-09-docusaurus-zoom-image copy',
-                component: ComponentCreator('/en/software/docusaurus/2024-05-09-docusaurus-zoom-image copy', '928'),
+                path: '/en/software/docusaurus/2024-07-19-docusaurus-side-sidebar',
+                component: ComponentCreator('/en/software/docusaurus/2024-07-19-docusaurus-side-sidebar', 'a5e'),
                 exact: true
               },
               {
                 path: '/en/',
-                component: ComponentCreator('/en/', 'e8d'),
+                component: ComponentCreator('/en/', 'c70'),
                 exact: true
               }
             ]

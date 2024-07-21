@@ -7,11 +7,12 @@ sidebar_position: 1
 안녕하세요, 이태경입니다.
 
   
-## 문서 목록 (74)
+## 문서 목록 (75)
 <details>
 <summary>2024년</summary>
 <div>
 - 7월 20일 [flutter Futurebuilder Future ListView 템플릿](/computer-science/programming/flutter/2024-07-20-flutter-futurebuilder-listview-template.html)
+- 7월 19일 [Docusaurus sidebar 숨기기](/software/docusaurus/2024-07-19-docusaurus-side-sidebar.mdx)
 - 6월 22일 [에라토스테네스의 체](/computer-science/algorithm/2024-06-22-erathosthes-shive.mdx)
 - 6월 21일 [블로그 글 작성 규칙](/others/2024-06-21-blog-rules.mdx)
 - 6월 20일 [Physical Loop back Test](/data-center/2024-06-20-smf-loop-back-test.mdx)
