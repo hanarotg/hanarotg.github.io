@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.buzz.wikinia",
+      "sha256_cert_fingerprints": [
+        "39:FC:78:9A:EC:21:7A:5F:D2:C1:30:93:6B:AE:EC:3F:D2:9A:4D:DE:CC:51:C0:83:60:E9:72:71:E3:B5:C7:99"
+      ]
+    }
+  }
+]
